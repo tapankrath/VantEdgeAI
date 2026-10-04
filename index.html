@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-<title>VantEdgeAI — Ready-Made Option Trades</title>
+<title>VantEdge — Ready-Made Option Trades</title>
 
 <link rel="manifest" href="manifest.json">
 <meta name="color-scheme" content="light dark">
@@ -11,7 +11,7 @@
 <meta name="theme-color" content="#14110E" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="VantEdgeAI">
+<meta name="apple-mobile-web-app-title" content="VantEdge">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="icons/favicon.png">
 
@@ -281,7 +281,7 @@
     line-height:1; letter-spacing:-0.025em; color:var(--text);
     white-space:nowrap;
   }
-  .brand-ai{ color:var(--amber); font-weight:600; margin-left:0.03em; letter-spacing:-0.01em; }
+  .brand-edge{ color:var(--amber); }
 
   .data-status{
     display:flex; align-items:center; gap:6px;
@@ -1075,7 +1075,7 @@
   .hero .brand-mark .mark-tile{ fill:var(--mark-tile); }
   .brand-text{ min-width:0; }
   .hero .brand-name{ color:#fff; font-size:21px; letter-spacing:-0.025em; }
-  .hero .brand-ai{ color:#3ECF85; }
+  .hero .brand-edge{ color:#3ECF85; }
   .hero .data-status{
     background:none; border:none; padding:0; height:auto; margin-top:4px; gap:6px;
     font-family:var(--sans); font-size:12px; max-width:none;
@@ -1200,10 +1200,10 @@
   .hero .brand-mark{ background:none; border:none; padding:0; border-radius:11px; box-shadow:0 0 0 1px rgba(255,255,255,0.14); }
   .hero .brand-mark .mark-tile{ fill:#2A231C; }
   .hero .brand-name{
-    font-family:var(--serif); font-weight:400; font-size:30px; line-height:0.95;
-    letter-spacing:-0.01em; color:#F6F0E6;
+    font-family:var(--serif); font-weight:400; font-size:25px; line-height:1;
+    letter-spacing:0.01em; color:#F6F0E6;
   }
-  .hero .brand-ai{ color:#4ADE93; font-style:italic; font-weight:400; margin-left:0.02em; }
+  .hero .brand-edge{ color:#4ADE93; font-style:italic; font-weight:400; margin-left:0.01em; }
   .hero .data-status{ margin-top:5px; }
   .hero #dataStatusText{
     font-family:var(--mono); font-size:10.5px; font-weight:500; letter-spacing:0.13em;
@@ -1286,7 +1286,7 @@
 
   @media (max-width: 720px){
     .hero{ border-radius:18px; }
-    .hero .brand-name{ font-size:26px; }
+    .hero .brand-name{ font-size:22px; }
     .hero #dataStatusText{ font-size:10px; letter-spacing:0.11em; }
     .mkt-value{ font-size:15.5px; margin-top:2px; }
     .mkt-label{ letter-spacing:0.1em; }
@@ -1305,7 +1305,7 @@
   }
   @media (max-width: 370px){
     .mkt-value{ font-size:14px; }
-    .hero .brand-name{ font-size:23px; }
+    .hero .brand-name{ font-size:20px; }
   }
 
   /* Ticker colored by trade side */
@@ -1389,7 +1389,7 @@
 <div class="app-header">
   <div class="app-header-inner">
     <div class="hero">
-      <div class="brand" onclick="location.reload()" role="button" tabindex="0" aria-label="Reload VantEdgeAI">
+      <div class="brand" onclick="location.reload()" role="button" tabindex="0" aria-label="Reload VantEdge">
         <div class="brand-mark">
           <svg width="40" height="40" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <rect class="mark-tile" width="32" height="32" rx="8"/>
@@ -1399,7 +1399,7 @@
           </svg>
         </div>
         <div class="brand-text">
-          <div class="brand-name">VantEdge<span class="brand-ai">AI</span></div>
+          <div class="brand-name">Vant<span class="brand-edge">Edge</span></div>
           <div class="data-status">
             <span class="pulse-dot" id="dataStatusDot"></span>
             <span id="dataStatusText">Loading data…</span>
@@ -2300,7 +2300,7 @@
   // the file always matches what's on screen.
   function buildPortfolioSummaryText({ capital, optionRowsData, totalUsed, unallocated, hedge }){
     const lines = [];
-    lines.push('VantEdgeAI — Portfolio Summary');
+    lines.push('VantEdge — Portfolio Summary');
     lines.push(`Generated ${new Date().toLocaleString()}`);
     lines.push('');
     lines.push(`Capital: ${curSym()}${capital.toLocaleString()}`);
@@ -2637,7 +2637,7 @@
         return;
       }
       if(!payload || typeof payload !== 'object' || (!Array.isArray(payload.options) && !Array.isArray(payload.equities))){
-        errEl.textContent = "That doesn't look like a VantEdgeAI selection export.";
+        errEl.textContent = "That doesn't look like a VantEdge selection export.";
         errEl.style.display = '';
         return;
       }
@@ -2961,7 +2961,7 @@
       <div class="modal-note" style="margin-bottom:14px;">${
         t.strat === 'Covered Call'
           ? `Buying this put turns your covered call into a "collar" — it caps how far the stock can fall against you, in exchange for giving up some of the call premium you'd otherwise keep. This is a real, standard hedge, not a guarantee: it doesn't protect against the stock gapping below the put strike overnight, and closing a collar early has its own costs and slippage.`
-          : `Buying this option converts your naked ${t.strat.toLowerCase()} into a defined-risk spread, using the same further-OTM strike VantEdgeAI's own Bull Put Spread / Bear Call Spread picks already use. This caps your max loss at $${t.hedge.cappedMaxLoss.toLocaleString()} instead of ${t.strat === 'Short Call' ? 'a theoretically unlimited loss' : 'the full strike value'} — it's a real trade-off (less credit collected, in exchange for defined risk), not a free upgrade.`
+          : `Buying this option converts your naked ${t.strat.toLowerCase()} into a defined-risk spread, using the same further-OTM strike VantEdge's own Bull Put Spread / Bear Call Spread picks already use. This caps your max loss at $${t.hedge.cappedMaxLoss.toLocaleString()} instead of ${t.strat === 'Short Call' ? 'a theoretically unlimited loss' : 'the full strike value'} — it's a real trade-off (less credit collected, in exchange for defined risk), not a free upgrade.`
       }</div>
     ` : '';
 
@@ -3022,7 +3022,7 @@
         </span>
       </div>
       <div class="news-list">${headlinesHtml}</div>
-      <div class="modal-note">"IV vs Realized Vol" compares this option's implied volatility to the stock's own recent 20-day realized volatility — "Rich" means the market is paying more for this option than recent price action alone would suggest, which favors premium-selling strategies (everything VantEdgeAI screens for); "Cheap" means less edge for a seller. "Valuation vs. Sector Peers" compares this stock's P/E only against other tickers in the SAME sector currently in this screen's ~50-90 name universe, not the whole market — a small peer count means less confidence in the comparison. Sentiment is a lexicon-based score of headline text only (not full articles, not an LLM reading the story) — treat it as a rough gauge of recent press tone, not analysis. Figures are computed from the prior session's EOD close and are for research purposes only — not a recommendation to enter this trade. Verify live pricing before placing an order.</div>
+      <div class="modal-note">"IV vs Realized Vol" compares this option's implied volatility to the stock's own recent 20-day realized volatility — "Rich" means the market is paying more for this option than recent price action alone would suggest, which favors premium-selling strategies (everything VantEdge screens for); "Cheap" means less edge for a seller. "Valuation vs. Sector Peers" compares this stock's P/E only against other tickers in the SAME sector currently in this screen's ~50-90 name universe, not the whole market — a small peer count means less confidence in the comparison. Sentiment is a lexicon-based score of headline text only (not full articles, not an LLM reading the story) — treat it as a rough gauge of recent press tone, not analysis. Figures are computed from the prior session's EOD close and are for research purposes only — not a recommendation to enter this trade. Verify live pricing before placing an order.</div>
       <div class="ticker-action-row">
         <button class="modal-copy-btn" id="modalCopyBtn">Copy trade summary</button>
         <button class="modal-copy-btn-secondary" id="modalTrackBtn"></button>

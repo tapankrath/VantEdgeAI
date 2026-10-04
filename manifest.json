@@ -1,6 +1,6 @@
 {
-  "name": "VantEdgeAI — Ready-Made Option Trades",
-  "short_name": "VantEdgeAI",
+  "name": "VantEdge — Ready-Made Option Trades",
+  "short_name": "VantEdge",
   "description": "Screen ready-made options trades by outlook, risk, reward, and probability, built on end-of-day chain data.",
   "start_url": "./index.html",
   "scope": "./",
