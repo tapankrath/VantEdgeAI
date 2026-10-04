@@ -1308,6 +1308,9 @@
     .hero .brand-name{ font-size:20px; }
   }
 
+  /* Weakest-leg OI: right end of the card's top line; plain column on desktop */
+  .card-oi{ flex-shrink:0; font-family:var(--mono); font-size:11px; font-weight:500; color:var(--text-faint); white-space:nowrap; }
+
   /* Ticker colored by trade side */
   .sym-bull{ color:var(--green); }
   .sym-bear{ color:var(--red); }
@@ -1612,6 +1615,7 @@
           <th>Return</th>
           <th>Ann. Return</th>
           <th>IV Rank</th>
+          <th title="Open interest of the trade's weakest leg">OI</th>
           <th>Composite</th>
           <th></th>
         </tr>
@@ -1857,7 +1861,7 @@
     cardList.innerHTML = '';
 
     if(list.length === 0){
-      tbody.innerHTML = `<tr><td colspan="8" style="padding:32px 14px; text-align:center; color:var(--text-dim); font-weight:700; font-size:14px;">No setups match these filters. Try loosening the reward, risk or liquidity (Min OI / Max bid-ask) settings.</td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="9" style="padding:32px 14px; text-align:center; color:var(--text-dim); font-weight:700; font-size:14px;">No setups match these filters. Try loosening the reward, risk or liquidity (Min OI / Max bid-ask) settings.</td></tr>`;
       cardList.innerHTML = `<div class="trade-card" style="text-align:center; color:var(--text-dim); font-weight:700; font-size:14px;">No setups match these filters. Try loosening the reward, risk or liquidity (Min OI / Max bid-ask) settings.</div>`;
     }
 
@@ -1865,13 +1869,19 @@
       if(idx === exactCount && near.length){
         const head = exactCount === 0 ? 'No matches — near misses only' : 'Near misses — not matches';
         const sub = 'Each falls just short of a number threshold (see “Misses”). Not a recommendation at your settings.';
-        tbody.innerHTML += `<tr class="near-divider"><td colspan="8"><span class="eyebrow">${head}</span><span class="near-sub">${sub}</span></td></tr>`;
+        tbody.innerHTML += `<tr class="near-divider"><td colspan="9"><span class="eyebrow">${head}</span><span class="near-sub">${sub}</span></td></tr>`;
         cardList.innerHTML += `<div class="near-divider"><span class="eyebrow">${head}</span><span class="near-sub">${sub}</span></div>`;
       }
       const nearNote = t.__near ? `<div class="near-note">Misses: ${t.__near.join(' · ')}</div>` : '';
       // Side shown by coloring the ticker itself (2026-10-01) — replaces the
       // Bullish/Bearish/Neutral chip and the table's Side column.
       const sideName = t.side==='bull' ? 'Bullish' : t.side==='bear' ? 'Bearish' : 'Neutral';
+      // Weakest-leg open interest (2026-10-01): full number in the table,
+      // compact (1.1k / 12k) on phone cards. Blank for trades from data runs
+      // before liquidity was recorded.
+      const oiVal = t.liquidity && t.liquidity.minOI != null ? Number(t.liquidity.minOI) : null;
+      const oiFull = oiVal == null ? '—' : oiVal.toLocaleString();
+      const oiShort = oiVal == null ? '' : (oiVal >= 10000 ? Math.round(oiVal/1000) + 'k' : oiVal >= 1000 ? (oiVal/1000).toFixed(1).replace(/\.0$/,'') + 'k' : String(oiVal));
       const symHtml = `<span class="sym-side sym-${t.side==='bull'||t.side==='bear' ? t.side : 'neutral'}" title="${sideName}">${t.sym}<span class="sr-only"> (${sideName})</span></span>`;
       const pill = t.side==='bull'
         ? `<span class="side-pill bull"><span class="dot"></span>Bullish</span>`
@@ -1893,6 +1903,7 @@
           <td class="num ${t.roc != null ? 'val-pos' : ''}">${fmtPct(t.roc)}</td>
           <td class="num ${t.ap != null ? 'val-pos' : ''}">${fmtPct(t.ap)}</td>
           <td class="num">${t.ivr}${limitedHistoryMark(t.ivRankLimited)}</td>
+          <td class="num oi-cell" title="Weakest-leg open interest">${oiFull}</td>
           <td>${meterHtml(t.score)}</td>
           <td><button class="row-action" data-idx="${idx}">View</button></td>
         </tr>`;
@@ -1913,6 +1924,7 @@
           <div class="trade-card-top" style="margin-bottom:6px;">
             <label class="checkbox-wrap" onclick="event.stopPropagation()"><input type="checkbox" class="card-checkbox" data-oid="${oid}" ${isChecked ? 'checked' : ''}></label>
             <div class="ticker-sym" style="flex:1; font-size:14px;">${symHtml} <span style="color:var(--text-dim); font-weight:500; font-size:12px;">${cardPrice}</span><span style="color:var(--text); font-weight:700; font-size:12px;">${cardStrike}</span> <span style="color:var(--text-dim); font-weight:500; font-size:12px;">· ${stratShort}</span></div>
+            ${oiShort ? `<span class="card-oi" title="Weakest-leg open interest">OI ${oiShort}</span>` : ''}
           </div>
           <div style="display:flex; align-items:center; justify-content:space-between; gap:8px;">
             <span style="font-family:var(--mono); font-size:11px; font-weight:700; white-space:nowrap; color:var(--text-dim);">
