@@ -645,6 +645,68 @@ def chain_diagnostics(df, spot=None):
     return f"{len(df)} rows, {len(valid)} with valid IV (range {valid.min():.2f}-{valid.max():.2f})"
 
 
+# --- Leg liquidity (recorded only; added 2026-09-30) --------------------------
+# Strike selection and pricing are unchanged (delta-based picks, priced at the
+# mid). Each trade just carries its legs' liquidity so the page's "Min OI" and
+# "Max bid-ask %" filters can screen on it. FILL_SLIPPAGE_FRACTION only feeds
+# the informational "est. fill" figure in the trade details.
+FILL_SLIPPAGE_FRACTION = 0.25
+
+
+def leg_quote(row):
+    """(bid, ask, mid, width, open_interest) for one chain row; mid is 0 when
+    there isn't a real two-sided market."""
+    bid = safe_float(row.get("bid"))
+    ask = safe_float(row.get("ask"))
+    oi = safe_float(row.get("openInterest"))
+    two_sided = bid > 0 and ask > 0 and ask >= bid
+    mid = (bid + ask) / 2 if two_sided else 0.0
+    return bid, ask, mid, (ask - bid) if two_sided else 0.0, oi
+
+
+def liquidity_summary(legs, calls, puts):
+    """
+    Worst-leg numbers for data.json:
+      minOI           lowest open interest across the legs
+      worstSpreadPct  widest leg's bid-ask as % of its mid — None when any
+                      leg has no two-sided quote (the page treats that as
+                      failing a Max bid-ask filter)
+      midPremium      net premium at the mid (what the trade is priced at)
+      fillPremium     same, giving up FILL_SLIPPAGE_FRACTION of each width
+    """
+    min_oi, worst, no_quote = None, 0.0, False
+    mid_net, fill_net = 0.0, 0.0
+    weak_leg, leg_quotes = None, []
+    for leg in legs or []:
+        chain = calls if leg.get("type") == "call" else puts
+        match = chain[chain["strike"] == leg.get("strike")]
+        if match.empty:
+            no_quote = True
+            continue
+        bid, ask, mid, width, oi = leg_quote(match.iloc[0])
+        # per-leg quote for the trade's order ticket (2026-10-05)
+        leg_quotes.append({"type": leg.get("type"), "strike": leg.get("strike"), "action": leg.get("action"),
+                           "bid": round(bid, 2), "ask": round(ask, 2), "oi": int(oi)})
+        if min_oi is None or oi < min_oi:
+            weak_leg = {"type": leg.get("type"), "strike": leg.get("strike"), "action": leg.get("action")}
+        min_oi = oi if min_oi is None else min(min_oi, oi)
+        if mid <= 0:
+            no_quote = True
+            continue
+        worst = max(worst, width / mid)
+        sign = 1 if leg.get("action") == "sell" else -1
+        mid_net += sign * mid
+        fill_net += sign * mid - FILL_SLIPPAGE_FRACTION * width
+    return {
+        "minOI": int(min_oi) if min_oi is not None else None,
+        "worstSpreadPct": None if no_quote else round(worst * 100, 1),
+        "midPremium": None if no_quote else round(abs(mid_net), 2),
+        "fillPremium": None if no_quote else round(abs(fill_net), 2),
+        "weakLeg": weak_leg,       # which leg the minOI belongs to
+        "legQuotes": leg_quotes,   # bid / ask / OI per leg
+    }
+
+
 def pick_strike_by_delta(chain_df, spot, dte_days, target_delta, option_type):
     """Return the chain row whose computed delta is closest to target_delta."""
     best_row, best_diff = None, None
@@ -707,17 +769,47 @@ def rank_expirations(expirations, today):
     in_window on its own merits first.
     """
     target_mid = (TARGET_DTE_MIN + TARGET_DTE_MAX) / 2
-    in_window, outside_window = [], []
+    listed = set(expirations)
+    in_window, off_cycle, outside_window = [], [], []
     for exp_str in expirations:
         exp_date = datetime.strptime(exp_str, "%Y-%m-%d").date()
         dte = (exp_date - today).days
         if dte <= 0:
             continue
         diff = abs(dte - target_mid)
-        (in_window if TARGET_DTE_MIN <= dte <= TARGET_DTE_MAX else outside_window).append((diff, exp_str, dte))
+        if TARGET_DTE_MIN <= dte <= TARGET_DTE_MAX:
+            # Friday-cycle preference (2026-10-05): mega-caps now list Monday
+            # and Wednesday expirations with a fraction of the open interest
+            # of the Friday weeklies/monthlies — and because candidates are
+            # ranked by annualized profit, the shortest-dated (often a Mon/Wed)
+            # kept winning, giving trades with single-digit OI on a leg.
+            # Fridays (or a Thursday in a holiday week whose Friday isn't
+            # listed) are the real candidates; Mon/Wed dates are only a
+            # fallback, tried before going outside the 7-45d window.
+            if is_friday_cycle(exp_date, listed):
+                in_window.append((diff, exp_str, dte))
+            else:
+                off_cycle.append((diff, exp_str, dte))
+        else:
+            outside_window.append((diff, exp_str, dte))
+    if not in_window:
+        in_window, off_cycle = off_cycle, []   # no Friday-cycle date in window: use what's there
     in_window.sort(key=lambda x: x[0])
+    off_cycle.sort(key=lambda x: x[0])
     outside_window.sort(key=lambda x: x[0])
-    return [(exp_str, dte) for _, exp_str, dte in in_window], [(exp_str, dte) for _, exp_str, dte in outside_window]
+    return ([(exp_str, dte) for _, exp_str, dte in in_window],
+            [(exp_str, dte) for _, exp_str, dte in off_cycle + outside_window])
+
+
+def is_friday_cycle(exp_date, listed):
+    """Friday expiration, or a Thursday whose following Friday isn't listed
+    (exchange holiday, e.g. Good Friday) — the standard weekly/monthly cycle."""
+    if exp_date.weekday() == 4:
+        return True
+    if exp_date.weekday() == 3:
+        from datetime import timedelta
+        return (exp_date + timedelta(days=1)).strftime("%Y-%m-%d") not in listed
+    return False
 
 
 MAX_CANDIDATES_TO_EVALUATE = 8  # how many expirations within the target window to
@@ -771,6 +863,7 @@ def evaluate_expiration_candidate(tk, strat, side, spot, cand_exp, cand_dte, atr
     fields, reason = try_strategy_pick(strat, calls, puts, spot, cand_dte)
     if not fields:
         return None, reason
+    liquidity = liquidity_summary(fields.get("legs"), calls, puts)
 
     premium = fields["premium"]
     collateral = fields["collateral"]
@@ -908,6 +1001,7 @@ def evaluate_expiration_candidate(tk, strat, side, spot, cand_exp, cand_dte, atr
         # re-identify and re-quote this exact contract combination.
         "expDate": cand_exp,
         "legs": fields.get("legs"),
+        "liquidity": liquidity,
     }, None
 
 
@@ -1076,6 +1170,65 @@ def build_double_diagonal(tk, spot, expirations, today, atr):
 MAX_NEWS_HEADLINES = 3       # how many recent headlines to pull and score per ticker
 
 
+_RAW_NEWS_CACHE = {}   # symbol -> list of raw news items; the same ticker is fetched
+                       # twice per run (options trade + equity snapshot), so this
+                       # halves the news requests and the rate-limit exposure.
+
+
+def _collect_raw_news(tk, ticker_symbol):
+    """
+    Gathers raw news items from several Yahoo endpoints, in order, and returns
+    the first non-empty result as (items, source_label). Added because a single
+    source (tk.news) silently returning [] made EVERY ticker show "no recent
+    headlines" with no way to tell why:
+      1. tk.news / tk.get_news() — newer yfinance nests items under "content"
+         and generally has NO relatedTickers, so relevance falls back to a
+         text match against the headline.
+      2. yf.Search(symbol).news — a different endpoint whose items DO carry
+         relatedTickers (ground truth for relevance), and which often still
+         works when the first one is empty or blocked.
+    Every attempt is logged so an empty result is diagnosable from the run log.
+    """
+    if ticker_symbol in _RAW_NEWS_CACHE:
+        return _RAW_NEWS_CACHE[ticker_symbol]
+
+    attempts = []
+    result = ([], "none")
+
+    def try_source(label, fn):
+        try:
+            items = fn() or []
+            attempts.append(f"{label}={len(items)}")
+            return list(items)
+        except Exception as e:
+            attempts.append(f"{label}=ERR({type(e).__name__}: {str(e)[:80]})")
+            return []
+
+    items = try_source("tk.news", lambda: tk.news)
+    if items:
+        result = (items, "tk.news")
+    elif hasattr(tk, "get_news"):
+        items = try_source("get_news(all)", lambda: tk.get_news(count=20, tab="all"))
+        if items:
+            result = (items, "get_news(all)")
+
+    if not result[0]:
+        items = try_source("Search.news", lambda: yf.Search(ticker_symbol, news_count=15, max_results=1).news)
+        if items:
+            result = (items, "Search.news")
+
+    if not result[0]:
+        print(f"    {ticker_symbol} news: ALL sources empty ({', '.join(attempts)}) — "
+              f"Yahoo is likely blocking/rate-limiting this runner's IP")
+    elif len(attempts) > 1:
+        print(f"    {ticker_symbol} news: first source(s) empty, recovered via {result[1]} ({', '.join(attempts)})")
+
+    # Don't cache total failures — a later call in the same run may succeed.
+    if result[0]:
+        _RAW_NEWS_CACHE[ticker_symbol] = result
+    return result
+
+
 def fetch_news_and_sentiment(tk, ticker_symbol):
     """
     Pulls recent headlines via yfinance's free .news property and scores them with
@@ -1113,15 +1266,7 @@ def fetch_news_and_sentiment(tk, ticker_symbol):
     def normalize(s):
         return re.sub(r"[^a-z0-9]", "", s.lower())
 
-    try:
-        raw_news = tk.news or []
-    except Exception as e:
-        print(f"    {ticker_symbol} news: tk.news raised an exception: {e}")
-        raw_news = []
-
-    if not raw_news:
-        print(f"    {ticker_symbol} news: tk.news returned 0 raw items (Yahoo may be rate-limiting/blocking, "
-              f"or this ticker genuinely has no recent news — can't tell which without this line)")
+    raw_news, _news_source = _collect_raw_news(tk, ticker_symbol)
 
     # Best-effort brand-name candidates, used only for the text-match fallback
     # below — a failure here just means the fallback relies on the ticker
@@ -1148,7 +1293,8 @@ def fetch_news_and_sentiment(tk, ticker_symbol):
 
     def is_relevant(title, related_upper):
         if related_upper:
-            return ticker_symbol.upper() in related_upper
+            sym = ticker_symbol.upper()
+            return sym in related_upper or sym.replace("-", ".") in related_upper or sym.replace(".", "-") in related_upper
         title_lower = title.lower()
         if re.search(r"\b" + re.escape(ticker_symbol.lower()) + r"\b", title_lower):
             return True
@@ -1208,34 +1354,6 @@ def fetch_news_and_sentiment(tk, ticker_symbol):
     return round(avg, 2), label, headlines
 
 
-def compute_collar_hedge(puts, spot, dte, call_premium):
-    """
-    Suggests a protective put that would turn a Covered Call into a collar.
-    This is genuinely different math from compute_naked_hedge — a covered
-    call's risk is the STOCK declining, not option assignment, so the "max
-    loss" here is the gap between spot and the protective put's strike, net
-    of the combined premium (call collected, put paid). Reuses the same
-    delta-targeted strike-picking already used for the call leg, for the
-    protective put too, rather than a separate ad-hoc rule.
-    """
-    picked = pick_strike_by_delta(puts, spot, dte, TARGET_SHORT_DELTA, "put")
-    if not picked:
-        return None
-    row, _ = picked
-    put_strike = float(row["strike"])
-    put_cost = mid_price(row)
-    net_credit_per_share = call_premium - put_cost
-    # floored at 0: a negative result means the net credit alone exceeds the
-    # spot-to-put gap, i.e. the worst case is still a net gain, not a loss —
-    # simpler to show "$0 max loss" than a confusing negative "loss" figure
-    max_loss = max(0.0, (spot - put_strike - net_credit_per_share) * 100)
-    return {
-        "hedgeStrike": put_strike,
-        "hedgeCost": round(put_cost, 2),
-        "cappedMaxLoss": round(max_loss, 2),
-    }
-
-
 def try_strategy_pick(strat, calls, puts, spot, dte):
     """
     Attempts to pick strikes for `strat` against one expiration's chain.
@@ -1243,45 +1361,6 @@ def try_strategy_pick(strat, calls, puts, spot, dte):
     the reason gets logged by the caller, and used to try the next expiration
     candidate rather than silently giving up on the whole ticker.
     """
-    if strat == "Covered Call":
-        picked_row = pick_strike_by_delta(calls, spot, dte, TARGET_SHORT_DELTA, "call")
-        if not picked_row:
-            return None, f"no call near target delta — {chain_diagnostics(calls, spot)}"
-        row, delta = picked_row
-        premium = mid_price(row)
-        strike = float(row["strike"])
-        return {
-            "premium": premium, "strike_for_pot": strike, "collateral": spot,
-            "breakeven": spot - premium, "max_loss": round((spot - premium) * 100, 2),
-            "strike_label": f"${strike:.0f} C", "iv": safe_float(row.get("impliedVolatility")) * 100,
-            "delta_for_output": delta,
-            "hedge": compute_collar_hedge(puts, spot, dte, premium),
-            # Tracks the short call leg only, not the underlying shares — a
-            # covered call's own roc/premium accounting above is already just
-            # the call premium (collateral is spot, not "P&L on the stock"),
-            # so later mark-to-market re-pricing follows that same convention
-            # rather than pretending to track full stock+option P&L.
-            "legs": [{"type": "call", "strike": strike, "action": "sell", "qty": 1}],
-        }, None
-
-    if strat == "Cash-Secured Put":
-        # The naked mirror of Covered Call above: same 20-delta target strike,
-        # but no underlying shares — collateral is the cash needed to buy 100
-        # shares at the strike if assigned, not the stock's own price.
-        picked_row = pick_strike_by_delta(puts, spot, dte, TARGET_SHORT_DELTA, "put")
-        if not picked_row:
-            return None, f"no put near target delta — {chain_diagnostics(puts, spot)}"
-        row, delta = picked_row
-        premium = mid_price(row)
-        strike = float(row["strike"])
-        return {
-            "premium": premium, "strike_for_pot": strike, "collateral": strike,
-            "breakeven": strike - premium, "max_loss": round((strike - premium) * 100, 2),
-            "strike_label": f"${strike:.0f} P", "iv": safe_float(row.get("impliedVolatility")) * 100,
-            "delta_for_output": delta,
-            "legs": [{"type": "put", "strike": strike, "action": "sell", "qty": 1}],
-        }, None
-
     if strat == "Bull Put Spread":
         short_row = pick_strike_by_delta(puts, spot, dte, TARGET_SHORT_DELTA, "put")
         if not short_row:
@@ -1533,21 +1612,30 @@ def build_trade_for_ticker(ticker_symbol, index):
         # Calendar Spread were removed 2026-09-20 — their payoff shape didn't
         # fit the profit-target intent of this screen. Cash-Secured Put, Bull
         # Call Spread and Bear Put Spread added 2026-09-21 to round out each
-        # side with a defined-risk debit alternative (Bull/Bear ... Spread)
-        # and the naked mirror of Covered Call (Cash-Secured Put) — all three
-        # reuse the exact same delta-targeted strike-picking as their siblings.
+        # side with a defined-risk debit alternative. Covered Call and
+        # Cash-Secured Put were removed 2026-09-30: their 1-3% per-trade
+        # return on full share/cash collateral never fit this screen's
+        # profit-target filters, so they were generated but never shown.
+        # 2026-10-01: Long Call, Long Put and Double Diagonal are no longer
+        # generated — the page had dropped them from its strategy list, so
+        # ~1 in 3 tickers each run produced a trade nobody could see. Every
+        # slot now gets one of the five strategies the page shows: neutral ->
+        # Iron Condor; trending tickers alternate between their direction's
+        # credit and debit spread. (The Double Diagonal builder is left in
+        # place, just unused.)
         if index % 4 == 0:
-            # Split the neutral slot itself between the two neutral strategies
-            # rather than adding a 5th bucket — still 1-in-4 tickers overall
-            # go neutral, just alternating which neutral structure they get.
-            strat = "Double Diagonal" if (index // 4) % 2 == 1 else "Iron Condor"
+            strat = "Iron Condor"
             side = "neutral"
-        elif uptrend:
-            strat = ["Covered Call", "Bull Put Spread", "Long Call", "Cash-Secured Put", "Bull Call Spread"][index % 5]
-            side = "bull"
         else:
-            strat = ["Bear Call Spread", "Long Put", "Bear Put Spread"][index % 3]
-            side = "bear"
+            # position among the non-neutral slots, so the two choices
+            # alternate evenly (index % 2 alone would skew 2:1)
+            directional_pos = index - (index // 4) - 1
+            if uptrend:
+                strat = ["Bull Put Spread", "Bull Call Spread"][directional_pos % 2]
+                side = "bull"
+            else:
+                strat = ["Bear Call Spread", "Bear Put Spread"][directional_pos % 2]
+                side = "bear"
 
         # Evaluate every expiration candidate within the target window (up to the
         # cap), and keep whichever produces the best annualized profit — instead
@@ -1695,6 +1783,7 @@ def build_trade_for_ticker(ticker_symbol, index):
             "pcOI": best["pcOI"],
             "pcVol": best["pcVol"],
             "debitStrategy": best.get("debitStrategy", False),
+            "liquidity": best.get("liquidity"),
             "potIsProfitProb": best.get("potIsProfitProb", False),
             "newsSentiment": news_sentiment,
             "newsSentimentLabel": news_sentiment_label,
@@ -1879,6 +1968,7 @@ def build_lookup_trade(ticker_symbol):
             "pcOI": best["pcOI"],
             "pcVol": best["pcVol"],
             "debitStrategy": best.get("debitStrategy", False),
+            "liquidity": best.get("liquidity"),
             "potIsProfitProb": best.get("potIsProfitProb", False),
             "newsSentiment": news_sentiment,
             "newsSentimentLabel": news_sentiment_label,
@@ -2152,6 +2242,57 @@ def build_equity_snapshot(ticker_symbol, is_etf):
     except Exception as e:
         print(f"  skip {ticker_symbol} (equity): {e}")
         return None
+
+
+# --- Market snapshot (added 2026-09-29) --------------------------------------
+# Four headline gauges for the page's market-condition tiles: the QQQ / SPY /
+# IWM ETFs (Nasdaq-100, S&P 500, Russell 2000 small caps) plus the VIX index,
+# each with the move vs. the previous close. Switched from index levels
+# (^IXIC/^GSPC/^DJI) to tradeable ETFs on 2026-09-30. On an
+# intraday run yfinance's last daily bar is today's in-progress session, so
+# the change is "today so far"; on the post-close run it's the full day.
+# "inverse" marks gauges where a rise is bad for stocks (VIX) so the frontend
+# can color them the right way round.
+MARKET_GAUGES = [
+    {"key": "qqq", "label": "QQQ", "symbol": "QQQ"},
+    {"key": "spy", "label": "SPY", "symbol": "SPY"},
+    {"key": "iwm", "label": "IWM", "symbol": "IWM"},
+    {"key": "vix", "label": "VIX", "symbol": "^VIX", "inverse": True},
+]
+
+
+def build_market_snapshot():
+    """
+    Returns {"asOf": iso, "gauges": [...]} or None. Best-effort per gauge: one
+    index failing to fetch just drops that tile; the frontend hides the whole
+    strip only when every gauge failed. Never raises.
+    """
+    gauges = []
+    for g in MARKET_GAUGES:
+        try:
+            hist = yf.Ticker(g["symbol"]).history(period="5d")
+            closes = hist["Close"].dropna() if not hist.empty else []
+            if len(closes) < 2:
+                print(f"  market: not enough history for {g['symbol']}, skipping")
+                continue
+            last = float(closes.iloc[-1])
+            prev = float(closes.iloc[-2])
+            if math.isnan(last) or math.isnan(prev) or prev <= 0:
+                continue
+            gauges.append({
+                "key": g["key"],
+                "label": g["label"],
+                "symbol": g["symbol"],
+                "value": round(last, 2),
+                "change": round(last - prev, 2),
+                "changePct": round((last - prev) / prev * 100, 2),
+                "inverse": bool(g.get("inverse", False)),
+            })
+        except Exception as e:
+            print(f"  market: {g['symbol']} failed: {e}")
+    if not gauges:
+        return None
+    return {"asOf": datetime.now(timezone.utc).isoformat(), "gauges": gauges}
 
 
 def build_hedge_candidate():
@@ -2490,12 +2631,18 @@ def main():
         # is absent, same as any other optional field in this file.
         print(f"  hedge candidate unavailable this run — omitting from {OUTPUT_PATH}")
 
+    print("Fetching market snapshot (QQQ, SPY, IWM, VIX)...")
+    market = build_market_snapshot()
+    if not market:
+        print("  market snapshot unavailable this run — the page hides the tiles")
+
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source": "yfinance (unofficial, free, EOD)",
         "trades": trades,
         "equities": equities,
         "hedge": hedge,
+        "market": market,
     }
     if UNIVERSE_META:
         output["universe"] = UNIVERSE_META
