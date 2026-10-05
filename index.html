@@ -1590,7 +1590,7 @@
           </select>
         </div>
         <label class="ctrl-cell" for="minTradeProfitInput"><span>Min profit %</span>
-          <input type="number" id="minTradeProfitInput" class="num-filter" inputmode="decimal" min="0" max="500" step="1" value="15">
+          <input type="number" id="minTradeProfitInput" class="num-filter" inputmode="decimal" min="0" max="500" step="1" value="20">
         </label>
       </div>
     </div>
@@ -2691,8 +2691,9 @@
     '[data-quality="sell"]',
     '[data-risk="excludeEarnings"]',
   ];
-  // 15% (2026-10-01): suits credit spreads, which typically return 13-30%.
-  const DEFAULT_MIN_TRADE_PROFIT = 15;
+  // 20% (2026-10-02): with the OI / bid-ask filters removed, 20% keeps the
+  // default list to a manageable size.
+  const DEFAULT_MIN_TRADE_PROFIT = 20;
 
   const DEFAULT_SORT = 'dte';
 
