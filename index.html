@@ -629,7 +629,7 @@
   #optionsView .sort-wrap{ flex:1 1 auto; }
   /* Sort + numeric filters grid. Wide screens: one row, evenly spaced. */
   .ctrl-grid{
-    display:grid !important; grid-template-columns:repeat(4, auto); justify-content:space-between;
+    display:grid !important; grid-template-columns:auto auto; justify-content:space-between;
     align-items:center; gap:10px 24px; width:100%;
   }
   .ctrl-cell{
@@ -1576,11 +1576,9 @@
       <div class="results-count-row" id="resultsCountRow" style="display:none;">
         <div class="results-count" style="display:none;"><strong id="resultCount">…</strong> <span id="resultCountLabel">setups match</span> your filters</div>
       </div>
-      <!-- Sort + the three numeric filters as one aligned grid (2026-09-30):
-           2x2 on phones (labels down the left of each column, boxes down the
-           right), a single row on wider screens. Ids are unchanged. Min trade
-           profit, Min OI and Max bid-ask all update live; blank/0 turns the
-           two liquidity filters off. -->
+      <!-- Sort + Min profit on one row (2026-10-02). The Min OI / Max bid-ask
+           boxes were removed: each trade now shows its weakest-leg OI on the
+           card and in the table, and the bid-ask width in its details. -->
       <div class="sort-wrap ctrl-grid">
         <div class="ctrl-cell ctrl-sort">
           <select id="sortSelect" aria-label="Sort by">
@@ -1593,12 +1591,6 @@
         </div>
         <label class="ctrl-cell" for="minTradeProfitInput"><span>Min profit %</span>
           <input type="number" id="minTradeProfitInput" class="num-filter" inputmode="decimal" min="0" max="500" step="1" value="15">
-        </label>
-        <label class="ctrl-cell" for="minOIInput"><span>Min OI</span>
-          <input type="number" id="minOIInput" class="num-filter" inputmode="numeric" min="0" step="50" value="250" placeholder="any">
-        </label>
-        <label class="ctrl-cell" for="maxSpreadInput"><span>Max bid-ask %</span>
-          <input type="number" id="maxSpreadInput" class="num-filter" inputmode="decimal" min="0" max="200" step="5" value="100" placeholder="any">
         </label>
       </div>
     </div>
@@ -1861,8 +1853,8 @@
     cardList.innerHTML = '';
 
     if(list.length === 0){
-      tbody.innerHTML = `<tr><td colspan="9" style="padding:32px 14px; text-align:center; color:var(--text-dim); font-weight:700; font-size:14px;">No setups match these filters. Try loosening the reward, risk or liquidity (Min OI / Max bid-ask) settings.</td></tr>`;
-      cardList.innerHTML = `<div class="trade-card" style="text-align:center; color:var(--text-dim); font-weight:700; font-size:14px;">No setups match these filters. Try loosening the reward, risk or liquidity (Min OI / Max bid-ask) settings.</div>`;
+      tbody.innerHTML = `<tr><td colspan="9" style="padding:32px 14px; text-align:center; color:var(--text-dim); font-weight:700; font-size:14px;">No setups match these filters. Try loosening the reward or risk thresholds.</td></tr>`;
+      cardList.innerHTML = `<div class="trade-card" style="text-align:center; color:var(--text-dim); font-weight:700; font-size:14px;">No setups match these filters. Try loosening the reward or risk thresholds.</div>`;
     }
 
     list.forEach((t, idx)=>{
@@ -1948,38 +1940,26 @@
   // of a number threshold. Rules, so they can't mislead:
   //   - ranked by how close they come (relative shortfall summed across the
   //     thresholds they miss), not by composite score;
-  //   - anything that misses badly is excluded outright: profit below half
-  //     of Min profit, OI below half of Min OI, bid-ask more than double
-  //     Max bid-ask, or a leg with no two-sided quote;
+  //   - anything that misses badly is excluded outright (profit below half
+  //     of Min profit). Liquidity is shown per trade (OI on each card /
+  //     in the table) rather than filtered, since 2026-10-02;
   //   - shown under their own divider, dashed, each with a "Misses:" line.
   const MIN_RESULTS = 5;
   function thresholdValues(){
     const num = id => parseFloat(document.getElementById(id).value);
     const mp = Math.max(0, num('minTradeProfitInput') || 0);
-    const oi = num('minOIInput'), sp = num('maxSpreadInput');
-    return { mp, oi: (isFinite(oi) && oi > 0) ? oi : null, sp: (isFinite(sp) && sp > 0) ? sp : null };
+    return { mp };
   }
   // -> null if the trade misses any threshold badly; otherwise
   //    { shortfall, reasons } (no reasons = it isn't actually a miss)
   function missProfile(t){
-    const { mp, oi, sp } = thresholdValues();
+    const { mp } = thresholdValues();
     let shortfall = 0; const reasons = [];
     if(t.roc == null) return null;
     if(!(t.roc > mp)){
       if(mp > 0 && t.roc < mp / 2) return null;
       shortfall += mp > 0 ? (mp - t.roc) / mp : 0;
       reasons.push(`profit ${t.roc}% ≤ ${mp}%`);
-    }
-    const q = t.liquidity;
-    if(q && oi != null && !(q.minOI != null && q.minOI >= oi)){
-      if(q.minOI == null || q.minOI < oi / 2) return null;
-      shortfall += (oi - q.minOI) / oi;
-      reasons.push(`OI ${Number(q.minOI).toLocaleString()} < ${Number(oi).toLocaleString()}`);
-    }
-    if(q && sp != null && !(q.worstSpreadPct != null && q.worstSpreadPct <= sp)){
-      if(q.worstSpreadPct == null || q.worstSpreadPct > sp * 2) return null;
-      shortfall += (q.worstSpreadPct - sp) / sp;
-      reasons.push(`bid-ask ${Math.round(q.worstSpreadPct)}% > ${sp}%`);
     }
     return { shortfall, reasons };
   }
@@ -2095,22 +2075,6 @@
     pool = pool.filter(t=> t.roc != null && t.roc > minTradeProfit);
     funnel.push({ label:`After Min Trade Profit (>${minTradeProfit}%)`, count: pool.length });
 
-    // Liquidity (2026-09-30): weakest leg's open interest and bid-ask width,
-    // recorded by the fetch in t.liquidity. Blank/0 turns a filter off.
-    // Trades from data runs before then have no t.liquidity and pass (so the
-    // list doesn't empty until the next run fills it in); a leg with no real
-    // two-sided quote (worstSpreadPct null) fails Max bid-ask.
-    const minOI = parseFloat(document.getElementById('minOIInput').value);
-    if(isFinite(minOI) && minOI > 0){
-      pool = pool.filter(t => !t.liquidity || (t.liquidity.minOI != null && t.liquidity.minOI >= minOI));
-      funnel.push({ label:`After Min OI (>=${minOI})`, count: pool.length });
-    }
-    const maxSpread = parseFloat(document.getElementById('maxSpreadInput').value);
-    if(isFinite(maxSpread) && maxSpread > 0){
-      pool = pool.filter(t => !t.liquidity || (t.liquidity.worstSpreadPct != null && t.liquidity.worstSpreadPct <= maxSpread));
-      funnel.push({ label:`After Max bid-ask (<=${maxSpread}%)`, count: pool.length });
-    }
-
     lastFunnel = funnel;
     return pool;
   }
@@ -2158,8 +2122,6 @@
     let n = document.querySelectorAll(`.filter-card input[type="checkbox"]:checked:is(${FILTER_CHECKBOX_SELECTOR})`).length;
     const minTradeProfitInput = document.getElementById('minTradeProfitInput');
     if(Number(minTradeProfitInput.value) !== DEFAULT_MIN_TRADE_PROFIT) n += 1;
-    if(document.getElementById('minOIInput').value.trim() !== String(DEFAULT_MIN_OI)) n += 1;
-    if(document.getElementById('maxSpreadInput').value.trim() !== String(DEFAULT_MAX_SPREAD)) n += 1;
     activeCountLabel.textContent = `${n} filter${n===1?'':'s'} active`;
     updateSectionBadges();
   }
@@ -2731,11 +2693,6 @@
   ];
   // 15% (2026-10-01): suits credit spreads, which typically return 13-30%.
   const DEFAULT_MIN_TRADE_PROFIT = 15;
-  // 250 / 100% (2026-10-01): the universe is popular, >$100B names, so a
-  // weakest leg with only ~100 open contracts is a red flag. Bid-ask is
-  // effectively off by default — tighten it in the box when wanted.
-  const DEFAULT_MIN_OI = 250;
-  const DEFAULT_MAX_SPREAD = 100;
 
   const DEFAULT_SORT = 'dte';
 
@@ -2743,8 +2700,6 @@
     document.querySelectorAll(`.filter-card input[type="checkbox"]:not(:disabled):is(${FILTER_CHECKBOX_SELECTOR})`).forEach(cb=>cb.checked=false);
     DEFAULT_CHECKED.forEach(sel => { document.querySelector(sel).checked = true; });
     document.getElementById('minTradeProfitInput').value = DEFAULT_MIN_TRADE_PROFIT;
-    document.getElementById('minOIInput').value = DEFAULT_MIN_OI;
-    document.getElementById('maxSpreadInput').value = DEFAULT_MAX_SPREAD;
     document.getElementById('sortSelect').value = DEFAULT_SORT;
     applyFilters();
   }
@@ -2772,8 +2727,6 @@
     updateActiveCount();
   }
   document.getElementById('minTradeProfitInput').addEventListener('input', liveApplyMinProfit);
-  document.getElementById('minOIInput').addEventListener('input', liveApplyMinProfit);
-  document.getElementById('maxSpreadInput').addEventListener('input', liveApplyMinProfit);
   document.getElementById('resetFilters').addEventListener('click', resetFilters);
 
   // Auto-pick-up of new data (2026-09-30). iOS freezes a backgrounded page,
