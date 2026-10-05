@@ -1235,6 +1235,26 @@
   thead th{ font-family:var(--sans); font-size:12px; font-weight:700; letter-spacing:0; text-transform:none; color:var(--text-faint); }
   .side-pill{ font-family:var(--sans); font-weight:700; }
 
+  /* Card layout (2026-10-06): checkbox in its own column; both lines in a
+     body column so the return sits directly under the ticker, and the
+     score meter's right edge is the card's single right edge. OI lives in
+     the second line next to the expiry instead of floating top-right. */
+  .trade-card{ display:flex; align-items:flex-start; gap:12px; }
+  .tc-check{ flex-shrink:0; margin-top:1px; }
+  .tc-body{ flex:1; min-width:0; }
+  .tc-body .trade-card-top{ margin-bottom:7px; }
+  .tc-bottom{ display:flex; align-items:center; justify-content:space-between; gap:10px; }
+  .tc-left{ display:flex; align-items:baseline; gap:8px; min-width:0; white-space:nowrap; }
+
+  /* Phone cards: score as a compact pill — the 10 ticks only repeated the
+     number and cost ~55px the second line needs (desktop keeps the meter). */
+  .trade-card .meter-ticks{ display:none; }
+  .trade-card .meter{ flex-shrink:0; }
+  .trade-card .meter-score{
+    min-width:0; padding:2px 8px; border-radius:999px; font-size:13px;
+    background:var(--amber-soft); color:var(--amber-strong);
+  }
+
   /* Card second line: the trade's return is the lead number */
   .card-ret{ font-size:16px; font-weight:800; letter-spacing:-0.02em; color:var(--green); }
   .card-meta{ font-size:12.5px; font-weight:600; color:var(--text-faint); min-width:0; overflow:hidden; text-overflow:ellipsis; }
@@ -1885,18 +1905,19 @@
       const cardPrice = t.spot != null ? `$${Math.round(t.spot)}${staleMark(t.spotPriceStale)}→` : '';
       cardList.innerHTML += `
         <div class="trade-card${t.__near ? ' is-near' : ''}" data-idx="${idx}" role="button" tabindex="0">
-          <div class="trade-card-top" style="margin-bottom:6px;">
-            <label class="checkbox-wrap" onclick="event.stopPropagation()"><input type="checkbox" class="card-checkbox" data-oid="${oid}" ${isChecked ? 'checked' : ''}></label>
+          <label class="checkbox-wrap tc-check" onclick="event.stopPropagation()"><input type="checkbox" class="card-checkbox" data-oid="${oid}" ${isChecked ? 'checked' : ''}></label>
+          <div class="tc-body">
+          <div class="trade-card-top">
             <div class="ticker-sym" style="flex:1; font-size:14px;">${symHtml} <span style="color:var(--text-dim); font-weight:500; font-size:12px;">${cardPrice}</span><span style="color:var(--text); font-weight:700; font-size:12px;">${cardStrike}</span> <span style="color:var(--text-dim); font-weight:500; font-size:12px;">· ${stratShort}</span></div>
-            ${oiShort ? `<span class="card-oi" title="Weakest-leg open interest">OI ${oiShort}</span>` : ''}
           </div>
-          <div style="display:flex; align-items:center; justify-content:space-between; gap:8px;">
-            <span style="white-space:nowrap; display:flex; align-items:baseline; gap:8px; min-width:0;">
+          <div class="tc-bottom">
+            <span class="tc-left">
               <span class="card-ret" title="Trade profit">${fmtPct(t.roc)}</span>
-              <span class="card-meta">${t.exp} · ${t.dte}d${valuationBadge(t)}</span>
+              <span class="card-meta">${t.exp} · ${t.dte}d${oiShort ? ` · <span title="Weakest-leg open interest">OI ${oiShort}</span>` : ''}${valuationBadge(t)}</span>
             </span>
             ${meterHtml(t.score)}
           </div>${nearNote}
+          </div>
         </div>`;
     });
 
