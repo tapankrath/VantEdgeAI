@@ -7,8 +7,8 @@
 
 <link rel="manifest" href="manifest.json">
 <meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#F6F2EB" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#14110E" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#F4F5F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B0D10" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="VantEdge">
@@ -17,47 +17,50 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
   :root{
     /* Note: --amber* variable names are historical — they hold the green accent
        color now. Kept the names to avoid touching every var(--amber...) usage
        site; only the values changed. */
-    /* 2026-09-30 editorial pass (inspired by agenkit.xyz): warm paper
-       background, warm near-black ink, a condensed serif for display type,
-       monospace uppercase "eyebrow" labels, thin warm borders. Our ledger
-       green stays the accent so gain/loss colors keep their meaning.
-       Contrast on cream: ink 16:1, dim 11:1, faint 7.3:1, green 5:1. */
-    --bg:#F6F2EB;
-    --surface:#FFFDF9;
-    --surface-2:#F1ECE3;
-    --border:#E4DCD0;
-    --border-strong:#C9BEAE;
-    --text:#1C1713;
-    --text-dim:#3B332B;
-    --text-faint:#574E44;
-    --amber:#08774A;
-    --amber-strong:#06683F;
-    --amber-soft:#E5F2E8;
-    --amber-border:#9CCDAE;
-    --green:#08774A;
-    --green-soft:#E5F2E8;
-    --accent-vivid:#16A862;
-    --red:#C2362F;
-    --red-soft:#F9E6E2;
-    --red-vivid:#E2483F;
-    --invert-bg:#1C1713;
-    --invert-text:#FBF7F1;
-    --mark-tile:#1C1713;
+    /* 2026-10-06 clean pass: bright cool-white page, pure white cards,
+       near-black ink, ONE vivid green (returns, Apply, Review Picks) and red
+       only for bearish/loss. Contrast on white: ink 18.9, dim 10.2, faint
+       6.0, green text 4.9, red 5.0; white on the button green 4.9. */
+    --bg:#F4F5F7;
+    --surface:#FFFFFF;
+    --surface-2:#F1F3F5;
+    --border:#E6E8EC;
+    --border-strong:#D2D6DD;
+    --text:#0E1116;
+    --text-dim:#3A4150;
+    --text-faint:#5B6372;
+    --amber:#00824A;
+    --amber-strong:#00703F;
+    --amber-soft:#E7F6EE;
+    --amber-border:#A8DDBF;
+    --green:#00824A;
+    --green-soft:#E7F6EE;
+    --accent-vivid:#12B76A;
+    --red:#D12F35;
+    --red-soft:#FDECEC;
+    --red-vivid:#F04449;
+    --invert-bg:#0E1116;
+    --invert-text:#FFFFFF;
+    --mark-tile:#0E1116;
     --radius:14px;
     --radius-sm:8px;
     --control-h:36px;
-    --sans:'IBM Plex Sans', -apple-system, 'Segoe UI', Roboto, sans-serif;
-    --mono:'IBM Plex Mono', 'SF Mono', ui-monospace, Menlo, monospace;
-    --shadow-sm:0 1px 2px rgba(60,40,20,0.05);
-    --shadow-md:0 2px 4px rgba(60,40,20,0.05), 0 12px 28px -10px rgba(60,40,20,0.16);
-    --shadow-lg:0 24px 56px -12px rgba(40,26,12,0.30);
-    --serif:'Instrument Serif', 'Iowan Old Style', Georgia, serif;
+    /* One family everywhere (2026-10-06 clean pass). --mono now points at the
+       same sans with tabular figures, so numbers still line up; real code
+       (the tickers.json box) uses --code. */
+    --sans:'Inter Tight', -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --mono:'Inter Tight', -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --code:'IBM Plex Mono', 'SF Mono', ui-monospace, Menlo, monospace;
+    --shadow-sm:0 1px 2px rgba(16,24,40,0.05), 0 4px 14px -8px rgba(16,24,40,0.12);
+    --shadow-md:0 2px 4px rgba(16,24,40,0.05), 0 12px 28px -10px rgba(16,24,40,0.16);
+    --shadow-lg:0 24px 56px -12px rgba(16,24,40,0.28);
+    --serif:var(--sans);
   }
 
   /* Dark mode — follows the device/browser's system appearance automatically
@@ -71,27 +74,27 @@
      active. */
   @media (prefers-color-scheme: dark){
     :root{
-      --bg:#14110E;
-      --surface:#1C1814;
-      --surface-2:#24201B;
-      --border:#332D26;
-      --border-strong:#4A4239;
-      --text:#F3EDE4;
-      --text-dim:#D6CDC1;
-      --text-faint:#B3A898;
-      --amber:#1AA866;
-      --amber-strong:#4ADE93;
-      --amber-soft:#132A1E;
-      --amber-border:#1F6B47;
-      --green:#4ADE93;
-      --green-soft:#132A1E;
+      --bg:#0B0D10;
+      --surface:#15181D;
+      --surface-2:#1C2027;
+      --border:#262B33;
+      --border-strong:#353B45;
+      --text:#F2F4F7;
+      --text-dim:#C6CCD5;
+      --text-faint:#9AA3B0;
+      --amber:#0B7F47;
+      --amber-strong:#34D987;
+      --amber-soft:#0F2A1C;
+      --amber-border:#1D6B44;
+      --green:#34D987;
+      --green-soft:#0F2A1C;
       --accent-vivid:#2FD583;
-      --red:#F58A7F;
-      --red-soft:#3A1C18;
-      --red-vivid:#FF6A5C;
-      --invert-bg:#F3EDE4;
-      --invert-text:#14110E;
-      --mark-tile:#0E0B09;
+      --red:#FF7B7B;
+      --red-soft:#3A1719;
+      --red-vivid:#FF5F5F;
+      --invert-bg:#F2F4F7;
+      --invert-text:#0B0D10;
+      --mark-tile:#0B0D10;
       --shadow-sm:0 1px 2px rgba(0,0,0,0.5);
       --shadow-md:0 2px 6px rgba(0,0,0,0.5), 0 8px 20px rgba(0,0,0,0.45);
       --shadow-lg:0 16px 44px rgba(0,0,0,0.6);
@@ -556,7 +559,7 @@
   .apply-reset-row.is-stuck{
     z-index:5; background:var(--surface);
     padding-bottom:8px;
-    box-shadow:0 -1px 0 var(--border), 0 -8px 16px -10px rgba(14,27,22,0.25);
+    box-shadow:0 -1px 0 var(--border), 0 -8px 16px -10px rgba(16,24,40,0.22);
   }
   .apply-reset-row .apply-btn-compact{ flex:1; margin-bottom:0; }
   .reset-btn-bold{
@@ -1044,7 +1047,7 @@
       padding:12px 14px; padding-bottom:calc(12px + env(safe-area-inset-bottom));
       margin-top:0;
       border-top:1px solid var(--border);
-      box-shadow:0 -6px 18px rgba(14,27,22,0.06);
+      box-shadow:0 -6px 18px rgba(16,24,40,0.06);
     }
     /* Was hidden here to make room for the Apply button that used to share
        this row (removed 2026-09-26, see apply-bar-row2's HTML comment) —
@@ -1165,147 +1168,98 @@
   }
 
   /* =====================================================================
-     EDITORIAL LAYER (2026-09-30). Restyles existing components only — no
-     layout or behavior changes. Patterns borrowed from agenkit.xyz:
-     frosted floating nav, serif display type, mono eyebrows, mono chips,
-     dark terminal block, hatched divider, faint corner glow.
+     CLEAN LAYER (2026-10-06). Replaces the editorial (serif / cream / mono)
+     layer. Ideas: one bold sans, bright cool white, one vivid green used
+     sparingly, far fewer borders (soft shadows instead), one dominant
+     number per card. Restyles only — no layout or behavior changes.
      ===================================================================== */
-  body{
-    background-image:radial-gradient(70% 45% at 100% 0%, color-mix(in srgb, var(--accent-vivid) 9%, transparent) 0%, transparent 70%);
-    background-repeat:no-repeat;
-  }
-  /* Mono uppercase label — the "KIT · V2.2.0" look. */
-  .eyebrow{ font-family:var(--mono); font-size:10.5px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; color:var(--amber-strong); }
+  html, body{ font-variant-numeric:tabular-nums; -webkit-font-smoothing:antialiased; }
+  .ticker-json-box, code, pre{ font-family:var(--code); }
+  /* Section labels: sentence case, bold — no tracked uppercase mono. */
+  .eyebrow{ font-family:var(--sans); font-size:13.5px; font-weight:700; letter-spacing:-0.01em; text-transform:none; color:var(--text); }
 
-  /* Pinned header: frosted page strip + floating light bar + hatched edge */
+  /* Pinned header: page-colored strip, white bar, soft shadow */
   .app-header{
-    background:color-mix(in srgb, var(--bg) 86%, transparent);
+    background:color-mix(in srgb, var(--bg) 88%, transparent);
     -webkit-backdrop-filter:saturate(1.4) blur(14px); backdrop-filter:saturate(1.4) blur(14px);
-    padding-bottom:0 !important;
   }
-  .app-header::after{
-    content:""; display:block; height:7px; margin-top:10px;
-    background:repeating-linear-gradient(135deg, var(--border-strong) 0 1px, transparent 1px 7px);
-    opacity:0.55;
-  }
-  /* Header bar in dark warm ink (2026-09-30b) — the white bar on cream paper
-     was too low-contrast. Same in both themes; contrast on the bar:
-     name 15.7:1, green "AI" 10.3:1, UPDATED label 12.2:1. */
   .hero{
-    background:#1C1713; color:#F6F0E6;
-    border:1px solid #2E2620; border-radius:20px;
-    box-shadow:0 16px 34px -20px rgba(28,23,19,0.65), inset 0 1px 0 rgba(255,255,255,0.05);
-    background-image:radial-gradient(80% 160% at 100% 100%, rgba(74,222,147,0.14) 0%, rgba(74,222,147,0) 60%);
+    background:var(--surface); color:var(--text);
+    border:1px solid transparent; border-radius:18px;
+    box-shadow:0 1px 2px rgba(16,24,40,0.06), 0 10px 26px -14px rgba(16,24,40,0.22);
   }
-  .hero .brand-mark{ background:none; border:none; padding:0; border-radius:11px; box-shadow:0 0 0 1px rgba(255,255,255,0.14); }
-  .hero .brand-mark .mark-tile{ fill:#2A231C; }
+  .hero .brand-mark{ background:none; border:none; padding:0; border-radius:11px; box-shadow:none; }
+  .hero .brand-mark .mark-tile{ fill:var(--mark-tile); }
   .hero .brand-name{
-    font-family:var(--serif); font-weight:400; font-size:25px; line-height:1;
-    letter-spacing:0.01em; color:#F6F0E6;
+    font-family:var(--sans); font-weight:800; font-size:24px; line-height:1;
+    letter-spacing:-0.035em; color:var(--text);
   }
-  .hero .brand-edge{ color:#4ADE93; font-style:italic; font-weight:400; margin-left:0.01em; }
-  .hero .data-status{ margin-top:5px; }
-  .hero #dataStatusText{
-    font-family:var(--mono); font-size:10.5px; font-weight:500; letter-spacing:0.13em;
-    text-transform:uppercase; color:#8FE8B8;
-  }
-  .hero .pulse-dot{ background:#4ADE93; box-shadow:0 0 0 3px rgba(74,222,147,0.25); }
-  .hero .pulse-dot[data-state="seed"]{ background:#B3A898; box-shadow:0 0 0 3px rgba(179,168,152,0.25); }
-  .hero .pulse-dot[data-state="error"]{ background:#FF7A6E; box-shadow:0 0 0 3px rgba(255,122,110,0.28); }
-  .hero .refresh-btn{
-    background:#F6F0E6; color:#1C1713; border:none; border-radius:11px;
-  }
-  .hero .refresh-btn:hover{ background:#FFFFFF; filter:none; }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]) .hero{ background-color:#26201A; border-color:rgba(255,255,255,0.12); }
-  }
-  :root[data-theme="dark"] .hero{ background-color:#26201A; border-color:rgba(255,255,255,0.12); }
+  .hero .brand-edge{ color:var(--amber); font-style:normal; font-weight:800; margin-left:0; }
+  .hero .data-status{ margin-top:5px; gap:6px; background:none; border:none; padding:0; height:auto; font-family:var(--sans); font-size:12.5px; }
+  .hero #dataStatusText{ font-family:var(--sans); font-weight:500; letter-spacing:0; text-transform:none; color:var(--text-faint); }
+  .hero .pulse-dot{ background:var(--accent-vivid); box-shadow:0 0 0 3px color-mix(in srgb, var(--accent-vivid) 22%, transparent); }
+  .hero .pulse-dot[data-state="seed"]{ background:var(--text-faint); box-shadow:none; }
+  .hero .pulse-dot[data-state="error"]{ background:var(--red-vivid); box-shadow:0 0 0 3px color-mix(in srgb, var(--red-vivid) 22%, transparent); }
+  .hero .refresh-btn{ background:var(--invert-bg); color:var(--invert-text); border:none; border-radius:999px; font-weight:700; }
+  .hero .refresh-btn:hover{ filter:brightness(1.15); }
 
-  /* Market tiles: mono labels, serif figures */
-  .mkt-tile{ border-width:1px; border-radius:14px; box-shadow:none; padding-top:9px; }
-  .mkt-tile.is-up{ background:color-mix(in srgb, var(--accent-vivid) 6%, var(--surface)); border-color:color-mix(in srgb, var(--accent-vivid) 38%, var(--border)); }
-  .mkt-tile.is-down{ background:color-mix(in srgb, var(--red-vivid) 6%, var(--surface)); border-color:color-mix(in srgb, var(--red-vivid) 34%, var(--border)); }
-  .mkt-label{ font-family:var(--mono); font-weight:500; letter-spacing:0.14em; color:var(--text-faint); }
-  /* Same sans + tabular figures as the rest of the app's numbers (the big
-     serif figures read as out of place next to the cards). */
-  .mkt-value{ font-family:var(--sans); font-weight:600; font-size:20px; letter-spacing:-0.01em; line-height:1.2; margin-top:3px; font-variant-numeric:tabular-nums; }
-  .mkt-change{ font-family:var(--mono); font-weight:500; font-size:12px; }
+  /* Market tiles: white, borderless, soft shadow; the change carries color */
+  .mkt-tile{ background:var(--surface); border:1px solid transparent; border-radius:14px; box-shadow:var(--shadow-sm); padding-top:9px; }
+  .mkt-tile.is-up{ background:color-mix(in srgb, var(--accent-vivid) 7%, var(--surface)); border-color:transparent; }
+  .mkt-tile.is-down{ background:color-mix(in srgb, var(--red-vivid) 6%, var(--surface)); border-color:transparent; }
+  .mkt-label{ font-family:var(--sans); font-size:11.5px; font-weight:700; letter-spacing:0.02em; color:var(--text-faint); }
+  .mkt-value{ font-family:var(--sans); font-weight:800; font-size:20px; letter-spacing:-0.02em; line-height:1.2; margin-top:2px; }
+  .mkt-change{ font-family:var(--sans); font-weight:700; font-size:12.5px; }
 
-  /* Toolbar */
-  .export-btn{ border-radius:11px; background:var(--surface); }
-  .header-top .portfolio-bar-inner{ background:var(--surface); border-radius:11px; }
-  .header-top .portfolio-bar label{
-    font-family:var(--mono); font-size:10.5px; font-weight:500; letter-spacing:0.12em;
-    text-transform:uppercase; color:var(--text-faint);
+  /* Toolbar & inputs: filled, not outlined */
+  .export-btn{ border:none; border-radius:12px; background:var(--surface); box-shadow:var(--shadow-sm); font-weight:700; }
+  .header-top .portfolio-bar-inner{ background:var(--surface); border:none; border-radius:12px; box-shadow:var(--shadow-sm); }
+  .header-top .portfolio-bar label{ font-family:var(--sans); font-size:13px; font-weight:600; letter-spacing:0; text-transform:none; color:var(--text-faint); }
+  .portfolio-bar input, .num-filter, .sort-wrap select{
+    background:var(--surface-2) !important; border:1px solid transparent !important; border-radius:10px !important;
+    font-family:var(--sans) !important; font-weight:700;
   }
+  .portfolio-bar input:focus, .num-filter:focus, .sort-wrap select:focus{ outline:none; border-color:var(--amber) !important; box-shadow:0 0 0 3px var(--amber-soft); }
 
-  /* Cards & panels: thin warm borders, softer corners, no heavy shadow */
-  .filter-card, .results-panel, .table-wrap{ border-radius:18px; box-shadow:none; }
-  .trade-card{ border-radius:14px; box-shadow:0 1px 0 rgba(60,40,20,0.04); }
-  .filter-header-btn{ border-radius:11px; }
-  .apply-btn-compact, .reset-btn-bold, .copy-btn, .track-selected-btn{ border-radius:11px; }
+  /* Panels & cards: borderless white with a soft shadow */
+  .filter-card, .results-panel, .table-wrap{ border:none; border-radius:18px; box-shadow:var(--shadow-sm); }
+  .filter-header-btn{ border:none; background:var(--surface-2); border-radius:12px; font-weight:700; }
+  .filter-header-btn[aria-expanded="true"]{ background:var(--amber-soft); box-shadow:none; color:var(--amber-strong); }
+  .filter-section{ border:none; background:var(--surface-2); border-radius:12px; }
+  .apply-btn-compact, .copy-btn, .track-selected-btn{ border-radius:12px; font-weight:700; }
+  .reset-btn-bold{ border:none; background:var(--surface-2); border-radius:12px; font-weight:700; }
+  .copy-btn{ border-color:transparent; }
+  .trade-card{ border:1px solid var(--border); border-radius:16px; box-shadow:0 1px 2px rgba(16,24,40,0.04); padding:13px 14px; }
+  .trade-card::before{ display:none; }   /* side now shown by the ticker's color */
+  .trade-card .ticker-sym{ font-weight:800 !important; letter-spacing:-0.01em; }
+  thead th{ font-family:var(--sans); font-size:12px; font-weight:700; letter-spacing:0; text-transform:none; color:var(--text-faint); }
+  .side-pill{ font-family:var(--sans); font-weight:700; }
 
-  /* Side pills become mono chips */
-  .side-pill{
-    font-family:var(--mono); font-weight:500; font-size:11px; letter-spacing:0.02em;
-    background:transparent !important; border:1px solid var(--border-strong); padding:2px 9px;
-  }
-  .trade-card-top{ gap:8px; }
-  .trade-card .side-pill{ flex-shrink:0; }
-  .side-pill.bull{ border-color:var(--amber-border); }
-  .side-pill.bear{ border-color:color-mix(in srgb, var(--red) 40%, var(--border)); }
+  /* Card second line: the trade's return is the lead number */
+  .card-ret{ font-size:16px; font-weight:800; letter-spacing:-0.02em; color:var(--green); }
+  .card-meta{ font-size:12.5px; font-weight:600; color:var(--text-faint); min-width:0; overflow:hidden; text-overflow:ellipsis; }
+  .card-oi{ font-family:var(--sans); font-size:12px; font-weight:700; }
+  .meter-score{ font-family:var(--sans); font-weight:800; }
+  .near-note{ font-family:var(--sans); font-size:12px; font-weight:600; }
 
-  /* Table header in eyebrow style */
-  thead th{ font-family:var(--mono); font-size:10px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; }
-  /* Mono chips are wider than the old pills; keep the table inside its card. */
-  tbody td .side-pill{ padding:2px 8px; }
-  tbody td, thead th{ padding-left:10px; padding-right:10px; }
-
-  /* Serif display headings */
-  .modal-title{ font-family:var(--serif); font-weight:400; font-size:28px; letter-spacing:-0.005em; line-height:1.05; }
-  .lookup-tab-label{ font-family:var(--serif); font-weight:400; font-size:38px; letter-spacing:-0.01em; line-height:1.05; margin-bottom:8px; }
-  .tracked-empty-state strong{ font-family:var(--serif); font-weight:400; font-size:26px; }
-
-  /* Ticker Lookup as a dark terminal block with a green $ prompt */
-  .lookup-tab-form{
-    max-width:460px; align-items:center; gap:6px; padding:6px;
-    background:#1C1713; border:1px solid #2E2620; border-radius:14px;
-    box-shadow:0 18px 40px -24px rgba(28,23,19,0.6);
-  }
-  .lookup-tab-form::before{
-    content:"$"; font-family:var(--mono); font-size:16px; font-weight:500; color:#4ADE93; padding-left:10px;
-  }
-  .lookup-tab-input{
-    flex:1; min-width:0; background:transparent !important; border:none !important;
-    color:#F3EDE4 !important; text-align:left; padding:0 6px !important; box-shadow:none !important;
-  }
-  .lookup-tab-input::placeholder{ color:#9C9183 !important; }
-  .lookup-tab-input:focus{ outline:none; }
-  .lookup-tab-form:focus-within{ border-color:#4ADE93; }
-  .lookup-tab-submit{ border-radius:10px; }
+  /* Headings: bold sans */
+  .modal-title{ font-family:var(--sans); font-weight:800; font-size:21px; letter-spacing:-0.025em; }
+  .lookup-tab-label{ font-family:var(--sans); font-weight:800; font-size:24px; letter-spacing:-0.03em; }
+  .tracked-empty-state strong{ font-family:var(--sans); font-weight:800; font-size:18px; }
+  .ticket-title{ font-weight:800; }
+  .ticket-leg{ font-family:var(--sans); font-weight:700; }
+  .ticket-row b, .ticket-quotes{ font-family:var(--sans); }
 
   @media (max-width: 720px){
-    .hero{ border-radius:18px; }
     .hero .brand-name{ font-size:22px; }
-    .hero #dataStatusText{ font-size:10px; letter-spacing:0.11em; }
-    .mkt-value{ font-size:15.5px; margin-top:2px; }
-    .mkt-label{ letter-spacing:0.1em; }
-    .mkt-change{ font-size:11px; }
-    .app-header::after{ margin-top:8px; height:6px; }
-    /* The card's colored left stripe already shows the side, so the chip's
-       dot is dropped on phones to keep the strategy name on one line. */
-    .trade-card .side-pill{ font-size:10.5px; letter-spacing:0; padding:1px 7px; }
-    .trade-card .side-pill .dot{ display:none; }
-    .trade-card-top{ gap:6px; }
-    .lookup-tab-label{ font-size:32px; }
-  }
-  @media (max-width: 380px){
-    .trade-card .side-pill{ font-size:10px; padding:1px 5px; }
-    .trade-card-top{ gap:4px; }
+    .mkt-value{ font-size:16px; }
+    .mkt-label{ font-size:10.5px; }
+    .mkt-change{ font-size:11.5px; }
   }
   @media (max-width: 370px){
-    .mkt-value{ font-size:14px; }
     .hero .brand-name{ font-size:20px; }
+    .mkt-value{ font-size:14.5px; }
+    .card-ret{ font-size:15px; }
   }
 
   /* Weakest-leg OI: right end of the card's top line; plain column on desktop */
@@ -1357,7 +1311,7 @@
        it as a solid badge fill behind white text, where the brighter value
        would wash out. Give just this badge a fixed, deliberately darker
        green instead of following --amber-strong. */
-    .portfolio-fab-count{ background:#0E8450; }
+    .portfolio-fab-count{ background:#0B7F47; }
     /* Same story for the red strategy/quality checkboxes: --red is
        brightened above for text legibility, but the checked-box fill needs
        a darker, more saturated red for the white checkmark to read clearly. */
@@ -1388,15 +1342,15 @@
        (--surface-2, one step lighter than --bg) they sink into it, darker
        than their own container. A dedicated shade lighter than the tray
        restores that "raised field" relationship. */
-    .portfolio-bar input{ background:#120F0C; }
+    .portfolio-bar input{ background:var(--surface-2); }
     /* The logo tile follows --mark-tile; a hairline keeps its edge visible
        against the near-black page. */
     .brand-mark .mark-edge{ stroke:rgba(255,255,255,0.10); }
     /* Solid green buttons use a deeper fill than --amber so white labels
        keep AA contrast. */
     .apply-btn-compact, .apply-btn, .lookup-tab-submit, .modal-copy-btn,
-    .ticker-add-row button, .copy-btn.has-picks{ background:#0E8450; border-color:#0E8450; color:#fff; }
-    .copy-btn.has-picks .portfolio-fab-count{ background:#fff; color:#0E8450; }
+    .ticker-add-row button, .copy-btn.has-picks{ background:#0B7F47; border-color:#0B7F47; color:#fff; }
+    .copy-btn.has-picks .portfolio-fab-count{ background:#fff; color:#0B7F47; }
   }
 
 </style>
@@ -1937,8 +1891,9 @@
             ${oiShort ? `<span class="card-oi" title="Weakest-leg open interest">OI ${oiShort}</span>` : ''}
           </div>
           <div style="display:flex; align-items:center; justify-content:space-between; gap:8px;">
-            <span style="font-family:var(--mono); font-size:11px; font-weight:700; white-space:nowrap; color:var(--text-dim);">
-              <span class="${t.roc != null ? 'val-pos' : ''}">${fmtPct(t.roc)}/${fmtPct(t.ap)}</span> · ${t.exp}·${t.dte}d${valuationBadge(t)}
+            <span style="white-space:nowrap; display:flex; align-items:baseline; gap:8px; min-width:0;">
+              <span class="card-ret" title="Trade profit">${fmtPct(t.roc)}</span>
+              <span class="card-meta">${t.exp} · ${t.dte}d${valuationBadge(t)}</span>
             </span>
             ${meterHtml(t.score)}
           </div>${nearNote}
