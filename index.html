@@ -1266,6 +1266,47 @@
     text-transform:uppercase; color:var(--text-faint); line-height:1;
   }
 
+  /* Section colors (2026-10-06b): BOLD solid fills with white text, the same
+     weight as the green Apply button. Green/red stay reserved for gain/loss.
+       blue  = Tools · Outlook & Strategy
+       teal  = Tickers · Quality
+       brown = Capital · Risk
+     --sec is the solid fill, --sec-bg the light tint used for opened panels.
+     White on fill: blue 5.6, teal 5.4, brown 7.1 (Apply green is 4.9). */
+  :root{
+    --sec-blue:#1F5FE0;  --sec-blue-bg:#DCE8FF;
+    --sec-teal:#0E7490;  --sec-teal-bg:#D5F0F5;
+    --sec-brown:#8B4513; --sec-brown-bg:#F3E2D2;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){ --sec-blue-bg:#132B57; --sec-teal-bg:#0E3440; --sec-brown-bg:#3B2414; }
+  }
+  :root[data-theme="dark"]{ --sec-blue-bg:#132B57; --sec-teal-bg:#0E3440; --sec-brown-bg:#3B2414; }
+  #toolsMenuBtn, [data-section="outlookSection"], #outlookSection{ --sec:var(--sec-blue); --sec-bg:var(--sec-blue-bg); }
+  #tickersBtn, [data-section="qualitySection"], #qualitySection{ --sec:var(--sec-teal); --sec-bg:var(--sec-teal-bg); }
+  .header-top .portfolio-bar-inner, [data-section="riskSection"], #riskSection{ --sec:var(--sec-brown); --sec-bg:var(--sec-brown-bg); }
+
+  /* Toolbar */
+  .top-actions #toolsMenuBtn, .top-actions #tickersBtn{ background:var(--sec); color:#fff; }
+  .top-actions #tickersBtn svg{ stroke:#fff; }
+  .tools-group.is-active #toolsMenuBtn{ background:var(--sec); color:#fff; box-shadow:0 0 0 3px color-mix(in srgb, var(--sec) 30%, transparent); }
+  .header-top .portfolio-bar-inner{ background:var(--sec); }
+  .header-top .portfolio-bar label{ color:#fff; }
+  .header-top .capital-field input{ background:#fff !important; color:#0E1116 !important; }
+  .header-top .capital-sym{ color:var(--sec); }
+
+  /* Filter category buttons: solid fill, white text, white count chip */
+  .filter-card .filter-header-btn[data-section]{ background:var(--sec); color:#fff; }
+  .filter-card .filter-header-btn[data-section] .summary-count{ background:#fff; color:var(--sec); }
+  .filter-card .filter-header-btn[data-section] .filter-chevron{ color:#fff; }
+  .filter-card .filter-header-btn[data-section][aria-expanded="true"]{
+    background:var(--sec); color:#fff; box-shadow:0 0 0 3px color-mix(in srgb, var(--sec) 30%, transparent);
+  }
+  /* Opened panel: a light tint of the same color */
+  .filter-card .filter-section#outlookSection, .filter-card .filter-section#qualitySection, .filter-card .filter-section#riskSection{
+    background:var(--sec-bg);
+  }
+
   /* Sort dropdown + Min profit box (2026-10-05): one matched control style —
      same height, size and weight, tinted green so they read as inputs, not
      text. High specificity so it wins over the older per-breakpoint rules. */
