@@ -1265,6 +1265,20 @@
     text-transform:uppercase; color:var(--text-faint); line-height:1;
   }
 
+  /* Card grid (2026-10-05): left column says what the trade is, right
+     column holds the numbers, right-aligned, so returns line up down the list.
+       row 1:  TICKER $price→strikes          +34.75%
+       row 2:  Strategy · exp · days          OI 187 Cheap            */
+  .tc-grid{ display:grid; grid-template-columns:minmax(0,1fr) auto; column-gap:12px; row-gap:5px; align-items:baseline; }
+  .tc-a{ font-size:15px; font-weight:800; letter-spacing:-0.01em; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-width:0; }
+  .tc-price{ font-size:12.5px; font-weight:500; color:var(--text-dim); }
+  .tc-strike{ font-size:12.5px; font-weight:700; color:var(--text); }
+  .tc-grid .card-ret{ text-align:right; font-size:19px; line-height:1.1; }
+  .tc-c{ font-size:12.5px; font-weight:600; color:var(--text-faint); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-width:0; }
+  .tc-d{ text-align:right; font-size:12.5px; font-weight:600; color:var(--text-faint); white-space:nowrap; }
+  .tc-d span[title]{ margin-left:0; }
+  .tc-d > span[style]{ font-size:12px !important; }   /* valuation label same size as OI */
+
   /* Card second line: the trade's return is the lead number */
   .card-ret{ font-size:16px; font-weight:800; letter-spacing:-0.02em; color:var(--green); }
   .card-meta{ font-size:12.5px; font-weight:600; color:var(--text-faint); min-width:0; overflow:hidden; text-overflow:ellipsis; }
@@ -1290,6 +1304,8 @@
     .hero .brand-name{ font-size:20px; }
     .mkt-value{ font-size:14.5px; }
     .card-ret{ font-size:15px; }
+    .tc-grid .card-ret{ font-size:17px; }
+    .tc-a{ font-size:14px; }
   }
 
   /* Weakest-leg OI: right end of the card's top line; plain column on desktop */
@@ -1917,15 +1933,12 @@
         <div class="trade-card${t.__near ? ' is-near' : ''}" data-idx="${idx}" role="button" tabindex="0">
           <label class="checkbox-wrap tc-check" onclick="event.stopPropagation()"><input type="checkbox" class="card-checkbox" data-oid="${oid}" ${isChecked ? 'checked' : ''}></label>
           <div class="tc-body">
-          <div class="trade-card-top">
-            <div class="ticker-sym" style="flex:1; font-size:14px;">${symHtml} <span style="color:var(--text-dim); font-weight:500; font-size:12px;">${cardPrice}</span><span style="color:var(--text); font-weight:700; font-size:12px;">${cardStrike}</span> <span style="color:var(--text-dim); font-weight:500; font-size:12px;">· ${stratShort}</span></div>
-          </div>
-          <div class="tc-bottom">
-            <span class="tc-left">
-              <span class="card-ret" title="Trade profit">${fmtPct(t.roc)}</span>
-              <span class="card-meta">${t.exp} · ${t.dte}d${oiShort ? ` · <span title="Weakest-leg open interest">OI ${oiShort}</span>` : ''}${valuationBadge(t)}</span>
-            </span>
-          </div>${nearNote}
+            <div class="tc-grid">
+              <div class="tc-a">${symHtml} <span class="tc-price">${cardPrice}</span><span class="tc-strike">${cardStrike}</span></div>
+              <div class="card-ret" title="Trade profit">${fmtPct(t.roc)}</div>
+              <div class="tc-c">${t.strat.replace(/ Spread$/, '')} · ${t.exp} · ${t.dte}d</div>
+              <div class="tc-d">${oiShort ? `<span title="Weakest-leg open interest">OI ${oiShort}</span>` : ''}${valuationBadge(t)}</div>
+            </div>${nearNote}
           </div>
         </div>`;
     });
