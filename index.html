@@ -1442,6 +1442,48 @@
   .copy-btn{ font-weight:800; }
   .active-count{ font-weight:600; color:var(--text-dim); }
 
+  /* ===== COMPACT SIZING (v70) — same colors, smaller footprint ===== */
+  .hero .brand-mark{ width:36px !important; height:36px !important; border-radius:10px; }
+  .hero .brand-name{ font-size:22px !important; }
+  .hero .data-status{ font-size:12px !important; margin-top:1px; }
+  .hero .refresh-btn{ height:30px !important; font-size:12.5px !important; padding:0 11px 0 9px; }
+  .hero .refresh-btn svg{ width:14px; height:14px; }
+  .app-header .market-tiles{ margin-top:10px; gap:6px; }
+  @media (max-width:720px){ .app-header{ padding-bottom:4px !important; } }
+  .mkt-tile{ padding:5px 3px 5px !important; border-radius:10px !important; }
+  .mkt-label{ font-size:10px !important; letter-spacing:0.02em; line-height:1.2; }
+  .mkt-value{ font-size:15px !important; line-height:1.2; margin:1px 0; }
+  .mkt-change{ font-size:10.5px !important; line-height:1.2; }
+  .top-actions .export-btn{ height:32px !important; font-size:12.5px !important; border-radius:10px; padding:0 11px; gap:5px; }
+  .top-actions .export-btn svg{ width:13px; height:13px; }
+  .header-top .portfolio-bar-inner{ height:32px !important; border-radius:10px !important; font-size:12.5px; padding-left:10px; }
+  .header-top .portfolio-bar-inner label{ font-size:12.5px; }
+  .header-top #portfolioCapital{ height:26px !important; font-size:16px; }
+  .filter-header-btn, .filter-card .filter-header-btn[data-section]{
+    min-height:38px !important; padding:4px 8px !important; font-size:12.5px !important;
+    flex-wrap:nowrap !important; justify-content:center; gap:5px !important; border-radius:10px !important; line-height:1.15;
+  }
+  .filter-header-btn > span:first-child{ flex-basis:auto !important; flex:0 1 auto; min-width:0; }
+  .summary-count{ font-size:10px !important; line-height:15px !important; padding:0 5px !important; flex:0 0 auto; }
+  .filter-header-btn .filter-chevron{ font-size:12px !important; flex:0 0 auto; }
+  .ctrl-grid #sortSelect, .ctrl-grid #minTradeProfitInput{ height:34px !important; font-size:14.5px !important; border-radius:10px; }
+  .ctrl-grid .ctrl-cell, .ctrl-grid label{ font-size:12.5px; }
+  .header-top #portfolioCapital{ font-size:14.5px !important; }
+  .apply-reset-row .apply-btn-compact, .apply-reset-row button{ min-height:34px; height:34px; font-size:13px; }
+  @media (max-width:720px){
+    .mkt-value{ font-size:14px !important; }
+    .mkt-label{ font-size:9.5px !important; }
+    .mkt-change{ font-size:10px !important; }
+    .hero .brand-mark{ width:32px !important; height:32px !important; }
+    .hero .brand-name{ font-size:19px !important; }
+    .hero .data-status{ font-size:11px !important; }
+  }
+  @media (max-width:370px){
+    .mkt-value{ font-size:13px !important; }
+    .filter-header-btn, .filter-card .filter-header-btn[data-section]{ font-size:11.5px !important; padding:4px 5px !important; }
+  }
+  @media (min-width:721px){ .mkt-value{ font-size:17px !important; } }
+
   /* Dark mode component overrides — kept at the very end of the stylesheet
      on purpose. Each of these targets a class that already has its own
      rule earlier in this file at the same specificity; CSS breaks a
