@@ -1484,6 +1484,17 @@
   }
   @media (min-width:721px){ .mkt-value{ font-size:17px !important; } }
 
+  /* ===== ONE COLUMN (v71) — filter & sort rows sit directly on the page,
+     so every row (tiles, toolbar, filters, sort, trade cards) shares the
+     same left/right edges instead of being inset inside white boxes. ===== */
+  #optionsView .filter-card, #optionsView .results-panel{
+    background:transparent !important; border:none !important; box-shadow:none !important;
+    padding:0 !important; border-radius:0 !important;
+  }
+  #optionsView .filter-card{ margin-bottom:10px; }
+  #optionsView .results-panel{ margin-bottom:8px; }
+  #optionsView .filter-card .reset-btn-bold{ background:var(--surface) !important; border:1px solid var(--border) !important; box-shadow:var(--shadow-sm); color:var(--text); }
+
   /* Dark mode component overrides — kept at the very end of the stylesheet
      on purpose. Each of these targets a class that already has its own
      rule earlier in this file at the same specificity; CSS breaks a
