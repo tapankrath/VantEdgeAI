@@ -1239,8 +1239,11 @@
      body column so the return sits directly under the ticker, and the
      score meter's right edge is the card's single right edge. OI lives in
      the second line next to the expiry instead of floating top-right. */
-  .trade-card{ display:flex; align-items:flex-start; gap:12px; }
-  .tc-check{ flex-shrink:0; margin-top:1px; }
+  .trade-card{ display:flex; align-items:center; gap:12px; }
+  .tc-check{ flex-shrink:0; }
+  /* Score in its own right-hand column spanning both lines, so its caption
+     adds no height (2026-10-05). */
+  .tc-score{ flex-shrink:0; align-self:center; }
   .tc-body{ flex:1; min-width:0; }
   .tc-body .trade-card-top{ margin-bottom:7px; }
   .tc-bottom{ display:flex; align-items:center; justify-content:space-between; gap:10px; }
@@ -1924,9 +1927,9 @@
               <span class="card-ret" title="Trade profit">${fmtPct(t.roc)}</span>
               <span class="card-meta">${t.exp} · ${t.dte}d${oiShort ? ` · <span title="Weakest-leg open interest">OI ${oiShort}</span>` : ''}${valuationBadge(t)}</span>
             </span>
-            ${meterHtml(t.score)}
           </div>${nearNote}
           </div>
+          <div class="tc-score">${meterHtml(t.score)}</div>
         </div>`;
     });
 
