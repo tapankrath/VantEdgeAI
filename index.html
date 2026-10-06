@@ -1516,6 +1516,23 @@
   }
   #optionsView .filter-card{ margin-bottom:4px; }
 
+  /* ===== COLORED CARD BORDERS (v73) — each trade card's outline matches
+     its ticker color: teal = neutral (iron condor), green = bullish,
+     red = bearish. Picked cards keep the color and add a soft ring + tint. ===== */
+  :root{ --cb-neutral:#1B8AA6; --cb-bull:#2E9E66; --cb-bear:#D9575C; }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){ --cb-neutral:#2FA3C2; --cb-bull:#2FB574; --cb-bear:#E0646A; }
+  }
+  :root[data-theme="dark"]{ --cb-neutral:#2FA3C2; --cb-bull:#2FB574; --cb-bear:#E0646A; }
+  #cardList .trade-card[data-idx]{ --cb:var(--cb-neutral); border:1.5px solid var(--cb) !important; }
+  #cardList .trade-card[data-idx]:has(.sym-bull){ --cb:var(--cb-bull); }
+  #cardList .trade-card[data-idx]:has(.sym-bear){ --cb:var(--cb-bear); }
+  #cardList .trade-card[data-idx].is-near{ border-style:dashed !important; }
+  #cardList .trade-card[data-idx]:has(.card-checkbox:checked){
+    box-shadow:0 0 0 3px color-mix(in srgb, var(--cb) 28%, transparent);
+    background:color-mix(in srgb, var(--cb) 7%, var(--surface));
+  }
+
   /* Dark mode component overrides — kept at the very end of the stylesheet
      on purpose. Each of these targets a class that already has its own
      rule earlier in this file at the same specificity; CSS breaks a
