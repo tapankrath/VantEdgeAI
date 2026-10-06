@@ -1274,7 +1274,7 @@
      --sec is the solid fill, --sec-bg the light tint used for opened panels.
      White on fill: blue 5.6, teal 5.4, brown 7.1 (Apply green is 4.9). */
   :root{
-    --sec-blue:#1F5FE0;  --sec-blue-bg:#DCE8FF;
+    --sec-blue:#1A47B8;  --sec-blue-bg:#DCE8FF;     /* deep royal blue (2026-10-06c) */
     --sec-teal:#0E7490;  --sec-teal-bg:#D5F0F5;
     --sec-brown:#8B4513; --sec-brown-bg:#F3E2D2;
   }
@@ -1305,6 +1305,22 @@
   /* Opened panel: a light tint of the same color */
   .filter-card .filter-section#outlookSection, .filter-card .filter-section#qualitySection, .filter-card .filter-section#riskSection{
     background:var(--sec-bg);
+  }
+
+  /* Market tiles (2026-10-06c): a clearly visible green/red fill + outline
+     so they stand apart from the page; prices stay near-black. */
+  .mkt-tile{ border:1.5px solid transparent !important; }
+  .mkt-tile.is-up{ background:#CDEFD9 !important; border-color:#7ACB9C !important; }
+  .mkt-tile.is-down{ background:#FAD2D2 !important; border-color:#E59A9A !important; }
+  .mkt-tile.is-up .mkt-change{ color:#006B3C; }
+  .mkt-tile.is-down .mkt-change{ color:#B4232A; }
+  .mkt-tile .mkt-label{ color:#3A4150; }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]) .mkt-tile.is-up{ background:#12402A !important; border-color:#2C7A52 !important; }
+    :root:not([data-theme="light"]) .mkt-tile.is-down{ background:#4A1A1E !important; border-color:#8E3A40 !important; }
+    :root:not([data-theme="light"]) .mkt-tile.is-up .mkt-change{ color:#4BE59A; }
+    :root:not([data-theme="light"]) .mkt-tile.is-down .mkt-change{ color:#FF8A8A; }
+    :root:not([data-theme="light"]) .mkt-tile .mkt-label{ color:#C6CCD5; }
   }
 
   /* Sort dropdown + Min profit box (2026-10-05): one matched control style —
