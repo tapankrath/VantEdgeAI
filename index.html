@@ -1493,7 +1493,28 @@
   }
   #optionsView .filter-card{ margin-bottom:10px; }
   #optionsView .results-panel{ margin-bottom:8px; }
-  #optionsView .filter-card .reset-btn-bold{ background:var(--surface) !important; border:1px solid var(--border) !important; box-shadow:var(--shadow-sm); color:var(--text); }
+  #optionsView .reset-btn-bold{ background:var(--surface) !important; border:1px solid var(--border) !important; box-shadow:var(--shadow-sm); color:var(--text); }
+
+  /* ===== PINNED APPLY / RESET (v72) — the row is a direct child of the
+     options view, so it sticks under the pinned header (top) while you
+     scroll the list, and above the Review Picks bar (bottom) while a filter
+     panel is open. Its page-colored band reaches into the side gutters so
+     cards scrolling under it are hidden cleanly. ===== */
+  #optionsView > .apply-reset-row{
+    position:sticky; top:var(--pin-top, 0px); bottom:var(--sticky-actions-bottom, 0px);
+    z-index:30; margin:0 0 10px; padding:6px 0;
+    background:var(--bg);
+    box-shadow:-14px 0 0 var(--bg), 14px 0 0 var(--bg);
+  }
+  #optionsView > .apply-reset-row.is-stuck,
+  #optionsView > .apply-reset-row.is-pinned{
+    padding:6px 0; background:var(--bg);
+    box-shadow:-14px 0 0 var(--bg), 14px 0 0 var(--bg), 0 8px 12px -10px rgba(16,24,40,0.35);
+  }
+  #optionsView > .apply-reset-row.is-stuck{
+    box-shadow:-14px 0 0 var(--bg), 14px 0 0 var(--bg), 0 -8px 12px -10px rgba(16,24,40,0.35);
+  }
+  #optionsView .filter-card{ margin-bottom:4px; }
 
   /* Dark mode component overrides — kept at the very end of the stylesheet
      on purpose. Each of these targets a class that already has its own
@@ -1707,31 +1728,32 @@
       </div>
     </div>
 
-    <!-- Apply / Reset (moved 2026-09-29) sit AFTER the filter sections and are
-         position:sticky to the bottom: with every section closed they land
-         right under the 3 category buttons as before, but while a section is
-         open they ride just above the Review Picks bar, so you can apply or
-         reset from anywhere in the checkbox list. -->
-    <div class="apply-reset-row" id="applyResetRow">
-      <button class="apply-btn-compact" type="button" id="applyFiltersTop">Apply filters</button>
-      <button class="reset-btn-bold" id="resetFilters">Reset to defaults</button>
-    </div>
+  </div>
 
-    <div class="apply-bar">
-      <!-- Reset to defaults moved up next to Apply filters (2026-09-27) —
-           it's a filtering action, not a portfolio one, so it belongs by
-           Apply rather than by View Summary. This row is now just View
-           Summary on its own. -->
-      <div class="apply-bar-row">
-        <button class="copy-btn" id="portfolioSummaryBtn" style="flex:1;">Review Picks <span class="portfolio-fab-count" id="portfolioSelectedCount">0</span></button>
-        <!-- "Track N for Backtest" lives here next to Review Picks (moved
-             2026-09-27 from the results card) and only shows once at least one
-             option trade is selected — see updateSelectionUI. -->
-        <button class="track-selected-btn" id="trackSelectedBtn" style="display:none;">Track <span id="trackSelectedCount">0</span> for Backtest</button>
-      </div>
-      <div class="apply-bar-row2">
-        <span class="active-count" id="activeCountLabel">2 filters active</span>
-      </div>
+    <!-- Apply / Reset (moved 2026-09-29) sit AFTER the filter sections and are
+       position:sticky to the bottom: with every section closed they land
+       right under the 3 category buttons as before, but while a section is
+       open they ride just above the Review Picks bar, so you can apply or
+       reset from anywhere in the checkbox list. -->
+  <div class="apply-reset-row" id="applyResetRow">
+    <button class="apply-btn-compact" type="button" id="applyFiltersTop">Apply filters</button>
+    <button class="reset-btn-bold" id="resetFilters">Reset to defaults</button>
+  </div>
+
+  <div class="apply-bar">
+    <!-- Reset to defaults moved up next to Apply filters (2026-09-27) —
+         it's a filtering action, not a portfolio one, so it belongs by
+         Apply rather than by View Summary. This row is now just View
+         Summary on its own. -->
+    <div class="apply-bar-row">
+      <button class="copy-btn" id="portfolioSummaryBtn" style="flex:1;">Review Picks <span class="portfolio-fab-count" id="portfolioSelectedCount">0</span></button>
+      <!-- "Track N for Backtest" lives here next to Review Picks (moved
+           2026-09-27 from the results card) and only shows once at least one
+           option trade is selected — see updateSelectionUI. -->
+      <button class="track-selected-btn" id="trackSelectedBtn" style="display:none;">Track <span id="trackSelectedCount">0</span> for Backtest</button>
+    </div>
+    <div class="apply-bar-row2">
+      <span class="active-count" id="activeCountLabel">2 filters active</span>
     </div>
   </div>
 
@@ -2846,7 +2868,7 @@
     } else {
       showToast(`Filters applied — ${filtered.length} setup${filtered.length===1?'':'s'} found`);
     }
-    document.querySelector('.results-bar').scrollIntoView({ behavior:'smooth', block:'start' });
+    // No auto-scroll (2026-10-06): the page stays where you are; Apply/Reset are pinned.
   }
 
   // The exact state Apply/Reset return to — edit this if your "sensible defaults" change.
@@ -2883,13 +2905,6 @@
 
   document.getElementById('applyFiltersTop').addEventListener('click', ()=>{
     applyFilters();
-    // Sections collapse on apply; if you tapped Apply from deep in a long
-    // list, bring the (now short) filter card back under the header so the
-    // refreshed results are right below it.
-    const card = document.querySelector('#optionsView .filter-card');
-    const header = document.querySelector('.app-header');
-    const top = card.getBoundingClientRect().top - header.getBoundingClientRect().height - 10;
-    if(top < 0) window.scrollBy({ top, behavior: 'smooth' });
   });
 
   // Min trade profit's own live update — deliberately lighter than
@@ -2960,7 +2975,13 @@
         offset = next;
         document.documentElement.style.setProperty('--sticky-actions-bottom', offset + 'px');
       }
-      if(row.offsetParent === null){ row.classList.remove('is-stuck'); return; }
+      const hdr = document.querySelector('.app-header');
+      const pinTop = hdr && getComputedStyle(hdr).position === 'sticky' ? Math.round(hdr.getBoundingClientRect().height) : 0;
+      document.documentElement.style.setProperty('--pin-top', pinTop + 'px');
+      if(row.offsetParent === null){ row.classList.remove('is-stuck','is-pinned'); return; }
+      const card = document.querySelector('#optionsView .filter-card');
+      const rTop = row.getBoundingClientRect().top;
+      row.classList.toggle('is-pinned', !!card && rTop <= pinTop + 1 && card.getBoundingClientRect().bottom < rTop - 6);
       const rowBottom = row.getBoundingClientRect().bottom;
       const limit = window.innerHeight - offset;
       row.classList.toggle('is-stuck', rowBottom >= limit - 1);
