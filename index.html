@@ -1265,6 +1265,15 @@
     text-transform:uppercase; color:var(--text-faint); line-height:1;
   }
 
+  /* Phone list header: insets match the card (1px border + 14px padding,
+     plus the checkbox column) so its labels sit over the card columns. */
+  .list-head{
+    display:flex; justify-content:space-between; align-items:baseline;
+    padding:2px 15px 0 0; margin-bottom:-2px;
+    font-size:12px; font-weight:700; color:var(--text-faint);
+  }
+  .list-head > span:first-child{ padding-left:var(--list-head-indent, 46px); }
+
   /* Card grid (2026-10-05): left column says what the trade is, right
      column holds the numbers, right-aligned, so returns line up down the list.
        row 1:  TICKER $price→strikes          +34.75%
@@ -1874,6 +1883,10 @@
     if(list.length === 0){
       tbody.innerHTML = `<tr><td colspan="8" style="padding:32px 14px; text-align:center; color:var(--text-dim); font-weight:700; font-size:14px;">No setups match these filters. Try loosening the reward or risk thresholds.</td></tr>`;
       cardList.innerHTML = `<div class="trade-card" style="text-align:center; color:var(--text-dim); font-weight:700; font-size:14px;">No setups match these filters. Try loosening the reward or risk thresholds.</div>`;
+    } else {
+      // Column header for the phone card list (2026-10-05): count on the
+      // left over the tickers, "Trade profit" on the right over the returns.
+      cardList.innerHTML = `<div class="list-head" aria-hidden="true"><span>${exactCount} ${exactCount === 1 ? 'trade' : 'trades'}</span><span>Trade profit</span></div>`;
     }
 
     list.forEach((t, idx)=>{
