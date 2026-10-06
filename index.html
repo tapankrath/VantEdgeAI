@@ -1610,7 +1610,6 @@
           <th>Ann. Return</th>
           <th>IV Rank</th>
           <th title="Open interest of the trade's weakest leg">OI</th>
-          <th>Composite</th>
           <th></th>
         </tr>
       </thead>
@@ -1857,7 +1856,7 @@
     cardList.innerHTML = '';
 
     if(list.length === 0){
-      tbody.innerHTML = `<tr><td colspan="9" style="padding:32px 14px; text-align:center; color:var(--text-dim); font-weight:700; font-size:14px;">No setups match these filters. Try loosening the reward or risk thresholds.</td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="8" style="padding:32px 14px; text-align:center; color:var(--text-dim); font-weight:700; font-size:14px;">No setups match these filters. Try loosening the reward or risk thresholds.</td></tr>`;
       cardList.innerHTML = `<div class="trade-card" style="text-align:center; color:var(--text-dim); font-weight:700; font-size:14px;">No setups match these filters. Try loosening the reward or risk thresholds.</div>`;
     }
 
@@ -1865,7 +1864,7 @@
       if(idx === exactCount && near.length){
         const head = exactCount === 0 ? 'No matches — near misses only' : 'Near misses — not matches';
         const sub = 'Each falls just short of a number threshold (see “Misses”). Not a recommendation at your settings.';
-        tbody.innerHTML += `<tr class="near-divider"><td colspan="9"><span class="eyebrow">${head}</span><span class="near-sub">${sub}</span></td></tr>`;
+        tbody.innerHTML += `<tr class="near-divider"><td colspan="8"><span class="eyebrow">${head}</span><span class="near-sub">${sub}</span></td></tr>`;
         cardList.innerHTML += `<div class="near-divider"><span class="eyebrow">${head}</span><span class="near-sub">${sub}</span></div>`;
       }
       const nearNote = t.__near ? `<div class="near-note">Misses: ${t.__near.join(' · ')}</div>` : '';
@@ -1900,7 +1899,6 @@
           <td class="num ${t.ap != null ? 'val-pos' : ''}">${fmtPct(t.ap)}</td>
           <td class="num">${t.ivr}${limitedHistoryMark(t.ivRankLimited)}</td>
           <td class="num oi-cell" title="Weakest-leg open interest">${oiFull}</td>
-          <td>${meterHtml(t.score)}</td>
           <td><button class="row-action" data-idx="${idx}">View</button></td>
         </tr>`;
 
@@ -1929,7 +1927,6 @@
             </span>
           </div>${nearNote}
           </div>
-          <div class="tc-score">${meterHtml(t.score)}</div>
         </div>`;
     });
 
@@ -1951,6 +1948,7 @@
   //     in the table) rather than filtered, since 2026-10-02;
   //   - shown under their own divider, dashed, each with a "Misses:" line.
   const MIN_RESULTS = 5;
+  const MIN_SCORE = 6;
   function thresholdValues(){
     const num = id => parseFloat(document.getElementById(id).value);
     const mp = Math.max(0, num('minTradeProfitInput') || 0);
@@ -2001,7 +1999,11 @@
 
     // Staged funnel — each stage narrows the previous one, so you can see exactly
     // which filter category is doing the eliminating instead of just a final count.
-    let pool = trades;
+    // Quality floor (2026-10-05): only trades with a composite score of
+    // MIN_SCORE or more are listed at all — near misses included. The score
+    // itself is no longer shown in the list (it's in each trade's details
+    // and still drives the "Composite rating" sort).
+    let pool = trades.filter(t => t.score != null && Number(t.score) >= MIN_SCORE);
     const funnel = [{ label:'All setups', count: pool.length }];
 
     if(activeStrats.length || pcoiChecks.length || pcvolChecks.length){
