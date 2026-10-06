@@ -1268,20 +1268,21 @@
 
   /* Section colors (2026-10-06b): BOLD solid fills with white text, the same
      weight as the green Apply button. Green/red stay reserved for gain/loss.
-       blue  = Tools · Outlook & Strategy
+       green = Tools · Outlook & Strategy (same as Apply filters)
        teal  = Tickers · Quality
        brown = Capital · Risk
      --sec is the solid fill, --sec-bg the light tint used for opened panels.
      White on fill: blue 5.6, teal 5.4, brown 7.1 (Apply green is 4.9). */
   :root{
-    --sec-blue:#1A47B8;  --sec-blue-bg:#DCE8FF;     /* deep royal blue (2026-10-06c) */
+    /* 'blue' slot now uses the Apply-filters green (2026-10-06e) */
+    --sec-blue:#00824A;  --sec-blue-bg:#E2F4EA;
     --sec-teal:#0E7490;  --sec-teal-bg:#D5F0F5;
     --sec-brown:#8B4513; --sec-brown-bg:#F3E2D2;
   }
   @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){ --sec-blue-bg:#132B57; --sec-teal-bg:#0E3440; --sec-brown-bg:#3B2414; }
+    :root:not([data-theme="light"]){ --sec-blue:#0B7F47; --sec-blue-bg:#0F2E1E; --sec-teal-bg:#0E3440; --sec-brown-bg:#3B2414; }
   }
-  :root[data-theme="dark"]{ --sec-blue-bg:#132B57; --sec-teal-bg:#0E3440; --sec-brown-bg:#3B2414; }
+  :root[data-theme="dark"]{ --sec-blue:#0B7F47; --sec-blue-bg:#0F2E1E; --sec-teal-bg:#0E3440; --sec-brown-bg:#3B2414; }
   #toolsMenuBtn, [data-section="outlookSection"], #outlookSection{ --sec:var(--sec-blue); --sec-bg:var(--sec-blue-bg); }
   #tickersBtn, [data-section="qualitySection"], #qualitySection{ --sec:var(--sec-teal); --sec-bg:var(--sec-teal-bg); }
   .header-top .portfolio-bar-inner, [data-section="riskSection"], #riskSection{ --sec:var(--sec-brown); --sec-bg:var(--sec-brown-bg); }
@@ -1428,6 +1429,18 @@
   .trade-card.is-near{ border-style:dashed; }
   tr.is-near{ opacity:0.92; }
   .near-note{ margin-top:6px; font-family:var(--mono); font-size:11px; font-weight:500; color:var(--text-faint); }
+
+  /* Bolder, darker text in the list area (2026-10-06d) to match the bold
+     section colors above. Green/red tickers and returns are unchanged. */
+  .sym-neutral{ color:var(--text); }
+  .tc-a{ font-weight:800; }
+  .tc-price{ font-weight:600; color:var(--text); }
+  .tc-strike{ font-weight:800; }
+  .tc-c, .tc-d{ font-weight:700; color:var(--text-dim); }
+  .list-head{ font-size:12.5px; font-weight:800; color:var(--text); }
+  .ctrl-cell, .ctrl-cell > span{ font-weight:700; color:var(--text); }
+  .copy-btn{ font-weight:800; }
+  .active-count{ font-weight:600; color:var(--text-dim); }
 
   /* Dark mode component overrides — kept at the very end of the stylesheet
      on purpose. Each of these targets a class that already has its own
