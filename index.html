@@ -1254,6 +1254,13 @@
     min-width:0; padding:2px 8px; border-radius:999px; font-size:13px;
     background:var(--amber-soft); color:var(--amber-strong);
   }
+  /* Small "Score" caption above the pill so the number explains itself. */
+  .meter-cap{ display:none; }
+  .trade-card .meter{ flex-direction:column; align-items:center; gap:2px; }
+  .trade-card .meter-cap{
+    display:block; font-size:9.5px; font-weight:700; letter-spacing:0.04em;
+    text-transform:uppercase; color:var(--text-faint); line-height:1;
+  }
 
   /* Card second line: the trade's return is the lead number */
   .card-ret{ font-size:16px; font-weight:800; letter-spacing:-0.02em; color:var(--green); }
@@ -1817,7 +1824,9 @@
   function meterHtml(score){
     let ticks = '';
     for(let i=1;i<=10;i++){ ticks += `<span class="${i<=score?'on':''}"></span>`; }
-    return `<div class="meter"><div class="meter-ticks">${ticks}</div><span class="meter-score">${Number(score).toFixed(1)}</span></div>`;
+    const v = Number(score).toFixed(1);
+    // "Score" caption shows only on phone cards (the desktop column header already says Composite).
+    return `<div class="meter" title="Composite score: ${v} out of 10" aria-label="Composite score ${v} out of 10"><span class="meter-cap">Score</span><div class="meter-ticks">${ticks}</div><span class="meter-score">${v}</span></div>`;
   }
 
   // Shared between trade cards/table/modal AND equity cards/table/modal —
