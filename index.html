@@ -975,7 +975,8 @@
     .sort-wrap select{ font-size:13px; height:32px; padding:0 6px; min-width:0; flex:0 1 auto; }
     /* Phones: 2x2 — equal columns; each cell's label sits left, box right,
        so labels align down the left and boxes down the right of each column. */
-    .ctrl-grid{ grid-template-columns:1fr 1fr; justify-content:stretch; gap:8px 14px; }
+    /* Phones: dropdown takes all the room the Min profit label + box don't need. */
+    .ctrl-grid{ grid-template-columns:minmax(0,1fr) auto; justify-content:stretch; gap:8px 14px; }
     .ctrl-cell{ font-size:12.5px; gap:6px; }
     .num-filter{ width:52px; height:32px; padding:6px 3px; }
     .sticky-top{ gap:8px; padding-top:8px; padding-bottom:0; }
@@ -1263,6 +1264,24 @@
   .trade-card .meter-cap{
     display:block; font-size:9.5px; font-weight:700; letter-spacing:0.04em;
     text-transform:uppercase; color:var(--text-faint); line-height:1;
+  }
+
+  /* Sort dropdown + Min profit box (2026-10-05): one matched control style —
+     same height, size and weight, tinted green so they read as inputs, not
+     text. High specificity so it wins over the older per-breakpoint rules. */
+  .ctrl-grid #sortSelect, .ctrl-grid #minTradeProfitInput{
+    height:40px !important; box-sizing:border-box;
+    font-family:var(--sans) !important; font-size:16px !important; font-weight:700 !important;
+    color:var(--amber-strong) !important;
+    background-color:var(--amber-soft) !important;
+    border:1px solid color-mix(in srgb, var(--amber) 22%, transparent) !important;
+    border-radius:10px !important;
+  }
+  .ctrl-grid #sortSelect{ padding:0 12px !important; }
+  .ctrl-grid #minTradeProfitInput{ width:64px !important; padding:0 6px !important; text-align:center; }
+  @media (max-width: 380px){
+    .ctrl-grid #sortSelect, .ctrl-grid #minTradeProfitInput{ font-size:15px !important; }
+    .ctrl-grid #minTradeProfitInput{ width:56px !important; }
   }
 
   /* Phone list header: insets match the card (1px border + 14px padding,
@@ -1609,11 +1628,11 @@
       <div class="sort-wrap ctrl-grid">
         <div class="ctrl-cell ctrl-sort">
           <select id="sortSelect" aria-label="Sort by">
-            <option value="score">Composite rating</option>
+            <option value="score">Rating</option>
             <option value="ap">Annualized profit</option>
             <option value="roc">Trade profit</option>
-            <option value="pot">Probability of touch</option>
-            <option value="dte" selected>Days to expiration</option>
+            <option value="pot">Prob. of touch</option>
+            <option value="dte" selected>Expiration</option>
           </select>
         </div>
         <label class="ctrl-cell" for="minTradeProfitInput"><span>Min profit %</span>
@@ -2028,7 +2047,7 @@
     // Quality floor (2026-10-05): only trades with a composite score of
     // MIN_SCORE or more are listed at all — near misses included. The score
     // itself is no longer shown in the list (it's in each trade's details
-    // and still drives the "Composite rating" sort).
+    // and still drives the "Rating" sort).
     let pool = trades.filter(t => t.score != null && Number(t.score) >= MIN_SCORE);
     const funnel = [{ label:'All setups', count: pool.length }];
 
