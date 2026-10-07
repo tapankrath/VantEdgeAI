@@ -1533,6 +1533,14 @@
     background:color-mix(in srgb, var(--cb) 7%, var(--surface));
   }
 
+  /* ===== MATCHING APPLY / RESET (v74) — both white with bold dark text. ===== */
+  #optionsView #applyFiltersTop, #optionsView #resetFilters{
+    background:var(--surface) !important; color:var(--text) !important;
+    border:1px solid var(--border-strong) !important; box-shadow:var(--shadow-sm) !important;
+    font-weight:800 !important; filter:none !important;
+  }
+  #optionsView #applyFiltersTop:active, #optionsView #resetFilters:active{ background:var(--surface-2) !important; }
+
   /* Dark mode component overrides — kept at the very end of the stylesheet
      on purpose. Each of these targets a class that already has its own
      rule earlier in this file at the same specificity; CSS breaks a
