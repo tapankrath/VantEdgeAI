@@ -1541,6 +1541,20 @@
   }
   #optionsView #applyFiltersTop:active, #optionsView #resetFilters:active{ background:var(--surface-2) !important; }
 
+  /* ===== FOLDED NEAR MISSES (v75) ===== */
+  html:not(.show-near) .trade-card.is-near, html:not(.show-near) tr.is-near{ display:none !important; }
+  .near-divider{ display:flex; flex-direction:column; align-items:stretch; gap:8px; padding:6px 0 10px !important; }
+  tr.near-divider td{ background:transparent !important; }
+  .near-lead{ font-size:15px; font-weight:800; color:var(--text); text-align:center; padding:10px 0 2px; }
+  .near-toggle{
+    display:block; width:100%; min-height:40px; padding:8px 12px; border-radius:12px; cursor:pointer;
+    background:transparent; border:1.5px dashed var(--border-strong); color:var(--text-dim);
+    font-family:var(--sans); font-size:13.5px; font-weight:700;
+  }
+  .near-toggle[aria-expanded="true"]{ color:var(--text); }
+  .near-caret{ font-size:11px; margin-left:4px; }
+  .near-note{ font-family:var(--sans) !important; font-size:12px !important; font-weight:600 !important; color:var(--text-dim) !important; }
+
   /* Dark mode component overrides — kept at the very end of the stylesheet
      on purpose. Each of these targets a class that already has its own
      rule earlier in this file at the same specificity; CSS breaks a
@@ -2080,12 +2094,16 @@
 
     list.forEach((t, idx)=>{
       if(idx === exactCount && near.length){
-        const head = exactCount === 0 ? 'No matches — near misses only' : 'Near misses — not matches';
-        const sub = 'Each falls just short of a number threshold (see “Misses”). Not a recommendation at your settings.';
-        tbody.innerHTML += `<tr class="near-divider"><td colspan="8"><span class="eyebrow">${head}</span><span class="near-sub">${sub}</span></td></tr>`;
-        cardList.innerHTML += `<div class="near-divider"><span class="eyebrow">${head}</span><span class="near-sub">${sub}</span></div>`;
+        // Near misses are folded away behind a tap (2026-10-07) so the list
+        // only ever shows trades that pass your settings.
+        const { mp } = thresholdValues();
+        const lead = exactCount === 0 ? `Nothing meets your ${mp}% min profit right now.` : '';
+        const label = `${nearOpen ? 'Hide' : 'Show'} ${near.length} closest — below your ${mp}% min`;
+        const btn = `<button type="button" class="near-toggle" aria-expanded="${nearOpen}">${label} <span class="near-caret">${nearOpen ? '▴' : '▾'}</span></button>`;
+        tbody.innerHTML += `<tr class="near-divider"><td colspan="8">${lead ? `<span class="near-lead">${lead}</span>` : ''}${btn}</td></tr>`;
+        cardList.innerHTML += `<div class="near-divider">${lead ? `<span class="near-lead">${lead}</span>` : ''}${btn}</div>`;
       }
-      const nearNote = t.__near ? `<div class="near-note">Misses: ${t.__near.join(' · ')}</div>` : '';
+      const nearNote = t.__near ? `<div class="near-note">Not a match: ${t.__near.join(' · ')}</div>` : '';
       // Side shown by coloring the ticker itself (2026-10-01) — replaces the
       // Bullish/Bearish/Neutral chip and the table's Side column.
       const sideName = t.side==='bull' ? 'Bullish' : t.side==='bear' ? 'Bearish' : 'Neutral';
@@ -2163,6 +2181,20 @@
   //     in the table) rather than filtered, since 2026-10-02;
   //   - shown under their own divider, dashed, each with a "Misses:" line.
   const MIN_RESULTS = 5;
+  var nearOpen = false;
+  function syncNearOpen(){
+    document.documentElement.classList.toggle('show-near', nearOpen);
+    document.querySelectorAll('.near-toggle').forEach(b => {
+      b.setAttribute('aria-expanded', String(nearOpen));
+      b.innerHTML = b.innerHTML.replace(/^(Show|Hide)/, nearOpen ? 'Hide' : 'Show').replace(/[▾▴]/, nearOpen ? '▴' : '▾');
+    });
+  }
+  document.addEventListener('click', e => {
+    const b = e.target.closest('.near-toggle');
+    if(!b) return;
+    e.preventDefault(); e.stopPropagation();
+    nearOpen = !nearOpen; syncNearOpen();
+  }, true);
   const MIN_SCORE = 6;
   function thresholdValues(){
     const num = id => parseFloat(document.getElementById(id).value);
@@ -2178,7 +2210,7 @@
     if(!(t.roc > mp)){
       if(mp > 0 && t.roc < mp / 2) return null;
       shortfall += mp > 0 ? (mp - t.roc) / mp : 0;
-      reasons.push(`profit ${t.roc}% ≤ ${mp}%`);
+      reasons.push(`${t.roc}% profit is below your ${mp}% min`);
     }
     return { shortfall, reasons };
   }
@@ -2881,6 +2913,7 @@
   }
 
   function applyFilters(){
+    nearOpen = false; syncNearOpen();
     const prevCount = currentList.length;
     const filtered = sortTrades(computeFiltered());
     render(filtered);
