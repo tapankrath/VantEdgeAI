@@ -1555,6 +1555,14 @@
   .near-caret{ font-size:11px; margin-left:4px; }
   .near-note{ font-family:var(--sans) !important; font-size:12px !important; font-weight:600 !important; color:var(--text-dim) !important; }
 
+  /* ===== SQUARE CORNERS (v76) — every rounded/pill shape becomes a crisp
+     rectangle (3px). The :not(#_) pairs only raise specificity so this wins
+     over the earlier id-based !important radius rules. The live "Updated"
+     status dot stays round. ===== */
+  html *:not(#_):not(#_), html *:not(#_):not(#_)::before, html *:not(#_):not(#_)::after{ border-radius:3px !important; }
+  html .pulse-dot:not(#_):not(#_){ border-radius:50% !important; }
+  html .hero .brand-mark:not(#_):not(#_){ border-radius:6px !important; }
+
   /* Dark mode component overrides — kept at the very end of the stylesheet
      on purpose. Each of these targets a class that already has its own
      rule earlier in this file at the same specificity; CSS breaks a
