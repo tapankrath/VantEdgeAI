@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-09T23:26:39.202324+00:00",
+  "generated_at": "2026-10-10T01:47:39.162252+00:00",
   "positions": [
     {
       "id": "AAPL|Iron_Condor|2026-10-16|$318/322/355/360",
       "status": "open",
-      "dteRemaining": 7,
-      "lastUpdated": "2026-10-09T23:26:38.886556+00:00",
+      "dteRemaining": 6,
+      "lastUpdated": "2026-10-10T01:47:38.746997+00:00",
       "currentPremium": 0.34,
       "pnlDollars": 117.0,
       "pnlPct": 77.48,
@@ -100,6 +100,13 @@
           "premium": 0.52,
           "pnlDollars": 99.0,
           "pnlPct": 65.56
+        },
+        {
+          "date": "2026-10-10",
+          "dte": 6,
+          "premium": 0.34,
+          "pnlDollars": 117.0,
+          "pnlPct": 77.48
         }
       ]
     },
@@ -173,7 +180,7 @@
           "pnlPct": 99.35
         }
       ],
-      "dteRemaining": -4,
+      "dteRemaining": -5,
       "status": "expired",
       "lastUpdated": "2026-10-05T21:17:05.216399+00:00"
     },
@@ -226,15 +233,15 @@
           "pnlPct": 89.68
         }
       ],
-      "dteRemaining": -7,
+      "dteRemaining": -8,
       "status": "expired",
       "lastUpdated": "2026-10-02T23:10:18.985571+00:00"
     },
     {
       "id": "SPCX|Iron_Condor|2026-10-30|$125/134/172/180",
       "status": "open",
-      "dteRemaining": 21,
-      "lastUpdated": "2026-10-09T23:26:39.016856+00:00",
+      "dteRemaining": 20,
+      "lastUpdated": "2026-10-10T01:47:39.003853+00:00",
       "currentPremium": 1.73,
       "pnlDollars": 65.0,
       "pnlPct": 27.31,
@@ -329,14 +336,21 @@
           "premium": 1.71,
           "pnlDollars": 67.0,
           "pnlPct": 28.15
+        },
+        {
+          "date": "2026-10-10",
+          "dte": 20,
+          "premium": 1.73,
+          "pnlDollars": 65.0,
+          "pnlPct": 27.31
         }
       ]
     },
     {
       "id": "LLY|Bear_Call_Spread|2026-10-23|$1280/1290",
       "status": "open",
-      "dteRemaining": 14,
-      "lastUpdated": "2026-10-09T23:26:39.202281+00:00",
+      "dteRemaining": 13,
+      "lastUpdated": "2026-10-10T01:47:39.162206+00:00",
       "currentPremium": -0.32,
       "pnlDollars": 284.0,
       "pnlPct": 112.7,
@@ -431,6 +445,13 @@
           "premium": 0.88,
           "pnlDollars": 164.0,
           "pnlPct": 65.08
+        },
+        {
+          "date": "2026-10-10",
+          "dte": 13,
+          "premium": -0.32,
+          "pnlDollars": 284.0,
+          "pnlPct": 112.7
         }
       ]
     },
@@ -483,7 +504,7 @@
           "pnlPct": 78.65
         }
       ],
-      "dteRemaining": -7,
+      "dteRemaining": -8,
       "status": "expired",
       "lastUpdated": "2026-10-02T23:10:19.488056+00:00"
     }
