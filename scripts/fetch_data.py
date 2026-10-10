@@ -105,6 +105,9 @@ def load_universe():
             "generated_at": generated,
             "size": len(symbols),
             "criteria": cfg.get("criteria"),
+            "momentum": [m.get("symbol") for m in cfg.get("momentum") or [] if isinstance(m, dict)],
+            "pinnedWeak": [p.get("symbol") for p in cfg.get("pinnedReport") or []
+                           if isinstance(p, dict) and p.get("options") in ("thin", "none")],
         }
         try:
             age_days = (datetime.now(timezone.utc) - datetime.fromisoformat(generated)).days
@@ -676,13 +679,19 @@ def liquidity_summary(legs, calls, puts):
     """
     min_oi, worst, no_quote = None, 0.0, False
     mid_net, fill_net = 0.0, 0.0
+    weak_leg, leg_quotes = None, []
     for leg in legs or []:
         chain = calls if leg.get("type") == "call" else puts
         match = chain[chain["strike"] == leg.get("strike")]
         if match.empty:
             no_quote = True
             continue
-        _, _, mid, width, oi = leg_quote(match.iloc[0])
+        bid, ask, mid, width, oi = leg_quote(match.iloc[0])
+        # per-leg quote for the trade's order ticket (2026-10-05)
+        leg_quotes.append({"type": leg.get("type"), "strike": leg.get("strike"), "action": leg.get("action"),
+                           "bid": round(bid, 2), "ask": round(ask, 2), "oi": int(oi)})
+        if min_oi is None or oi < min_oi:
+            weak_leg = {"type": leg.get("type"), "strike": leg.get("strike"), "action": leg.get("action")}
         min_oi = oi if min_oi is None else min(min_oi, oi)
         if mid <= 0:
             no_quote = True
@@ -696,6 +705,8 @@ def liquidity_summary(legs, calls, puts):
         "worstSpreadPct": None if no_quote else round(worst * 100, 1),
         "midPremium": None if no_quote else round(abs(mid_net), 2),
         "fillPremium": None if no_quote else round(abs(fill_net), 2),
+        "weakLeg": weak_leg,       # which leg the minOI belongs to
+        "legQuotes": leg_quotes,   # bid / ask / OI per leg
     }
 
 
@@ -761,17 +772,108 @@ def rank_expirations(expirations, today):
     in_window on its own merits first.
     """
     target_mid = (TARGET_DTE_MIN + TARGET_DTE_MAX) / 2
-    in_window, outside_window = [], []
+    listed = set(expirations)
+    in_window, off_cycle, outside_window = [], [], []
     for exp_str in expirations:
         exp_date = datetime.strptime(exp_str, "%Y-%m-%d").date()
         dte = (exp_date - today).days
         if dte <= 0:
             continue
         diff = abs(dte - target_mid)
-        (in_window if TARGET_DTE_MIN <= dte <= TARGET_DTE_MAX else outside_window).append((diff, exp_str, dte))
+        if TARGET_DTE_MIN <= dte <= TARGET_DTE_MAX:
+            # Friday-cycle preference (2026-10-05): mega-caps now list Monday
+            # and Wednesday expirations with a fraction of the open interest
+            # of the Friday weeklies/monthlies — and because candidates are
+            # ranked by annualized profit, the shortest-dated (often a Mon/Wed)
+            # kept winning, giving trades with single-digit OI on a leg.
+            # Fridays (or a Thursday in a holiday week whose Friday isn't
+            # listed) are the real candidates; Mon/Wed dates are only a
+            # fallback, tried before going outside the 7-45d window.
+            if is_friday_cycle(exp_date, listed):
+                in_window.append((diff, exp_str, dte))
+            else:
+                off_cycle.append((diff, exp_str, dte))
+        else:
+            outside_window.append((diff, exp_str, dte))
+    if not in_window:
+        in_window, off_cycle = off_cycle, []   # no Friday-cycle date in window: use what's there
     in_window.sort(key=lambda x: x[0])
+    off_cycle.sort(key=lambda x: x[0])
     outside_window.sort(key=lambda x: x[0])
-    return [(exp_str, dte) for _, exp_str, dte in in_window], [(exp_str, dte) for _, exp_str, dte in outside_window]
+    return ([(exp_str, dte) for _, exp_str, dte in in_window],
+            [(exp_str, dte) for _, exp_str, dte in off_cycle + outside_window])
+
+
+def is_friday_cycle(exp_date, listed):
+    """Friday expiration, or a Thursday whose following Friday isn't listed
+    (exchange holiday, e.g. Good Friday) — the standard weekly/monthly cycle."""
+    if exp_date.weekday() == 4:
+        return True
+    if exp_date.weekday() == 3:
+        from datetime import timedelta
+        return (exp_date + timedelta(days=1)).strftime("%Y-%m-%d") not in listed
+    return False
+
+
+# --- Tradeability + momentum rules (2026-10-10) -------------------------------
+# Options-liquidity gate, applied to every expiration candidate. A candidate
+# that fails is skipped like any other unusable expiration, and a ticker with
+# no passing candidate gets no trade at all — better no idea than one you
+# can't fill.
+MIN_EXPIRY_TOTAL_OI = 5000     # calls + puts open interest across the whole expiration
+MIN_LEG_OI = 100               # every leg of the trade needs at least this much OI
+MAX_LEG_SPREAD_PCT = 25        # widest leg bid-ask as % of mid — checked only while
+                               # the market is open, since Yahoo's after-hours quotes
+                               # go stale/one-sided and would reject everything
+# Momentum regime (replaces the old index-based strategy rotation):
+#   bull    = price above its 50-day EMA, 8-day EMA above 20-day, and up over ~3 months
+#   bear    = the mirror image
+#   neutral = anything mixed — the only case that gets an Iron Condor
+MOMENTUM_LOOKBACK_DAYS = 63    # ~3 trading months
+# Credit vs debit: credit spreads (sell premium) by default; switch to the
+# direction's debit spread only when options are clearly cheap, i.e. implied
+# vol is well under the stock's own realized vol.
+CHEAP_OPTIONS_IV_RV = 0.90
+# Leveraged/inverse ETFs move too fast for a range bet: never Iron Condor them.
+LEVERAGED_ETFS = {"SOXL", "SOXS", "TQQQ", "SQQQ", "UPRO", "SPXL", "SPXS", "TNA", "TZA",
+                  "LABU", "LABD", "FAS", "FAZ", "NVDL", "TSLL", "UVXY", "SVXY", "TECL"}
+
+
+def market_is_open(now=None):
+    """True between 9:35 and 16:00 ET on a weekday (holidays not modeled —
+    on a holiday the quotes are stale, which only makes the spread check skip)."""
+    try:
+        from zoneinfo import ZoneInfo
+        now = now or datetime.now(ZoneInfo("America/New_York"))
+    except Exception:
+        return False
+    if now.weekday() >= 5:
+        return False
+    minutes = now.hour * 60 + now.minute
+    return 9 * 60 + 35 <= minutes <= 16 * 60
+
+
+def momentum_regime(history, spot):
+    """('bull' | 'bear' | 'neutral', details) from the 8/20/50 EMAs plus the
+    ~3-month return, so a short bounce inside a downtrend (8 > 20 but price
+    still under the 50 and down on the quarter) no longer reads as bullish."""
+    closes = history["Close"].dropna()
+    ema8 = compute_ema(closes, 8).iloc[-1]
+    ema20 = compute_ema(closes, 20).iloc[-1]
+    ema50 = compute_ema(closes, 50).iloc[-1]
+    ret3m = None
+    if len(closes) > MOMENTUM_LOOKBACK_DAYS:
+        base = float(closes.iloc[-MOMENTUM_LOOKBACK_DAYS - 1])
+        if base > 0:
+            ret3m = (spot / base - 1) * 100
+    details = {"ema50": round(float(ema50), 2), "ret3m": None if ret3m is None else round(ret3m, 1)}
+    if ret3m is None:
+        return "neutral", details
+    if spot > ema50 and ema8 > ema20 and ret3m > 0:
+        return "bull", details
+    if spot < ema50 and ema8 < ema20 and ret3m < 0:
+        return "bear", details
+    return "neutral", details
 
 
 MAX_CANDIDATES_TO_EVALUATE = 8  # how many expirations within the target window to
@@ -826,6 +928,18 @@ def evaluate_expiration_candidate(tk, strat, side, spot, cand_exp, cand_dte, atr
     if not fields:
         return None, reason
     liquidity = liquidity_summary(fields.get("legs"), calls, puts)
+
+    # Tradeability gate (2026-10-10) — see MIN_EXPIRY_TOTAL_OI and friends.
+    expiry_oi = float(calls["openInterest"].fillna(0).sum() + puts["openInterest"].fillna(0).sum())
+    if expiry_oi < MIN_EXPIRY_TOTAL_OI:
+        return None, f"thin expiration (total OI {int(expiry_oi):,} < {MIN_EXPIRY_TOTAL_OI:,})"
+    if liquidity.get("minOI") is None or liquidity["minOI"] < MIN_LEG_OI:
+        return None, f"thin leg (OI {liquidity.get('minOI')} < {MIN_LEG_OI})"
+    if market_is_open():
+        spr = liquidity.get("worstSpreadPct")
+        if spr is None or spr > MAX_LEG_SPREAD_PCT:
+            return None, f"wide market (worst leg spread {spr}% > {MAX_LEG_SPREAD_PCT}%)"
+    liquidity["expiryOI"] = int(expiry_oi)
 
     premium = fields["premium"]
     collateral = fields["collateral"]
@@ -1585,19 +1699,20 @@ def build_trade_for_ticker(ticker_symbol, index):
         # Iron Condor; trending tickers alternate between their direction's
         # credit and debit spread. (The Double Diagonal builder is left in
         # place, just unused.)
-        if index % 4 == 0:
-            strat = "Iron Condor"
-            side = "neutral"
+        # Strategy from momentum, not list position (2026-10-10). See
+        # momentum_regime(): trending names get their direction's credit
+        # spread (a debit spread is tried later only if options are cheap);
+        # only mixed / flat names get an Iron Condor, and never a leveraged ETF.
+        regime, regime_info = momentum_regime(history, spot)
+        if regime == "neutral":
+            if ticker_symbol in LEVERAGED_ETFS:
+                print(f"  skip {ticker_symbol}: no clear trend, and leveraged ETFs don't get range (Iron Condor) trades")
+                return None
+            strat, side = "Iron Condor", "neutral"
+        elif regime == "bull":
+            strat, side = "Bull Put Spread", "bull"
         else:
-            # position among the non-neutral slots, so the two choices
-            # alternate evenly (index % 2 alone would skew 2:1)
-            directional_pos = index - (index // 4) - 1
-            if uptrend:
-                strat = ["Bull Put Spread", "Bull Call Spread"][directional_pos % 2]
-                side = "bull"
-            else:
-                strat = ["Bear Call Spread", "Bear Put Spread"][directional_pos % 2]
-                side = "bear"
+            strat, side = "Bear Call Spread", "bear"
 
         # Evaluate every expiration candidate within the target window (up to the
         # cap), and keep whichever produces the best annualized profit — instead
@@ -1638,40 +1753,64 @@ def build_trade_for_ticker(ticker_symbol, index):
                 return None
             print(f"    {ticker_symbol} [Double Diagonal] {best['exp']}({best['dte']}d)/{best['backExp']}({(datetime.strptime(best['backExpDate'], '%Y-%m-%d').date() - today).days}d): pot:{best['pot']}%")
         else:
-            evaluated_log = []  # every candidate's outcome, logged regardless of win/loss —
-                                 # needed to see WHY a ticker keeps landing on the same
-                                 # expiration: genuinely winning on merit vs. every
-                                 # alternative failing validation outright.
-            for cand_exp, cand_dte in in_window_candidates[:MAX_CANDIDATES_TO_EVALUATE]:
-                result, reason = evaluate_expiration_candidate(tk, strat, side, spot, cand_exp, cand_dte, atr)
-                if result:
-                    log_val = f"ap:{result['ap']}%" if result['ap'] is not None else f"potProfit:{result['pot']}%"
-                    evaluated_log.append(f"{cand_exp}({cand_dte}d)={log_val}")
-                    if best is None or _rank_key(result) > _rank_key(best):
-                        best = result
-                else:
-                    evaluated_log.append(f"{cand_exp}({cand_dte}d)=FAILED:{reason}")
-                    failure_reasons.append(f"{cand_exp} ({cand_dte}d): {reason}")
-
-            # Only reach outside the 7-45d window if NOTHING in-window priced —
-            # a true last resort (see rank_expirations' docstring for why this
-            # can't just be "whichever 8 candidates come first regardless of
-            # bucket": a short-DTE candidate's annualized profit would win the
-            # ranking almost automatically against legitimate longer-dated
-            # ones, not on merit, just because it's short-dated.
-            if not best and in_window_candidates:
-                for cand_exp, cand_dte in outside_window_candidates[:MAX_CANDIDATES_TO_EVALUATE]:
+            def _search(strat, side):
+                best = None
+                failure_reasons = []
+                evaluated_log = []  # every candidate's outcome, logged regardless of win/loss —
+                                     # needed to see WHY a ticker keeps landing on the same
+                                     # expiration: genuinely winning on merit vs. every
+                                     # alternative failing validation outright.
+                for cand_exp, cand_dte in in_window_candidates[:MAX_CANDIDATES_TO_EVALUATE]:
                     result, reason = evaluate_expiration_candidate(tk, strat, side, spot, cand_exp, cand_dte, atr)
                     if result:
                         log_val = f"ap:{result['ap']}%" if result['ap'] is not None else f"potProfit:{result['pot']}%"
-                        evaluated_log.append(f"{cand_exp}({cand_dte}d,outside-window)={log_val}")
+                        evaluated_log.append(f"{cand_exp}({cand_dte}d)={log_val}")
                         if best is None or _rank_key(result) > _rank_key(best):
                             best = result
                     else:
-                        evaluated_log.append(f"{cand_exp}({cand_dte}d,outside-window)=FAILED:{reason}")
-                        failure_reasons.append(f"{cand_exp} ({cand_dte}d, outside window): {reason}")
+                        evaluated_log.append(f"{cand_exp}({cand_dte}d)=FAILED:{reason}")
+                        failure_reasons.append(f"{cand_exp} ({cand_dte}d): {reason}")
 
-            print(f"    {ticker_symbol} [{strat}] evaluated {len(evaluated_log)} candidate(s): {' | '.join(evaluated_log)}")
+                # Only reach outside the 7-45d window if NOTHING in-window priced —
+                # a true last resort (see rank_expirations' docstring for why this
+                # can't just be "whichever 8 candidates come first regardless of
+                # bucket": a short-DTE candidate's annualized profit would win the
+                # ranking almost automatically against legitimate longer-dated
+                # ones, not on merit, just because it's short-dated.
+                if not best and in_window_candidates:
+                    for cand_exp, cand_dte in outside_window_candidates[:MAX_CANDIDATES_TO_EVALUATE]:
+                        result, reason = evaluate_expiration_candidate(tk, strat, side, spot, cand_exp, cand_dte, atr)
+                        if result:
+                            log_val = f"ap:{result['ap']}%" if result['ap'] is not None else f"potProfit:{result['pot']}%"
+                            evaluated_log.append(f"{cand_exp}({cand_dte}d,outside-window)={log_val}")
+                            if best is None or _rank_key(result) > _rank_key(best):
+                                best = result
+                        else:
+                            evaluated_log.append(f"{cand_exp}({cand_dte}d,outside-window)=FAILED:{reason}")
+                            failure_reasons.append(f"{cand_exp} ({cand_dte}d, outside window): {reason}")
+
+                print(f"    {ticker_symbol} [{strat}] evaluated {len(evaluated_log)} candidate(s): {' | '.join(evaluated_log)}")
+                return best, failure_reasons
+
+            best, failure_reasons = _search(strat, side)
+
+            # Credit vs debit (2026-10-10): the credit spread is the default.
+            # If its options turn out clearly cheap (implied vol well under the
+            # stock's realized vol) the direction's debit spread is tried and
+            # kept when it prices; it's also the fallback when no credit
+            # spread passes the liquidity / pricing checks at all.
+            if side in ("bull", "bear"):
+                debit = "Bull Call Spread" if side == "bull" else "Bear Put Spread"
+                cheap = bool(best and realized_vol and best.get("iv")
+                             and best["iv"] / realized_vol < CHEAP_OPTIONS_IV_RV)
+                if cheap or not best:
+                    why = "options cheap (IV/RV %.2f)" % (best["iv"] / realized_vol) if cheap else "no credit spread passed"
+                    print(f"    {ticker_symbol}: trying {debit} — {why}")
+                    d_best, d_fail = _search(debit, side)
+                    if d_best:
+                        best, strat = d_best, debit
+                    elif not best:
+                        failure_reasons += d_fail
 
             if not best:
                 tried = len(failure_reasons)
@@ -1729,6 +1868,8 @@ def build_trade_for_ticker(ticker_symbol, index):
             "roc": best["roc"],
             "score": score,
             "buy": bool(uptrend),
+            "momentum": regime,                       # bull / bear / neutral (see momentum_regime)
+            "ret3m": regime_info.get("ret3m"),        # ~3-month % change
             "sell": bool(not uptrend),
             "ema": bool(near_ema),
             "earningsSoon": earnings_soon,
@@ -1834,7 +1975,12 @@ def build_lookup_trade(ticker_symbol):
         if not in_window_candidates and not outside_window_candidates:
             return None, "No usable (future-dated) options expiration is listed for this symbol."
 
-        strat, side = pick_lookup_strategy(uptrend, near_ema)
+        # Same momentum rule as the batch (2026-10-10), so a looked-up ticker
+        # gets the strategy its trend supports.
+        regime, _ = momentum_regime(history, spot)
+        if regime == "neutral" and ticker_symbol in LEVERAGED_ETFS:
+            return None, "No clear trend right now, and leveraged ETFs don't get range (Iron Condor) trades."
+        strat, side = {"bull": ("Bull Put Spread", "bull"), "bear": ("Bear Call Spread", "bear")}.get(regime, ("Iron Condor", "neutral"))
         is_etf = ticker_symbol in KNOWN_ETFS
 
         # See the main pipeline's _rank_key for why this ranks by raw roc, not ap.
