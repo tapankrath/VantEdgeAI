@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T16:23:34.427334+00:00",
+  "generated_at": "2026-10-10T17:07:16.004617+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -188,9 +188,15 @@
         "expiryOI": 103115
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.36,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.09,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Is AI-Powered CashPro, AskGPS and New Debt Issuance Altering The Investment Case For Bank of America (BAC)?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/ai-powered-cashpro-askgps-debt-161103572.html",
+          "sentiment": -0.36
+        },
         {
           "title": "Microsoft vs. Alphabet: Which AI Cloud Stock Is Cheaper After the Capital Spending?",
           "publisher": "Insider Monkey",
@@ -202,12 +208,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-grown-roughly-15-141500456.html",
           "sentiment": 0.64
-        },
-        {
-          "title": "The Math for Making Meta Muse AI Profitable Doesn\u2019t Make Sense",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/516748f2-dbd2-3f3c-afd9-47812faade94/the-math-for-making-meta-muse.html",
-          "sentiment": 0.44
         }
       ],
       "volRegime": "Rich",
@@ -229,7 +229,7 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -24.6,
+      "peVsSectorPct": -22.8,
       "sectorMedianPE": 38.6,
       "sectorPeerCount": 31,
       "sector": "Technology"
@@ -304,26 +304,26 @@
         "expiryOI": 1217558
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.08,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.4,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Expectations of Another Fed Rate Hike This Month Are Shifting Dramatically",
+          "title": "The Best Stock to Invest $10,000 in Right Now",
           "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/economy/policy/articles/expectations-another-fed-rate-hike-160500525.html",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/best-stock-invest-10-000-165000749.html",
+          "sentiment": 0.64
+        },
+        {
+          "title": "Could Buying This 1 Cryptocurrency Make You Rich?",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/could-buying-1-cryptocurrency-rich-164800204.html",
+          "sentiment": 0.56
+        },
+        {
+          "title": "AI Revenue Questions Pull Semiconductor Stocks Off October Highs",
+          "publisher": "CNW Group",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-revenue-questions-pull-semiconductor-163800808.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Cathie Wood Just Cut Her SpaceX Position. Is It Time to Sell?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-cut-her-155300189.html",
-          "sentiment": -0.42
-        },
-        {
-          "title": "Like Meta's Muse AI Agents? 4 AI Semiconductor Stocks Set to Benefit From the Rise of AI Agents.",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/technology/ai/articles/metas-muse-ai-agents-4-155000729.html",
-          "sentiment": 0.67
         }
       ],
       "volRegime": "Rich",
@@ -552,9 +552,15 @@
         "expiryOI": 147210
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.4,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.15,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Alphabet (GOOGL) Has A $5 Billion Waymo Loan And A $50 Billion AI Bet",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-5-billion-waymo-161022397.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Broadcom vs. Intel: Which Chip Stock Is a Better Buy in 2026?",
           "publisher": "Motley Fool",
@@ -566,12 +572,6 @@
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-vs-alphabet-ai-cloud-212027785.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Consumer AI agents could upend online shopping - but who really wins?",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/consumer-ai-agents-could-upend-151100217.html",
-          "sentiment": 0.76
         }
       ],
       "volRegime": "Rich",
@@ -693,7 +693,7 @@
             "oi": 1915
           }
         ],
-        "expiryOI": 66774
+        "expiryOI": 66786
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.0,
@@ -917,7 +917,7 @@
       "ivRankLimited": false,
       "dailyReturn": 4.52,
       "roc": 18.55,
-      "score": 7.1,
+      "score": 6.5,
       "buy": true,
       "momentum": "bull",
       "ret3m": 6.1,
@@ -1008,9 +1008,9 @@
           "qty": 1
         }
       ],
-      "valuationLabel": "Cheap",
+      "valuationLabel": "Fair",
       "peVsSectorPct": 0.0,
-      "sectorMedianPE": 21.1,
+      "sectorMedianPE": 20.4,
       "sectorPeerCount": 3,
       "sector": "Consumer Cyclical"
     },
@@ -1311,7 +1311,7 @@
         "expiryOI": 18474
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.03,
+      "newsSentiment": 0.01,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -1325,12 +1325,6 @@
           "publisher": "Moneywise",
           "link": "https://finance.yahoo.com/markets/currencies/articles/10-treasury-yield-hits-5-114500951.html",
           "sentiment": 0.2
-        },
-        {
-          "title": "Kiyosaki\u2019s red flag: Bill Gates, China now loading up on 1 critical US asset with \u2018no alternatives\u2019 for Americans",
-          "publisher": "Moneywise",
-          "link": "https://finance.yahoo.com/real-estate/articles/kiyosaki-red-flag-bill-gates-110500695.html",
-          "sentiment": 0.05
         }
       ],
       "volRegime": "Rich",
@@ -1352,7 +1346,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 128.0,
+      "peVsSectorPct": 125.4,
       "sectorMedianPE": 38.6,
       "sectorPeerCount": 31,
       "sector": "Technology"
@@ -1440,7 +1434,7 @@
             "oi": 594
           }
         ],
-        "expiryOI": 79261
+        "expiryOI": 79262
       },
       "potIsProfitProb": false,
       "newsSentiment": -0.04,
@@ -1947,9 +1941,15 @@
         "expiryOI": 23860
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.08,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "AI Revenue Questions Pull Semiconductor Stocks Off October Highs",
+          "publisher": "CNW Group",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-revenue-questions-pull-semiconductor-163800808.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Dow Jones Futures: S&P 500, Nasdaq Near Highs; ASML, Nvidia's Chipmaker Taiwan Semi To Kick Off AI Earnings",
           "publisher": "Investor's Business Daily",
@@ -1961,12 +1961,6 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-manufacturing-tsm-posted-111720908.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "This Forgotten AI Stock Is Up 689% and Nobody's Talking About It",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/forgotten-ai-stock-689-nobodys-052000441.html",
-          "sentiment": -0.23
         }
       ],
       "volRegime": "Fair",
@@ -2104,7 +2098,7 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -11.7,
+      "peVsSectorPct": -13.5,
       "sectorMedianPE": 38.6,
       "sectorPeerCount": 31,
       "sector": "Technology"
@@ -2628,7 +2622,7 @@
       "breakevenMovePct": null,
       "maxLoss": 859.0,
       "pcOI": 0.92,
-      "pcVol": 0.54,
+      "pcVol": 0.55,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 459,
@@ -2702,8 +2696,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": -3.8,
-      "sectorMedianPE": 21.1,
+      "peVsSectorPct": -0.5,
+      "sectorMedianPE": 20.4,
       "sectorPeerCount": 3,
       "sector": "Consumer Cyclical"
     },
@@ -2777,9 +2771,28 @@
         "expiryOI": 8421
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
+      "newsSentiment": -0.06,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsHeadlines": [
+        {
+          "title": "The AI Boom\u2019s Hidden Cost: Wholesale Prices Are Surging 41% in America\u2019s Largest Electricity Market",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/energy/articles/ai-boom-hidden-cost-wholesale-152931311.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "The Shocking $5.3 Million Price of the American Dream \u2014 Cars Now Cost More Than Your Entire Retirement",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/news/shocking-5-3-million-price-143428109.html",
+          "sentiment": -0.18
+        },
+        {
+          "title": "What It Will Cost to Retire in Las Vegas on Nothing but a Single Pension",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/real-estate/articles/cost-retire-las-vegas-nothing-142519056.html",
+          "sentiment": 0.0
+        }
+      ],
       "volRegime": "Rich",
       "ivRvRatio": 1.16,
       "realizedVol": 16.8,
@@ -3054,7 +3067,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 133.9,
+      "peVsSectorPct": 134.7,
       "sectorMedianPE": 38.6,
       "sectorPeerCount": 31,
       "sector": "Technology"
@@ -3066,19 +3079,19 @@
       "isETF": false,
       "spot": 23.68,
       "spotPriceStale": false,
-      "strike": "$27/28",
+      "strike": "$28/30",
       "hedge": null,
-      "exp": "Oct 23",
-      "dte": 13,
+      "exp": "Oct 30",
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
-      "pot": 38,
-      "ap": 435.2,
+      "pot": 41,
+      "ap": 219.0,
       "ivr": 5,
       "ivRankLimited": false,
-      "dailyReturn": 1.19,
-      "roc": 15.5,
-      "score": 6.3,
+      "dailyReturn": 1.2,
+      "roc": 12.0,
+      "score": 6.2,
       "buy": false,
       "momentum": "bear",
       "ret3m": -17.9,
@@ -3087,46 +3100,46 @@
       "earningsSoon": false,
       "daysToEarnings": 88,
       "marginOfSafety": true,
-      "delta": 0.19,
-      "iv": 72.9,
-      "premium": 0.15,
-      "breakeven": 27.16,
+      "delta": 0.2,
+      "iv": 77.0,
+      "premium": 0.24,
+      "breakeven": 28.24,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 84.5,
-      "pcOI": 0.64,
-      "pcVol": 0.49,
+      "maxLoss": 176.0,
+      "pcOI": 0.81,
+      "pcVol": 0.25,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 613,
-        "worstSpreadPct": 56.4,
-        "midPremium": 0.15,
-        "fillPremium": 0.11,
+        "minOI": 639,
+        "worstSpreadPct": 59.6,
+        "midPremium": 0.24,
+        "fillPremium": 0.16,
         "weakLeg": {
           "type": "call",
           "strike": 28.0,
-          "action": "buy"
+          "action": "sell"
         },
         "legQuotes": [
           {
             "type": "call",
-            "strike": 27.0,
+            "strike": 28.0,
             "action": "sell",
-            "bid": 0.32,
-            "ask": 0.38,
-            "oi": 862
+            "bid": 0.33,
+            "ask": 0.61,
+            "oi": 639
           },
           {
             "type": "call",
-            "strike": 28.0,
+            "strike": 30.0,
             "action": "buy",
-            "bid": 0.14,
-            "ask": 0.25,
-            "oi": 613
+            "bid": 0.22,
+            "ask": 0.24,
+            "oi": 2036
           }
         ],
-        "expiryOI": 27877
+        "expiryOI": 24610
       },
       "potIsProfitProb": false,
       "newsSentiment": -0.1,
@@ -3152,19 +3165,19 @@
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 1.03,
+      "ivRvRatio": 1.09,
       "realizedVol": 70.6,
-      "expDate": "2026-10-23",
+      "expDate": "2026-10-30",
       "legs": [
         {
           "type": "call",
-          "strike": 27.0,
+          "strike": 28.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 28.0,
+          "strike": 30.0,
           "action": "buy",
           "qty": 1
         }
@@ -3531,7 +3544,7 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -59.3,
+      "peVsSectorPct": -60.1,
       "sectorMedianPE": 38.6,
       "sectorPeerCount": 31,
       "sector": "Technology"
@@ -3897,7 +3910,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 942.3,
+      "peVsSectorPct": 969.9,
       "sectorMedianPE": 34.5,
       "sectorPeerCount": 3,
       "sector": "Industrials"
@@ -4301,7 +4314,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 675.6,
+      "peVsSectorPct": 681.4,
       "sectorMedianPE": 22.1,
       "sectorPeerCount": 5,
       "sector": "Communication Services"
@@ -4487,9 +4500,15 @@
         "expiryOI": 59843
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.17,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.09,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "AI Revenue Questions Pull Semiconductor Stocks Off October Highs",
+          "publisher": "CNW Group",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-revenue-questions-pull-semiconductor-163800808.html",
+          "sentiment": 0.0
+        },
         {
           "title": "'Not the time to be skittish': Why Wall Street sees stocks rising by year-end",
           "publisher": "Yahoo Finance",
@@ -4501,12 +4520,6 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-micron-technology-mu-facing-100944712.html",
           "sentiment": -0.27
-        },
-        {
-          "title": "This Forgotten AI Stock Is Up 689% and Nobody's Talking About It",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/forgotten-ai-stock-689-nobodys-052000441.html",
-          "sentiment": -0.23
         }
       ],
       "volRegime": "Fair",
@@ -4600,7 +4613,7 @@
             "oi": 291
           }
         ],
-        "expiryOI": 83065
+        "expiryOI": 83424
       },
       "potIsProfitProb": true,
       "newsSentiment": 0.02,
@@ -4899,8 +4912,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 1579.6,
-      "sectorMedianPE": 21.1,
+      "peVsSectorPct": 1637.3,
+      "sectorMedianPE": 20.4,
       "sectorPeerCount": 3,
       "sector": "Consumer Cyclical"
     },
@@ -4974,9 +4987,15 @@
         "expiryOI": 282326
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.15,
+      "newsSentiment": 0.35,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Advanced Micro Devices vs. Qualcomm: Which Technology Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-vs-qualcomm-170301024.html",
+          "sentiment": 0.6
+        },
         {
           "title": "The Next Wave of AI Demand Could Send Broadcom, Marvell, and AMD Soaring",
           "publisher": "24/7 Wall St.",
@@ -4988,12 +5007,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/technology/ai/articles/prediction-next-big-ai-gold-112501870.html",
           "sentiment": 0.59
-        },
-        {
-          "title": "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks \u2014 But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms",
-          "publisher": "Stocktwits",
-          "link": "https://finance.yahoo.com/healthcare/articles/cathie-wood-led-ark-invest-060232303.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -5110,6 +5123,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "AI Revenue Questions Pull Semiconductor Stocks Off October Highs",
+          "publisher": "CNW Group",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-revenue-questions-pull-semiconductor-163800808.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Broadcom vs. Intel: Which Chip Stock Is a Better Buy in 2026?",
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-vs-intel-chip-stock-153502766.html",
@@ -5119,12 +5138,6 @@
           "title": "Sequoia-backed Nuvacore seeks $2.5bn valuation in funding round - Reuters",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/technology/articles/sequoia-backed-nuvacore-seeks-2-013834219.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Should Qualcomm Stock Holders Look At First Solar Instead?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-stock-holders-look-first-231309987.html",
           "sentiment": 0.0
         }
       ],
@@ -5196,7 +5209,7 @@
       "breakevenMovePct": null,
       "maxLoss": 655.5,
       "pcOI": 0.39,
-      "pcVol": 0.86,
+      "pcVol": 0.85,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 2090,
@@ -5242,12 +5255,19 @@
             "oi": 2090
           }
         ],
-        "expiryOI": 433881
+        "expiryOI": 433904
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsSentiment": 0.61,
+      "newsSentimentLabel": "Positive",
+      "newsHeadlines": [
+        {
+          "title": "Will Alphabet (GOOGL) Beat Estimates Again in Its Next Earnings Report?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-beat-estimates-again-151002310.html",
+          "sentiment": 0.61
+        }
+      ],
       "volRegime": "Rich",
       "ivRvRatio": 1.48,
       "realizedVol": 24.0,
@@ -6054,7 +6074,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 44.0,
+      "peVsSectorPct": 43.5,
       "sectorMedianPE": 38.6,
       "sectorPeerCount": 31,
       "sector": "Technology"
@@ -6270,7 +6290,7 @@
             "oi": 128
           }
         ],
-        "expiryOI": 8790
+        "expiryOI": 8797
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.26,
@@ -6314,7 +6334,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 49.7,
+      "peVsSectorPct": 48.7,
       "sectorMedianPE": 38.6,
       "sectorPeerCount": 31,
       "sector": "Technology"
@@ -6409,6 +6429,12 @@
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
+          "title": "Walmart Stock Rose 7% in Seven Trading Days. Here\u2019s What the WSJ\u2019s Robot Report Means for the Stock by 2031",
+          "publisher": "TIKR",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-rose-7-seven-160340564.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Consumer AI agents could upend online shopping - but who really wins?",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/consumer-ai-agents-could-upend-151100217.html",
@@ -6418,12 +6444,6 @@
           "title": "Stock Market Week Ahead: Gathering Election, Earnings Momentum",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/58031783-f06d-327a-90a9-3881916c75ac/stock-market-week-ahead%3A.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "CDs vs. Dividend Stocks: The Income Gap Could Be Bigger Than Retirees Think",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cds-vs-dividend-stocks-income-130032581.html",
           "sentiment": 0.0
         }
       ],
@@ -6569,7 +6589,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 137.7,
+      "peVsSectorPct": 131.2,
       "sectorMedianPE": 13.8,
       "sectorPeerCount": 5,
       "sector": "Financial Services"
@@ -6644,9 +6664,15 @@
         "expiryOI": 9997
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.21,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.09,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Why ExxonMobil's Venezuela Warning Could Matter for Energy Investors Right Now",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/energy/articles/why-exxonmobils-venezuela-warning-could-162200778.html",
+          "sentiment": -0.15
+        },
         {
           "title": "Chevron\u2019s Dividend Has Survived Every Oil Crash. Can It Survive This One?",
           "publisher": "24/7 Wall St.",
@@ -6658,12 +6684,6 @@
           "publisher": "Fortune",
           "link": "https://finance.yahoo.com/energy/articles/u-know-fracking-australia-gas-071300838.html",
           "sentiment": 0.27
-        },
-        {
-          "title": "3 Top Oil Stocks With At Least 2% Dividend Yield",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/energy/articles/3-top-oil-stocks-least-051203093.html",
-          "sentiment": 0.2
         }
       ],
       "volRegime": "Rich",
@@ -6871,9 +6891,15 @@
         "expiryOI": 5913
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.2,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Advanced Micro Devices vs. Qualcomm: Which Technology Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-vs-qualcomm-170301024.html",
+          "sentiment": 0.6
+        },
         {
           "title": "Qualcomm Waits on a Jury: Arm Has a $443 Million Customer on the Line",
           "publisher": "TIKR",
@@ -6884,12 +6910,6 @@
           "title": "Sequoia-backed Nuvacore seeks $2.5bn valuation in funding round - Reuters",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/technology/articles/sequoia-backed-nuvacore-seeks-2-013834219.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Qualcomm-Huawei deal lands as U.S. tightens China tech rules",
-          "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/technology/articles/qualcomm-huawei-deal-lands-u-010300612.html",
           "sentiment": 0.0
         }
       ],
@@ -6936,7 +6956,7 @@
       "ivRankLimited": false,
       "dailyReturn": 8.78,
       "roc": 18.0,
-      "score": 6.0,
+      "score": 6.6,
       "buy": false,
       "momentum": "bear",
       "ret3m": -13.9,
@@ -7027,7 +7047,7 @@
           "qty": 1
         }
       ],
-      "valuationLabel": "Cheap",
+      "valuationLabel": "Fair",
       "peVsSectorPct": 0.0,
       "sectorMedianPE": 34.5,
       "sectorPeerCount": 3,
@@ -7623,26 +7643,26 @@
         "expiryOI": 33858
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.3,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.12,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Is AI-Powered CashPro, AskGPS and New Debt Issuance Altering The Investment Case For Bank of America (BAC)?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/ai-powered-cashpro-askgps-debt-161103572.html",
+          "sentiment": -0.36
+        },
+        {
+          "title": "Four Analysts Raised Their Pfizer Targets in One Week Without an Upgrade. Here\u2019s Where the Stock Could Go By 2030",
+          "publisher": "TIKR",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/four-analysts-raised-pfizer-targets-160640604.html",
+          "sentiment": -0.01
+        },
         {
           "title": "\u2018It\u2019s Just Going From One Pocket to the Other\u2019: Chicago Fed Scholar on Why the 30-Year Pays 5.63%",
           "publisher": "24/7 Wall St.",
           "link": "https://finance.yahoo.com/markets/options/articles/just-going-one-pocket-other-093435520.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Why AI Loves Walmart",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/ad42a868-bfd4-3e91-85a5-bf9d390deba6/why-ai-loves-walmart.html",
-          "sentiment": 0.57
-        },
-        {
-          "title": "Goldman Sachs Gains Ground in High-Stakes $19 Billion Race",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-gains-ground-high-165636992.html",
-          "sentiment": 0.34
         }
       ],
       "volRegime": "Rich",
@@ -7752,7 +7772,7 @@
             "oi": 528
           }
         ],
-        "expiryOI": 17935
+        "expiryOI": 17937
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.07,
@@ -7849,7 +7869,7 @@
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 850.0,
-      "pcOI": 1.12,
+      "pcOI": 1.11,
       "pcVol": 1.41,
       "debitStrategy": false,
       "liquidity": {
@@ -7880,7 +7900,7 @@
             "oi": 249
           }
         ],
-        "expiryOI": 80589
+        "expiryOI": 80642
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.08,
@@ -7936,67 +7956,67 @@
       "isETF": false,
       "spot": 211.98,
       "spotPriceStale": false,
-      "strike": "$205/200",
+      "strike": "$195/185",
       "hedge": null,
-      "exp": "Oct 23",
-      "dte": 13,
+      "exp": "Nov 20",
+      "dte": 41,
       "backExp": null,
       "backExpDate": null,
-      "pot": 47,
-      "ap": 511.0,
+      "pot": 37,
+      "ap": 134.9,
       "ivr": 45,
       "ivRankLimited": false,
-      "dailyReturn": 7.0,
-      "roc": 18.2,
-      "score": 6.7,
+      "dailyReturn": 3.7,
+      "roc": 15.15,
+      "score": 7.0,
       "buy": true,
       "momentum": "bull",
       "ret3m": 17.4,
       "sell": false,
       "ema": false,
-      "earningsSoon": false,
+      "earningsSoon": true,
       "daysToEarnings": 20,
       "marginOfSafety": true,
-      "delta": -0.23,
-      "iv": 26.5,
-      "premium": 0.91,
-      "breakeven": 204.09,
+      "delta": -0.18,
+      "iv": 31.0,
+      "premium": 1.51,
+      "breakeven": 193.49,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 409.0,
-      "pcOI": 0.82,
-      "pcVol": 0.31,
+      "maxLoss": 848.5,
+      "pcOI": 0.21,
+      "pcVol": 0.72,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 219,
-        "worstSpreadPct": 17.3,
-        "midPremium": 0.91,
-        "fillPremium": 0.83,
+        "minOI": 861,
+        "worstSpreadPct": 22.2,
+        "midPremium": 1.51,
+        "fillPremium": 1.39,
         "weakLeg": {
           "type": "put",
-          "strike": 205.0,
-          "action": "sell"
+          "strike": 185.0,
+          "action": "buy"
         },
         "legQuotes": [
           {
             "type": "put",
-            "strike": 205.0,
+            "strike": 195.0,
             "action": "sell",
-            "bid": 1.43,
-            "ask": 1.7,
-            "oi": 219
+            "bid": 2.32,
+            "ask": 2.6,
+            "oi": 1123
           },
           {
             "type": "put",
-            "strike": 200.0,
+            "strike": 185.0,
             "action": "buy",
-            "bid": 0.62,
-            "ask": 0.69,
-            "oi": 1423
+            "bid": 0.84,
+            "ask": 1.05,
+            "oi": 861
           }
         ],
-        "expiryOI": 11481
+        "expiryOI": 60810
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.14,
@@ -8021,20 +8041,20 @@
           "sentiment": 0.0
         }
       ],
-      "volRegime": "Fair",
-      "ivRvRatio": 1.11,
+      "volRegime": "Rich",
+      "ivRvRatio": 1.3,
       "realizedVol": 23.9,
-      "expDate": "2026-10-23",
+      "expDate": "2026-11-20",
       "legs": [
         {
           "type": "put",
-          "strike": 205.0,
+          "strike": 195.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "put",
-          "strike": 200.0,
+          "strike": 185.0,
           "action": "buy",
           "qty": 1
         }
@@ -8172,7 +8192,7 @@
       "peRatio": 38.6,
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "pegRatio": 2.72,
+      "pegRatio": 2.67,
       "dividendYield": 0.32,
       "marketCap": 4912984883200,
       "score": 8.5,
@@ -8219,16 +8239,22 @@
       "chg6m": 44.9,
       "chg1y": 5.6,
       "volRatio": 0.86,
-      "peRatio": 29.1,
+      "peRatio": 29.8,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "pegRatio": 1.7,
-      "dividendYield": 0.73,
+      "pegRatio": 1.72,
+      "dividendYield": 0.74,
       "marketCap": 3973186846720,
       "score": 8.5,
-      "newsSentiment": 0.36,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.09,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Is AI-Powered CashPro, AskGPS and New Debt Issuance Altering The Investment Case For Bank of America (BAC)?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/ai-powered-cashpro-askgps-debt-161103572.html",
+          "sentiment": -0.36
+        },
         {
           "title": "Microsoft vs. Alphabet: Which AI Cloud Stock Is Cheaper After the Capital Spending?",
           "publisher": "Insider Monkey",
@@ -8240,16 +8266,10 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-grown-roughly-15-141500456.html",
           "sentiment": 0.64
-        },
-        {
-          "title": "The Math for Making Meta Muse AI Profitable Doesn\u2019t Make Sense",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/516748f2-dbd2-3f3c-afd9-47812faade94/the-math-for-making-meta-muse.html",
-          "sentiment": 0.44
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -24.6,
+      "peVsSectorPct": -22.8,
       "sectorMedianPE": 38.6,
       "sectorPeerCount": 31
     },
@@ -8272,30 +8292,30 @@
       "peRatio": 29.0,
       "sector": "Technology",
       "industry": "Semiconductors",
-      "pegRatio": 0.28,
-      "dividendYield": 0.44,
+      "pegRatio": 0.29,
+      "dividendYield": 0.42,
       "marketCap": 5536424132608,
       "score": 9.1,
-      "newsSentiment": 0.08,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.4,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Expectations of Another Fed Rate Hike This Month Are Shifting Dramatically",
+          "title": "The Best Stock to Invest $10,000 in Right Now",
           "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/economy/policy/articles/expectations-another-fed-rate-hike-160500525.html",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/best-stock-invest-10-000-165000749.html",
+          "sentiment": 0.64
+        },
+        {
+          "title": "Could Buying This 1 Cryptocurrency Make You Rich?",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/could-buying-1-cryptocurrency-rich-164800204.html",
+          "sentiment": 0.56
+        },
+        {
+          "title": "AI Revenue Questions Pull Semiconductor Stocks Off October Highs",
+          "publisher": "CNW Group",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-revenue-questions-pull-semiconductor-163800808.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Cathie Wood Just Cut Her SpaceX Position. Is It Time to Sell?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-cut-her-155300189.html",
-          "sentiment": -0.42
-        },
-        {
-          "title": "Like Meta's Muse AI Agents? 4 AI Semiconductor Stocks Set to Benefit From the Rise of AI Agents.",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/technology/ai/articles/metas-muse-ai-agents-4-155000729.html",
-          "sentiment": 0.67
         }
       ],
       "valuationLabel": "Cheap",
@@ -8322,7 +8342,7 @@
       "peRatio": 27.1,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
-      "pegRatio": 0.95,
+      "pegRatio": 0.98,
       "dividendYield": 0.29,
       "marketCap": 1830816186368,
       "score": 8.2,
@@ -8372,13 +8392,19 @@
       "peRatio": 17.5,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
-      "pegRatio": 1.21,
-      "dividendYield": 0.25,
+      "pegRatio": 1.23,
+      "dividendYield": 0.26,
       "marketCap": 4254305091584,
       "score": 7.6,
-      "newsSentiment": 0.4,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.15,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Alphabet (GOOGL) Has A $5 Billion Waymo Loan And A $50 Billion AI Bet",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-5-billion-waymo-161022397.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Broadcom vs. Intel: Which Chip Stock Is a Better Buy in 2026?",
           "publisher": "Motley Fool",
@@ -8390,12 +8416,6 @@
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-vs-alphabet-ai-cloud-212027785.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Consumer AI agents could upend online shopping - but who really wins?",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/consumer-ai-agents-could-upend-151100217.html",
-          "sentiment": 0.76
         }
       ],
       "valuationLabel": "Cheap",
@@ -8423,7 +8443,7 @@
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
       "pegRatio": 1.53,
-      "dividendYield": 1.98,
+      "dividendYield": 2.0,
       "marketCap": 885149401088,
       "score": 3.7,
       "newsSentiment": 0.0,
@@ -8472,8 +8492,8 @@
       "peRatio": 22.2,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "pegRatio": 0.76,
-      "dividendYield": 1.41,
+      "pegRatio": 0.81,
+      "dividendYield": 1.39,
       "marketCap": 428654231552,
       "score": 4.7,
       "newsSentiment": 0.27,
@@ -8519,13 +8539,13 @@
       "chg6m": 10.1,
       "chg1y": 21.3,
       "volRatio": 0.98,
-      "peRatio": 21.1,
+      "peRatio": 20.4,
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
-      "pegRatio": 1.48,
+      "pegRatio": 1.52,
       "dividendYield": 0.0,
       "marketCap": 2830652145664,
-      "score": 7.5,
+      "score": 6.9,
       "newsSentiment": 0.31,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
@@ -8548,9 +8568,9 @@
           "sentiment": 0.18
         }
       ],
-      "valuationLabel": "Cheap",
+      "valuationLabel": "Fair",
       "peVsSectorPct": 0.0,
-      "sectorMedianPE": 21.1,
+      "sectorMedianPE": 20.4,
       "sectorPeerCount": 3
     },
     {
@@ -8569,7 +8589,7 @@
       "chg6m": 83.1,
       "chg1y": 308.8,
       "volRatio": 1.0,
-      "peRatio": 31.6,
+      "peRatio": 46.5,
       "sector": null,
       "industry": null,
       "pegRatio": null,
@@ -8664,7 +8684,7 @@
       "peRatio": 22.1,
       "sector": "Communication Services",
       "industry": "Entertainment",
-      "pegRatio": 1.22,
+      "pegRatio": 1.17,
       "dividendYield": 0.0,
       "marketCap": 292724965376,
       "score": 2.8,
@@ -8711,14 +8731,14 @@
       "chg6m": 69.7,
       "chg1y": -20.8,
       "volRatio": 0.49,
-      "peRatio": 88.0,
+      "peRatio": 87.0,
       "sector": "Technology",
       "industry": "Software - Application",
-      "pegRatio": 1.01,
+      "pegRatio": 0.99,
       "dividendYield": 0.0,
       "marketCap": 145629806592,
       "score": 7.9,
-      "newsSentiment": 0.03,
+      "newsSentiment": 0.01,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -8732,16 +8752,10 @@
           "publisher": "Moneywise",
           "link": "https://finance.yahoo.com/markets/currencies/articles/10-treasury-yield-hits-5-114500951.html",
           "sentiment": 0.2
-        },
-        {
-          "title": "Kiyosaki\u2019s red flag: Bill Gates, China now loading up on 1 critical US asset with \u2018no alternatives\u2019 for Americans",
-          "publisher": "Moneywise",
-          "link": "https://finance.yahoo.com/real-estate/articles/kiyosaki-red-flag-bill-gates-110500695.html",
-          "sentiment": 0.05
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 128.0,
+      "peVsSectorPct": 125.4,
       "sectorMedianPE": 38.6,
       "sectorPeerCount": 31
     },
@@ -8814,7 +8828,7 @@
       "peRatio": 21.0,
       "sector": "Technology",
       "industry": "Software - Application",
-      "pegRatio": 0.81,
+      "pegRatio": 0.8,
       "dividendYield": 0.77,
       "marketCap": 188573990912,
       "score": 6.7,
@@ -8864,7 +8878,7 @@
       "peRatio": 4584.0,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "pegRatio": 6.79,
+      "pegRatio": 7.2,
       "dividendYield": 0.0,
       "marketCap": 281623035904,
       "score": 7.9,
@@ -8914,7 +8928,7 @@
       "peRatio": 180.2,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "pegRatio": 1.72,
+      "pegRatio": 1.66,
       "dividendYield": 0.0,
       "marketCap": 502359359488,
       "score": 7.3,
@@ -8964,13 +8978,19 @@
       "peRatio": 32.9,
       "sector": "Technology",
       "industry": "Semiconductors",
-      "pegRatio": 0.87,
-      "dividendYield": 0.83,
+      "pegRatio": 0.92,
+      "dividendYield": 0.82,
       "marketCap": 2351080407040,
       "score": 9.1,
-      "newsSentiment": -0.08,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "AI Revenue Questions Pull Semiconductor Stocks Off October Highs",
+          "publisher": "CNW Group",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-revenue-questions-pull-semiconductor-163800808.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Dow Jones Futures: S&P 500, Nasdaq Near Highs; ASML, Nvidia's Chipmaker Taiwan Semi To Kick Off AI Earnings",
           "publisher": "Investor's Business Daily",
@@ -8982,12 +9002,6 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-manufacturing-tsm-posted-111720908.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "This Forgotten AI Stock Is Up 689% and Nobody's Talking About It",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/forgotten-ai-stock-689-nobodys-052000441.html",
-          "sentiment": -0.23
         }
       ],
       "valuationLabel": "Cheap",
@@ -9011,11 +9025,11 @@
       "chg6m": 231.2,
       "chg1y": 294.2,
       "volRatio": 0.59,
-      "peRatio": 34.1,
+      "peRatio": 33.4,
       "sector": "Technology",
       "industry": "Computer Hardware",
       "pegRatio": 0.58,
-      "dividendYield": 0.43,
+      "dividendYield": 0.44,
       "marketCap": 372624424960,
       "score": 9.1,
       "newsSentiment": 0.08,
@@ -9041,7 +9055,7 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -11.7,
+      "peVsSectorPct": -13.5,
       "sectorMedianPE": 38.6,
       "sectorPeerCount": 31
     },
@@ -9064,7 +9078,7 @@
       "peRatio": 1047.0,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "pegRatio": 2.03,
+      "pegRatio": 2.14,
       "dividendYield": 0.0,
       "marketCap": 342562045952,
       "score": 7.9,
@@ -9114,9 +9128,9 @@
       "peRatio": 71.9,
       "sector": "Technology",
       "industry": "Electronic Components",
-      "pegRatio": 0.91,
-      "dividendYield": 0.71,
-      "marketCap": 134962323456,
+      "pegRatio": 1.01,
+      "dividendYield": 0.69,
+      "marketCap": 134688047104,
       "score": 5.3,
       "newsSentiment": 0.18,
       "newsSentimentLabel": "Positive",
@@ -9161,7 +9175,7 @@
       "chg6m": 15.2,
       "chg1y": 20.5,
       "volRatio": 0.53,
-      "peRatio": 24.7,
+      "peRatio": 25.2,
       "sector": null,
       "industry": null,
       "pegRatio": null,
@@ -9207,7 +9221,7 @@
       "chg6m": 23.2,
       "chg1y": 28.0,
       "volRatio": 0.65,
-      "peRatio": 28.8,
+      "peRatio": 30.6,
       "sector": null,
       "industry": null,
       "pegRatio": null,
@@ -9256,8 +9270,8 @@
       "peRatio": 20.3,
       "sector": "Consumer Cyclical",
       "industry": "Home Improvement Retail",
-      "pegRatio": 1.56,
-      "dividendYield": 3.21,
+      "pegRatio": 1.51,
+      "dividendYield": 3.26,
       "marketCap": 290068267008,
       "score": 2.6,
       "newsSentiment": -0.21,
@@ -9283,8 +9297,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": -3.8,
-      "sectorMedianPE": 21.1,
+      "peVsSectorPct": -0.5,
+      "sectorMedianPE": 20.4,
       "sectorPeerCount": 3
     },
     {
@@ -9303,16 +9317,35 @@
       "chg6m": -4.9,
       "chg1y": 2.4,
       "volRatio": 0.67,
-      "peRatio": 45.6,
+      "peRatio": 45.7,
       "sector": "Consumer Defensive",
       "industry": "Discount Stores",
-      "pegRatio": 4.77,
+      "pegRatio": 4.71,
       "dividendYield": 0.62,
       "marketCap": 419608035328,
       "score": 6.1,
-      "newsSentiment": 0.0,
+      "newsSentiment": -0.06,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": []
+      "newsHeadlines": [
+        {
+          "title": "The AI Boom\u2019s Hidden Cost: Wholesale Prices Are Surging 41% in America\u2019s Largest Electricity Market",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/energy/articles/ai-boom-hidden-cost-wholesale-152931311.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "The Shocking $5.3 Million Price of the American Dream \u2014 Cars Now Cost More Than Your Entire Retirement",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/news/shocking-5-3-million-price-143428109.html",
+          "sentiment": -0.18
+        },
+        {
+          "title": "What It Will Cost to Retire in Las Vegas on Nothing but a Single Pension",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/real-estate/articles/cost-retire-las-vegas-nothing-142519056.html",
+          "sentiment": 0.0
+        }
+      ]
     },
     {
       "sym": "CSCO",
@@ -9333,8 +9366,8 @@
       "peRatio": 35.6,
       "sector": "Technology",
       "industry": "Communication Equipment",
-      "pegRatio": 1.06,
-      "dividendYield": 1.42,
+      "pegRatio": 1.09,
+      "dividendYield": 1.43,
       "marketCap": 466762858496,
       "score": 8.5,
       "newsSentiment": -0.13,
@@ -9380,11 +9413,11 @@
       "chg6m": 114.3,
       "chg1y": 222.1,
       "volRatio": 0.73,
-      "peRatio": 90.3,
+      "peRatio": 90.6,
       "sector": "Technology",
       "industry": "Semiconductors",
-      "pegRatio": 0.75,
-      "dividendYield": 0.09,
+      "pegRatio": 0.96,
+      "dividendYield": 0.08,
       "marketCap": 247395418112,
       "score": 7.9,
       "newsSentiment": -0.12,
@@ -9410,7 +9443,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 133.9,
+      "peVsSectorPct": 134.7,
       "sectorMedianPE": 38.6,
       "sectorPeerCount": 31
     },
@@ -9433,13 +9466,19 @@
       "peRatio": 28.8,
       "sector": "Industrials",
       "industry": "Specialty Industrial Machinery",
-      "pegRatio": 1.96,
+      "pegRatio": 2.01,
       "dividendYield": 0.2,
       "marketCap": 267593334784,
       "score": 8.1,
-      "newsSentiment": 0.28,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.13,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "GE Vernova Stock Is Up More Than 50% Since the End of 2025. Here\u2019s What Its October 28 Report Needs to Show",
+          "publisher": "TIKR",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-stock-more-50-161406724.html",
+          "sentiment": 0.0
+        },
         {
           "title": "GE Vernova, Snowflake Lead 5 AI Stocks With Accelerating Growth",
           "publisher": "Investor's Business Daily",
@@ -9451,12 +9490,6 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/technology/ai/articles/ge-vernova-gev-just-turned-151412153.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "AI Data Centers Are Power Hungry. These 6 Power and Cooling Stocks Could Benefit Through 2030.",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/technology/ai/articles/ai-data-centers-power-hungry-133500727.html",
-          "sentiment": 0.46
         }
       ],
       "valuationLabel": "Cheap",
@@ -9618,10 +9651,10 @@
       "chg6m": 1.5,
       "chg1y": -23.4,
       "volRatio": 0.94,
-      "peRatio": 15.7,
+      "peRatio": 15.4,
       "sector": "Technology",
       "industry": "Software - Application",
-      "pegRatio": 5.99,
+      "pegRatio": 5.89,
       "dividendYield": 0.0,
       "marketCap": 146063474688,
       "score": 4.6,
@@ -9648,7 +9681,7 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -59.3,
+      "peVsSectorPct": -60.1,
       "sectorMedianPE": 38.6,
       "sectorPeerCount": 31
     },
@@ -9760,10 +9793,10 @@
       "chg6m": 68.3,
       "chg1y": 222.9,
       "volRatio": 0.54,
-      "peRatio": 359.6,
+      "peRatio": 369.1,
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
-      "pegRatio": 0.62,
+      "pegRatio": 0.67,
       "dividendYield": 0.0,
       "marketCap": 82614927360,
       "score": 7.9,
@@ -9790,7 +9823,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 942.3,
+      "peVsSectorPct": 969.9,
       "sectorMedianPE": 34.5,
       "sectorPeerCount": 3
     },
@@ -9813,7 +9846,7 @@
       "peRatio": 46.2,
       "sector": "Technology",
       "industry": "Semiconductors",
-      "pegRatio": 0.36,
+      "pegRatio": 0.37,
       "dividendYield": 0.72,
       "marketCap": 1725858185216,
       "score": 6.3,
@@ -9863,7 +9896,7 @@
       "peRatio": 68.4,
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "pegRatio": 1.58,
+      "pegRatio": 1.61,
       "dividendYield": 0.0,
       "marketCap": 273357848576,
       "score": 7.9,
@@ -9910,12 +9943,12 @@
       "chg6m": 52.5,
       "chg1y": 70.6,
       "volRatio": 0.63,
-      "peRatio": 171.4,
+      "peRatio": 172.7,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
-      "pegRatio": 0.51,
+      "pegRatio": 0.58,
       "dividendYield": 0.0,
-      "marketCap": 60099039232,
+      "marketCap": 56129273856,
       "score": 7.9,
       "newsSentiment": 0.22,
       "newsSentimentLabel": "Positive",
@@ -9940,7 +9973,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 675.6,
+      "peVsSectorPct": 681.4,
       "sectorMedianPE": 22.1,
       "sectorPeerCount": 5
     },
@@ -10013,9 +10046,15 @@
       "dividendYield": 0.06,
       "marketCap": 1164234457088,
       "score": 9.1,
-      "newsSentiment": -0.17,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.09,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "AI Revenue Questions Pull Semiconductor Stocks Off October Highs",
+          "publisher": "CNW Group",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-revenue-questions-pull-semiconductor-163800808.html",
+          "sentiment": 0.0
+        },
         {
           "title": "'Not the time to be skittish': Why Wall Street sees stocks rising by year-end",
           "publisher": "Yahoo Finance",
@@ -10027,12 +10066,6 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-micron-technology-mu-facing-100944712.html",
           "sentiment": -0.27
-        },
-        {
-          "title": "This Forgotten AI Stock Is Up 689% and Nobody's Talking About It",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/forgotten-ai-stock-689-nobodys-052000441.html",
-          "sentiment": -0.23
         }
       ],
       "valuationLabel": "Cheap",
@@ -10111,7 +10144,7 @@
       "industry": "Aerospace & Defense",
       "pegRatio": null,
       "dividendYield": 0.0,
-      "marketCap": 2142962057216,
+      "marketCap": 2141727621120,
       "score": 7.4,
       "newsSentiment": 0.05,
       "newsSentimentLabel": "Neutral",
@@ -10155,7 +10188,7 @@
       "peRatio": 354.4,
       "sector": "Consumer Cyclical",
       "industry": "Auto Manufacturers",
-      "pegRatio": 4.48,
+      "pegRatio": 4.55,
       "dividendYield": 0.0,
       "marketCap": 1511491895296,
       "score": 7.4,
@@ -10182,8 +10215,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 1579.6,
-      "sectorMedianPE": 21.1,
+      "peVsSectorPct": 1637.3,
+      "sectorMedianPE": 20.4,
       "sectorPeerCount": 3
     },
     {
@@ -10205,13 +10238,19 @@
       "peRatio": 155.1,
       "sector": "Technology",
       "industry": "Semiconductors",
-      "pegRatio": 0.62,
+      "pegRatio": 0.66,
       "dividendYield": 0.0,
       "marketCap": 992708001792,
       "score": 7.9,
-      "newsSentiment": 0.15,
+      "newsSentiment": 0.35,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Advanced Micro Devices vs. Qualcomm: Which Technology Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-vs-qualcomm-170301024.html",
+          "sentiment": 0.6
+        },
         {
           "title": "The Next Wave of AI Demand Could Send Broadcom, Marvell, and AMD Soaring",
           "publisher": "24/7 Wall St.",
@@ -10223,12 +10262,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/technology/ai/articles/prediction-next-big-ai-gold-112501870.html",
           "sentiment": 0.59
-        },
-        {
-          "title": "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks \u2014 But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms",
-          "publisher": "Stocktwits",
-          "link": "https://finance.yahoo.com/healthcare/articles/cathie-wood-led-ark-invest-060232303.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
@@ -10263,6 +10296,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "AI Revenue Questions Pull Semiconductor Stocks Off October Highs",
+          "publisher": "CNW Group",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-revenue-questions-pull-semiconductor-163800808.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Broadcom vs. Intel: Which Chip Stock Is a Better Buy in 2026?",
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-vs-intel-chip-stock-153502766.html",
@@ -10272,12 +10311,6 @@
           "title": "Sequoia-backed Nuvacore seeks $2.5bn valuation in funding round - Reuters",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/technology/articles/sequoia-backed-nuvacore-seeks-2-013834219.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Should Qualcomm Stock Holders Look At First Solar Instead?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-stock-holders-look-first-231309987.html",
           "sentiment": 0.0
         }
       ]
@@ -10301,13 +10334,20 @@
       "peRatio": 17.6,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
-      "pegRatio": 1.22,
+      "pegRatio": 1.24,
       "dividendYield": 0.25,
       "marketCap": 4300779028480,
       "score": 7.6,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsSentiment": 0.61,
+      "newsSentimentLabel": "Positive",
+      "newsHeadlines": [
+        {
+          "title": "Will Alphabet (GOOGL) Beat Estimates Again in Its Next Earnings Report?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-beat-estimates-again-151002310.html",
+          "sentiment": 0.61
+        }
+      ],
       "valuationLabel": "Cheap",
       "peVsSectorPct": -20.4,
       "sectorMedianPE": 22.1,
@@ -10378,8 +10418,8 @@
       "peRatio": 10.8,
       "sector": "Technology",
       "industry": "Semiconductors",
-      "pegRatio": 0.25,
-      "dividendYield": 0.07,
+      "pegRatio": 0.26,
+      "dividendYield": 0.06,
       "marketCap": 1201930895360,
       "score": 4.9,
       "newsSentiment": 0.4,
@@ -10428,8 +10468,8 @@
       "peRatio": 56.3,
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "pegRatio": 0.44,
-      "dividendYield": 0.38,
+      "pegRatio": 0.46,
+      "dividendYield": 0.37,
       "marketCap": 178048729088,
       "score": 3.8,
       "newsSentiment": 0.2,
@@ -10478,7 +10518,7 @@
       "peRatio": 43.7,
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "pegRatio": 1.01,
+      "pegRatio": 1.05,
       "dividendYield": 0.42,
       "marketCap": 402377703424,
       "score": 8.5,
@@ -10528,7 +10568,7 @@
       "peRatio": 14.8,
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "pegRatio": 0.75,
+      "pegRatio": 0.78,
       "dividendYield": 0.15,
       "marketCap": 148711145472,
       "score": 4.7,
@@ -10575,10 +10615,10 @@
       "chg6m": 21.1,
       "chg1y": 143.8,
       "volRatio": 0.53,
-      "peRatio": 55.6,
+      "peRatio": 55.4,
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "pegRatio": 1.49,
+      "pegRatio": 1.55,
       "dividendYield": 0.41,
       "marketCap": 399004139520,
       "score": 7.9,
@@ -10605,7 +10645,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 44.0,
+      "peVsSectorPct": 43.5,
       "sectorMedianPE": 38.6,
       "sectorPeerCount": 31
     },
@@ -10628,9 +10668,9 @@
       "peRatio": 39.6,
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "pegRatio": 1.13,
-      "dividendYield": 0.59,
-      "marketCap": 1051603894272,
+      "pegRatio": 1.12,
+      "dividendYield": 0.58,
+      "marketCap": 1051150647296,
       "score": 7.9,
       "newsSentiment": -0.11,
       "newsSentimentLabel": "Neutral",
@@ -10675,10 +10715,10 @@
       "chg6m": 20.9,
       "chg1y": 91.4,
       "volRatio": 0.89,
-      "peRatio": 57.8,
+      "peRatio": 57.4,
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "pegRatio": 1.1,
+      "pegRatio": 1.14,
       "dividendYield": 0.51,
       "marketCap": 683828576256,
       "score": 7.9,
@@ -10705,7 +10745,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 49.7,
+      "peVsSectorPct": 48.7,
       "sectorMedianPE": 38.6,
       "sectorPeerCount": 31
     },
@@ -10725,16 +10765,22 @@
       "chg6m": -11.8,
       "chg1y": 10.3,
       "volRatio": 0.53,
-      "peRatio": 40.1,
+      "peRatio": 40.3,
       "sector": "Consumer Defensive",
       "industry": "Discount Stores",
-      "pegRatio": 3.75,
-      "dividendYield": 0.89,
-      "marketCap": 886132113408,
+      "pegRatio": 3.64,
+      "dividendYield": 0.9,
+      "marketCap": 883422593024,
       "score": 5.7,
       "newsSentiment": 0.25,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Walmart Stock Rose 7% in Seven Trading Days. Here\u2019s What the WSJ\u2019s Robot Report Means for the Stock by 2031",
+          "publisher": "TIKR",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-rose-7-seven-160340564.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Consumer AI agents could upend online shopping - but who really wins?",
           "publisher": "Investing.com",
@@ -10745,12 +10791,6 @@
           "title": "Stock Market Week Ahead: Gathering Election, Earnings Momentum",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/58031783-f06d-327a-90a9-3881916c75ac/stock-market-week-ahead%3A.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "CDs vs. Dividend Stocks: The Income Gap Could Be Bigger Than Retirees Think",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cds-vs-dividend-stocks-income-130032581.html",
           "sentiment": 0.0
         }
       ]
@@ -10771,11 +10811,11 @@
       "chg6m": 27.1,
       "chg1y": 13.1,
       "volRatio": 1.02,
-      "peRatio": 32.8,
+      "peRatio": 31.9,
       "sector": "Financial Services",
       "industry": "Credit Services",
-      "pegRatio": 1.7,
-      "dividendYield": 0.7,
+      "pegRatio": 1.68,
+      "dividendYield": 0.71,
       "marketCap": 723626622976,
       "score": 7.3,
       "newsSentiment": -0.01,
@@ -10801,7 +10841,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 137.7,
+      "peVsSectorPct": 131.2,
       "sectorMedianPE": 13.8,
       "sectorPeerCount": 5
     },
@@ -10824,13 +10864,19 @@
       "peRatio": 21.7,
       "sector": "Energy",
       "industry": "Oil & Gas Integrated",
-      "pegRatio": 1.49,
-      "dividendYield": 2.44,
+      "pegRatio": 1.45,
+      "dividendYield": 2.45,
       "marketCap": 694666395648,
       "score": 8.1,
-      "newsSentiment": 0.21,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.09,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Why ExxonMobil's Venezuela Warning Could Matter for Energy Investors Right Now",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/energy/articles/why-exxonmobils-venezuela-warning-could-162200778.html",
+          "sentiment": -0.15
+        },
         {
           "title": "Chevron\u2019s Dividend Has Survived Every Oil Crash. Can It Survive This One?",
           "publisher": "24/7 Wall St.",
@@ -10842,12 +10888,6 @@
           "publisher": "Fortune",
           "link": "https://finance.yahoo.com/energy/articles/u-know-fracking-australia-gas-071300838.html",
           "sentiment": 0.27
-        },
-        {
-          "title": "3 Top Oil Stocks With At Least 2% Dividend Yield",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/energy/articles/3-top-oil-stocks-least-051203093.html",
-          "sentiment": 0.2
         }
       ]
     },
@@ -10920,13 +10960,19 @@
       "peRatio": 20.3,
       "sector": "Technology",
       "industry": "Semiconductors",
-      "pegRatio": 0.78,
-      "dividendYield": 2.1,
+      "pegRatio": 0.8,
+      "dividendYield": 2.08,
       "marketCap": 187405828096,
       "score": 6.0,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.2,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Advanced Micro Devices vs. Qualcomm: Which Technology Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-vs-qualcomm-170301024.html",
+          "sentiment": 0.6
+        },
         {
           "title": "Qualcomm Waits on a Jury: Arm Has a $443 Million Customer on the Line",
           "publisher": "TIKR",
@@ -10937,12 +10983,6 @@
           "title": "Sequoia-backed Nuvacore seeks $2.5bn valuation in funding round - Reuters",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/technology/articles/sequoia-backed-nuvacore-seeks-2-013834219.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Qualcomm-Huawei deal lands as U.S. tightens China tech rules",
-          "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/technology/articles/qualcomm-huawei-deal-lands-u-010300612.html",
           "sentiment": 0.0
         }
       ],
@@ -10970,10 +11010,10 @@
       "peRatio": 34.5,
       "sector": "Industrials",
       "industry": "Farm & Heavy Construction Machinery",
-      "pegRatio": 1.39,
-      "dividendYield": 0.81,
+      "pegRatio": 1.51,
+      "dividendYield": 0.82,
       "marketCap": 367955935232,
-      "score": 3.9,
+      "score": 3.3,
       "newsSentiment": 0.29,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
@@ -10996,7 +11036,7 @@
           "sentiment": 0.0
         }
       ],
-      "valuationLabel": "Cheap",
+      "valuationLabel": "Fair",
       "peVsSectorPct": 0.0,
       "sectorMedianPE": 34.5,
       "sectorPeerCount": 3
@@ -11020,7 +11060,7 @@
       "peRatio": 53.4,
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "pegRatio": 1.88,
+      "pegRatio": 1.89,
       "dividendYield": 0.47,
       "marketCap": 255220121600,
       "score": 7.5,
@@ -11070,8 +11110,8 @@
       "peRatio": 24.4,
       "sector": "Healthcare",
       "industry": "Healthcare Plans",
-      "pegRatio": 1.01,
-      "dividendYield": 2.45,
+      "pegRatio": 1.02,
+      "dividendYield": 2.47,
       "marketCap": 340457717760,
       "score": 5.6,
       "newsSentiment": 0.18,
@@ -11120,8 +11160,8 @@
       "peRatio": 20.2,
       "sector": "Technology",
       "industry": "Information Technology Services",
-      "pegRatio": 2.14,
-      "dividendYield": 2.98,
+      "pegRatio": 2.09,
+      "dividendYield": 3.07,
       "marketCap": 213986983936,
       "score": 4.5,
       "newsSentiment": 0.07,
@@ -11170,8 +11210,8 @@
       "peRatio": 30.3,
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "pegRatio": 2.69,
-      "dividendYield": 2.05,
+      "pegRatio": 2.67,
+      "dividendYield": 2.07,
       "marketCap": 630043836416,
       "score": 5.6,
       "newsSentiment": -0.06,
@@ -11221,29 +11261,29 @@
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
       "pegRatio": 0.85,
-      "dividendYield": 2.36,
+      "dividendYield": 2.39,
       "marketCap": 379846098944,
       "score": 4.1,
-      "newsSentiment": 0.3,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.12,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Is AI-Powered CashPro, AskGPS and New Debt Issuance Altering The Investment Case For Bank of America (BAC)?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/ai-powered-cashpro-askgps-debt-161103572.html",
+          "sentiment": -0.36
+        },
+        {
+          "title": "Four Analysts Raised Their Pfizer Targets in One Week Without an Upgrade. Here\u2019s Where the Stock Could Go By 2030",
+          "publisher": "TIKR",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/four-analysts-raised-pfizer-targets-160640604.html",
+          "sentiment": -0.01
+        },
         {
           "title": "\u2018It\u2019s Just Going From One Pocket to the Other\u2019: Chicago Fed Scholar on Why the 30-Year Pays 5.63%",
           "publisher": "24/7 Wall St.",
           "link": "https://finance.yahoo.com/markets/options/articles/just-going-one-pocket-other-093435520.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Why AI Loves Walmart",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/ad42a868-bfd4-3e91-85a5-bf9d390deba6/why-ai-loves-walmart.html",
-          "sentiment": 0.57
-        },
-        {
-          "title": "Goldman Sachs Gains Ground in High-Stakes $19 Billion Race",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-gains-ground-high-165636992.html",
-          "sentiment": 0.34
         }
       ],
       "valuationLabel": "Cheap",
@@ -11270,8 +11310,8 @@
       "peRatio": 43.2,
       "sector": "Technology",
       "industry": "Semiconductors",
-      "pegRatio": 1.03,
-      "dividendYield": 2.14,
+      "pegRatio": 1.06,
+      "dividendYield": 2.1,
       "marketCap": 259124887552,
       "score": 8.5,
       "newsSentiment": 0.07,
@@ -11320,8 +11360,8 @@
       "peRatio": 13.8,
       "sector": "Financial Services",
       "industry": "Capital Markets",
-      "pegRatio": 1.11,
-      "dividendYield": 2.23,
+      "pegRatio": 1.13,
+      "dividendYield": 2.25,
       "marketCap": 260691574784,
       "score": 3.8,
       "newsSentiment": 0.08,
@@ -11370,8 +11410,8 @@
       "peRatio": 20.4,
       "sector": "Energy",
       "industry": "Oil & Gas Integrated",
-      "pegRatio": 0.93,
-      "dividendYield": 3.36,
+      "pegRatio": 0.91,
+      "dividendYield": 3.47,
       "marketCap": 415820677120,
       "score": 8.2,
       "newsSentiment": 0.14,
@@ -11416,7 +11456,7 @@
       "peRatio": null,
       "sector": "Technology",
       "industry": "Software - Application",
-      "pegRatio": 6.15,
+      "pegRatio": 6.02,
       "dividendYield": 0.0,
       "marketCap": 130144395264,
       "score": 7.9,
@@ -11458,7 +11498,7 @@
     "costPerContract": 532.0
   },
   "market": {
-    "asOf": "2026-10-10T16:23:34.427322+00:00",
+    "asOf": "2026-10-10T17:07:16.004604+00:00",
     "gauges": [
       {
         "key": "qqq",
