@@ -1563,6 +1563,15 @@
   html .pulse-dot:not(#_):not(#_){ border-radius:50% !important; }
   html .hero .brand-mark:not(#_):not(#_){ border-radius:6px !important; }
 
+  /* ===== RISK PLAN in the order ticket (v77) ===== */
+  .risk-plan{ margin-top:10px; padding:8px 10px 6px; border:1.5px solid color-mix(in srgb, var(--red) 45%, var(--border)); background:color-mix(in srgb, var(--red) 5%, var(--surface)); }
+  .rp-head{ font-size:11px; font-weight:800; letter-spacing:0.06em; text-transform:uppercase; color:var(--red); margin-bottom:2px; }
+  .risk-plan .ticket-row:first-of-type{ border-top:none; }
+  .risk-plan .ticket-row b{ font-weight:700; }
+  .rp-dim{ font-weight:500; color:var(--text-faint); }
+  .rp-warn{ margin-top:6px; font-size:12px; font-weight:700; color:var(--red); }
+  .rp-note{ margin-top:6px; font-size:12px; color:var(--text-dim); }
+
   /* Dark mode component overrides — kept at the very end of the stylesheet
      on purpose. Each of these targets a class that already has its own
      rule earlier in this file at the same specificity; CSS breaks a
@@ -3136,6 +3145,89 @@
   // multi-leg order, legs in strike order, a limit at the net mid, the
   // realistic-fill estimate, max loss and a 50%-profit exit price. Built from
   // t.legs (and t.liquidity.legQuotes for per-leg bid/ask/OI when present).
+  // Risk plan (2026-10-10): how to keep a loss well under the max — a stop on
+  // the spread's price, stock-price alerts at the short strikes, a time exit,
+  // position size for 1-2% of capital, and a credit-vs-width check.
+  function riskPlan(t, legs){
+    const mid = Number(t.premium);
+    const maxLoss = Number(t.maxLoss);
+    if(!legs.length || !isFinite(mid) || !isFinite(maxLoss) || maxLoss <= 0) return null;
+    const debit = !!t.debitStrategy;
+    const money = v => '$' + Math.round(v).toLocaleString();
+    const px = v => '$' + Number(v).toFixed(2);
+    // widest vertical in the trade (an iron condor has two)
+    const byType = { put:[], call:[] };
+    legs.forEach(l => { if(byType[l.type]) byType[l.type].push(Number(l.strike)); });
+    const widths = Object.values(byType).filter(a => a.length >= 2).map(a => Math.max(...a) - Math.min(...a));
+    const width = widths.length ? Math.max(...widths) : null;
+    const rows = [], text = [];
+
+    // Stop on the spread price
+    if(debit){
+      const stop = mid * 0.5;
+      rows.push(['Stop', `sell if it drops to ${px(stop)} → loss ≈ ${money((mid - stop) * 100)}`]);
+    } else {
+      const stop = width ? Math.min(mid * 2, width) : mid * 2;
+      const loss = (stop - mid) * 100;
+      rows.push(['Stop (2× credit)', `buy back at ${px(stop)} → loss ≈ ${money(loss)} <span class="rp-dim">vs max ${money(maxLoss)}</span>`]);
+    }
+
+    // Stock-price alerts at the short strikes (debit: at the long strike)
+    const shorts = legs.filter(l => l.action === 'sell');
+    const longs = legs.filter(l => l.action === 'buy');
+    const alertParts = [];
+    if(!debit){
+      const sp = shorts.find(l => l.type === 'put'), sc = shorts.find(l => l.type === 'call');
+      if(sp) alertParts.push(`below $${fmtStrike(sp.strike)}`);
+      if(sc) alertParts.push(`above $${fmtStrike(sc.strike)}`);
+    } else {
+      const lc = longs.find(l => l.type === 'call'), lp = longs.find(l => l.type === 'put');
+      if(lc) alertParts.push(`below $${fmtStrike(lc.strike)}`);
+      if(lp) alertParts.push(`above $${fmtStrike(lp.strike)}`);
+    }
+    if(alertParts.length) rows.push(['Price alert', `${t.sym} ${alertParts.join(' or ')}`]);
+
+    // Time exit: 21 days before expiry, or 2 days before if already inside that
+    if(t.expDate){
+      const exp = new Date(t.expDate + 'T16:00:00');
+      const days = (t.dte != null && t.dte > 21) ? 21 : 2;
+      const by = new Date(exp.getTime() - days * 86400000);
+      while(by.getDay() === 0 || by.getDay() === 6) by.setDate(by.getDate() - 1);
+      const lbl = by.toLocaleDateString(undefined, { month:'short', day:'numeric' });
+      rows.push(['Close by', `${lbl} <span class="rp-dim">(${days === 21 ? '21 days before expiry' : 'before expiry week ends'})</span>`]);
+    }
+
+    // Size for 1-2% of capital
+    const capEl = document.getElementById('portfolioCapital');
+    const cap = capEl ? parseFloat(String(capEl.value).replace(/[^0-9.]/g, '')) : NaN;
+    if(isFinite(cap) && cap > 0){
+      const lo = Math.floor(cap * 0.01 / maxLoss), hi = Math.floor(cap * 0.02 / maxLoss);
+      rows.push(['Size (1–2% risk)', hi >= 1
+        ? `${lo === hi ? hi : `${Math.max(lo,1)}–${hi}`} contract${hi === 1 ? '' : 's'} <span class="rp-dim">of ${money(cap)}</span>`
+        : `<span class="val-neg">1 contract risks ${(maxLoss / cap * 100).toFixed(1)}% of ${money(cap)}</span>`]);
+    }
+
+    // Credit vs width
+    let warn = '';
+    if(!debit && width){
+      const ratio = mid / width;
+      if(ratio < 1/3) warn = `Credit is only ${Math.round(ratio * 100)}% of the ${px(width)} width — a small payoff for the risk (aim for ⅓ or more).`;
+    }
+    const assign = debit ? '' : 'Close before expiry if a short strike is in the money — otherwise you can be assigned shares.';
+
+    const html = `<div class="risk-plan">
+        <div class="rp-head">Risk plan</div>
+        ${rows.map(([k,v]) => `<div class="ticket-row"><span>${k}</span><b>${v}</b></div>`).join('')}
+        ${warn ? `<div class="rp-warn">${warn}</div>` : ''}
+        ${assign ? `<div class="rp-note">${assign}</div>` : ''}
+      </div>`;
+    const strip = h => h.replace(/<[^>]+>/g, '');
+    text.push('Risk plan:', ...rows.map(([k,v]) => `  ${k}: ${strip(v)}`));
+    if(warn) text.push('  ' + warn);
+    if(assign) text.push('  ' + assign);
+    return { html, text };
+  }
+
   function orderTicket(t){
     const legs = Array.isArray(t.legs) ? t.legs.slice() : [];
     if(!legs.length || t.premium == null) return null;
@@ -3160,8 +3252,9 @@
     const limit = `Limit $${mid.toFixed(2)} ${kind} (mid)${fill != null ? ` · realistic fill ≈ $${fill.toFixed(2)}` : ''}`;
     const loss = t.maxLoss != null ? `Max loss $${Number(t.maxLoss).toLocaleString(undefined,{maximumFractionDigits:0})} per contract` : '';
     const quotes = (t.liquidity && Array.isArray(t.liquidity.legQuotes)) ? t.liquidity.legQuotes.slice().sort((a,b) => (typeOrder[a.type] - typeOrder[b.type]) || (a.strike - b.strike)) : [];
+    const risk = riskPlan(t, legs);
     const quoteLines = quotes.map(q => `${verb(q.action)} ${fmtStrike(q.strike)} ${q.type}: bid ${Number(q.bid).toFixed(2)} / ask ${Number(q.ask).toFixed(2)} · OI ${Number(q.oi).toLocaleString()}`);
-    const text = [title, legText, limit, loss, exitText ? `Exit idea: ${exitText}` : '', ...(quoteLines.length ? ['Leg quotes:', ...quoteLines.map(x => '  ' + x)] : []),
+    const text = [title, legText, limit, loss, exitText ? `Take profit: ${exitText}` : '', ...(risk ? risk.text : []), ...(quoteLines.length ? ['Leg quotes:', ...quoteLines.map(x => '  ' + x)] : []),
                   'Enter as ONE multi-leg order with a limit price; size it in Review Picks.'].filter(Boolean).join('\n');
     const html = `
       <div class="ticket">
@@ -3174,7 +3267,8 @@
         <div class="ticket-row"><span>Limit (mid)</span><b>$${mid.toFixed(2)} ${kind}</b></div>
         ${fill != null ? `<div class="ticket-row"><span>Realistic fill</span><b>≈ $${fill.toFixed(2)}</b></div>` : ''}
         ${loss ? `<div class="ticket-row"><span>Max loss</span><b class="val-neg">$${Number(t.maxLoss).toLocaleString(undefined,{maximumFractionDigits:0})} / contract</b></div>` : ''}
-        ${exitText ? `<div class="ticket-row"><span>Exit idea</span><b>${exitText}</b></div>` : ''}
+        ${exitText ? `<div class="ticket-row"><span>Take profit</span><b>${exitText}</b></div>` : ''}
+        ${risk ? risk.html : ''}
         ${quotes.length ? `<div class="ticket-quotes">
           <div class="q-row q-head"><span>Leg</span><span>Bid / Ask</span><span>OI</span></div>
           ${quotes.map(q => `<div class="q-row"><span>${verb(q.action)} ${fmtStrike(q.strike)} ${q.type}</span><span>${Number(q.bid).toFixed(2)} / ${Number(q.ask).toFixed(2)}</span><span>${Number(q.oi).toLocaleString()}</span></div>`).join('')}
