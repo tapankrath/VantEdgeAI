@@ -1868,7 +1868,7 @@
 <div class="layout" id="lookupView" style="display:none;">
   <div class="lookup-tab-panel">
     <div class="lookup-tab-label">Look up any ticker, live</div>
-    <div class="lookup-tab-sub">Runs the same options screen on demand for one symbol — not limited to your tracked list. Takes up to a minute.</div>
+    <div class="lookup-tab-sub">Finds a trend-following debit spread for any symbol: the option you buy needs delta ≥ 0.30 and enough gamma (0.02 at $50, scaled for higher prices). Takes up to a minute.</div>
     <form class="lookup-tab-form" id="lookupForm">
       <input type="search" class="lookup-tab-input" id="lookupInput" placeholder="Ticker symbol" maxlength="10" autocomplete="off" autocapitalize="characters" spellcheck="false" enterkeyhint="search" aria-label="Look up any ticker live">
       <button type="submit" class="lookup-tab-submit" id="lookupSubmitBtn">
@@ -3378,6 +3378,7 @@
             : ''
         }
         <div><div class="mm-label">Delta</div><div class="mm-val">${t.delta}</div></div>
+        ${t.longLegGreeks ? `<div><div class="mm-label">Bought leg Δ / Γ</div><div class="mm-val">${Number(t.longLegGreeks.delta).toFixed(2)} / ${Number(t.longLegGreeks.gamma).toFixed(4)} <span style="font-weight:500; color:var(--text-faint); font-size:11px;">min ${Number(t.longLegGreeks.minDelta).toFixed(2)} / ${Number(t.longLegGreeks.minGamma).toFixed(4)}</span></div></div>` : ''}
         <div><div class="mm-label">Implied Volatility</div><div class="mm-val">${t.iv}%</div></div>
         <div><div class="mm-label">IV Rank</div><div class="mm-val">${t.ivr}${limitedHistoryMark(t.ivRankLimited)}</div></div>
         ${t.dailyReturn != null ? `<div><div class="mm-label">Daily Return</div><div class="mm-val">$${t.dailyReturn.toFixed(2)}</div></div>` : ''}

@@ -276,6 +276,28 @@ def bs_delta(spot, strike, dte_days, iv, option_type, r=RISK_FREE_RATE):
     return float(norm.cdf(d1) - 1)
 
 
+def bs_gamma(spot, strike, dte_days, iv, r=RISK_FREE_RATE):
+    """Black-Scholes gamma (same for calls and puts). 0% dividend yield."""
+    if dte_days <= 0 or iv <= 0 or spot <= 0 or strike <= 0:
+        return 0.0
+    t = dte_days / 365.0
+    d1 = (math.log(spot / strike) + (r + 0.5 * iv ** 2) * t) / (iv * math.sqrt(t))
+    return float(norm.pdf(d1) / (spot * iv * math.sqrt(t)))
+
+
+# Ticker Lookup's momentum rules for the option you BUY (2026-10-11):
+# delta of at least 0.30, and gamma of at least 0.02 for a stock at $50 or
+# below, scaled down in proportion to price above that (gamma shrinks as the
+# share price grows, so a flat 0.02 would only ever pass ~1-week options on
+# a $300+ stock). e.g. $100 -> 0.010, $340 -> 0.0029.
+LOOKUP_MIN_LONG_DELTA = 0.30
+LOOKUP_GAMMA_AT_50 = 0.02
+
+
+def lookup_min_gamma(spot):
+    return LOOKUP_GAMMA_AT_50 * min(1.0, 50.0 / spot) if spot > 0 else LOOKUP_GAMMA_AT_50
+
+
 def safe_float(v, default=0.0):
     """float() that treats NaN (and bad input) as `default` instead of propagating NaN.
     Needed because Python's `x or default` idiom does NOT catch NaN — NaN is truthy —
@@ -908,7 +930,7 @@ def debit_spread_roc_ceiling(dte):
     return DEBIT_SPREAD_ROC_CEILING_FLOOR + frac * (MAX_PLAUSIBLE_DEBIT_SPREAD_ROC - DEBIT_SPREAD_ROC_CEILING_FLOOR)
 
 
-def evaluate_expiration_candidate(tk, strat, side, spot, cand_exp, cand_dte, atr):
+def evaluate_expiration_candidate(tk, strat, side, spot, cand_exp, cand_dte, atr, greeks_gate=False):
     """
     Builds a complete, fully-priced trade for ONE specific expiration, so multiple
     expirations can be compared against each other on actual economics (annualized
@@ -927,6 +949,27 @@ def evaluate_expiration_candidate(tk, strat, side, spot, cand_exp, cand_dte, atr
     fields, reason = try_strategy_pick(strat, calls, puts, spot, cand_dte)
     if not fields:
         return None, reason
+
+    long_greeks = None
+    if greeks_gate:
+        # Lookup only: the bought leg must clear delta / gamma minimums.
+        buy = next((l for l in fields.get("legs") or [] if l.get("action") == "buy"), None)
+        if not buy:
+            return None, "no bought leg to check delta/gamma on"
+        chain_df = calls if buy["type"] == "call" else puts
+        row = chain_df[chain_df["strike"] == buy["strike"]]
+        leg_iv = safe_float(row.iloc[0].get("impliedVolatility")) if not row.empty else 0.0
+        if leg_iv <= 0:
+            return None, "bought leg has no implied volatility quote"
+        d = abs(bs_delta(spot, buy["strike"], cand_dte, leg_iv, buy["type"]))
+        g = bs_gamma(spot, buy["strike"], cand_dte, leg_iv)
+        g_min = lookup_min_gamma(spot)
+        if d < LOOKUP_MIN_LONG_DELTA:
+            return None, f"bought leg delta {d:.2f} < {LOOKUP_MIN_LONG_DELTA:.2f}"
+        if g < g_min:
+            return None, f"bought leg gamma {g:.4f} < {g_min:.4f}"
+        long_greeks = {"delta": round(d, 2), "gamma": round(g, 4), "minGamma": round(g_min, 4),
+                       "minDelta": LOOKUP_MIN_LONG_DELTA, "strike": buy["strike"], "type": buy["type"]}
     liquidity = liquidity_summary(fields.get("legs"), calls, puts)
 
     # Tradeability gate (2026-10-10) — see MIN_EXPIRY_TOTAL_OI and friends.
@@ -1078,6 +1121,7 @@ def evaluate_expiration_candidate(tk, strat, side, spot, cand_exp, cand_dte, atr
         "expDate": cand_exp,
         "legs": fields.get("legs"),
         "liquidity": liquidity,
+        "longLegGreeks": long_greeks,
     }, None
 
 
@@ -1977,10 +2021,16 @@ def build_lookup_trade(ticker_symbol):
 
         # Same momentum rule as the batch (2026-10-10), so a looked-up ticker
         # gets the strategy its trend supports.
-        regime, _ = momentum_regime(history, spot)
-        if regime == "neutral" and ticker_symbol in LEVERAGED_ETFS:
-            return None, "No clear trend right now, and leveraged ETFs don't get range (Iron Condor) trades."
-        strat, side = {"bull": ("Bull Put Spread", "bull"), "bear": ("Bear Call Spread", "bear")}.get(regime, ("Iron Condor", "neutral"))
+        # Lookup = momentum / directional bet (2026-10-11): buy the trend
+        # with a debit spread whose bought leg clears the delta and gamma
+        # minimums (see LOOKUP_MIN_LONG_DELTA / lookup_min_gamma).
+        regime, regime_info = momentum_regime(history, spot)
+        if regime == "neutral":
+            r3 = regime_info.get("ret3m")
+            return None, ("No clear trend right now (price vs. its 50-day average, short-term averages and "
+                          f"3-month change{'' if r3 is None else f' of {r3:+.1f}%'} disagree) — the lookup only "
+                          "suggests a directional debit spread when the trend is clear.")
+        strat, side = ("Bull Call Spread", "bull") if regime == "bull" else ("Bear Put Spread", "bear")
         is_etf = ticker_symbol in KNOWN_ETFS
 
         # See the main pipeline's _rank_key for why this ranks by raw roc, not ap.
@@ -1990,7 +2040,7 @@ def build_lookup_trade(ticker_symbol):
         best = None
         failure_reasons = []
         for cand_exp, cand_dte in in_window_candidates[:MAX_CANDIDATES_TO_EVALUATE]:
-            result, reason = evaluate_expiration_candidate(tk, strat, side, spot, cand_exp, cand_dte, atr)
+            result, reason = evaluate_expiration_candidate(tk, strat, side, spot, cand_exp, cand_dte, atr, greeks_gate=True)
             if result:
                 if best is None or _rank_key(result) > _rank_key(best):
                     best = result
@@ -2002,7 +2052,7 @@ def build_lookup_trade(ticker_symbol):
         # nothing in-window could be priced at all.
         if not best and in_window_candidates:
             for cand_exp, cand_dte in outside_window_candidates[:MAX_CANDIDATES_TO_EVALUATE]:
-                result, reason = evaluate_expiration_candidate(tk, strat, side, spot, cand_exp, cand_dte, atr)
+                result, reason = evaluate_expiration_candidate(tk, strat, side, spot, cand_exp, cand_dte, atr, greeks_gate=True)
                 if result:
                     if best is None or _rank_key(result) > _rank_key(best):
                         best = result
@@ -2076,6 +2126,7 @@ def build_lookup_trade(ticker_symbol):
             "pcOI": best["pcOI"],
             "pcVol": best["pcVol"],
             "debitStrategy": best.get("debitStrategy", False),
+            "longLegGreeks": best.get("longLegGreeks"),
             "liquidity": best.get("liquidity"),
             "potIsProfitProb": best.get("potIsProfitProb", False),
             "newsSentiment": news_sentiment,
