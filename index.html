@@ -1572,6 +1572,12 @@
   .rp-warn{ margin-top:6px; font-size:12px; font-weight:700; color:var(--red); }
   .rp-note{ margin-top:6px; font-size:12px; color:var(--text-dim); }
 
+  /* ===== NEWS-AGAINST FLAG (v80) ===== */
+  .news-flag{ display:inline-block; margin-left:6px; padding:0 5px; font-size:10.5px; font-weight:800; line-height:16px;
+    color:var(--red); border:1px solid color-mix(in srgb, var(--red) 55%, transparent); background:color-mix(in srgb, var(--red) 8%, transparent); white-space:nowrap; vertical-align:1px; }
+  .news-conflict-note{ margin:6px 0 10px; padding:7px 9px; font-size:12.5px; font-weight:600; color:var(--red);
+    border:1px solid color-mix(in srgb, var(--red) 45%, var(--border)); background:color-mix(in srgb, var(--red) 6%, var(--surface)); }
+
   /* Dark mode component overrides — kept at the very end of the stylesheet
      on purpose. Each of these targets a class that already has its own
      rule earlier in this file at the same specificity; CSS breaks a
@@ -1770,6 +1776,7 @@
         <label class="check-row"><input type="checkbox" data-quality="ema"> Finds support at EMA 8/20</label>
         <label class="check-row"><input type="checkbox" data-quality="valCheap"> Underlying is Cheap vs. sector peers</label>
         <label class="check-row"><input type="checkbox" data-quality="valRich"> Underlying is Rich vs. sector peers</label>
+        <label class="check-row"><input type="checkbox" data-quality="newsAgrees"> News doesn't contradict the trade</label>
       </div>
     </div>
 
@@ -2084,6 +2091,18 @@
   // a peer-relative valuation, not a side. Absent entirely (not a "no data"
   // badge) when the ticker didn't have enough same-sector peers in this
   // run to compare against — see MIN_SECTOR_PEERS_FOR_VALUATION.
+  // News vs. direction (2026-10-12): a bullish trade whose headlines score
+  // Negative, or a bearish one scoring Positive. Iron Condors aren't
+  // directional, so they never conflict. Headline sentiment is a rough,
+  // word-based read — this is a warning tag, not a verdict.
+  function newsConflict(t){
+    const l = t && t.newsSentimentLabel;
+    return (t.side === 'bull' && l === 'Negative') || (t.side === 'bear' && l === 'Positive');
+  }
+  function newsBadge(t){
+    return newsConflict(t) ? ` <span class="news-flag" title="Recent headlines lean ${t.newsSentimentLabel.toLowerCase()} — against this ${t.side === 'bull' ? 'bullish' : 'bearish'} trade">News against</span>` : '';
+  }
+
   function valuationBadge(obj){
     if(!obj.valuationLabel) return '';
     const color = obj.valuationLabel === 'Cheap' ? 'var(--green)' : obj.valuationLabel === 'Rich' ? 'var(--red)' : 'var(--text-faint)';
@@ -2144,7 +2163,7 @@
           <td><label class="checkbox-wrap" onclick="event.stopPropagation()"><input type="checkbox" class="row-checkbox" data-oid="${oid}" ${isChecked ? 'checked' : ''}></label></td>
           <td>
             <div class="ticker-sym">${symHtml} <span style="color:var(--text-faint); font-weight:500;">${t.spot != null ? `$${t.spot.toFixed(2)}${staleMark(t.spotPriceStale)} · ` : ''}${t.strike}</span></div>
-            <div class="strat-name">${t.strat}${valuationBadge(t)}</div>${nearNote}
+            <div class="strat-name">${t.strat}${valuationBadge(t)}${newsBadge(t)}</div>${nearNote}
           </td>
           <td class="num">${t.exp} <span style="color:var(--text-faint);">· ${t.dte}d</span></td>
           <td class="num">${t.pot != null ? t.pot + '%' : '—'}${t.potIsProfitProb ? '<span class="stale-mark" style="color:var(--text-faint);" title="Probability of Profit, not probability of touching a strike — this trade\'s only meaningful risk number isn\'t touch-based (see the modal for why).">POP</span>' : ''}</td>
@@ -2174,7 +2193,7 @@
               <div class="tc-a">${symHtml} <span class="tc-price">${cardPrice}</span><span class="tc-strike">${cardStrike}</span></div>
               <div class="card-ret" title="Trade profit">${fmtPct(t.roc)}</div>
               <div class="tc-c">${t.strat.replace(/ Spread$/, '')} · ${t.exp} · ${t.dte}d</div>
-              <div class="tc-d">${oiShort ? `<span title="Weakest-leg open interest">OI ${oiShort}</span>` : ''}${valuationBadge(t)}</div>
+              <div class="tc-d">${oiShort ? `<span title="Weakest-leg open interest">OI ${oiShort}</span>` : ''}${valuationBadge(t)}${newsBadge(t)}</div>
             </div>${nearNote}
           </div>
         </div>`;
@@ -2254,6 +2273,7 @@
     const wantEma    = document.querySelector('[data-quality="ema"]').checked;
     const wantValCheap = document.querySelector('[data-quality="valCheap"]').checked;
     const wantValRich  = document.querySelector('[data-quality="valRich"]').checked;
+    const wantNewsOk   = document.querySelector('[data-quality="newsAgrees"]').checked;
     const excludeEarnings = document.querySelector('[data-risk="excludeEarnings"]').checked;
     const earningsWithin3wk = document.querySelector('[data-risk="earningsWithin3wk"]').checked;
     const wantLowVol = document.querySelector('[data-risk="lowVol"]').checked;
@@ -2286,7 +2306,7 @@
       funnel.push({ label:'After Outlook & Strategy', count: pool.length });
     }
 
-    if(wantBuy || wantSell || wantEma || wantValCheap || wantValRich){
+    if(wantBuy || wantSell || wantEma || wantValCheap || wantValRich || wantNewsOk){
       // Buy and Sell are two sides of the same trend flag (t.sell is always
       // !t.buy), so — like the strategy, P/C and volatility checkboxes above —
       // they're OR'd: either alone narrows to that side, both together show
@@ -2301,7 +2321,7 @@
         const valOk = (!wantValCheap && !wantValRich)
           || (wantValCheap && t.valuationLabel === 'Cheap')
           || (wantValRich && t.valuationLabel === 'Rich');
-        return trendOk && (!wantEma || t.ema) && valOk;
+        return trendOk && (!wantEma || t.ema) && valOk && (!wantNewsOk || !newsConflict(t));
       });
       funnel.push({ label:'After Quality', count: pool.length });
     }
@@ -3404,6 +3424,7 @@
           <span class="sentiment-dot" style="background:${sentimentColor};"></span>${sentimentLabel}
         </span>
       </div>
+      ${newsConflict(t) ? `<div class="news-conflict-note">Headlines lean ${t.newsSentimentLabel.toLowerCase()}, against this ${t.side === 'bull' ? 'bullish' : 'bearish'} trade. Read them before entering — the score is a rough word-based read.</div>` : ''}
       <div class="news-list">${headlinesHtml}</div>
       <div class="ticker-action-row">
         <button class="modal-copy-btn" id="modalCopyBtn">Copy trade summary</button>
