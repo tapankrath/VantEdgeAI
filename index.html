@@ -1575,6 +1575,15 @@
   /* ===== NEWS-AGAINST FLAG (v80) ===== */
   .news-flag{ display:inline-block; margin-left:6px; padding:0 5px; font-size:10.5px; font-weight:800; line-height:16px;
     color:var(--red); border:1px solid color-mix(in srgb, var(--red) 55%, transparent); background:color-mix(in srgb, var(--red) 8%, transparent); white-space:nowrap; vertical-align:1px; }
+  .news-tone{ display:inline-block; margin-left:6px; padding:0 5px; font-size:10.5px; font-weight:700; line-height:16px; white-space:nowrap; vertical-align:1px;
+    border:1px solid var(--border-strong); color:var(--text-dim); }
+  .news-tone.pos{ color:var(--green); border-color:color-mix(in srgb, var(--green) 45%, transparent); }
+  .news-tone.neg{ color:var(--red); border-color:color-mix(in srgb, var(--red) 45%, transparent); }
+  .nt-s{ display:none; }
+  @media (max-width:400px){
+    .nt-l{ display:none; } .nt-s{ display:inline; }
+    #cardList .news-tone, #cardList .news-flag{ margin-left:4px; padding:0 3px; }
+  }
   .news-conflict-note{ margin:6px 0 10px; padding:7px 9px; font-size:12.5px; font-weight:600; color:var(--red);
     border:1px solid color-mix(in srgb, var(--red) 45%, var(--border)); background:color-mix(in srgb, var(--red) 6%, var(--surface)); }
 
@@ -2108,8 +2117,16 @@
     return (t.side === 'bull' && l === 'Negative') || (t.side === 'bear' && l === 'Positive');
   }
   function newsBadge(t){
-    return newsConflict(t) ? ` <span class="news-flag" title="Recent headlines lean ${t.newsSentimentLabel.toLowerCase()} — against this ${t.side === 'bull' ? 'bullish' : 'bearish'} trade">News against</span>` : '';
+    const l = t && t.newsSentimentLabel;
+    if(newsConflict(t)) return ` <span class="news-flag" title="Recent headlines lean ${l.toLowerCase()} — against this ${t.side === 'bull' ? 'bullish' : 'bearish'} trade"><span class="nt-l">News </span><span class="nt-s">N </span>against</span>`;
+    // Tone on every trade (2026-10-12): non-neutral headlines are shown even
+    // when they don't conflict — for an Iron Condor, news either way can
+    // move the stock out of its range.
+    if(l === 'Positive') return ` <span class="news-tone pos" title="Recent headlines lean positive"><span class="nt-l">News </span><span class="nt-s">N</span>+</span>`;
+    if(l === 'Negative') return ` <span class="news-tone neg" title="Recent headlines lean negative"><span class="nt-l">News </span><span class="nt-s">N</span>−</span>`;
+    return '';
   }
+
 
   function valuationBadge(obj){
     if(!obj.valuationLabel) return '';
