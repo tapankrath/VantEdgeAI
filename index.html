@@ -1771,7 +1771,7 @@
       <div class="filter-section-body">
         <label class="check-row"><input type="checkbox" data-strat="Bull Put Spread" checked> <span class="strat-dot bull"></span>Bull Put Spread</label>
         <label class="check-row"><input type="checkbox" data-strat="Bear Call Spread" checked> <span class="strat-dot bear"></span>Bear Call Spread</label>
-        <label class="check-row"><input type="checkbox" data-strat="Iron Condor" checked> <span class="strat-dot neutral"></span>Iron Condor</label>
+        <label class="check-row"><input type="checkbox" data-strat="Iron Condor"> <span class="strat-dot neutral"></span>Iron Condor</label>
         <label class="check-row"><input type="checkbox" data-strat="Bull Call Spread"> <span class="strat-dot bull"></span>Bull Call Spread</label>
         <label class="check-row"><input type="checkbox" data-strat="Bear Put Spread"> <span class="strat-dot bear"></span>Bear Put Spread</label>
       </div>
@@ -1799,7 +1799,7 @@
 
     <div class="filter-section" id="riskSection" style="display:none;">
       <div class="filter-section-body">
-        <label class="check-row"><input type="checkbox" data-risk="excludeEarnings" checked> Exclude earnings within DTE</label>
+        <label class="check-row"><input type="checkbox" data-risk="excludeEarnings"> Exclude earnings within DTE</label>
         <label class="check-row"><input type="checkbox" data-risk="earningsWithin3wk"> Earnings within 3 weeks</label>
         <label class="check-row"><input type="checkbox" data-risk="lowVol"> Low volatility (IV Rank &lt; 50)</label>
         <label class="check-row"><input type="checkbox" data-risk="highVol"> High volatility (IV Rank &gt; 50)</label>
@@ -3002,12 +3002,11 @@
   const DEFAULT_CHECKED = [
     '[data-strat="Bull Put Spread"]',
     '[data-strat="Bear Call Spread"]',
-    '[data-strat="Iron Condor"]',
+    // Iron Condor and "Exclude earnings" off by default (2026-10-12, your call).
     // Bull Call / Bear Put Spread off by default (2026-10-01): debit spreads
     // need a sizable move to pay off — too aggressive as a default.
     '[data-quality="buy"]',
     '[data-quality="sell"]',
-    '[data-risk="excludeEarnings"]',
   ];
   // 20% (2026-10-02): with the OI / bid-ask filters removed, 20% keeps the
   // default list to a manageable size.
