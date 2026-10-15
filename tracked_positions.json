@@ -1,248 +1,134 @@
 [
   {
-    "id": "AAPL|Iron_Condor|2026-10-16|$318/322/355/360",
-    "sym": "AAPL",
-    "strat": "Iron Condor",
-    "side": "neutral",
-    "strike": "$318/322/355/360",
-    "exp": "Oct 16",
-    "expDate": "2026-10-16",
-    "backExp": null,
-    "backExpDate": null,
-    "dte": 21,
-    "premium": 1.51,
-    "debitStrategy": false,
-    "legs": [
-      {
-        "type": "put",
-        "strike": 322.5,
-        "action": "sell",
-        "qty": 1
-      },
-      {
-        "type": "put",
-        "strike": 317.5,
-        "action": "buy",
-        "qty": 1
-      },
-      {
-        "type": "call",
-        "strike": 355,
-        "action": "sell",
-        "qty": 1
-      },
-      {
-        "type": "call",
-        "strike": 360,
-        "action": "buy",
-        "qty": 1
-      }
-    ],
-    "roc": 30.2,
-    "ap": 524.9,
-    "spot": 337.02,
-    "trackedAt": "2026-09-25T05:33:28.298Z",
-    "entryDate": "2026-09-25"
-  },
-  {
-    "id": "MSFT|Bull_Put_Spread|2026-10-05|$482/478",
+    "id": "MSFT|Bull_Put_Spread|2026-11-06|$500/490",
     "sym": "MSFT",
     "strat": "Bull Put Spread",
     "side": "bull",
-    "strike": "$482/478",
-    "exp": "Oct 5",
-    "expDate": "2026-10-05",
+    "strike": "$500/490",
+    "exp": "Nov 6",
+    "expDate": "2026-11-06",
     "backExp": null,
     "backExpDate": null,
-    "dte": 10,
-    "premium": 1.53,
+    "dte": 22,
+    "premium": 2.05,
     "debitStrategy": false,
     "legs": [
       {
         "type": "put",
-        "strike": 482.5,
+        "strike": 500,
         "action": "sell",
         "qty": 1
       },
       {
         "type": "put",
-        "strike": 477.5,
+        "strike": 490,
         "action": "buy",
         "qty": 1
       }
     ],
-    "roc": 30.6,
-    "ap": 1116.9,
-    "spot": 500.59,
-    "trackedAt": "2026-09-25T05:33:28.299Z",
-    "entryDate": "2026-09-25"
+    "roc": 20.5,
+    "ap": 340.1,
+    "spot": 533.69,
+    "trackedAt": "2026-10-15T01:34:04.593Z",
+    "entryDate": "2026-10-15"
   },
   {
-    "id": "CSCO|Iron_Condor|2026-10-02|$101/103/110/112",
-    "sym": "CSCO",
-    "strat": "Iron Condor",
-    "side": "neutral",
-    "strike": "$101/103/110/112",
-    "exp": "Oct 2",
-    "expDate": "2026-10-02",
-    "backExp": null,
-    "backExpDate": null,
-    "dte": 7,
-    "premium": 0.63,
-    "debitStrategy": false,
-    "legs": [
-      {
-        "type": "put",
-        "strike": 103,
-        "action": "sell",
-        "qty": 1
-      },
-      {
-        "type": "put",
-        "strike": 101,
-        "action": "buy",
-        "qty": 1
-      },
-      {
-        "type": "call",
-        "strike": 110,
-        "action": "sell",
-        "qty": 1
-      },
-      {
-        "type": "call",
-        "strike": 112,
-        "action": "buy",
-        "qty": 1
-      }
-    ],
-    "roc": 31.5,
-    "ap": 1642.5,
-    "spot": 106.43,
-    "trackedAt": "2026-09-25T05:33:28.299Z",
-    "entryDate": "2026-09-25"
-  },
-  {
-    "id": "SPCX|Iron_Condor|2026-10-30|$125/134/172/180",
-    "sym": "SPCX",
-    "strat": "Iron Condor",
-    "side": "neutral",
-    "strike": "$125/134/172/180",
-    "exp": "Oct 30",
-    "expDate": "2026-10-30",
-    "backExp": null,
-    "backExpDate": null,
-    "dte": 35,
-    "premium": 2.38,
-    "debitStrategy": false,
-    "legs": [
-      {
-        "type": "put",
-        "strike": 134,
-        "action": "sell",
-        "qty": 1
-      },
-      {
-        "type": "put",
-        "strike": 125,
-        "action": "buy",
-        "qty": 1
-      },
-      {
-        "type": "call",
-        "strike": 172.5,
-        "action": "sell",
-        "qty": 1
-      },
-      {
-        "type": "call",
-        "strike": 180,
-        "action": "buy",
-        "qty": 1
-      }
-    ],
-    "roc": 26.44,
-    "ap": 275.7,
-    "spot": 148.36,
-    "trackedAt": "2026-09-25T05:33:28.299Z",
-    "entryDate": "2026-09-25"
-  },
-  {
-    "id": "LLY|Bear_Call_Spread|2026-10-23|$1280/1290",
-    "sym": "LLY",
-    "strat": "Bear Call Spread",
-    "side": "bear",
-    "strike": "$1280/1290",
+    "id": "META|Bull_Put_Spread|2026-10-23|$715/710",
+    "sym": "META",
+    "strat": "Bull Put Spread",
+    "side": "bull",
+    "strike": "$715/710",
     "exp": "Oct 23",
     "expDate": "2026-10-23",
     "backExp": null,
     "backExpDate": null,
-    "dte": 28,
-    "premium": 2.52,
+    "dte": 8,
+    "premium": 1.75,
     "debitStrategy": false,
     "legs": [
       {
-        "type": "call",
-        "strike": 1280,
+        "type": "put",
+        "strike": 715,
         "action": "sell",
         "qty": 1
       },
       {
-        "type": "call",
-        "strike": 1290,
+        "type": "put",
+        "strike": 710,
         "action": "buy",
         "qty": 1
       }
     ],
-    "roc": 25.25,
-    "ap": 329.2,
-    "spot": 1150.99,
-    "trackedAt": "2026-09-25T05:33:28.299Z",
-    "entryDate": "2026-09-25"
+    "roc": 35,
+    "ap": 1596.9,
+    "spot": 762.5,
+    "trackedAt": "2026-10-15T01:34:04.593Z",
+    "entryDate": "2026-10-15"
   },
   {
-    "id": "UNH|Iron_Condor|2026-10-02|$352/358/388/392",
-    "sym": "UNH",
-    "strat": "Iron Condor",
-    "side": "neutral",
-    "strike": "$352/358/388/392",
-    "exp": "Oct 2",
-    "expDate": "2026-10-02",
+    "id": "CRWD|Bull_Put_Spread|2026-10-23|$245/240",
+    "sym": "CRWD",
+    "strat": "Bull Put Spread",
+    "side": "bull",
+    "strike": "$245/240",
+    "exp": "Oct 23",
+    "expDate": "2026-10-23",
     "backExp": null,
     "backExpDate": null,
-    "dte": 7,
-    "premium": 1.71,
+    "dte": 8,
+    "premium": 1.75,
     "debitStrategy": false,
     "legs": [
       {
         "type": "put",
-        "strike": 357.5,
+        "strike": 245,
         "action": "sell",
         "qty": 1
       },
       {
         "type": "put",
-        "strike": 352.5,
-        "action": "buy",
-        "qty": 1
-      },
-      {
-        "type": "call",
-        "strike": 387.5,
-        "action": "sell",
-        "qty": 1
-      },
-      {
-        "type": "call",
-        "strike": 392.5,
+        "strike": 240,
         "action": "buy",
         "qty": 1
       }
     ],
-    "roc": 34.3,
-    "ap": 1788.5,
-    "spot": 371.29,
-    "trackedAt": "2026-09-25T05:33:28.299Z",
-    "entryDate": "2026-09-25"
+    "roc": 35,
+    "ap": 1596.9,
+    "spot": 261.21,
+    "trackedAt": "2026-10-15T01:34:04.593Z",
+    "entryDate": "2026-10-15"
+  },
+  {
+    "id": "SPCX|Bull_Put_Spread|2026-10-30|$145/143",
+    "sym": "SPCX",
+    "strat": "Bull Put Spread",
+    "side": "bull",
+    "strike": "$145/143",
+    "exp": "Oct 30",
+    "expDate": "2026-10-30",
+    "backExp": null,
+    "backExpDate": null,
+    "dte": 15,
+    "premium": 0.65,
+    "debitStrategy": false,
+    "legs": [
+      {
+        "type": "put",
+        "strike": 145,
+        "action": "sell",
+        "qty": 1
+      },
+      {
+        "type": "put",
+        "strike": 143,
+        "action": "buy",
+        "qty": 1
+      }
+    ],
+    "roc": 32.5,
+    "ap": 790.8,
+    "spot": 156.54,
+    "trackedAt": "2026-10-15T01:34:04.593Z",
+    "entryDate": "2026-10-15"
   }
 ]
