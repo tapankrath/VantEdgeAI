@@ -2257,6 +2257,7 @@
     nearOpen = !nearOpen; syncNearOpen();
   }, true);
   const MIN_SCORE = 6;
+  const MAX_DTE = 45;
   function thresholdValues(){
     const num = id => parseFloat(document.getElementById(id).value);
     const mp = Math.max(0, num('minTradeProfitInput') || 0);
@@ -2312,7 +2313,11 @@
     // MIN_SCORE or more are listed at all — near misses included. The score
     // itself is no longer shown in the list (it's in each trade's details
     // and still drives the "Rating" sort).
-    let pool = trades.filter(t => t.score != null && Number(t.score) >= MIN_SCORE);
+    // Max 45 days to expiration (2026-10-15): the fetch falls back to a
+    // longer date when a ticker has nothing inside 7-45 days (monthly-only
+    // ADRs, mostly) — those are hidden, near misses included.
+    let pool = trades.filter(t => t.score != null && Number(t.score) >= MIN_SCORE
+                               && (t.dte == null || Number(t.dte) <= MAX_DTE));
     const funnel = [{ label:'All setups', count: pool.length }];
 
     if(activeStrats.length || pcoiChecks.length || pcvolChecks.length){
