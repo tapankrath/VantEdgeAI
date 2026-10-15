@@ -1,123 +1,7 @@
 {
-  "generated_at": "2026-10-15T01:42:55.463204+00:00",
+  "generated_at": "2026-10-15T04:29:47.760842+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
-    {
-      "sym": "AAPL",
-      "strat": "Bull Put Spread",
-      "side": "bull",
-      "isETF": false,
-      "spot": 342.96,
-      "spotPriceStale": false,
-      "strike": "$325/315",
-      "hedge": null,
-      "exp": "Nov 13",
-      "dte": 29,
-      "backExp": null,
-      "backExpDate": null,
-      "pot": 44,
-      "ap": 221.5,
-      "ivr": 21,
-      "ivRankLimited": false,
-      "dailyReturn": 6.07,
-      "roc": 17.6,
-      "score": 5.8,
-      "buy": true,
-      "momentum": "bull",
-      "ret3m": 3.0,
-      "sell": false,
-      "ema": true,
-      "earningsSoon": true,
-      "daysToEarnings": 18,
-      "marginOfSafety": true,
-      "delta": -0.22,
-      "iv": 28.1,
-      "premium": 1.76,
-      "breakeven": 323.24,
-      "breakevenLow": null,
-      "breakevenHigh": null,
-      "breakevenMovePct": null,
-      "maxLoss": 824.0,
-      "pcOI": 0.71,
-      "pcVol": 0.61,
-      "debitStrategy": false,
-      "liquidity": {
-        "minOI": 545,
-        "worstSpreadPct": 16.8,
-        "midPremium": 1.76,
-        "fillPremium": 1.6,
-        "weakLeg": {
-          "type": "put",
-          "strike": 315.0,
-          "action": "buy"
-        },
-        "legQuotes": [
-          {
-            "type": "put",
-            "strike": 325.0,
-            "action": "sell",
-            "bid": 3.75,
-            "ask": 4.05,
-            "oi": 1113
-          },
-          {
-            "type": "put",
-            "strike": 315.0,
-            "action": "buy",
-            "bid": 1.96,
-            "ask": 2.32,
-            "oi": 545
-          }
-        ],
-        "expiryOI": 18129
-      },
-      "potIsProfitProb": false,
-      "newsSentiment": -0.32,
-      "newsSentimentLabel": "Negative",
-      "newsHeadlines": [
-        {
-          "title": "Is Netflix Stock Worth More Than Its Competitors?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-worth-more-competitors-011910341.html",
-          "sentiment": 0.23
-        },
-        {
-          "title": "S&P 500, Nasdaq See Worst Day In Over Two Months As Chipmaker Rout Deepens, CPI Data Comes In Hot \u2014 AAPL, SPCX, DRAM, SOXX In Focus",
-          "publisher": "Stocktwits",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-see-worst-000726391.html",
-          "sentiment": -0.62
-        },
-        {
-          "title": "Apple doubled the price of its TV streaming box from $150 to $300, and even the company's hardcore fans are furious",
-          "publisher": "Moneywise",
-          "link": "https://finance.yahoo.com/technology/articles/apple-doubled-price-tv-streaming-220000338.html",
-          "sentiment": -0.57
-        }
-      ],
-      "volRegime": "Rich",
-      "ivRvRatio": 1.67,
-      "realizedVol": 16.8,
-      "expDate": "2026-11-13",
-      "legs": [
-        {
-          "type": "put",
-          "strike": 325.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "put",
-          "strike": 315.0,
-          "action": "buy",
-          "qty": 1
-        }
-      ],
-      "valuationLabel": "Rich",
-      "peVsSectorPct": 15.2,
-      "sectorMedianPE": 34.1,
-      "sectorPeerCount": 21,
-      "sector": "Technology"
-    },
     {
       "sym": "MSFT",
       "strat": "Bull Put Spread",
@@ -188,9 +72,15 @@
         "expiryOI": 29864
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.23,
+      "newsSentiment": -0.15,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Why Is Everyone Ignoring Zoom Stock's High Cash Yield?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-everyone-ignoring-zoom-stocks-015217422.html",
+          "sentiment": -0.4
+        },
         {
           "title": "Is Xero\u2019s (ASX:XRO) Google Gemini Integration Quietly Rewiring Its AI Platform Ambitions?",
           "publisher": "Simply Wall St.",
@@ -202,12 +92,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/softcat-plc-stu-sf5-fy-230026818.html",
           "sentiment": -0.05
-        },
-        {
-          "title": "Microsoft Just Unveiled a Brand-New AI Chip. Could It Be the \"Nvidia Killer\" Everyone's Been Looking For?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-just-unveiled-brand-ai-211706659.html",
-          "sentiment": -0.65
         }
       ],
       "volRegime": "Rich",
@@ -229,152 +113,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -11.7,
-      "sectorMedianPE": 34.1,
-      "sectorPeerCount": 21,
-      "sector": "Technology"
-    },
-    {
-      "sym": "NVDA",
-      "strat": "Iron Condor",
-      "side": "neutral",
-      "isETF": false,
-      "spot": 221.3,
-      "spotPriceStale": false,
-      "strike": "$208/212/232/238",
-      "hedge": null,
-      "exp": "Oct 23",
-      "dte": 8,
-      "backExp": null,
-      "backExpDate": null,
-      "pot": 43,
-      "ap": 1359.6,
-      "ivr": 4,
-      "ivRankLimited": false,
-      "dailyReturn": 18.62,
-      "roc": 29.8,
-      "score": 6.2,
-      "buy": true,
-      "momentum": "neutral",
-      "ret3m": 6.8,
-      "sell": false,
-      "ema": false,
-      "earningsSoon": false,
-      "daysToEarnings": 33,
-      "marginOfSafety": true,
-      "delta": -0.03,
-      "iv": 36.6,
-      "premium": 1.49,
-      "breakeven": 211.01,
-      "breakevenLow": 211.01,
-      "breakevenHigh": 233.99,
-      "breakevenMovePct": null,
-      "maxLoss": 351.0,
-      "pcOI": 0.79,
-      "pcVol": 0.56,
-      "debitStrategy": false,
-      "liquidity": {
-        "minOI": 1079,
-        "worstSpreadPct": 5.0,
-        "midPremium": 1.49,
-        "fillPremium": 1.44,
-        "weakLeg": {
-          "type": "put",
-          "strike": 207.5,
-          "action": "buy"
-        },
-        "legQuotes": [
-          {
-            "type": "put",
-            "strike": 212.5,
-            "action": "sell",
-            "bid": 1.81,
-            "ask": 1.88,
-            "oi": 3197
-          },
-          {
-            "type": "put",
-            "strike": 207.5,
-            "action": "buy",
-            "bid": 1.01,
-            "ask": 1.06,
-            "oi": 1079
-          },
-          {
-            "type": "call",
-            "strike": 232.5,
-            "action": "sell",
-            "bid": 1.25,
-            "ask": 1.3,
-            "oi": 3221
-          },
-          {
-            "type": "call",
-            "strike": 237.5,
-            "action": "buy",
-            "bid": 0.58,
-            "ask": 0.61,
-            "oi": 3282
-          }
-        ],
-        "expiryOI": 304561
-      },
-      "potIsProfitProb": false,
-      "newsSentiment": 0.08,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [
-        {
-          "title": "Dow Jones Futures: Techs Fall On Anthropic News After Dell, AMD, CoreWeave Dive In AI-Led Sell-Off",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/aa652aec-f2fc-3be9-a055-a0a4183cba67/dow-jones-futures%3A-techs-fall.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "The S&P 500 Has Risen 30.6% in the First 20 Months of Trump's Second Term, Just Ahead of the 28.5% Gain Over the Same Stretch of His First Term. Here's Why That Comparison Matters for Investors Heading Into the Midterms.",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-risen-30-6-012000131.html",
-          "sentiment": 0.54
-        },
-        {
-          "title": "Boeing's Secret Weapon Isn't on the Factory Floor -- It's in the Boardroom",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/boeings-secret-weapon-isnt-factory-005000697.html",
-          "sentiment": -0.3
-        }
-      ],
-      "volRegime": "Rich",
-      "ivRvRatio": 1.44,
-      "realizedVol": 25.5,
-      "expDate": "2026-10-23",
-      "legs": [
-        {
-          "type": "put",
-          "strike": 212.5,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "put",
-          "strike": 207.5,
-          "action": "buy",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 232.5,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 237.5,
-          "action": "buy",
-          "qty": 1
-        }
-      ],
-      "valuationLabel": "Cheap",
-      "peVsSectorPct": -17.9,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -13.9,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
@@ -414,7 +154,7 @@
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 370.0,
-      "pcOI": 1.3,
+      "pcOI": 0.0,
       "pcVol": 0.79,
       "debitStrategy": true,
       "liquidity": {
@@ -445,28 +185,28 @@
             "oi": 288
           }
         ],
-        "expiryOI": 63889
+        "expiryOI": 27837
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.0,
+      "newsSentiment": -0.03,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Meta Reports on Oct. 21. I'd Consider Buying the Stock Before It Does.",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/meta-reports-oct-21-id-040702260.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "MongoDB lets apps pay only for what they use",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/articles/mongodb-lets-apps-pay-only-031700643.html",
+          "sentiment": -0.1
+        },
         {
           "title": "BofA sees ChatGPT taking aim at Google\u2019s next ad dollar",
           "publisher": "TheStreet",
           "link": "https://finance.yahoo.com/media-advertising/articles/bofa-sees-chatgpt-taking-aim-003700235.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "What Does AppLovin Offer That Omnicom Does Not?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/media-advertising/articles/does-applovin-offer-omnicom-does-231116528.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Perpetual Futures and ETFs? Maybe?",
-          "publisher": "etf.com",
-          "link": "https://finance.yahoo.com/markets/options/articles/perpetual-futures-etfs-maybe-223542480.html",
           "sentiment": 0.0
         }
       ],
@@ -489,7 +229,7 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 25.2,
+      "peVsSectorPct": 29.3,
       "sectorMedianPE": 22.2,
       "sectorPeerCount": 3,
       "sector": "Communication Services"
@@ -580,25 +320,25 @@
         "expiryOI": 20658
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.21,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.02,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "ByteDance in Talks to Secure MediaTek AI Chips for Data Centers",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/technology/ai/articles/bytedance-talks-secure-mediatek-ai-023911406.html",
+          "sentiment": 0.34
+        },
+        {
+          "title": "Why Is Everyone Ignoring Zoom Stock's High Cash Yield?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-everyone-ignoring-zoom-stocks-015217422.html",
+          "sentiment": -0.4
+        },
         {
           "title": "BofA sees ChatGPT taking aim at Google\u2019s next ad dollar",
           "publisher": "TheStreet",
           "link": "https://finance.yahoo.com/media-advertising/articles/bofa-sees-chatgpt-taking-aim-003700235.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Prediction: Alphabet Will Soar After Oct. 28",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-alphabet-soar-oct-28-232000512.html",
-          "sentiment": 0.64
-        },
-        {
-          "title": "Is Xero\u2019s (ASX:XRO) Google Gemini Integration Quietly Rewiring Its AI Platform Ambitions?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/xero-asx-xro-google-gemini-231818025.html",
           "sentiment": 0.0
         }
       ],
@@ -633,7 +373,7 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -22.5,
+      "peVsSectorPct": -21.2,
       "sectorMedianPE": 22.2,
       "sectorPeerCount": 3,
       "sector": "Communication Services"
@@ -708,9 +448,15 @@
         "expiryOI": 16562
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.13,
+      "newsSentiment": 0.03,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "AI Agents Could Pose New Risks to Banks: US, European Regulators Step Up Scrutiny of AI Safeguards, Chinese Models and Cybersecurity: Report",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/technology/ai/articles/ai-agents-could-pose-risks-013006585.html",
+          "sentiment": 0.08
+        },
         {
           "title": "Invesco QQQ Doesn't Own a Single Bank, and That's Not the Only Thing the Nasdaq-100 Leaves Out",
           "publisher": "Motley Fool",
@@ -722,12 +468,6 @@
           "publisher": "TIKR",
           "link": "https://finance.yahoo.com/markets/stocks/articles/alibaba-stock-down-38-2025-224618551.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Broad-Based Growth Meets Bank Caution: The Evolving Q3 Earnings Picture",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/broad-based-growth-meets-bank-222600190.html",
-          "sentiment": 0.38
         }
       ],
       "volRegime": "Rich",
@@ -749,154 +489,10 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": -1.4,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": -5.4,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17,
       "sector": "Financial Services"
-    },
-    {
-      "sym": "ORCL",
-      "strat": "Iron Condor",
-      "side": "neutral",
-      "isETF": false,
-      "spot": 130.55,
-      "spotPriceStale": false,
-      "strike": "$105/115/155/165",
-      "hedge": null,
-      "exp": "Nov 20",
-      "dte": 36,
-      "backExp": null,
-      "backExpDate": null,
-      "pot": 41,
-      "ap": 290.5,
-      "ivr": 60,
-      "ivRankLimited": false,
-      "dailyReturn": 7.96,
-      "roc": 28.65,
-      "score": 7.2,
-      "buy": false,
-      "momentum": "neutral",
-      "ret3m": 5.5,
-      "sell": true,
-      "ema": false,
-      "earningsSoon": false,
-      "daysToEarnings": 60,
-      "marginOfSafety": true,
-      "delta": 0.0,
-      "iv": 57.2,
-      "premium": 2.87,
-      "breakeven": 112.14,
-      "breakevenLow": 112.14,
-      "breakevenHigh": 157.87,
-      "breakevenMovePct": null,
-      "maxLoss": 713.5,
-      "pcOI": 0.76,
-      "pcVol": 1.67,
-      "debitStrategy": false,
-      "liquidity": {
-        "minOI": 3556,
-        "worstSpreadPct": 12.5,
-        "midPremium": 2.87,
-        "fillPremium": 2.67,
-        "weakLeg": {
-          "type": "put",
-          "strike": 105.0,
-          "action": "buy"
-        },
-        "legQuotes": [
-          {
-            "type": "put",
-            "strike": 115.0,
-            "action": "sell",
-            "bid": 2.94,
-            "ask": 3.25,
-            "oi": 9988
-          },
-          {
-            "type": "put",
-            "strike": 105.0,
-            "action": "buy",
-            "bid": 1.27,
-            "ask": 1.44,
-            "oi": 3556
-          },
-          {
-            "type": "call",
-            "strike": 155.0,
-            "action": "sell",
-            "bid": 2.4,
-            "ask": 2.58,
-            "oi": 8354
-          },
-          {
-            "type": "call",
-            "strike": 165.0,
-            "action": "buy",
-            "bid": 1.31,
-            "ask": 1.42,
-            "oi": 18053
-          }
-        ],
-        "expiryOI": 323609
-      },
-      "potIsProfitProb": false,
-      "newsSentiment": -0.27,
-      "newsSentimentLabel": "Negative",
-      "newsHeadlines": [
-        {
-          "title": "Stock Market Today, Oct. 14: CoreWeave Plummets on Gartner Neocloud Warning and Bond Yield Surge",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-214836987.html",
-          "sentiment": 0.3
-        },
-        {
-          "title": "Stock Market Today, Oct. 14: Oracle Tumbles on Hotter CPI Data Lifting Treasury Yields",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-211246271.html",
-          "sentiment": -0.49
-        },
-        {
-          "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-futures-inch-115448878.html",
-          "sentiment": -0.61
-        }
-      ],
-      "volRegime": "Fair",
-      "ivRvRatio": 0.99,
-      "realizedVol": 58.0,
-      "expDate": "2026-11-20",
-      "legs": [
-        {
-          "type": "put",
-          "strike": 115.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "put",
-          "strike": 105.0,
-          "action": "buy",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 155.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 165.0,
-          "action": "buy",
-          "qty": 1
-        }
-      ],
-      "valuationLabel": "Cheap",
-      "peVsSectorPct": -39.9,
-      "sectorMedianPE": 34.1,
-      "sectorPeerCount": 21,
-      "sector": "Technology"
     },
     {
       "sym": "AMZN",
@@ -1037,8 +633,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 0.0,
-      "sectorMedianPE": 20.4,
+      "peVsSectorPct": 0.5,
+      "sectorMedianPE": 20.7,
       "sectorPeerCount": 5,
       "sector": "Consumer Cyclical"
     },
@@ -1223,8 +819,8 @@
         "expiryOI": 18402
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.02,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.31,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
           "title": "Is Netflix Stock Worth More Than Its Competitors?",
@@ -1239,10 +835,10 @@
           "sentiment": -0.42
         },
         {
-          "title": "Over 25% of the Stocks in the S&P 500 Are Down 40% or More. 4 Bargain Tech Stocks to Buy Now",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/over-25-stocks-p-500-195000217.html",
-          "sentiment": 0.27
+          "title": "NFLX Stock Layoffs: What to Know About the Latest Netflix Job Cuts",
+          "publisher": "Barchart",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nflx-stock-layoffs-know-latest-201750230.html",
+          "sentiment": -0.74
         }
       ],
       "volRegime": "Rich",
@@ -1380,8 +976,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 156.6,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 153.6,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
@@ -1524,8 +1120,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -60.7,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -61.7,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
@@ -1536,19 +1132,19 @@
       "isETF": false,
       "spot": 235.95,
       "spotPriceStale": false,
-      "strike": "$220/225/250/255",
+      "strike": "$210/220/255/265",
       "hedge": null,
-      "exp": "Oct 23",
-      "dte": 8,
+      "exp": "Oct 30",
+      "dte": 15,
       "backExp": null,
       "backExpDate": null,
-      "pot": 45,
-      "ap": 1569.5,
+      "pot": 43,
+      "ap": 691.1,
       "ivr": 5,
       "ivRankLimited": false,
-      "dailyReturn": 21.5,
-      "roc": 34.4,
-      "score": 6.1,
+      "dailyReturn": 18.93,
+      "roc": 28.4,
+      "score": 6.2,
       "buy": false,
       "momentum": "neutral",
       "ret3m": 36.9,
@@ -1557,119 +1153,119 @@
       "earningsSoon": false,
       "daysToEarnings": 48,
       "marginOfSafety": true,
-      "delta": -0.02,
-      "iv": 44.9,
-      "premium": 1.72,
-      "breakeven": 223.28,
-      "breakevenLow": 223.28,
-      "breakevenHigh": 251.72,
+      "delta": 0.02,
+      "iv": 44.8,
+      "premium": 2.84,
+      "breakeven": 217.16,
+      "breakevenLow": 217.16,
+      "breakevenHigh": 257.84,
       "breakevenMovePct": null,
-      "maxLoss": 328.0,
-      "pcOI": 0.92,
-      "pcVol": 0.36,
+      "maxLoss": 716.0,
+      "pcOI": 0.79,
+      "pcVol": 1.17,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 488,
-        "worstSpreadPct": 32.6,
-        "midPremium": 1.72,
-        "fillPremium": 1.36,
+        "minOI": 162,
+        "worstSpreadPct": 30.1,
+        "midPremium": 2.84,
+        "fillPremium": 2.51,
         "weakLeg": {
           "type": "call",
-          "strike": 250.0,
-          "action": "sell"
+          "strike": 265.0,
+          "action": "buy"
         },
         "legQuotes": [
           {
             "type": "put",
-            "strike": 225.0,
+            "strike": 220.0,
             "action": "sell",
-            "bid": 1.8,
-            "ask": 2.5,
-            "oi": 629
+            "bid": 2.31,
+            "ask": 2.67,
+            "oi": 270
           },
           {
             "type": "put",
-            "strike": 220.0,
+            "strike": 210.0,
             "action": "buy",
-            "bid": 0.99,
-            "ask": 1.15,
-            "oi": 633
-          },
-          {
-            "type": "call",
-            "strike": 250.0,
-            "action": "sell",
-            "bid": 1.67,
-            "ask": 1.91,
-            "oi": 488
+            "bid": 0.93,
+            "ask": 1.26,
+            "oi": 605
           },
           {
             "type": "call",
             "strike": 255.0,
+            "action": "sell",
+            "bid": 2.37,
+            "ask": 2.79,
+            "oi": 220
+          },
+          {
+            "type": "call",
+            "strike": 265.0,
             "action": "buy",
-            "bid": 0.98,
-            "ask": 1.32,
-            "oi": 541
+            "bid": 1.03,
+            "ask": 1.24,
+            "oi": 162
           }
         ],
-        "expiryOI": 15167
+        "expiryOI": 8647
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.05,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.17,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "DocuSign (DOCU) Stock Could Be Above Fair Value On New IAM Launch",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/docusign-docu-stock-could-above-021658925.html",
+          "sentiment": 0.57
+        },
+        {
+          "title": "Why Is Everyone Ignoring Zoom Stock's High Cash Yield?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-everyone-ignoring-zoom-stocks-015217422.html",
+          "sentiment": -0.4
+        },
         {
           "title": "Exalate launches Australian hosting for Exalate Cloud, giving organisations the option to run integrations in-country",
           "publisher": "GlobeNewswire",
           "link": "https://finance.yahoo.com/technology/articles/exalate-launches-australian-hosting-exalate-221700788.html",
           "sentiment": 0.34
-        },
-        {
-          "title": "Elon Musk takes aim at the customer service industry",
-          "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-takes-aim-customer-214734317.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Stock Market Today, Oct. 14: Oracle Tumbles on Hotter CPI Data Lifting Treasury Yields",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-211246271.html",
-          "sentiment": -0.49
         }
       ],
       "volRegime": "Rich",
       "ivRvRatio": 1.56,
       "realizedVol": 28.7,
-      "expDate": "2026-10-23",
+      "expDate": "2026-10-30",
       "legs": [
         {
           "type": "put",
-          "strike": 225.0,
+          "strike": 220.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "put",
-          "strike": 220.0,
+          "strike": 210.0,
           "action": "buy",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 250.0,
-          "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
           "strike": 255.0,
+          "action": "sell",
+          "qty": 1
+        },
+        {
+          "type": "call",
+          "strike": 265.0,
           "action": "buy",
           "qty": 1
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -36.7,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -36.2,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
@@ -1740,7 +1336,7 @@
             "oi": 2450
           }
         ],
-        "expiryOI": 108589
+        "expiryOI": 108529
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.1,
@@ -1784,30 +1380,30 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 12084.2,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 14351.6,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
     {
       "sym": "PLTR",
-      "strat": "Bull Put Spread",
+      "strat": "Bull Call Spread",
       "side": "bull",
       "isETF": false,
       "spot": 200.97,
       "spotPriceStale": false,
-      "strike": "$178/172",
+      "strike": "$210/230",
       "hedge": null,
-      "exp": "Nov 6",
-      "dte": 22,
+      "exp": "Nov 20",
+      "dte": 36,
       "backExp": null,
       "backExpDate": null,
       "pot": 39,
-      "ap": 340.1,
+      "ap": 2324.8,
       "ivr": 3,
       "ivRankLimited": false,
-      "dailyReturn": 4.66,
-      "roc": 20.5,
+      "dailyReturn": null,
+      "roc": 229.3,
       "score": 5.7,
       "buy": true,
       "momentum": "bull",
@@ -1817,48 +1413,48 @@
       "earningsSoon": true,
       "daysToEarnings": 18,
       "marginOfSafety": true,
-      "delta": -0.2,
-      "iv": 66.5,
-      "premium": 1.02,
-      "breakeven": 176.47,
+      "delta": 0.45,
+      "iv": 58.8,
+      "premium": 6.07,
+      "breakeven": 216.07,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 397.5,
-      "pcOI": 0.95,
-      "pcVol": 0.96,
-      "debitStrategy": false,
+      "maxLoss": 607.5,
+      "pcOI": 0.0,
+      "pcVol": 1.13,
+      "debitStrategy": true,
       "liquidity": {
-        "minOI": 291,
-        "worstSpreadPct": 3.6,
-        "midPremium": 1.02,
-        "fillPremium": 0.96,
+        "minOI": 11213,
+        "worstSpreadPct": 4.0,
+        "midPremium": 6.07,
+        "fillPremium": 6.24,
         "weakLeg": {
-          "type": "put",
-          "strike": 172.5,
-          "action": "buy"
+          "type": "call",
+          "strike": 230.0,
+          "action": "sell"
         },
         "legQuotes": [
           {
-            "type": "put",
-            "strike": 177.5,
-            "action": "sell",
-            "bid": 4.1,
-            "ask": 4.25,
-            "oi": 305
+            "type": "call",
+            "strike": 210.0,
+            "action": "buy",
+            "bid": 11.0,
+            "ask": 11.45,
+            "oi": 12284
           },
           {
-            "type": "put",
-            "strike": 172.5,
-            "action": "buy",
-            "bid": 3.1,
-            "ask": 3.2,
-            "oi": 291
+            "type": "call",
+            "strike": 230.0,
+            "action": "sell",
+            "bid": 5.05,
+            "ask": 5.25,
+            "oi": 11213
           }
         ],
-        "expiryOI": 33148
+        "expiryOI": 148680
       },
-      "potIsProfitProb": false,
+      "potIsProfitProb": true,
       "newsSentiment": 0.22,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
@@ -1882,314 +1478,26 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 2.18,
+      "ivRvRatio": 1.93,
       "realizedVol": 30.5,
-      "expDate": "2026-11-06",
+      "expDate": "2026-11-20",
       "legs": [
         {
-          "type": "put",
-          "strike": 177.5,
-          "action": "sell",
+          "type": "call",
+          "strike": 210.0,
+          "action": "buy",
           "qty": 1
         },
         {
-          "type": "put",
-          "strike": 172.5,
-          "action": "buy",
+          "type": "call",
+          "strike": 230.0,
+          "action": "sell",
           "qty": 1
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 407.9,
-      "sectorMedianPE": 34.1,
-      "sectorPeerCount": 21,
-      "sector": "Technology"
-    },
-    {
-      "sym": "TSM",
-      "strat": "Iron Condor",
-      "side": "neutral",
-      "isETF": false,
-      "spot": 430.0,
-      "spotPriceStale": false,
-      "strike": "$395/405/460/470",
-      "hedge": null,
-      "exp": "Oct 30",
-      "dte": 15,
-      "backExp": null,
-      "backExpDate": null,
-      "pot": 41,
-      "ap": 782.3,
-      "ivr": 26,
-      "ivRankLimited": false,
-      "dailyReturn": 21.43,
-      "roc": 32.15,
-      "score": 6.6,
-      "buy": true,
-      "momentum": "neutral",
-      "ret3m": 5.2,
-      "sell": false,
-      "ema": false,
-      "earningsSoon": true,
-      "daysToEarnings": 0,
-      "marginOfSafety": true,
-      "delta": 0.01,
-      "iv": 37.7,
-      "premium": 3.21,
-      "breakeven": 401.79,
-      "breakevenLow": 401.79,
-      "breakevenHigh": 463.21,
-      "breakevenMovePct": null,
-      "maxLoss": 678.5,
-      "pcOI": 1.88,
-      "pcVol": 0.7,
-      "debitStrategy": false,
-      "liquidity": {
-        "minOI": 294,
-        "worstSpreadPct": 23.5,
-        "midPremium": 3.21,
-        "fillPremium": 2.77,
-        "weakLeg": {
-          "type": "put",
-          "strike": 395.0,
-          "action": "buy"
-        },
-        "legQuotes": [
-          {
-            "type": "put",
-            "strike": 405.0,
-            "action": "sell",
-            "bid": 3.7,
-            "ask": 4.3,
-            "oi": 538
-          },
-          {
-            "type": "put",
-            "strike": 395.0,
-            "action": "buy",
-            "bid": 1.99,
-            "ask": 2.52,
-            "oi": 294
-          },
-          {
-            "type": "call",
-            "strike": 460.0,
-            "action": "sell",
-            "bid": 3.45,
-            "ask": 3.8,
-            "oi": 1312
-          },
-          {
-            "type": "call",
-            "strike": 470.0,
-            "action": "buy",
-            "bid": 2.0,
-            "ask": 2.31,
-            "oi": 564
-          }
-        ],
-        "expiryOI": 34395
-      },
-      "potIsProfitProb": false,
-      "newsSentiment": 0.11,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [
-        {
-          "title": "Dow Jones Futures: Techs Fall On Anthropic News After Dell, AMD, CoreWeave Dive In AI-Led Sell-Off",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/aa652aec-f2fc-3be9-a055-a0a4183cba67/dow-jones-futures%3A-techs-fall.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Taiwan Semiconductor Manufacturing And 2 AI Chip Stocks To Watch",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductor-manufacturing-2-ai-231859326.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "TSMC Results Face High Bar to Calm Global AI Stock Trade Jitters",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tsmc-results-face-high-bar-222246027.html",
-          "sentiment": 0.32
-        }
-      ],
-      "volRegime": "Rich",
-      "ivRvRatio": 1.25,
-      "realizedVol": 30.2,
-      "expDate": "2026-10-30",
-      "legs": [
-        {
-          "type": "put",
-          "strike": 405.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "put",
-          "strike": 395.0,
-          "action": "buy",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 460.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 470.0,
-          "action": "buy",
-          "qty": 1
-        }
-      ],
-      "valuationLabel": "Cheap",
-      "peVsSectorPct": -8.5,
-      "sectorMedianPE": 34.1,
-      "sectorPeerCount": 21,
-      "sector": "Technology"
-    },
-    {
-      "sym": "DELL",
-      "strat": "Iron Condor",
-      "side": "neutral",
-      "isETF": false,
-      "spot": 507.93,
-      "spotPriceStale": false,
-      "strike": "$450/460/570/580",
-      "hedge": null,
-      "exp": "Oct 30",
-      "dte": 15,
-      "backExp": null,
-      "backExpDate": null,
-      "pot": 42,
-      "ap": 821.2,
-      "ivr": 44,
-      "ivRankLimited": false,
-      "dailyReturn": 22.5,
-      "roc": 33.75,
-      "score": 6.9,
-      "buy": true,
-      "momentum": "neutral",
-      "ret3m": 30.0,
-      "sell": false,
-      "ema": false,
-      "earningsSoon": false,
-      "daysToEarnings": 43,
-      "marginOfSafety": true,
-      "delta": -0.01,
-      "iv": 64.5,
-      "premium": 3.38,
-      "breakeven": 456.62,
-      "breakevenLow": 456.62,
-      "breakevenHigh": 573.38,
-      "breakevenMovePct": null,
-      "maxLoss": 662.5,
-      "pcOI": 1.09,
-      "pcVol": 1.03,
-      "debitStrategy": false,
-      "liquidity": {
-        "minOI": 127,
-        "worstSpreadPct": 15.9,
-        "midPremium": 3.38,
-        "fillPremium": 2.36,
-        "weakLeg": {
-          "type": "call",
-          "strike": 580.0,
-          "action": "buy"
-        },
-        "legQuotes": [
-          {
-            "type": "put",
-            "strike": 460.0,
-            "action": "sell",
-            "bid": 9.0,
-            "ask": 10.05,
-            "oi": 156
-          },
-          {
-            "type": "put",
-            "strike": 450.0,
-            "action": "buy",
-            "bid": 6.85,
-            "ask": 7.8,
-            "oi": 215
-          },
-          {
-            "type": "call",
-            "strike": 570.0,
-            "action": "sell",
-            "bid": 6.65,
-            "ask": 7.8,
-            "oi": 222
-          },
-          {
-            "type": "call",
-            "strike": 580.0,
-            "action": "buy",
-            "bid": 5.6,
-            "ask": 6.5,
-            "oi": 127
-          }
-        ],
-        "expiryOI": 14798
-      },
-      "potIsProfitProb": false,
-      "newsSentiment": 0.12,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [
-        {
-          "title": "Dow Jones Futures: Techs Fall On Anthropic News After Dell, AMD, CoreWeave Dive In AI-Led Sell-Off",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/aa652aec-f2fc-3be9-a055-a0a4183cba67/dow-jones-futures%3A-techs-fall.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Dell leads CIO spending plans as hardware prices jump",
-          "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/technology/articles/dell-leads-cio-spending-plans-223428118.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Dell Just Found Out What Gravity Feels Like",
-          "publisher": "Moby",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-just-found-gravity-feels-212158568.html",
-          "sentiment": 0.36
-        }
-      ],
-      "volRegime": "Fair",
-      "ivRvRatio": 1.06,
-      "realizedVol": 60.7,
-      "expDate": "2026-10-30",
-      "legs": [
-        {
-          "type": "put",
-          "strike": 460.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "put",
-          "strike": 450.0,
-          "action": "buy",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 570.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 580.0,
-          "action": "buy",
-          "qty": 1
-        }
-      ],
-      "valuationLabel": "Cheap",
-      "peVsSectorPct": -13.5,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 402.0,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
@@ -2229,7 +1537,7 @@
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 1677.5,
-      "pcOI": 0.73,
+      "pcOI": 0.74,
       "pcVol": 0.28,
       "debitStrategy": false,
       "liquidity": {
@@ -2260,7 +1568,7 @@
             "oi": 711
           }
         ],
-        "expiryOI": 49922
+        "expiryOI": 49909
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.05,
@@ -2304,8 +1612,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 2649.6,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 2760.6,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
@@ -2420,8 +1728,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 89.4,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 97.4,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
@@ -2461,7 +1769,7 @@
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 170.5,
-      "pcOI": 1.94,
+      "pcOI": 0,
       "pcVol": 1.91,
       "debitStrategy": false,
       "liquidity": {
@@ -2492,7 +1800,7 @@
             "oi": 1277
           }
         ],
-        "expiryOI": 163230
+        "expiryOI": 107733
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.06,
@@ -2543,18 +1851,18 @@
       "isETF": true,
       "spot": 728.95,
       "spotPriceStale": false,
-      "strike": "$702/700",
+      "strike": "$689/687",
       "hedge": null,
-      "exp": "Oct 30",
-      "dte": 15,
+      "exp": "Nov 20",
+      "dte": 36,
       "backExp": null,
       "backExpDate": null,
       "pot": 40,
-      "ap": 419.8,
+      "ap": 162.2,
       "ivr": 44,
       "ivRankLimited": false,
-      "dailyReturn": 2.3,
-      "roc": 17.25,
+      "dailyReturn": 0.89,
+      "roc": 16.0,
       "score": 6.9,
       "buy": true,
       "momentum": "bull",
@@ -2565,45 +1873,45 @@
       "daysToEarnings": null,
       "marginOfSafety": true,
       "delta": -0.2,
-      "iv": 24.1,
-      "premium": 0.34,
-      "breakeven": 701.65,
+      "iv": 23.9,
+      "premium": 0.32,
+      "breakeven": 688.68,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 165.5,
-      "pcOI": 3.27,
-      "pcVol": 1.56,
+      "maxLoss": 168.0,
+      "pcOI": 1.38,
+      "pcVol": 0.81,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 931,
-        "worstSpreadPct": 1.9,
-        "midPremium": 0.34,
-        "fillPremium": 0.31,
+        "minOI": 397,
+        "worstSpreadPct": 1.6,
+        "midPremium": 0.32,
+        "fillPremium": 0.27,
         "weakLeg": {
           "type": "put",
-          "strike": 702.0,
+          "strike": 689.0,
           "action": "sell"
         },
         "legQuotes": [
           {
             "type": "put",
-            "strike": 702.0,
+            "strike": 689.0,
             "action": "sell",
-            "bid": 4.67,
-            "ask": 4.76,
-            "oi": 931
+            "bid": 7.08,
+            "ask": 7.19,
+            "oi": 397
           },
           {
             "type": "put",
-            "strike": 700.0,
+            "strike": 687.0,
             "action": "buy",
-            "bid": 4.34,
-            "ask": 4.4,
-            "oi": 91301
+            "bid": 6.76,
+            "ask": 6.87,
+            "oi": 494
           }
         ],
-        "expiryOI": 755750
+        "expiryOI": 1204010
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.4,
@@ -2629,19 +1937,19 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.4,
+      "ivRvRatio": 1.39,
       "realizedVol": 17.2,
-      "expDate": "2026-10-30",
+      "expDate": "2026-11-20",
       "legs": [
         {
           "type": "put",
-          "strike": 702.0,
+          "strike": 689.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "put",
-          "strike": 700.0,
+          "strike": 687.0,
           "action": "buy",
           "qty": 1
         }
@@ -2684,7 +1992,7 @@
       "breakevenMovePct": null,
       "maxLoss": 861.0,
       "pcOI": 0.91,
-      "pcVol": 0.87,
+      "pcVol": 0.86,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 332,
@@ -2758,8 +2066,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 1.5,
-      "sectorMedianPE": 20.4,
+      "peVsSectorPct": 0.0,
+      "sectorMedianPE": 20.7,
       "sectorPeerCount": 5,
       "sector": "Consumer Cyclical"
     },
@@ -2800,7 +2108,7 @@
       "breakevenMovePct": null,
       "maxLoss": 1487.5,
       "pcOI": 1.35,
-      "pcVol": 1.09,
+      "pcVol": 1.08,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 193,
@@ -2830,12 +2138,18 @@
             "oi": 193
           }
         ],
-        "expiryOI": 13812
+        "expiryOI": 13794
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.03,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Why Is Costco (COST) Stock Trending After Hours?",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-costco-cost-stock-trending-024416944.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Kroger makes a pivotal decision as customers turn to rivals",
           "publisher": "TheStreet",
@@ -2847,12 +2161,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/economy/policy/articles/social-securitys-2027-cost-living-223500118.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Goodwin University Expands No-Cost Education and Career Training to Massachusetts Through SNAP Path to Work",
-          "publisher": "PR Newswire",
-          "link": "https://finance.yahoo.com/small-business/articles/goodwin-university-expands-no-cost-212700399.html",
-          "sentiment": 0.1
         }
       ],
       "volRegime": "Rich",
@@ -2874,7 +2182,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 199.4,
+      "peVsSectorPct": 192.1,
       "sectorMedianPE": 15.8,
       "sectorPeerCount": 4,
       "sector": "Consumer Defensive"
@@ -2949,9 +2257,15 @@
         "expiryOI": 12897
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.18,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.04,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Why Is Everyone Ignoring Zoom Stock's High Cash Yield?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-everyone-ignoring-zoom-stocks-015217422.html",
+          "sentiment": -0.4
+        },
         {
           "title": "Here's Why Cisco Systems (CSCO) Fell More Than Broader Market",
           "publisher": "Zacks",
@@ -2963,12 +2277,6 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-stock-2-value-plays-191607599.html",
           "sentiment": 0.53
-        },
-        {
-          "title": "Will Atlassian Stock Ever Get Back To Its Old High?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/atlassian-stock-ever-back-old-190025638.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -2991,151 +2299,7 @@
       ],
       "valuationLabel": "Cheap",
       "peVsSectorPct": 0.0,
-      "sectorMedianPE": 34.1,
-      "sectorPeerCount": 21,
-      "sector": "Technology"
-    },
-    {
-      "sym": "MRVL",
-      "strat": "Iron Condor",
-      "side": "neutral",
-      "isETF": false,
-      "spot": 245.28,
-      "spotPriceStale": false,
-      "strike": "$210/220/285/295",
-      "hedge": null,
-      "exp": "Nov 6",
-      "dte": 22,
-      "backExp": null,
-      "backExpDate": null,
-      "pot": 44,
-      "ap": 555.8,
-      "ivr": 31,
-      "ivRankLimited": false,
-      "dailyReturn": 15.23,
-      "roc": 33.5,
-      "score": 6.6,
-      "buy": true,
-      "momentum": "neutral",
-      "ret3m": 30.3,
-      "sell": false,
-      "ema": false,
-      "earningsSoon": false,
-      "daysToEarnings": 47,
-      "marginOfSafety": true,
-      "delta": -0.01,
-      "iv": 65.3,
-      "premium": 3.35,
-      "breakeven": 216.65,
-      "breakevenLow": 216.65,
-      "breakevenHigh": 288.35,
-      "breakevenMovePct": null,
-      "maxLoss": 665.0,
-      "pcOI": 1.12,
-      "pcVol": 1.55,
-      "debitStrategy": false,
-      "liquidity": {
-        "minOI": 187,
-        "worstSpreadPct": 16.4,
-        "midPremium": 3.35,
-        "fillPremium": 2.8,
-        "weakLeg": {
-          "type": "call",
-          "strike": 295.0,
-          "action": "buy"
-        },
-        "legQuotes": [
-          {
-            "type": "put",
-            "strike": 220.0,
-            "action": "sell",
-            "bid": 5.4,
-            "ask": 5.9,
-            "oi": 325
-          },
-          {
-            "type": "put",
-            "strike": 210.0,
-            "action": "buy",
-            "bid": 3.3,
-            "ask": 3.85,
-            "oi": 210
-          },
-          {
-            "type": "call",
-            "strike": 285.0,
-            "action": "sell",
-            "bid": 4.0,
-            "ask": 4.65,
-            "oi": 230
-          },
-          {
-            "type": "call",
-            "strike": 295.0,
-            "action": "buy",
-            "bid": 2.8,
-            "ask": 3.3,
-            "oi": 187
-          }
-        ],
-        "expiryOI": 17427
-      },
-      "potIsProfitProb": false,
-      "newsSentiment": 0.15,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [
-        {
-          "title": "Review & Preview: Blistering in the Sun",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/4d20f5d7-ca41-3488-9991-642d3ccb112c/review-%26-preview%3A-blistering.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Broadcom vs. Marvell Technology: Which Technology Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-vs-marvell-technology-technology-222209867.html",
-          "sentiment": 0.44
-        },
-        {
-          "title": "Why Marvell Technology (MRVL) Dipped More Than Broader Market Today",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-technology-mrvl-dipped-205002775.html",
-          "sentiment": 0.0
-        }
-      ],
-      "volRegime": "Rich",
-      "ivRvRatio": 1.16,
-      "realizedVol": 56.1,
-      "expDate": "2026-11-06",
-      "legs": [
-        {
-          "type": "put",
-          "strike": 220.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "put",
-          "strike": 210.0,
-          "action": "buy",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 285.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 295.0,
-          "action": "buy",
-          "qty": 1
-        }
-      ],
-      "valuationLabel": "Rich",
-      "peVsSectorPct": 128.4,
-      "sectorMedianPE": 34.1,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
@@ -3146,19 +2310,19 @@
       "isETF": false,
       "spot": 941.78,
       "spotPriceStale": false,
-      "strike": "$790/810/1160/1200",
+      "strike": "$750/770/1340/1380",
       "hedge": null,
-      "exp": "Dec 18",
-      "dte": 64,
+      "exp": "Mar 19",
+      "dte": 155,
       "backExp": null,
       "backExpDate": null,
-      "pot": 42,
-      "ap": 137.6,
+      "pot": 40,
+      "ap": 53.6,
       "ivr": 1,
       "ivRankLimited": false,
-      "dailyReturn": 15.08,
-      "roc": 24.12,
-      "score": 6.1,
+      "dailyReturn": 5.87,
+      "roc": 22.75,
+      "score": 6.2,
       "buy": true,
       "momentum": "neutral",
       "ret3m": -9.1,
@@ -3167,62 +2331,62 @@
       "earningsSoon": true,
       "daysToEarnings": 13,
       "marginOfSafety": true,
-      "delta": -0.0,
-      "iv": 52.1,
-      "premium": 9.65,
-      "breakeven": 800.35,
-      "breakevenLow": 800.35,
-      "breakevenHigh": 1169.65,
+      "delta": 0.0,
+      "iv": 49.8,
+      "premium": 9.1,
+      "breakeven": 760.9,
+      "breakevenLow": 760.9,
+      "breakevenHigh": 1349.1,
       "breakevenMovePct": null,
-      "maxLoss": 3035.0,
-      "pcOI": 1.22,
-      "pcVol": 0.59,
+      "maxLoss": 3090.0,
+      "pcOI": 0.88,
+      "pcVol": 1.08,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 160,
-        "worstSpreadPct": 40.6,
-        "midPremium": 9.65,
-        "fillPremium": 3.82,
+        "minOI": 101,
+        "worstSpreadPct": 29.3,
+        "midPremium": 9.1,
+        "fillPremium": 3.35,
         "weakLeg": {
-          "type": "put",
-          "strike": 790.0,
+          "type": "call",
+          "strike": 1380.0,
           "action": "buy"
         },
         "legQuotes": [
           {
             "type": "put",
-            "strike": 810.0,
+            "strike": 770.0,
             "action": "sell",
-            "bid": 21.3,
-            "ask": 29.5,
-            "oi": 187
+            "bid": 37.0,
+            "ask": 43.2,
+            "oi": 107
           },
           {
             "type": "put",
-            "strike": 790.0,
+            "strike": 750.0,
             "action": "buy",
-            "bid": 17.8,
-            "ask": 23.8,
-            "oi": 160
+            "bid": 32.5,
+            "ask": 37.3,
+            "oi": 310
           },
           {
             "type": "call",
-            "strike": 1160.0,
+            "strike": 1340.0,
             "action": "sell",
-            "bid": 15.6,
-            "ask": 19.6,
-            "oi": 169
+            "bid": 21.4,
+            "ask": 27.4,
+            "oi": 142
           },
           {
             "type": "call",
-            "strike": 1200.0,
+            "strike": 1380.0,
             "action": "buy",
-            "bid": 10.0,
-            "ask": 15.1,
-            "oi": 292
+            "bid": 17.5,
+            "ask": 23.5,
+            "oi": 101
           }
         ],
-        "expiryOI": 29025
+        "expiryOI": 14642
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.07,
@@ -3248,38 +2412,38 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.51,
+      "ivRvRatio": 1.44,
       "realizedVol": 34.5,
-      "expDate": "2026-12-18",
+      "expDate": "2027-03-19",
       "legs": [
         {
           "type": "put",
-          "strike": 810.0,
+          "strike": 770.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "put",
-          "strike": 790.0,
+          "strike": 750.0,
           "action": "buy",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 1160.0,
+          "strike": 1340.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 1200.0,
+          "strike": 1380.0,
           "action": "buy",
           "qty": 1
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -23.1,
-      "sectorMedianPE": 35.1,
+      "peVsSectorPct": -24.2,
+      "sectorMedianPE": 35.6,
       "sectorPeerCount": 3,
       "sector": "Industrials"
     },
@@ -3353,9 +2517,15 @@
         "expiryOI": 9897
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.07,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.17,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Is Uber Stock Worth More Than Its Competitors?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/uber-stock-worth-more-competitors-014327452.html",
+          "sentiment": 0.29
+        },
         {
           "title": "LendingTree, Pinterest, Snap, Uber, and Angi Shares Are Falling, What You Need To Know",
           "publisher": "StockStory",
@@ -3366,12 +2536,6 @@
           "title": "Uber Technologies (UBER) Dips More Than Broader Market: What You Should Know",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/uber-technologies-uber-dips-more-204506685.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Does The Fall In Avis Budget Stock Change Anything?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/does-fall-avis-budget-stock-201830695.html",
           "sentiment": 0.0
         }
       ],
@@ -3394,8 +2558,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -55.4,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -54.8,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
@@ -3406,19 +2570,19 @@
       "isETF": false,
       "spot": 239.34,
       "spotPriceStale": false,
-      "strike": "$195/205/295/305",
+      "strike": "$205/215/275/280",
       "hedge": null,
-      "exp": "Nov 6",
-      "dte": 22,
+      "exp": "Oct 23",
+      "dte": 8,
       "backExp": null,
       "backExpDate": null,
-      "pot": 40,
-      "ap": 564.1,
+      "pot": 44,
+      "ap": 1268.4,
       "ivr": 18,
       "ivRankLimited": false,
-      "dailyReturn": 15.45,
-      "roc": 34.0,
-      "score": 6.5,
+      "dailyReturn": 34.75,
+      "roc": 27.8,
+      "score": 6.4,
       "buy": false,
       "momentum": "neutral",
       "ret3m": 15.8,
@@ -3427,62 +2591,62 @@
       "earningsSoon": true,
       "daysToEarnings": 7,
       "marginOfSafety": true,
-      "delta": 0.01,
-      "iv": 88.5,
-      "premium": 3.4,
-      "breakeven": 201.6,
-      "breakevenLow": 201.6,
-      "breakevenHigh": 298.4,
+      "delta": -0.01,
+      "iv": 104.1,
+      "premium": 2.78,
+      "breakeven": 212.22,
+      "breakevenLow": 212.22,
+      "breakevenHigh": 277.78,
       "breakevenMovePct": null,
-      "maxLoss": 660.0,
-      "pcOI": 2.26,
-      "pcVol": 1.96,
+      "maxLoss": 722.0,
+      "pcOI": 1.03,
+      "pcVol": 0.81,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 111,
-        "worstSpreadPct": 26.5,
-        "midPremium": 3.4,
-        "fillPremium": 2.1,
+        "minOI": 377,
+        "worstSpreadPct": 44.3,
+        "midPremium": 2.78,
+        "fillPremium": 1.34,
         "weakLeg": {
-          "type": "call",
-          "strike": 305.0,
-          "action": "buy"
+          "type": "put",
+          "strike": 215.0,
+          "action": "sell"
         },
         "legQuotes": [
           {
             "type": "put",
-            "strike": 205.0,
+            "strike": 215.0,
             "action": "sell",
-            "bid": 5.9,
-            "ask": 7.7,
-            "oi": 231
+            "bid": 5.0,
+            "ask": 6.3,
+            "oi": 377
           },
           {
             "type": "put",
-            "strike": 195.0,
+            "strike": 205.0,
             "action": "buy",
-            "bid": 4.1,
-            "ask": 5.1,
-            "oi": 168
+            "bid": 2.74,
+            "ask": 4.3,
+            "oi": 543
           },
           {
             "type": "call",
-            "strike": 295.0,
+            "strike": 275.0,
             "action": "sell",
-            "bid": 5.0,
-            "ask": 6.45,
-            "oi": 138
+            "bid": 3.9,
+            "ask": 5.4,
+            "oi": 706
           },
           {
             "type": "call",
-            "strike": 305.0,
+            "strike": 280.0,
             "action": "buy",
-            "bid": 4.05,
-            "ask": 5.0,
-            "oi": 111
+            "bid": 3.3,
+            "ask": 4.7,
+            "oi": 1745
           }
         ],
-        "expiryOI": 16329
+        "expiryOI": 51350
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.11,
@@ -3507,39 +2671,39 @@
           "sentiment": 0.0
         }
       ],
-      "volRegime": "Fair",
-      "ivRvRatio": 1.03,
+      "volRegime": "Rich",
+      "ivRvRatio": 1.21,
       "realizedVol": 85.9,
-      "expDate": "2026-11-06",
+      "expDate": "2026-10-23",
       "legs": [
         {
           "type": "put",
-          "strike": 205.0,
+          "strike": 215.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "put",
-          "strike": 195.0,
+          "strike": 205.0,
           "action": "buy",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 295.0,
+          "strike": 275.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 305.0,
+          "strike": 280.0,
           "action": "buy",
           "qty": 1
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 797.2,
-      "sectorMedianPE": 35.1,
+      "peVsSectorPct": 784.6,
+      "sectorMedianPE": 35.6,
       "sectorPeerCount": 3,
       "sector": "Industrials"
     },
@@ -3579,7 +2743,7 @@
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 419.0,
-      "pcOI": 0.67,
+      "pcOI": 0.0,
       "pcVol": 0.68,
       "debitStrategy": false,
       "liquidity": {
@@ -3610,28 +2774,28 @@
             "oi": 4783
           }
         ],
-        "expiryOI": 54803
+        "expiryOI": 32891
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.15,
+      "newsSentiment": -0.14,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Taiwan Semiconductor Manufacturing And 2 AI Chip Stocks To Watch",
+          "title": "Broadcom And 2 Top AI Chip Stocks To Watch",
           "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductor-manufacturing-2-ai-231859326.html",
-          "sentiment": 0.0
+          "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-2-top-ai-chip-031733617.html",
+          "sentiment": 0.2
         },
         {
-          "title": "Broadcom vs. Marvell Technology: Which Technology Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-vs-marvell-technology-technology-222209867.html",
-          "sentiment": 0.44
+          "title": "Global chip sell-off deepens as South Korean market plunges",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/stocks/article/global-chip-sell-off-deepens-as-south-korean-market-plunges-024927049.html",
+          "sentiment": -0.64
         },
         {
-          "title": "A $10,000 Broadcom investment in 2016 now pays $1,991 a year in dividends",
+          "title": "Elon Musk takes a direct swipe at Broadcom CEO and AI investors",
           "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/10-000-broadcom-investment-2016-221700178.html",
+          "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-takes-direct-swipe-024700291.html",
           "sentiment": 0.0
         }
       ],
@@ -3654,8 +2818,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 29.6,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 25.8,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
@@ -3798,8 +2962,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 80.6,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 78.6,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
@@ -3810,67 +2974,67 @@
       "isETF": false,
       "spot": 152.16,
       "spotPriceStale": false,
-      "strike": "$141/139",
+      "strike": "$138/136",
       "hedge": null,
-      "exp": "Oct 30",
-      "dte": 15,
+      "exp": "Nov 6",
+      "dte": 22,
       "backExp": null,
       "backExpDate": null,
       "pot": 41,
-      "ap": 565.8,
+      "ap": 352.6,
       "ivr": 32,
       "ivRankLimited": true,
-      "dailyReturn": 3.1,
-      "roc": 23.25,
+      "dailyReturn": 1.93,
+      "roc": 21.25,
       "score": 6.7,
       "buy": true,
       "momentum": "bull",
       "ret3m": 16.1,
       "sell": false,
       "ema": false,
-      "earningsSoon": false,
+      "earningsSoon": true,
       "daysToEarnings": 19,
       "marginOfSafety": true,
-      "delta": -0.21,
-      "iv": 50.1,
-      "premium": 0.46,
-      "breakeven": 140.53,
+      "delta": -0.2,
+      "iv": 53.6,
+      "premium": 0.42,
+      "breakeven": 137.57,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 153.5,
-      "pcOI": 0.62,
-      "pcVol": 0.89,
+      "maxLoss": 157.5,
+      "pcOI": 0.75,
+      "pcVol": 0.46,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 489,
-        "worstSpreadPct": 11.0,
-        "midPremium": 0.46,
-        "fillPremium": 0.4,
+        "minOI": 548,
+        "worstSpreadPct": 4.9,
+        "midPremium": 0.42,
+        "fillPremium": 0.37,
         "weakLeg": {
           "type": "put",
-          "strike": 141.0,
-          "action": "sell"
+          "strike": 136.0,
+          "action": "buy"
         },
         "legQuotes": [
           {
             "type": "put",
-            "strike": 141.0,
+            "strike": 138.0,
             "action": "sell",
-            "bid": 2.05,
-            "ask": 2.14,
-            "oi": 489
+            "bid": 2.6,
+            "ask": 2.73,
+            "oi": 575
           },
           {
             "type": "put",
-            "strike": 139.0,
+            "strike": 136.0,
             "action": "buy",
-            "bid": 1.54,
-            "ask": 1.72,
-            "oi": 545
+            "bid": 2.19,
+            "ask": 2.29,
+            "oi": 548
           }
         ],
-        "expiryOI": 176990
+        "expiryOI": 53465
       },
       "potIsProfitProb": false,
       "newsSentiment": -0.41,
@@ -3896,19 +3060,19 @@
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 0.96,
+      "ivRvRatio": 1.03,
       "realizedVol": 52.0,
-      "expDate": "2026-10-30",
+      "expDate": "2026-11-06",
       "legs": [
         {
           "type": "put",
-          "strike": 141.0,
+          "strike": 138.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "put",
-          "strike": 139.0,
+          "strike": 136.0,
           "action": "buy",
           "qty": 1
         }
@@ -3921,18 +3085,18 @@
       "isETF": false,
       "spot": 367.16,
       "spotPriceStale": false,
-      "strike": "$325/335/415/425",
+      "strike": "$330/340/405/415",
       "hedge": null,
-      "exp": "Nov 13",
-      "dte": 29,
+      "exp": "Oct 30",
+      "dte": 15,
       "backExp": null,
       "backExpDate": null,
       "pot": 41,
-      "ap": 405.9,
+      "ap": 782.3,
       "ivr": 6,
       "ivRankLimited": false,
-      "dailyReturn": 11.12,
-      "roc": 32.25,
+      "dailyReturn": 21.43,
+      "roc": 32.15,
       "score": 6.3,
       "buy": true,
       "momentum": "neutral",
@@ -3943,61 +3107,61 @@
       "daysToEarnings": 6,
       "marginOfSafety": true,
       "delta": -0.01,
-      "iv": 44.5,
-      "premium": 3.22,
-      "breakeven": 331.77,
-      "breakevenLow": 331.77,
-      "breakevenHigh": 418.23,
+      "iv": 50.7,
+      "premium": 3.21,
+      "breakeven": 336.79,
+      "breakevenLow": 336.79,
+      "breakevenHigh": 408.21,
       "breakevenMovePct": null,
-      "maxLoss": 677.5,
-      "pcOI": 0.5,
-      "pcVol": 0.56,
+      "maxLoss": 678.5,
+      "pcOI": 0.81,
+      "pcVol": 0.54,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 298,
-        "worstSpreadPct": 4.6,
-        "midPremium": 3.22,
-        "fillPremium": 3.09,
+        "minOI": 1213,
+        "worstSpreadPct": 4.9,
+        "midPremium": 3.21,
+        "fillPremium": 3.07,
         "weakLeg": {
-          "type": "put",
-          "strike": 335.0,
+          "type": "call",
+          "strike": 405.0,
           "action": "sell"
         },
         "legQuotes": [
           {
             "type": "put",
-            "strike": 335.0,
+            "strike": 340.0,
             "action": "sell",
-            "bid": 5.85,
-            "ask": 6.0,
-            "oi": 298
+            "bid": 4.85,
+            "ask": 5.05,
+            "oi": 2563
           },
           {
             "type": "put",
-            "strike": 325.0,
+            "strike": 330.0,
             "action": "buy",
+            "bid": 3.0,
+            "ask": 3.15,
+            "oi": 1787
+          },
+          {
+            "type": "call",
+            "strike": 405.0,
+            "action": "sell",
             "bid": 3.95,
-            "ask": 4.05,
-            "oi": 314
+            "ask": 4.1,
+            "oi": 1213
           },
           {
             "type": "call",
             "strike": 415.0,
-            "action": "sell",
-            "bid": 4.5,
-            "ask": 4.65,
-            "oi": 357
-          },
-          {
-            "type": "call",
-            "strike": 425.0,
             "action": "buy",
-            "bid": 3.2,
-            "ask": 3.35,
-            "oi": 402
+            "bid": 2.64,
+            "ask": 2.73,
+            "oi": 1525
           }
         ],
-        "expiryOI": 22425
+        "expiryOI": 107555
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.0,
@@ -4023,38 +3187,38 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.43,
+      "ivRvRatio": 1.63,
       "realizedVol": 31.2,
-      "expDate": "2026-11-13",
+      "expDate": "2026-10-30",
       "legs": [
         {
           "type": "put",
-          "strike": 335.0,
+          "strike": 340.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "put",
-          "strike": 325.0,
+          "strike": 330.0,
           "action": "buy",
+          "qty": 1
+        },
+        {
+          "type": "call",
+          "strike": 405.0,
+          "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
           "strike": 415.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 425.0,
           "action": "buy",
           "qty": 1
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 1566.7,
-      "sectorMedianPE": 20.4,
+      "peVsSectorPct": 1573.4,
+      "sectorMedianPE": 20.7,
       "sectorPeerCount": 5,
       "sector": "Consumer Cyclical"
     },
@@ -4148,21 +3312,21 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Review & Preview: Blistering in the Sun",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/4d20f5d7-ca41-3488-9991-642d3ccb112c/review-%26-preview%3A-blistering.html",
-          "sentiment": 0.0
+          "title": "Inside the Intel Supreme Court Case: Fees, Fiduciaries and Hidden Risk",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/inside-intel-supreme-court-case-030000031.html",
+          "sentiment": 0.36
         },
         {
-          "title": "Can Marvell Stock Drop From Here?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-drop-195941932.html",
-          "sentiment": -0.27
+          "title": "Global chip sell-off deepens as South Korean market plunges",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/stocks/article/global-chip-sell-off-deepens-as-south-korean-market-plunges-024927049.html",
+          "sentiment": -0.64
         },
         {
-          "title": "Is Micron Still The Business You Bought?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-still-business-bought-195201522.html",
+          "title": "Elon Musk takes a direct swipe at Broadcom CEO and AI investors",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-takes-direct-swipe-024700291.html",
           "sentiment": 0.0
         }
       ],
@@ -4308,8 +3472,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 21.1,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 24.1,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
@@ -4320,19 +3484,19 @@
       "isETF": false,
       "spot": 213.46,
       "spotPriceStale": false,
-      "strike": "$205/210/218/222",
+      "strike": "$175/185/250/270",
       "hedge": null,
-      "exp": "Oct 16",
-      "dte": 1,
+      "exp": "Jan 15",
+      "dte": 92,
       "backExp": null,
       "backExpDate": null,
-      "pot": 47,
-      "ap": 9307.5,
+      "pot": 46,
+      "ap": 25.2,
       "ivr": 68,
       "ivRankLimited": false,
-      "dailyReturn": 127.5,
-      "roc": 25.5,
-      "score": 7.1,
+      "dailyReturn": 1.38,
+      "roc": 6.35,
+      "score": 5.4,
       "buy": true,
       "momentum": "neutral",
       "ret3m": 3.8,
@@ -4340,63 +3504,63 @@
       "ema": true,
       "earningsSoon": false,
       "daysToEarnings": null,
-      "marginOfSafety": false,
-      "delta": -0.01,
-      "iv": 44.1,
-      "premium": 1.28,
-      "breakeven": 208.72,
-      "breakevenLow": 208.72,
-      "breakevenHigh": 218.78,
+      "marginOfSafety": true,
+      "delta": 0.02,
+      "iv": 35.1,
+      "premium": 1.27,
+      "breakeven": 183.73,
+      "breakevenLow": 183.73,
+      "breakevenHigh": 251.27,
       "breakevenMovePct": null,
-      "maxLoss": 372.5,
-      "pcOI": 1.07,
-      "pcVol": 1.32,
+      "maxLoss": 1873.0,
+      "pcOI": 1.34,
+      "pcVol": 0.39,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 166,
-        "worstSpreadPct": 150.0,
-        "midPremium": 1.28,
-        "fillPremium": 0.69,
+        "minOI": 143,
+        "worstSpreadPct": null,
+        "midPremium": null,
+        "fillPremium": null,
         "weakLeg": {
           "type": "call",
-          "strike": 222.5,
+          "strike": 270.0,
           "action": "buy"
         },
         "legQuotes": [
           {
             "type": "put",
-            "strike": 210.0,
+            "strike": 185.0,
             "action": "sell",
-            "bid": 0.65,
-            "ask": 1.3,
-            "oi": 1229
+            "bid": 2.7,
+            "ask": 5.0,
+            "oi": 611
           },
           {
             "type": "put",
-            "strike": 205.0,
+            "strike": 175.0,
             "action": "buy",
-            "bid": 0.1,
-            "ask": 0.45,
-            "oi": 602
+            "bid": 1.9,
+            "ask": 3.6,
+            "oi": 387
           },
           {
             "type": "call",
-            "strike": 217.5,
+            "strike": 250.0,
             "action": "sell",
-            "bid": 0.25,
-            "ask": 1.3,
-            "oi": 256
+            "bid": 0.0,
+            "ask": 3.3,
+            "oi": 456
           },
           {
             "type": "call",
-            "strike": 222.5,
+            "strike": 270.0,
             "action": "buy",
-            "bid": 0.05,
-            "ask": 0.35,
-            "oi": 166
+            "bid": 0.0,
+            "ask": 1.0,
+            "oi": 143
           }
         ],
-        "expiryOI": 10204
+        "expiryOI": 18054
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.32,
@@ -4422,38 +3586,38 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.66,
+      "ivRvRatio": 1.32,
       "realizedVol": 26.6,
-      "expDate": "2026-10-16",
+      "expDate": "2027-01-15",
       "legs": [
         {
           "type": "put",
-          "strike": 210.0,
+          "strike": 185.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "put",
-          "strike": 205.0,
+          "strike": 175.0,
           "action": "buy",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 217.5,
+          "strike": 250.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 222.5,
+          "strike": 270.0,
           "action": "buy",
           "qty": 1
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -25.2,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": -23.8,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17,
       "sector": "Financial Services"
     },
@@ -4493,8 +3657,8 @@
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 790.0,
-      "pcOI": 1.69,
-      "pcVol": 1.54,
+      "pcOI": 1.7,
+      "pcVol": 1.55,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 205,
@@ -4524,7 +3688,7 @@
             "oi": 447
           }
         ],
-        "expiryOI": 22188
+        "expiryOI": 22101
       },
       "potIsProfitProb": false,
       "newsSentiment": -0.04,
@@ -4568,8 +3732,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -17.0,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -18.3,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
@@ -4580,19 +3744,19 @@
       "isETF": false,
       "spot": 130.46,
       "spotPriceStale": false,
-      "strike": "$140/150",
+      "strike": "$150/160",
       "hedge": null,
-      "exp": "Nov 20",
-      "dte": 36,
+      "exp": "Jan 15",
+      "dte": 92,
       "backExp": null,
       "backExpDate": null,
-      "pot": 49,
-      "ap": 83.6,
+      "pot": 38,
+      "ap": 31.7,
       "ivr": 39,
       "ivRankLimited": false,
-      "dailyReturn": 2.29,
-      "roc": 8.25,
-      "score": 6.6,
+      "dailyReturn": 0.87,
+      "roc": 8.0,
+      "score": 5.6,
       "buy": false,
       "momentum": "bear",
       "ret3m": -12.4,
@@ -4601,46 +3765,46 @@
       "earningsSoon": true,
       "daysToEarnings": 0,
       "marginOfSafety": true,
-      "delta": 0.24,
-      "iv": 28.6,
-      "premium": 0.83,
-      "breakeven": 140.82,
+      "delta": 0.19,
+      "iv": 26.9,
+      "premium": 0.8,
+      "breakeven": 150.8,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 917.5,
-      "pcOI": 0.85,
-      "pcVol": 0.33,
+      "maxLoss": 920.0,
+      "pcOI": 0.98,
+      "pcVol": 4.76,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 686,
-        "worstSpreadPct": 157.9,
-        "midPremium": 0.83,
-        "fillPremium": 0.51,
+        "minOI": 741,
+        "worstSpreadPct": 169.2,
+        "midPremium": 0.8,
+        "fillPremium": 0.47,
         "weakLeg": {
           "type": "call",
-          "strike": 140.0,
+          "strike": 150.0,
           "action": "sell"
         },
         "legQuotes": [
           {
             "type": "call",
-            "strike": 140.0,
+            "strike": 150.0,
             "action": "sell",
-            "bid": 1.05,
-            "ask": 1.55,
-            "oi": 686
+            "bid": 0.75,
+            "ask": 1.5,
+            "oi": 741
           },
           {
             "type": "call",
-            "strike": 150.0,
+            "strike": 160.0,
             "action": "buy",
-            "bid": 0.1,
-            "ask": 0.85,
-            "oi": 2387
+            "bid": 0.05,
+            "ask": 0.6,
+            "oi": 1161
           }
         ],
-        "expiryOI": 16246
+        "expiryOI": 18951
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.08,
@@ -4666,19 +3830,19 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.54,
+      "ivRvRatio": 1.45,
       "realizedVol": 18.6,
-      "expDate": "2026-11-20",
+      "expDate": "2027-01-15",
       "legs": [
         {
           "type": "call",
-          "strike": 140.0,
+          "strike": 150.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 150.0,
+          "strike": 160.0,
           "action": "buy",
           "qty": 1
         }
@@ -4795,8 +3959,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 4.3,
-      "sectorMedianPE": 23.2,
+      "peVsSectorPct": 5.9,
+      "sectorMedianPE": 22.9,
       "sectorPeerCount": 4,
       "sector": "Healthcare"
     },
@@ -4911,8 +4075,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -46.8,
-      "sectorMedianPE": 12.4,
+      "peVsSectorPct": -46.3,
+      "sectorMedianPE": 12.3,
       "sectorPeerCount": 7,
       "sector": "Energy"
     },
@@ -5055,8 +4219,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -54.9,
-      "sectorMedianPE": 20.4,
+      "peVsSectorPct": -55.6,
+      "sectorMedianPE": 20.7,
       "sectorPeerCount": 5,
       "sector": "Consumer Cyclical"
     },
@@ -5269,9 +4433,15 @@
         "expiryOI": 21699
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.45,
+      "newsSentiment": 0.44,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Walmart to increase employee benefits with new initiative for 2027",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/healthcare/articles/walmart-increase-employee-benefits-initiative-040300058.html",
+          "sentiment": 0.6
+        },
         {
           "title": "Novo Nordisk (NVO) Could Be 63% Undervalued Following Its Share Buyback",
           "publisher": "Simply Wall St.",
@@ -5283,12 +4453,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/healthcare/articles/roche-expands-obesity-pipeline-ronas-163800076.html",
           "sentiment": 0.1
-        },
-        {
-          "title": "Is Novo Nordisk (NYSE:NVO) A Long Term Value Opportunity Now?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/novo-nordisk-nyse-nvo-long-161806261.html",
-          "sentiment": 0.64
         }
       ],
       "volRegime": "Fair",
@@ -5310,8 +4474,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -59.9,
-      "sectorMedianPE": 23.2,
+      "peVsSectorPct": -59.3,
+      "sectorMedianPE": 22.9,
       "sectorPeerCount": 4,
       "sector": "Healthcare"
     },
@@ -5426,8 +4590,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 91.9,
-      "sectorMedianPE": 12.4,
+      "peVsSectorPct": 92.7,
+      "sectorMedianPE": 12.3,
       "sectorPeerCount": 7,
       "sector": "Energy"
     },
@@ -5542,8 +4706,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 2.4,
-      "sectorMedianPE": 12.4,
+      "peVsSectorPct": 4.1,
+      "sectorMedianPE": 12.3,
       "sectorPeerCount": 7,
       "sector": "Energy"
     },
@@ -5584,7 +4748,7 @@
       "breakevenMovePct": null,
       "maxLoss": 770.0,
       "pcOI": 1.68,
-      "pcVol": 13.38,
+      "pcVol": 13.37,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 856,
@@ -5686,8 +4850,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": -4.3,
-      "sectorMedianPE": 23.2,
+      "peVsSectorPct": -5.9,
+      "sectorMedianPE": 22.9,
       "sectorPeerCount": 4,
       "sector": "Healthcare"
     },
@@ -5830,7 +4994,7 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -8.2,
+      "peVsSectorPct": -7.9,
       "sectorMedianPE": 15.8,
       "sectorPeerCount": 4,
       "sector": "Consumer Defensive"
@@ -5946,8 +5110,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 22.4,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": 19.0,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17,
       "sector": "Financial Services"
     },
@@ -6062,8 +5226,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -13.3,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": -13.6,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17,
       "sector": "Financial Services"
     },
@@ -6103,7 +5267,7 @@
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 450.0,
-      "pcOI": 0.7,
+      "pcOI": 1.98,
       "pcVol": 0.53,
       "debitStrategy": false,
       "liquidity": {
@@ -6134,7 +5298,7 @@
             "oi": 654
           }
         ],
-        "expiryOI": 11295
+        "expiryOI": 7014
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.1,
@@ -6178,7 +5342,7 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -18.4,
+      "peVsSectorPct": -20.0,
       "sectorMedianPE": 15.8,
       "sectorPeerCount": 4,
       "sector": "Consumer Defensive"
@@ -6220,7 +5384,7 @@
       "breakevenMovePct": null,
       "maxLoss": 1907.5,
       "pcOI": 0.54,
-      "pcVol": 0.53,
+      "pcVol": 0.54,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 558,
@@ -6294,8 +5458,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 18.2,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": 15.6,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17,
       "sector": "Financial Services"
     },
@@ -6410,270 +5574,10 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 104.0,
-      "sectorMedianPE": 12.4,
+      "peVsSectorPct": 105.7,
+      "sectorMedianPE": 12.3,
       "sectorPeerCount": 7,
       "sector": "Energy"
-    },
-    {
-      "sym": "SCCO",
-      "strat": "Bull Put Spread",
-      "side": "bull",
-      "isETF": false,
-      "spot": 200.68,
-      "spotPriceStale": false,
-      "strike": "$180/170",
-      "hedge": null,
-      "exp": "Nov 20",
-      "dte": 36,
-      "backExp": null,
-      "backExpDate": null,
-      "pot": 44,
-      "ap": 109.0,
-      "ivr": 9,
-      "ivRankLimited": false,
-      "dailyReturn": 2.99,
-      "roc": 10.75,
-      "score": 5.6,
-      "buy": true,
-      "momentum": "bull",
-      "ret3m": 16.3,
-      "sell": false,
-      "ema": true,
-      "earningsSoon": true,
-      "daysToEarnings": 7,
-      "marginOfSafety": true,
-      "delta": -0.22,
-      "iv": 52.9,
-      "premium": 1.07,
-      "breakeven": 178.93,
-      "breakevenLow": null,
-      "breakevenHigh": null,
-      "breakevenMovePct": null,
-      "maxLoss": 892.5,
-      "pcOI": 0.75,
-      "pcVol": 2.46,
-      "debitStrategy": false,
-      "liquidity": {
-        "minOI": 111,
-        "worstSpreadPct": 104.1,
-        "midPremium": 1.07,
-        "fillPremium": 0.16,
-        "weakLeg": {
-          "type": "put",
-          "strike": 180.0,
-          "action": "sell"
-        },
-        "legQuotes": [
-          {
-            "type": "put",
-            "strike": 180.0,
-            "action": "sell",
-            "bid": 3.2,
-            "ask": 5.0,
-            "oi": 111
-          },
-          {
-            "type": "put",
-            "strike": 170.0,
-            "action": "buy",
-            "bid": 1.45,
-            "ask": 4.6,
-            "oi": 265
-          }
-        ],
-        "expiryOI": 9027
-      },
-      "potIsProfitProb": false,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [
-        {
-          "title": "Southern Copper (SCCO) Falls More Steeply Than Broader Market: What Investors Need to Know",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/southern-copper-scco-falls-more-205002061.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "SCCO Gears Up to Report Q3 Earnings: What's in Store for the Stock?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/scco-gears-report-q3-earnings-131400375.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Southern Copper (SCCO) Could Be 22% Overvalued As Its Project Pipeline Gets Priced In",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/southern-copper-scco-could-22-101431955.html",
-          "sentiment": 0.0
-        }
-      ],
-      "volRegime": "Rich",
-      "ivRvRatio": 1.55,
-      "realizedVol": 34.1,
-      "expDate": "2026-11-20",
-      "legs": [
-        {
-          "type": "put",
-          "strike": 180.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "put",
-          "strike": 170.0,
-          "action": "buy",
-          "qty": 1
-        }
-      ],
-      "valuationLabel": "Rich",
-      "peVsSectorPct": 38.9,
-      "sectorMedianPE": 21.6,
-      "sectorPeerCount": 3,
-      "sector": "Basic Materials"
-    },
-    {
-      "sym": "BHP",
-      "strat": "Iron Condor",
-      "side": "neutral",
-      "isETF": false,
-      "spot": 83.26,
-      "spotPriceStale": false,
-      "strike": "$72/78/92/98",
-      "hedge": null,
-      "exp": "Nov 20",
-      "dte": 36,
-      "backExp": null,
-      "backExpDate": null,
-      "pot": 44,
-      "ap": 238.3,
-      "ivr": 17,
-      "ivRankLimited": false,
-      "dailyReturn": 3.26,
-      "roc": 23.5,
-      "score": 6.4,
-      "buy": false,
-      "momentum": "neutral",
-      "ret3m": 5.4,
-      "sell": true,
-      "ema": false,
-      "earningsSoon": false,
-      "daysToEarnings": 123,
-      "marginOfSafety": true,
-      "delta": -0.03,
-      "iv": 33.3,
-      "premium": 1.17,
-      "breakeven": 76.33,
-      "breakevenLow": 76.33,
-      "breakevenHigh": 93.67,
-      "breakevenMovePct": null,
-      "maxLoss": 382.5,
-      "pcOI": 3.16,
-      "pcVol": 2.72,
-      "debitStrategy": false,
-      "liquidity": {
-        "minOI": 279,
-        "worstSpreadPct": 54.5,
-        "midPremium": 1.17,
-        "fillPremium": 1.01,
-        "weakLeg": {
-          "type": "call",
-          "strike": 92.5,
-          "action": "sell"
-        },
-        "legQuotes": [
-          {
-            "type": "put",
-            "strike": 77.5,
-            "action": "sell",
-            "bid": 1.1,
-            "ask": 1.25,
-            "oi": 30742
-          },
-          {
-            "type": "put",
-            "strike": 72.5,
-            "action": "buy",
-            "bid": 0.35,
-            "ask": 0.5,
-            "oi": 934
-          },
-          {
-            "type": "call",
-            "strike": 92.5,
-            "action": "sell",
-            "bid": 0.6,
-            "ask": 0.8,
-            "oi": 279
-          },
-          {
-            "type": "call",
-            "strike": 97.5,
-            "action": "buy",
-            "bid": 0.2,
-            "ask": 0.35,
-            "oi": 1359
-          }
-        ],
-        "expiryOI": 48777
-      },
-      "potIsProfitProb": false,
-      "newsSentiment": 0.15,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [
-        {
-          "title": "South32 shareholders to vote on $8 billion Alcoa asset sale",
-          "publisher": "Proactive",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/south32-shareholders-vote-8-billion-003300683.html",
-          "sentiment": 0.36
-        },
-        {
-          "title": "5 Challenges Facing South America\u2019s Copper Boom",
-          "publisher": "Oilprice.com",
-          "link": "https://finance.yahoo.com/markets/commodities/articles/5-challenges-facing-south-america-170000679.html",
-          "sentiment": 0.08
-        },
-        {
-          "title": "European Stocks Close Higher Wednesday as Investors Parse Earnings",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-higher-wednesday-155236645.html",
-          "sentiment": 0.0
-        }
-      ],
-      "volRegime": "Rich",
-      "ivRvRatio": 1.36,
-      "realizedVol": 24.4,
-      "expDate": "2026-11-20",
-      "legs": [
-        {
-          "type": "put",
-          "strike": 77.5,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "put",
-          "strike": 72.5,
-          "action": "buy",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 92.5,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 97.5,
-          "action": "buy",
-          "qty": 1
-        }
-      ],
-      "valuationLabel": "Fair",
-      "peVsSectorPct": 0.0,
-      "sectorMedianPE": 21.6,
-      "sectorPeerCount": 3,
-      "sector": "Basic Materials"
     },
     {
       "sym": "RIO",
@@ -6814,126 +5718,10 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -42.6,
-      "sectorMedianPE": 21.6,
+      "peVsSectorPct": -42.7,
+      "sectorMedianPE": 22.0,
       "sectorPeerCount": 3,
       "sector": "Basic Materials"
-    },
-    {
-      "sym": "SAN",
-      "strat": "Bear Call Spread",
-      "side": "bear",
-      "isETF": false,
-      "spot": 13.41,
-      "spotPriceStale": false,
-      "strike": "$14/16",
-      "hedge": null,
-      "exp": "Oct 16",
-      "dte": 1,
-      "backExp": null,
-      "backExpDate": null,
-      "pot": 17,
-      "ap": 730.0,
-      "ivr": 50,
-      "ivRankLimited": false,
-      "dailyReturn": 4.0,
-      "roc": 2.0,
-      "score": 7.1,
-      "buy": false,
-      "momentum": "bear",
-      "ret3m": -1.5,
-      "sell": true,
-      "ema": true,
-      "earningsSoon": false,
-      "daysToEarnings": 13,
-      "marginOfSafety": true,
-      "delta": 0.08,
-      "iv": 58.6,
-      "premium": 0.04,
-      "breakeven": 14.04,
-      "breakevenLow": null,
-      "breakevenHigh": null,
-      "breakevenMovePct": null,
-      "maxLoss": 196.0,
-      "pcOI": 0.27,
-      "pcVol": 1.05,
-      "debitStrategy": false,
-      "liquidity": {
-        "minOI": 803,
-        "worstSpreadPct": null,
-        "midPremium": null,
-        "fillPremium": null,
-        "weakLeg": {
-          "type": "call",
-          "strike": 16.0,
-          "action": "buy"
-        },
-        "legQuotes": [
-          {
-            "type": "call",
-            "strike": 14.0,
-            "action": "sell",
-            "bid": 0.0,
-            "ask": 0.1,
-            "oi": 1716
-          },
-          {
-            "type": "call",
-            "strike": 16.0,
-            "action": "buy",
-            "bid": 0.0,
-            "ask": 0.05,
-            "oi": 803
-          }
-        ],
-        "expiryOI": 7539
-      },
-      "potIsProfitProb": false,
-      "newsSentiment": 0.03,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [
-        {
-          "title": "2 San Jose Multifamily Towers Change Hands For Combined $380M",
-          "publisher": "Bisnow",
-          "link": "https://finance.yahoo.com/real-estate/articles/2-san-jose-multifamily-towers-000017952.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Meet a 23-year-old millionaire who canceled his plan to move to San Francisco because of a billionaire tax he might never have to pay",
-          "publisher": "Fortune",
-          "link": "https://finance.yahoo.com/economy/policy/articles/meet-23-old-millionaire-canceled-181500501.html",
-          "sentiment": 0.08
-        },
-        {
-          "title": "Thompson Hotel in San Antonio sold to Loren Group for $41M",
-          "publisher": "The Real Deal",
-          "link": "https://finance.yahoo.com/real-estate/articles/thompson-hotel-san-antonio-sold-162438954.html",
-          "sentiment": 0.0
-        }
-      ],
-      "volRegime": "Rich",
-      "ivRvRatio": 1.8,
-      "realizedVol": 32.6,
-      "expDate": "2026-10-16",
-      "legs": [
-        {
-          "type": "call",
-          "strike": 14.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 16.0,
-          "action": "buy",
-          "qty": 1
-        }
-      ],
-      "valuationLabel": "Cheap",
-      "peVsSectorPct": -9.1,
-      "sectorMedianPE": 14.3,
-      "sectorPeerCount": 17,
-      "sector": "Financial Services"
     },
     {
       "sym": "BUD",
@@ -6971,7 +5759,7 @@
       "breakevenHigh": 91.25,
       "breakevenMovePct": null,
       "maxLoss": 375.0,
-      "pcOI": 0.55,
+      "pcOI": 0.53,
       "pcVol": 2.1,
       "debitStrategy": false,
       "liquidity": {
@@ -7018,7 +5806,7 @@
             "oi": 232
           }
         ],
-        "expiryOI": 25323
+        "expiryOI": 25074
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.33,
@@ -7074,7 +5862,7 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 8.2,
+      "peVsSectorPct": 7.9,
       "sectorMedianPE": 15.8,
       "sectorPeerCount": 4,
       "sector": "Consumer Defensive"
@@ -7115,7 +5903,7 @@
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 152.5,
-      "pcOI": 0.63,
+      "pcOI": 0.42,
       "pcVol": 1.72,
       "debitStrategy": false,
       "liquidity": {
@@ -7146,7 +5934,7 @@
             "oi": 570
           }
         ],
-        "expiryOI": 40940
+        "expiryOI": 35553
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.07,
@@ -7191,123 +5979,7 @@
       ],
       "valuationLabel": "Cheap",
       "peVsSectorPct": 0.0,
-      "sectorMedianPE": 12.4,
-      "sectorPeerCount": 7,
-      "sector": "Energy"
-    },
-    {
-      "sym": "TTE",
-      "strat": "Bull Put Spread",
-      "side": "bull",
-      "isETF": false,
-      "spot": 89.64,
-      "spotPriceStale": false,
-      "strike": "$85/80",
-      "hedge": null,
-      "exp": "Nov 20",
-      "dte": 36,
-      "backExp": null,
-      "backExpDate": null,
-      "pot": 46,
-      "ap": 141.9,
-      "ivr": 24,
-      "ivRankLimited": false,
-      "dailyReturn": 1.94,
-      "roc": 14.0,
-      "score": 7.0,
-      "buy": true,
-      "momentum": "bull",
-      "ret3m": 15.1,
-      "sell": false,
-      "ema": false,
-      "earningsSoon": true,
-      "daysToEarnings": 14,
-      "marginOfSafety": true,
-      "delta": -0.23,
-      "iv": 26.1,
-      "premium": 0.7,
-      "breakeven": 84.3,
-      "breakevenLow": null,
-      "breakevenHigh": null,
-      "breakevenMovePct": null,
-      "maxLoss": 430.0,
-      "pcOI": 0.73,
-      "pcVol": 0.25,
-      "debitStrategy": false,
-      "liquidity": {
-        "minOI": 277,
-        "worstSpreadPct": 66.7,
-        "midPremium": 0.7,
-        "fillPremium": 0.6,
-        "weakLeg": {
-          "type": "put",
-          "strike": 85.0,
-          "action": "sell"
-        },
-        "legQuotes": [
-          {
-            "type": "put",
-            "strike": 85.0,
-            "action": "sell",
-            "bid": 1.0,
-            "ask": 1.15,
-            "oi": 277
-          },
-          {
-            "type": "put",
-            "strike": 80.0,
-            "action": "buy",
-            "bid": 0.25,
-            "ask": 0.5,
-            "oi": 648
-          }
-        ],
-        "expiryOI": 5685
-      },
-      "potIsProfitProb": false,
-      "newsSentiment": 0.2,
-      "newsSentimentLabel": "Positive",
-      "newsHeadlines": [
-        {
-          "title": "These 3 Oil Giants Make Money Beyond the Wellhead. That\u2019s Good News for Dividends",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/energy/articles/3-oil-giants-money-beyond-141534250.html",
-          "sentiment": 0.46
-        },
-        {
-          "title": "Equinor, partners strike oil and gas near Oseberg field in North Sea",
-          "publisher": "Offshore Technology",
-          "link": "https://finance.yahoo.com/news/equinor-partners-strike-oil-gas-135206667.html",
-          "sentiment": -0.13
-        },
-        {
-          "title": "Sector Update: Energy Stocks Rise Pre-Bell Wednesday",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-pre-132816877.html",
-          "sentiment": 0.27
-        }
-      ],
-      "volRegime": "Rich",
-      "ivRvRatio": 1.26,
-      "realizedVol": 20.7,
-      "expDate": "2026-11-20",
-      "legs": [
-        {
-          "type": "put",
-          "strike": 85.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "put",
-          "strike": 80.0,
-          "action": "buy",
-          "qty": 1
-        }
-      ],
-      "valuationLabel": "Cheap",
-      "peVsSectorPct": -9.7,
-      "sectorMedianPE": 12.4,
+      "sectorMedianPE": 12.3,
       "sectorPeerCount": 7,
       "sector": "Energy"
     },
@@ -7318,19 +5990,19 @@
       "isETF": false,
       "spot": 93.91,
       "spotPriceStale": false,
-      "strike": "$100/110",
+      "strike": "$105/115",
       "hedge": null,
-      "exp": "Nov 20",
-      "dte": 36,
+      "exp": "Jan 15",
+      "dte": 92,
       "backExp": null,
       "backExpDate": null,
-      "pot": 54,
-      "ap": 96.3,
+      "pot": 48,
+      "ap": 36.7,
       "ivr": 48,
       "ivRankLimited": false,
-      "dailyReturn": 2.64,
-      "roc": 9.5,
-      "score": 6.0,
+      "dailyReturn": 1.01,
+      "roc": 9.25,
+      "score": 5.2,
       "buy": false,
       "momentum": "bear",
       "ret3m": -6.1,
@@ -7339,51 +6011,57 @@
       "earningsSoon": true,
       "daysToEarnings": 12,
       "marginOfSafety": true,
-      "delta": 0.27,
-      "iv": 28.3,
-      "premium": 0.95,
-      "breakeven": 100.95,
+      "delta": 0.24,
+      "iv": 26.1,
+      "premium": 0.93,
+      "breakeven": 105.92,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 905.0,
-      "pcOI": 0.94,
-      "pcVol": 0.53,
+      "maxLoss": 907.5,
+      "pcOI": 1.18,
+      "pcVol": 0.03,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 174,
-        "worstSpreadPct": 85.7,
-        "midPremium": 0.95,
-        "fillPremium": 0.85,
+        "minOI": 465,
+        "worstSpreadPct": 82.4,
+        "midPremium": 0.93,
+        "fillPremium": 0.79,
         "weakLeg": {
           "type": "call",
-          "strike": 100.0,
-          "action": "sell"
+          "strike": 115.0,
+          "action": "buy"
         },
         "legQuotes": [
           {
             "type": "call",
-            "strike": 100.0,
+            "strike": 105.0,
             "action": "sell",
-            "bid": 1.0,
-            "ask": 1.25,
-            "oi": 174
+            "bid": 1.25,
+            "ask": 1.45,
+            "oi": 2693
           },
           {
             "type": "call",
-            "strike": 110.0,
+            "strike": 115.0,
             "action": "buy",
-            "bid": 0.1,
-            "ask": 0.25,
-            "oi": 443
+            "bid": 0.25,
+            "ask": 0.6,
+            "oi": 465
           }
         ],
-        "expiryOI": 5366
+        "expiryOI": 19760
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.56,
+      "newsSentiment": 0.62,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Qatar Airways Group Signs Inaugural Japanese Financing Agreement with Partners HSBC and JP Lease",
+          "publisher": "PR Newswire",
+          "link": "https://finance.yahoo.com/economy/policy/articles/qatar-airways-group-signs-inaugural-031100927.html",
+          "sentiment": 0.69
+        },
         {
           "title": "HSBC Sees a Surprise Driver for the Next Stock Rally",
           "publisher": "GuruFocus.com",
@@ -7395,267 +6073,29 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/hsbc-holdings-lse-hsba-shift-141212322.html",
           "sentiment": 0.49
-        },
-        {
-          "title": "HSBC to shift senior staff compensation from fixed pay to bonuses",
-          "publisher": "Retail Banker International",
-          "link": "https://finance.yahoo.com/news/hsbc-shift-senior-staff-compensation-115303298.html",
-          "sentiment": 0.49
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 1.14,
+      "ivRvRatio": 1.05,
       "realizedVol": 24.9,
-      "expDate": "2026-11-20",
+      "expDate": "2027-01-15",
       "legs": [
         {
           "type": "call",
-          "strike": 100.0,
+          "strike": 105.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 110.0,
+          "strike": 115.0,
           "action": "buy",
           "qty": 1
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -6.3,
-      "sectorMedianPE": 14.3,
-      "sectorPeerCount": 17,
-      "sector": "Financial Services"
-    },
-    {
-      "sym": "CM",
-      "strat": "Bear Call Spread",
-      "side": "bear",
-      "isETF": false,
-      "spot": 110.45,
-      "spotPriceStale": false,
-      "strike": "$115/125",
-      "hedge": null,
-      "exp": "Oct 16",
-      "dte": 1,
-      "backExp": null,
-      "backExpDate": null,
-      "pot": 9,
-      "ap": 73.0,
-      "ivr": 43,
-      "ivRankLimited": false,
-      "dailyReturn": 2.0,
-      "roc": 0.2,
-      "score": 7.8,
-      "buy": false,
-      "momentum": "bear",
-      "ret3m": -7.9,
-      "sell": true,
-      "ema": true,
-      "earningsSoon": false,
-      "daysToEarnings": 49,
-      "marginOfSafety": true,
-      "delta": 0.04,
-      "iv": 44.6,
-      "premium": 0.02,
-      "breakeven": 115.02,
-      "breakevenLow": null,
-      "breakevenHigh": null,
-      "breakevenMovePct": null,
-      "maxLoss": 998.0,
-      "pcOI": 0.76,
-      "pcVol": 0.88,
-      "debitStrategy": false,
-      "liquidity": {
-        "minOI": 172,
-        "worstSpreadPct": null,
-        "midPremium": null,
-        "fillPremium": null,
-        "weakLeg": {
-          "type": "call",
-          "strike": 125.0,
-          "action": "buy"
-        },
-        "legQuotes": [
-          {
-            "type": "call",
-            "strike": 115.0,
-            "action": "sell",
-            "bid": 0.0,
-            "ask": 0.2,
-            "oi": 1973
-          },
-          {
-            "type": "call",
-            "strike": 125.0,
-            "action": "buy",
-            "bid": 0.0,
-            "ask": 0.1,
-            "oi": 172
-          }
-        ],
-        "expiryOI": 6494
-      },
-      "potIsProfitProb": false,
-      "newsSentiment": 0.11,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [
-        {
-          "title": "CIBC to launch additional U.S. Canadian Depositary Receipts",
-          "publisher": "CNW Group",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cibc-launch-additional-u-canadian-120000996.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Canadian Banks, Telecom Companies Launch Joint Anti-Fraud Platform",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/technology/articles/canadian-banks-telecom-companies-launch-115609989.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Simplii Financial banks on simplicity and calm with its next evolution",
-          "publisher": "CNW Group",
-          "link": "https://finance.yahoo.com/news/simplii-financial-banks-simplicity-calm-090000247.html",
-          "sentiment": 0.32
-        }
-      ],
-      "volRegime": "Rich",
-      "ivRvRatio": 2.07,
-      "realizedVol": 21.5,
-      "expDate": "2026-10-16",
-      "legs": [
-        {
-          "type": "call",
-          "strike": 115.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 125.0,
-          "action": "buy",
-          "qty": 1
-        }
-      ],
-      "valuationLabel": "Fair",
-      "peVsSectorPct": 2.8,
-      "sectorMedianPE": 14.3,
-      "sectorPeerCount": 17,
-      "sector": "Financial Services"
-    },
-    {
-      "sym": "BMO",
-      "strat": "Bear Call Spread",
-      "side": "bear",
-      "isETF": false,
-      "spot": 163.62,
-      "spotPriceStale": false,
-      "strike": "$180/190",
-      "hedge": null,
-      "exp": "Dec 18",
-      "dte": 64,
-      "backExp": null,
-      "backExpDate": null,
-      "pot": 48,
-      "ap": 61.3,
-      "ivr": 45,
-      "ivRankLimited": false,
-      "dailyReturn": 1.68,
-      "roc": 10.75,
-      "score": 7.3,
-      "buy": false,
-      "momentum": "bear",
-      "ret3m": -9.8,
-      "sell": true,
-      "ema": true,
-      "earningsSoon": true,
-      "daysToEarnings": 48,
-      "marginOfSafety": true,
-      "delta": 0.24,
-      "iv": 27.3,
-      "premium": 1.07,
-      "breakeven": 181.07,
-      "breakevenLow": null,
-      "breakevenHigh": null,
-      "breakevenMovePct": null,
-      "maxLoss": 892.5,
-      "pcOI": 0.59,
-      "pcVol": 1.14,
-      "debitStrategy": false,
-      "liquidity": {
-        "minOI": 430,
-        "worstSpreadPct": 155.6,
-        "midPremium": 1.07,
-        "fillPremium": 0.54,
-        "weakLeg": {
-          "type": "call",
-          "strike": 190.0,
-          "action": "buy"
-        },
-        "legQuotes": [
-          {
-            "type": "call",
-            "strike": 180.0,
-            "action": "sell",
-            "bid": 0.8,
-            "ask": 2.25,
-            "oi": 1023
-          },
-          {
-            "type": "call",
-            "strike": 190.0,
-            "action": "buy",
-            "bid": 0.1,
-            "ask": 0.8,
-            "oi": 430
-          }
-        ],
-        "expiryOI": 6647
-      },
-      "potIsProfitProb": false,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [
-        {
-          "title": "Update: OCC Reports Debanking Policies at 9 Major US Banks",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/economy/policy/articles/occ-reports-debanking-policies-9-131025502.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "OCC Reports Debanking Policies at 9 Major US Banks",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/economy/policy/articles/occ-reports-debanking-policies-9-123050995.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Canadian Banks, Telecom Companies Launch Joint Anti-Fraud Platform",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/technology/articles/canadian-banks-telecom-companies-launch-115609989.html",
-          "sentiment": 0.0
-        }
-      ],
-      "volRegime": "Rich",
-      "ivRvRatio": 1.45,
-      "realizedVol": 18.8,
-      "expDate": "2026-12-18",
-      "legs": [
-        {
-          "type": "call",
-          "strike": 180.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "call",
-          "strike": 190.0,
-          "action": "buy",
-          "qty": 1
-        }
-      ],
-      "valuationLabel": "Rich",
-      "peVsSectorPct": 29.4,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": -7.5,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17,
       "sector": "Financial Services"
     },
@@ -7770,8 +6210,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -41.1,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -41.7,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21,
       "sector": "Technology"
     },
@@ -7782,19 +6222,19 @@
       "isETF": false,
       "spot": 47.15,
       "spotPriceStale": false,
-      "strike": "$52/58",
+      "strike": "$55/60",
       "hedge": null,
-      "exp": "Nov 20",
-      "dte": 36,
+      "exp": "Jan 15",
+      "dte": 92,
       "backExp": null,
       "backExpDate": null,
-      "pot": 32,
-      "ap": 44.6,
+      "pot": 36,
+      "ap": 29.8,
       "ivr": 50,
       "ivRankLimited": false,
-      "dailyReturn": 0.61,
-      "roc": 4.4,
-      "score": 6.9,
+      "dailyReturn": 0.41,
+      "roc": 7.5,
+      "score": 5.7,
       "buy": false,
       "momentum": "bear",
       "ret3m": -11.9,
@@ -7803,51 +6243,57 @@
       "earningsSoon": true,
       "daysToEarnings": 13,
       "marginOfSafety": true,
-      "delta": 0.16,
-      "iv": 31.2,
-      "premium": 0.22,
-      "breakeven": 52.72,
+      "delta": 0.18,
+      "iv": 28.8,
+      "premium": 0.38,
+      "breakeven": 55.38,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 478.0,
-      "pcOI": 0.7,
-      "pcVol": 1.04,
+      "maxLoss": 462.5,
+      "pcOI": 1.97,
+      "pcVol": 0.43,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 611,
-        "worstSpreadPct": null,
-        "midPremium": null,
-        "fillPremium": null,
+        "minOI": 1953,
+        "worstSpreadPct": 66.7,
+        "midPremium": 0.38,
+        "fillPremium": 0.34,
         "weakLeg": {
           "type": "call",
-          "strike": 52.5,
+          "strike": 55.0,
           "action": "sell"
         },
         "legQuotes": [
           {
             "type": "call",
-            "strike": 52.5,
+            "strike": 55.0,
             "action": "sell",
-            "bid": 0.25,
-            "ask": 0.35,
-            "oi": 611
+            "bid": 0.5,
+            "ask": 0.55,
+            "oi": 1953
           },
           {
             "type": "call",
-            "strike": 57.5,
+            "strike": 60.0,
             "action": "buy",
-            "bid": 0.0,
-            "ask": 0.05,
-            "oi": 1231
+            "bid": 0.1,
+            "ask": 0.2,
+            "oi": 1955
           }
         ],
-        "expiryOI": 18097
+        "expiryOI": 57806
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.08,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "A Swiss Banking Giant Thinks the Unthinkable: Moving Out of Switzerland",
+          "publisher": "The Wall Street Journal",
+          "link": "https://finance.yahoo.com/m/a1ef71d0-09fd-3287-b4aa-d380e292f850/a-swiss-banking-giant-thinks.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Occidental Petroleum's Rockies Output Seen Offsetting Gulf of America Headwinds, UBS Says",
           "publisher": "MT Newswires",
@@ -7859,35 +6305,29 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/trade-desk-ttd-faces-ubs-181133865.html",
           "sentiment": 0.23
-        },
-        {
-          "title": "UBS (SWX:UBSG) Stock Still Looks Reasonable On Its 188% Run",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-swx-ubsg-stock-still-162000061.html",
-          "sentiment": 0.0
         }
       ],
-      "volRegime": "Rich",
-      "ivRvRatio": 1.19,
+      "volRegime": "Fair",
+      "ivRvRatio": 1.1,
       "realizedVol": 26.2,
-      "expDate": "2026-11-20",
+      "expDate": "2027-01-15",
       "legs": [
         {
           "type": "call",
-          "strike": 52.5,
+          "strike": 55.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 57.5,
+          "strike": 60.0,
           "action": "buy",
           "qty": 1
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 11.9,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": 10.9,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17,
       "sector": "Financial Services"
     }
@@ -7909,13 +6349,13 @@
       "chg6m": 29.0,
       "chg1y": 38.1,
       "volRatio": 1.24,
-      "peRatio": 39.3,
+      "peRatio": 39.2,
       "sector": "Technology",
       "industry": "Consumer Electronics",
       "pegRatio": 2.73,
       "dividendYield": 0.32,
       "marketCap": 5005219725312,
-      "score": 7.9,
+      "score": 8.5,
       "newsSentiment": -0.32,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
@@ -7938,9 +6378,9 @@
           "sentiment": -0.57
         }
       ],
-      "valuationLabel": "Rich",
-      "peVsSectorPct": 15.2,
-      "sectorMedianPE": 34.1,
+      "valuationLabel": "Fair",
+      "peVsSectorPct": 13.6,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -7959,16 +6399,22 @@
       "chg6m": 30.3,
       "chg1y": 4.8,
       "volRatio": 1.05,
-      "peRatio": 30.1,
+      "peRatio": 29.7,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "pegRatio": 1.76,
       "dividendYield": 0.72,
       "marketCap": 3962939637760,
       "score": 9.1,
-      "newsSentiment": -0.23,
+      "newsSentiment": -0.15,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Why Is Everyone Ignoring Zoom Stock's High Cash Yield?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-everyone-ignoring-zoom-stocks-015217422.html",
+          "sentiment": -0.4
+        },
         {
           "title": "Is Xero\u2019s (ASX:XRO) Google Gemini Integration Quietly Rewiring Its AI Platform Ambitions?",
           "publisher": "Simply Wall St.",
@@ -7980,17 +6426,11 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/softcat-plc-stu-sf5-fy-230026818.html",
           "sentiment": -0.05
-        },
-        {
-          "title": "Microsoft Just Unveiled a Brand-New AI Chip. Could It Be the \"Nvidia Killer\" Everyone's Been Looking For?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-just-unveiled-brand-ai-211706659.html",
-          "sentiment": -0.65
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -11.7,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -13.9,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -8009,38 +6449,38 @@
       "chg6m": 11.5,
       "chg1y": 23.4,
       "volRatio": 1.07,
-      "peRatio": 28.0,
+      "peRatio": 28.9,
       "sector": "Technology",
       "industry": "Semiconductors",
       "pegRatio": 0.28,
       "dividendYield": 0.44,
       "marketCap": 5343730991104,
       "score": 8.0,
-      "newsSentiment": 0.08,
+      "newsSentiment": -0.13,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Techs Fall On Anthropic News After Dell, AMD, CoreWeave Dive In AI-Led Sell-Off",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/aa652aec-f2fc-3be9-a055-a0a4183cba67/dow-jones-futures%3A-techs-fall.html",
+          "title": "Meta Reports on Oct. 21. I'd Consider Buying the Stock Before It Does.",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/meta-reports-oct-21-id-040702260.html",
           "sentiment": 0.0
         },
         {
-          "title": "The S&P 500 Has Risen 30.6% in the First 20 Months of Trump's Second Term, Just Ahead of the 28.5% Gain Over the Same Stretch of His First Term. Here's Why That Comparison Matters for Investors Heading Into the Midterms.",
+          "title": "The Bond Market Just Reached a Dangerous Milestone. Here's What It Means for Stock Investors.",
           "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-risen-30-6-012000131.html",
-          "sentiment": 0.54
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bond-market-just-reached-dangerous-033500736.html",
+          "sentiment": -0.4
         },
         {
-          "title": "Boeing's Secret Weapon Isn't on the Factory Floor -- It's in the Boardroom",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/boeings-secret-weapon-isnt-factory-005000697.html",
-          "sentiment": -0.3
+          "title": "Dow, S&P 500, Nasdaq Decline Amid Hot Inflation Data, AI Selloff: CRWV, NBIS, NVDA, IBRX Stocks In Focus",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-decline-031656491.html",
+          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -17.9,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -16.2,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -8059,37 +6499,37 @@
       "chg6m": 10.0,
       "chg1y": 3.1,
       "volRatio": 0.75,
-      "peRatio": 27.8,
+      "peRatio": 28.7,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
       "pegRatio": 1.01,
       "dividendYield": 0.28,
       "marketCap": 1878887628800,
       "score": 8.0,
-      "newsSentiment": 0.0,
+      "newsSentiment": -0.03,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Meta Reports on Oct. 21. I'd Consider Buying the Stock Before It Does.",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/meta-reports-oct-21-id-040702260.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "MongoDB lets apps pay only for what they use",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/articles/mongodb-lets-apps-pay-only-031700643.html",
+          "sentiment": -0.1
+        },
         {
           "title": "BofA sees ChatGPT taking aim at Google\u2019s next ad dollar",
           "publisher": "TheStreet",
           "link": "https://finance.yahoo.com/media-advertising/articles/bofa-sees-chatgpt-taking-aim-003700235.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "What Does AppLovin Offer That Omnicom Does Not?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/media-advertising/articles/does-applovin-offer-omnicom-does-231116528.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Perpetual Futures and ETFs? Maybe?",
-          "publisher": "etf.com",
-          "link": "https://finance.yahoo.com/markets/options/articles/perpetual-futures-etfs-maybe-223542480.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 25.2,
+      "peVsSectorPct": 29.3,
       "sectorMedianPE": 22.2,
       "sectorPeerCount": 3
     },
@@ -8109,37 +6549,37 @@
       "chg6m": 2.9,
       "chg1y": 36.9,
       "volRatio": 1.22,
-      "peRatio": 17.2,
+      "peRatio": 17.5,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
       "pegRatio": 1.23,
       "dividendYield": 0.25,
       "marketCap": 4202817126400,
       "score": 8.2,
-      "newsSentiment": 0.21,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.02,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "ByteDance in Talks to Secure MediaTek AI Chips for Data Centers",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/technology/ai/articles/bytedance-talks-secure-mediatek-ai-023911406.html",
+          "sentiment": 0.34
+        },
+        {
+          "title": "Why Is Everyone Ignoring Zoom Stock's High Cash Yield?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-everyone-ignoring-zoom-stocks-015217422.html",
+          "sentiment": -0.4
+        },
         {
           "title": "BofA sees ChatGPT taking aim at Google\u2019s next ad dollar",
           "publisher": "TheStreet",
           "link": "https://finance.yahoo.com/media-advertising/articles/bofa-sees-chatgpt-taking-aim-003700235.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Prediction: Alphabet Will Soar After Oct. 28",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-alphabet-soar-oct-28-232000512.html",
-          "sentiment": 0.64
-        },
-        {
-          "title": "Is Xero\u2019s (ASX:XRO) Google Gemini Integration Quietly Rewiring Its AI Platform Ambitions?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/xero-asx-xro-google-gemini-231818025.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -22.5,
+      "peVsSectorPct": -21.2,
       "sectorMedianPE": 22.2,
       "sectorPeerCount": 3
     },
@@ -8159,16 +6599,22 @@
       "chg6m": 10.6,
       "chg1y": 11.8,
       "volRatio": 1.28,
-      "peRatio": 14.1,
+      "peRatio": 13.9,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
       "pegRatio": 1.53,
       "dividendYield": 1.99,
       "marketCap": 890369605632,
       "score": 4.5,
-      "newsSentiment": 0.13,
+      "newsSentiment": 0.03,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "AI Agents Could Pose New Risks to Banks: US, European Regulators Step Up Scrutiny of AI Safeguards, Chinese Models and Cybersecurity: Report",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/technology/ai/articles/ai-agents-could-pose-risks-013006585.html",
+          "sentiment": 0.08
+        },
         {
           "title": "Invesco QQQ Doesn't Own a Single Bank, and That's Not the Only Thing the Nasdaq-100 Leaves Out",
           "publisher": "Motley Fool",
@@ -8180,17 +6626,11 @@
           "publisher": "TIKR",
           "link": "https://finance.yahoo.com/markets/stocks/articles/alibaba-stock-down-38-2025-224618551.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Broad-Based Growth Meets Bank Caution: The Evolving Q3 Earnings Picture",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/broad-based-growth-meets-bank-222600190.html",
-          "sentiment": 0.38
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": -1.4,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": -5.4,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -8209,16 +6649,22 @@
       "chg6m": -22.6,
       "chg1y": -56.4,
       "volRatio": 1.57,
-      "peRatio": 20.5,
+      "peRatio": 22.4,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "pegRatio": 0.8,
       "dividendYield": 1.4,
       "marketCap": 395762466816,
       "score": 2.8,
-      "newsSentiment": -0.27,
+      "newsSentiment": -0.19,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "AI Debt Glut May Be Pushing Up US Government Borrowing Costs, BondCliQ CEO Says",
+          "publisher": "BeInCrypto",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-debt-glut-may-pushing-013642639.html",
+          "sentiment": -0.36
+        },
         {
           "title": "Stock Market Today, Oct. 14: CoreWeave Plummets on Gartner Neocloud Warning and Bond Yield Surge",
           "publisher": "Motley Fool",
@@ -8230,17 +6676,11 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-211246271.html",
           "sentiment": -0.49
-        },
-        {
-          "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-futures-inch-115448878.html",
-          "sentiment": -0.61
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -39.9,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -35.1,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -8259,7 +6699,7 @@
       "chg6m": 2.2,
       "chg1y": 17.9,
       "volRatio": 1.01,
-      "peRatio": 20.4,
+      "peRatio": 20.8,
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
       "pegRatio": 1.5,
@@ -8289,8 +6729,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 0.0,
-      "sectorMedianPE": 20.4,
+      "peVsSectorPct": 0.5,
+      "sectorMedianPE": 20.7,
       "sectorPeerCount": 5
     },
     {
@@ -8408,8 +6848,8 @@
       "dividendYield": 0.0,
       "marketCap": 293849202688,
       "score": 2.8,
-      "newsSentiment": 0.02,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.31,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
           "title": "Is Netflix Stock Worth More Than Its Competitors?",
@@ -8424,10 +6864,10 @@
           "sentiment": -0.42
         },
         {
-          "title": "Over 25% of the Stocks in the S&P 500 Are Down 40% or More. 4 Bargain Tech Stocks to Buy Now",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/over-25-stocks-p-500-195000217.html",
-          "sentiment": 0.27
+          "title": "NFLX Stock Layoffs: What to Know About the Latest Netflix Job Cuts",
+          "publisher": "Barchart",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nflx-stock-layoffs-know-latest-201750230.html",
+          "sentiment": -0.74
         }
       ],
       "valuationLabel": "Cheap",
@@ -8481,8 +6921,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 156.6,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 153.6,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -8501,7 +6941,7 @@
       "chg6m": -1.6,
       "chg1y": -27.2,
       "volRatio": 0.68,
-      "peRatio": 13.4,
+      "peRatio": 13.2,
       "sector": "Technology",
       "industry": "Software - Application",
       "pegRatio": 0.57,
@@ -8531,8 +6971,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -60.7,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -61.7,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -8551,38 +6991,38 @@
       "chg6m": 33.4,
       "chg1y": 0.6,
       "volRatio": 0.57,
-      "peRatio": 21.6,
+      "peRatio": 22.0,
       "sector": "Technology",
       "industry": "Software - Application",
       "pegRatio": 0.85,
       "dividendYield": 0.74,
       "marketCap": 194186854400,
       "score": 6.7,
-      "newsSentiment": -0.05,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.17,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "DocuSign (DOCU) Stock Could Be Above Fair Value On New IAM Launch",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/docusign-docu-stock-could-above-021658925.html",
+          "sentiment": 0.57
+        },
+        {
+          "title": "Why Is Everyone Ignoring Zoom Stock's High Cash Yield?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-everyone-ignoring-zoom-stocks-015217422.html",
+          "sentiment": -0.4
+        },
         {
           "title": "Exalate launches Australian hosting for Exalate Cloud, giving organisations the option to run integrations in-country",
           "publisher": "GlobeNewswire",
           "link": "https://finance.yahoo.com/technology/articles/exalate-launches-australian-hosting-exalate-221700788.html",
           "sentiment": 0.34
-        },
-        {
-          "title": "Elon Musk takes aim at the customer service industry",
-          "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-takes-aim-customer-214734317.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Stock Market Today, Oct. 14: Oracle Tumbles on Hotter CPI Data Lifting Treasury Yields",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-211246271.html",
-          "sentiment": -0.49
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -36.7,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -36.2,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -8601,7 +7041,7 @@
       "chg6m": 142.5,
       "chg1y": 103.9,
       "volRatio": 0.93,
-      "peRatio": 4154.8,
+      "peRatio": 4985.8,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "pegRatio": 6.74,
@@ -8631,8 +7071,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 12084.2,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 14351.6,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -8681,8 +7121,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 407.9,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 402.0,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -8701,38 +7141,38 @@
       "chg6m": 15.2,
       "chg1y": 42.6,
       "volRatio": 1.5,
-      "peRatio": 31.2,
+      "peRatio": 32.4,
       "sector": "Technology",
       "industry": "Semiconductors",
       "pegRatio": 0.84,
       "dividendYield": 0.85,
       "marketCap": 2230183788544,
       "score": 8.2,
-      "newsSentiment": 0.11,
+      "newsSentiment": -0.15,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Techs Fall On Anthropic News After Dell, AMD, CoreWeave Dive In AI-Led Sell-Off",
+          "title": "Dow Jones Futures: Techs Fall On Anthropic News After Dell, AMD, CoreWeave Lead AI-Led Sell-Off",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/aa652aec-f2fc-3be9-a055-a0a4183cba67/dow-jones-futures%3A-techs-fall.html",
           "sentiment": 0.0
+        },
+        {
+          "title": "A deepened tech sell-off drags Asian stocks lower as markets in South Korea and Japan sink",
+          "publisher": "Associated Press",
+          "link": "https://finance.yahoo.com/markets/world-indices/articles/south-korea-benchmark-kospi-index-015023409.html",
+          "sentiment": -0.44
         },
         {
           "title": "Taiwan Semiconductor Manufacturing And 2 AI Chip Stocks To Watch",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductor-manufacturing-2-ai-231859326.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "TSMC Results Face High Bar to Calm Global AI Stock Trade Jitters",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tsmc-results-face-high-bar-222246027.html",
-          "sentiment": 0.32
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -8.5,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -6.1,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -8751,7 +7191,7 @@
       "chg6m": 187.9,
       "chg1y": 234.7,
       "volRatio": 1.27,
-      "peRatio": 29.5,
+      "peRatio": 33.3,
       "sector": "Technology",
       "industry": "Computer Hardware",
       "pegRatio": 0.58,
@@ -8762,7 +7202,7 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Techs Fall On Anthropic News After Dell, AMD, CoreWeave Dive In AI-Led Sell-Off",
+          "title": "Dow Jones Futures: Techs Fall On Anthropic News After Dell, AMD, CoreWeave Lead AI-Led Sell-Off",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/aa652aec-f2fc-3be9-a055-a0a4183cba67/dow-jones-futures%3A-techs-fall.html",
           "sentiment": 0.0
@@ -8781,8 +7221,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -13.5,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -3.5,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -8801,7 +7241,7 @@
       "chg6m": 128.5,
       "chg1y": 81.4,
       "volRatio": 1.17,
-      "peRatio": 937.6,
+      "peRatio": 986.9,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "pegRatio": 2.03,
@@ -8831,8 +7271,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 2649.6,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 2760.6,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -8851,12 +7291,12 @@
       "chg6m": -16.0,
       "chg1y": 64.1,
       "volRatio": 1.09,
-      "peRatio": 64.6,
+      "peRatio": 68.1,
       "sector": "Technology",
       "industry": "Electronic Components",
       "pegRatio": 0.89,
       "dividendYield": 0.75,
-      "marketCap": 121114370048,
+      "marketCap": 121361006592,
       "score": 1.8,
       "newsSentiment": 0.03,
       "newsSentimentLabel": "Neutral",
@@ -8881,8 +7321,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 89.4,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 97.4,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -9023,8 +7463,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 1.5,
-      "sectorMedianPE": 20.4,
+      "peVsSectorPct": 0.0,
+      "sectorMedianPE": 20.7,
       "sectorPeerCount": 5
     },
     {
@@ -9043,16 +7483,22 @@
       "chg6m": 0.0,
       "chg1y": 3.4,
       "volRatio": 1.36,
-      "peRatio": 47.3,
+      "peRatio": 46.0,
       "sector": "Consumer Defensive",
       "industry": "Discount Stores",
       "pegRatio": 4.79,
       "dividendYield": 0.62,
       "marketCap": 435153010688,
       "score": 6.2,
-      "newsSentiment": 0.03,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Why Is Costco (COST) Stock Trending After Hours?",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-costco-cost-stock-trending-024416944.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Kroger makes a pivotal decision as customers turn to rivals",
           "publisher": "TheStreet",
@@ -9064,16 +7510,10 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/economy/policy/articles/social-securitys-2027-cost-living-223500118.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Goodwin University Expands No-Cost Education and Career Training to Massachusetts Through SNAP Path to Work",
-          "publisher": "PR Newswire",
-          "link": "https://finance.yahoo.com/small-business/articles/goodwin-university-expands-no-cost-212700399.html",
-          "sentiment": 0.1
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 199.4,
+      "peVsSectorPct": 192.1,
       "sectorMedianPE": 15.8,
       "sectorPeerCount": 4
     },
@@ -9093,16 +7533,22 @@
       "chg6m": 39.0,
       "chg1y": 66.5,
       "volRatio": 0.97,
-      "peRatio": 34.1,
+      "peRatio": 34.5,
       "sector": "Technology",
       "industry": "Communication Equipment",
       "pegRatio": 1.06,
       "dividendYield": 1.46,
       "marketCap": 448035586048,
       "score": 9.1,
-      "newsSentiment": 0.18,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.04,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Why Is Everyone Ignoring Zoom Stock's High Cash Yield?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-everyone-ignoring-zoom-stocks-015217422.html",
+          "sentiment": -0.4
+        },
         {
           "title": "Here's Why Cisco Systems (CSCO) Fell More Than Broader Market",
           "publisher": "Zacks",
@@ -9114,17 +7560,11 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-stock-2-value-plays-191607599.html",
           "sentiment": 0.53
-        },
-        {
-          "title": "Will Atlassian Stock Ever Get Back To Its Old High?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/atlassian-stock-ever-back-old-190025638.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
       "peVsSectorPct": 0.0,
-      "sectorMedianPE": 34.1,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -9143,7 +7583,7 @@
       "chg6m": 82.3,
       "chg1y": 176.4,
       "volRatio": 1.33,
-      "peRatio": 77.9,
+      "peRatio": 80.7,
       "sector": "Technology",
       "industry": "Semiconductors",
       "pegRatio": 0.66,
@@ -9173,8 +7613,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 128.4,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 133.9,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -9223,8 +7663,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -23.1,
-      "sectorMedianPE": 35.1,
+      "peVsSectorPct": -24.2,
+      "sectorMedianPE": 35.6,
       "sectorPeerCount": 3
     },
     {
@@ -9243,16 +7683,22 @@
       "chg6m": -10.3,
       "chg1y": -26.7,
       "volRatio": 0.89,
-      "peRatio": 15.2,
+      "peRatio": 15.6,
       "sector": "Technology",
       "industry": "Software - Application",
       "pegRatio": 6.2,
       "dividendYield": 0.0,
       "marketCap": 141528989696,
       "score": 3.3,
-      "newsSentiment": 0.07,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.17,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Is Uber Stock Worth More Than Its Competitors?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/uber-stock-worth-more-competitors-014327452.html",
+          "sentiment": 0.29
+        },
         {
           "title": "LendingTree, Pinterest, Snap, Uber, and Angi Shares Are Falling, What You Need To Know",
           "publisher": "StockStory",
@@ -9264,17 +7710,11 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/uber-technologies-uber-dips-more-204506685.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Does The Fall In Avis Budget Stock Change Anything?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/does-fall-avis-budget-stock-201830695.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -55.4,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -54.8,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -9323,8 +7763,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 797.2,
-      "sectorMedianPE": 35.1,
+      "peVsSectorPct": 784.6,
+      "sectorMedianPE": 35.6,
       "sectorPeerCount": 3
     },
     {
@@ -9343,38 +7783,38 @@
       "chg6m": -12.4,
       "chg1y": -0.7,
       "volRatio": 0.89,
-      "peRatio": 44.2,
+      "peRatio": 43.4,
       "sector": "Technology",
       "industry": "Semiconductors",
       "pegRatio": 0.35,
       "dividendYield": 0.73,
       "marketCap": 1652869431296,
       "score": 2.6,
-      "newsSentiment": 0.15,
+      "newsSentiment": -0.14,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Taiwan Semiconductor Manufacturing And 2 AI Chip Stocks To Watch",
+          "title": "Broadcom And 2 Top AI Chip Stocks To Watch",
           "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductor-manufacturing-2-ai-231859326.html",
-          "sentiment": 0.0
+          "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-2-top-ai-chip-031733617.html",
+          "sentiment": 0.2
         },
         {
-          "title": "Broadcom vs. Marvell Technology: Which Technology Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-vs-marvell-technology-technology-222209867.html",
-          "sentiment": 0.44
+          "title": "Global chip sell-off deepens as South Korean market plunges",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/stocks/article/global-chip-sell-off-deepens-as-south-korean-market-plunges-024927049.html",
+          "sentiment": -0.64
         },
         {
-          "title": "A $10,000 Broadcom investment in 2016 now pays $1,991 a year in dividends",
+          "title": "Elon Musk takes a direct swipe at Broadcom CEO and AI investors",
           "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/10-000-broadcom-investment-2016-221700178.html",
+          "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-takes-direct-swipe-024700291.html",
           "sentiment": 0.0
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 29.6,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 25.8,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -9423,8 +7863,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 80.6,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 78.6,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -9448,7 +7888,7 @@
       "industry": "Aerospace & Defense",
       "pegRatio": null,
       "dividendYield": 0.0,
-      "marketCap": 2004584366080,
+      "marketCap": 2005739634688,
       "score": 7.4,
       "newsSentiment": -0.41,
       "newsSentimentLabel": "Negative",
@@ -9489,7 +7929,7 @@
       "chg6m": -6.3,
       "chg1y": -15.6,
       "volRatio": 0.85,
-      "peRatio": 340.0,
+      "peRatio": 346.4,
       "sector": "Consumer Cyclical",
       "industry": "Auto Manufacturers",
       "pegRatio": 3.82,
@@ -9519,8 +7959,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 1566.7,
-      "sectorMedianPE": 20.4,
+      "peVsSectorPct": 1573.4,
+      "sectorMedianPE": 20.7,
       "sectorPeerCount": 5
     },
     {
@@ -9550,21 +7990,21 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Review & Preview: Blistering in the Sun",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/4d20f5d7-ca41-3488-9991-642d3ccb112c/review-%26-preview%3A-blistering.html",
-          "sentiment": 0.0
+          "title": "Inside the Intel Supreme Court Case: Fees, Fiduciaries and Hidden Risk",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/inside-intel-supreme-court-case-030000031.html",
+          "sentiment": 0.36
         },
         {
-          "title": "Can Marvell Stock Drop From Here?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-drop-195941932.html",
-          "sentiment": -0.27
+          "title": "Global chip sell-off deepens as South Korean market plunges",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/stocks/article/global-chip-sell-off-deepens-as-south-korean-market-plunges-024927049.html",
+          "sentiment": -0.64
         },
         {
-          "title": "Is Micron Still The Business You Bought?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-still-business-bought-195201522.html",
+          "title": "Elon Musk takes a direct swipe at Broadcom CEO and AI investors",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-takes-direct-swipe-024700291.html",
           "sentiment": 0.0
         }
       ]
@@ -9585,7 +8025,7 @@
       "chg6m": 12.9,
       "chg1y": 32.6,
       "volRatio": 0.8,
-      "peRatio": 41.3,
+      "peRatio": 42.8,
       "sector": "Technology",
       "industry": "Electronic Components",
       "pegRatio": 0.98,
@@ -9615,8 +8055,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 21.1,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": 24.1,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -9635,12 +8075,12 @@
       "chg6m": 12.9,
       "chg1y": 22.2,
       "volRatio": 1.93,
-      "peRatio": 29.0,
+      "peRatio": 28.9,
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "pegRatio": 1.9,
       "dividendYield": 0.0,
-      "marketCap": 126270046208,
+      "marketCap": 126350270464,
       "score": 3.4,
       "newsSentiment": 0.31,
       "newsSentimentLabel": "Positive",
@@ -9665,8 +8105,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 25.0,
-      "sectorMedianPE": 23.2,
+      "peVsSectorPct": 26.5,
+      "sectorMedianPE": 22.9,
       "sectorPeerCount": 4
     },
     {
@@ -9685,7 +8125,7 @@
       "chg6m": 6.2,
       "chg1y": 0.4,
       "volRatio": 2.51,
-      "peRatio": 10.7,
+      "peRatio": 11.2,
       "sector": "Financial Services",
       "industry": "Insurance - Property & Casualty",
       "pegRatio": 68.35,
@@ -9715,8 +8155,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -25.2,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": -23.8,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -9735,7 +8175,7 @@
       "chg6m": 29.7,
       "chg1y": -17.4,
       "volRatio": 0.88,
-      "peRatio": 28.3,
+      "peRatio": 28.2,
       "sector": "Technology",
       "industry": "Software - Application",
       "pegRatio": 1.72,
@@ -9765,8 +8205,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -17.0,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -18.3,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -9785,7 +8225,7 @@
       "chg6m": -5.2,
       "chg1y": 9.6,
       "volRatio": 1.74,
-      "peRatio": 29.0,
+      "peRatio": 29.7,
       "sector": "Real Estate",
       "industry": "REIT - Industrial",
       "pegRatio": 116.26,
@@ -9831,7 +8271,7 @@
       "chg6m": 2.4,
       "chg1y": 12.3,
       "volRatio": 0.97,
-      "peRatio": 35.1,
+      "peRatio": 35.6,
       "sector": "Industrials",
       "industry": "Building Products & Equipment",
       "pegRatio": 1.69,
@@ -9862,7 +8302,7 @@
       ],
       "valuationLabel": "Fair",
       "peVsSectorPct": 0.0,
-      "sectorMedianPE": 35.1,
+      "sectorMedianPE": 35.6,
       "sectorPeerCount": 3
     },
     {
@@ -9911,8 +8351,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 4.3,
-      "sectorMedianPE": 23.2,
+      "peVsSectorPct": 5.9,
+      "sectorMedianPE": 22.9,
       "sectorPeerCount": 4
     },
     {
@@ -9961,8 +8401,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -46.8,
-      "sectorMedianPE": 12.4,
+      "peVsSectorPct": -46.3,
+      "sectorMedianPE": 12.3,
       "sectorPeerCount": 7
     },
     {
@@ -10011,8 +8451,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -54.9,
-      "sectorMedianPE": 20.4,
+      "peVsSectorPct": -55.6,
+      "sectorMedianPE": 20.7,
       "sectorPeerCount": 5
     },
     {
@@ -10031,7 +8471,7 @@
       "chg6m": -4.0,
       "chg1y": -7.4,
       "volRatio": 1.16,
-      "peRatio": 21.5,
+      "peRatio": 21.2,
       "sector": "Utilities",
       "industry": "Utilities - Regulated Electric",
       "pegRatio": 2.08,
@@ -10084,9 +8524,15 @@
       "dividendYield": 4.72,
       "marketCap": 168227766272,
       "score": 3.6,
-      "newsSentiment": 0.45,
+      "newsSentiment": 0.44,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Walmart to increase employee benefits with new initiative for 2027",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/healthcare/articles/walmart-increase-employee-benefits-initiative-040300058.html",
+          "sentiment": 0.6
+        },
         {
           "title": "Novo Nordisk (NVO) Could Be 63% Undervalued Following Its Share Buyback",
           "publisher": "Simply Wall St.",
@@ -10098,17 +8544,11 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/healthcare/articles/roche-expands-obesity-pipeline-ronas-163800076.html",
           "sentiment": 0.1
-        },
-        {
-          "title": "Is Novo Nordisk (NYSE:NVO) A Long Term Value Opportunity Now?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/novo-nordisk-nyse-nvo-long-161806261.html",
-          "sentiment": 0.64
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -59.9,
-      "sectorMedianPE": 23.2,
+      "peVsSectorPct": -59.3,
+      "sectorMedianPE": 22.9,
       "sectorPeerCount": 4
     },
     {
@@ -10127,7 +8567,7 @@
       "chg6m": 8.4,
       "chg1y": 53.9,
       "volRatio": 1.08,
-      "peRatio": 23.8,
+      "peRatio": 23.7,
       "sector": "Energy",
       "industry": "Oil & Gas Integrated",
       "pegRatio": 0.05,
@@ -10157,8 +8597,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 91.9,
-      "sectorMedianPE": 12.4,
+      "peVsSectorPct": 92.7,
+      "sectorMedianPE": 12.3,
       "sectorPeerCount": 7
     },
     {
@@ -10177,7 +8617,7 @@
       "chg6m": 15.5,
       "chg1y": 72.8,
       "volRatio": 0.98,
-      "peRatio": 12.7,
+      "peRatio": 12.8,
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
       "pegRatio": 3.42,
@@ -10207,8 +8647,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 2.4,
-      "sectorMedianPE": 12.4,
+      "peVsSectorPct": 4.1,
+      "sectorMedianPE": 12.3,
       "sectorPeerCount": 7
     },
     {
@@ -10227,7 +8667,7 @@
       "chg6m": -3.4,
       "chg1y": 16.5,
       "volRatio": 0.71,
-      "peRatio": 22.2,
+      "peRatio": 21.5,
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
       "pegRatio": 3.34,
@@ -10257,8 +8697,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": -4.3,
-      "sectorMedianPE": 23.2,
+      "peVsSectorPct": -5.9,
+      "sectorMedianPE": 22.9,
       "sectorPeerCount": 4
     },
     {
@@ -10307,7 +8747,7 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -8.2,
+      "peVsSectorPct": -7.9,
       "sectorMedianPE": 15.8,
       "sectorPeerCount": 4
     },
@@ -10357,8 +8797,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 22.4,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": 19.0,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -10377,7 +8817,7 @@
       "chg6m": 4.3,
       "chg1y": 56.9,
       "volRatio": 1.0,
-      "peRatio": 12.4,
+      "peRatio": 12.7,
       "sector": "Financial Services",
       "industry": "Banks - Regional",
       "pegRatio": 1.52,
@@ -10407,8 +8847,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -13.3,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": -13.6,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -10427,7 +8867,7 @@
       "chg6m": 11.9,
       "chg1y": -3.6,
       "volRatio": 0.92,
-      "peRatio": 12.9,
+      "peRatio": 12.6,
       "sector": "Consumer Defensive",
       "industry": "Household & Personal Products",
       "pegRatio": 6.67,
@@ -10457,7 +8897,7 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -18.4,
+      "peVsSectorPct": -20.0,
       "sectorMedianPE": 15.8,
       "sectorPeerCount": 4
     },
@@ -10477,7 +8917,7 @@
       "chg6m": 11.6,
       "chg1y": 33.8,
       "volRatio": 0.73,
-      "peRatio": 16.9,
+      "peRatio": 17.0,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
       "pegRatio": 2.26,
@@ -10507,8 +8947,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 18.2,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": 15.6,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -10557,8 +8997,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 104.0,
-      "sectorMedianPE": 12.4,
+      "peVsSectorPct": 105.7,
+      "sectorMedianPE": 12.3,
       "sectorPeerCount": 7
     },
     {
@@ -10577,13 +9017,13 @@
       "chg6m": -16.6,
       "chg1y": -37.2,
       "volRatio": 0.57,
-      "peRatio": 14.6,
+      "peRatio": 14.7,
       "sector": "Financial Services",
       "industry": "Banks - Regional",
       "pegRatio": 1.01,
       "dividendYield": 1.8,
       "marketCap": 116306731008,
-      "score": 3.0,
+      "score": 3.6,
       "newsSentiment": 0.02,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
@@ -10606,9 +9046,9 @@
           "sentiment": -0.3
         }
       ],
-      "valuationLabel": "Fair",
-      "peVsSectorPct": 2.1,
-      "sectorMedianPE": 14.3,
+      "valuationLabel": "Cheap",
+      "peVsSectorPct": 0.0,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -10627,7 +9067,7 @@
       "chg6m": 9.5,
       "chg1y": 61.5,
       "volRatio": 0.9,
-      "peRatio": 30.0,
+      "peRatio": 31.0,
       "sector": "Basic Materials",
       "industry": "Copper",
       "pegRatio": 5.41,
@@ -10657,8 +9097,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 38.9,
-      "sectorMedianPE": 21.6,
+      "peVsSectorPct": 40.9,
+      "sectorMedianPE": 22.0,
       "sectorPeerCount": 3
     },
     {
@@ -10677,7 +9117,7 @@
       "chg6m": 7.1,
       "chg1y": 53.0,
       "volRatio": 1.08,
-      "peRatio": 21.6,
+      "peRatio": 22.0,
       "sector": "Basic Materials",
       "industry": "Other Industrial Metals & Mining",
       "pegRatio": 5.95,
@@ -10708,7 +9148,7 @@
       ],
       "valuationLabel": "Fair",
       "peVsSectorPct": 0.0,
-      "sectorMedianPE": 21.6,
+      "sectorMedianPE": 22.0,
       "sectorPeerCount": 3
     },
     {
@@ -10727,7 +9167,7 @@
       "chg6m": -5.4,
       "chg1y": 39.2,
       "volRatio": 1.19,
-      "peRatio": 12.4,
+      "peRatio": 12.6,
       "sector": "Basic Materials",
       "industry": "Other Industrial Metals & Mining",
       "pegRatio": 5.69,
@@ -10757,8 +9197,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -42.6,
-      "sectorMedianPE": 21.6,
+      "peVsSectorPct": -42.7,
+      "sectorMedianPE": 22.0,
       "sectorPeerCount": 3
     },
     {
@@ -10782,7 +9222,7 @@
       "industry": "Banks - Diversified",
       "pegRatio": 1.0,
       "dividendYield": 3.54,
-      "marketCap": 109573431296,
+      "marketCap": 109755637760,
       "score": 6.1,
       "newsSentiment": 0.13,
       "newsSentimentLabel": "Neutral",
@@ -10807,8 +9247,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 14.0,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": 10.9,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -10838,8 +9278,8 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -53.2,
-      "sectorMedianPE": 12.4,
+      "peVsSectorPct": -52.8,
+      "sectorMedianPE": 12.3,
       "sectorPeerCount": 7
     },
     {
@@ -10858,7 +9298,7 @@
       "chg6m": 8.7,
       "chg1y": 37.5,
       "volRatio": 1.12,
-      "peRatio": 13.0,
+      "peRatio": 13.1,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
       "pegRatio": 0.89,
@@ -10888,8 +9328,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -9.1,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": -10.9,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -10908,7 +9348,7 @@
       "chg6m": 7.2,
       "chg1y": 33.9,
       "volRatio": 0.57,
-      "peRatio": 17.1,
+      "peRatio": 17.0,
       "sector": "Consumer Defensive",
       "industry": "Beverages - Brewers",
       "pegRatio": 1.62,
@@ -10938,7 +9378,7 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 8.2,
+      "peVsSectorPct": 7.9,
       "sectorMedianPE": 15.8,
       "sectorPeerCount": 4
     },
@@ -10958,7 +9398,7 @@
       "chg6m": 25.5,
       "chg1y": 106.0,
       "volRatio": 0.96,
-      "peRatio": 12.4,
+      "peRatio": 12.3,
       "sector": "Energy",
       "industry": "Oil & Gas Integrated",
       "pegRatio": 1.16,
@@ -10989,7 +9429,7 @@
       ],
       "valuationLabel": "Cheap",
       "peVsSectorPct": 0.0,
-      "sectorMedianPE": 12.4,
+      "sectorMedianPE": 12.3,
       "sectorPeerCount": 7
     },
     {
@@ -11038,8 +9478,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -9.7,
-      "sectorMedianPE": 12.4,
+      "peVsSectorPct": -8.9,
+      "sectorMedianPE": 12.3,
       "sectorPeerCount": 7
     },
     {
@@ -11088,8 +9528,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 15.4,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": 12.2,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -11108,16 +9548,22 @@
       "chg6m": 4.4,
       "chg1y": 47.9,
       "volRatio": 1.23,
-      "peRatio": 13.4,
+      "peRatio": 13.6,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
       "pegRatio": 0.83,
       "dividendYield": 3.95,
       "marketCap": 321171161088,
       "score": 4.1,
-      "newsSentiment": 0.56,
+      "newsSentiment": 0.62,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Qatar Airways Group Signs Inaugural Japanese Financing Agreement with Partners HSBC and JP Lease",
+          "publisher": "PR Newswire",
+          "link": "https://finance.yahoo.com/economy/policy/articles/qatar-airways-group-signs-inaugural-031100927.html",
+          "sentiment": 0.69
+        },
         {
           "title": "HSBC Sees a Surprise Driver for the Next Stock Rally",
           "publisher": "GuruFocus.com",
@@ -11129,17 +9575,11 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/hsbc-holdings-lse-hsba-shift-141212322.html",
           "sentiment": 0.49
-        },
-        {
-          "title": "HSBC to shift senior staff compensation from fixed pay to bonuses",
-          "publisher": "Retail Banker International",
-          "link": "https://finance.yahoo.com/news/hsbc-shift-senior-staff-compensation-115303298.html",
-          "sentiment": 0.49
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -6.3,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": -7.5,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -11188,8 +9628,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 2.8,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": 0.0,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -11208,7 +9648,7 @@
       "chg6m": 11.1,
       "chg1y": 29.5,
       "volRatio": 0.58,
-      "peRatio": 18.5,
+      "peRatio": 18.7,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
       "pegRatio": 1.52,
@@ -11238,8 +9678,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 29.4,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": 27.2,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -11288,8 +9728,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -41.1,
-      "sectorMedianPE": 34.1,
+      "peVsSectorPct": -41.7,
+      "sectorMedianPE": 34.5,
       "sectorPeerCount": 21
     },
     {
@@ -11308,7 +9748,7 @@
       "chg6m": 12.2,
       "chg1y": 23.8,
       "volRatio": 0.78,
-      "peRatio": 16.0,
+      "peRatio": 16.3,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
       "pegRatio": 0.65,
@@ -11318,6 +9758,12 @@
       "newsSentiment": 0.08,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "A Swiss Banking Giant Thinks the Unthinkable: Moving Out of Switzerland",
+          "publisher": "The Wall Street Journal",
+          "link": "https://finance.yahoo.com/m/a1ef71d0-09fd-3287-b4aa-d380e292f850/a-swiss-banking-giant-thinks.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Occidental Petroleum's Rockies Output Seen Offsetting Gulf of America Headwinds, UBS Says",
           "publisher": "MT Newswires",
@@ -11329,17 +9775,11 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/trade-desk-ttd-faces-ubs-181133865.html",
           "sentiment": 0.23
-        },
-        {
-          "title": "UBS (SWX:UBSG) Stock Still Looks Reasonable On Its 188% Run",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-swx-ubsg-stock-still-162000061.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 11.9,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": 10.9,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -11388,8 +9828,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -59.3,
-      "sectorMedianPE": 20.4,
+      "peVsSectorPct": -59.9,
+      "sectorMedianPE": 20.7,
       "sectorPeerCount": 5
     },
     {
@@ -11438,8 +9878,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 0.0,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": -2.7,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -11458,7 +9898,7 @@
       "chg6m": 12.3,
       "chg1y": 50.5,
       "volRatio": 0.92,
-      "peRatio": 11.8,
+      "peRatio": 12.0,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
       "pegRatio": 0.74,
@@ -11488,8 +9928,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -17.5,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": -18.4,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -11538,8 +9978,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 0.0,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": -2.7,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     },
     {
@@ -11558,7 +9998,7 @@
       "chg6m": 16.6,
       "chg1y": 63.4,
       "volRatio": 0.97,
-      "peRatio": 14.1,
+      "peRatio": 14.7,
       "sector": "Financial Services",
       "industry": "Banks - Regional",
       "pegRatio": 1.58,
@@ -11588,8 +10028,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": -1.4,
-      "sectorMedianPE": 14.3,
+      "peVsSectorPct": 0.0,
+      "sectorMedianPE": 14.7,
       "sectorPeerCount": 17
     }
   ],
@@ -11607,7 +10047,7 @@
     "costPerContract": 592.5
   },
   "market": {
-    "asOf": "2026-10-15T01:42:55.463188+00:00",
+    "asOf": "2026-10-15T04:29:47.760833+00:00",
     "gauges": [
       {
         "key": "qqq",
