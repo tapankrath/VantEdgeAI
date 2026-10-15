@@ -2509,6 +2509,10 @@
 
     if(mode === 'backtest'){
       renderBacktestView();
+      // Re-read the P&L each time the tab opens (2026-10-14) — it used to be
+      // fetched once at app start, so a data run that finished while the app
+      // was open never showed up and positions stayed "Pending".
+      loadTrackedPnl();
     }
     // Deliberately NOT auto-focusing #lookupInput on switching to the Lookup
     // tab (tried this initially) — immediately popping the on-screen keyboard
@@ -3718,7 +3722,7 @@
           <div class="tracked-stat-row">
             <div class="tracked-stat">
               <div class="tracked-stat-label">Entry (${entryWord})</div>
-              <div class="tracked-stat-val">${entryVal}<span class="tracked-stat-date">${shortDate(pos.entryDate)}</span></div>
+              <div class="tracked-stat-val">${entryVal}<span class="tracked-stat-date">${shortDate(pos.trackedAt || pos.entryDate)}</span></div>
             </div>
             <div class="tracked-stat">
               <div class="tracked-stat-label">Now</div>
@@ -4023,6 +4027,7 @@
   // and re-render the option trade list (rendered even while a Tool is open,
   // so it's current when you come back).
   async function reloadAndRerenderData(){
+    loadTrackedPnl(); // tracked positions' P&L comes from the same data run (2026-10-14)
     await loadTrades(); // re-fetches data.json fresh (cache:'no-store') and updates the status badge
     render(sortTrades(computeFiltered()));
     renderFunnel();

@@ -1,6 +1,6 @@
 // SignalHQ — minimal app-shell cache.
 // Bump CACHE_NAME whenever you ship a change, so old clients pick up the new files.
-const CACHE_NAME = 'signalhq-v83';
+const CACHE_NAME = 'signalhq-v84';
 const APP_SHELL = [
   './',
   './index.html',
@@ -42,15 +42,21 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  if (url.pathname.endsWith('/data.json')) {
+  // Every .json (data.json, tracked_pnl.json, lookup.json, ...) is data that
+  // the scheduled runs rewrite — always network-first.
+  if (url.pathname.endsWith('.json') && !url.pathname.endsWith('/manifest.json')) {
     event.respondWith(
       fetch(request, { cache: 'no-store' })
         .then((res) => {
-          const clone = res.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(request, clone));
+          // one offline copy per file — keyed without the ?_=timestamp
+          // cache-buster, which would otherwise add a new entry every fetch
+          if (res.ok) {
+            const clone = res.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(url.origin + url.pathname, clone));
+          }
           return res;
         })
-        .catch(() => caches.match(request))
+        .catch(() => caches.match(url.origin + url.pathname))
     );
     return;
   }
