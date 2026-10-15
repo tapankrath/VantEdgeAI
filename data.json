@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T21:08:24.012754+00:00",
+  "generated_at": "2026-10-15T21:39:25.566961+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -72,9 +72,15 @@
         "expiryOI": 93454
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.31,
+      "newsSentiment": 0.44,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Think the iPhone Duo is expensive? Skip Apple's insurance plan and 1 mishap could send your real cost soaring",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/technology/articles/think-iphone-duo-expensive-skip-210000823.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Robinhood, Cboe Expand Prediction Market Offerings After SEC Win",
           "publisher": "Investor's Business Daily",
@@ -86,12 +92,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/markets/stocks/articles/2-stocks-run-circles-around-193401416.html",
           "sentiment": 0.6
-        },
-        {
-          "title": "AI Stocks Are Hurting. Look at These Other Sectors for Protection.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/ae1cf62e-30be-3112-9ec5-4181307e9b31/ai-stocks-are-hurting.-look.html",
-          "sentiment": -0.4
         }
       ],
       "volRegime": "Rich",
@@ -188,9 +188,15 @@
         "expiryOI": 133512
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.05,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.25,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "3 Chip Stocks to Buy Before Big Tech Reports Its Spending Plans",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-chip-stocks-buy-big-210103596.html",
+          "sentiment": 0.0
+        },
         {
           "title": "What Did CrowdStrike Say Before Its Stock Nearly Doubled?",
           "publisher": "Trefis",
@@ -202,12 +208,6 @@
           "publisher": "Barrons.com",
           "link": "https://finance.yahoo.com/m/99e4148b-2e30-3da5-812c-6d410fe63118/coreweave%E2%80%99s-freakout-hurt.html",
           "sentiment": -0.74
-        },
-        {
-          "title": "These 2 Stocks Have Run Circles Around the Magnificent Seven This Year, and Wall Street Says There Is More Upside Ahead",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/2-stocks-run-circles-around-193401416.html",
-          "sentiment": 0.6
         }
       ],
       "volRegime": "Rich",
@@ -320,26 +320,26 @@
         "expiryOI": 98350
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.06,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.35,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
-          "title": "What Did CrowdStrike Say Before Its Stock Nearly Doubled?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/did-crowdstrike-stock-nearly-doubled-204434523.html",
-          "sentiment": 0.0
+          "title": "Boeing Fell Back Below $200 Ahead of a Strike Deadline. Here's Why I'd Buy the Fear After New Contracts Were Signed",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-fell-back-below-200-212500031.html",
+          "sentiment": -0.57
         },
         {
-          "title": "The Stock Market Hasn't Been This Expensive in Decades. Should Investors Prepare for a Crash?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-hasnt-expensive-decades-204300271.html",
-          "sentiment": -0.4
+          "title": "Cisco (CSCO) Backs A New 400G Optical Standard For AI Data Centers",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cisco-csco-backs-400g-optical-211653476.html",
+          "sentiment": -0.05
         },
         {
-          "title": "2 High-Yield Dividend Stocks Worth Buying Before 2026 Ends",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/2-high-yield-dividend-stocks-204300813.html",
-          "sentiment": 0.23
+          "title": "Update: CoreWeave Execution Outweighs Financing Worries, BofA Says",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-execution-outweighs-financing-worries-211401274.html",
+          "sentiment": -0.42
         }
       ],
       "volRegime": "Rich",
@@ -448,9 +448,15 @@
         "expiryOI": 32726
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.03,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.22,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "3 Chip Stocks to Buy Before Big Tech Reports Its Spending Plans",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-chip-stocks-buy-big-210103596.html",
+          "sentiment": 0.0
+        },
         {
           "title": "AppLovin Stock Has One Thing Left To Prove",
           "publisher": "Trefis",
@@ -462,12 +468,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-market-washout-spark-end-194200754.html",
           "sentiment": 0.66
-        },
-        {
-          "title": "CoreWeave\u2019s Freakout Hurt Constellation and NRG Stocks. It Shouldn\u2019t Have.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/99e4148b-2e30-3da5-812c-6d410fe63118/coreweave%E2%80%99s-freakout-hurt.html",
-          "sentiment": -0.74
         }
       ],
       "volRegime": "Cheap",
@@ -580,9 +580,15 @@
         "expiryOI": 21532
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.06,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.16,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "3 Chip Stocks to Buy Before Big Tech Reports Its Spending Plans",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-chip-stocks-buy-big-210103596.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Robinhood, Cboe Expand Prediction Market Offerings After SEC Win",
           "publisher": "Investor's Business Daily",
@@ -594,12 +600,6 @@
           "publisher": "TheStreet",
           "link": "https://finance.yahoo.com/technology/articles/google-180-fitbit-edge-makes-200700819.html",
           "sentiment": -0.25
-        },
-        {
-          "title": "Amazon\u2019s New Devices Show Push to Avoid Getting Shut Out of Personal AI",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/46e94253-1b48-338a-bdd5-8d5fa80bcd42/amazon%E2%80%99s-new-devices-show.html",
-          "sentiment": -0.3
         }
       ],
       "volRegime": "Rich",
@@ -708,9 +708,15 @@
         "expiryOI": 78348
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.01,
+      "newsSentiment": -0.06,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "JPMorgan Chase (JPM) Misses Third Quarter Earnings, Is The Upside Already Priced In?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-jpm-misses-third-211402490.html",
+          "sentiment": -0.61
+        },
         {
           "title": "JPMorganChase Declares Preferred Stock Dividends",
           "publisher": "Business Wire",
@@ -718,16 +724,10 @@
           "sentiment": 0.0
         },
         {
-          "title": "Ranking America's 4 Biggest Banks From Best Buy to Worst",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ranking-americas-4-biggest-banks-175000317.html",
-          "sentiment": 0.03
-        },
-        {
-          "title": "Goldman and Berkshire Stand Out After Big Bank Earnings: What the Charts Show",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/63e61890-3a5d-3cdc-8c5d-73aa5677ba60/goldman-and-berkshire-stand.html",
-          "sentiment": 0.0
+          "title": "\u2018You don\u2019t want rogue agents\u2019: Jamie Dimon bars outside AI agents like Meta\u2019s Muse from JPMorgan accounts",
+          "publisher": "Fortune",
+          "link": "https://finance.yahoo.com/technology/ai/articles/don-t-want-rogue-agents-181013092.html",
+          "sentiment": 0.42
         }
       ],
       "volRegime": "Rich",
@@ -968,9 +968,15 @@
         "expiryOI": 626254
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.37,
+      "newsSentiment": 0.23,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "3 Chip Stocks to Buy Before Big Tech Reports Its Spending Plans",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-chip-stocks-buy-big-210103596.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Elon Musk has shopping advice after Amazon blocks his AI",
           "publisher": "TheStreet",
@@ -982,12 +988,6 @@
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/43e15f4c-378a-35ca-8bcb-ce6c42c9c5ef/robinhood%2C-cboe-expand.html",
           "sentiment": 0.73
-        },
-        {
-          "title": "Corning vs. Honeywell International: Which Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/corning-vs-honeywell-international-stock-203057533.html",
-          "sentiment": 0.44
         }
       ],
       "volRegime": "Rich",
@@ -1339,9 +1339,15 @@
         "expiryOI": 44948
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.04,
+      "newsSentiment": 0.02,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Bravo Capital Now Financing Build-to-Rent Communities Under New HUD Guidance",
+          "publisher": "PR Newswire",
+          "link": "https://finance.yahoo.com/real-estate/articles/bravo-capital-now-financing-build-210800852.html",
+          "sentiment": 0.0
+        },
         {
           "title": "What Teens Want in Shoes Now: These Casual Brands Are Edging Their Way in as Top Athletic Brands Lose Some Ground",
           "publisher": "Footwear News",
@@ -1353,12 +1359,6 @@
           "publisher": "StockStory",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-servicenow-now-stock-trading-193109693.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "The Auditors Who Got Tired of Auditing by Hand Built a Machine. Now Owners Can Use It.",
-          "publisher": "PR Newswire",
-          "link": "https://finance.yahoo.com/technology/ai/articles/auditors-got-tired-auditing-hand-192600013.html",
-          "sentiment": 0.08
         }
       ],
       "volRegime": "Rich",
@@ -1599,14 +1599,14 @@
         "expiryOI": 9462
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.03,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.19,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Stocks Bounce, AI Off Lows With Disney, Salesforce, eBay New Buys. But Watch Out For This.",
+          "title": "Dow Jones Futures: Techs Fall After Wild, Positive Market Day As Disney, Salesforce Lead New Buys. Watch Out For This.",
           "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/2cd5e2a7-a743-35dd-994e-11a2ba3c6d46/dow-jones-futures%3A-stocks.html",
-          "sentiment": -0.1
+          "link": "https://finance.yahoo.com/m/2cd5e2a7-a743-35dd-994e-11a2ba3c6d46/dow-jones-futures%3A-techs-fall.html",
+          "sentiment": 0.56
         },
         {
           "title": "Stock Market Today: Dow Pops 550 Points As Yields Sink; Dell Sets Off Sell Signals",
@@ -1963,9 +1963,15 @@
         "expiryOI": 185252
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.29,
+      "newsSentiment": -0.22,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "3 Taiwan AI Semiconductor Stocks Worth Watching After TSMC Earnings",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/3-taiwan-ai-semiconductor-stocks-211309719.html",
+          "sentiment": 0.23
+        },
         {
           "title": "Nvidia stock trims losses as chip sell-off eases amid AI financing concerns",
           "publisher": "Yahoo Finance",
@@ -1977,12 +1983,6 @@
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/e0ef6d90-1f3d-3925-9be0-e5d8d98435b3/chip-stocks-tumble-on-ai.html",
           "sentiment": -0.78
-        },
-        {
-          "title": "Chip Leader TSMC Delivers Beat-And-Raise Third-Quarter Report",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/e77c8dc4-38ba-3d35-ae51-3ccbe56ac9d0/chip-leader-tsmc-delivers.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -3021,9 +3021,15 @@
         "expiryOI": 11448
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.36,
+      "newsSentiment": 0.2,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Cisco (CSCO) Backs A New 400G Optical Standard For AI Data Centers",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cisco-csco-backs-400g-optical-211653476.html",
+          "sentiment": -0.05
+        },
         {
           "title": "IBM Has Paid Dividends Since 1916. Here\u2019s Why Retirees Should Pay Attention Now",
           "publisher": "24/7 Wall St.",
@@ -3035,12 +3041,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-raised-dividend-70-174523680.html",
           "sentiment": 0.76
-        },
-        {
-          "title": "What Needs To Be True To Buy Ondas Stock Now?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/needs-true-buy-ondas-stock-170158345.html",
-          "sentiment": 0.42
         }
       ],
       "volRegime": "Fair",
@@ -3569,9 +3569,15 @@
         "expiryOI": 54651
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.18,
+      "newsSentiment": 0.33,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Is Bloom Energy Stock Priced Right Against Its Peers?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-stock-priced-against-211710357.html",
+          "sentiment": 0.27
+        },
         {
           "title": "Bloom Energy Stocks Fall 3.9% Although Baird Raises Target to $351",
           "publisher": "GuruFocus.com",
@@ -3583,12 +3589,6 @@
           "publisher": "Barrons.com",
           "link": "https://finance.yahoo.com/m/517acc9e-8150-3dd5-a49d-cfce677512e9/bloom-energy-is-an-ai-power.html",
           "sentiment": 0.13
-        },
-        {
-          "title": "Bloom Energy Retreats 4% as AI Power Trade Unwinds; Caterpillar Slides 3%, Generac Slips",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-retreats-4-ai-174745233.html",
-          "sentiment": -0.18
         }
       ],
       "volRegime": "Rich",
@@ -3973,9 +3973,15 @@
         "expiryOI": 107063
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.04,
+      "newsSentiment": -0.03,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Cathie Wood Says the Memory Chip Trend Is Up but the Cycles Are \u2018Vicious\u2019",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-says-memory-chip-210020954.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Nvidia stock trims losses as chip sell-off eases amid AI financing concerns",
           "publisher": "Yahoo Finance",
@@ -3987,12 +3993,6 @@
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/27f9f9ee-5b06-3a78-a91a-ddc2a33bd2d2/stock-market-today%3A-dow-pops.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Prediction: This Is What $2,000 Invested in Micron Stock Today Could Be Worth by 2029",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-2-000-invested-micron-203000302.html",
-          "sentiment": 0.23
         }
       ],
       "volRegime": "Fair",
@@ -4117,14 +4117,14 @@
         "expiryOI": 6293
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.07,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.29,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Stocks Bounce, AI Off Lows With Disney, Salesforce, eBay New Buys. But Watch Out For This.",
+          "title": "Dow Jones Futures: Techs Fall After Wild, Positive Market Day As Disney, Salesforce Lead New Buys. Watch Out For This.",
           "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/2cd5e2a7-a743-35dd-994e-11a2ba3c6d46/dow-jones-futures%3A-stocks.html",
-          "sentiment": -0.1
+          "link": "https://finance.yahoo.com/m/2cd5e2a7-a743-35dd-994e-11a2ba3c6d46/dow-jones-futures%3A-techs-fall.html",
+          "sentiment": 0.56
         },
         {
           "title": "Rocket Lab stock tumbles as effort to take market share from SpaceX slips to 2027",
@@ -4256,14 +4256,14 @@
         "expiryOI": 412916
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.21,
+      "newsSentiment": 0.43,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Stocks Bounce, AI Off Lows With Disney, Salesforce, eBay New Buys. But Watch Out For This.",
+          "title": "Dow Jones Futures: Techs Fall After Wild, Positive Market Day As Disney, Salesforce Lead New Buys. Watch Out For This.",
           "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/2cd5e2a7-a743-35dd-994e-11a2ba3c6d46/dow-jones-futures%3A-stocks.html",
-          "sentiment": -0.1
+          "link": "https://finance.yahoo.com/m/2cd5e2a7-a743-35dd-994e-11a2ba3c6d46/dow-jones-futures%3A-techs-fall.html",
+          "sentiment": 0.56
         },
         {
           "title": "Robinhood, Cboe Expand Prediction Market Offerings After SEC Win",
@@ -4667,9 +4667,15 @@
         "expiryOI": 7241
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.17,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Marriott International (MAR) Opens First JW Marriott All Inclusive As Valuation Stays In Focus",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/marriott-international-mar-opens-first-211613441.html",
+          "sentiment": 0.52
+        },
         {
           "title": "How Marriott\u2019s All\u2011Inclusive and Midscale Push Could Reshape the Story for Marriott (MAR) Investors",
           "publisher": "Simply Wall St.",
@@ -4680,12 +4686,6 @@
           "title": "Marriott (MAR) Stock May Be Fully Priced Following Thailand Hotel Expansion",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/marriott-mar-stock-may-fully-191049767.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Sector Update: Consumer Stocks Mixed Premarket Thursday",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-premarket-131130204.html",
           "sentiment": 0.0
         }
       ],
@@ -5550,6 +5550,12 @@
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
+          "title": "Did The Market Read Vistra Stock Right?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/did-market-read-vistra-stock-205231245.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Southern Company vs. Eversource: Which Dividend Stock Pays You More in 10 Years?",
           "publisher": "TIKR",
           "link": "https://finance.yahoo.com/markets/stocks/articles/southern-company-vs-eversource-dividend-192401737.html",
@@ -5560,12 +5566,6 @@
           "publisher": "PR Newswire",
           "link": "https://finance.yahoo.com/energy/articles/georgia-power-highlights-customer-assistance-182400075.html",
           "sentiment": 0.56
-        },
-        {
-          "title": "Alabama Power completes restoration following Hurricane Isaias",
-          "publisher": "PR Newswire",
-          "link": "https://finance.yahoo.com/energy/articles/alabama-power-completes-restoration-following-180500954.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Rich",
@@ -7665,9 +7665,15 @@
         "expiryOI": 5680
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.24,
+      "newsSentiment": 0.29,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "TotalEnergies (ENXTPA:TTE) Flags Record Q3 Production And LNG Driven Profit Upswing",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/energy/articles/totalenergies-enxtpa-tte-flags-record-211155297.html",
+          "sentiment": 0.44
+        },
         {
           "title": "Exxon vs. TotalEnergies: Which Dividend Stock Pays You More in 10 Years?",
           "publisher": "TIKR",
@@ -7679,12 +7685,6 @@
           "publisher": "TIKR",
           "link": "https://finance.yahoo.com/markets/stocks/articles/better-dividend-stock-chevron-vs-182521043.html",
           "sentiment": 0.44
-        },
-        {
-          "title": "Energy & Utilities Roundup: Market Talk",
-          "publisher": "The Wall Street Journal",
-          "link": "https://finance.yahoo.com/m/cc8fc7dd-b2d5-3e42-8dfc-e4ab27cdb683/energy-%26-utilities-roundup%3A.html",
-          "sentiment": 0.27
         }
       ],
       "volRegime": "Rich",
@@ -8200,9 +8200,15 @@
       "dividendYield": 0.32,
       "marketCap": 4991209701376,
       "score": 7.9,
-      "newsSentiment": 0.31,
+      "newsSentiment": 0.44,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Think the iPhone Duo is expensive? Skip Apple's insurance plan and 1 mishap could send your real cost soaring",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/technology/articles/think-iphone-duo-expensive-skip-210000823.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Robinhood, Cboe Expand Prediction Market Offerings After SEC Win",
           "publisher": "Investor's Business Daily",
@@ -8214,12 +8220,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/markets/stocks/articles/2-stocks-run-circles-around-193401416.html",
           "sentiment": 0.6
-        },
-        {
-          "title": "AI Stocks Are Hurting. Look at These Other Sectors for Protection.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/ae1cf62e-30be-3112-9ec5-4181307e9b31/ai-stocks-are-hurting.-look.html",
-          "sentiment": -0.4
         }
       ],
       "valuationLabel": "Rich",
@@ -8250,9 +8250,15 @@
       "dividendYield": 0.72,
       "marketCap": 4005636341760,
       "score": 7.9,
-      "newsSentiment": -0.05,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.25,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "3 Chip Stocks to Buy Before Big Tech Reports Its Spending Plans",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-chip-stocks-buy-big-210103596.html",
+          "sentiment": 0.0
+        },
         {
           "title": "What Did CrowdStrike Say Before Its Stock Nearly Doubled?",
           "publisher": "Trefis",
@@ -8264,12 +8270,6 @@
           "publisher": "Barrons.com",
           "link": "https://finance.yahoo.com/m/99e4148b-2e30-3da5-812c-6d410fe63118/coreweave%E2%80%99s-freakout-hurt.html",
           "sentiment": -0.74
-        },
-        {
-          "title": "These 2 Stocks Have Run Circles Around the Magnificent Seven This Year, and Wall Street Says There Is More Upside Ahead",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/2-stocks-run-circles-around-193401416.html",
-          "sentiment": 0.6
         }
       ],
       "valuationLabel": "Fair",
@@ -8300,26 +8300,26 @@
       "dividendYield": 0.44,
       "marketCap": 5245452681216,
       "score": 5.4,
-      "newsSentiment": -0.06,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.35,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
-          "title": "What Did CrowdStrike Say Before Its Stock Nearly Doubled?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/did-crowdstrike-stock-nearly-doubled-204434523.html",
-          "sentiment": 0.0
+          "title": "Boeing Fell Back Below $200 Ahead of a Strike Deadline. Here's Why I'd Buy the Fear After New Contracts Were Signed",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-fell-back-below-200-212500031.html",
+          "sentiment": -0.57
         },
         {
-          "title": "The Stock Market Hasn't Been This Expensive in Decades. Should Investors Prepare for a Crash?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-hasnt-expensive-decades-204300271.html",
-          "sentiment": -0.4
+          "title": "Cisco (CSCO) Backs A New 400G Optical Standard For AI Data Centers",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cisco-csco-backs-400g-optical-211653476.html",
+          "sentiment": -0.05
         },
         {
-          "title": "2 High-Yield Dividend Stocks Worth Buying Before 2026 Ends",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/2-high-yield-dividend-stocks-204300813.html",
-          "sentiment": 0.23
+          "title": "Update: CoreWeave Execution Outweighs Financing Worries, BofA Says",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-execution-outweighs-financing-worries-211401274.html",
+          "sentiment": -0.42
         }
       ],
       "valuationLabel": "Cheap",
@@ -8350,9 +8350,15 @@
       "dividendYield": 0.28,
       "marketCap": 1876798734336,
       "score": 7.9,
-      "newsSentiment": -0.03,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.22,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "3 Chip Stocks to Buy Before Big Tech Reports Its Spending Plans",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-chip-stocks-buy-big-210103596.html",
+          "sentiment": 0.0
+        },
         {
           "title": "AppLovin Stock Has One Thing Left To Prove",
           "publisher": "Trefis",
@@ -8364,12 +8370,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-market-washout-spark-end-194200754.html",
           "sentiment": 0.66
-        },
-        {
-          "title": "CoreWeave\u2019s Freakout Hurt Constellation and NRG Stocks. It Shouldn\u2019t Have.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/99e4148b-2e30-3da5-812c-6d410fe63118/coreweave%E2%80%99s-freakout-hurt.html",
-          "sentiment": -0.74
         }
       ],
       "valuationLabel": "Fair",
@@ -8400,9 +8400,15 @@
       "dividendYield": 0.25,
       "marketCap": 4218226999296,
       "score": 8.2,
-      "newsSentiment": 0.06,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.16,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "3 Chip Stocks to Buy Before Big Tech Reports Its Spending Plans",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-chip-stocks-buy-big-210103596.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Robinhood, Cboe Expand Prediction Market Offerings After SEC Win",
           "publisher": "Investor's Business Daily",
@@ -8414,12 +8420,6 @@
           "publisher": "TheStreet",
           "link": "https://finance.yahoo.com/technology/articles/google-180-fitbit-edge-makes-200700819.html",
           "sentiment": -0.25
-        },
-        {
-          "title": "Amazon\u2019s New Devices Show Push to Avoid Getting Shut Out of Personal AI",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/46e94253-1b48-338a-bdd5-8d5fa80bcd42/amazon%E2%80%99s-new-devices-show.html",
-          "sentiment": -0.3
         }
       ],
       "valuationLabel": "Cheap",
@@ -8450,9 +8450,15 @@
       "dividendYield": 1.99,
       "marketCap": 891033485312,
       "score": 4.5,
-      "newsSentiment": 0.01,
+      "newsSentiment": -0.06,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "JPMorgan Chase (JPM) Misses Third Quarter Earnings, Is The Upside Already Priced In?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-jpm-misses-third-211402490.html",
+          "sentiment": -0.61
+        },
         {
           "title": "JPMorganChase Declares Preferred Stock Dividends",
           "publisher": "Business Wire",
@@ -8460,16 +8466,10 @@
           "sentiment": 0.0
         },
         {
-          "title": "Ranking America's 4 Biggest Banks From Best Buy to Worst",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ranking-americas-4-biggest-banks-175000317.html",
-          "sentiment": 0.03
-        },
-        {
-          "title": "Goldman and Berkshire Stand Out After Big Bank Earnings: What the Charts Show",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/63e61890-3a5d-3cdc-8c5d-73aa5677ba60/goldman-and-berkshire-stand.html",
-          "sentiment": 0.0
+          "title": "\u2018You don\u2019t want rogue agents\u2019: Jamie Dimon bars outside AI agents like Meta\u2019s Muse from JPMorgan accounts",
+          "publisher": "Fortune",
+          "link": "https://finance.yahoo.com/technology/ai/articles/don-t-want-rogue-agents-181013092.html",
+          "sentiment": 0.42
         }
       ],
       "valuationLabel": "Fair",
@@ -8550,9 +8550,15 @@
       "dividendYield": 0.0,
       "marketCap": 2747921072128,
       "score": 8.2,
-      "newsSentiment": 0.37,
+      "newsSentiment": 0.23,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "3 Chip Stocks to Buy Before Big Tech Reports Its Spending Plans",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-chip-stocks-buy-big-210103596.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Elon Musk has shopping advice after Amazon blocks his AI",
           "publisher": "TheStreet",
@@ -8564,12 +8570,6 @@
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/43e15f4c-378a-35ca-8bcb-ce6c42c9c5ef/robinhood%2C-cboe-expand.html",
           "sentiment": 0.73
-        },
-        {
-          "title": "Corning vs. Honeywell International: Which Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/corning-vs-honeywell-international-stock-203057533.html",
-          "sentiment": 0.44
         }
       ],
       "valuationLabel": "Cheap",
@@ -8742,9 +8742,15 @@
       "dividendYield": 0.0,
       "marketCap": 153600884736,
       "score": 7.3,
-      "newsSentiment": 0.04,
+      "newsSentiment": 0.02,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Bravo Capital Now Financing Build-to-Rent Communities Under New HUD Guidance",
+          "publisher": "PR Newswire",
+          "link": "https://finance.yahoo.com/real-estate/articles/bravo-capital-now-financing-build-210800852.html",
+          "sentiment": 0.0
+        },
         {
           "title": "What Teens Want in Shoes Now: These Casual Brands Are Edging Their Way in as Top Athletic Brands Lose Some Ground",
           "publisher": "Footwear News",
@@ -8756,12 +8762,6 @@
           "publisher": "StockStory",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-servicenow-now-stock-trading-193109693.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "The Auditors Who Got Tired of Auditing by Hand Built a Machine. Now Owners Can Use It.",
-          "publisher": "PR Newswire",
-          "link": "https://finance.yahoo.com/technology/ai/articles/auditors-got-tired-auditing-hand-192600013.html",
-          "sentiment": 0.08
         }
       ],
       "valuationLabel": "Rich",
@@ -8842,14 +8842,14 @@
       "dividendYield": 0.74,
       "marketCap": 203067031552,
       "score": 9.1,
-      "newsSentiment": -0.03,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.19,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Stocks Bounce, AI Off Lows With Disney, Salesforce, eBay New Buys. But Watch Out For This.",
+          "title": "Dow Jones Futures: Techs Fall After Wild, Positive Market Day As Disney, Salesforce Lead New Buys. Watch Out For This.",
           "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/2cd5e2a7-a743-35dd-994e-11a2ba3c6d46/dow-jones-futures%3A-stocks.html",
-          "sentiment": -0.1
+          "link": "https://finance.yahoo.com/m/2cd5e2a7-a743-35dd-994e-11a2ba3c6d46/dow-jones-futures%3A-techs-fall.html",
+          "sentiment": 0.56
         },
         {
           "title": "Stock Market Today: Dow Pops 550 Points As Yields Sink; Dell Sets Off Sell Signals",
@@ -8992,9 +8992,15 @@
       "dividendYield": 0.85,
       "marketCap": 2189988593664,
       "score": 5.8,
-      "newsSentiment": -0.29,
+      "newsSentiment": -0.22,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "3 Taiwan AI Semiconductor Stocks Worth Watching After TSMC Earnings",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/3-taiwan-ai-semiconductor-stocks-211309719.html",
+          "sentiment": 0.23
+        },
         {
           "title": "Nvidia stock trims losses as chip sell-off eases amid AI financing concerns",
           "publisher": "Yahoo Finance",
@@ -9006,12 +9012,6 @@
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/e0ef6d90-1f3d-3925-9be0-e5d8d98435b3/chip-stocks-tumble-on-ai.html",
           "sentiment": -0.78
-        },
-        {
-          "title": "Chip Leader TSMC Delivers Beat-And-Raise Third-Quarter Report",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/e77c8dc4-38ba-3d35-ae51-3ccbe56ac9d0/chip-leader-tsmc-delivers.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -9384,9 +9384,15 @@
       "dividendYield": 1.46,
       "marketCap": 433093148672,
       "score": 8.5,
-      "newsSentiment": 0.36,
+      "newsSentiment": 0.2,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Cisco (CSCO) Backs A New 400G Optical Standard For AI Data Centers",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cisco-csco-backs-400g-optical-211653476.html",
+          "sentiment": -0.05
+        },
         {
           "title": "IBM Has Paid Dividends Since 1916. Here\u2019s Why Retirees Should Pay Attention Now",
           "publisher": "24/7 Wall St.",
@@ -9398,12 +9404,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-raised-dividend-70-174523680.html",
           "sentiment": 0.76
-        },
-        {
-          "title": "What Needs To Be True To Buy Ondas Stock Now?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/needs-true-buy-ondas-stock-170158345.html",
-          "sentiment": 0.42
         }
       ],
       "valuationLabel": "Fair",
@@ -9584,9 +9584,15 @@
       "dividendYield": 0.0,
       "marketCap": 69596815360,
       "score": 4.4,
-      "newsSentiment": 0.18,
+      "newsSentiment": 0.33,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Is Bloom Energy Stock Priced Right Against Its Peers?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-stock-priced-against-211710357.html",
+          "sentiment": 0.27
+        },
         {
           "title": "Bloom Energy Stocks Fall 3.9% Although Baird Raises Target to $351",
           "publisher": "GuruFocus.com",
@@ -9598,12 +9604,6 @@
           "publisher": "Barrons.com",
           "link": "https://finance.yahoo.com/m/517acc9e-8150-3dd5-a49d-cfce677512e9/bloom-energy-is-an-ai-power.html",
           "sentiment": 0.13
-        },
-        {
-          "title": "Bloom Energy Retreats 4% as AI Power Trade Unwinds; Caterpillar Slides 3%, Generac Slips",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-retreats-4-ai-174745233.html",
-          "sentiment": -0.18
         }
       ],
       "valuationLabel": "Rich",
@@ -9734,9 +9734,15 @@
       "dividendYield": 0.06,
       "marketCap": 1053626531840,
       "score": 6.0,
-      "newsSentiment": 0.04,
+      "newsSentiment": -0.03,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Cathie Wood Says the Memory Chip Trend Is Up but the Cycles Are \u2018Vicious\u2019",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-says-memory-chip-210020954.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Nvidia stock trims losses as chip sell-off eases amid AI financing concerns",
           "publisher": "Yahoo Finance",
@@ -9748,12 +9754,6 @@
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/27f9f9ee-5b06-3a78-a91a-ddc2a33bd2d2/stock-market-today%3A-dow-pops.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Prediction: This Is What $2,000 Invested in Micron Stock Today Could Be Worth by 2029",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-2-000-invested-micron-203000302.html",
-          "sentiment": 0.23
         }
       ],
       "valuationLabel": "Cheap",
@@ -9784,14 +9784,14 @@
       "dividendYield": 0.0,
       "marketCap": 1959076036608,
       "score": 7.4,
-      "newsSentiment": 0.07,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.29,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Stocks Bounce, AI Off Lows With Disney, Salesforce, eBay New Buys. But Watch Out For This.",
+          "title": "Dow Jones Futures: Techs Fall After Wild, Positive Market Day As Disney, Salesforce Lead New Buys. Watch Out For This.",
           "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/2cd5e2a7-a743-35dd-994e-11a2ba3c6d46/dow-jones-futures%3A-stocks.html",
-          "sentiment": -0.1
+          "link": "https://finance.yahoo.com/m/2cd5e2a7-a743-35dd-994e-11a2ba3c6d46/dow-jones-futures%3A-techs-fall.html",
+          "sentiment": 0.56
         },
         {
           "title": "Rocket Lab stock tumbles as effort to take market share from SpaceX slips to 2027",
@@ -9830,14 +9830,14 @@
       "dividendYield": 0.0,
       "marketCap": 1431474012160,
       "score": 6.5,
-      "newsSentiment": 0.21,
+      "newsSentiment": 0.43,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Stocks Bounce, AI Off Lows With Disney, Salesforce, eBay New Buys. But Watch Out For This.",
+          "title": "Dow Jones Futures: Techs Fall After Wild, Positive Market Day As Disney, Salesforce Lead New Buys. Watch Out For This.",
           "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/2cd5e2a7-a743-35dd-994e-11a2ba3c6d46/dow-jones-futures%3A-stocks.html",
-          "sentiment": -0.1
+          "link": "https://finance.yahoo.com/m/2cd5e2a7-a743-35dd-994e-11a2ba3c6d46/dow-jones-futures%3A-techs-fall.html",
+          "sentiment": 0.56
         },
         {
           "title": "Robinhood, Cboe Expand Prediction Market Offerings After SEC Win",
@@ -9976,9 +9976,15 @@
       "dividendYield": 0.79,
       "marketCap": 100580163584,
       "score": 6.5,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.17,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Marriott International (MAR) Opens First JW Marriott All Inclusive As Valuation Stays In Focus",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/marriott-international-mar-opens-first-211613441.html",
+          "sentiment": 0.52
+        },
         {
           "title": "How Marriott\u2019s All\u2011Inclusive and Midscale Push Could Reshape the Story for Marriott (MAR) Investors",
           "publisher": "Simply Wall St.",
@@ -9989,12 +9995,6 @@
           "title": "Marriott (MAR) Stock May Be Fully Priced Following Thailand Hotel Expansion",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/marriott-mar-stock-may-fully-191049767.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Sector Update: Consumer Stocks Mixed Premarket Thursday",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-premarket-131130204.html",
           "sentiment": 0.0
         }
       ],
@@ -10376,6 +10376,12 @@
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
+          "title": "Did The Market Read Vistra Stock Right?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/did-market-read-vistra-stock-205231245.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Southern Company vs. Eversource: Which Dividend Stock Pays You More in 10 Years?",
           "publisher": "TIKR",
           "link": "https://finance.yahoo.com/markets/stocks/articles/southern-company-vs-eversource-dividend-192401737.html",
@@ -10386,12 +10392,6 @@
           "publisher": "PR Newswire",
           "link": "https://finance.yahoo.com/energy/articles/georgia-power-highlights-customer-assistance-182400075.html",
           "sentiment": 0.56
-        },
-        {
-          "title": "Alabama Power completes restoration following Hurricane Isaias",
-          "publisher": "PR Newswire",
-          "link": "https://finance.yahoo.com/energy/articles/alabama-power-completes-restoration-following-180500954.html",
-          "sentiment": 0.0
         }
       ]
     },
@@ -11399,9 +11399,15 @@
       "dividendYield": 4.52,
       "marketCap": 195105308672,
       "score": 8.0,
-      "newsSentiment": 0.24,
+      "newsSentiment": 0.29,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "TotalEnergies (ENXTPA:TTE) Flags Record Q3 Production And LNG Driven Profit Upswing",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/energy/articles/totalenergies-enxtpa-tte-flags-record-211155297.html",
+          "sentiment": 0.44
+        },
         {
           "title": "Exxon vs. TotalEnergies: Which Dividend Stock Pays You More in 10 Years?",
           "publisher": "TIKR",
@@ -11413,12 +11419,6 @@
           "publisher": "TIKR",
           "link": "https://finance.yahoo.com/markets/stocks/articles/better-dividend-stock-chevron-vs-182521043.html",
           "sentiment": 0.44
-        },
-        {
-          "title": "Energy & Utilities Roundup: Market Talk",
-          "publisher": "The Wall Street Journal",
-          "link": "https://finance.yahoo.com/m/cc8fc7dd-b2d5-3e42-8dfc-e4ab27cdb683/energy-%26-utilities-roundup%3A.html",
-          "sentiment": 0.27
         }
       ],
       "valuationLabel": "Cheap",
@@ -11991,7 +11991,7 @@
     "costPerContract": 580.5
   },
   "market": {
-    "asOf": "2026-10-15T21:08:24.012739+00:00",
+    "asOf": "2026-10-15T21:39:25.566950+00:00",
     "gauges": [
       {
         "key": "qqq",
