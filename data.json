@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T21:09:20.259303+00:00",
+  "generated_at": "2026-10-16T21:32:40.597697+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -72,8 +72,8 @@
         "expiryOI": 58721
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.25,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.04,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Apple's Next Legal Risk Could Reach $40 Billion",
@@ -82,10 +82,10 @@
           "sentiment": -0.13
         },
         {
-          "title": "Stock Market Today: Nasdaq Plunges 2%; Palo Alto Leads Slide In Cybersecurity Space",
+          "title": "Stock Market Today: Nasdaq Tanks 2%; Palo Alto Leads Slide In Cybersecurity Space",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/13e48d09-0976-3082-81ba-a828960757d8/stock-market-today%3A-nasdaq.html",
-          "sentiment": -0.64
+          "sentiment": 0.0
         },
         {
           "title": "Apple's $1,999 iPhone Is Already Sold Out for Months",
@@ -188,7 +188,7 @@
         "expiryOI": 32723
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.2,
+      "newsSentiment": 0.15,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -204,10 +204,10 @@
           "sentiment": 0.34
         },
         {
-          "title": "Sector Update: Energy Stocks Gain Late Afternoon",
+          "title": "Update: Nasdaq Falls to End Four-Week Winning Streak Amid Tech Sell-Off",
           "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-afternoon-200054695.html",
-          "sentiment": 0.67
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-falls-end-four-week-205455687.html",
+          "sentiment": 0.53
         }
       ],
       "volRegime": "Rich",
@@ -320,26 +320,26 @@
         "expiryOI": 27746
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.11,
+      "newsSentiment": 0.08,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "AI Chip Stocks Flash Signal Not Seen Since 2015",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/ai-chip-stocks-flash-signal-205918143.html",
+          "title": "Prediction: $1,000 Invested in Taiwan Semi (TSMC) Today Will Be Worth This Much by 2030.",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-1-000-invested-taiwan-212500814.html",
+          "sentiment": 0.23
+        },
+        {
+          "title": "Inflation Rose to 3.7% in September. Is It Time to Sell the S&P 500?",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/economy/articles/inflation-rose-3-7-september-210702557.html",
           "sentiment": 0.0
         },
         {
-          "title": "Taiwan's Latest Billion-Dollar Move Puts Nvidia in Focus",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/taiwans-latest-billion-dollar-move-205748793.html",
+          "title": "Airbnb's Brian Chesky barely writes one email a week \u2014 while Uber's CEO expects weekend replies",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/small-business/articles/airbnbs-brian-chesky-barely-writes-210000381.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Stocks struggle to bounce back from AI angst-fueled rout",
-          "publisher": "AFP",
-          "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rise-tech-bounces-020836295.html",
-          "sentiment": -0.32
         }
       ],
       "volRegime": "Rich",
@@ -448,9 +448,15 @@
         "expiryOI": 367174
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.13,
+      "newsSentiment": -0.08,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/4342d021-69d3-3aa1-9753-76f72c9ba95d/dow-jones-futures%3A-s%26p-500%2C.html",
+          "sentiment": -0.23
+        },
         {
           "title": "Wall Street Just Put $1,000 on Meta",
           "publisher": "GuruFocus.com",
@@ -462,12 +468,6 @@
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Q3 Earnings Season Preview: Revenue Beats Lag, Multi-Sector Momentum Holds",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-season-preview-revenue-194400015.html",
-          "sentiment": 0.38
         }
       ],
       "volRegime": "Cheap",
@@ -580,8 +580,8 @@
         "expiryOI": 160717
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.06,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.23,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
           "title": "Waymo Is Taking Robotaxis Into Canada",
@@ -590,16 +590,16 @@
           "sentiment": 0.0
         },
         {
+          "title": "Update: Nasdaq Falls to End Four-Week Winning Streak Amid Tech Sell-Off",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-falls-end-four-week-205455687.html",
+          "sentiment": 0.53
+        },
+        {
           "title": "Google Partner Novacore Labs and AIBotics Complete Acquisition of Assets, Expanding AI, Drone, Mapping and Automation Platform in Jamaica",
           "publisher": "GlobeNewswire",
           "link": "https://finance.yahoo.com/technology/ai/articles/google-partner-novacore-labs-aibotics-205200820.html",
           "sentiment": 0.18
-        },
-        {
-          "title": "Why Is Alphabet (GOOGL) Pushing Gemini 4 Argon Into Enterprise Workflows Worldwide?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/why-alphabet-googl-pushing-gemini-191149014.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Rich",
@@ -868,26 +868,26 @@
         "expiryOI": 352708
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.02,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Bloom Energy Is Up 157% in 2026: Take Profits, or Hold On for the Ride?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-157-2026-profits-190321089.html",
-          "sentiment": 0.61
+          "title": "How Oracle Corporation (ORCL) Captures Mission-Critical Hyperscaler Workloads?",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-corporation-orcl-captures-mission-134122752.html",
+          "sentiment": 0.0
         },
         {
-          "title": "Investors Are Questioning the Entire AI Thesis",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/58908993-ecd4-3762-b621-973adc66cfc4/investors-are-questioning-the.html",
-          "sentiment": -0.1
+          "title": "Oracle (ORCL) Sees $66.8 Million in Net ETF Buying on Oct. 14",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-sees-66-8-110147439.html",
+          "sentiment": 0.0
         },
         {
-          "title": "What Can\u2019t Be Denied About the AI Trade. CoreWeave and Anthropic Are Clues.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/f6d20db8-219a-38b5-9e34-cbbd5e8c0a52/what-can%E2%80%99t-be-denied-about.html",
-          "sentiment": -0.44
+          "title": "Why Is Oracle (ORCL) Reworking Project Jupiter As It Launches AI Startup Tools?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/why-oracle-orcl-reworking-project-141110230.html",
+          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -1012,9 +1012,15 @@
         "expiryOI": 160636
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.03,
+      "newsSentiment": -0.02,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Update: Nasdaq Falls to End Four-Week Winning Streak Amid Tech Sell-Off",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-falls-end-four-week-205455687.html",
+          "sentiment": 0.53
+        },
         {
           "title": "Wall Street Sees an AI Warning, but Wedbush Disagrees",
           "publisher": "GuruFocus.com",
@@ -1026,12 +1032,6 @@
           "publisher": "Barrons.com",
           "link": "https://finance.yahoo.com/m/8a824e15-462c-38cb-8fe5-70b39546aa8e/blue-origin%E2%80%99s-latest-move.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Why Fox Can Finally Breathe a Sigh of Relief With the Roku Deal\u2014and Why the NFL Can\u2019t",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/091da1b6-b970-3145-bbf5-574f06331020/why-fox-can-finally-breathe-a.html",
-          "sentiment": 0.49
         }
       ],
       "volRegime": "Rich",
@@ -1065,8 +1065,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -3.8,
-      "sectorMedianPE": 20.9,
+      "peVsSectorPct": -3.4,
+      "sectorMedianPE": 20.8,
       "sectorPeerCount": 6,
       "sector": "Consumer Cyclical"
     },
@@ -1140,25 +1140,25 @@
         "expiryOI": 104370
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
+      "newsSentiment": -0.12,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Why Direxion Daily Semiconductor Bull 3X ETF Crashed Today",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-direxion-daily-semiconductor-bull-155519685.html",
+          "title": "Daily ETF Flows: SOXL Inflows Total $520M",
+          "publisher": "etf.com",
+          "link": "https://finance.yahoo.com/markets/options/articles/daily-etf-flows-soxl-inflows-210004081.html",
           "sentiment": 0.0
         },
         {
-          "title": "Why Direxion Daily Semiconductor Bull 3X ETF Just Popped",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-direxion-daily-semiconductor-bull-155502191.html",
-          "sentiment": 0.0
+          "title": "SOXL IV Just Hit 123%. These 2 Options Strategies That Pay You for the Risk.",
+          "publisher": "Barchart",
+          "link": "https://finance.yahoo.com/markets/options/articles/soxl-iv-just-hit-123-113630993.html",
+          "sentiment": -0.36
         },
         {
-          "title": "Why Direxion Daily Semiconductor Bull 3X ETF Dropped Today",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-direxion-daily-semiconductor-bull-174030964.html",
+          "title": "SOXL Turns Every 1% Nvidia Move Into 3%. Here\u2019s What $10,000 Did in the Last 12 Months",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/soxl-turns-every-1-nvidia-233542443.html",
           "sentiment": 0.0
         }
       ],
@@ -1395,14 +1395,14 @@
         "expiryOI": 24557
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.21,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Stock Market Today: Nasdaq Plunges 2%; Palo Alto Leads Slide In Cybersecurity Space",
+          "title": "Stock Market Today: Nasdaq Tanks 2%; Palo Alto Leads Slide In Cybersecurity Space",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/13e48d09-0976-3082-81ba-a828960757d8/stock-market-today%3A-nasdaq.html",
-          "sentiment": -0.64
+          "sentiment": 0.0
         },
         {
           "title": "Salesforce Stock Is Up About 30% Since July 31. Here\u2019s Where It Could Go by 2031",
@@ -1655,26 +1655,26 @@
         "expiryOI": 9832
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.03,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.18,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Stock Market Today: Nasdaq Plunges 2%; Palo Alto Leads Slide In Cybersecurity Space",
+          "title": "Update: Nasdaq Falls to End Four-Week Winning Streak Amid Tech Sell-Off",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-falls-end-four-week-205455687.html",
+          "sentiment": 0.53
+        },
+        {
+          "title": "Stock Market Today: Nasdaq Tanks 2%; Palo Alto Leads Slide In Cybersecurity Space",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/13e48d09-0976-3082-81ba-a828960757d8/stock-market-today%3A-nasdaq.html",
-          "sentiment": -0.64
+          "sentiment": 0.0
         },
         {
           "title": "Agent Monetization Shift: Per-Seat Pricing Is Dying",
           "publisher": "Forkast News",
           "link": "https://finance.yahoo.com/technology/ai/articles/agent-monetization-shift-per-seat-202733036.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "9 Dow Jones Stocks Make Bullish Moves In A Defensive Market Rotation",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/217b2fbe-f5f1-39d8-8e84-c3b2ae2d5101/9-dow-jones-stocks-make.html",
-          "sentiment": 0.56
         }
       ],
       "volRegime": "Rich",
@@ -1787,9 +1787,15 @@
         "expiryOI": 22162
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.08,
+      "newsSentiment": -0.06,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/4342d021-69d3-3aa1-9753-76f72c9ba95d/dow-jones-futures%3A-s%26p-500%2C.html",
+          "sentiment": -0.23
+        },
         {
           "title": "Qualys, DigitalOcean, Twilio, CrowdStrike, and MongoDB Shares Are Falling, What You Need To Know",
           "publisher": "StockStory",
@@ -1801,12 +1807,6 @@
           "publisher": "Barrons.com",
           "link": "https://finance.yahoo.com/m/58908993-ecd4-3762-b621-973adc66cfc4/investors-are-questioning-the.html",
           "sentiment": -0.1
-        },
-        {
-          "title": "Palo Alto Networks And 2 Other Top Cybersecurity Stocks",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-2-other-181059152.html",
-          "sentiment": 0.2
         }
       ],
       "volRegime": "Fair",
@@ -2047,9 +2047,15 @@
         "expiryOI": 62469
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.03,
+      "newsSentiment": 0.1,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Prediction: $1,000 Invested in Taiwan Semi (TSMC) Today Will Be Worth This Much by 2030.",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-1-000-invested-taiwan-212500814.html",
+          "sentiment": 0.23
+        },
         {
           "title": "Taiwan's Latest Billion-Dollar Move Puts Nvidia in Focus",
           "publisher": "GuruFocus.com",
@@ -2061,12 +2067,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stocks-fall-3-9-203610571.html",
           "sentiment": 0.08
-        },
-        {
-          "title": "Not Nvidia. Not TSMC. This Equipment Maker Is the Real Bottleneck in AI Chip Production.",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/technology/ai/articles/not-nvidia-not-tsmc-equipment-191500119.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -2191,9 +2191,15 @@
         "expiryOI": 75049
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.49,
+      "newsSentiment": -0.35,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/4342d021-69d3-3aa1-9753-76f72c9ba95d/dow-jones-futures%3A-s%26p-500%2C.html",
+          "sentiment": -0.23
+        },
         {
           "title": "Dell Technologies (DELL) Lands Core AI Infrastructure Role In New Industrial Platform",
           "publisher": "Simply Wall St.",
@@ -2205,12 +2211,6 @@
           "publisher": "Barrons.com",
           "link": "https://finance.yahoo.com/m/0d9387b9-0221-3996-89d0-6b8dfc9ff27b/hpe-stock%E2%80%99s-worst-week-ever.html",
           "sentiment": -0.83
-        },
-        {
-          "title": "Michael Dell Warns Memory Shortage Could Be a 'Four-Year Problem'",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/technology/ai/articles/michael-dell-warns-memory-shortage-173021227.html",
-          "sentiment": -0.62
         }
       ],
       "volRegime": "Fair",
@@ -2319,26 +2319,26 @@
         "expiryOI": 48999
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.14,
+      "newsSentiment": -0.08,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Stock Market Today: Nasdaq Plunges 2%; Palo Alto Leads Slide In Cybersecurity Space",
+          "title": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/4342d021-69d3-3aa1-9753-76f72c9ba95d/dow-jones-futures%3A-s%26p-500%2C.html",
+          "sentiment": -0.23
+        },
+        {
+          "title": "Stock Market Today: Nasdaq Tanks 2%; Palo Alto Leads Slide In Cybersecurity Space",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/13e48d09-0976-3082-81ba-a828960757d8/stock-market-today%3A-nasdaq.html",
-          "sentiment": -0.64
+          "sentiment": 0.0
         },
         {
           "title": "Snowflake, Atlassian, Bandwidth, Five9, and Palo Alto Networks Stocks Trade Down, What You Need To Know",
           "publisher": "StockStory",
           "link": "https://finance.yahoo.com/markets/stocks/articles/snowflake-atlassian-bandwidth-five9-palo-193939143.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Palo Alto Networks And 2 Other Top Cybersecurity Stocks",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-2-other-181059152.html",
-          "sentiment": 0.2
         }
       ],
       "volRegime": "Fair",
@@ -2898,8 +2898,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 3.8,
-      "sectorMedianPE": 20.9,
+      "peVsSectorPct": 3.4,
+      "sectorMedianPE": 20.8,
       "sectorPeerCount": 6,
       "sector": "Consumer Cyclical"
     },
@@ -3493,9 +3493,15 @@
         "expiryOI": 19152
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.36,
+      "newsSentiment": 0.22,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Airbnb's Brian Chesky barely writes one email a week \u2014 while Uber's CEO expects weekend replies",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/small-business/articles/airbnbs-brian-chesky-barely-writes-210000381.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Uber\u2019s A \u2018Compelling Investment Opportunity,\u2019 Says Guggenheim \u2013 Flags Valuation Discount Versus Revenue, Profit Growth",
           "publisher": "Stocktwits",
@@ -3507,12 +3513,6 @@
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-strategy-exited-uber-technologies-133733663.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Tesla\u2019s Biggest Opportunity May Have Little to Do With Electric Cars",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-biggest-opportunity-may-little-130024042.html",
-          "sentiment": 0.42
         }
       ],
       "volRegime": "Rich",
@@ -3625,9 +3625,15 @@
         "expiryOI": 40775
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.61,
+      "newsSentiment": 0.63,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Bloom Energy vs. Constellation Energy: Which Energy Stock Is an AI-Driven Buy in 2026?",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/energy/articles/bloom-energy-vs-constellation-energy-210701653.html",
+          "sentiment": 0.65
+        },
         {
           "title": "Bloom Energy Supports Central Texas First Responders Ahead of Florida-Texas Matchup",
           "publisher": "Business Wire",
@@ -3639,12 +3645,6 @@
           "publisher": "Business Wire",
           "link": "https://finance.yahoo.com/energy/articles/bloom-energy-honors-gainesville-firefighters-203300779.html",
           "sentiment": 0.67
-        },
-        {
-          "title": "Bloom Energy Is Up 157% in 2026: Take Profits, or Hold On for the Ride?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-157-2026-profits-190321089.html",
-          "sentiment": 0.61
         }
       ],
       "volRegime": "Rich",
@@ -3753,9 +3753,15 @@
         "expiryOI": 69199
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.14,
+      "newsSentiment": -0.07,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Prediction: $1,000 Invested in Taiwan Semi (TSMC) Today Will Be Worth This Much by 2030.",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-1-000-invested-taiwan-212500814.html",
+          "sentiment": 0.23
+        },
         {
           "title": "AI Chip Stocks Flash Signal Not Seen Since 2015",
           "publisher": "GuruFocus.com",
@@ -3767,12 +3773,6 @@
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-mixed-tech-110701262.html",
           "sentiment": -0.42
-        },
-        {
-          "title": "Not Nvidia. Not TSMC. This Equipment Maker Is the Real Bottleneck in AI Chip Production.",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/technology/ai/articles/not-nvidia-not-tsmc-equipment-191500119.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -4173,26 +4173,26 @@
         "expiryOI": 515979
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.38,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.1,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Tesla investors hardly impressed with Elon Musk's 'flying car'",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-investors-hardly-impressed-elon-212500519.html",
+          "sentiment": 0.42
+        },
+        {
+          "title": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/4342d021-69d3-3aa1-9753-76f72c9ba95d/dow-jones-futures%3A-s%26p-500%2C.html",
+          "sentiment": -0.23
+        },
         {
           "title": "Micron Slips While Tesla Steals the Spotlight",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/micron-slips-while-tesla-steals-205951593.html",
           "sentiment": -0.51
-        },
-        {
-          "title": "Stock Market Today: Nasdaq Plunges 2%; Palo Alto Leads Slide In Cybersecurity Space",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/13e48d09-0976-3082-81ba-a828960757d8/stock-market-today%3A-nasdaq.html",
-          "sentiment": -0.64
-        },
-        {
-          "title": "SpaceX Stocks Fall 1.94% Despite Evercore's $275 Price Target",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-stocks-fall-1-94-203515060.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -4296,26 +4296,26 @@
         "expiryOI": 165603
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.17,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.1,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Tesla investors hardly impressed with Elon Musk's 'flying car'",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-investors-hardly-impressed-elon-212500519.html",
+          "sentiment": 0.42
+        },
+        {
+          "title": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/4342d021-69d3-3aa1-9753-76f72c9ba95d/dow-jones-futures%3A-s%26p-500%2C.html",
+          "sentiment": -0.23
+        },
         {
           "title": "Micron Slips While Tesla Steals the Spotlight",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/micron-slips-while-tesla-steals-205951593.html",
           "sentiment": -0.51
-        },
-        {
-          "title": "Stock market today: Dow, S&P 500, Nasdaq sink as tech sell-off caps volatile week",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Tesla Retreats After Flying Roadster Demo; Musk Cites SpaceX Collaboration",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/742f39e4-fd25-3539-8b7a-19a6f7c16be8/tesla-retreats-after-flying.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Rich",
@@ -4337,8 +4337,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 1471.3,
-      "sectorMedianPE": 20.9,
+      "peVsSectorPct": 1478.8,
+      "sectorMedianPE": 20.8,
       "sectorPeerCount": 6,
       "sector": "Consumer Cyclical"
     },
@@ -4708,8 +4708,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 92.3,
-      "sectorMedianPE": 20.9,
+      "peVsSectorPct": 93.3,
+      "sectorMedianPE": 20.8,
       "sectorPeerCount": 6,
       "sector": "Consumer Cyclical"
     },
@@ -4981,8 +4981,8 @@
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 837.5,
-      "pcOI": 1.85,
-      "pcVol": 1.38,
+      "pcOI": 1.87,
+      "pcVol": 1.39,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 212,
@@ -5012,7 +5012,7 @@
             "oi": 447
           }
         ],
-        "expiryOI": 21509
+        "expiryOI": 21422
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.06,
@@ -5682,8 +5682,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -56.5,
-      "sectorMedianPE": 20.9,
+      "peVsSectorPct": -56.2,
+      "sectorMedianPE": 20.8,
       "sectorPeerCount": 6,
       "sector": "Consumer Cyclical"
     },
@@ -6597,28 +6597,9 @@
         "expiryOI": 17562
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.24,
-      "newsSentimentLabel": "Positive",
-      "newsHeadlines": [
-        {
-          "title": "Eight major brands renew Caz\u00e9TV sponsorships for FIFA Women's World Cup Brazil 2027 following record 2026 audiences",
-          "publisher": "GlobeNewswire",
-          "link": "https://finance.yahoo.com/media-advertising/articles/eight-major-brands-renew-caz-120500092.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Stock Market Today, Oct. 7: Ita\u00fa Unibanco Falls on Profit-Taking After Brazil Election Rally",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-7-213501422.html",
-          "sentiment": 0.54
-        },
-        {
-          "title": "XP Inc. and Other Stocks Surging After Brazil\u2019s Election Shock",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/6a77f4cd-b3a8-3a78-af0c-eaa1f86bb515/xp-inc.-and-other-stocks.html",
-          "sentiment": 0.19
-        }
-      ],
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
+      "newsHeadlines": [],
       "volRegime": "Cheap",
       "ivRvRatio": 0.84,
       "realizedVol": 63.0,
@@ -7581,26 +7562,26 @@
         "expiryOI": 5399
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.23,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Is Equinor (EQNR) Stock Outpacing Its Oils-Energy Peers This Year?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/equinor-eqnr-stock-outpacing-oils-124003483.html",
+          "title": "European Equities Traded in the US as American Depositary Receipts Track Higher in Friday Trading",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/world-indices/articles/european-equities-traded-us-american-150632230.html",
           "sentiment": 0.0
         },
         {
-          "title": "Equinor (EQNR) Is Up 0.88% in One Week: What You Should Know",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/equinor-eqnr-0-88-one-150002378.html",
-          "sentiment": 0.0
+          "title": "Sector Update: Energy Stocks Advance Premarket Friday",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132307205.html",
+          "sentiment": 0.27
         },
         {
-          "title": "Can High Oil Prices Drive More Upside for EQNR's Upstream Operations?",
+          "title": "EQT Raises Quarterly Dividend 3%, Reinforces Shareholder Returns",
           "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/energy/articles/high-oil-prices-drive-more-143700572.html",
-          "sentiment": 0.0
+          "link": "https://finance.yahoo.com/markets/stocks/articles/eqt-raises-quarterly-dividend-3-111900518.html",
+          "sentiment": 0.42
         }
       ],
       "volRegime": "Rich",
@@ -8116,8 +8097,8 @@
       "dividendYield": 0.32,
       "marketCap": 5012516765696,
       "score": 7.9,
-      "newsSentiment": -0.25,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.04,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Apple's Next Legal Risk Could Reach $40 Billion",
@@ -8126,10 +8107,10 @@
           "sentiment": -0.13
         },
         {
-          "title": "Stock Market Today: Nasdaq Plunges 2%; Palo Alto Leads Slide In Cybersecurity Space",
+          "title": "Stock Market Today: Nasdaq Tanks 2%; Palo Alto Leads Slide In Cybersecurity Space",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/13e48d09-0976-3082-81ba-a828960757d8/stock-market-today%3A-nasdaq.html",
-          "sentiment": -0.64
+          "sentiment": 0.0
         },
         {
           "title": "Apple's $1,999 iPhone Is Already Sold Out for Months",
@@ -8166,7 +8147,7 @@
       "dividendYield": 0.73,
       "marketCap": 3928485003264,
       "score": 8.5,
-      "newsSentiment": 0.2,
+      "newsSentiment": 0.15,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -8182,10 +8163,10 @@
           "sentiment": 0.34
         },
         {
-          "title": "Sector Update: Energy Stocks Gain Late Afternoon",
+          "title": "Update: Nasdaq Falls to End Four-Week Winning Streak Amid Tech Sell-Off",
           "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-afternoon-200054695.html",
-          "sentiment": 0.67
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-falls-end-four-week-205455687.html",
+          "sentiment": 0.53
         }
       ],
       "valuationLabel": "Fair",
@@ -8216,26 +8197,26 @@
       "dividendYield": 0.46,
       "marketCap": 5170596937728,
       "score": 5.3,
-      "newsSentiment": -0.11,
+      "newsSentiment": 0.08,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "AI Chip Stocks Flash Signal Not Seen Since 2015",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/ai-chip-stocks-flash-signal-205918143.html",
+          "title": "Prediction: $1,000 Invested in Taiwan Semi (TSMC) Today Will Be Worth This Much by 2030.",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-1-000-invested-taiwan-212500814.html",
+          "sentiment": 0.23
+        },
+        {
+          "title": "Inflation Rose to 3.7% in September. Is It Time to Sell the S&P 500?",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/economy/articles/inflation-rose-3-7-september-210702557.html",
           "sentiment": 0.0
         },
         {
-          "title": "Taiwan's Latest Billion-Dollar Move Puts Nvidia in Focus",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/taiwans-latest-billion-dollar-move-205748793.html",
+          "title": "Airbnb's Brian Chesky barely writes one email a week \u2014 while Uber's CEO expects weekend replies",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/small-business/articles/airbnbs-brian-chesky-barely-writes-210000381.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Stocks struggle to bounce back from AI angst-fueled rout",
-          "publisher": "AFP",
-          "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rise-tech-bounces-020836295.html",
-          "sentiment": -0.32
         }
       ],
       "valuationLabel": "Cheap",
@@ -8266,9 +8247,15 @@
       "dividendYield": 0.29,
       "marketCap": 1807009841152,
       "score": 7.6,
-      "newsSentiment": 0.13,
+      "newsSentiment": -0.08,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/4342d021-69d3-3aa1-9753-76f72c9ba95d/dow-jones-futures%3A-s%26p-500%2C.html",
+          "sentiment": -0.23
+        },
         {
           "title": "Wall Street Just Put $1,000 on Meta",
           "publisher": "GuruFocus.com",
@@ -8280,12 +8267,6 @@
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Q3 Earnings Season Preview: Revenue Beats Lag, Multi-Sector Momentum Holds",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-season-preview-revenue-194400015.html",
-          "sentiment": 0.38
         }
       ],
       "valuationLabel": "Fair",
@@ -8316,8 +8297,8 @@
       "dividendYield": 0.26,
       "marketCap": 4120387518464,
       "score": 6.3,
-      "newsSentiment": 0.06,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.23,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
           "title": "Waymo Is Taking Robotaxis Into Canada",
@@ -8326,16 +8307,16 @@
           "sentiment": 0.0
         },
         {
+          "title": "Update: Nasdaq Falls to End Four-Week Winning Streak Amid Tech Sell-Off",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-falls-end-four-week-205455687.html",
+          "sentiment": 0.53
+        },
+        {
           "title": "Google Partner Novacore Labs and AIBotics Complete Acquisition of Assets, Expanding AI, Drone, Mapping and Automation Platform in Jamaica",
           "publisher": "GlobeNewswire",
           "link": "https://finance.yahoo.com/technology/ai/articles/google-partner-novacore-labs-aibotics-205200820.html",
           "sentiment": 0.18
-        },
-        {
-          "title": "Why Is Alphabet (GOOGL) Pushing Gemini 4 Argon Into Enterprise Workflows Worldwide?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/why-alphabet-googl-pushing-gemini-191149014.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -8416,26 +8397,26 @@
       "dividendYield": 1.49,
       "marketCap": 388729372672,
       "score": 2.8,
-      "newsSentiment": 0.02,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Bloom Energy Is Up 157% in 2026: Take Profits, or Hold On for the Ride?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-157-2026-profits-190321089.html",
-          "sentiment": 0.61
+          "title": "How Oracle Corporation (ORCL) Captures Mission-Critical Hyperscaler Workloads?",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-corporation-orcl-captures-mission-134122752.html",
+          "sentiment": 0.0
         },
         {
-          "title": "Investors Are Questioning the Entire AI Thesis",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/58908993-ecd4-3762-b621-973adc66cfc4/investors-are-questioning-the.html",
-          "sentiment": -0.1
+          "title": "Oracle (ORCL) Sees $66.8 Million in Net ETF Buying on Oct. 14",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-sees-66-8-110147439.html",
+          "sentiment": 0.0
         },
         {
-          "title": "What Can\u2019t Be Denied About the AI Trade. CoreWeave and Anthropic Are Clues.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/f6d20db8-219a-38b5-9e34-cbbd5e8c0a52/what-can%E2%80%99t-be-denied-about.html",
-          "sentiment": -0.44
+          "title": "Why Is Oracle (ORCL) Reworking Project Jupiter As It Launches AI Startup Tools?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/why-oracle-orcl-reworking-project-141110230.html",
+          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -8466,9 +8447,15 @@
       "dividendYield": 0.0,
       "marketCap": 2696578334720,
       "score": 8.0,
-      "newsSentiment": -0.03,
+      "newsSentiment": -0.02,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Update: Nasdaq Falls to End Four-Week Winning Streak Amid Tech Sell-Off",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-falls-end-four-week-205455687.html",
+          "sentiment": 0.53
+        },
         {
           "title": "Wall Street Sees an AI Warning, but Wedbush Disagrees",
           "publisher": "GuruFocus.com",
@@ -8480,17 +8467,11 @@
           "publisher": "Barrons.com",
           "link": "https://finance.yahoo.com/m/8a824e15-462c-38cb-8fe5-70b39546aa8e/blue-origin%E2%80%99s-latest-move.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Why Fox Can Finally Breathe a Sigh of Relief With the Roku Deal\u2014and Why the NFL Can\u2019t",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/091da1b6-b970-3145-bbf5-574f06331020/why-fox-can-finally-breathe-a.html",
-          "sentiment": 0.49
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -3.8,
-      "sectorMedianPE": 20.9,
+      "peVsSectorPct": -3.4,
+      "sectorMedianPE": 20.8,
       "sectorPeerCount": 6
     },
     {
@@ -8516,25 +8497,25 @@
       "dividendYield": 0.06,
       "marketCap": null,
       "score": 3.2,
-      "newsSentiment": 0.0,
+      "newsSentiment": -0.12,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Why Direxion Daily Semiconductor Bull 3X ETF Crashed Today",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-direxion-daily-semiconductor-bull-155519685.html",
+          "title": "Daily ETF Flows: SOXL Inflows Total $520M",
+          "publisher": "etf.com",
+          "link": "https://finance.yahoo.com/markets/options/articles/daily-etf-flows-soxl-inflows-210004081.html",
           "sentiment": 0.0
         },
         {
-          "title": "Why Direxion Daily Semiconductor Bull 3X ETF Just Popped",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-direxion-daily-semiconductor-bull-155502191.html",
-          "sentiment": 0.0
+          "title": "SOXL IV Just Hit 123%. These 2 Options Strategies That Pay You for the Risk.",
+          "publisher": "Barchart",
+          "link": "https://finance.yahoo.com/markets/options/articles/soxl-iv-just-hit-123-113630993.html",
+          "sentiment": -0.36
         },
         {
-          "title": "Why Direxion Daily Semiconductor Bull 3X ETF Dropped Today",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-direxion-daily-semiconductor-bull-174030964.html",
+          "title": "SOXL Turns Every 1% Nvidia Move Into 3%. Here\u2019s What $10,000 Did in the Last 12 Months",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/soxl-turns-every-1-nvidia-233542443.html",
           "sentiment": 0.0
         }
       ]
@@ -8658,14 +8639,14 @@
       "dividendYield": 0.0,
       "marketCap": 146777391104,
       "score": 7.9,
-      "newsSentiment": -0.21,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Stock Market Today: Nasdaq Plunges 2%; Palo Alto Leads Slide In Cybersecurity Space",
+          "title": "Stock Market Today: Nasdaq Tanks 2%; Palo Alto Leads Slide In Cybersecurity Space",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/13e48d09-0976-3082-81ba-a828960757d8/stock-market-today%3A-nasdaq.html",
-          "sentiment": -0.64
+          "sentiment": 0.0
         },
         {
           "title": "Salesforce Stock Is Up About 30% Since July 31. Here\u2019s Where It Could Go by 2031",
@@ -8758,26 +8739,26 @@
       "dividendYield": 0.71,
       "marketCap": 198096093184,
       "score": 9.1,
-      "newsSentiment": -0.03,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.18,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Stock Market Today: Nasdaq Plunges 2%; Palo Alto Leads Slide In Cybersecurity Space",
+          "title": "Update: Nasdaq Falls to End Four-Week Winning Streak Amid Tech Sell-Off",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-falls-end-four-week-205455687.html",
+          "sentiment": 0.53
+        },
+        {
+          "title": "Stock Market Today: Nasdaq Tanks 2%; Palo Alto Leads Slide In Cybersecurity Space",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/13e48d09-0976-3082-81ba-a828960757d8/stock-market-today%3A-nasdaq.html",
-          "sentiment": -0.64
+          "sentiment": 0.0
         },
         {
           "title": "Agent Monetization Shift: Per-Seat Pricing Is Dying",
           "publisher": "Forkast News",
           "link": "https://finance.yahoo.com/technology/ai/articles/agent-monetization-shift-per-seat-202733036.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "9 Dow Jones Stocks Make Bullish Moves In A Defensive Market Rotation",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/217b2fbe-f5f1-39d8-8e84-c3b2ae2d5101/9-dow-jones-stocks-make.html",
-          "sentiment": 0.56
         }
       ],
       "valuationLabel": "Cheap",
@@ -8808,9 +8789,15 @@
       "dividendYield": 0.0,
       "marketCap": 232832548864,
       "score": 4.8,
-      "newsSentiment": 0.08,
+      "newsSentiment": -0.06,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/4342d021-69d3-3aa1-9753-76f72c9ba95d/dow-jones-futures%3A-s%26p-500%2C.html",
+          "sentiment": -0.23
+        },
         {
           "title": "Qualys, DigitalOcean, Twilio, CrowdStrike, and MongoDB Shares Are Falling, What You Need To Know",
           "publisher": "StockStory",
@@ -8822,12 +8809,6 @@
           "publisher": "Barrons.com",
           "link": "https://finance.yahoo.com/m/58908993-ecd4-3762-b621-973adc66cfc4/investors-are-questioning-the.html",
           "sentiment": -0.1
-        },
-        {
-          "title": "Palo Alto Networks And 2 Other Top Cybersecurity Stocks",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-2-other-181059152.html",
-          "sentiment": 0.2
         }
       ],
       "valuationLabel": "Rich",
@@ -8908,9 +8889,15 @@
       "dividendYield": 0.85,
       "marketCap": 2139990917120,
       "score": 5.6,
-      "newsSentiment": 0.03,
+      "newsSentiment": 0.1,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Prediction: $1,000 Invested in Taiwan Semi (TSMC) Today Will Be Worth This Much by 2030.",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-1-000-invested-taiwan-212500814.html",
+          "sentiment": 0.23
+        },
         {
           "title": "Taiwan's Latest Billion-Dollar Move Puts Nvidia in Focus",
           "publisher": "GuruFocus.com",
@@ -8922,12 +8909,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stocks-fall-3-9-203610571.html",
           "sentiment": 0.08
-        },
-        {
-          "title": "Not Nvidia. Not TSMC. This Equipment Maker Is the Real Bottleneck in AI Chip Production.",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/technology/ai/articles/not-nvidia-not-tsmc-equipment-191500119.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -8958,9 +8939,15 @@
       "dividendYield": 0.53,
       "marketCap": 287202967552,
       "score": 6.0,
-      "newsSentiment": -0.49,
+      "newsSentiment": -0.35,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/4342d021-69d3-3aa1-9753-76f72c9ba95d/dow-jones-futures%3A-s%26p-500%2C.html",
+          "sentiment": -0.23
+        },
         {
           "title": "Dell Technologies (DELL) Lands Core AI Infrastructure Role In New Industrial Platform",
           "publisher": "Simply Wall St.",
@@ -8972,12 +8959,6 @@
           "publisher": "Barrons.com",
           "link": "https://finance.yahoo.com/m/0d9387b9-0221-3996-89d0-6b8dfc9ff27b/hpe-stock%E2%80%99s-worst-week-ever.html",
           "sentiment": -0.83
-        },
-        {
-          "title": "Michael Dell Warns Memory Shortage Could Be a 'Four-Year Problem'",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/technology/ai/articles/michael-dell-warns-memory-shortage-173021227.html",
-          "sentiment": -0.62
         }
       ],
       "valuationLabel": "Cheap",
@@ -9008,26 +8989,26 @@
       "dividendYield": 0.0,
       "marketCap": 279756013568,
       "score": 4.8,
-      "newsSentiment": -0.14,
+      "newsSentiment": -0.08,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Stock Market Today: Nasdaq Plunges 2%; Palo Alto Leads Slide In Cybersecurity Space",
+          "title": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/4342d021-69d3-3aa1-9753-76f72c9ba95d/dow-jones-futures%3A-s%26p-500%2C.html",
+          "sentiment": -0.23
+        },
+        {
+          "title": "Stock Market Today: Nasdaq Tanks 2%; Palo Alto Leads Slide In Cybersecurity Space",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/13e48d09-0976-3082-81ba-a828960757d8/stock-market-today%3A-nasdaq.html",
-          "sentiment": -0.64
+          "sentiment": 0.0
         },
         {
           "title": "Snowflake, Atlassian, Bandwidth, Five9, and Palo Alto Networks Stocks Trade Down, What You Need To Know",
           "publisher": "StockStory",
           "link": "https://finance.yahoo.com/markets/stocks/articles/snowflake-atlassian-bandwidth-five9-palo-193939143.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Palo Alto Networks And 2 Other Top Cybersecurity Stocks",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-2-other-181059152.html",
-          "sentiment": 0.2
         }
       ],
       "valuationLabel": "Rich",
@@ -9193,7 +9174,7 @@
       "chg6m": -10.1,
       "chg1y": -18.8,
       "volRatio": 1.33,
-      "peRatio": 21.7,
+      "peRatio": 21.5,
       "sector": "Consumer Cyclical",
       "industry": "Home Improvement Retail",
       "pegRatio": 1.56,
@@ -9223,8 +9204,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 3.8,
-      "sectorMedianPE": 20.9,
+      "peVsSectorPct": 3.4,
+      "sectorMedianPE": 20.8,
       "sectorPeerCount": 6
     },
     {
@@ -9450,9 +9431,15 @@
       "dividendYield": 0.0,
       "marketCap": 143694102528,
       "score": 4.1,
-      "newsSentiment": 0.36,
+      "newsSentiment": 0.22,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Airbnb's Brian Chesky barely writes one email a week \u2014 while Uber's CEO expects weekend replies",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/small-business/articles/airbnbs-brian-chesky-barely-writes-210000381.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Uber\u2019s A \u2018Compelling Investment Opportunity,\u2019 Says Guggenheim \u2013 Flags Valuation Discount Versus Revenue, Profit Growth",
           "publisher": "Stocktwits",
@@ -9464,12 +9451,6 @@
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-strategy-exited-uber-technologies-133733663.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Tesla\u2019s Biggest Opportunity May Have Little to Do With Electric Cars",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-biggest-opportunity-may-little-130024042.html",
-          "sentiment": 0.42
         }
       ],
       "valuationLabel": "Cheap",
@@ -9500,9 +9481,15 @@
       "dividendYield": 0.0,
       "marketCap": 65181847552,
       "score": 4.1,
-      "newsSentiment": 0.61,
+      "newsSentiment": 0.63,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Bloom Energy vs. Constellation Energy: Which Energy Stock Is an AI-Driven Buy in 2026?",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/energy/articles/bloom-energy-vs-constellation-energy-210701653.html",
+          "sentiment": 0.65
+        },
         {
           "title": "Bloom Energy Supports Central Texas First Responders Ahead of Florida-Texas Matchup",
           "publisher": "Business Wire",
@@ -9514,12 +9501,6 @@
           "publisher": "Business Wire",
           "link": "https://finance.yahoo.com/energy/articles/bloom-energy-honors-gainesville-firefighters-203300779.html",
           "sentiment": 0.67
-        },
-        {
-          "title": "Bloom Energy Is Up 157% in 2026: Take Profits, or Hold On for the Ride?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-157-2026-profits-190321089.html",
-          "sentiment": 0.61
         }
       ],
       "valuationLabel": "Rich",
@@ -9550,9 +9531,15 @@
       "dividendYield": 0.76,
       "marketCap": 1569330823168,
       "score": 1.6,
-      "newsSentiment": -0.14,
+      "newsSentiment": -0.07,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Prediction: $1,000 Invested in Taiwan Semi (TSMC) Today Will Be Worth This Much by 2030.",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-1-000-invested-taiwan-212500814.html",
+          "sentiment": 0.23
+        },
         {
           "title": "AI Chip Stocks Flash Signal Not Seen Since 2015",
           "publisher": "GuruFocus.com",
@@ -9564,12 +9551,6 @@
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-mixed-tech-110701262.html",
           "sentiment": -0.42
-        },
-        {
-          "title": "Not Nvidia. Not TSMC. This Equipment Maker Is the Real Bottleneck in AI Chip Production.",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/technology/ai/articles/not-nvidia-not-tsmc-equipment-191500119.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
@@ -9700,26 +9681,26 @@
       "dividendYield": 0.0,
       "marketCap": 1924935319552,
       "score": 4.3,
-      "newsSentiment": -0.38,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.1,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Tesla investors hardly impressed with Elon Musk's 'flying car'",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-investors-hardly-impressed-elon-212500519.html",
+          "sentiment": 0.42
+        },
+        {
+          "title": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/4342d021-69d3-3aa1-9753-76f72c9ba95d/dow-jones-futures%3A-s%26p-500%2C.html",
+          "sentiment": -0.23
+        },
         {
           "title": "Micron Slips While Tesla Steals the Spotlight",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/micron-slips-while-tesla-steals-205951593.html",
           "sentiment": -0.51
-        },
-        {
-          "title": "Stock Market Today: Nasdaq Plunges 2%; Palo Alto Leads Slide In Cybersecurity Space",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/13e48d09-0976-3082-81ba-a828960757d8/stock-market-today%3A-nasdaq.html",
-          "sentiment": -0.64
-        },
-        {
-          "title": "SpaceX Stocks Fall 1.94% Despite Evercore's $275 Price Target",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-stocks-fall-1-94-203515060.html",
-          "sentiment": 0.0
         }
       ]
     },
@@ -9746,31 +9727,31 @@
       "dividendYield": 0.0,
       "marketCap": 1400983519232,
       "score": 3.1,
-      "newsSentiment": -0.17,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.1,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Tesla investors hardly impressed with Elon Musk's 'flying car'",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-investors-hardly-impressed-elon-212500519.html",
+          "sentiment": 0.42
+        },
+        {
+          "title": "Dow Jones Futures: S&P 500, Nasdaq Break Key Levels As CoreWeave, Dell Dive; Tesla, SpaceX, Meta Loom",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/4342d021-69d3-3aa1-9753-76f72c9ba95d/dow-jones-futures%3A-s%26p-500%2C.html",
+          "sentiment": -0.23
+        },
         {
           "title": "Micron Slips While Tesla Steals the Spotlight",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/micron-slips-while-tesla-steals-205951593.html",
           "sentiment": -0.51
-        },
-        {
-          "title": "Stock market today: Dow, S&P 500, Nasdaq sink as tech sell-off caps volatile week",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Tesla Retreats After Flying Roadster Demo; Musk Cites SpaceX Collaboration",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/742f39e4-fd25-3539-8b7a-19a6f7c16be8/tesla-retreats-after-flying.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 1471.3,
-      "sectorMedianPE": 20.9,
+      "peVsSectorPct": 1478.8,
+      "sectorMedianPE": 20.8,
       "sectorPeerCount": 6
     },
     {
@@ -9915,8 +9896,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 92.3,
-      "sectorMedianPE": 20.9,
+      "peVsSectorPct": 93.3,
+      "sectorMedianPE": 20.8,
       "sectorPeerCount": 6
     },
     {
@@ -10457,8 +10438,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -56.5,
-      "sectorMedianPE": 20.9,
+      "peVsSectorPct": -56.2,
+      "sectorMedianPE": 20.8,
       "sectorPeerCount": 6
     },
     {
@@ -10834,28 +10815,9 @@
       "dividendYield": 1.8,
       "marketCap": 104047919104,
       "score": 8.1,
-      "newsSentiment": 0.24,
-      "newsSentimentLabel": "Positive",
-      "newsHeadlines": [
-        {
-          "title": "Eight major brands renew Caz\u00e9TV sponsorships for FIFA Women's World Cup Brazil 2027 following record 2026 audiences",
-          "publisher": "GlobeNewswire",
-          "link": "https://finance.yahoo.com/media-advertising/articles/eight-major-brands-renew-caz-120500092.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Stock Market Today, Oct. 7: Ita\u00fa Unibanco Falls on Profit-Taking After Brazil Election Rally",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-7-213501422.html",
-          "sentiment": 0.54
-        },
-        {
-          "title": "XP Inc. and Other Stocks Surging After Brazil\u2019s Election Shock",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/6a77f4cd-b3a8-3a78-af0c-eaa1f86bb515/xp-inc.-and-other-stocks.html",
-          "sentiment": 0.19
-        }
-      ],
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
+      "newsHeadlines": [],
       "valuationLabel": "Cheap",
       "peVsSectorPct": -20.4,
       "sectorMedianPE": 15.2,
@@ -11365,26 +11327,26 @@
       "dividendYield": 3.47,
       "marketCap": 111268208640,
       "score": 8.5,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.23,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Is Equinor (EQNR) Stock Outpacing Its Oils-Energy Peers This Year?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/equinor-eqnr-stock-outpacing-oils-124003483.html",
+          "title": "European Equities Traded in the US as American Depositary Receipts Track Higher in Friday Trading",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/world-indices/articles/european-equities-traded-us-american-150632230.html",
           "sentiment": 0.0
         },
         {
-          "title": "Equinor (EQNR) Is Up 0.88% in One Week: What You Should Know",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/equinor-eqnr-0-88-one-150002378.html",
-          "sentiment": 0.0
+          "title": "Sector Update: Energy Stocks Advance Premarket Friday",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132307205.html",
+          "sentiment": 0.27
         },
         {
-          "title": "Can High Oil Prices Drive More Upside for EQNR's Upstream Operations?",
+          "title": "EQT Raises Quarterly Dividend 3%, Reinforces Shareholder Returns",
           "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/energy/articles/high-oil-prices-drive-more-143700572.html",
-          "sentiment": 0.0
+          "link": "https://finance.yahoo.com/markets/stocks/articles/eqt-raises-quarterly-dividend-3-111900518.html",
+          "sentiment": 0.42
         }
       ],
       "valuationLabel": "Cheap",
@@ -11411,7 +11373,7 @@
       "peRatio": 11.4,
       "sector": "Energy",
       "industry": "Oil & Gas Integrated",
-      "pegRatio": 0.68,
+      "pegRatio": 0.67,
       "dividendYield": 4.55,
       "marketCap": 201389064192,
       "score": 8.4,
@@ -11788,8 +11750,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -58.9,
-      "sectorMedianPE": 20.9,
+      "peVsSectorPct": -58.7,
+      "sectorMedianPE": 20.8,
       "sectorPeerCount": 6
     },
     {
@@ -11901,7 +11863,7 @@
     "costPerContract": 661.0
   },
   "market": {
-    "asOf": "2026-10-16T21:09:20.259289+00:00",
+    "asOf": "2026-10-16T21:32:40.597685+00:00",
     "gauges": [
       {
         "key": "qqq",
