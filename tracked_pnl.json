@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-15T21:39:26.611666+00:00",
+  "generated_at": "2026-10-16T00:26:55.437286+00:00",
   "positions": [
     {
       "id": "MSFT|Bull_Put_Spread|2026-11-06|$500/490",
       "status": "open",
-      "dteRemaining": 22,
-      "lastUpdated": "2026-10-15T21:39:25.793464+00:00",
+      "dteRemaining": 21,
+      "lastUpdated": "2026-10-16T00:26:54.664180+00:00",
       "currentPremium": 1.52,
       "pnlDollars": 52.5,
       "pnlPct": 25.61,
@@ -16,14 +16,21 @@
           "premium": 2.05,
           "pnlDollars": 0.0,
           "pnlPct": 0.0
+        },
+        {
+          "date": "2026-10-16",
+          "dte": 21,
+          "premium": 1.52,
+          "pnlDollars": 52.5,
+          "pnlPct": 25.61
         }
       ]
     },
     {
       "id": "META|Bull_Put_Spread|2026-10-23|$715/710",
       "status": "open",
-      "dteRemaining": 8,
-      "lastUpdated": "2026-10-15T21:39:26.067575+00:00",
+      "dteRemaining": 7,
+      "lastUpdated": "2026-10-16T00:26:54.945504+00:00",
       "currentPremium": 1.8,
       "pnlDollars": -5.0,
       "pnlPct": -2.86,
@@ -34,14 +41,21 @@
           "premium": 1.75,
           "pnlDollars": 0.0,
           "pnlPct": 0.0
+        },
+        {
+          "date": "2026-10-16",
+          "dte": 7,
+          "premium": 1.8,
+          "pnlDollars": -5.0,
+          "pnlPct": -2.86
         }
       ]
     },
     {
       "id": "CRWD|Bull_Put_Spread|2026-10-23|$245/240",
       "status": "open",
-      "dteRemaining": 8,
-      "lastUpdated": "2026-10-15T21:39:26.304501+00:00",
+      "dteRemaining": 7,
+      "lastUpdated": "2026-10-16T00:26:55.202744+00:00",
       "currentPremium": 1.88,
       "pnlDollars": -12.5,
       "pnlPct": -7.14,
@@ -52,14 +66,21 @@
           "premium": 1.75,
           "pnlDollars": 0.0,
           "pnlPct": 0.0
+        },
+        {
+          "date": "2026-10-16",
+          "dte": 7,
+          "premium": 1.88,
+          "pnlDollars": -12.5,
+          "pnlPct": -7.14
         }
       ]
     },
     {
       "id": "SPCX|Bull_Put_Spread|2026-10-30|$145/143",
       "status": "open",
-      "dteRemaining": 15,
-      "lastUpdated": "2026-10-15T21:39:26.611656+00:00",
+      "dteRemaining": 14,
+      "lastUpdated": "2026-10-16T00:26:55.437275+00:00",
       "currentPremium": 0.75,
       "pnlDollars": -10.0,
       "pnlPct": -15.38,
@@ -70,6 +91,13 @@
           "premium": 0.65,
           "pnlDollars": 0.0,
           "pnlPct": 0.0
+        },
+        {
+          "date": "2026-10-16",
+          "dte": 14,
+          "premium": 0.75,
+          "pnlDollars": -10.0,
+          "pnlPct": -15.38
         }
       ]
     }
