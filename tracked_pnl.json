@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-19T19:08:55.347921+00:00",
+  "generated_at": "2026-10-19T19:27:57.941293+00:00",
   "positions": [
     {
       "id": "MSFT|Bull_Put_Spread|2026-11-06|$500/490",
       "status": "open",
       "dteRemaining": 18,
-      "lastUpdated": "2026-10-19T19:08:54.691516+00:00",
-      "currentPremium": 1.55,
-      "pnlDollars": 50.0,
-      "pnlPct": 24.39,
+      "lastUpdated": "2026-10-19T19:27:57.359875+00:00",
+      "currentPremium": 1.68,
+      "pnlDollars": 37.5,
+      "pnlPct": 18.29,
       "history": [
         {
           "date": "2026-10-15",
@@ -44,10 +44,10 @@
       "id": "META|Bull_Put_Spread|2026-10-23|$715/710",
       "status": "open",
       "dteRemaining": 4,
-      "lastUpdated": "2026-10-19T19:08:54.924480+00:00",
-      "currentPremium": 2.85,
-      "pnlDollars": -110.0,
-      "pnlPct": -62.86,
+      "lastUpdated": "2026-10-19T19:27:57.581876+00:00",
+      "currentPremium": 2.97,
+      "pnlDollars": -122.5,
+      "pnlPct": -70.0,
       "history": [
         {
           "date": "2026-10-15",
@@ -83,10 +83,10 @@
       "id": "CRWD|Bull_Put_Spread|2026-10-23|$245/240",
       "status": "open",
       "dteRemaining": 4,
-      "lastUpdated": "2026-10-19T19:08:55.103266+00:00",
-      "currentPremium": 4.27,
-      "pnlDollars": -252.5,
-      "pnlPct": -144.29,
+      "lastUpdated": "2026-10-19T19:27:57.757206+00:00",
+      "currentPremium": 4.37,
+      "pnlDollars": -262.5,
+      "pnlPct": -150.0,
       "history": [
         {
           "date": "2026-10-15",
@@ -122,10 +122,10 @@
       "id": "SPCX|Bull_Put_Spread|2026-10-30|$145/143",
       "status": "open",
       "dteRemaining": 11,
-      "lastUpdated": "2026-10-19T19:08:55.347912+00:00",
-      "currentPremium": 0.8,
-      "pnlDollars": -15.0,
-      "pnlPct": -23.08,
+      "lastUpdated": "2026-10-19T19:27:57.941280+00:00",
+      "currentPremium": 0.9,
+      "pnlDollars": -25.0,
+      "pnlPct": -38.46,
       "history": [
         {
           "date": "2026-10-15",
