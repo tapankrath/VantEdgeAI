@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T21:07:44.354315+00:00",
+  "generated_at": "2026-10-23T21:36:50.330176+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -72,9 +72,15 @@
         "expiryOI": 33001
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.19,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Tesla Stock Lags Apple Because Of \u2018Communications Problem,\u2019 Says Investor Gary Black",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-lags-apple-because-211156397.html",
+          "sentiment": -0.36
+        },
         {
           "title": "Apple Stock Hits Record High On iPhone Duo Launch",
           "publisher": "Investor's Business Daily",
@@ -86,12 +92,6 @@
           "publisher": "GlobeNewswire",
           "link": "https://finance.yahoo.com/healthcare/articles/deph-labs-appoints-lisa-loud-193600730.html",
           "sentiment": 0.36
-        },
-        {
-          "title": "Top Stock Reports for Apple, Berkshire Hathaway & Goldman Sachs",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-apple-berkshire-192500767.html",
-          "sentiment": 0.2
         }
       ],
       "volRegime": "Rich",
@@ -113,8 +113,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 12.1,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 5.6,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -229,8 +229,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -18.0,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -22.8,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -320,9 +320,15 @@
         "expiryOI": 480474
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.23,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.18,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Prediction: Nvidia Will Outperform Broadcom Over the Next 5 Years",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-nvidia-outperform-broadcom-over-210501062.html",
+          "sentiment": 0.54
+        },
         {
           "title": "Flagstar Financial, Inc. Q3 2026 Earnings Call Summary",
           "publisher": "Moby",
@@ -334,12 +340,6 @@
           "publisher": "Moby",
           "link": "https://finance.yahoo.com/markets/stocks/articles/preferred-bank-q3-2026-earnings-204510044.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html",
-          "sentiment": -0.68
         }
       ],
       "volRegime": "Rich",
@@ -373,8 +373,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -25.0,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -29.4,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -464,9 +464,15 @@
         "expiryOI": 17906
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.27,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.08,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Earnings flood, Fed meeting will test rickety AI market rally",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-flood-fed-meeting-pose-100557196.html",
+          "sentiment": 0.54
+        },
         {
           "title": "Meta stock closes out Friday down as AI spending fears continue to rattle markets",
           "publisher": "Yahoo Finance",
@@ -474,16 +480,10 @@
           "sentiment": -0.42
         },
         {
-          "title": "S&P 500 Posts Slight Weekly Drop Amid AI Spending Worries",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-posts-slight-weekly-205011245.html",
-          "sentiment": -0.56
-        },
-        {
-          "title": "Dow Jones Futures: Microsoft, Google, Amazon Lead Earnings Wave; What To Do In Mixed Market",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/cdb9c13b-db57-3551-acd0-7507e9d69b5a/dow-jones-futures%3A-microsoft%2C.html",
-          "sentiment": 0.18
+          "title": "Exclusive: Meta acquires AI data platform Sundial",
+          "publisher": "Axios",
+          "link": "https://finance.yahoo.com/technology/ai/articles/exclusive-meta-acquires-ai-data-205220376.html",
+          "sentiment": 0.13
         }
       ],
       "volRegime": "Fair",
@@ -708,26 +708,26 @@
         "expiryOI": 24549
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.32,
+      "newsSentiment": -0.33,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Weekly Wrap: Bitcoin Under Pressure As Market Volatility Intensifies",
+          "publisher": "CryptoProwl",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/weekly-wrap-bitcoin-under-pressure-211200361.html",
+          "sentiment": -0.3
+        },
+        {
+          "title": "Norwegian Cruise Line Holdings (NCLH) Could Be 20% Undervalued As JPMorgan Flags Yield Risk",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/norwegian-cruise-line-holdings-nclh-211115232.html",
+          "sentiment": -0.27
+        },
         {
           "title": "Norwegian Cruise Faces New Warning on 2027 Recovery",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/norwegian-cruise-faces-warning-2027-185446072.html",
           "sentiment": -0.42
-        },
-        {
-          "title": "XRP News: Ripple Joined DTCC\u2019s Tokenization Push This Week. Can It Pull XRP Out of Its October Slide?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/crypto/articles/xrp-news-ripple-joined-dtcc-163345429.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "American Express Plans to Cut 5% of Global Jobs. The Stock Is Falling on Earnings.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/034c54fc-058c-3971-8718-1757f450ae05/american-express-plans-to-cut.html",
-          "sentiment": -0.53
         }
       ],
       "volRegime": "Rich",
@@ -893,8 +893,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -44.4,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -47.6,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -1036,9 +1036,9 @@
           "qty": 1
         }
       ],
-      "valuationLabel": "Fair",
-      "peVsSectorPct": -7.0,
-      "sectorMedianPE": 21.5,
+      "valuationLabel": "Cheap",
+      "peVsSectorPct": -10.7,
+      "sectorMedianPE": 22.4,
       "sectorPeerCount": 3,
       "sector": "Consumer Cyclical"
     },
@@ -1339,9 +1339,15 @@
         "expiryOI": 115930
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.3,
+      "newsSentiment": 0.28,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "3 Stocks Banks May Need As AI Security Spending Grows",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-banks-may-ai-211323171.html",
+          "sentiment": 0.34
+        },
         {
           "title": "Sector Update: Tech",
           "publisher": "MT Newswires",
@@ -1353,12 +1359,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/articles/servicenow-target-jumps-guggenheim-sees-175331147.html",
           "sentiment": 0.49
-        },
-        {
-          "title": "1-800-Unlocks Now Sells Smart Locks for Storefront Doors, Citing Commercial Rekeying Costs of $200 to $300 Per Service Call",
-          "publisher": "GlobeNewswire",
-          "link": "https://finance.yahoo.com/small-business/articles/1-800-unlocks-now-sells-172100020.html",
-          "sentiment": 0.4
         }
       ],
       "volRegime": "Rich",
@@ -1380,8 +1380,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 179.2,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 156.3,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -1496,8 +1496,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -58.7,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -61.1,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -1612,8 +1612,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -38.2,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -39.9,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -1756,8 +1756,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 14370.2,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 13528.0,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -1872,8 +1872,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 389.0,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 348.7,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -2016,8 +2016,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -23.9,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -28.3,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -2160,8 +2160,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -25.6,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -29.9,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -2248,7 +2248,7 @@
             "oi": 663
           }
         ],
-        "expiryOI": 53279
+        "expiryOI": 53292
       },
       "potIsProfitProb": false,
       "newsSentiment": -0.35,
@@ -2304,8 +2304,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 2572.5,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 2416.9,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -2420,8 +2420,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 59.3,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 50.0,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -2740,7 +2740,7 @@
       "breakevenMovePct": null,
       "maxLoss": 675.5,
       "pcOI": 0.74,
-      "pcVol": 0.83,
+      "pcVol": 0.84,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 604,
@@ -2843,7 +2843,7 @@
       ],
       "valuationLabel": "Fair",
       "peVsSectorPct": 0.0,
-      "sectorMedianPE": 21.5,
+      "sectorMedianPE": 22.4,
       "sectorPeerCount": 3,
       "sector": "Consumer Cyclical"
     },
@@ -3069,8 +3069,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -10.1,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -15.3,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -3213,8 +3213,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 111.2,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 98.9,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -3288,9 +3288,15 @@
         "expiryOI": 23613
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.11,
+      "newsSentiment": -0.1,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Caterpillar Stock Fell Nearly 5% as Power-Equipment Stocks Slid a Week Before Its Q3 Report. Here\u2019s Where the Stock Could Go",
+          "publisher": "TIKR",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stock-fell-nearly-5-211101431.html",
+          "sentiment": 0.0
+        },
         {
           "title": "GE Vernova Fell Nearly 11% in a Day After Meta\u2019s Earnings. Here\u2019s Where the Stock Could Go by 2030",
           "publisher": "TIKR",
@@ -3302,12 +3308,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-stocks-edge-lower-184517115.html",
           "sentiment": -0.3
-        },
-        {
-          "title": "Constellation Energy vs. GE Vernova: Which Utilities Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/energy/articles/constellation-energy-vs-ge-vernova-143845330.html",
-          "sentiment": 0.61
         }
       ],
       "volRegime": "Fair",
@@ -3404,9 +3404,15 @@
         "expiryOI": 43250
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.29,
+      "newsSentiment": 0.16,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Delivery Firm Instacart Reportedly Explores Sale Options With Uber, DoorDash As Potential Buyers",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/delivery-firm-instacart-reportedly-explores-210544022.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Instacart jumps 10% on report of potential sale to Uber or DoorDash",
           "publisher": "Investing.com",
@@ -3418,12 +3424,6 @@
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-instacart-mulls-sale-203411220.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Amex Platinum's $600 hotel credit now comes with a catch starting in 2027",
-          "publisher": "Yahoo Personal Finance",
-          "link": "https://finance.yahoo.com/personal-finance/credit-cards/article/amex-platinums-benefits-updates-2027-181143354.html",
-          "sentiment": 0.38
         }
       ],
       "volRegime": "Rich",
@@ -3445,8 +3445,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -59.0,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -61.4,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -3536,9 +3536,15 @@
         "expiryOI": 22646
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.01,
+      "newsSentiment": 0.08,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Stock Market Today, Oct. 23: Bloom Energy Falls on Cash Flow Concerns Despite Record Q3 Revenue",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-23-210638069.html",
+          "sentiment": 0.27
+        },
         {
           "title": "The AI sell-off is crushing stocks of companies leading the data center build-out",
           "publisher": "Yahoo Finance",
@@ -3550,12 +3556,6 @@
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/81c00f86-3a6b-31fa-a8aa-5d5650c74f9c/stock-market-today%3A-nasdaq.html",
           "sentiment": 0.32
-        },
-        {
-          "title": "GE Vernova Fell Nearly 11% in a Day After Meta\u2019s Earnings. Here\u2019s Where the Stock Could Go by 2030",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-fell-nearly-11-203700684.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -3664,9 +3664,15 @@
         "expiryOI": 107953
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.14,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.24,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Prediction: Nvidia Will Outperform Broadcom Over the Next 5 Years",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-nvidia-outperform-broadcom-over-210501062.html",
+          "sentiment": 0.54
+        },
         {
           "title": "Broadcom Stocks Rise as Decade-Long VMware Deal Targets AI Workloads",
           "publisher": "GuruFocus.com",
@@ -3678,12 +3684,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-tsmc-posted-record-173500999.html",
           "sentiment": 0.18
-        },
-        {
-          "title": "Marvell Technology Faces a Multi-Front War Against Taiwan\u2019s Custom Silicon Ecosystem",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-faces-multi-front-164503344.html",
-          "sentiment": -0.6
         }
       ],
       "volRegime": "Fair",
@@ -3705,8 +3705,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 20.5,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 8.7,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -3849,8 +3849,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 64.6,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 43.9,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -3924,9 +3924,15 @@
         "expiryOI": 184207
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
+      "newsSentiment": -0.13,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "What Could Micron Technology (MU) Strike Risk And Supply Moves Mean For Investors?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/could-micron-technology-mu-strike-211406491.html",
+          "sentiment": -0.38
+        },
         {
           "title": "Micron Stocks Rise 3.41% as $1,700 Target Puts Cash Durability in Focus",
           "publisher": "GuruFocus.com",
@@ -3937,12 +3943,6 @@
           "title": "Micron Stock Rises as Wedbush Reaffirms $1,400 Price Target",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-rises-wedbush-reaffirms-175135835.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Micron Stock Leads Chip Rebound. Dip Buyers Buckle Up.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/0790a5a8-c06b-38d0-8217-8a90361ebbb5/micron-stock-leads-chip.html",
           "sentiment": 0.0
         }
       ],
@@ -3965,8 +3965,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -66.9,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -68.8,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -4037,12 +4037,31 @@
             "oi": 232
           }
         ],
-        "expiryOI": 90367
+        "expiryOI": 90480
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsSentiment": 0.15,
+      "newsSentimentLabel": "Positive",
+      "newsHeadlines": [
+        {
+          "title": "Dow Jones Futures: Microsoft, Google, Amazon Lead Earnings Wave; What To Do In Mixed Market",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/cdb9c13b-db57-3551-acd0-7507e9d69b5a/dow-jones-futures%3A-microsoft%2C.html",
+          "sentiment": 0.18
+        },
+        {
+          "title": "SanDisk Rebounds as Analysts See 75% Upside Ahead of Earnings",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-rebounds-analysts-see-75-175241408.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Moderna, Meta, SpaceX, Bloom Energy, AT&T, and More Stocks That Explain Today\u2019s Market",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/f96806d8-9583-3620-89cf-a7ccb8de8237/moderna%2C-meta%2C-spacex%2C-bloom.html",
+          "sentiment": 0.27
+        }
+      ],
       "volRegime": "Rich",
       "ivRvRatio": 1.29,
       "realizedVol": 56.7,
@@ -4062,8 +4081,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -52.8,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -55.6,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -4153,9 +4172,15 @@
         "expiryOI": 25131
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.14,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.33,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Stock Market Today, Oct. 23: SpaceX Achieves Rare Double Upgrade to Buy on AI Growth",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-23-212035721.html",
+          "sentiment": 0.73
+        },
         {
           "title": "SpaceX Cell Site Report Hits Verizon, AT&T, Lifts These Tower Plays",
           "publisher": "Investor's Business Daily",
@@ -4167,12 +4192,6 @@
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/article/spacex-wants-to-be-americas-fourth-phone-carrier--tower-owners-are-cashing-in-162059593.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html",
-          "sentiment": -0.68
         }
       ],
       "volRegime": "Cheap",
@@ -4276,9 +4295,15 @@
         "expiryOI": 202235
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.37,
+      "newsSentiment": -0.53,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Tesla Stock Lags Apple Because Of \u2018Communications Problem,\u2019 Says Investor Gary Black",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-lags-apple-because-211156397.html",
+          "sentiment": -0.36
+        },
         {
           "title": "S&P 500 Posts Slight Weekly Drop Amid AI Spending Worries",
           "publisher": "MT Newswires",
@@ -4290,12 +4315,6 @@
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html",
           "sentiment": -0.68
-        },
-        {
-          "title": "US Equity Indexes Close Mixed This Week as Investors Rotate into Treasury Bonds, Defensives as AI Trade Falters",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-close-mixed-203519679.html",
-          "sentiment": 0.13
         }
       ],
       "volRegime": "Fair",
@@ -4317,8 +4336,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 1802.3,
-      "sectorMedianPE": 21.5,
+      "peVsSectorPct": 1725.9,
+      "sectorMedianPE": 22.4,
       "sectorPeerCount": 3,
       "sector": "Consumer Cyclical"
     },
@@ -4461,8 +4480,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 270.2,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 248.7,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -4901,8 +4920,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -75.6,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -77.0,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -4973,7 +4992,7 @@
             "oi": 395
           }
         ],
-        "expiryOI": 38234
+        "expiryOI": 38236
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.04,
@@ -5017,8 +5036,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 27.5,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 20.1,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -5244,8 +5263,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -64.0,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -66.1,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -5316,7 +5335,7 @@
             "oi": 543
           }
         ],
-        "expiryOI": 64737
+        "expiryOI": 64738
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.16,
@@ -5360,8 +5379,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -8.7,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -14.0,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -5435,9 +5454,15 @@
         "expiryOI": 45788
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.05,
+      "newsSentiment": -0.15,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Weekly Wrap: Bitcoin Under Pressure As Market Volatility Intensifies",
+          "publisher": "CryptoProwl",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/weekly-wrap-bitcoin-under-pressure-211200361.html",
+          "sentiment": -0.3
+        },
         {
           "title": "Byline Bancorp Q3 Earnings Call Highlights",
           "publisher": "MarketBeat",
@@ -5449,12 +5474,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://finance.yahoo.com/markets/crypto/articles/xrp-bottomed-asked-claude-ai-164101527.html",
           "sentiment": -0.15
-        },
-        {
-          "title": "Citi gets nod from Beijing to set up a wholly owned securities company in China",
-          "publisher": "Associated Press",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/citi-gets-nod-beijing-set-152309875.html",
-          "sentiment": 0.3
         }
       ],
       "volRegime": "Rich",
@@ -5780,7 +5799,7 @@
             "oi": 385
           }
         ],
-        "expiryOI": 25309
+        "expiryOI": 25327
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.54,
@@ -5824,8 +5843,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 8.7,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 2.4,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -5848,7 +5867,7 @@
       "ivRankLimited": false,
       "dailyReturn": 23.14,
       "roc": 16.2,
-      "score": 6.2,
+      "score": 6.8,
       "buy": false,
       "momentum": "bear",
       "ret3m": -21.0,
@@ -5899,9 +5918,15 @@
         "expiryOI": 31714
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.11,
+      "newsSentiment": -0.02,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Earnings flood, Fed meeting will test rickety AI market rally",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-flood-fed-meeting-pose-100557196.html",
+          "sentiment": 0.54
+        },
         {
           "title": "US Equity Indexes Close Mixed This Week as Investors Rotate into Treasury Bonds, Defensives as AI Trade Falters",
           "publisher": "MT Newswires",
@@ -5913,12 +5938,6 @@
           "publisher": "TIKR",
           "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-fell-8-day-203413565.html",
           "sentiment": -0.74
-        },
-        {
-          "title": "Applied Materials Stock Is Down 48% From Its Peak. Here\u2019s What Its 50%-Growth Inspection Business Means for Shares",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-stock-down-48-203050987.html",
-          "sentiment": 0.3
         }
       ],
       "volRegime": "Fair",
@@ -5939,9 +5958,9 @@
           "qty": 1
         }
       ],
-      "valuationLabel": "Cheap",
-      "peVsSectorPct": -3.7,
-      "sectorMedianPE": 35.6,
+      "valuationLabel": "Fair",
+      "peVsSectorPct": 5.6,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -6200,8 +6219,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -42.7,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -46.0,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -6391,9 +6410,15 @@
         "expiryOI": 43069
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.16,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.07,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Jim Cramer Says Reinvesting Dividends Is \u201cWhere Some Big Money Can Be Made.\u201d Is He Right?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/markets/options/articles/jim-cramer-says-reinvesting-dividends-210032717.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Top Stock Reports for Apple, Berkshire Hathaway & Goldman Sachs",
           "publisher": "Zacks",
@@ -6405,12 +6430,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://finance.yahoo.com/markets/crypto/articles/xrp-news-ripple-joined-dtcc-163345429.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "3 Big Numbers: What\u2019s ahead for energy drinks?",
-          "publisher": "C-Store Dive",
-          "link": "https://finance.yahoo.com/energy/articles/3-big-numbers-ahead-energy-134739154.html",
-          "sentiment": 0.27
         }
       ],
       "volRegime": "Rich",
@@ -6648,12 +6667,18 @@
             "oi": 797
           }
         ],
-        "expiryOI": 31202
+        "expiryOI": 31204
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Caterpillar Stock Fell Nearly 5% as Power-Equipment Stocks Slid a Week Before Its Q3 Report. Here\u2019s Where the Stock Could Go",
+          "publisher": "TIKR",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stock-fell-nearly-5-211101431.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Caterpillar (CAT) On Its $1b North Carolina Expansion And The Undervalued Narrative",
           "publisher": "Simply Wall St.",
@@ -6664,12 +6689,6 @@
           "title": "4 Industrial Stocks Set to Outshine Q3 Earnings Estimates",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/4-industrial-stocks-set-outshine-143100984.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "What to Expect From Caterpillar's Next Quarterly Earnings Report",
-          "publisher": "Barchart",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/expect-caterpillars-next-quarterly-earnings-133402234.html",
           "sentiment": 0.0
         }
       ],
@@ -6808,7 +6827,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 149.5,
+      "peVsSectorPct": 145.1,
       "sectorMedianPE": 13.8,
       "sectorPeerCount": 6,
       "sector": "Financial Services"
@@ -6948,7 +6967,7 @@
       "ivRankLimited": false,
       "dailyReturn": 6.52,
       "roc": 18.25,
-      "score": 6.4,
+      "score": 7.0,
       "buy": true,
       "momentum": "bull",
       "ret3m": 2.4,
@@ -6996,7 +7015,7 @@
             "oi": 1274
           }
         ],
-        "expiryOI": 33860
+        "expiryOI": 33862
       },
       "potIsProfitProb": false,
       "newsSentiment": -0.02,
@@ -7039,9 +7058,9 @@
           "qty": 1
         }
       ],
-      "valuationLabel": "Fair",
-      "peVsSectorPct": 3.7,
-      "sectorMedianPE": 35.6,
+      "valuationLabel": "Cheap",
+      "peVsSectorPct": -2.4,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -7156,8 +7175,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 220.2,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 201.6,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -7272,8 +7291,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -48.3,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -51.3,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -7505,117 +7524,6 @@
       ]
     },
     {
-      "sym": "TEAM",
-      "strat": "Bull Put Spread",
-      "side": "bull",
-      "isETF": false,
-      "spot": 227.61,
-      "spotPriceStale": false,
-      "strike": "$185/175",
-      "hedge": null,
-      "exp": "Jan 15",
-      "dte": 84,
-      "backExp": null,
-      "backExpDate": null,
-      "pot": 38,
-      "ap": 86.9,
-      "ivr": 18,
-      "ivRankLimited": false,
-      "dailyReturn": 2.38,
-      "roc": 20.0,
-      "score": 6.5,
-      "buy": true,
-      "momentum": "bull",
-      "ret3m": 137.4,
-      "sell": false,
-      "ema": false,
-      "earningsSoon": true,
-      "daysToEarnings": 13,
-      "marginOfSafety": true,
-      "delta": -0.19,
-      "iv": 62.7,
-      "premium": 2.0,
-      "breakeven": 183.0,
-      "breakevenLow": null,
-      "breakevenHigh": null,
-      "breakevenMovePct": null,
-      "maxLoss": 800.0,
-      "pcOI": 0.59,
-      "pcVol": 1.04,
-      "debitStrategy": false,
-      "liquidity": {
-        "minOI": 100,
-        "worstSpreadPct": 58.2,
-        "midPremium": 2.0,
-        "fillPremium": 0.05,
-        "weakLeg": {
-          "type": "put",
-          "strike": 175.0,
-          "action": "buy"
-        },
-        "legQuotes": [
-          {
-            "type": "put",
-            "strike": 185.0,
-            "action": "sell",
-            "bid": 7.2,
-            "ask": 10.9,
-            "oi": 157
-          },
-          {
-            "type": "put",
-            "strike": 175.0,
-            "action": "buy",
-            "bid": 5.0,
-            "ask": 9.1,
-            "oi": 100
-          }
-        ],
-        "expiryOI": 48650
-      },
-      "potIsProfitProb": false,
-      "newsSentiment": 0.42,
-      "newsSentimentLabel": "Positive",
-      "newsHeadlines": [
-        {
-          "title": "Atlassian Swing Trade: Why We Sold A Resilient Stock In A Tech Pullback",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/87d52fa0-71d2-306f-ac6d-6cc7bf8e62ac/atlassian-swing-trade%3A-why-we.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Beyond The Bounce Announces Original Programming with Zane Navratil, and Expands Ownership & Advisory Team",
-          "publisher": "PR Newswire",
-          "link": "https://finance.yahoo.com/media-advertising/articles/beyond-bounce-announces-original-programming-165300652.html",
-          "sentiment": 0.4
-        },
-        {
-          "title": "Government of Canada will be accepting applications for $5,000 Team Canada Strong Red Seal Completion Bonus as of November 16",
-          "publisher": "CNW Group",
-          "link": "https://finance.yahoo.com/economy/policy/articles/government-canada-accepting-applications-5-165200230.html",
-          "sentiment": 0.86
-        }
-      ],
-      "volRegime": "Rich",
-      "ivRvRatio": 1.31,
-      "realizedVol": 47.9,
-      "expDate": "2027-01-15",
-      "legs": [
-        {
-          "type": "put",
-          "strike": 185.0,
-          "action": "sell",
-          "qty": 1
-        },
-        {
-          "type": "put",
-          "strike": 175.0,
-          "action": "buy",
-          "qty": 1
-        }
-      ]
-    },
-    {
       "sym": "OKTA",
       "strat": "Bull Put Spread",
       "side": "bull",
@@ -7726,8 +7634,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 274.2,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 239.4,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -7814,7 +7722,7 @@
             "oi": 682
           }
         ],
-        "expiryOI": 33449
+        "expiryOI": 33451
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.48,
@@ -7870,8 +7778,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 374.4,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 346.8,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -8275,7 +8183,7 @@
             "oi": 594
           }
         ],
-        "expiryOI": 22299
+        "expiryOI": 22301
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.18,
@@ -8319,8 +8227,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 1414.9,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 1326.7,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34,
       "sector": "Technology"
     },
@@ -8581,9 +8489,15 @@
       "dividendYield": 0.31,
       "marketCap": 5074761285632,
       "score": 8.5,
-      "newsSentiment": 0.19,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Tesla Stock Lags Apple Because Of \u2018Communications Problem,\u2019 Says Investor Gary Black",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-lags-apple-because-211156397.html",
+          "sentiment": -0.36
+        },
         {
           "title": "Apple Stock Hits Record High On iPhone Duo Launch",
           "publisher": "Investor's Business Daily",
@@ -8595,17 +8509,11 @@
           "publisher": "GlobeNewswire",
           "link": "https://finance.yahoo.com/healthcare/articles/deph-labs-appoints-lisa-loud-193600730.html",
           "sentiment": 0.36
-        },
-        {
-          "title": "Top Stock Reports for Apple, Berkshire Hathaway & Goldman Sachs",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-apple-berkshire-192500767.html",
-          "sentiment": 0.2
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 12.1,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 5.6,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -8654,8 +8562,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -18.0,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -22.8,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -8681,9 +8589,15 @@
       "dividendYield": 0.47,
       "marketCap": 5094050889728,
       "score": 5.0,
-      "newsSentiment": -0.23,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.18,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Prediction: Nvidia Will Outperform Broadcom Over the Next 5 Years",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-nvidia-outperform-broadcom-over-210501062.html",
+          "sentiment": 0.54
+        },
         {
           "title": "Flagstar Financial, Inc. Q3 2026 Earnings Call Summary",
           "publisher": "Moby",
@@ -8695,17 +8609,11 @@
           "publisher": "Moby",
           "link": "https://finance.yahoo.com/markets/stocks/articles/preferred-bank-q3-2026-earnings-204510044.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html",
-          "sentiment": -0.68
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -25.0,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -29.4,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -8731,9 +8639,15 @@
       "dividendYield": 0.32,
       "marketCap": 1637078401024,
       "score": 4.0,
-      "newsSentiment": -0.27,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.08,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Earnings flood, Fed meeting will test rickety AI market rally",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-flood-fed-meeting-pose-100557196.html",
+          "sentiment": 0.54
+        },
         {
           "title": "Meta stock closes out Friday down as AI spending fears continue to rattle markets",
           "publisher": "Yahoo Finance",
@@ -8741,16 +8655,10 @@
           "sentiment": -0.42
         },
         {
-          "title": "S&P 500 Posts Slight Weekly Drop Amid AI Spending Worries",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-posts-slight-weekly-205011245.html",
-          "sentiment": -0.56
-        },
-        {
-          "title": "Dow Jones Futures: Microsoft, Google, Amazon Lead Earnings Wave; What To Do In Mixed Market",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/cdb9c13b-db57-3551-acd0-7507e9d69b5a/dow-jones-futures%3A-microsoft%2C.html",
-          "sentiment": 0.18
+          "title": "Exclusive: Meta acquires AI data platform Sundial",
+          "publisher": "Axios",
+          "link": "https://finance.yahoo.com/technology/ai/articles/exclusive-meta-acquires-ai-data-205220376.html",
+          "sentiment": 0.13
         }
       ],
       "valuationLabel": "Fair",
@@ -8831,26 +8739,26 @@
       "dividendYield": 1.96,
       "marketCap": 880543858688,
       "score": 3.7,
-      "newsSentiment": -0.32,
+      "newsSentiment": -0.33,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Weekly Wrap: Bitcoin Under Pressure As Market Volatility Intensifies",
+          "publisher": "CryptoProwl",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/weekly-wrap-bitcoin-under-pressure-211200361.html",
+          "sentiment": -0.3
+        },
+        {
+          "title": "Norwegian Cruise Line Holdings (NCLH) Could Be 20% Undervalued As JPMorgan Flags Yield Risk",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/norwegian-cruise-line-holdings-nclh-211115232.html",
+          "sentiment": -0.27
+        },
         {
           "title": "Norwegian Cruise Faces New Warning on 2027 Recovery",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/norwegian-cruise-faces-warning-2027-185446072.html",
           "sentiment": -0.42
-        },
-        {
-          "title": "XRP News: Ripple Joined DTCC\u2019s Tokenization Push This Week. Can It Pull XRP Out of Its October Slide?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/crypto/articles/xrp-news-ripple-joined-dtcc-163345429.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "American Express Plans to Cut 5% of Global Jobs. The Stock Is Falling on Earnings.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/034c54fc-058c-3971-8718-1757f450ae05/american-express-plans-to-cut.html",
-          "sentiment": -0.53
         }
       ],
       "valuationLabel": "Fair",
@@ -8904,8 +8812,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -44.4,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -47.6,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -8930,7 +8838,7 @@
       "pegRatio": 1.52,
       "dividendYield": 0.0,
       "marketCap": 2675005718528,
-      "score": 4.0,
+      "score": 4.6,
       "newsSentiment": 0.1,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
@@ -8953,9 +8861,9 @@
           "sentiment": 0.25
         }
       ],
-      "valuationLabel": "Fair",
-      "peVsSectorPct": -7.0,
-      "sectorMedianPE": 21.5,
+      "valuationLabel": "Cheap",
+      "peVsSectorPct": -10.7,
+      "sectorMedianPE": 22.4,
       "sectorPeerCount": 3
     },
     {
@@ -9116,16 +9024,22 @@
       "chg6m": 76.3,
       "chg1y": -14.6,
       "volRatio": 0.95,
-      "peRatio": 99.4,
+      "peRatio": 96.9,
       "sector": "Technology",
       "industry": "Software - Application",
       "pegRatio": 1.1,
       "dividendYield": 0.0,
       "marketCap": 164342710272,
       "score": 7.3,
-      "newsSentiment": 0.3,
+      "newsSentiment": 0.28,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "3 Stocks Banks May Need As AI Security Spending Grows",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-banks-may-ai-211323171.html",
+          "sentiment": 0.34
+        },
         {
           "title": "Sector Update: Tech",
           "publisher": "MT Newswires",
@@ -9137,17 +9051,11 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/articles/servicenow-target-jumps-guggenheim-sees-175331147.html",
           "sentiment": 0.49
-        },
-        {
-          "title": "1-800-Unlocks Now Sells Smart Locks for Storefront Doors, Citing Commercial Rekeying Costs of $200 to $300 Per Service Call",
-          "publisher": "GlobeNewswire",
-          "link": "https://finance.yahoo.com/small-business/articles/1-800-unlocks-now-sells-172100020.html",
-          "sentiment": 0.4
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 179.2,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 156.3,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -9196,8 +9104,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -58.7,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -61.1,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -9216,7 +9124,7 @@
       "chg6m": 40.1,
       "chg1y": -1.6,
       "volRatio": 0.61,
-      "peRatio": 22.0,
+      "peRatio": 22.7,
       "sector": "Technology",
       "industry": "Software - Application",
       "pegRatio": 0.86,
@@ -9246,8 +9154,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -38.2,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -39.9,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -9296,8 +9204,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 14370.2,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 13528.0,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -9316,7 +9224,7 @@
       "chg6m": 37.5,
       "chg1y": 6.6,
       "volRatio": 0.68,
-      "peRatio": 174.1,
+      "peRatio": 169.6,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "pegRatio": 1.75,
@@ -9346,8 +9254,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 389.0,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 348.7,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -9396,8 +9304,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -23.9,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -28.3,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -9446,8 +9354,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -25.6,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -29.9,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -9496,8 +9404,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 2572.5,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 2416.9,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -9521,7 +9429,7 @@
       "industry": "Electronic Components",
       "pegRatio": 0.81,
       "dividendYield": 0.9,
-      "marketCap": 106545127424,
+      "marketCap": 106328604672,
       "score": 1.6,
       "newsSentiment": 0.35,
       "newsSentimentLabel": "Positive",
@@ -9546,8 +9454,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 59.3,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 50.0,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -9658,7 +9566,7 @@
       "chg6m": -3.4,
       "chg1y": -14.9,
       "volRatio": 0.69,
-      "peRatio": 21.5,
+      "peRatio": 22.4,
       "sector": "Consumer Cyclical",
       "industry": "Home Improvement Retail",
       "pegRatio": 1.66,
@@ -9689,7 +9597,7 @@
       ],
       "valuationLabel": "Fair",
       "peVsSectorPct": 0.0,
-      "sectorMedianPE": 21.5,
+      "sectorMedianPE": 22.4,
       "sectorPeerCount": 3
     },
     {
@@ -9784,8 +9692,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -10.1,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -15.3,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -9834,8 +9742,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 111.2,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 98.9,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -9861,9 +9769,15 @@
       "dividendYield": 0.24,
       "marketCap": 217061867520,
       "score": 2.8,
-      "newsSentiment": 0.11,
+      "newsSentiment": -0.1,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Caterpillar Stock Fell Nearly 5% as Power-Equipment Stocks Slid a Week Before Its Q3 Report. Here\u2019s Where the Stock Could Go",
+          "publisher": "TIKR",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stock-fell-nearly-5-211101431.html",
+          "sentiment": 0.0
+        },
         {
           "title": "GE Vernova Fell Nearly 11% in a Day After Meta\u2019s Earnings. Here\u2019s Where the Stock Could Go by 2030",
           "publisher": "TIKR",
@@ -9875,12 +9789,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-stocks-edge-lower-184517115.html",
           "sentiment": -0.3
-        },
-        {
-          "title": "Constellation Energy vs. GE Vernova: Which Utilities Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/energy/articles/constellation-energy-vs-ge-vernova-143845330.html",
-          "sentiment": 0.61
         }
       ],
       "valuationLabel": "Cheap",
@@ -9911,9 +9819,15 @@
       "dividendYield": 0.0,
       "marketCap": 136238751744,
       "score": 3.3,
-      "newsSentiment": 0.29,
+      "newsSentiment": 0.16,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Delivery Firm Instacart Reportedly Explores Sale Options With Uber, DoorDash As Potential Buyers",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/delivery-firm-instacart-reportedly-explores-210544022.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Instacart jumps 10% on report of potential sale to Uber or DoorDash",
           "publisher": "Investing.com",
@@ -9925,17 +9839,11 @@
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-instacart-mulls-sale-203411220.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Amex Platinum's $600 hotel credit now comes with a catch starting in 2027",
-          "publisher": "Yahoo Personal Finance",
-          "link": "https://finance.yahoo.com/personal-finance/credit-cards/article/amex-platinums-benefits-updates-2027-181143354.html",
-          "sentiment": 0.38
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -59.0,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -61.4,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -9961,9 +9869,15 @@
       "dividendYield": 0.0,
       "marketCap": 56932139008,
       "score": 1.7,
-      "newsSentiment": -0.01,
+      "newsSentiment": 0.08,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Stock Market Today, Oct. 23: Bloom Energy Falls on Cash Flow Concerns Despite Record Q3 Revenue",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-23-210638069.html",
+          "sentiment": 0.27
+        },
         {
           "title": "The AI sell-off is crushing stocks of companies leading the data center build-out",
           "publisher": "Yahoo Finance",
@@ -9975,12 +9889,6 @@
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/81c00f86-3a6b-31fa-a8aa-5d5650c74f9c/stock-market-today%3A-nasdaq.html",
           "sentiment": 0.32
-        },
-        {
-          "title": "GE Vernova Fell Nearly 11% in a Day After Meta\u2019s Earnings. Here\u2019s Where the Stock Could Go by 2030",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-fell-nearly-11-203700684.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
@@ -10004,16 +9912,22 @@
       "chg6m": -23.7,
       "chg1y": -8.5,
       "volRatio": 0.69,
-      "peRatio": 42.9,
+      "peRatio": 41.1,
       "sector": "Technology",
       "industry": "Semiconductors",
       "pegRatio": 0.33,
       "dividendYield": 0.8,
       "marketCap": 1535581224960,
       "score": 2.2,
-      "newsSentiment": -0.14,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.24,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Prediction: Nvidia Will Outperform Broadcom Over the Next 5 Years",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-nvidia-outperform-broadcom-over-210501062.html",
+          "sentiment": 0.54
+        },
         {
           "title": "Broadcom Stocks Rise as Decade-Long VMware Deal Targets AI Workloads",
           "publisher": "GuruFocus.com",
@@ -10025,17 +9939,11 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-tsmc-posted-record-173500999.html",
           "sentiment": 0.18
-        },
-        {
-          "title": "Marvell Technology Faces a Multi-Front War Against Taiwan\u2019s Custom Silicon Ecosystem",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-faces-multi-front-164503344.html",
-          "sentiment": -0.6
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 20.5,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 8.7,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -10054,7 +9962,7 @@
       "chg6m": -2.6,
       "chg1y": 12.1,
       "volRatio": 0.9,
-      "peRatio": 58.6,
+      "peRatio": 54.4,
       "sector": "Technology",
       "industry": "Computer Hardware",
       "pegRatio": 1.38,
@@ -10084,8 +9992,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 64.6,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 43.9,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -10111,9 +10019,15 @@
       "dividendYield": 0.07,
       "marketCap": 992880427008,
       "score": 5.0,
-      "newsSentiment": 0.0,
+      "newsSentiment": -0.13,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "What Could Micron Technology (MU) Strike Risk And Supply Moves Mean For Investors?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/could-micron-technology-mu-strike-211406491.html",
+          "sentiment": -0.38
+        },
         {
           "title": "Micron Stocks Rise 3.41% as $1,700 Target Puts Cash Durability in Focus",
           "publisher": "GuruFocus.com",
@@ -10125,17 +10039,11 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-rises-wedbush-reaffirms-175135835.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Micron Stock Leads Chip Rebound. Dip Buyers Buckle Up.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/0790a5a8-c06b-38d0-8217-8a90361ebbb5/micron-stock-leads-chip.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -66.9,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -68.8,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -10161,12 +10069,31 @@
       "dividendYield": 0.0,
       "marketCap": 178929467392,
       "score": 5.0,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsSentiment": 0.15,
+      "newsSentimentLabel": "Positive",
+      "newsHeadlines": [
+        {
+          "title": "Dow Jones Futures: Microsoft, Google, Amazon Lead Earnings Wave; What To Do In Mixed Market",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/cdb9c13b-db57-3551-acd0-7507e9d69b5a/dow-jones-futures%3A-microsoft%2C.html",
+          "sentiment": 0.18
+        },
+        {
+          "title": "SanDisk Rebounds as Analysts See 75% Upside Ahead of Earnings",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-rebounds-analysts-see-75-175241408.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Moderna, Meta, SpaceX, Bloom Energy, AT&T, and More Stocks That Explain Today\u2019s Market",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/f96806d8-9583-3620-89cf-a7ccb8de8237/moderna%2C-meta%2C-spacex%2C-bloom.html",
+          "sentiment": 0.27
+        }
+      ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -52.8,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -55.6,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -10192,9 +10119,15 @@
       "dividendYield": 0.0,
       "marketCap": 2003071270912,
       "score": 5.0,
-      "newsSentiment": -0.14,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.33,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Stock Market Today, Oct. 23: SpaceX Achieves Rare Double Upgrade to Buy on AI Growth",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-23-212035721.html",
+          "sentiment": 0.73
+        },
         {
           "title": "SpaceX Cell Site Report Hits Verizon, AT&T, Lifts These Tower Plays",
           "publisher": "Investor's Business Daily",
@@ -10206,12 +10139,6 @@
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/article/spacex-wants-to-be-americas-fourth-phone-carrier--tower-owners-are-cashing-in-162059593.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html",
-          "sentiment": -0.68
         }
       ]
     },
@@ -10238,9 +10165,15 @@
       "dividendYield": 0.0,
       "marketCap": 1471285166080,
       "score": 6.8,
-      "newsSentiment": -0.37,
+      "newsSentiment": -0.53,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Tesla Stock Lags Apple Because Of \u2018Communications Problem,\u2019 Says Investor Gary Black",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-lags-apple-because-211156397.html",
+          "sentiment": -0.36
+        },
         {
           "title": "S&P 500 Posts Slight Weekly Drop Amid AI Spending Worries",
           "publisher": "MT Newswires",
@@ -10252,17 +10185,11 @@
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html",
           "sentiment": -0.68
-        },
-        {
-          "title": "US Equity Indexes Close Mixed This Week as Investors Rotate into Treasury Bonds, Defensives as AI Trade Falters",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-close-mixed-203519679.html",
-          "sentiment": 0.13
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 1802.3,
-      "sectorMedianPE": 21.5,
+      "peVsSectorPct": 1725.9,
+      "sectorMedianPE": 22.4,
       "sectorPeerCount": 3
     },
     {
@@ -10311,8 +10238,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 270.2,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 248.7,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -10413,7 +10340,7 @@
       "industry": "Drug Manufacturers - General",
       "pegRatio": 1.23,
       "dividendYield": 0.53,
-      "marketCap": 1135596929024,
+      "marketCap": 1135107506176,
       "score": 8.5,
       "newsSentiment": 0.19,
       "newsSentimentLabel": "Positive",
@@ -10488,8 +10415,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -75.6,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -77.0,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -10538,8 +10465,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 27.5,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 20.1,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -10558,12 +10485,12 @@
       "chg6m": -7.3,
       "chg1y": 13.9,
       "volRatio": 0.82,
-      "peRatio": 43.4,
+      "peRatio": 42.2,
       "sector": "Consumer Defensive",
       "industry": "Discount Stores",
       "pegRatio": 4.0,
       "dividendYield": 0.82,
-      "marketCap": 954094059520,
+      "marketCap": 951176855552,
       "score": 6.3,
       "newsSentiment": 0.04,
       "newsSentimentLabel": "Neutral",
@@ -10634,8 +10561,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -64.0,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -66.1,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -10684,8 +10611,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -8.7,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -14.0,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -10711,9 +10638,15 @@
       "dividendYield": 0.65,
       "marketCap": 765810769920,
       "score": 7.3,
-      "newsSentiment": 0.05,
+      "newsSentiment": -0.15,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Weekly Wrap: Bitcoin Under Pressure As Market Volatility Intensifies",
+          "publisher": "CryptoProwl",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/weekly-wrap-bitcoin-under-pressure-211200361.html",
+          "sentiment": -0.3
+        },
         {
           "title": "Byline Bancorp Q3 Earnings Call Highlights",
           "publisher": "MarketBeat",
@@ -10725,12 +10658,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://finance.yahoo.com/markets/crypto/articles/xrp-bottomed-asked-claude-ai-164101527.html",
           "sentiment": -0.15
-        },
-        {
-          "title": "Citi gets nod from Beijing to set up a wholly owned securities company in China",
-          "publisher": "Associated Press",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/citi-gets-nod-beijing-set-152309875.html",
-          "sentiment": 0.3
         }
       ],
       "valuationLabel": "Rich",
@@ -10884,8 +10811,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 8.7,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 2.4,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -10904,16 +10831,22 @@
       "chg6m": -13.9,
       "chg1y": 52.4,
       "volRatio": 1.21,
-      "peRatio": 34.3,
+      "peRatio": 39.9,
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
       "pegRatio": 1.21,
       "dividendYield": 0.57,
       "marketCap": 287952764928,
-      "score": 3.1,
-      "newsSentiment": -0.11,
+      "score": 2.5,
+      "newsSentiment": -0.02,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Earnings flood, Fed meeting will test rickety AI market rally",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-flood-fed-meeting-pose-100557196.html",
+          "sentiment": 0.54
+        },
         {
           "title": "US Equity Indexes Close Mixed This Week as Investors Rotate into Treasury Bonds, Defensives as AI Trade Falters",
           "publisher": "MT Newswires",
@@ -10925,17 +10858,11 @@
           "publisher": "TIKR",
           "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-fell-8-day-203413565.html",
           "sentiment": -0.74
-        },
-        {
-          "title": "Applied Materials Stock Is Down 48% From Its Peak. Here\u2019s What Its 50%-Growth Inspection Business Means for Shares",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-stock-down-48-203050987.html",
-          "sentiment": 0.3
         }
       ],
-      "valuationLabel": "Cheap",
-      "peVsSectorPct": -3.7,
-      "sectorMedianPE": 35.6,
+      "valuationLabel": "Fair",
+      "peVsSectorPct": 5.6,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -11034,8 +10961,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -42.7,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -46.0,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -11111,9 +11038,15 @@
       "dividendYield": 2.24,
       "marketCap": 254972968960,
       "score": 3.6,
-      "newsSentiment": 0.16,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.07,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Jim Cramer Says Reinvesting Dividends Is \u201cWhere Some Big Money Can Be Made.\u201d Is He Right?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/markets/options/articles/jim-cramer-says-reinvesting-dividends-210032717.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Top Stock Reports for Apple, Berkshire Hathaway & Goldman Sachs",
           "publisher": "Zacks",
@@ -11125,12 +11058,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://finance.yahoo.com/markets/crypto/articles/xrp-news-ripple-joined-dtcc-163345429.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "3 Big Numbers: What\u2019s ahead for energy drinks?",
-          "publisher": "C-Store Dive",
-          "link": "https://finance.yahoo.com/energy/articles/3-big-numbers-ahead-energy-134739154.html",
-          "sentiment": 0.27
         }
       ],
       "valuationLabel": "Cheap",
@@ -11215,6 +11142,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "Caterpillar Stock Fell Nearly 5% as Power-Equipment Stocks Slid a Week Before Its Q3 Report. Here\u2019s Where the Stock Could Go",
+          "publisher": "TIKR",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stock-fell-nearly-5-211101431.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Caterpillar (CAT) On Its $1b North Carolina Expansion And The Undervalued Narrative",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-1b-north-carolina-171431339.html",
@@ -11224,12 +11157,6 @@
           "title": "4 Industrial Stocks Set to Outshine Q3 Earnings Estimates",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/4-industrial-stocks-set-outshine-143100984.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "What to Expect From Caterpillar's Next Quarterly Earnings Report",
-          "publisher": "Barchart",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/expect-caterpillars-next-quarterly-earnings-133402234.html",
           "sentiment": 0.0
         }
       ],
@@ -11254,7 +11181,7 @@
       "chg6m": 24.1,
       "chg1y": 9.4,
       "volRatio": 0.9,
-      "peRatio": 34.3,
+      "peRatio": 33.7,
       "sector": "Financial Services",
       "industry": "Credit Services",
       "pegRatio": 1.63,
@@ -11284,7 +11211,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 149.5,
+      "peVsSectorPct": 145.1,
       "sectorMedianPE": 13.8,
       "sectorPeerCount": 6
     },
@@ -11360,7 +11287,7 @@
       "pegRatio": 0.96,
       "dividendYield": 2.18,
       "marketCap": 259992485888,
-      "score": 7.6,
+      "score": 8.2,
       "newsSentiment": -0.02,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
@@ -11383,9 +11310,9 @@
           "sentiment": 0.0
         }
       ],
-      "valuationLabel": "Fair",
-      "peVsSectorPct": 3.7,
-      "sectorMedianPE": 35.6,
+      "valuationLabel": "Cheap",
+      "peVsSectorPct": -2.4,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -11409,7 +11336,7 @@
       "industry": "Software - Application",
       "pegRatio": 2.46,
       "dividendYield": 0.0,
-      "marketCap": 218888372224,
+      "marketCap": 217031098368,
       "score": 7.9,
       "newsSentiment": 0.39,
       "newsSentimentLabel": "Positive",
@@ -11434,8 +11361,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 220.2,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 201.6,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -11484,8 +11411,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -48.3,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": -51.3,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -11607,9 +11534,15 @@
       "dividendYield": 0.0,
       "marketCap": 57616924672,
       "score": 7.9,
-      "newsSentiment": 0.42,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.01,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Brewers fans who paid $1K to see any future game say the team isn't completely honoring the deal for World Series seats",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/small-business/articles/brewers-fans-paid-1k-see-210000995.html",
+          "sentiment": -0.44
+        },
         {
           "title": "Atlassian Swing Trade: Why We Sold A Resilient Stock In A Tech Pullback",
           "publisher": "Investor's Business Daily",
@@ -11621,12 +11554,6 @@
           "publisher": "PR Newswire",
           "link": "https://finance.yahoo.com/media-advertising/articles/beyond-bounce-announces-original-programming-165300652.html",
           "sentiment": 0.4
-        },
-        {
-          "title": "Government of Canada will be accepting applications for $5,000 Team Canada Strong Red Seal Completion Bonus as of November 16",
-          "publisher": "CNW Group",
-          "link": "https://finance.yahoo.com/economy/policy/articles/government-canada-accepting-applications-5-165200230.html",
-          "sentiment": 0.86
         }
       ]
     },
@@ -11646,7 +11573,7 @@
       "chg6m": 180.4,
       "chg1y": 139.2,
       "volRatio": 0.82,
-      "peRatio": 133.2,
+      "peRatio": 128.3,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "pegRatio": 1.49,
@@ -11676,8 +11603,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 274.2,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 239.4,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -11726,8 +11653,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 374.4,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 346.8,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -11914,8 +11841,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 1414.9,
-      "sectorMedianPE": 35.6,
+      "peVsSectorPct": 1326.7,
+      "sectorMedianPE": 37.8,
       "sectorPeerCount": 34
     },
     {
@@ -11989,7 +11916,7 @@
       "industry": "Advertising Agencies",
       "pegRatio": 0.58,
       "dividendYield": 0.0,
-      "marketCap": 87428259840,
+      "marketCap": 87092797440,
       "score": 2.2,
       "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
@@ -12033,7 +11960,7 @@
     "costPerContract": 601.0
   },
   "market": {
-    "asOf": "2026-10-23T21:07:44.354301+00:00",
+    "asOf": "2026-10-23T21:36:50.330164+00:00",
     "gauges": [
       {
         "key": "qqq",
