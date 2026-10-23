@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-23T00:41:14.464221+00:00",
+  "generated_at": "2026-10-23T13:08:18.018768+00:00",
   "positions": [
     {
       "id": "MSFT|Bull_Put_Spread|2026-11-06|$500/490",
       "status": "open",
       "dteRemaining": 14,
-      "lastUpdated": "2026-10-23T00:41:14.070661+00:00",
-      "currentPremium": 2.38,
-      "pnlDollars": -32.5,
-      "pnlPct": -15.85,
+      "lastUpdated": "2026-10-23T13:08:17.591877+00:00",
+      "currentPremium": 2.62,
+      "pnlDollars": -57.5,
+      "pnlPct": -28.05,
       "history": [
         {
           "date": "2026-10-15",
@@ -72,10 +72,10 @@
       "id": "META|Bull_Put_Spread|2026-10-23|$715/710",
       "status": "open",
       "dteRemaining": 0,
-      "lastUpdated": "2026-10-23T00:41:14.215971+00:00",
-      "currentPremium": 4.75,
-      "pnlDollars": -300.0,
-      "pnlPct": -171.43,
+      "lastUpdated": "2026-10-23T13:08:17.747340+00:00",
+      "currentPremium": 5.5,
+      "pnlDollars": -375.0,
+      "pnlPct": -214.29,
       "history": [
         {
           "date": "2026-10-15",
@@ -139,10 +139,10 @@
       "id": "CRWD|Bull_Put_Spread|2026-10-23|$245/240",
       "status": "open",
       "dteRemaining": 0,
-      "lastUpdated": "2026-10-23T00:41:14.341237+00:00",
-      "currentPremium": 3.25,
-      "pnlDollars": -150.0,
-      "pnlPct": -85.71,
+      "lastUpdated": "2026-10-23T13:08:17.879683+00:00",
+      "currentPremium": 3.52,
+      "pnlDollars": -177.0,
+      "pnlPct": -101.14,
       "history": [
         {
           "date": "2026-10-15",
@@ -206,10 +206,10 @@
       "id": "SPCX|Bull_Put_Spread|2026-10-30|$145/143",
       "status": "open",
       "dteRemaining": 7,
-      "lastUpdated": "2026-10-23T00:41:14.464212+00:00",
-      "currentPremium": 0.93,
-      "pnlDollars": -27.5,
-      "pnlPct": -42.31,
+      "lastUpdated": "2026-10-23T13:08:18.018761+00:00",
+      "currentPremium": 0.69,
+      "pnlDollars": -4.0,
+      "pnlPct": -6.15,
       "history": [
         {
           "date": "2026-10-15",
