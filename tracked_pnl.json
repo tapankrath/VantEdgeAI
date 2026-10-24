@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-23T21:36:51.210753+00:00",
+  "generated_at": "2026-10-24T00:40:18.944469+00:00",
   "positions": [
     {
       "id": "MSFT|Bull_Put_Spread|2026-11-06|$500/490",
       "status": "open",
-      "dteRemaining": 14,
-      "lastUpdated": "2026-10-23T21:36:50.506909+00:00",
+      "dteRemaining": 13,
+      "lastUpdated": "2026-10-24T00:40:18.857182+00:00",
       "currentPremium": 2.05,
       "pnlDollars": -0.0,
       "pnlPct": -0.0,
@@ -65,14 +65,18 @@
           "premium": 2.38,
           "pnlDollars": -32.5,
           "pnlPct": -15.85
+        },
+        {
+          "date": "2026-10-24",
+          "dte": 13,
+          "premium": 2.05,
+          "pnlDollars": -0.0,
+          "pnlPct": -0.0
         }
       ]
     },
     {
       "id": "META|Bull_Put_Spread|2026-10-23|$715/710",
-      "status": "open",
-      "dteRemaining": 0,
-      "lastUpdated": "2026-10-23T21:36:50.804762+00:00",
       "currentPremium": 5.1,
       "pnlDollars": -335.0,
       "pnlPct": -191.43,
@@ -133,13 +137,13 @@
           "pnlDollars": -300.0,
           "pnlPct": -171.43
         }
-      ]
+      ],
+      "dteRemaining": -1,
+      "status": "expired",
+      "lastUpdated": "2026-10-23T21:36:50.804762+00:00"
     },
     {
       "id": "CRWD|Bull_Put_Spread|2026-10-23|$245/240",
-      "status": "open",
-      "dteRemaining": 0,
-      "lastUpdated": "2026-10-23T21:36:50.980526+00:00",
       "currentPremium": 0.0,
       "pnlDollars": 175.0,
       "pnlPct": 100.0,
@@ -200,13 +204,16 @@
           "pnlDollars": -150.0,
           "pnlPct": -85.71
         }
-      ]
+      ],
+      "dteRemaining": -1,
+      "status": "expired",
+      "lastUpdated": "2026-10-23T21:36:50.980526+00:00"
     },
     {
       "id": "SPCX|Bull_Put_Spread|2026-10-30|$145/143",
       "status": "open",
-      "dteRemaining": 7,
-      "lastUpdated": "2026-10-23T21:36:51.210743+00:00",
+      "dteRemaining": 6,
+      "lastUpdated": "2026-10-24T00:40:18.944458+00:00",
       "currentPremium": 0.72,
       "pnlDollars": -6.5,
       "pnlPct": -10.0,
@@ -266,6 +273,13 @@
           "premium": 0.93,
           "pnlDollars": -27.5,
           "pnlPct": -42.31
+        },
+        {
+          "date": "2026-10-24",
+          "dte": 6,
+          "premium": 0.72,
+          "pnlDollars": -6.5,
+          "pnlPct": -10.0
         }
       ]
     }
