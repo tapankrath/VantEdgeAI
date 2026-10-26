@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T00:40:18.944469+00:00",
+  "generated_at": "2026-10-26T13:10:23.445463+00:00",
   "positions": [
     {
       "id": "MSFT|Bull_Put_Spread|2026-11-06|$500/490",
       "status": "open",
-      "dteRemaining": 13,
-      "lastUpdated": "2026-10-24T00:40:18.857182+00:00",
-      "currentPremium": 2.05,
-      "pnlDollars": -0.0,
-      "pnlPct": -0.0,
+      "dteRemaining": 11,
+      "lastUpdated": "2026-10-26T13:10:23.139612+00:00",
+      "currentPremium": 2.04,
+      "pnlDollars": 1.5,
+      "pnlPct": 0.73,
       "history": [
         {
           "date": "2026-10-15",
@@ -72,6 +72,13 @@
           "premium": 2.05,
           "pnlDollars": -0.0,
           "pnlPct": -0.0
+        },
+        {
+          "date": "2026-10-26",
+          "dte": 11,
+          "premium": 2.04,
+          "pnlDollars": 1.5,
+          "pnlPct": 0.73
         }
       ]
     },
@@ -138,7 +145,7 @@
           "pnlPct": -171.43
         }
       ],
-      "dteRemaining": -1,
+      "dteRemaining": -3,
       "status": "expired",
       "lastUpdated": "2026-10-23T21:36:50.804762+00:00"
     },
@@ -205,18 +212,18 @@
           "pnlPct": -85.71
         }
       ],
-      "dteRemaining": -1,
+      "dteRemaining": -3,
       "status": "expired",
       "lastUpdated": "2026-10-23T21:36:50.980526+00:00"
     },
     {
       "id": "SPCX|Bull_Put_Spread|2026-10-30|$145/143",
       "status": "open",
-      "dteRemaining": 6,
-      "lastUpdated": "2026-10-24T00:40:18.944458+00:00",
-      "currentPremium": 0.72,
-      "pnlDollars": -6.5,
-      "pnlPct": -10.0,
+      "dteRemaining": 4,
+      "lastUpdated": "2026-10-26T13:10:23.445452+00:00",
+      "currentPremium": 0.76,
+      "pnlDollars": -11.0,
+      "pnlPct": -16.92,
       "history": [
         {
           "date": "2026-10-15",
@@ -280,6 +287,13 @@
           "premium": 0.72,
           "pnlDollars": -6.5,
           "pnlPct": -10.0
+        },
+        {
+          "date": "2026-10-26",
+          "dte": 4,
+          "premium": 0.76,
+          "pnlDollars": -11.0,
+          "pnlPct": -16.92
         }
       ]
     }
