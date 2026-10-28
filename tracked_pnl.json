@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-27T23:05:36.332785+00:00",
+  "generated_at": "2026-10-28T01:22:42.728976+00:00",
   "positions": [
     {
       "id": "MSFT|Bull_Put_Spread|2026-11-06|$500/490",
       "status": "open",
-      "dteRemaining": 10,
-      "lastUpdated": "2026-10-27T23:05:36.156724+00:00",
+      "dteRemaining": 9,
+      "lastUpdated": "2026-10-28T01:22:42.422392+00:00",
       "currentPremium": 1.45,
       "pnlDollars": 60.0,
       "pnlPct": 29.27,
@@ -86,6 +86,13 @@
           "premium": 1.61,
           "pnlDollars": 43.5,
           "pnlPct": 21.22
+        },
+        {
+          "date": "2026-10-28",
+          "dte": 9,
+          "premium": 1.45,
+          "pnlDollars": 60.0,
+          "pnlPct": 29.27
         }
       ]
     },
@@ -152,7 +159,7 @@
           "pnlPct": -171.43
         }
       ],
-      "dteRemaining": -4,
+      "dteRemaining": -5,
       "status": "expired",
       "lastUpdated": "2026-10-23T21:36:50.804762+00:00"
     },
@@ -219,15 +226,15 @@
           "pnlPct": -85.71
         }
       ],
-      "dteRemaining": -4,
+      "dteRemaining": -5,
       "status": "expired",
       "lastUpdated": "2026-10-23T21:36:50.980526+00:00"
     },
     {
       "id": "SPCX|Bull_Put_Spread|2026-10-30|$145/143",
       "status": "open",
-      "dteRemaining": 3,
-      "lastUpdated": "2026-10-27T23:05:36.332772+00:00",
+      "dteRemaining": 2,
+      "lastUpdated": "2026-10-28T01:22:42.728966+00:00",
       "currentPremium": 0.53,
       "pnlDollars": 12.0,
       "pnlPct": 18.46,
@@ -308,6 +315,13 @@
           "premium": 0.74,
           "pnlDollars": -9.0,
           "pnlPct": -13.85
+        },
+        {
+          "date": "2026-10-28",
+          "dte": 2,
+          "premium": 0.53,
+          "pnlDollars": 12.0,
+          "pnlPct": 18.46
         }
       ]
     }
