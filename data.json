@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T21:08:40.456818+00:00",
+  "generated_at": "2026-10-30T23:07:50.324014+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -72,26 +72,26 @@
         "expiryOI": 161604
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.07,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.18,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
+          "title": "What Are Dell Investors Betting On?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-investors-betting-223337133.html",
+          "sentiment": 0.0
         },
         {
-          "title": "Apple's $1,999 iPhone Duo is already rewarding buyers who wait",
-          "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/apples-1-999-iphone-duo-200700570.html",
+          "title": "Apple overtakes Nvidia to become world\u2019s most valuable company amid tech selloff",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-overtakes-nvidia-become-world-214753575.html",
           "sentiment": 0.53
         },
         {
-          "title": "Apple Sentiment Cautious On December-Ending Quarter Outlook",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d69b77c4-1dd3-32ee-8a53-133360c1fcc9/apple-sentiment-cautious-on.html",
-          "sentiment": -0.1
+          "title": "Tech, Media & Telecom Roundup: Market Talk",
+          "publisher": "The Wall Street Journal",
+          "link": "https://finance.yahoo.com/m/5ba2daa7-e9f4-38ba-a2ba-0f1b84efd4fa/tech%2C-media-%26-telecom.html",
+          "sentiment": 0.0
         }
       ],
       "volRegime": "Rich",
@@ -192,22 +192,22 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "CME vs. Morningstar: Scale vs. Consistent Trajectories in Revenue",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cme-vs-morningstar-scale-vs-204301231.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "B. Riley\u2019s $64 Target Says IREN\u2019s Selloff Went Too Far",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/b-riley-64-target-says-203826820.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "IBM vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-vs-servicenow-technology-stock-203501226.html",
+          "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
           "sentiment": 0.44
+        },
+        {
+          "title": "Cracks are emerging in the AI spending boom",
+          "publisher": "TechCrunch",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cracks-emerging-ai-spending-boom-211740864.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Axios Live: How employers are rethinking AI's role in entry-level work",
+          "publisher": "Axios",
+          "link": "https://finance.yahoo.com/technology/ai/articles/axios-live-employers-rethinking-ais-211016358.html",
+          "sentiment": 0.0
         }
       ],
       "volRegime": "Rich",
@@ -304,26 +304,26 @@
         "expiryOI": 1549039
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.29,
+      "newsSentiment": 0.4,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Former SEC Chair: Broadcom\u2019s $63 Billion Package Feels Like \u201cThat 08 Off-Balance Sheet Craze\u201d",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/former-sec-chair-broadcom-63-205216871.html",
-          "sentiment": 0.36
+          "title": "Why Bright Horizons Family Solutions Stock Swooned on Friday",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-bright-horizons-family-solutions-224024585.html",
+          "sentiment": 0.56
         },
         {
-          "title": "Civeo Corporation Q3 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/civeo-corporation-q3-2026-earnings-204850547.html",
+          "title": "Nvidia has a stake in SpaceX that came from an unexpected place",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stake-spacex-came-unexpected-223300497.html",
           "sentiment": 0.0
         },
         {
-          "title": "Arbor Realty Trust, Inc. Q3 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/arbor-realty-trust-inc-q3-204743444.html",
-          "sentiment": 0.51
+          "title": "Why CareDx Stock Soared Today",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-caredx-stock-soared-today-222426471.html",
+          "sentiment": 0.64
         }
       ],
       "volRegime": "Rich",
@@ -436,26 +436,26 @@
         "expiryOI": 113494
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.41,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.1,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Tech Earnings Send SpaceX Stock Below IPO Price. No Other Companies Met Elon Musk\u2019s High Bar.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/b5aeecce-1d32-3744-aa96-e36fea749124/tech-earnings-send-spacex.html",
-          "sentiment": -0.3
+          "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
+          "sentiment": 0.44
         },
         {
-          "title": "The real question we should all be asking about AI",
-          "publisher": "CNN Business",
-          "link": "https://finance.yahoo.com/technology/ai/articles/real-asking-ai-202544552.html",
-          "sentiment": 0.0
+          "title": "Meta\u2019s Credit Rating Outlook Downgraded to Negative by S&P",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/technology/ai/articles/meta-credit-rating-outlook-downgraded-215600853.html",
+          "sentiment": -0.68
         },
         {
-          "title": "Pinterest Sinks 7% on Revenue Miss and Weak Q4 Guide: \u201cWe Are Not Happy With That Result\u201d",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/pinterest-sinks-7-revenue-miss-202024836.html",
-          "sentiment": -0.92
+          "title": "Apple overtakes Nvidia to become world\u2019s most valuable company amid tech selloff",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-overtakes-nvidia-become-world-214753575.html",
+          "sentiment": 0.53
         }
       ],
       "volRegime": "Fair",
@@ -564,26 +564,26 @@
         "expiryOI": 29211
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.19,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.08,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Evercose ISI downgrades Reddit, says monetization may not offset traffic weakness",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/evercose-isi-downgrades-reddit-says-205339666.html",
-          "sentiment": -0.29
+          "title": "Veteran fund manager revamps Alphabet stock price target after brutal sell-off",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/veteran-fund-manager-revamps-alphabet-222551042.html",
+          "sentiment": -0.62
         },
         {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
-        },
-        {
-          "title": "US Equity Indexes Drop This Week as Disappointing Hyperscaler Results Offset Gains From Anthropic's IPO Boost",
+          "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
           "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-drop-week-204054955.html",
-          "sentiment": -0.05
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
+          "sentiment": 0.44
+        },
+        {
+          "title": "Learn Why The Bull Case For Verizon Communications (VZ) Could Change Following Raised Outlook",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-verizon-221305487.html",
+          "sentiment": 0.42
         }
       ],
       "volRegime": "Cheap",
@@ -696,7 +696,7 @@
         "expiryOI": 13259
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.36,
+      "newsSentiment": 0.2,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -706,16 +706,16 @@
           "sentiment": 0.0
         },
         {
-          "title": "Health Care Roundup: Market Talk",
-          "publisher": "The Wall Street Journal",
-          "link": "https://finance.yahoo.com/m/ee46ee8b-cb85-3370-a87c-7c801e230571/health-care-roundup%3A-market.html",
-          "sentiment": 0.49
-        },
-        {
           "title": "YPF Sociedad An\u00f3nima (BASE:YPFD) Stock Fair Value Edges Higher After Mixed Analyst Revisions",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ypf-sociedad-nima-ypfd-stock-141554506.html",
           "sentiment": 0.57
+        },
+        {
+          "title": "Silver Has Lost More Than Half Its Value Since January",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/markets/commodities/articles/silver-lost-more-half-value-134813458.html",
+          "sentiment": 0.03
         }
       ],
       "volRegime": "Rich",
@@ -824,9 +824,15 @@
         "expiryOI": 41503
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.03,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.17,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
+          "sentiment": 0.44
+        },
         {
           "title": "IBM vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?",
           "publisher": "Motley Fool",
@@ -838,12 +844,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-decline-6-17-200412236.html",
           "sentiment": -0.36
-        },
-        {
-          "title": "Nvidia Stocks Decline 4.7% With Oracle Offering Separate CPU and GPU Scaling",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-decline-4-7-200407454.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Cheap",
@@ -940,26 +940,26 @@
         "expiryOI": 716465
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.05,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.46,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
-        },
-        {
-          "title": "US Equity Indexes Drop This Week as Disappointing Hyperscaler Results Offset Gains From Anthropic's IPO Boost",
+          "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
           "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-drop-week-204054955.html",
-          "sentiment": -0.05
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
+          "sentiment": 0.44
         },
         {
-          "title": "IBM vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-vs-servicenow-technology-stock-203501226.html",
-          "sentiment": 0.44
+          "title": "Learn Why The Bull Case For Verizon Communications (VZ) Could Change Following Raised Outlook",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-verizon-221305487.html",
+          "sentiment": 0.42
+        },
+        {
+          "title": "Apple overtakes Nvidia to become world\u2019s most valuable company amid tech selloff",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-overtakes-nvidia-become-world-214753575.html",
+          "sentiment": 0.53
         }
       ],
       "volRegime": "Fair",
@@ -1394,9 +1394,15 @@
         "expiryOI": 19536
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.21,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.05,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Trump touted a record Venezuela oil deal. Now reality is setting in",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/energy/articles/trump-touted-record-venezuela-oil-101849012.html",
+          "sentiment": -0.05
+        },
         {
           "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
           "publisher": "Investor's Business Daily",
@@ -1408,12 +1414,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-vs-servicenow-technology-stock-203501226.html",
           "sentiment": 0.44
-        },
-        {
-          "title": "AI Selloff Goes from Bad to Worse in Market's Biggest Loss Since June",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/271f9c34-4dd6-3322-93d4-ff7b4ccad30a/ai-selloff-goes-from-bad-to.html",
-          "sentiment": -0.84
         }
       ],
       "volRegime": "Cheap",
@@ -1670,9 +1670,15 @@
         "expiryOI": 6569
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.35,
+      "newsSentiment": 0.38,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Earnings Beat May Change The Case For Bandwidth Stock",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-may-change-case-211839902.html",
+          "sentiment": 0.61
+        },
         {
           "title": "IBM vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?",
           "publisher": "Motley Fool",
@@ -1684,12 +1690,6 @@
           "publisher": "Business Wire",
           "link": "https://finance.yahoo.com/technology/ai/articles/leaders-wolters-kluwer-microsoft-salesforce-201500186.html",
           "sentiment": 0.08
-        },
-        {
-          "title": "This Computer Software Stock's Accelerating Growth Is Worth Watching",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/2910448e-3a6d-35ea-9c31-3c9a5c4114df/this-computer-software.html",
-          "sentiment": 0.54
         }
       ],
       "volRegime": "Rich",
@@ -1930,9 +1930,15 @@
         "expiryOI": 20095
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.02,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.24,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Palantir (PLTR) Stock Gets Fair Value Bump After Analysts Lift AI Driven Targets",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-pltr-stock-gets-fair-221856049.html",
+          "sentiment": 0.57
+        },
         {
           "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
           "publisher": "Investor's Business Daily",
@@ -1944,12 +1950,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-stocks-decline-4-94-191343821.html",
           "sentiment": 0.38
-        },
-        {
-          "title": "Palantir Stock Tests Key Level As Earnings Loom",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/7ce432a6-f7f1-373d-be60-33e2151bdcd4/palantir-stock-tests-key.html",
-          "sentiment": -0.23
         }
       ],
       "volRegime": "Rich",
@@ -2202,20 +2202,20 @@
         "expiryOI": 90864
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.4,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.06,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Wall Street closes sharply lower as AI cash burn fears spark tech\u00a0selloff",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html",
-          "sentiment": -0.48
+          "title": "What Are Dell Investors Betting On?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-investors-betting-223337133.html",
+          "sentiment": 0.0
         },
         {
-          "title": "Dell Sinks 11% as Intel\u2019s Warning on PC Slump and Memory Shortage Hits Hardware Stocks; HP Tumbles 9%, Hewlett Packard Enterprise and Super Micro Fall 7%",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-sinks-11-intel-warning-170231441.html",
-          "sentiment": -0.9
+          "title": "Is Arista Networks Stock Really Expensive?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-really-expensive-221844192.html",
+          "sentiment": 0.0
         },
         {
           "title": "Intel, Amazon, Nvidia, ExxonMobil, Sandisk, FedEx Freight, and More Stocks That Explain Today\u2019s Market",
@@ -2944,9 +2944,15 @@
         "expiryOI": 38993
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.12,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.19,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Stock Market Today, Oct. 30: Amazon Misses Revenue and Earnings Expectations",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-30-213502210.html",
+          "sentiment": -0.51
+        },
         {
           "title": "Levi Strauss Faces Class Action Lawsuit Over Tariff Refunds",
           "publisher": "Sourcing Journal",
@@ -2958,12 +2964,6 @@
           "publisher": "Multifamily Dive",
           "link": "https://finance.yahoo.com/real-estate/articles/beyond-rent-true-cost-equity-180131088.html",
           "sentiment": 0.42
-        },
-        {
-          "title": "How New Rules And Robotaxi Pressure At Uber Technologies (UBER) Has Changed Its Investment Story",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/rules-robotaxi-pressure-uber-technologies-171443609.html",
-          "sentiment": -0.3
         }
       ],
       "volRegime": "Rich",
@@ -3060,26 +3060,26 @@
         "expiryOI": 9720
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.38,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "What Are Dell Investors Betting On?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-investors-betting-223337133.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Is Arista Networks Stock Really Expensive?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-really-expensive-221844192.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Should You Buy, Sell, or Hold ALAB Stock Before Q3 Earnings Release?",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-alab-stock-162300895.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Mobile Virtualization - Global Strategic Business Report 2026 | Secure Your Share of a US$21 Billion Market by 2032 | Microsoft, VMware, Cisco, Google, and IBM Dominate",
-          "publisher": "GlobeNewswire",
-          "link": "https://finance.yahoo.com/technology/articles/mobile-virtualization-global-strategic-business-152200208.html",
-          "sentiment": 0.48
-        },
-        {
-          "title": "Virtualization Security - Capitalize on a 16.5% CAGR to Secure the US$4.9 Billion 2032 Market as Cisco, Fortinet, Checkpoint, Dell EMC, and Huawei Disrupt Defenses",
-          "publisher": "GlobeNewswire",
-          "link": "https://finance.yahoo.com/technology/articles/virtualization-security-capitalize-16-5-151700564.html",
-          "sentiment": 0.67
         }
       ],
       "volRegime": "Rich",
@@ -3324,6 +3324,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "Why GE Vernova Stock Fell on Friday",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-ge-vernova-stock-fell-210409858.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "GE Vernova Stocks Decline 3% With Grid Expansion Adding Acquisition Execution Risk",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-stocks-decline-3-200335141.html",
@@ -3333,12 +3339,6 @@
           "title": "GE Vernova vs. Caterpillar: Wall Street Splinters on the AI Power Trade",
           "publisher": "Barrons.com",
           "link": "https://finance.yahoo.com/m/73a7ff36-ff13-3d6b-a4fc-c5501fa6fb32/ge-vernova-vs.-caterpillar%3A.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Hitachi\u2019s nuclear revenue rises as SMR delivery date approaches",
-          "publisher": "Utility Dive",
-          "link": "https://finance.yahoo.com/energy/articles/hitachi-nuclear-revenue-rises-smr-153942526.html",
           "sentiment": 0.0
         }
       ],
@@ -3436,9 +3436,28 @@
         "expiryOI": 72300
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
+      "newsSentiment": 0.03,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsHeadlines": [
+        {
+          "title": "Amex Platinum's $600 hotel credit now comes with a catch starting in 2027",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/credit-cards/article/amex-platinums-benefits-updates-2027-181143354.html",
+          "sentiment": 0.38
+        },
+        {
+          "title": "How New Rules And Robotaxi Pressure At Uber Technologies (UBER) Has Changed Its Investment Story",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/rules-robotaxi-pressure-uber-technologies-171443609.html",
+          "sentiment": -0.3
+        },
+        {
+          "title": "UBER Stock: Here\u2019s What to Expect From Uber's Q3 Earnings Report",
+          "publisher": "Barchart",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/uber-stock-expect-ubers-q3-152155585.html",
+          "sentiment": 0.0
+        }
+      ],
       "volRegime": "Rich",
       "ivRvRatio": 2.41,
       "realizedVol": 27.7,
@@ -3653,6 +3672,12 @@
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
+          "title": "Cracks are emerging in the AI spending boom",
+          "publisher": "TechCrunch",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cracks-emerging-ai-spending-boom-211740864.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Former SEC Chair: Broadcom\u2019s $63 Billion Package Feels Like \u201cThat 08 Off-Balance Sheet Craze\u201d",
           "publisher": "TIKR",
           "link": "https://finance.yahoo.com/markets/stocks/articles/former-sec-chair-broadcom-63-205216871.html",
@@ -3663,12 +3688,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-decline-5-24-193807941.html",
           "sentiment": 0.4
-        },
-        {
-          "title": "Cramer: Broadcom\u2019s $63 Billion Anthropic Financing Works Because \u201cThere Is Only One Hock\u201d",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cramer-broadcom-63-billion-anthropic-181329804.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -3765,28 +3784,9 @@
         "expiryOI": 10652
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.24,
-      "newsSentimentLabel": "Positive",
-      "newsHeadlines": [
-        {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
-        },
-        {
-          "title": "Arista Networks vs. Figma: Which Technology Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-vs-figma-technology-195002777.html",
-          "sentiment": 0.44
-        },
-        {
-          "title": "MPWR Q3 Earnings Surpass Estimates on Enterprise Data Strength",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mpwr-q3-earnings-surpass-estimates-135000749.html",
-          "sentiment": 0.49
-        }
-      ],
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
+      "newsHeadlines": [],
       "volRegime": "Rich",
       "ivRvRatio": 1.46,
       "realizedVol": 60.9,
@@ -4025,26 +4025,26 @@
         "expiryOI": 183904
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.19,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.02,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "SpaceX's Shotwell says 2 million shares to be gifted to children's Trump Accounts",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/spacexs-shotwell-says-2-million-214100331.html",
+          "sentiment": 0.3
+        },
+        {
+          "title": "Elon Musk vs. Tesla? His Midterm Money Could Work Against His Own Cars",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/economy/policy/articles/elon-musk-vs-tesla-midterm-210223226.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
           "sentiment": -0.23
-        },
-        {
-          "title": "In A Bad Week For The AI Trade, This One Mag Seven Stock Holds Strong",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/c6ea6dfa-fdb1-342d-acc1-568d7e2d17a5/in-a-bad-week-for-the-ai.html",
-          "sentiment": -0.05
-        },
-        {
-          "title": "Tesla Stocks Move Lower With Cybercab Certification Response Due Today",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-move-lower-cybercab-190652852.html",
-          "sentiment": -0.3
         }
       ],
       "volRegime": "Rich",
@@ -4157,26 +4157,26 @@
         "expiryOI": 14069
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.17,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.03,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
-        },
-        {
-          "title": "Tech Earnings Send SpaceX Stock Below IPO Price. No Other Companies Met Elon Musk\u2019s High Bar.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/b5aeecce-1d32-3744-aa96-e36fea749124/tech-earnings-send-spacex.html",
-          "sentiment": -0.3
-        },
-        {
-          "title": "Musk: \u201c10k Starship Launches/Year\u201d From Just One Site. SpaceX Says the FAA Is the Bottleneck",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/technology/articles/musk-10k-starship-launches-just-201048757.html",
+          "title": "Nvidia has a stake in SpaceX that came from an unexpected place",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stake-spacex-came-unexpected-223300497.html",
           "sentiment": 0.0
+        },
+        {
+          "title": "Elon Musk Says Neoclouds Face a \"Guppy Level\" Death. SpaceX Just Borrowed $40 Billion to Make Sure It Isn't One.",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-says-neoclouds-face-215000293.html",
+          "sentiment": -0.38
+        },
+        {
+          "title": "SpaceX's Shotwell says 2 million shares to be gifted to children's Trump Accounts",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/spacexs-shotwell-says-2-million-214100331.html",
+          "sentiment": 0.3
         }
       ],
       "volRegime": "Cheap",
@@ -4301,9 +4301,15 @@
         "expiryOI": 46163
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.11,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.22,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-30-212002526.html",
+          "sentiment": -0.8
+        },
         {
           "title": "Former SEC Chair: Broadcom\u2019s $63 Billion Package Feels Like \u201cThat 08 Off-Balance Sheet Craze\u201d",
           "publisher": "TIKR",
@@ -4315,12 +4321,6 @@
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
           "sentiment": -0.23
-        },
-        {
-          "title": "Wall Street closes sharply lower as AI cash burn fears spark tech\u00a0selloff",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html",
-          "sentiment": -0.48
         }
       ],
       "volRegime": "Fair",
@@ -4526,26 +4526,26 @@
         "expiryOI": 961398
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.67,
+      "newsSentiment": -0.22,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
-          "title": "Intel stock plunges nearly 29%,  its worst day since 1974",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/intel-stock-plunges-nearly-29-its-worst-day-since-1974-205955309.html",
-          "sentiment": -0.85
+          "title": "Nvidia has a stake in SpaceX that came from an unexpected place",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stake-spacex-came-unexpected-223300497.html",
+          "sentiment": 0.0
         },
         {
-          "title": "Intel Stock Suffers Worst Crash in 50 Years as Weak Forecast Overshadows AI Chip Demand",
-          "publisher": "decrypt",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-suffers-worst-crash-205323630.html",
-          "sentiment": -0.92
+          "title": "Intel CEO reveals a PC problem as Goldman cuts stock target",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-ceo-reveals-pc-problem-220700996.html",
+          "sentiment": -0.67
         },
         {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
+          "title": "Intel\u2019s stock crashes, knocking $12B from government\u2019s stake",
+          "publisher": "TechCrunch",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-crashes-knocking-12b-215434820.html",
+          "sentiment": 0.0
         }
       ],
       "volRegime": "Cheap",
@@ -5583,9 +5583,15 @@
         "expiryOI": 7644
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.04,
+      "newsSentiment": 0.14,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Novo Nordisk (NYSE:NVO) Could Be 61% Undervalued Following Rising GLP 1 Competition",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-nyse-nvo-could-221413251.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Eli Lilly\u2019s Next Trillion-Dollar Opportunity May Go Beyond Weight-Loss Drugs",
           "publisher": "24/7 Wall St.",
@@ -5597,12 +5603,6 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-nvo-sets-2030-170922500.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Agios Sinks 18% as FDA Delays Sickle Cell Drug Decision to 2027 Despite Being \u201cLaunch-Ready\u201d",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/healthcare/articles/agios-sinks-18-fda-delays-155620558.html",
-          "sentiment": -0.54
         }
       ],
       "volRegime": "Rich",
@@ -5926,9 +5926,15 @@
         "expiryOI": 58423
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.2,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "The Oil Giants Are Raking In Cash. Here\u2019s What They\u2019ll Do With It.",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/9c6f7f41-b911-3266-aef4-0cdcc23c803a/the-oil-giants-are-raking-in.html",
+          "sentiment": 0.0
+        },
         {
           "title": "BP's Blowout Quarter Comes With a Big Catch",
           "publisher": "GuruFocus.com",
@@ -5940,12 +5946,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/energy/articles/bp-bp-q3-2026-earnings-174315572.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "European Equities Mostly Lower in Friday Trading; BP CEO Denies Breakup Discussions",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/world-indices/articles/european-equities-mostly-lower-friday-170733411.html",
-          "sentiment": -0.61
         }
       ],
       "volRegime": "Rich",
@@ -6058,9 +6058,15 @@
         "expiryOI": 7858
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.46,
+      "newsSentiment": 0.27,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "General Dynamics Corporation Q3 2026 Earnings Call Summary",
+          "publisher": "Moby",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/general-dynamics-corporation-q3-2026-212432132.html",
+          "sentiment": 0.27
+        },
         {
           "title": "General Dynamics (GD) Q3 2026 Earnings Call Transcript",
           "publisher": "Motley Fool",
@@ -6072,12 +6078,6 @@
           "publisher": "MarketBeat",
           "link": "https://finance.yahoo.com/markets/stocks/articles/general-dynamics-gd-said-q3-201443043.html",
           "sentiment": 0.27
-        },
-        {
-          "title": "General Dynamics Raises Full-Year Guidance Following Third-Quarter Beat",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/general-dynamics-raises-full-guidance-180408926.html",
-          "sentiment": 0.84
         }
       ],
       "volRegime": "Rich",
@@ -6694,9 +6694,15 @@
         "expiryOI": 26192
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.07,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.29,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Williams Companies Reports Soon: How Has The Stock Reacted To Past Earnings?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/williams-companies-reports-soon-stock-221208519.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Enbridge (TSX:ENB) Stock May Trade At A Premium Despite Gas Demand Growth News",
           "publisher": "Simply Wall St.",
@@ -6708,12 +6714,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/energy/articles/chevron-vs-enbridge-energy-giant-180101726.html",
           "sentiment": -0.66
-        },
-        {
-          "title": "UGP or ENB: Which Is the Better Value Stock Right Now?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ugp-enb-better-value-stock-144002418.html",
-          "sentiment": 0.65
         }
       ],
       "volRegime": "Rich",
@@ -6938,28 +6938,9 @@
         "expiryOI": 12685
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.05,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [
-        {
-          "title": "Clorox Names Unilever\u2019s Fabian Garcia as CEO",
-          "publisher": "The Wall Street Journal",
-          "link": "https://finance.yahoo.com/m/6dbe4c3e-f5cb-3f9b-954b-715ef6445207/clorox-names-unilever%E2%80%99s.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Unilever (LSE:ULVR) Faces Dutch Block On Brand Disposal As It Lifts 2026 Outlook",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/unilever-lse-ulvr-faces-dutch-091712677.html",
-          "sentiment": -0.44
-        },
-        {
-          "title": "Nelson Peltz's Group Proposes $7.35 a Share for a Burger Chain the Same Week He Joins a Hockey Company's Board",
-          "publisher": "PR Newswire",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nelson-peltzs-group-proposes-7-183000509.html",
-          "sentiment": 0.3
-        }
-      ],
+      "newsHeadlines": [],
       "volRegime": "Rich",
       "ivRvRatio": 1.17,
       "realizedVol": 23.8,
@@ -7056,7 +7037,26 @@
       "potIsProfitProb": false,
       "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsHeadlines": [
+        {
+          "title": "Construction Begins on Harvest34, Bringing 44 Deeply Affordable Family Townhomes to Boulder",
+          "publisher": "GlobeNewswire",
+          "link": "https://finance.yahoo.com/real-estate/articles/construction-begins-harvest34-bringing-44-152800987.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "3 Australian Dividend Stocks With Yields Over 3%",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-dividend-stocks-yields-011348001.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "3 Australian Dividend Stocks With Up To 4% Yield",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-dividend-stocks-4-001356337.html",
+          "sentiment": 0.0
+        }
+      ],
       "volRegime": "Rich",
       "ivRvRatio": 1.18,
       "realizedVol": 30.3,
@@ -7643,9 +7643,15 @@
         "expiryOI": 10577
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.32,
+      "newsSentiment": 0.25,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "The Oil Giants Are Raking In Cash. Here\u2019s What They\u2019ll Do With It.",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/9c6f7f41-b911-3266-aef4-0cdcc23c803a/the-oil-giants-are-raking-in.html",
+          "sentiment": 0.0
+        },
         {
           "title": "What TechnipFMC (FTI) Said on Its Q3 Earnings Call",
           "publisher": "MarketBeat",
@@ -7657,12 +7663,6 @@
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-totalenergies-123807337.html",
           "sentiment": 0.74
-        },
-        {
-          "title": "ExxonMobil earnings top estimates as diesel, gasoline spike fuels refining margins",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/energy/articles/exxonmobil-earnings-top-estimates-diesel-110944238.html",
-          "sentiment": 0.2
         }
       ],
       "volRegime": "Rich",
@@ -7759,26 +7759,26 @@
         "expiryOI": 17223
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.24,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.07,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Orchard Partners Selects JLL To Market 892K SF Manufacturing Campus In Brisbane: The San Francisco Deal Sheet",
+          "publisher": "Bisnow",
+          "link": "https://finance.yahoo.com/real-estate/articles/orchard-partners-selects-jll-market-221120285.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "The King of Trash, Following David Duong's Journey From Vietnamese Refugee to Business Leader, Named Finalist at 13th San Francisco International New Concept Film Festival",
+          "publisher": "PR Newswire",
+          "link": "https://finance.yahoo.com/small-business/articles/king-trash-following-david-duongs-220900549.html",
+          "sentiment": 0.49
+        },
         {
           "title": "Avenzo Therapeutics to Present Preliminary Phase 1 Results from ORION-1 Study of AVZO-023, a Selective CDK4 Inhibitor, at the 2026 San Antonio Breast Cancer Symposium",
           "publisher": "Business Wire",
           "link": "https://finance.yahoo.com/healthcare/articles/avenzo-therapeutics-present-preliminary-phase-203000092.html",
           "sentiment": -0.69
-        },
-        {
-          "title": "From Prison Classroom to National Audience: \"Basement People\" Screens at San Quentin Film Festival and Digitally Debuts Nationally on Securus Technologies Tablets",
-          "publisher": "PR Newswire",
-          "link": "https://finance.yahoo.com/media-advertising/articles/prison-classroom-national-audience-basement-190200843.html",
-          "sentiment": -0.03
-        },
-        {
-          "title": "We Drove 3,900 Miles From San Francisco to Boston With Seven Giant-Sequoia Seedlings",
-          "publisher": "The Wall Street Journal",
-          "link": "https://finance.yahoo.com/m/666bbe01-7dc9-3235-a229-f9b2ab4f4878/we-drove-3%2C900-miles-from-san.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Rich",
@@ -7991,9 +7991,15 @@
         "expiryOI": 12072
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.23,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.14,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "EssilorLuxottica Stock And Eurozone Healthcare Giants Worth Watching Now",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/healthcare/articles/essilorluxottica-stock-eurozone-healthcare-giants-221733843.html",
+          "sentiment": 0.23
+        },
         {
           "title": "Regeneron Bolts 13% Higher, Breaking Out To A Two-Year High On Dupixent Dominance",
           "publisher": "Investor's Business Daily",
@@ -8005,12 +8011,6 @@
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-afternoon-195415462.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Sanofi Jumps 6% as New CEO Opens Door to Bigger Deals",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/healthcare/articles/sanofi-jumps-6-ceo-opens-190749409.html",
-          "sentiment": 0.49
         }
       ],
       "volRegime": "Rich",
@@ -8062,26 +8062,26 @@
       "dividendYield": 0.31,
       "marketCap": 5029592301568,
       "score": 7.9,
-      "newsSentiment": 0.07,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.18,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
+          "title": "What Are Dell Investors Betting On?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-investors-betting-223337133.html",
+          "sentiment": 0.0
         },
         {
-          "title": "Apple's $1,999 iPhone Duo is already rewarding buyers who wait",
-          "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/apples-1-999-iphone-duo-200700570.html",
+          "title": "Apple overtakes Nvidia to become world\u2019s most valuable company amid tech selloff",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-overtakes-nvidia-become-world-214753575.html",
           "sentiment": 0.53
         },
         {
-          "title": "Apple Sentiment Cautious On December-Ending Quarter Outlook",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d69b77c4-1dd3-32ee-8a53-133360c1fcc9/apple-sentiment-cautious-on.html",
-          "sentiment": -0.1
+          "title": "Tech, Media & Telecom Roundup: Market Talk",
+          "publisher": "The Wall Street Journal",
+          "link": "https://finance.yahoo.com/m/5ba2daa7-e9f4-38ba-a2ba-0f1b84efd4fa/tech%2C-media-%26-telecom.html",
+          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
@@ -8116,22 +8116,22 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "CME vs. Morningstar: Scale vs. Consistent Trajectories in Revenue",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cme-vs-morningstar-scale-vs-204301231.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "B. Riley\u2019s $64 Target Says IREN\u2019s Selloff Went Too Far",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/b-riley-64-target-says-203826820.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "IBM vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-vs-servicenow-technology-stock-203501226.html",
+          "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
           "sentiment": 0.44
+        },
+        {
+          "title": "Cracks are emerging in the AI spending boom",
+          "publisher": "TechCrunch",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cracks-emerging-ai-spending-boom-211740864.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Axios Live: How employers are rethinking AI's role in entry-level work",
+          "publisher": "Axios",
+          "link": "https://finance.yahoo.com/technology/ai/articles/axios-live-employers-rethinking-ais-211016358.html",
+          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -8162,26 +8162,26 @@
       "dividendYield": 0.47,
       "marketCap": 4941441662976,
       "score": 4.0,
-      "newsSentiment": 0.29,
+      "newsSentiment": 0.4,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Former SEC Chair: Broadcom\u2019s $63 Billion Package Feels Like \u201cThat 08 Off-Balance Sheet Craze\u201d",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/former-sec-chair-broadcom-63-205216871.html",
-          "sentiment": 0.36
+          "title": "Why Bright Horizons Family Solutions Stock Swooned on Friday",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-bright-horizons-family-solutions-224024585.html",
+          "sentiment": 0.56
         },
         {
-          "title": "Civeo Corporation Q3 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/civeo-corporation-q3-2026-earnings-204850547.html",
+          "title": "Nvidia has a stake in SpaceX that came from an unexpected place",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stake-spacex-came-unexpected-223300497.html",
           "sentiment": 0.0
         },
         {
-          "title": "Arbor Realty Trust, Inc. Q3 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/arbor-realty-trust-inc-q3-204743444.html",
-          "sentiment": 0.51
+          "title": "Why CareDx Stock Soared Today",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-caredx-stock-soared-today-222426471.html",
+          "sentiment": 0.64
         }
       ],
       "valuationLabel": "Cheap",
@@ -8212,26 +8212,26 @@
       "dividendYield": 0.34,
       "marketCap": 1572426743808,
       "score": 3.8,
-      "newsSentiment": -0.41,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.1,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Tech Earnings Send SpaceX Stock Below IPO Price. No Other Companies Met Elon Musk\u2019s High Bar.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/b5aeecce-1d32-3744-aa96-e36fea749124/tech-earnings-send-spacex.html",
-          "sentiment": -0.3
+          "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
+          "sentiment": 0.44
         },
         {
-          "title": "The real question we should all be asking about AI",
-          "publisher": "CNN Business",
-          "link": "https://finance.yahoo.com/technology/ai/articles/real-asking-ai-202544552.html",
-          "sentiment": 0.0
+          "title": "Meta\u2019s Credit Rating Outlook Downgraded to Negative by S&P",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/technology/ai/articles/meta-credit-rating-outlook-downgraded-215600853.html",
+          "sentiment": -0.68
         },
         {
-          "title": "Pinterest Sinks 7% on Revenue Miss and Weak Q4 Guide: \u201cWe Are Not Happy With That Result\u201d",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/pinterest-sinks-7-revenue-miss-202024836.html",
-          "sentiment": -0.92
+          "title": "Apple overtakes Nvidia to become world\u2019s most valuable company amid tech selloff",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-overtakes-nvidia-become-world-214753575.html",
+          "sentiment": 0.53
         }
       ],
       "valuationLabel": "Rich",
@@ -8262,26 +8262,26 @@
       "dividendYield": 0.31,
       "marketCap": 3420436561920,
       "score": 2.8,
-      "newsSentiment": -0.19,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.08,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Evercose ISI downgrades Reddit, says monetization may not offset traffic weakness",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/evercose-isi-downgrades-reddit-says-205339666.html",
-          "sentiment": -0.29
+          "title": "Veteran fund manager revamps Alphabet stock price target after brutal sell-off",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/veteran-fund-manager-revamps-alphabet-222551042.html",
+          "sentiment": -0.62
         },
         {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
-        },
-        {
-          "title": "US Equity Indexes Drop This Week as Disappointing Hyperscaler Results Offset Gains From Anthropic's IPO Boost",
+          "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
           "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-drop-week-204054955.html",
-          "sentiment": -0.05
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
+          "sentiment": 0.44
+        },
+        {
+          "title": "Learn Why The Bull Case For Verizon Communications (VZ) Could Change Following Raised Outlook",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-verizon-221305487.html",
+          "sentiment": 0.42
         }
       ],
       "valuationLabel": "Cheap",
@@ -8312,7 +8312,7 @@
       "dividendYield": 1.92,
       "marketCap": 895043502080,
       "score": 7.5,
-      "newsSentiment": 0.36,
+      "newsSentiment": 0.2,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -8322,16 +8322,16 @@
           "sentiment": 0.0
         },
         {
-          "title": "Health Care Roundup: Market Talk",
-          "publisher": "The Wall Street Journal",
-          "link": "https://finance.yahoo.com/m/ee46ee8b-cb85-3370-a87c-7c801e230571/health-care-roundup%3A-market.html",
-          "sentiment": 0.49
-        },
-        {
           "title": "YPF Sociedad An\u00f3nima (BASE:YPFD) Stock Fair Value Edges Higher After Mixed Analyst Revisions",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ypf-sociedad-nima-ypfd-stock-141554506.html",
           "sentiment": 0.57
+        },
+        {
+          "title": "Silver Has Lost More Than Half Its Value Since January",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/markets/commodities/articles/silver-lost-more-half-value-134813458.html",
+          "sentiment": 0.03
         }
       ],
       "valuationLabel": "Cheap",
@@ -8362,9 +8362,15 @@
       "dividendYield": 1.43,
       "marketCap": 396126224384,
       "score": 3.4,
-      "newsSentiment": 0.03,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.17,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
+          "sentiment": 0.44
+        },
         {
           "title": "IBM vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?",
           "publisher": "Motley Fool",
@@ -8376,12 +8382,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-decline-6-17-200412236.html",
           "sentiment": -0.36
-        },
-        {
-          "title": "Nvidia Stocks Decline 4.7% With Oracle Offering Separate CPU and GPU Scaling",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-decline-4-7-200407454.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -8412,26 +8412,26 @@
       "dividendYield": 0.0,
       "marketCap": 2598423756800,
       "score": 3.3,
-      "newsSentiment": 0.05,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.46,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
-        },
-        {
-          "title": "US Equity Indexes Drop This Week as Disappointing Hyperscaler Results Offset Gains From Anthropic's IPO Boost",
+          "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
           "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-drop-week-204054955.html",
-          "sentiment": -0.05
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
+          "sentiment": 0.44
         },
         {
-          "title": "IBM vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-vs-servicenow-technology-stock-203501226.html",
-          "sentiment": 0.44
+          "title": "Learn Why The Bull Case For Verizon Communications (VZ) Could Change Following Raised Outlook",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-verizon-221305487.html",
+          "sentiment": 0.42
+        },
+        {
+          "title": "Apple overtakes Nvidia to become world\u2019s most valuable company amid tech selloff",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-overtakes-nvidia-become-world-214753575.html",
+          "sentiment": 0.53
         }
       ],
       "valuationLabel": "Cheap",
@@ -8604,9 +8604,15 @@
       "dividendYield": 0.0,
       "marketCap": 109105840128,
       "score": 4.5,
-      "newsSentiment": -0.21,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.05,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Trump touted a record Venezuela oil deal. Now reality is setting in",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/energy/articles/trump-touted-record-venezuela-oil-101849012.html",
+          "sentiment": -0.05
+        },
         {
           "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
           "publisher": "Investor's Business Daily",
@@ -8618,12 +8624,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-vs-servicenow-technology-stock-203501226.html",
           "sentiment": 0.44
-        },
-        {
-          "title": "AI Selloff Goes from Bad to Worse in Market's Biggest Loss Since June",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/271f9c34-4dd6-3322-93d4-ff7b4ccad30a/ai-selloff-goes-from-bad-to.html",
-          "sentiment": -0.84
         }
       ],
       "valuationLabel": "Rich",
@@ -8704,9 +8704,15 @@
       "dividendYield": 0.76,
       "marketCap": 188606906368,
       "score": 6.0,
-      "newsSentiment": 0.35,
+      "newsSentiment": 0.38,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Earnings Beat May Change The Case For Bandwidth Stock",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-may-change-case-211839902.html",
+          "sentiment": 0.61
+        },
         {
           "title": "IBM vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?",
           "publisher": "Motley Fool",
@@ -8718,12 +8724,6 @@
           "publisher": "Business Wire",
           "link": "https://finance.yahoo.com/technology/ai/articles/leaders-wolters-kluwer-microsoft-salesforce-201500186.html",
           "sentiment": 0.08
-        },
-        {
-          "title": "This Computer Software Stock's Accelerating Growth Is Worth Watching",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/2910448e-3a6d-35ea-9c31-3c9a5c4114df/this-computer-software.html",
-          "sentiment": 0.54
         }
       ],
       "valuationLabel": "Cheap",
@@ -8804,9 +8804,15 @@
       "dividendYield": 0.0,
       "marketCap": 442427080704,
       "score": 4.8,
-      "newsSentiment": -0.02,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.24,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Palantir (PLTR) Stock Gets Fair Value Bump After Analysts Lift AI Driven Targets",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-pltr-stock-gets-fair-221856049.html",
+          "sentiment": 0.57
+        },
         {
           "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
           "publisher": "Investor's Business Daily",
@@ -8818,12 +8824,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-stocks-decline-4-94-191343821.html",
           "sentiment": 0.38
-        },
-        {
-          "title": "Palantir Stock Tests Key Level As Earnings Loom",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/7ce432a6-f7f1-373d-be60-33e2151bdcd4/palantir-stock-tests-key.html",
-          "sentiment": -0.23
         }
       ],
       "valuationLabel": "Rich",
@@ -8904,20 +8904,20 @@
       "dividendYield": 0.53,
       "marketCap": 269775339520,
       "score": 5.0,
-      "newsSentiment": -0.4,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.06,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Wall Street closes sharply lower as AI cash burn fears spark tech\u00a0selloff",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html",
-          "sentiment": -0.48
+          "title": "What Are Dell Investors Betting On?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-investors-betting-223337133.html",
+          "sentiment": 0.0
         },
         {
-          "title": "Dell Sinks 11% as Intel\u2019s Warning on PC Slump and Memory Shortage Hits Hardware Stocks; HP Tumbles 9%, Hewlett Packard Enterprise and Super Micro Fall 7%",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-sinks-11-intel-warning-170231441.html",
-          "sentiment": -0.9
+          "title": "Is Arista Networks Stock Really Expensive?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-really-expensive-221844192.html",
+          "sentiment": 0.0
         },
         {
           "title": "Intel, Amazon, Nvidia, ExxonMobil, Sandisk, FedEx Freight, and More Stocks That Explain Today\u2019s Market",
@@ -9196,9 +9196,15 @@
       "dividendYield": 0.59,
       "marketCap": 448570982400,
       "score": 6.2,
-      "newsSentiment": -0.12,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.19,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Stock Market Today, Oct. 30: Amazon Misses Revenue and Earnings Expectations",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-30-213502210.html",
+          "sentiment": -0.51
+        },
         {
           "title": "Levi Strauss Faces Class Action Lawsuit Over Tariff Refunds",
           "publisher": "Sourcing Journal",
@@ -9210,12 +9216,6 @@
           "publisher": "Multifamily Dive",
           "link": "https://finance.yahoo.com/real-estate/articles/beyond-rent-true-cost-equity-180131088.html",
           "sentiment": 0.42
-        },
-        {
-          "title": "How New Rules And Robotaxi Pressure At Uber Technologies (UBER) Has Changed Its Investment Story",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/rules-robotaxi-pressure-uber-technologies-171443609.html",
-          "sentiment": -0.3
         }
       ],
       "valuationLabel": "Rich",
@@ -9246,26 +9246,26 @@
       "dividendYield": 1.55,
       "marketCap": 412039774208,
       "score": 4.7,
-      "newsSentiment": 0.38,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "What Are Dell Investors Betting On?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-investors-betting-223337133.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Is Arista Networks Stock Really Expensive?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-really-expensive-221844192.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Should You Buy, Sell, or Hold ALAB Stock Before Q3 Earnings Release?",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-alab-stock-162300895.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Mobile Virtualization - Global Strategic Business Report 2026 | Secure Your Share of a US$21 Billion Market by 2032 | Microsoft, VMware, Cisco, Google, and IBM Dominate",
-          "publisher": "GlobeNewswire",
-          "link": "https://finance.yahoo.com/technology/articles/mobile-virtualization-global-strategic-business-152200208.html",
-          "sentiment": 0.48
-        },
-        {
-          "title": "Virtualization Security - Capitalize on a 16.5% CAGR to Secure the US$4.9 Billion 2032 Market as Cisco, Fortinet, Checkpoint, Dell EMC, and Huawei Disrupt Defenses",
-          "publisher": "GlobeNewswire",
-          "link": "https://finance.yahoo.com/technology/articles/virtualization-security-capitalize-16-5-151700564.html",
-          "sentiment": 0.67
         }
       ],
       "valuationLabel": "Cheap",
@@ -9350,6 +9350,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "Why GE Vernova Stock Fell on Friday",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-ge-vernova-stock-fell-210409858.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "GE Vernova Stocks Decline 3% With Grid Expansion Adding Acquisition Execution Risk",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-stocks-decline-3-200335141.html",
@@ -9359,12 +9365,6 @@
           "title": "GE Vernova vs. Caterpillar: Wall Street Splinters on the AI Power Trade",
           "publisher": "Barrons.com",
           "link": "https://finance.yahoo.com/m/73a7ff36-ff13-3d6b-a4fc-c5501fa6fb32/ge-vernova-vs.-caterpillar%3A.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Hitachi\u2019s nuclear revenue rises as SMR delivery date approaches",
-          "publisher": "Utility Dive",
-          "link": "https://finance.yahoo.com/energy/articles/hitachi-nuclear-revenue-rises-smr-153942526.html",
           "sentiment": 0.0
         }
       ],
@@ -9396,9 +9396,28 @@
       "dividendYield": 0.0,
       "marketCap": 133277048832,
       "score": 3.1,
-      "newsSentiment": 0.0,
+      "newsSentiment": 0.03,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsHeadlines": [
+        {
+          "title": "Amex Platinum's $600 hotel credit now comes with a catch starting in 2027",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/credit-cards/article/amex-platinums-benefits-updates-2027-181143354.html",
+          "sentiment": 0.38
+        },
+        {
+          "title": "How New Rules And Robotaxi Pressure At Uber Technologies (UBER) Has Changed Its Investment Story",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/rules-robotaxi-pressure-uber-technologies-171443609.html",
+          "sentiment": -0.3
+        },
+        {
+          "title": "UBER Stock: Here\u2019s What to Expect From Uber's Q3 Earnings Report",
+          "publisher": "Barchart",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/uber-stock-expect-ubers-q3-152155585.html",
+          "sentiment": 0.0
+        }
+      ],
       "valuationLabel": "Cheap",
       "peVsSectorPct": -56.6,
       "sectorMedianPE": 33.0,
@@ -9481,6 +9500,12 @@
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
+          "title": "Cracks are emerging in the AI spending boom",
+          "publisher": "TechCrunch",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cracks-emerging-ai-spending-boom-211740864.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Former SEC Chair: Broadcom\u2019s $63 Billion Package Feels Like \u201cThat 08 Off-Balance Sheet Craze\u201d",
           "publisher": "TIKR",
           "link": "https://finance.yahoo.com/markets/stocks/articles/former-sec-chair-broadcom-63-205216871.html",
@@ -9491,12 +9516,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-decline-5-24-193807941.html",
           "sentiment": 0.4
-        },
-        {
-          "title": "Cramer: Broadcom\u2019s $63 Billion Anthropic Financing Works Because \u201cThere Is Only One Hock\u201d",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cramer-broadcom-63-billion-anthropic-181329804.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Fair",
@@ -9527,28 +9546,9 @@
       "dividendYield": 0.0,
       "marketCap": 212970405888,
       "score": 2.5,
-      "newsSentiment": 0.24,
-      "newsSentimentLabel": "Positive",
-      "newsHeadlines": [
-        {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
-        },
-        {
-          "title": "Arista Networks vs. Figma: Which Technology Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-vs-figma-technology-195002777.html",
-          "sentiment": 0.44
-        },
-        {
-          "title": "MPWR Q3 Earnings Surpass Estimates on Enterprise Data Strength",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mpwr-q3-earnings-surpass-estimates-135000749.html",
-          "sentiment": 0.49
-        }
-      ],
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
+      "newsHeadlines": [],
       "valuationLabel": "Rich",
       "peVsSectorPct": 61.8,
       "sectorMedianPE": 33.0,
@@ -9627,26 +9627,26 @@
       "dividendYield": 0.0,
       "marketCap": 1580341002240,
       "score": 7.0,
-      "newsSentiment": -0.19,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.02,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "SpaceX's Shotwell says 2 million shares to be gifted to children's Trump Accounts",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/spacexs-shotwell-says-2-million-214100331.html",
+          "sentiment": 0.3
+        },
+        {
+          "title": "Elon Musk vs. Tesla? His Midterm Money Could Work Against His Own Cars",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/economy/policy/articles/elon-musk-vs-tesla-midterm-210223226.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
           "sentiment": -0.23
-        },
-        {
-          "title": "In A Bad Week For The AI Trade, This One Mag Seven Stock Holds Strong",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/c6ea6dfa-fdb1-342d-acc1-568d7e2d17a5/in-a-bad-week-for-the-ai.html",
-          "sentiment": -0.05
-        },
-        {
-          "title": "Tesla Stocks Move Lower With Cybercab Certification Response Due Today",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-move-lower-cybercab-190652852.html",
-          "sentiment": -0.3
         }
       ],
       "valuationLabel": "Rich",
@@ -9677,26 +9677,26 @@
       "dividendYield": 0.0,
       "marketCap": 1829640994816,
       "score": 3.7,
-      "newsSentiment": -0.17,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.03,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
-        },
-        {
-          "title": "Tech Earnings Send SpaceX Stock Below IPO Price. No Other Companies Met Elon Musk\u2019s High Bar.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/b5aeecce-1d32-3744-aa96-e36fea749124/tech-earnings-send-spacex.html",
-          "sentiment": -0.3
-        },
-        {
-          "title": "Musk: \u201c10k Starship Launches/Year\u201d From Just One Site. SpaceX Says the FAA Is the Bottleneck",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/technology/articles/musk-10k-starship-launches-just-201048757.html",
+          "title": "Nvidia has a stake in SpaceX that came from an unexpected place",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stake-spacex-came-unexpected-223300497.html",
           "sentiment": 0.0
+        },
+        {
+          "title": "Elon Musk Says Neoclouds Face a \"Guppy Level\" Death. SpaceX Just Borrowed $40 Billion to Make Sure It Isn't One.",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-says-neoclouds-face-215000293.html",
+          "sentiment": -0.38
+        },
+        {
+          "title": "SpaceX's Shotwell says 2 million shares to be gifted to children's Trump Accounts",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/spacexs-shotwell-says-2-million-214100331.html",
+          "sentiment": 0.3
         }
       ],
       "valuationLabel": "Rich",
@@ -9727,9 +9727,15 @@
       "dividendYield": 0.0,
       "marketCap": 824073388032,
       "score": 4.8,
-      "newsSentiment": -0.11,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.22,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-30-212002526.html",
+          "sentiment": -0.8
+        },
         {
           "title": "Former SEC Chair: Broadcom\u2019s $63 Billion Package Feels Like \u201cThat 08 Off-Balance Sheet Craze\u201d",
           "publisher": "TIKR",
@@ -9741,12 +9747,6 @@
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
           "sentiment": -0.23
-        },
-        {
-          "title": "Wall Street closes sharply lower as AI cash burn fears spark tech\u00a0selloff",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html",
-          "sentiment": -0.48
         }
       ],
       "valuationLabel": "Rich",
@@ -9808,26 +9808,26 @@
       "dividendYield": 0.0,
       "marketCap": 349185605632,
       "score": 2.2,
-      "newsSentiment": -0.67,
+      "newsSentiment": -0.22,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
-          "title": "Intel stock plunges nearly 29%,  its worst day since 1974",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/intel-stock-plunges-nearly-29-its-worst-day-since-1974-205955309.html",
-          "sentiment": -0.85
+          "title": "Nvidia has a stake in SpaceX that came from an unexpected place",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stake-spacex-came-unexpected-223300497.html",
+          "sentiment": 0.0
         },
         {
-          "title": "Intel Stock Suffers Worst Crash in 50 Years as Weak Forecast Overshadows AI Chip Demand",
-          "publisher": "decrypt",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-suffers-worst-crash-205323630.html",
-          "sentiment": -0.92
+          "title": "Intel CEO reveals a PC problem as Goldman cuts stock target",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-ceo-reveals-pc-problem-220700996.html",
+          "sentiment": -0.67
         },
         {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
+          "title": "Intel\u2019s stock crashes, knocking $12B from government\u2019s stake",
+          "publisher": "TechCrunch",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-crashes-knocking-12b-215434820.html",
+          "sentiment": 0.0
         }
       ]
     },
@@ -10246,9 +10246,15 @@
       "dividendYield": 4.59,
       "marketCap": 176427401216,
       "score": 4.1,
-      "newsSentiment": -0.04,
+      "newsSentiment": 0.14,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Novo Nordisk (NYSE:NVO) Could Be 61% Undervalued Following Rising GLP 1 Competition",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-nyse-nvo-could-221413251.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Eli Lilly\u2019s Next Trillion-Dollar Opportunity May Go Beyond Weight-Loss Drugs",
           "publisher": "24/7 Wall St.",
@@ -10260,12 +10266,6 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-nvo-sets-2030-170922500.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Agios Sinks 18% as FDA Delays Sickle Cell Drug Decision to 2027 Despite Being \u201cLaunch-Ready\u201d",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/healthcare/articles/agios-sinks-18-fda-delays-155620558.html",
-          "sentiment": -0.54
         }
       ],
       "valuationLabel": "Cheap",
@@ -10392,9 +10392,15 @@
       "dividendYield": 4.01,
       "marketCap": 129784053760,
       "score": 7.5,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.2,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "The Oil Giants Are Raking In Cash. Here\u2019s What They\u2019ll Do With It.",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/9c6f7f41-b911-3266-aef4-0cdcc23c803a/the-oil-giants-are-raking-in.html",
+          "sentiment": 0.0
+        },
         {
           "title": "BP's Blowout Quarter Comes With a Big Catch",
           "publisher": "GuruFocus.com",
@@ -10406,12 +10412,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/energy/articles/bp-bp-q3-2026-earnings-174315572.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "European Equities Mostly Lower in Friday Trading; BP CEO Denies Breakup Discussions",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/world-indices/articles/european-equities-mostly-lower-friday-170733411.html",
-          "sentiment": -0.61
         }
       ],
       "valuationLabel": "Rich",
@@ -10442,9 +10442,15 @@
       "dividendYield": 1.72,
       "marketCap": 100806901760,
       "score": 6.8,
-      "newsSentiment": 0.46,
+      "newsSentiment": 0.27,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "General Dynamics Corporation Q3 2026 Earnings Call Summary",
+          "publisher": "Moby",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/general-dynamics-corporation-q3-2026-212432132.html",
+          "sentiment": 0.27
+        },
         {
           "title": "General Dynamics (GD) Q3 2026 Earnings Call Transcript",
           "publisher": "Motley Fool",
@@ -10456,12 +10462,6 @@
           "publisher": "MarketBeat",
           "link": "https://finance.yahoo.com/markets/stocks/articles/general-dynamics-gd-said-q3-201443043.html",
           "sentiment": 0.27
-        },
-        {
-          "title": "General Dynamics Raises Full-Year Guidance Following Third-Quarter Beat",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/general-dynamics-raises-full-guidance-180408926.html",
-          "sentiment": 0.84
         }
       ],
       "valuationLabel": "Cheap",
@@ -10692,9 +10692,15 @@
       "dividendYield": 5.68,
       "marketCap": 110238597120,
       "score": 5.4,
-      "newsSentiment": -0.07,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.29,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Williams Companies Reports Soon: How Has The Stock Reacted To Past Earnings?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/williams-companies-reports-soon-stock-221208519.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Enbridge (TSX:ENB) Stock May Trade At A Premium Despite Gas Demand Growth News",
           "publisher": "Simply Wall St.",
@@ -10706,12 +10712,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/energy/articles/chevron-vs-enbridge-energy-giant-180101726.html",
           "sentiment": -0.66
-        },
-        {
-          "title": "UGP or ENB: Which Is the Better Value Stock Right Now?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ugp-enb-better-value-stock-144002418.html",
-          "sentiment": 0.65
         }
       ],
       "valuationLabel": "Rich",
@@ -10792,28 +10792,9 @@
       "dividendYield": 3.25,
       "marketCap": 140539969536,
       "score": 8.7,
-      "newsSentiment": -0.05,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [
-        {
-          "title": "Clorox Names Unilever\u2019s Fabian Garcia as CEO",
-          "publisher": "The Wall Street Journal",
-          "link": "https://finance.yahoo.com/m/6dbe4c3e-f5cb-3f9b-954b-715ef6445207/clorox-names-unilever%E2%80%99s.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Unilever (LSE:ULVR) Faces Dutch Block On Brand Disposal As It Lifts 2026 Outlook",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/unilever-lse-ulvr-faces-dutch-091712677.html",
-          "sentiment": -0.44
-        },
-        {
-          "title": "Nelson Peltz's Group Proposes $7.35 a Share for a Burger Chain the Same Week He Joins a Hockey Company's Board",
-          "publisher": "PR Newswire",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nelson-peltzs-group-proposes-7-183000509.html",
-          "sentiment": 0.3
-        }
-      ],
+      "newsHeadlines": [],
       "valuationLabel": "Cheap",
       "peVsSectorPct": -18.5,
       "sectorMedianPE": 16.2,
@@ -10844,7 +10825,26 @@
       "score": 3.4,
       "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsHeadlines": [
+        {
+          "title": "Construction Begins on Harvest34, Bringing 44 Deeply Affordable Family Townhomes to Boulder",
+          "publisher": "GlobeNewswire",
+          "link": "https://finance.yahoo.com/real-estate/articles/construction-begins-harvest34-bringing-44-152800987.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "3 Australian Dividend Stocks With Yields Over 3%",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-dividend-stocks-yields-011348001.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "3 Australian Dividend Stocks With Up To 4% Yield",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-dividend-stocks-4-001356337.html",
+          "sentiment": 0.0
+        }
+      ],
       "valuationLabel": "Fair",
       "peVsSectorPct": 0.0,
       "sectorMedianPE": 20.5,
@@ -11204,9 +11204,15 @@
       "dividendYield": 4.27,
       "marketCap": 209949310976,
       "score": 7.6,
-      "newsSentiment": 0.32,
+      "newsSentiment": 0.25,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "The Oil Giants Are Raking In Cash. Here\u2019s What They\u2019ll Do With It.",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/9c6f7f41-b911-3266-aef4-0cdcc23c803a/the-oil-giants-are-raking-in.html",
+          "sentiment": 0.0
+        },
         {
           "title": "What TechnipFMC (FTI) Said on Its Q3 Earnings Call",
           "publisher": "MarketBeat",
@@ -11218,12 +11224,6 @@
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-totalenergies-123807337.html",
           "sentiment": 0.74
-        },
-        {
-          "title": "ExxonMobil earnings top estimates as diesel, gasoline spike fuels refining margins",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/energy/articles/exxonmobil-earnings-top-estimates-diesel-110944238.html",
-          "sentiment": 0.2
         }
       ],
       "valuationLabel": "Cheap",
@@ -11304,26 +11304,26 @@
       "dividendYield": 2.37,
       "marketCap": 161340882944,
       "score": 3.5,
-      "newsSentiment": -0.24,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.07,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Orchard Partners Selects JLL To Market 892K SF Manufacturing Campus In Brisbane: The San Francisco Deal Sheet",
+          "publisher": "Bisnow",
+          "link": "https://finance.yahoo.com/real-estate/articles/orchard-partners-selects-jll-market-221120285.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "The King of Trash, Following David Duong's Journey From Vietnamese Refugee to Business Leader, Named Finalist at 13th San Francisco International New Concept Film Festival",
+          "publisher": "PR Newswire",
+          "link": "https://finance.yahoo.com/small-business/articles/king-trash-following-david-duongs-220900549.html",
+          "sentiment": 0.49
+        },
         {
           "title": "Avenzo Therapeutics to Present Preliminary Phase 1 Results from ORION-1 Study of AVZO-023, a Selective CDK4 Inhibitor, at the 2026 San Antonio Breast Cancer Symposium",
           "publisher": "Business Wire",
           "link": "https://finance.yahoo.com/healthcare/articles/avenzo-therapeutics-present-preliminary-phase-203000092.html",
           "sentiment": -0.69
-        },
-        {
-          "title": "From Prison Classroom to National Audience: \"Basement People\" Screens at San Quentin Film Festival and Digitally Debuts Nationally on Securus Technologies Tablets",
-          "publisher": "PR Newswire",
-          "link": "https://finance.yahoo.com/media-advertising/articles/prison-classroom-national-audience-basement-190200843.html",
-          "sentiment": -0.03
-        },
-        {
-          "title": "We Drove 3,900 Miles From San Francisco to Boston With Seven Giant-Sequoia Seedlings",
-          "publisher": "The Wall Street Journal",
-          "link": "https://finance.yahoo.com/m/666bbe01-7dc9-3235-a229-f9b2ab4f4878/we-drove-3%2C900-miles-from-san.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -11454,9 +11454,15 @@
       "dividendYield": 5.61,
       "marketCap": 106244734976,
       "score": 5.8,
-      "newsSentiment": 0.23,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.14,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "EssilorLuxottica Stock And Eurozone Healthcare Giants Worth Watching Now",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/healthcare/articles/essilorluxottica-stock-eurozone-healthcare-giants-221733843.html",
+          "sentiment": 0.23
+        },
         {
           "title": "Regeneron Bolts 13% Higher, Breaking Out To A Two-Year High On Dupixent Dominance",
           "publisher": "Investor's Business Daily",
@@ -11468,12 +11474,6 @@
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-afternoon-195415462.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Sanofi Jumps 6% as New CEO Opens Door to Bigger Deals",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/healthcare/articles/sanofi-jumps-6-ceo-opens-190749409.html",
-          "sentiment": 0.49
         }
       ],
       "valuationLabel": "Fair",
@@ -11546,7 +11546,7 @@
     "costPerContract": 716.5
   },
   "market": {
-    "asOf": "2026-10-30T21:08:40.456805+00:00",
+    "asOf": "2026-10-30T23:07:50.324003+00:00",
     "gauges": [
       {
         "key": "qqq",
