@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T23:07:50.324014+00:00",
+  "generated_at": "2026-10-31T01:38:43.902072+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -9,18 +9,18 @@
       "isETF": false,
       "spot": 344.63,
       "spotPriceStale": false,
-      "strike": "$328/322",
+      "strike": "$322/315",
       "hedge": null,
-      "exp": "Nov 6",
-      "dte": 7,
+      "exp": "Nov 20",
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 38,
-      "ap": 818.6,
+      "ap": 275.0,
       "ivr": 9,
       "ivRankLimited": false,
-      "dailyReturn": 11.21,
-      "roc": 15.7,
+      "dailyReturn": 5.65,
+      "roc": 15.07,
       "score": 5.8,
       "buy": true,
       "momentum": "bull",
@@ -28,53 +28,59 @@
       "sell": false,
       "ema": true,
       "earningsSoon": true,
-      "daysToEarnings": 3,
+      "daysToEarnings": 2,
       "marginOfSafety": true,
       "delta": -0.19,
-      "iv": 44.3,
-      "premium": 0.78,
-      "breakeven": 326.71,
+      "iv": 35.4,
+      "premium": 1.13,
+      "breakeven": 321.37,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 421.5,
-      "pcOI": 1.55,
-      "pcVol": 2.59,
+      "maxLoss": 637.0,
+      "pcOI": 0.8,
+      "pcVol": 3.34,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 711,
+        "minOI": 412,
         "worstSpreadPct": 7.4,
-        "midPremium": 0.78,
-        "fillPremium": 0.71,
+        "midPremium": 1.13,
+        "fillPremium": 1.04,
         "weakLeg": {
           "type": "put",
           "strike": 322.5,
-          "action": "buy"
+          "action": "sell"
         },
         "legQuotes": [
           {
             "type": "put",
-            "strike": 327.5,
+            "strike": 322.5,
             "action": "sell",
-            "bid": 2.59,
-            "ask": 2.76,
-            "oi": 961
+            "bid": 3.25,
+            "ask": 3.5,
+            "oi": 412
           },
           {
             "type": "put",
-            "strike": 322.5,
+            "strike": 315.0,
             "action": "buy",
-            "bid": 1.82,
-            "ask": 1.96,
-            "oi": 711
+            "bid": 2.18,
+            "ask": 2.31,
+            "oi": 10663
           }
         ],
-        "expiryOI": 161604
+        "expiryOI": 623951
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.18,
+      "newsSentiment": 0.28,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Big Homes, Big Loans",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/9aa518a9-bace-3e02-a215-82b14364d8d4/big-homes%2C-big-loans.html",
+          "sentiment": 0.0
+        },
         {
           "title": "What Are Dell Investors Betting On?",
           "publisher": "Trefis",
@@ -82,32 +88,26 @@
           "sentiment": 0.0
         },
         {
-          "title": "Apple overtakes Nvidia to become world\u2019s most valuable company amid tech selloff",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-overtakes-nvidia-become-world-214753575.html",
-          "sentiment": 0.53
-        },
-        {
-          "title": "Tech, Media & Telecom Roundup: Market Talk",
-          "publisher": "The Wall Street Journal",
-          "link": "https://finance.yahoo.com/m/5ba2daa7-e9f4-38ba-a2ba-0f1b84efd4fa/tech%2C-media-%26-telecom.html",
-          "sentiment": 0.0
+          "title": "Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html",
+          "sentiment": 0.83
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 3.06,
+      "ivRvRatio": 2.44,
       "realizedVol": 14.5,
-      "expDate": "2026-11-06",
+      "expDate": "2026-11-20",
       "legs": [
         {
           "type": "put",
-          "strike": 327.5,
+          "strike": 322.5,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "put",
-          "strike": 322.5,
+          "strike": 315.0,
           "action": "buy",
           "qty": 1
         }
@@ -128,14 +128,14 @@
       "strike": "$490/480",
       "hedge": null,
       "exp": "Nov 27",
-      "dte": 28,
+      "dte": 27,
       "backExp": null,
       "backExpDate": null,
-      "pot": 42,
-      "ap": 247.7,
+      "pot": 43,
+      "ap": 256.9,
       "ivr": 13,
       "ivRankLimited": false,
-      "dailyReturn": 6.79,
+      "dailyReturn": 7.04,
       "roc": 19.0,
       "score": 6.9,
       "buy": true,
@@ -144,10 +144,10 @@
       "sell": false,
       "ema": true,
       "earningsSoon": false,
-      "daysToEarnings": 89,
+      "daysToEarnings": 88,
       "marginOfSafety": true,
       "delta": -0.21,
-      "iv": 31.8,
+      "iv": 32.4,
       "premium": 1.9,
       "breakeven": 488.1,
       "breakevenLow": null,
@@ -188,30 +188,30 @@
         "expiryOI": 19281
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.15,
+      "newsSentiment": 0.01,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "\u2018Big Short\u2019 trader says Anthropic slowdown tests AI boom",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-short-trader-says-anthropic-003700392.html",
+          "sentiment": -0.42
+        },
+        {
+          "title": "Big Homes, Big Loans",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/9aa518a9-bace-3e02-a215-82b14364d8d4/big-homes%2C-big-loans.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
           "sentiment": 0.44
-        },
-        {
-          "title": "Cracks are emerging in the AI spending boom",
-          "publisher": "TechCrunch",
-          "link": "https://finance.yahoo.com/technology/ai/articles/cracks-emerging-ai-spending-boom-211740864.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Axios Live: How employers are rethinking AI's role in entry-level work",
-          "publisher": "Axios",
-          "link": "https://finance.yahoo.com/technology/ai/articles/axios-live-employers-rethinking-ais-211016358.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.57,
+      "ivRvRatio": 1.6,
       "realizedVol": 20.3,
       "expDate": "2026-11-27",
       "legs": [
@@ -244,14 +244,14 @@
       "strike": "$225/230",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 42,
-      "ap": 295.5,
+      "ap": 310.2,
       "ivr": 29,
       "ivRankLimited": false,
-      "dailyReturn": 4.05,
+      "dailyReturn": 4.25,
       "roc": 17.0,
       "score": 6.0,
       "buy": false,
@@ -260,10 +260,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 18,
+      "daysToEarnings": 17,
       "marginOfSafety": true,
       "delta": 0.21,
-      "iv": 44.9,
+      "iv": 45.9,
       "premium": 0.85,
       "breakeven": 225.85,
       "breakevenLow": null,
@@ -304,30 +304,30 @@
         "expiryOI": 1549039
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.4,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.01,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Why Bright Horizons Family Solutions Stock Swooned on Friday",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-bright-horizons-family-solutions-224024585.html",
-          "sentiment": 0.56
+          "title": "\u2018Big Short\u2019 trader says Anthropic slowdown tests AI boom",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-short-trader-says-anthropic-003700392.html",
+          "sentiment": -0.42
         },
         {
-          "title": "Nvidia has a stake in SpaceX that came from an unexpected place",
-          "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stake-spacex-came-unexpected-223300497.html",
+          "title": "Why Merck Stock Flew Higher on Friday",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-merck-stock-flew-higher-001827564.html",
           "sentiment": 0.0
         },
         {
-          "title": "Why CareDx Stock Soared Today",
+          "title": "Amazon Just Lost $42 Billion in Free Cash Flow. Is It a Red Flag for Investors?",
           "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-caredx-stock-soared-today-222426471.html",
-          "sentiment": 0.64
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-just-lost-42-billion-235001609.html",
+          "sentiment": 0.4
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.38,
+      "ivRvRatio": 1.41,
       "realizedVol": 32.5,
       "expDate": "2026-11-20",
       "legs": [
@@ -357,88 +357,94 @@
       "isETF": false,
       "spot": 614.99,
       "spotPriceStale": false,
-      "strike": "$582/588/645/650",
+      "strike": "$560/570/670/680",
       "hedge": null,
-      "exp": "Nov 6",
-      "dte": 7,
+      "exp": "Nov 20",
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
-      "pot": 41,
-      "ap": 1809.4,
+      "pot": 42,
+      "ap": 625.1,
       "ivr": 42,
       "ivRankLimited": false,
-      "dailyReturn": 24.79,
-      "roc": 34.7,
-      "score": 6.9,
+      "dailyReturn": 17.12,
+      "roc": 34.25,
+      "score": 6.8,
       "buy": false,
       "momentum": "neutral",
       "ret3m": 4.3,
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 89,
+      "daysToEarnings": 88,
       "marginOfSafety": true,
       "delta": 0.0,
-      "iv": 39.6,
-      "premium": 1.73,
-      "breakeven": 585.76,
-      "breakevenLow": 585.76,
-      "breakevenHigh": 646.74,
+      "iv": 41.6,
+      "premium": 3.42,
+      "breakeven": 566.58,
+      "breakevenLow": 566.58,
+      "breakevenHigh": 673.42,
       "breakevenMovePct": null,
-      "maxLoss": 326.5,
-      "pcOI": 0.92,
-      "pcVol": 0.49,
+      "maxLoss": 657.5,
+      "pcOI": 0.54,
+      "pcVol": 0.76,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 211,
-        "worstSpreadPct": 9.8,
-        "midPremium": 1.73,
-        "fillPremium": 1.44,
+        "minOI": 1755,
+        "worstSpreadPct": 6.4,
+        "midPremium": 3.42,
+        "fillPremium": 3.09,
         "weakLeg": {
-          "type": "put",
-          "strike": 587.5,
-          "action": "sell"
+          "type": "call",
+          "strike": 680.0,
+          "action": "buy"
         },
         "legQuotes": [
           {
             "type": "put",
-            "strike": 587.5,
+            "strike": 570.0,
             "action": "sell",
-            "bid": 4.3,
-            "ask": 4.65,
-            "oi": 211
+            "bid": 7.55,
+            "ask": 8.05,
+            "oi": 2124
           },
           {
             "type": "put",
-            "strike": 582.5,
+            "strike": 560.0,
             "action": "buy",
-            "bid": 3.4,
-            "ask": 3.75,
-            "oi": 361
+            "bid": 5.75,
+            "ask": 6.05,
+            "oi": 3894
           },
           {
             "type": "call",
-            "strike": 645.0,
+            "strike": 670.0,
             "action": "sell",
-            "bid": 3.75,
-            "ask": 4.05,
-            "oi": 3760
+            "bid": 6.1,
+            "ask": 6.5,
+            "oi": 3127
           },
           {
             "type": "call",
-            "strike": 650.0,
+            "strike": 680.0,
             "action": "buy",
-            "bid": 2.98,
-            "ask": 3.15,
-            "oi": 2250
+            "bid": 4.7,
+            "ask": 4.85,
+            "oi": 1755
           }
         ],
-        "expiryOI": 113494
+        "expiryOI": 472581
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.1,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.16,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "The New Bottleneck in America\u2019s AI Build-Out: A Shortage of Cheap Money",
+          "publisher": "The Wall Street Journal",
+          "link": "https://finance.yahoo.com/m/9ee3a635-3cc5-33bd-b372-23112d0b6a69/the-new-bottleneck-in.html",
+          "sentiment": -0.25
+        },
         {
           "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
           "publisher": "MT Newswires",
@@ -450,40 +456,34 @@
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/technology/ai/articles/meta-credit-rating-outlook-downgraded-215600853.html",
           "sentiment": -0.68
-        },
-        {
-          "title": "Apple overtakes Nvidia to become world\u2019s most valuable company amid tech selloff",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-overtakes-nvidia-become-world-214753575.html",
-          "sentiment": 0.53
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 1.04,
+      "ivRvRatio": 1.09,
       "realizedVol": 38.0,
-      "expDate": "2026-11-06",
+      "expDate": "2026-11-20",
       "legs": [
         {
           "type": "put",
-          "strike": 587.5,
+          "strike": 570.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "put",
-          "strike": 582.5,
+          "strike": 560.0,
           "action": "buy",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 645.0,
+          "strike": 670.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 650.0,
+          "strike": 680.0,
           "action": "buy",
           "qty": 1
         }
@@ -504,11 +504,11 @@
       "strike": "$275/265",
       "hedge": null,
       "exp": "Nov 27",
-      "dte": 28,
+      "dte": 27,
       "backExp": null,
       "backExpDate": null,
       "pot": 36,
-      "ap": 3041.6,
+      "ap": 3154.3,
       "ivr": 97,
       "ivRankLimited": false,
       "dailyReturn": null,
@@ -520,10 +520,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 96,
+      "daysToEarnings": 95,
       "marginOfSafety": false,
       "delta": -0.41,
-      "iv": 29.8,
+      "iv": 30.3,
       "premium": 3.0,
       "breakeven": 272.0,
       "breakevenLow": null,
@@ -564,30 +564,30 @@
         "expiryOI": 29211
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.08,
+      "newsSentiment": -0.07,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Veteran fund manager revamps Alphabet stock price target after brutal sell-off",
+          "title": "Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/stocktwits-weekly-spread-shaped-treasury-005438925.html",
+          "sentiment": 0.2
+        },
+        {
+          "title": "\u2018Big Short\u2019 trader says Anthropic slowdown tests AI boom",
           "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/veteran-fund-manager-revamps-alphabet-222551042.html",
-          "sentiment": -0.62
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-short-trader-says-anthropic-003700392.html",
+          "sentiment": -0.42
         },
         {
-          "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
-          "sentiment": 0.44
-        },
-        {
-          "title": "Learn Why The Bull Case For Verizon Communications (VZ) Could Change Following Raised Outlook",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-verizon-221305487.html",
-          "sentiment": 0.42
+          "title": "Review & Preview: Ending on a Down Note",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/b0499f52-933b-3c3a-a9fe-a4d478f02828/review-%26-preview%3A-ending-on-a.html",
+          "sentiment": 0.0
         }
       ],
       "volRegime": "Cheap",
-      "ivRvRatio": 0.6,
+      "ivRvRatio": 0.61,
       "realizedVol": 49.6,
       "expDate": "2026-11-27",
       "legs": [
@@ -617,83 +617,83 @@
       "isETF": false,
       "spot": 337.04,
       "spotPriceStale": false,
-      "strike": "$322/328/348/352",
+      "strike": "$315/325/350/360",
       "hedge": null,
-      "exp": "Nov 6",
-      "dte": 7,
+      "exp": "Nov 13",
+      "dte": 13,
       "backExp": null,
       "backExpDate": null,
-      "pot": 38,
-      "ap": 1298.4,
+      "pot": 45,
+      "ap": 664.0,
       "ivr": 10,
       "ivRankLimited": false,
-      "dailyReturn": 17.79,
-      "roc": 24.9,
-      "score": 6.4,
+      "dailyReturn": 18.19,
+      "roc": 23.65,
+      "score": 6.2,
       "buy": true,
       "momentum": "neutral",
       "ret3m": -3.9,
       "sell": false,
       "ema": true,
       "earningsSoon": false,
-      "daysToEarnings": 76,
+      "daysToEarnings": 75,
       "marginOfSafety": true,
-      "delta": -0.02,
-      "iv": 23.7,
-      "premium": 1.25,
-      "breakeven": 326.25,
-      "breakevenLow": 326.25,
-      "breakevenHigh": 348.75,
+      "delta": 0.0,
+      "iv": 24.8,
+      "premium": 2.37,
+      "breakeven": 322.63,
+      "breakevenLow": 322.63,
+      "breakevenHigh": 352.37,
       "breakevenMovePct": null,
-      "maxLoss": 375.5,
-      "pcOI": 0.97,
-      "pcVol": 0.84,
+      "maxLoss": 763.5,
+      "pcOI": 0.48,
+      "pcVol": 0.86,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 198,
-        "worstSpreadPct": 48.6,
-        "midPremium": 1.25,
-        "fillPremium": 0.99,
+        "minOI": 128,
+        "worstSpreadPct": 83.7,
+        "midPremium": 2.36,
+        "fillPremium": 1.94,
         "weakLeg": {
           "type": "put",
-          "strike": 322.5,
-          "action": "buy"
+          "strike": 325.0,
+          "action": "sell"
         },
         "legQuotes": [
           {
             "type": "put",
-            "strike": 327.5,
+            "strike": 325.0,
             "action": "sell",
-            "bid": 1.28,
-            "ask": 1.55,
-            "oi": 305
+            "bid": 2.0,
+            "ask": 2.38,
+            "oi": 128
           },
           {
             "type": "put",
-            "strike": 322.5,
+            "strike": 315.0,
             "action": "buy",
-            "bid": 0.62,
-            "ask": 0.91,
-            "oi": 198
+            "bid": 0.75,
+            "ask": 1.27,
+            "oi": 441
           },
           {
             "type": "call",
-            "strike": 347.5,
+            "strike": 350.0,
             "action": "sell",
-            "bid": 0.83,
-            "ask": 1.1,
-            "oi": 370
+            "bid": 1.4,
+            "ask": 1.83,
+            "oi": 1952
           },
           {
             "type": "call",
-            "strike": 352.5,
+            "strike": 360.0,
             "action": "buy",
-            "bid": 0.28,
-            "ask": 0.46,
-            "oi": 393
+            "bid": 0.25,
+            "ask": 0.61,
+            "oi": 480
           }
         ],
-        "expiryOI": 13259
+        "expiryOI": 7220
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.2,
@@ -719,31 +719,31 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.55,
+      "ivRvRatio": 1.62,
       "realizedVol": 15.3,
-      "expDate": "2026-11-06",
+      "expDate": "2026-11-13",
       "legs": [
         {
           "type": "put",
-          "strike": 327.5,
+          "strike": 325.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "put",
-          "strike": 322.5,
+          "strike": 315.0,
           "action": "buy",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 347.5,
+          "strike": 350.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 352.5,
+          "strike": 360.0,
           "action": "buy",
           "qty": 1
         }
@@ -764,11 +764,11 @@
       "strike": "$130/128",
       "hedge": null,
       "exp": "Nov 13",
-      "dte": 14,
+      "dte": 13,
       "backExp": null,
       "backExpDate": null,
       "pot": 43,
-      "ap": 3186.5,
+      "ap": 3431.6,
       "ivr": 93,
       "ivRankLimited": false,
       "dailyReturn": null,
@@ -780,10 +780,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 45,
+      "daysToEarnings": 44,
       "marginOfSafety": false,
       "delta": -0.45,
-      "iv": 55.3,
+      "iv": 57.3,
       "premium": 0.9,
       "breakeven": 129.1,
       "breakevenLow": null,
@@ -847,7 +847,7 @@
         }
       ],
       "volRegime": "Cheap",
-      "ivRvRatio": 0.78,
+      "ivRvRatio": 0.81,
       "realizedVol": 70.9,
       "expDate": "2026-11-13",
       "legs": [
@@ -880,14 +880,14 @@
       "strike": "$258/262",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 43,
-      "ap": 279.8,
+      "ap": 293.8,
       "ivr": 85,
       "ivRankLimited": false,
-      "dailyReturn": 3.83,
+      "dailyReturn": 4.02,
       "roc": 16.1,
       "score": 6.9,
       "buy": false,
@@ -896,10 +896,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 97,
+      "daysToEarnings": 96,
       "marginOfSafety": true,
       "delta": 0.22,
-      "iv": 33.5,
+      "iv": 34.3,
       "premium": 0.8,
       "breakeven": 258.31,
       "breakevenLow": null,
@@ -940,30 +940,30 @@
         "expiryOI": 716465
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.46,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.02,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
+          "title": "Creative Newtech Ltd (NSE:CNL) (Q2 2027) Earnings Call Highlights: Rs 3,195 Crore BSNL Order, ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/creative-newtech-ltd-nse-cnl-011213972.html",
           "sentiment": 0.44
         },
         {
-          "title": "Learn Why The Bull Case For Verizon Communications (VZ) Could Change Following Raised Outlook",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-verizon-221305487.html",
-          "sentiment": 0.42
+          "title": "\u2018Big Short\u2019 trader says Anthropic slowdown tests AI boom",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-short-trader-says-anthropic-003700392.html",
+          "sentiment": -0.42
         },
         {
-          "title": "Apple overtakes Nvidia to become world\u2019s most valuable company amid tech selloff",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-overtakes-nvidia-become-world-214753575.html",
-          "sentiment": 0.53
+          "title": "S&P 500, Nasdaq End Third Straight Week Lower As Investors Move Away From Tech, AI \u2014  AMZN, INTC, LLY, RBLX In Focus",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-end-third-000539225.html",
+          "sentiment": -0.08
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 0.93,
+      "ivRvRatio": 0.95,
       "realizedVol": 36.2,
       "expDate": "2026-11-20",
       "legs": [
@@ -996,11 +996,11 @@
       "strike": "$75/65",
       "hedge": null,
       "exp": "Nov 13",
-      "dte": 14,
+      "dte": 13,
       "backExp": null,
       "backExpDate": null,
       "pot": 33,
-      "ap": 4345.3,
+      "ap": 4679.6,
       "ivr": 77,
       "ivRankLimited": false,
       "dailyReturn": null,
@@ -1015,7 +1015,7 @@
       "daysToEarnings": null,
       "marginOfSafety": false,
       "delta": -0.4,
-      "iv": 142.2,
+      "iv": 147.2,
       "premium": 3.75,
       "breakeven": 71.25,
       "breakevenLow": null,
@@ -1079,7 +1079,7 @@
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 0.88,
+      "ivRvRatio": 0.91,
       "realizedVol": 161.3,
       "expDate": "2026-11-13",
       "legs": [
@@ -1107,14 +1107,14 @@
       "strike": "$72/73",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 40,
-      "ap": 608.3,
+      "ap": 638.8,
       "ivr": 77,
       "ivRankLimited": false,
-      "dailyReturn": 1.67,
+      "dailyReturn": 1.75,
       "roc": 35.0,
       "score": 7.5,
       "buy": false,
@@ -1126,7 +1126,7 @@
       "daysToEarnings": null,
       "marginOfSafety": true,
       "delta": 0.2,
-      "iv": 66.2,
+      "iv": 67.7,
       "premium": 0.35,
       "breakeven": 72.35,
       "breakevenLow": null,
@@ -1190,7 +1190,7 @@
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 0.95,
+      "ivRvRatio": 0.97,
       "realizedVol": 69.9,
       "expDate": "2026-11-20",
       "legs": [
@@ -1218,14 +1218,14 @@
       "strike": "$67/68",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 39,
-      "ap": 226.0,
+      "ap": 237.2,
       "ivr": 52,
       "ivRankLimited": false,
-      "dailyReturn": 0.62,
+      "dailyReturn": 0.65,
       "roc": 13.0,
       "score": 7.1,
       "buy": false,
@@ -1234,10 +1234,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 81,
+      "daysToEarnings": 80,
       "marginOfSafety": true,
       "delta": 0.19,
-      "iv": 34.1,
+      "iv": 34.9,
       "premium": 0.13,
       "breakeven": 67.13,
       "breakevenLow": null,
@@ -1301,7 +1301,7 @@
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 0.99,
+      "ivRvRatio": 1.01,
       "realizedVol": 34.6,
       "expDate": "2026-11-20",
       "legs": [
@@ -1334,11 +1334,11 @@
       "strike": "$105/95",
       "hedge": null,
       "exp": "Nov 13",
-      "dte": 14,
+      "dte": 13,
       "backExp": null,
       "backExpDate": null,
       "pot": 35,
-      "ap": 5600.1,
+      "ap": 6030.9,
       "ivr": 100,
       "ivRankLimited": false,
       "dailyReturn": null,
@@ -1350,10 +1350,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 89,
+      "daysToEarnings": 88,
       "marginOfSafety": false,
       "delta": -0.47,
-      "iv": 50.1,
+      "iv": 51.9,
       "premium": 3.18,
       "breakeven": 101.83,
       "breakevenLow": null,
@@ -1394,9 +1394,15 @@
         "expiryOI": 19536
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.05,
+      "newsSentiment": -0.09,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "New Homes Now Cheaper Than Existing Houses After 50-Year Trend Reversal, Hedgeye Says: \u2018The Builder Has to Sell\u2019",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/real-estate/articles/homes-now-cheaper-existing-houses-223004793.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Trump touted a record Venezuela oil deal. Now reality is setting in",
           "publisher": "Reuters",
@@ -1408,16 +1414,10 @@
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
           "sentiment": -0.23
-        },
-        {
-          "title": "IBM vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-vs-servicenow-technology-stock-203501226.html",
-          "sentiment": 0.44
         }
       ],
       "volRegime": "Cheap",
-      "ivRvRatio": 0.42,
+      "ivRvRatio": 0.43,
       "realizedVol": 119.7,
       "expDate": "2026-11-13",
       "legs": [
@@ -1450,14 +1450,14 @@
       "strike": "$225/230/280/290",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 41,
-      "ap": 372.0,
+      "ap": 390.5,
       "ivr": 52,
       "ivRankLimited": false,
-      "dailyReturn": 10.19,
+      "dailyReturn": 10.7,
       "roc": 21.4,
       "score": 7.0,
       "buy": true,
@@ -1466,10 +1466,10 @@
       "sell": false,
       "ema": true,
       "earningsSoon": false,
-      "daysToEarnings": 40,
+      "daysToEarnings": 39,
       "marginOfSafety": true,
       "delta": -0.03,
-      "iv": 47.4,
+      "iv": 48.6,
       "premium": 2.14,
       "breakeven": 227.86,
       "breakevenLow": 227.86,
@@ -1549,7 +1549,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.15,
+      "ivRvRatio": 1.18,
       "realizedVol": 41.3,
       "expDate": "2026-11-20",
       "legs": [
@@ -1594,14 +1594,14 @@
       "strike": "$205/215/250/260",
       "hedge": null,
       "exp": "Nov 13",
-      "dte": 14,
+      "dte": 13,
       "backExp": null,
       "backExpDate": null,
       "pot": 44,
-      "ap": 680.5,
+      "ap": 732.8,
       "ivr": 20,
       "ivRankLimited": false,
-      "dailyReturn": 18.64,
+      "dailyReturn": 20.08,
       "roc": 26.1,
       "score": 6.4,
       "buy": false,
@@ -1610,10 +1610,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 33,
+      "daysToEarnings": 32,
       "marginOfSafety": true,
       "delta": -0.05,
-      "iv": 45.9,
+      "iv": 47.5,
       "premium": 2.61,
       "breakeven": 212.39,
       "breakevenLow": 212.39,
@@ -1670,9 +1670,15 @@
         "expiryOI": 6569
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.38,
+      "newsSentiment": 0.39,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Salesforce\u2019s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+          "publisher": "TechCrunch",
+          "link": "https://finance.yahoo.com/technology/ai/articles/salesforce-m-spree-continues-reported-232123064.html",
+          "sentiment": 0.13
+        },
         {
           "title": "Earnings Beat May Change The Case For Bandwidth Stock",
           "publisher": "Simply Wall St.",
@@ -1684,16 +1690,10 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-vs-servicenow-technology-stock-203501226.html",
           "sentiment": 0.44
-        },
-        {
-          "title": "Leaders from Wolters Kluwer, Microsoft, Salesforce, and McKinsey challenge accounting firms to make one AI move in the next 90 days",
-          "publisher": "Business Wire",
-          "link": "https://finance.yahoo.com/technology/ai/articles/leaders-wolters-kluwer-microsoft-salesforce-201500186.html",
-          "sentiment": 0.08
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.33,
+      "ivRvRatio": 1.38,
       "realizedVol": 34.4,
       "expDate": "2026-11-13",
       "legs": [
@@ -1738,14 +1738,14 @@
       "strike": "$222/218",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 41,
-      "ap": 425.8,
+      "ap": 447.1,
       "ivr": 68,
       "ivRankLimited": false,
-      "dailyReturn": 5.83,
+      "dailyReturn": 6.12,
       "roc": 24.5,
       "score": 6.7,
       "buy": true,
@@ -1754,10 +1754,10 @@
       "sell": false,
       "ema": true,
       "earningsSoon": false,
-      "daysToEarnings": 32,
+      "daysToEarnings": 31,
       "marginOfSafety": true,
       "delta": -0.2,
-      "iv": 67.5,
+      "iv": 69.1,
       "premium": 1.22,
       "breakeven": 221.28,
       "breakevenLow": null,
@@ -1795,7 +1795,7 @@
             "oi": 858
           }
         ],
-        "expiryOI": 127806
+        "expiryOI": 127746
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.17,
@@ -1820,8 +1820,8 @@
           "sentiment": -0.61
         }
       ],
-      "volRegime": "Fair",
-      "ivRvRatio": 1.13,
+      "volRegime": "Rich",
+      "ivRvRatio": 1.16,
       "realizedVol": 59.5,
       "expDate": "2026-11-20",
       "legs": [
@@ -1854,14 +1854,14 @@
       "strike": "$150/160/220/230",
       "hedge": null,
       "exp": "Nov 27",
-      "dte": 28,
+      "dte": 27,
       "backExp": null,
       "backExpDate": null,
       "pot": 44,
-      "ap": 454.9,
+      "ap": 471.8,
       "ivr": 46,
       "ivRankLimited": false,
-      "dailyReturn": 12.46,
+      "dailyReturn": 12.93,
       "roc": 34.9,
       "score": 6.8,
       "buy": false,
@@ -1870,10 +1870,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 3,
+      "daysToEarnings": 2,
       "marginOfSafety": true,
       "delta": -0.01,
-      "iv": 71.9,
+      "iv": 73.2,
       "premium": 3.49,
       "breakeven": 156.51,
       "breakevenLow": 156.51,
@@ -1930,7 +1930,7 @@
         "expiryOI": 20095
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.24,
+      "newsSentiment": 0.39,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -1940,20 +1940,20 @@
           "sentiment": 0.57
         },
         {
+          "title": "Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html",
+          "sentiment": 0.83
+        },
+        {
           "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
           "sentiment": -0.23
-        },
-        {
-          "title": "Palantir Stocks Decline 4.94% Before an 11.7% Sequential Revenue Growth Test",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-stocks-decline-4-94-191343821.html",
-          "sentiment": 0.38
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.41,
+      "ivRvRatio": 1.44,
       "realizedVol": 51.0,
       "expDate": "2026-11-27",
       "legs": [
@@ -1998,14 +1998,14 @@
       "strike": "$365/375/440/450",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
-      "pot": 46,
-      "ap": 544.0,
+      "pot": 45,
+      "ap": 571.2,
       "ivr": 57,
       "ivRankLimited": false,
-      "dailyReturn": 14.9,
+      "dailyReturn": 15.65,
       "roc": 31.3,
       "score": 7.0,
       "buy": false,
@@ -2014,10 +2014,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 76,
+      "daysToEarnings": 75,
       "marginOfSafety": true,
       "delta": -0.0,
-      "iv": 40.6,
+      "iv": 41.6,
       "premium": 3.13,
       "breakeven": 371.87,
       "breakevenLow": 371.87,
@@ -2074,9 +2074,15 @@
         "expiryOI": 222144
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.04,
+      "newsSentiment": -0.04,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Cathie Wood Shifts From AI Chips to Robinhood and Air Taxis in Latest ARK Trades",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-shifts-ai-chips-230947279.html",
+          "sentiment": 0.0
+        },
         {
           "title": "If AI Spending Slows in 2027, These Semiconductor Stocks Could Hold Up Best",
           "publisher": "24/7 Wall St.",
@@ -2088,16 +2094,10 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/technology/ai/articles/ai-bubble-scare-gets-worse-170100931.html",
           "sentiment": -0.74
-        },
-        {
-          "title": "Here\u2019s What a $10,000 Investment in TSMC Stock Will Be Worth by 2030",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/10-000-investment-tsmc-stock-145002268.html",
-          "sentiment": 0.23
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 1.03,
+      "ivRvRatio": 1.05,
       "realizedVol": 39.6,
       "expDate": "2026-11-20",
       "legs": [
@@ -2142,11 +2142,11 @@
       "strike": "$420/410",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 41,
-      "ap": 2143.9,
+      "ap": 2251.1,
       "ivr": 65,
       "ivRankLimited": false,
       "dailyReturn": null,
@@ -2158,10 +2158,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 25,
+      "daysToEarnings": 24,
       "marginOfSafety": false,
       "delta": -0.44,
-      "iv": 69.9,
+      "iv": 71.6,
       "premium": 4.48,
       "breakeven": 415.52,
       "breakevenLow": null,
@@ -2202,9 +2202,15 @@
         "expiryOI": 90864
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.06,
+      "newsSentiment": 0.1,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Dell Technologies (DELL) Joins 33 Companies Objecting To Unauthorized Tokenized Shares",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-joins-33-011250174.html",
+          "sentiment": 0.3
+        },
         {
           "title": "What Are Dell Investors Betting On?",
           "publisher": "Trefis",
@@ -2216,16 +2222,10 @@
           "publisher": "Trefis",
           "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-really-expensive-221844192.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Intel, Amazon, Nvidia, ExxonMobil, Sandisk, FedEx Freight, and More Stocks That Explain Today\u2019s Market",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/6fa63ea7-4dda-36ab-92fc-9135d98e250e/intel%2C-amazon%2C-nvidia%2C.html",
-          "sentiment": 0.18
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 0.87,
+      "ivRvRatio": 0.89,
       "realizedVol": 80.2,
       "expDate": "2026-11-20",
       "legs": [
@@ -2258,14 +2258,14 @@
       "strike": "$310/320/430/450",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 38,
-      "ap": 369.3,
+      "ap": 387.8,
       "ivr": 86,
       "ivRankLimited": false,
-      "dailyReturn": 20.24,
+      "dailyReturn": 21.25,
       "roc": 21.25,
       "score": 7.7,
       "buy": false,
@@ -2274,10 +2274,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 20,
+      "daysToEarnings": 19,
       "marginOfSafety": true,
       "delta": -0.01,
-      "iv": 68.7,
+      "iv": 70.3,
       "premium": 4.25,
       "breakeven": 315.75,
       "breakevenLow": 315.75,
@@ -2331,7 +2331,7 @@
             "oi": 4277
           }
         ],
-        "expiryOI": 60523
+        "expiryOI": 60510
       },
       "potIsProfitProb": false,
       "newsSentiment": -0.21,
@@ -2357,7 +2357,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.15,
+      "ivRvRatio": 1.18,
       "realizedVol": 59.7,
       "expDate": "2026-11-20",
       "legs": [
@@ -2399,72 +2399,78 @@
       "isETF": false,
       "spot": 123.31,
       "spotPriceStale": false,
-      "strike": "$133/135",
+      "strike": "$145/155",
       "hedge": null,
-      "exp": "Nov 6",
-      "dte": 7,
+      "exp": "Nov 27",
+      "dte": 27,
       "backExp": null,
       "backExpDate": null,
-      "pot": 41,
-      "ap": 912.5,
+      "pot": 36,
+      "ap": 113.6,
       "ivr": 22,
       "ivRankLimited": false,
-      "dailyReturn": 5.0,
-      "roc": 17.5,
-      "score": 7.1,
+      "dailyReturn": 3.11,
+      "roc": 8.4,
+      "score": 7.3,
       "buy": false,
       "momentum": "bear",
       "ret3m": -15.8,
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 88,
+      "daysToEarnings": 87,
       "marginOfSafety": true,
-      "delta": 0.2,
-      "iv": 62.2,
-      "premium": 0.35,
-      "breakeven": 133.35,
+      "delta": 0.18,
+      "iv": 58.5,
+      "premium": 0.84,
+      "breakeven": 145.84,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 165.0,
-      "pcOI": 1.04,
-      "pcVol": 1.3,
+      "maxLoss": 916.0,
+      "pcOI": 1.86,
+      "pcVol": 1.97,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 110,
-        "worstSpreadPct": 24.6,
-        "midPremium": 0.35,
-        "fillPremium": 0.22,
+        "minOI": 131,
+        "worstSpreadPct": 54.2,
+        "midPremium": 0.84,
+        "fillPremium": 0.62,
         "weakLeg": {
           "type": "call",
-          "strike": 133.0,
-          "action": "sell"
+          "strike": 155.0,
+          "action": "buy"
         },
         "legQuotes": [
           {
             "type": "call",
-            "strike": 133.0,
+            "strike": 145.0,
             "action": "sell",
-            "bid": 1.23,
-            "ask": 1.5,
-            "oi": 110
+            "bid": 1.61,
+            "ask": 1.99,
+            "oi": 148
           },
           {
             "type": "call",
-            "strike": 135.0,
+            "strike": 155.0,
             "action": "buy",
-            "bid": 0.89,
-            "ask": 1.14,
-            "oi": 561
+            "bid": 0.7,
+            "ask": 1.22,
+            "oi": 131
           }
         ],
-        "expiryOI": 20120
+        "expiryOI": 6091
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.01,
+      "newsSentiment": 0.1,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "GLW Q3 deep dive: Optical communications and AI demand drive accelerating growth",
+          "publisher": "StockStory",
+          "link": "https://finance.yahoo.com/technology/ai/articles/glw-q3-deep-dive-optical-004329717.html",
+          "sentiment": 0.27
+        },
         {
           "title": "Corning\u2019s Q3 earnings call: our top 5 analyst questions",
           "publisher": "StockStory",
@@ -2476,28 +2482,22 @@
           "publisher": "Trefis",
           "link": "https://finance.yahoo.com/markets/stocks/articles/risk-hiding-ciena-stocks-growth-134204224.html",
           "sentiment": -0.18
-        },
-        {
-          "title": "China Renaissance Adjusts Price Target on Corning to $191 From $238",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/china-renaissance-adjusts-price-target-132303205.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 1.02,
+      "ivRvRatio": 0.96,
       "realizedVol": 61.1,
-      "expDate": "2026-11-06",
+      "expDate": "2026-11-27",
       "legs": [
         {
           "type": "call",
-          "strike": 133.0,
+          "strike": 145.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 135.0,
+          "strike": 155.0,
           "action": "buy",
           "qty": 1
         }
@@ -2518,14 +2518,14 @@
       "strike": "$775/777",
       "hedge": null,
       "exp": "Nov 13",
-      "dte": 14,
+      "dte": 13,
       "backExp": null,
       "backExpDate": null,
       "pot": 40,
-      "ap": 586.6,
+      "ap": 631.7,
       "ivr": 46,
       "ivRankLimited": false,
-      "dailyReturn": 3.21,
+      "dailyReturn": 3.46,
       "roc": 22.5,
       "score": 7.0,
       "buy": false,
@@ -2537,7 +2537,7 @@
       "daysToEarnings": null,
       "marginOfSafety": true,
       "delta": 0.2,
-      "iv": 14.0,
+      "iv": 14.5,
       "premium": 0.45,
       "breakeven": 775.45,
       "breakevenLow": null,
@@ -2582,6 +2582,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "Investors Have Poured a Record $2.24 Trillion Into ETFs This Year. Three Firms Collected Nearly Half of It",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-poured-record-2-24-000347530.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "5,500 ETFs and Counting: Where the Market Goes Next",
           "publisher": "etf.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/5-500-etfs-counting-where-203901351.html",
@@ -2592,16 +2598,10 @@
           "publisher": "24/7 Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/8-months-ago-major-wall-201736681.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "$1,000 in UPS Stock 10 Years Ago: Did the Dividends Offset the Decline?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/1-000-ups-stock-10-191724722.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.21,
+      "ivRvRatio": 1.25,
       "realizedVol": 11.6,
       "expDate": "2026-11-13",
       "legs": [
@@ -2629,14 +2629,14 @@
       "strike": "$720/722",
       "hedge": null,
       "exp": "Nov 13",
-      "dte": 14,
+      "dte": 13,
       "backExp": null,
       "backExpDate": null,
       "pot": 40,
-      "ap": 586.6,
+      "ap": 631.7,
       "ivr": 74,
       "ivRankLimited": false,
-      "dailyReturn": 3.21,
+      "dailyReturn": 3.46,
       "roc": 22.5,
       "score": 7.4,
       "buy": false,
@@ -2648,7 +2648,7 @@
       "daysToEarnings": null,
       "marginOfSafety": true,
       "delta": 0.2,
-      "iv": 23.8,
+      "iv": 24.6,
       "premium": 0.45,
       "breakeven": 720.45,
       "breakevenLow": null,
@@ -2712,7 +2712,7 @@
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 1.04,
+      "ivRvRatio": 1.07,
       "realizedVol": 22.9,
       "expDate": "2026-11-13",
       "legs": [
@@ -2740,14 +2740,14 @@
       "strike": "$305/315/345/355",
       "hedge": null,
       "exp": "Nov 13",
-      "dte": 14,
+      "dte": 13,
       "backExp": null,
       "backExpDate": null,
       "pot": 45,
-      "ap": 624.4,
+      "ap": 672.4,
       "ivr": 77,
       "ivRankLimited": false,
-      "dailyReturn": 17.11,
+      "dailyReturn": 18.42,
       "roc": 23.95,
       "score": 7.3,
       "buy": true,
@@ -2756,10 +2756,10 @@
       "sell": false,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 18,
+      "daysToEarnings": 17,
       "marginOfSafety": true,
       "delta": 0.02,
-      "iv": 29.3,
+      "iv": 30.3,
       "premium": 2.39,
       "breakeven": 312.61,
       "breakevenLow": 312.61,
@@ -2839,7 +2839,7 @@
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 0.99,
+      "ivRvRatio": 1.03,
       "realizedVol": 29.5,
       "expDate": "2026-11-13",
       "legs": [
@@ -2884,26 +2884,26 @@
       "strike": "$970/960",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 38,
-      "ap": 295.5,
-      "ivr": 25,
+      "ap": 310.2,
+      "ivr": 26,
       "ivRankLimited": false,
-      "dailyReturn": 8.1,
+      "dailyReturn": 8.5,
       "roc": 17.0,
       "score": 6.1,
       "buy": true,
       "momentum": "bull",
-      "ret3m": 6.1,
+      "ret3m": 6.3,
       "sell": false,
-      "ema": true,
+      "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 41,
+      "daysToEarnings": 40,
       "marginOfSafety": true,
       "delta": -0.19,
-      "iv": 22.1,
+      "iv": 22.6,
       "premium": 1.7,
       "breakeven": 968.3,
       "breakevenLow": null,
@@ -2967,8 +2967,8 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.26,
-      "realizedVol": 17.6,
+      "ivRvRatio": 1.28,
+      "realizedVol": 17.7,
       "expDate": "2026-11-20",
       "legs": [
         {
@@ -2985,8 +2985,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 201.2,
-      "sectorMedianPE": 16.2,
+      "peVsSectorPct": 204.0,
+      "sectorMedianPE": 16.1,
       "sectorPeerCount": 4,
       "sector": "Consumer Defensive"
     },
@@ -3000,14 +3000,14 @@
       "strike": "$117/119",
       "hedge": null,
       "exp": "Nov 13",
-      "dte": 14,
+      "dte": 13,
       "backExp": null,
       "backExpDate": null,
       "pot": 40,
-      "ap": 593.1,
+      "ap": 638.8,
       "ivr": 62,
       "ivRankLimited": false,
-      "dailyReturn": 3.25,
+      "dailyReturn": 3.5,
       "roc": 22.75,
       "score": 6.6,
       "buy": false,
@@ -3016,10 +3016,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 13,
+      "daysToEarnings": 12,
       "marginOfSafety": true,
       "delta": 0.2,
-      "iv": 63.4,
+      "iv": 65.6,
       "premium": 0.45,
       "breakeven": 117.45,
       "breakevenLow": null,
@@ -3083,7 +3083,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.78,
+      "ivRvRatio": 1.84,
       "realizedVol": 35.6,
       "expDate": "2026-11-13",
       "legs": [
@@ -3116,14 +3116,14 @@
       "strike": "$160/170/235/245",
       "hedge": null,
       "exp": "Nov 27",
-      "dte": 28,
+      "dte": 27,
       "backExp": null,
       "backExpDate": null,
       "pot": 40,
-      "ap": 401.5,
+      "ap": 416.4,
       "ivr": 73,
       "ivRankLimited": false,
-      "dailyReturn": 11.0,
+      "dailyReturn": 11.41,
       "roc": 30.8,
       "score": 7.4,
       "buy": false,
@@ -3132,10 +3132,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 32,
+      "daysToEarnings": 31,
       "marginOfSafety": true,
       "delta": -0.01,
-      "iv": 67.4,
+      "iv": 68.6,
       "premium": 3.08,
       "breakeven": 166.92,
       "breakevenLow": 166.92,
@@ -3215,7 +3215,7 @@
         }
       ],
       "volRegime": "Cheap",
-      "ivRvRatio": 0.77,
+      "ivRvRatio": 0.78,
       "realizedVol": 87.7,
       "expDate": "2026-11-27",
       "legs": [
@@ -3260,11 +3260,11 @@
       "strike": "$850/830",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 41,
-      "ap": 2475.4,
+      "ap": 2599.2,
       "ivr": 74,
       "ivRankLimited": false,
       "dailyReturn": null,
@@ -3276,10 +3276,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 89,
+      "daysToEarnings": 88,
       "marginOfSafety": false,
       "delta": -0.44,
-      "iv": 55.1,
+      "iv": 56.4,
       "premium": 8.25,
       "breakeven": 841.75,
       "breakevenLow": null,
@@ -3343,7 +3343,7 @@
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 0.92,
+      "ivRvRatio": 0.94,
       "realizedVol": 60.1,
       "expDate": "2026-11-20",
       "legs": [
@@ -3373,67 +3373,67 @@
       "isETF": false,
       "spot": 65.25,
       "spotPriceStale": false,
-      "strike": "$71/73",
+      "strike": "$72/74",
       "hedge": null,
-      "exp": "Nov 6",
-      "dte": 7,
+      "exp": "Nov 20",
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
-      "pot": 39,
-      "ap": 782.1,
+      "pot": 41,
+      "ap": 267.7,
       "ivr": 11,
       "ivRankLimited": false,
-      "dailyReturn": 4.29,
-      "roc": 15.0,
-      "score": 5.8,
+      "dailyReturn": 1.1,
+      "roc": 14.67,
+      "score": 5.7,
       "buy": false,
       "momentum": "bear",
       "ret3m": -8.9,
       "sell": true,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 5,
+      "daysToEarnings": 4,
       "marginOfSafety": true,
-      "delta": 0.2,
-      "iv": 66.7,
-      "premium": 0.3,
-      "breakeven": 71.3,
+      "delta": 0.21,
+      "iv": 50.1,
+      "premium": 0.22,
+      "breakeven": 72.72,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 170.0,
-      "pcOI": 1.28,
-      "pcVol": 0.98,
+      "maxLoss": 128.0,
+      "pcOI": 0.84,
+      "pcVol": 0.56,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 1666,
-        "worstSpreadPct": 23.3,
-        "midPremium": 0.3,
-        "fillPremium": 0.26,
+        "minOI": 1116,
+        "worstSpreadPct": 17.1,
+        "midPremium": 0.22,
+        "fillPremium": 0.17,
         "weakLeg": {
           "type": "call",
-          "strike": 71.0,
-          "action": "sell"
+          "strike": 74.0,
+          "action": "buy"
         },
         "legQuotes": [
           {
             "type": "call",
-            "strike": 71.0,
+            "strike": 72.5,
             "action": "sell",
-            "bid": 0.69,
-            "ask": 0.77,
-            "oi": 1666
+            "bid": 0.82,
+            "ask": 0.91,
+            "oi": 7664
           },
           {
             "type": "call",
-            "strike": 73.0,
+            "strike": 74.0,
             "action": "buy",
-            "bid": 0.38,
-            "ask": 0.48,
-            "oi": 4008
+            "bid": 0.59,
+            "ask": 0.7,
+            "oi": 1116
           }
         ],
-        "expiryOI": 72300
+        "expiryOI": 187906
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.03,
@@ -3459,19 +3459,19 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 2.41,
+      "ivRvRatio": 1.81,
       "realizedVol": 27.7,
-      "expDate": "2026-11-06",
+      "expDate": "2026-11-20",
       "legs": [
         {
           "type": "call",
-          "strike": 71.0,
+          "strike": 72.5,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 73.0,
+          "strike": 74.0,
           "action": "buy",
           "qty": 1
         }
@@ -3489,18 +3489,18 @@
       "isETF": false,
       "spot": 203.17,
       "spotPriceStale": false,
-      "strike": "$225/230",
+      "strike": "$245/250",
       "hedge": null,
-      "exp": "Nov 6",
-      "dte": 7,
+      "exp": "Nov 20",
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
-      "pot": 43,
-      "ap": 1121.1,
+      "pot": 41,
+      "ap": 328.5,
       "ivr": 27,
       "ivRankLimited": false,
-      "dailyReturn": 15.36,
-      "roc": 21.5,
+      "dailyReturn": 4.5,
+      "roc": 18.0,
       "score": 7.2,
       "buy": false,
       "momentum": "bear",
@@ -3508,48 +3508,48 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 97,
+      "daysToEarnings": 96,
       "marginOfSafety": true,
       "delta": 0.21,
-      "iv": 85.8,
-      "premium": 1.08,
-      "breakeven": 226.07,
+      "iv": 85.5,
+      "premium": 0.9,
+      "breakeven": 245.9,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 392.5,
-      "pcOI": 1.03,
-      "pcVol": 0.69,
+      "maxLoss": 410.0,
+      "pcOI": 1.19,
+      "pcVol": 1.51,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 947,
-        "worstSpreadPct": 15.7,
-        "midPremium": 1.08,
-        "fillPremium": 0.92,
+        "minOI": 445,
+        "worstSpreadPct": 12.6,
+        "midPremium": 0.9,
+        "fillPremium": 0.72,
         "weakLeg": {
           "type": "call",
-          "strike": 230.0,
-          "action": "buy"
+          "strike": 245.0,
+          "action": "sell"
         },
         "legQuotes": [
           {
             "type": "call",
-            "strike": 225.0,
+            "strike": 245.0,
             "action": "sell",
-            "bid": 2.99,
-            "ask": 3.5,
-            "oi": 1384
+            "bid": 4.35,
+            "ask": 4.6,
+            "oi": 445
           },
           {
             "type": "call",
-            "strike": 230.0,
+            "strike": 250.0,
             "action": "buy",
-            "bid": 2.11,
-            "ask": 2.23,
-            "oi": 947
+            "bid": 3.35,
+            "ask": 3.8,
+            "oi": 1927
           }
         ],
-        "expiryOI": 41578
+        "expiryOI": 130335
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.08,
@@ -3562,32 +3562,32 @@
           "sentiment": 0.27
         },
         {
+          "title": "Why Buying Bloom Energy Stock After Its Post-Earnings Selloff Could Be a Good Idea",
+          "publisher": "Barchart",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-buying-bloom-energy-stock-180722016.html",
+          "sentiment": 0.61
+        },
+        {
           "title": "FuelCell Energy Sinks 12% Despite Completing $49 Million Export-Import Bank Financing; Bloom Energy Tumbles 10%, Plug Power Falls 4%",
           "publisher": "24/7 Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/fuelcell-energy-sinks-12-despite-180454738.html",
           "sentiment": -0.65
-        },
-        {
-          "title": "Bloom Energy or Plug Power: Which Offers Better Long-Term Upside Now?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/energy/articles/bloom-energy-plug-power-offers-151500021.html",
-          "sentiment": 0.61
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 0.93,
+      "ivRvRatio": 0.92,
       "realizedVol": 92.5,
-      "expDate": "2026-11-06",
+      "expDate": "2026-11-20",
       "legs": [
         {
           "type": "call",
-          "strike": 225.0,
+          "strike": 245.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 230.0,
+          "strike": 250.0,
           "action": "buy",
           "qty": 1
         }
@@ -3605,67 +3605,67 @@
       "isETF": false,
       "spot": 326.08,
       "spotPriceStale": false,
-      "strike": "$345/350",
+      "strike": "$370/380",
       "hedge": null,
-      "exp": "Nov 6",
-      "dte": 7,
+      "exp": "Dec 4",
+      "dte": 34,
       "backExp": null,
       "backExpDate": null,
-      "pot": 38,
-      "ap": 865.6,
+      "pot": 42,
+      "ap": 163.7,
       "ivr": 68,
       "ivRankLimited": false,
-      "dailyReturn": 11.86,
-      "roc": 16.6,
-      "score": 7.4,
+      "dailyReturn": 4.49,
+      "roc": 15.25,
+      "score": 7.3,
       "buy": false,
       "momentum": "bear",
       "ret3m": -16.7,
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 40,
+      "daysToEarnings": 39,
       "marginOfSafety": true,
-      "delta": 0.19,
-      "iv": 43.8,
-      "premium": 0.83,
-      "breakeven": 345.83,
+      "delta": 0.21,
+      "iv": 45.5,
+      "premium": 1.52,
+      "breakeven": 371.52,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 417.0,
-      "pcOI": 0.91,
-      "pcVol": 0.83,
+      "maxLoss": 847.5,
+      "pcOI": 1.36,
+      "pcVol": 0.96,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 1310,
-        "worstSpreadPct": 14.5,
-        "midPremium": 0.83,
-        "fillPremium": 0.71,
+        "minOI": 260,
+        "worstSpreadPct": 52.8,
+        "midPremium": 1.52,
+        "fillPremium": 0.79,
         "weakLeg": {
           "type": "call",
-          "strike": 345.0,
-          "action": "sell"
+          "strike": 380.0,
+          "action": "buy"
         },
         "legQuotes": [
           {
             "type": "call",
-            "strike": 345.0,
+            "strike": 370.0,
             "action": "sell",
-            "bid": 1.99,
-            "ask": 2.3,
-            "oi": 1310
+            "bid": 3.4,
+            "ask": 4.95,
+            "oi": 268
           },
           {
             "type": "call",
-            "strike": 350.0,
+            "strike": 380.0,
             "action": "buy",
-            "bid": 1.23,
-            "ask": 1.4,
-            "oi": 1856
+            "bid": 1.95,
+            "ask": 3.35,
+            "oi": 260
           }
         ],
-        "expiryOI": 77052
+        "expiryOI": 9346
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.25,
@@ -3691,19 +3691,19 @@
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 0.96,
+      "ivRvRatio": 1.0,
       "realizedVol": 45.6,
-      "expDate": "2026-11-06",
+      "expDate": "2026-12-04",
       "legs": [
         {
           "type": "call",
-          "strike": 345.0,
+          "strike": 370.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 350.0,
+          "strike": 380.0,
           "action": "buy",
           "qty": 1
         }
@@ -3721,18 +3721,18 @@
       "isETF": false,
       "spot": 168.86,
       "spotPriceStale": false,
-      "strike": "$188/192",
+      "strike": "$195/200",
       "hedge": null,
-      "exp": "Nov 6",
-      "dte": 7,
+      "exp": "Nov 20",
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
-      "pot": 44,
-      "ap": 1173.2,
+      "pot": 42,
+      "ap": 293.8,
       "ivr": 70,
       "ivRankLimited": false,
-      "dailyReturn": 16.07,
-      "roc": 22.5,
+      "dailyReturn": 4.02,
+      "roc": 16.1,
       "score": 7.9,
       "buy": false,
       "momentum": "bear",
@@ -3740,67 +3740,86 @@
       "sell": true,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 4,
+      "daysToEarnings": 3,
       "marginOfSafety": true,
-      "delta": 0.22,
-      "iv": 89.0,
-      "premium": 1.12,
-      "breakeven": 188.62,
+      "delta": 0.21,
+      "iv": 67.8,
+      "premium": 0.8,
+      "breakeven": 195.81,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 387.5,
-      "pcOI": 0.92,
-      "pcVol": 0.64,
+      "maxLoss": 419.5,
+      "pcOI": 1.01,
+      "pcVol": 1.01,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 117,
-        "worstSpreadPct": 35.5,
-        "midPremium": 1.12,
-        "fillPremium": 0.76,
+        "minOI": 382,
+        "worstSpreadPct": 26.6,
+        "midPremium": 0.8,
+        "fillPremium": 0.51,
         "weakLeg": {
           "type": "call",
-          "strike": 192.5,
-          "action": "buy"
+          "strike": 195.0,
+          "action": "sell"
         },
         "legQuotes": [
           {
             "type": "call",
-            "strike": 187.5,
+            "strike": 195.0,
             "action": "sell",
-            "bid": 2.34,
-            "ask": 3.35,
-            "oi": 130
+            "bid": 2.64,
+            "ask": 3.45,
+            "oi": 382
           },
           {
             "type": "call",
-            "strike": 192.5,
+            "strike": 200.0,
             "action": "buy",
-            "bid": 1.5,
-            "ask": 1.94,
-            "oi": 117
+            "bid": 2.05,
+            "ask": 2.43,
+            "oi": 3459
           }
         ],
-        "expiryOI": 10652
+        "expiryOI": 56141
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
+      "newsSentiment": 0.07,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
-      "volRegime": "Rich",
-      "ivRvRatio": 1.46,
+      "newsHeadlines": [
+        {
+          "title": "Arista Networks vs. Monday.com: Which Technology Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-vs-monday-com-224702003.html",
+          "sentiment": 0.44
+        },
+        {
+          "title": "Is Arista Networks Stock Really Expensive?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-really-expensive-221844192.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
+          "sentiment": -0.23
+        }
+      ],
+      "volRegime": "Fair",
+      "ivRvRatio": 1.11,
       "realizedVol": 60.9,
-      "expDate": "2026-11-06",
+      "expDate": "2026-11-20",
       "legs": [
         {
           "type": "call",
-          "strike": 187.5,
+          "strike": 195.0,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "call",
-          "strike": 192.5,
+          "strike": 200.0,
           "action": "buy",
           "qty": 1
         }
@@ -3821,14 +3840,14 @@
       "strike": "$770/790/1000/1020",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 42,
-      "ap": 571.5,
+      "ap": 600.1,
       "ivr": 21,
       "ivRankLimited": false,
-      "dailyReturn": 31.31,
+      "dailyReturn": 32.87,
       "roc": 32.88,
       "score": 6.5,
       "buy": false,
@@ -3837,10 +3856,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 54,
+      "daysToEarnings": 53,
       "marginOfSafety": true,
       "delta": 0.01,
-      "iv": 57.5,
+      "iv": 58.9,
       "premium": 6.57,
       "breakeven": 783.42,
       "breakevenLow": 783.42,
@@ -3894,12 +3913,18 @@
             "oi": 2044
           }
         ],
-        "expiryOI": 396912
+        "expiryOI": 396874
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.58,
+      "newsSentiment": 0.64,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html",
+          "sentiment": 0.83
+        },
         {
           "title": "Micron Stocks Decline 5.8% With Client Exposure Complicating Its AI Growth Story",
           "publisher": "GuruFocus.com",
@@ -3911,16 +3936,10 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/2-ai-stocks-poised-surge-180000078.html",
           "sentiment": 0.72
-        },
-        {
-          "title": "If AI Spending Slows in 2027, These Semiconductor Stocks Could Hold Up Best",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-spending-slows-2027-semiconductor-175803858.html",
-          "sentiment": 0.64
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 0.95,
+      "ivRvRatio": 0.98,
       "realizedVol": 60.3,
       "expDate": "2026-11-20",
       "legs": [
@@ -3962,105 +3981,105 @@
       "isETF": false,
       "spot": 399.81,
       "spotPriceStale": false,
-      "strike": "$380/375",
+      "strike": "$368/362",
       "hedge": null,
-      "exp": "Nov 6",
-      "dte": 7,
+      "exp": "Nov 20",
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
-      "pot": 41,
-      "ap": 1011.6,
+      "pot": 40,
+      "ap": 328.5,
       "ivr": 23,
       "ivRankLimited": false,
-      "dailyReturn": 13.86,
-      "roc": 19.4,
-      "score": 5.9,
+      "dailyReturn": 4.5,
+      "roc": 18.0,
+      "score": 6.0,
       "buy": true,
       "momentum": "bull",
       "ret3m": 24.1,
       "sell": false,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 89,
+      "daysToEarnings": 88,
       "marginOfSafety": true,
       "delta": -0.2,
-      "iv": 46.8,
-      "premium": 0.97,
-      "breakeven": 379.03,
+      "iv": 46.7,
+      "premium": 0.9,
+      "breakeven": 366.6,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 403.0,
-      "pcOI": 1.24,
-      "pcVol": 1.66,
+      "maxLoss": 410.0,
+      "pcOI": 1.02,
+      "pcVol": 0.94,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 2607,
-        "worstSpreadPct": 3.7,
-        "midPremium": 0.97,
-        "fillPremium": 0.95,
+        "minOI": 226,
+        "worstSpreadPct": 3.2,
+        "midPremium": 0.9,
+        "fillPremium": 0.83,
         "weakLeg": {
           "type": "put",
-          "strike": 375.0,
+          "strike": 362.5,
           "action": "buy"
         },
         "legQuotes": [
           {
             "type": "put",
-            "strike": 380.0,
+            "strike": 367.5,
             "action": "sell",
-            "bid": 3.65,
-            "ask": 3.65,
-            "oi": 2960
+            "bid": 5.45,
+            "ask": 5.6,
+            "oi": 404
           },
           {
             "type": "put",
-            "strike": 375.0,
+            "strike": 362.5,
             "action": "buy",
-            "bid": 2.63,
-            "ask": 2.73,
-            "oi": 2607
+            "bid": 4.55,
+            "ask": 4.7,
+            "oi": 226
           }
         ],
-        "expiryOI": 183904
+        "expiryOI": 526886
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.02,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.35,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Coinbase and Kraken Ramp Up Security After Massive Binance Hack",
+          "publisher": "CryptoProwl",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-kraken-ramp-security-massive-004600667.html",
+          "sentiment": 0.34
+        },
+        {
+          "title": "Stocktwits Zero To Sixty: Rivian Raises Delivery Guidance On R2 Demand, Tesla Expands Robotaxi Fleet,  And Ford Advances Low-Cost EV Plans",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stocktwits-zero-sixty-rivian-raises-001018492.html",
+          "sentiment": 0.4
+        },
         {
           "title": "SpaceX's Shotwell says 2 million shares to be gifted to children's Trump Accounts",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/markets/stocks/articles/spacexs-shotwell-says-2-million-214100331.html",
           "sentiment": 0.3
-        },
-        {
-          "title": "Elon Musk vs. Tesla? His Midterm Money Could Work Against His Own Cars",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/economy/policy/articles/elon-musk-vs-tesla-midterm-210223226.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
         }
       ],
       "volRegime": "Rich",
       "ivRvRatio": 1.28,
       "realizedVol": 36.6,
-      "expDate": "2026-11-06",
+      "expDate": "2026-11-20",
       "legs": [
         {
           "type": "put",
-          "strike": 380.0,
+          "strike": 367.5,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "put",
-          "strike": 375.0,
+          "strike": 362.5,
           "action": "buy",
           "qty": 1
         }
@@ -4081,14 +4100,14 @@
       "strike": "$110/120/155/165",
       "hedge": null,
       "exp": "Dec 4",
-      "dte": 35,
+      "dte": 34,
       "backExp": null,
       "backExpDate": null,
-      "pot": 47,
-      "ap": 308.2,
+      "pot": 46,
+      "ap": 317.2,
       "ivr": 53,
       "ivRankLimited": true,
-      "dailyReturn": 8.44,
+      "dailyReturn": 8.69,
       "roc": 29.55,
       "score": 6.9,
       "buy": false,
@@ -4097,10 +4116,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 102,
+      "daysToEarnings": 101,
       "marginOfSafety": true,
       "delta": 0.01,
-      "iv": 53.9,
+      "iv": 54.7,
       "premium": 2.96,
       "breakeven": 117.05,
       "breakevenLow": 117.05,
@@ -4157,30 +4176,30 @@
         "expiryOI": 14069
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.03,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.21,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
-          "title": "Nvidia has a stake in SpaceX that came from an unexpected place",
+          "title": "The New Bottleneck in America\u2019s AI Build-Out: A Shortage of Cheap Money",
+          "publisher": "The Wall Street Journal",
+          "link": "https://finance.yahoo.com/m/9ee3a635-3cc5-33bd-b372-23112d0b6a69/the-new-bottleneck-in.html",
+          "sentiment": -0.25
+        },
+        {
+          "title": "Coinbase and Kraken Ramp Up Security After Massive Binance Hack",
+          "publisher": "CryptoProwl",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-kraken-ramp-security-massive-004600667.html",
+          "sentiment": 0.34
+        },
+        {
+          "title": "SpaceX accuses T-Mobile, other carriers of trying to harm it",
           "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stake-spacex-came-unexpected-223300497.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Elon Musk Says Neoclouds Face a \"Guppy Level\" Death. SpaceX Just Borrowed $40 Billion to Make Sure It Isn't One.",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-says-neoclouds-face-215000293.html",
-          "sentiment": -0.38
-        },
-        {
-          "title": "SpaceX's Shotwell says 2 million shares to be gifted to children's Trump Accounts",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/spacexs-shotwell-says-2-million-214100331.html",
-          "sentiment": 0.3
+          "link": "https://finance.yahoo.com/technology/articles/spacex-accuses-t-mobile-other-230400511.html",
+          "sentiment": -0.71
         }
       ],
-      "volRegime": "Cheap",
-      "ivRvRatio": 0.84,
+      "volRegime": "Fair",
+      "ivRvRatio": 0.86,
       "realizedVol": 63.8,
       "expDate": "2026-12-04",
       "legs": [
@@ -4225,14 +4244,14 @@
       "strike": "$440/450/575/585",
       "hedge": null,
       "exp": "Nov 13",
-      "dte": 14,
+      "dte": 13,
       "backExp": null,
       "backExpDate": null,
       "pot": 40,
-      "ap": 912.5,
+      "ap": 982.7,
       "ivr": 58,
       "ivRankLimited": false,
-      "dailyReturn": 25.0,
+      "dailyReturn": 26.92,
       "roc": 35.0,
       "score": 7.2,
       "buy": false,
@@ -4241,10 +4260,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 4,
+      "daysToEarnings": 3,
       "marginOfSafety": true,
-      "delta": 0.0,
-      "iv": 72.5,
+      "delta": -0.0,
+      "iv": 75.1,
       "premium": 3.5,
       "breakeven": 446.5,
       "breakevenLow": 446.5,
@@ -4301,30 +4320,30 @@
         "expiryOI": 46163
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.22,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.28,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-30-212002526.html",
-          "sentiment": -0.8
+          "title": "Cathie Wood Shifts From AI Chips to Robinhood and Air Taxis in Latest ARK Trades",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-shifts-ai-chips-230947279.html",
+          "sentiment": 0.0
         },
         {
-          "title": "Former SEC Chair: Broadcom\u2019s $63 Billion Package Feels Like \u201cThat 08 Off-Balance Sheet Craze\u201d",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/former-sec-chair-broadcom-63-205216871.html",
-          "sentiment": 0.36
+          "title": "Big Homes, Big Loans",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/9aa518a9-bace-3e02-a215-82b14364d8d4/big-homes%2C-big-loans.html",
+          "sentiment": 0.0
         },
         {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
+          "title": "Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html",
+          "sentiment": 0.83
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 1.05,
+      "ivRvRatio": 1.09,
       "realizedVol": 68.9,
       "expDate": "2026-11-13",
       "legs": [
@@ -4369,11 +4388,11 @@
       "strike": "$280/270",
       "hedge": null,
       "exp": "Nov 13",
-      "dte": 14,
+      "dte": 13,
       "backExp": null,
       "backExpDate": null,
       "pot": 40,
-      "ap": 4490.5,
+      "ap": 4836.0,
       "ivr": 97,
       "ivRankLimited": false,
       "dailyReturn": null,
@@ -4385,10 +4404,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 96,
+      "daysToEarnings": 95,
       "marginOfSafety": false,
       "delta": -0.48,
-      "iv": 31.9,
+      "iv": 33.0,
       "premium": 3.67,
       "breakeven": 276.32,
       "breakevenLow": null,
@@ -4429,11 +4448,18 @@
         "expiryOI": 41198
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsSentiment": 0.83,
+      "newsSentimentLabel": "Positive",
+      "newsHeadlines": [
+        {
+          "title": "Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html",
+          "sentiment": 0.83
+        }
+      ],
       "volRegime": "Cheap",
-      "ivRvRatio": 0.62,
+      "ivRvRatio": 0.64,
       "realizedVol": 51.2,
       "expDate": "2026-11-13",
       "legs": [
@@ -4466,11 +4492,11 @@
       "strike": "$65/60",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 36,
-      "ap": 2764.8,
+      "ap": 2903.0,
       "ivr": 100,
       "ivRankLimited": false,
       "dailyReturn": null,
@@ -4482,10 +4508,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 90,
+      "daysToEarnings": 89,
       "marginOfSafety": false,
       "delta": -0.43,
-      "iv": 62.4,
+      "iv": 63.9,
       "premium": 1.93,
       "breakeven": 63.07,
       "breakevenLow": null,
@@ -4526,30 +4552,30 @@
         "expiryOI": 961398
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.22,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.04,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Nvidia has a stake in SpaceX that came from an unexpected place",
-          "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stake-spacex-came-unexpected-223300497.html",
-          "sentiment": 0.0
+          "title": "Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/stocktwits-weekly-spread-shaped-treasury-005438925.html",
+          "sentiment": 0.2
         },
         {
-          "title": "Intel CEO reveals a PC problem as Goldman cuts stock target",
-          "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-ceo-reveals-pc-problem-220700996.html",
-          "sentiment": -0.67
+          "title": "S&P 500, Nasdaq End Third Straight Week Lower As Investors Move Away From Tech, AI \u2014  AMZN, INTC, LLY, RBLX In Focus",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-end-third-000539225.html",
+          "sentiment": -0.08
         },
         {
-          "title": "Intel\u2019s stock crashes, knocking $12B from government\u2019s stake",
-          "publisher": "TechCrunch",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-crashes-knocking-12b-215434820.html",
+          "title": "Review & Preview: Ending on a Down Note",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/b0499f52-933b-3c3a-a9fe-a4d478f02828/review-%26-preview%3A-ending-on-a.html",
           "sentiment": 0.0
         }
       ],
       "volRegime": "Cheap",
-      "ivRvRatio": 0.49,
+      "ivRvRatio": 0.5,
       "realizedVol": 126.8,
       "expDate": "2026-11-20",
       "legs": [
@@ -4577,14 +4603,14 @@
       "strike": "$88/92",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 41,
-      "ap": 182.5,
+      "ap": 191.6,
       "ivr": 54,
       "ivRankLimited": false,
-      "dailyReturn": 2.5,
+      "dailyReturn": 2.62,
       "roc": 10.5,
       "score": 7.1,
       "buy": false,
@@ -4593,10 +4619,10 @@
       "sell": true,
       "ema": true,
       "earningsSoon": false,
-      "daysToEarnings": 89,
+      "daysToEarnings": 88,
       "marginOfSafety": true,
       "delta": 0.2,
-      "iv": 45.2,
+      "iv": 46.2,
       "premium": 0.52,
       "breakeven": 88.03,
       "breakevenLow": null,
@@ -4660,7 +4686,7 @@
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 1.02,
+      "ivRvRatio": 1.04,
       "realizedVol": 44.5,
       "expDate": "2026-11-20",
       "legs": [
@@ -4693,11 +4719,11 @@
       "strike": "$22/20",
       "hedge": null,
       "exp": "Nov 13",
-      "dte": 14,
+      "dte": 13,
       "backExp": null,
       "backExpDate": null,
       "pot": 41,
-      "ap": 4773.7,
+      "ap": 5140.9,
       "ivr": 100,
       "ivRankLimited": false,
       "dailyReturn": null,
@@ -4709,10 +4735,10 @@
       "sell": true,
       "ema": true,
       "earningsSoon": false,
-      "daysToEarnings": 89,
+      "daysToEarnings": 88,
       "marginOfSafety": false,
       "delta": -0.5,
-      "iv": 37.7,
+      "iv": 39.1,
       "premium": 0.35,
       "breakeven": 21.14,
       "breakevenLow": null,
@@ -4776,7 +4802,7 @@
         }
       ],
       "volRegime": "Cheap",
-      "ivRvRatio": 0.66,
+      "ivRvRatio": 0.68,
       "realizedVol": 57.5,
       "expDate": "2026-11-13",
       "legs": [
@@ -4809,14 +4835,14 @@
       "strike": "$350/340",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 40,
-      "ap": 226.0,
+      "ap": 237.2,
       "ivr": 68,
       "ivRankLimited": false,
-      "dailyReturn": 6.19,
+      "dailyReturn": 6.5,
       "roc": 13.0,
       "score": 7.9,
       "buy": true,
@@ -4825,10 +4851,10 @@
       "sell": false,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 95,
+      "daysToEarnings": 94,
       "marginOfSafety": true,
       "delta": -0.2,
-      "iv": 21.6,
+      "iv": 22.1,
       "premium": 1.3,
       "breakeven": 348.7,
       "breakevenLow": null,
@@ -4866,7 +4892,7 @@
             "oi": 156
           }
         ],
-        "expiryOI": 14010
+        "expiryOI": 14007
       },
       "potIsProfitProb": false,
       "newsSentiment": -0.08,
@@ -4892,7 +4918,7 @@
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 1.09,
+      "ivRvRatio": 1.11,
       "realizedVol": 19.9,
       "expDate": "2026-11-20",
       "legs": [
@@ -4922,67 +4948,67 @@
       "isETF": false,
       "spot": 93.71,
       "spotPriceStale": false,
-      "strike": "$82/78",
+      "strike": "$88/82",
       "hedge": null,
-      "exp": "Jan 21",
-      "dte": 448,
+      "exp": "Jan 15",
+      "dte": 76,
       "backExp": null,
       "backExpDate": null,
-      "pot": 45,
-      "ap": 20.4,
+      "pot": 47,
+      "ap": 79.2,
       "ivr": 90,
       "ivRankLimited": false,
-      "dailyReturn": 0.28,
-      "roc": 25.0,
-      "score": 5.5,
+      "dailyReturn": 1.09,
+      "roc": 16.5,
+      "score": 7.5,
       "buy": true,
       "momentum": "bull",
       "ret3m": 1.7,
       "sell": false,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 6,
+      "daysToEarnings": 5,
       "marginOfSafety": true,
-      "delta": -0.22,
-      "iv": 27.3,
-      "premium": 1.25,
-      "breakeven": 81.25,
+      "delta": -0.24,
+      "iv": 26.0,
+      "premium": 0.82,
+      "breakeven": 86.67,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 375.0,
-      "pcOI": 0.53,
-      "pcVol": 5.04,
+      "maxLoss": 417.5,
+      "pcOI": 0.8,
+      "pcVol": 0.98,
       "debitStrategy": false,
       "liquidity": {
-        "minOI": 289,
-        "worstSpreadPct": 98.7,
-        "midPremium": 1.25,
-        "fillPremium": 0.02,
+        "minOI": 819,
+        "worstSpreadPct": 57.1,
+        "midPremium": 0.82,
+        "fillPremium": 0.54,
         "weakLeg": {
           "type": "put",
-          "strike": 77.5,
-          "action": "buy"
+          "strike": 87.5,
+          "action": "sell"
         },
         "legQuotes": [
           {
             "type": "put",
-            "strike": 82.5,
+            "strike": 87.5,
             "action": "sell",
-            "bid": 2.0,
-            "ask": 5.9,
-            "oi": 316
+            "bid": 1.15,
+            "ask": 1.9,
+            "oi": 819
           },
           {
             "type": "put",
-            "strike": 77.5,
+            "strike": 82.5,
             "action": "buy",
-            "bid": 2.2,
-            "ask": 3.2,
-            "oi": 289
+            "bid": 0.5,
+            "ask": 0.9,
+            "oi": 830
           }
         ],
-        "expiryOI": 5984
+        "expiryOI": 25401
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.62,
@@ -5008,19 +5034,19 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.28,
+      "ivRvRatio": 1.21,
       "realizedVol": 21.4,
-      "expDate": "2028-01-21",
+      "expDate": "2027-01-15",
       "legs": [
         {
           "type": "put",
-          "strike": 82.5,
+          "strike": 87.5,
           "action": "sell",
           "qty": 1
         },
         {
           "type": "put",
-          "strike": 77.5,
+          "strike": 82.5,
           "action": "buy",
           "qty": 1
         }
@@ -5036,14 +5062,14 @@
       "strike": "$990/1010",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 42,
-      "ap": 186.8,
+      "ap": 196.2,
       "ivr": 94,
       "ivRankLimited": false,
-      "dailyReturn": 10.24,
+      "dailyReturn": 10.75,
       "roc": 10.75,
       "score": 7.7,
       "buy": false,
@@ -5052,10 +5078,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 6,
+      "daysToEarnings": 5,
       "marginOfSafety": true,
       "delta": 0.21,
-      "iv": 45.4,
+      "iv": 46.4,
       "premium": 2.15,
       "breakeven": 992.15,
       "breakevenLow": null,
@@ -5093,7 +5119,7 @@
             "oi": 104
           }
         ],
-        "expiryOI": 5838
+        "expiryOI": 5837
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.41,
@@ -5119,7 +5145,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.29,
+      "ivRvRatio": 1.32,
       "realizedVol": 35.2,
       "expDate": "2026-11-20",
       "legs": [
@@ -5152,14 +5178,14 @@
       "strike": "$1100/1120",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
-      "pot": 40,
-      "ap": 206.5,
+      "pot": 39,
+      "ap": 216.8,
       "ivr": 82,
       "ivRankLimited": false,
-      "dailyReturn": 11.31,
+      "dailyReturn": 11.88,
       "roc": 11.88,
       "score": 7.6,
       "buy": false,
@@ -5168,10 +5194,10 @@
       "sell": true,
       "ema": true,
       "earningsSoon": false,
-      "daysToEarnings": 103,
+      "daysToEarnings": 102,
       "marginOfSafety": true,
       "delta": 0.2,
-      "iv": 36.9,
+      "iv": 37.8,
       "premium": 2.38,
       "breakeven": 1102.38,
       "breakevenLow": null,
@@ -5235,7 +5261,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.21,
+      "ivRvRatio": 1.24,
       "realizedVol": 30.5,
       "expDate": "2026-11-20",
       "legs": [
@@ -5263,14 +5289,14 @@
       "strike": "$210/195",
       "hedge": null,
       "exp": "Jan 15",
-      "dte": 77,
+      "dte": 76,
       "backExp": null,
       "backExpDate": null,
       "pot": 38,
-      "ap": 74.3,
+      "ap": 75.3,
       "ivr": 13,
       "ivRankLimited": false,
-      "dailyReturn": 3.05,
+      "dailyReturn": 3.09,
       "roc": 15.67,
       "score": 7.1,
       "buy": true,
@@ -5279,18 +5305,18 @@
       "sell": false,
       "ema": true,
       "earningsSoon": false,
-      "daysToEarnings": 90,
+      "daysToEarnings": 89,
       "marginOfSafety": true,
       "delta": -0.19,
-      "iv": 32.9,
+      "iv": 33.1,
       "premium": 2.35,
       "breakeven": 207.65,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 1265.0,
-      "pcOI": 1.82,
-      "pcVol": 2.17,
+      "pcOI": 1.84,
+      "pcVol": 2.18,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 261,
@@ -5320,7 +5346,7 @@
             "oi": 261
           }
         ],
-        "expiryOI": 22458
+        "expiryOI": 22391
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.33,
@@ -5346,7 +5372,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.83,
+      "ivRvRatio": 1.84,
       "realizedVol": 18.0,
       "expDate": "2027-01-15",
       "legs": [
@@ -5379,14 +5405,14 @@
       "strike": "$20/20/24/26",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 43,
-      "ap": 434.5,
+      "ap": 456.2,
       "ivr": 98,
       "ivRankLimited": false,
-      "dailyReturn": 1.19,
+      "dailyReturn": 1.25,
       "roc": 25.0,
       "score": 7.8,
       "buy": false,
@@ -5395,10 +5421,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 11,
+      "daysToEarnings": 10,
       "marginOfSafety": true,
       "delta": -0.03,
-      "iv": 42.7,
+      "iv": 43.8,
       "premium": 0.25,
       "breakeven": 20.25,
       "breakevenLow": 20.25,
@@ -5478,7 +5504,7 @@
         }
       ],
       "volRegime": "Cheap",
-      "ivRvRatio": 0.59,
+      "ivRvRatio": 0.61,
       "realizedVol": 71.9,
       "expDate": "2026-11-20",
       "legs": [
@@ -5523,14 +5549,14 @@
       "strike": "$44/46",
       "hedge": null,
       "exp": "Nov 13",
-      "dte": 14,
+      "dte": 13,
       "backExp": null,
       "backExpDate": null,
       "pot": 39,
-      "ap": 410.6,
+      "ap": 442.2,
       "ivr": 3,
       "ivRankLimited": false,
-      "dailyReturn": 2.25,
+      "dailyReturn": 2.42,
       "roc": 15.75,
       "score": 5.7,
       "buy": false,
@@ -5539,10 +5565,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 5,
+      "daysToEarnings": 4,
       "marginOfSafety": true,
-      "delta": 0.2,
-      "iv": 52.6,
+      "delta": 0.19,
+      "iv": 54.5,
       "premium": 0.31,
       "breakeven": 44.31,
       "breakevenLow": null,
@@ -5606,7 +5632,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 2.44,
+      "ivRvRatio": 2.52,
       "realizedVol": 21.6,
       "expDate": "2026-11-13",
       "legs": [
@@ -5639,14 +5665,14 @@
       "strike": "$135/145",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 39,
-      "ap": 55.6,
+      "ap": 58.4,
       "ivr": 74,
       "ivRankLimited": false,
-      "dailyReturn": 1.52,
+      "dailyReturn": 1.6,
       "roc": 3.2,
       "score": 7.5,
       "buy": false,
@@ -5655,10 +5681,10 @@
       "sell": true,
       "ema": true,
       "earningsSoon": false,
-      "daysToEarnings": 82,
+      "daysToEarnings": 81,
       "marginOfSafety": true,
       "delta": 0.19,
-      "iv": 23.8,
+      "iv": 24.3,
       "premium": 0.32,
       "breakeven": 135.32,
       "breakevenLow": null,
@@ -5666,7 +5692,7 @@
       "breakevenMovePct": null,
       "maxLoss": 968.0,
       "pcOI": 0.91,
-      "pcVol": 0.57,
+      "pcVol": 0.6,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 513,
@@ -5722,7 +5748,7 @@
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 1.04,
+      "ivRvRatio": 1.07,
       "realizedVol": 22.8,
       "expDate": "2026-11-20",
       "legs": [
@@ -5750,14 +5776,14 @@
       "strike": "$84/86",
       "hedge": null,
       "exp": "Nov 13",
-      "dte": 14,
+      "dte": 13,
       "backExp": null,
       "backExpDate": null,
       "pot": 43,
-      "ap": 384.6,
+      "ap": 414.1,
       "ivr": 22,
       "ivRankLimited": false,
-      "dailyReturn": 2.11,
+      "dailyReturn": 2.27,
       "roc": 14.75,
       "score": 5.9,
       "buy": false,
@@ -5766,10 +5792,10 @@
       "sell": true,
       "ema": true,
       "earningsSoon": false,
-      "daysToEarnings": 19,
+      "daysToEarnings": 18,
       "marginOfSafety": true,
       "delta": 0.22,
-      "iv": 40.0,
+      "iv": 41.5,
       "premium": 0.3,
       "breakeven": 84.3,
       "breakevenLow": null,
@@ -5833,7 +5859,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.48,
+      "ivRvRatio": 1.54,
       "realizedVol": 27.0,
       "expDate": "2026-11-13",
       "legs": [
@@ -5866,14 +5892,14 @@
       "strike": "$47/46",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 40,
-      "ap": 312.9,
+      "ap": 328.5,
       "ivr": 50,
       "ivRankLimited": false,
-      "dailyReturn": 0.86,
+      "dailyReturn": 0.9,
       "roc": 18.0,
       "score": 6.4,
       "buy": true,
@@ -5881,11 +5907,11 @@
       "ret3m": 15.2,
       "sell": false,
       "ema": true,
-      "earningsSoon": true,
-      "daysToEarnings": 0,
+      "earningsSoon": false,
+      "daysToEarnings": null,
       "marginOfSafety": true,
       "delta": -0.2,
-      "iv": 37.5,
+      "iv": 38.4,
       "premium": 0.18,
       "breakeven": 46.82,
       "breakevenLow": null,
@@ -5926,14 +5952,14 @@
         "expiryOI": 58423
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.2,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.11,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "The Oil Giants Are Raking In Cash. Here\u2019s What They\u2019ll Do With It.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/9c6f7f41-b911-3266-aef4-0cdcc23c803a/the-oil-giants-are-raking-in.html",
-          "sentiment": 0.0
+          "title": "BP PLC (BP) (Q3 2026) Earnings Call Highlights: Debt Cut, Refining Strength, and a $4 Billion ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/energy/articles/bp-plc-bp-q3-2026-230745243.html",
+          "sentiment": -0.27
         },
         {
           "title": "BP's Blowout Quarter Comes With a Big Catch",
@@ -5949,7 +5975,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.25,
+      "ivRvRatio": 1.28,
       "realizedVol": 30.0,
       "expDate": "2026-11-20",
       "legs": [
@@ -5982,14 +6008,14 @@
       "strike": "$320/340/420/440",
       "hedge": null,
       "exp": "Jan 15",
-      "dte": 77,
+      "dte": 76,
       "backExp": null,
       "backExpDate": null,
       "pot": 43,
-      "ap": 112.6,
+      "ap": 114.1,
       "ivr": 58,
       "ivRankLimited": false,
-      "dailyReturn": 6.17,
+      "dailyReturn": 6.25,
       "roc": 23.75,
       "score": 7.1,
       "buy": true,
@@ -5997,11 +6023,11 @@
       "ret3m": -2.1,
       "sell": false,
       "ema": false,
-      "earningsSoon": true,
-      "daysToEarnings": 0,
+      "earningsSoon": false,
+      "daysToEarnings": null,
       "marginOfSafety": true,
       "delta": 0.02,
-      "iv": 27.9,
+      "iv": 28.1,
       "premium": 4.75,
       "breakeven": 335.25,
       "breakevenLow": 335.25,
@@ -6081,7 +6107,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.3,
+      "ivRvRatio": 1.31,
       "realizedVol": 21.4,
       "expDate": "2027-01-15",
       "legs": [
@@ -6126,14 +6152,14 @@
       "strike": "$50/45",
       "hedge": null,
       "exp": "Dec 18",
-      "dte": 49,
+      "dte": 48,
       "backExp": null,
       "backExpDate": null,
       "pot": 47,
-      "ap": 141.5,
+      "ap": 144.5,
       "ivr": 17,
       "ivRankLimited": false,
-      "dailyReturn": 1.94,
+      "dailyReturn": 1.98,
       "roc": 19.0,
       "score": 5.7,
       "buy": true,
@@ -6142,10 +6168,10 @@
       "sell": false,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 6,
+      "daysToEarnings": 5,
       "marginOfSafety": true,
       "delta": -0.23,
-      "iv": 52.5,
+      "iv": 53.0,
       "premium": 0.95,
       "breakeven": 49.05,
       "breakevenLow": null,
@@ -6209,7 +6235,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 2.21,
+      "ivRvRatio": 2.23,
       "realizedVol": 23.8,
       "expDate": "2026-12-18",
       "legs": [
@@ -6242,14 +6268,14 @@
       "strike": "$150/140",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 28,
-      "ap": 91.2,
+      "ap": 95.8,
       "ivr": 73,
       "ivRankLimited": false,
-      "dailyReturn": 2.5,
+      "dailyReturn": 2.62,
       "roc": 5.25,
       "score": 7.2,
       "buy": true,
@@ -6258,10 +6284,10 @@
       "sell": false,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 96,
+      "daysToEarnings": 95,
       "marginOfSafety": true,
       "delta": -0.14,
-      "iv": 28.9,
+      "iv": 29.5,
       "premium": 0.52,
       "breakeven": 149.47,
       "breakevenLow": null,
@@ -6269,7 +6295,7 @@
       "breakevenMovePct": null,
       "maxLoss": 947.5,
       "pcOI": 2.51,
-      "pcVol": 20.58,
+      "pcVol": 20.57,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 2058,
@@ -6325,7 +6351,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.16,
+      "ivRvRatio": 1.18,
       "realizedVol": 24.9,
       "expDate": "2026-11-20",
       "legs": [
@@ -6358,7 +6384,7 @@
       "strike": "$55/45",
       "hedge": null,
       "exp": "Jan 21",
-      "dte": 448,
+      "dte": 447,
       "backExp": null,
       "backExpDate": null,
       "pot": 47,
@@ -6374,7 +6400,7 @@
       "sell": false,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 104,
+      "daysToEarnings": 103,
       "marginOfSafety": true,
       "delta": -0.24,
       "iv": 26.4,
@@ -6459,8 +6485,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": -0.6,
-      "sectorMedianPE": 16.2,
+      "peVsSectorPct": -1.6,
+      "sectorMedianPE": 16.1,
       "sectorPeerCount": 4,
       "sector": "Consumer Defensive"
     },
@@ -6474,14 +6500,14 @@
       "strike": "$175/185/230/250",
       "hedge": null,
       "exp": "Jan 15",
-      "dte": 77,
+      "dte": 76,
       "backExp": null,
       "backExpDate": null,
       "pot": 36,
-      "ap": 49.8,
+      "ap": 50.4,
       "ivr": 52,
       "ivRankLimited": false,
-      "dailyReturn": 2.73,
+      "dailyReturn": 2.76,
       "roc": 10.5,
       "score": 7.2,
       "buy": true,
@@ -6490,10 +6516,10 @@
       "sell": false,
       "ema": true,
       "earningsSoon": true,
-      "daysToEarnings": 34,
+      "daysToEarnings": 33,
       "marginOfSafety": true,
       "delta": -0.02,
-      "iv": 25.6,
+      "iv": 25.8,
       "premium": 2.1,
       "breakeven": 182.9,
       "breakevenLow": 182.9,
@@ -6573,7 +6599,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.51,
+      "ivRvRatio": 1.53,
       "realizedVol": 16.9,
       "expDate": "2027-01-15",
       "legs": [
@@ -6618,14 +6644,14 @@
       "strike": "$40/45/55/60",
       "hedge": null,
       "exp": "Jan 15",
-      "dte": 77,
+      "dte": 76,
       "backExp": null,
       "backExpDate": null,
-      "pot": 43,
-      "ap": 54.5,
+      "pot": 42,
+      "ap": 55.2,
       "ivr": 35,
       "ivRankLimited": false,
-      "dailyReturn": 0.75,
+      "dailyReturn": 0.76,
       "roc": 11.5,
       "score": 6.7,
       "buy": true,
@@ -6634,17 +6660,17 @@
       "sell": false,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 7,
+      "daysToEarnings": 6,
       "marginOfSafety": true,
       "delta": -0.02,
-      "iv": 24.6,
+      "iv": 24.8,
       "premium": 0.58,
       "breakeven": 44.42,
       "breakevenLow": 44.42,
       "breakevenHigh": 55.58,
       "breakevenMovePct": null,
       "maxLoss": 442.5,
-      "pcOI": 0.45,
+      "pcOI": 0.43,
       "pcVol": 1.13,
       "debitStrategy": false,
       "liquidity": {
@@ -6691,33 +6717,14 @@
             "oi": 4411
           }
         ],
-        "expiryOI": 26192
+        "expiryOI": 25810
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.29,
-      "newsSentimentLabel": "Negative",
-      "newsHeadlines": [
-        {
-          "title": "Williams Companies Reports Soon: How Has The Stock Reacted To Past Earnings?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/williams-companies-reports-soon-stock-221208519.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Enbridge (TSX:ENB) Stock May Trade At A Premium Despite Gas Demand Growth News",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/enbridge-tsx-enb-stock-may-201410206.html",
-          "sentiment": -0.21
-        },
-        {
-          "title": "Chevron vs. Enbridge: Which Energy Giant Makes More Money Off the Iran War Oil Price Shock?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/energy/articles/chevron-vs-enbridge-energy-giant-180101726.html",
-          "sentiment": -0.66
-        }
-      ],
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
+      "newsHeadlines": [],
       "volRegime": "Rich",
-      "ivRvRatio": 1.43,
+      "ivRvRatio": 1.44,
       "realizedVol": 17.2,
       "expDate": "2027-01-15",
       "legs": [
@@ -6762,14 +6769,14 @@
       "strike": "$120/110",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 50,
-      "ap": 117.3,
+      "ap": 123.2,
       "ivr": 88,
       "ivRankLimited": false,
-      "dailyReturn": 3.21,
+      "dailyReturn": 3.38,
       "roc": 6.75,
       "score": 7.4,
       "buy": true,
@@ -6778,10 +6785,10 @@
       "sell": false,
       "ema": true,
       "earningsSoon": false,
-      "daysToEarnings": 34,
+      "daysToEarnings": 33,
       "marginOfSafety": true,
       "delta": -0.25,
-      "iv": 25.3,
+      "iv": 26.0,
       "premium": 0.68,
       "breakeven": 119.33,
       "breakevenLow": null,
@@ -6845,7 +6852,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.16,
+      "ivRvRatio": 1.19,
       "realizedVol": 21.8,
       "expDate": "2026-11-20",
       "legs": [
@@ -6878,14 +6885,14 @@
       "strike": "$62/58",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 47,
-      "ap": 156.4,
+      "ap": 164.2,
       "ivr": 54,
       "ivRankLimited": false,
-      "dailyReturn": 2.14,
+      "dailyReturn": 2.25,
       "roc": 9.0,
       "score": 7.5,
       "buy": true,
@@ -6894,17 +6901,17 @@
       "sell": false,
       "ema": true,
       "earningsSoon": false,
-      "daysToEarnings": 104,
+      "daysToEarnings": 103,
       "marginOfSafety": true,
       "delta": -0.24,
-      "iv": 27.9,
+      "iv": 28.5,
       "premium": 0.45,
       "breakeven": 62.05,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 455.0,
-      "pcOI": 0.68,
+      "pcOI": 0.71,
       "pcVol": 0.12,
       "debitStrategy": false,
       "liquidity": {
@@ -6935,14 +6942,33 @@
             "oi": 1172
           }
         ],
-        "expiryOI": 12685
+        "expiryOI": 12427
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
+      "newsSentiment": -0.05,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsHeadlines": [
+        {
+          "title": "Clorox Names Unilever\u2019s Fabian Garcia as CEO",
+          "publisher": "The Wall Street Journal",
+          "link": "https://finance.yahoo.com/m/6dbe4c3e-f5cb-3f9b-954b-715ef6445207/clorox-names-unilever%E2%80%99s.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Unilever (LSE:ULVR) Faces Dutch Block On Brand Disposal As It Lifts 2026 Outlook",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/unilever-lse-ulvr-faces-dutch-091712677.html",
+          "sentiment": -0.44
+        },
+        {
+          "title": "Nelson Peltz's Group Proposes $7.35 a Share for a Burger Chain the Same Week He Joins a Hockey Company's Board",
+          "publisher": "PR Newswire",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nelson-peltzs-group-proposes-7-183000509.html",
+          "sentiment": 0.3
+        }
+      ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.17,
+      "ivRvRatio": 1.2,
       "realizedVol": 23.8,
       "expDate": "2026-11-20",
       "legs": [
@@ -6960,8 +6986,8 @@
         }
       ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -18.5,
-      "sectorMedianPE": 16.2,
+      "peVsSectorPct": -17.8,
+      "sectorMedianPE": 16.1,
       "sectorPeerCount": 4,
       "sector": "Consumer Defensive"
     },
@@ -6975,14 +7001,14 @@
       "strike": "$85/90",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 45,
-      "ap": 199.9,
+      "ap": 209.9,
       "ivr": 34,
       "ivRankLimited": false,
-      "dailyReturn": 2.74,
+      "dailyReturn": 2.87,
       "roc": 11.5,
       "score": 6.6,
       "buy": false,
@@ -6991,10 +7017,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 108,
+      "daysToEarnings": 107,
       "marginOfSafety": true,
       "delta": 0.22,
-      "iv": 35.8,
+      "iv": 36.6,
       "premium": 0.57,
       "breakeven": 85.58,
       "breakevenLow": null,
@@ -7032,12 +7058,18 @@
             "oi": 1250
           }
         ],
-        "expiryOI": 51019
+        "expiryOI": 50989
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Lifezone Metals Ltd (LZM) (Q3 2026) Earnings Call Highlights: Strategic Funding Talks and ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/lifezone-metals-ltd-lzm-q3-011326378.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Construction Begins on Harvest34, Bringing 44 Deeply Affordable Family Townhomes to Boulder",
           "publisher": "GlobeNewswire",
@@ -7049,16 +7081,10 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-dividend-stocks-yields-011348001.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "3 Australian Dividend Stocks With Up To 4% Yield",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-dividend-stocks-4-001356337.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.18,
+      "ivRvRatio": 1.21,
       "realizedVol": 30.3,
       "expDate": "2026-11-20",
       "legs": [
@@ -7091,11 +7117,11 @@
       "strike": "$180/170",
       "hedge": null,
       "exp": "Jan 15",
-      "dte": 77,
+      "dte": 76,
       "backExp": null,
       "backExpDate": null,
       "pot": 41,
-      "ap": 403.8,
+      "ap": 409.1,
       "ivr": 40,
       "ivRankLimited": false,
       "dailyReturn": null,
@@ -7107,10 +7133,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 88,
+      "daysToEarnings": 87,
       "marginOfSafety": false,
       "delta": -0.46,
-      "iv": 50.4,
+      "iv": 50.8,
       "premium": 5.4,
       "breakeven": 174.6,
       "breakevenLow": null,
@@ -7174,7 +7200,7 @@
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 1.04,
+      "ivRvRatio": 1.05,
       "realizedVol": 48.4,
       "expDate": "2027-01-15",
       "legs": [
@@ -7207,26 +7233,26 @@
       "strike": "$90/100",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 27,
-      "ap": 43.5,
+      "ap": 45.6,
       "ivr": 24,
       "ivRankLimited": false,
-      "dailyReturn": 1.19,
+      "dailyReturn": 1.25,
       "roc": 2.5,
-      "score": 5.9,
+      "score": 6.0,
       "buy": false,
       "momentum": "bear",
       "ret3m": -12.7,
       "sell": true,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 111,
+      "daysToEarnings": 110,
       "marginOfSafety": true,
       "delta": 0.14,
-      "iv": 33.7,
+      "iv": 34.5,
       "premium": 0.25,
       "breakeven": 90.25,
       "breakevenLow": null,
@@ -7290,7 +7316,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.37,
+      "ivRvRatio": 1.4,
       "realizedVol": 24.6,
       "expDate": "2026-11-20",
       "legs": [
@@ -7323,14 +7349,14 @@
       "strike": "$45/43",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 40,
-      "ap": 173.8,
+      "ap": 182.5,
       "ivr": 36,
       "ivRankLimited": false,
-      "dailyReturn": 0.95,
+      "dailyReturn": 1.0,
       "roc": 10.0,
       "score": 7.4,
       "buy": true,
@@ -7339,10 +7365,10 @@
       "sell": false,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 95,
+      "daysToEarnings": 94,
       "marginOfSafety": true,
       "delta": -0.2,
-      "iv": 43.3,
+      "iv": 44.3,
       "premium": 0.2,
       "breakeven": 44.8,
       "breakevenLow": null,
@@ -7406,7 +7432,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.25,
+      "ivRvRatio": 1.28,
       "realizedVol": 34.7,
       "expDate": "2026-11-20",
       "legs": [
@@ -7439,14 +7465,14 @@
       "strike": "$70/75/90/95",
       "hedge": null,
       "exp": "Jan 15",
-      "dte": 77,
+      "dte": 76,
       "backExp": null,
       "backExpDate": null,
       "pot": 46,
-      "ap": 113.8,
+      "ap": 115.3,
       "ivr": 82,
       "ivRankLimited": false,
-      "dailyReturn": 1.56,
+      "dailyReturn": 1.58,
       "roc": 24.0,
       "score": 7.4,
       "buy": true,
@@ -7455,17 +7481,17 @@
       "sell": false,
       "ema": true,
       "earningsSoon": false,
-      "daysToEarnings": 104,
+      "daysToEarnings": 103,
       "marginOfSafety": true,
       "delta": -0.03,
-      "iv": 24.9,
+      "iv": 25.1,
       "premium": 1.2,
       "breakeven": 73.8,
       "breakevenLow": 73.8,
       "breakevenHigh": 91.2,
       "breakevenMovePct": null,
       "maxLoss": 380.0,
-      "pcOI": 0.65,
+      "pcOI": 0.63,
       "pcVol": 2.82,
       "debitStrategy": false,
       "liquidity": {
@@ -7512,7 +7538,7 @@
             "oi": 275
           }
         ],
-        "expiryOI": 23441
+        "expiryOI": 23192
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.43,
@@ -7538,7 +7564,7 @@
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 0.9,
+      "ivRvRatio": 0.91,
       "realizedVol": 27.7,
       "expDate": "2027-01-15",
       "legs": [
@@ -7568,8 +7594,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 0.6,
-      "sectorMedianPE": 16.2,
+      "peVsSectorPct": 1.6,
+      "sectorMedianPE": 16.1,
       "sectorPeerCount": 4,
       "sector": "Consumer Defensive"
     },
@@ -7583,14 +7609,14 @@
       "strike": "$90/85",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 36,
-      "ap": 139.0,
+      "ap": 146.0,
       "ivr": 17,
       "ivRankLimited": false,
-      "dailyReturn": 1.9,
+      "dailyReturn": 2.0,
       "roc": 8.0,
       "score": 7.2,
       "buy": true,
@@ -7599,10 +7625,10 @@
       "sell": false,
       "ema": false,
       "earningsSoon": false,
-      "daysToEarnings": 103,
+      "daysToEarnings": 102,
       "marginOfSafety": true,
       "delta": -0.18,
-      "iv": 28.5,
+      "iv": 29.2,
       "premium": 0.4,
       "breakeven": 89.6,
       "breakevenLow": null,
@@ -7640,7 +7666,7 @@
             "oi": 322
           }
         ],
-        "expiryOI": 10577
+        "expiryOI": 10572
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.25,
@@ -7666,7 +7692,7 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.41,
+      "ivRvRatio": 1.45,
       "realizedVol": 20.2,
       "expDate": "2026-11-20",
       "legs": [
@@ -7691,77 +7717,83 @@
     },
     {
       "sym": "SAN",
-      "strat": "Bear Put Spread",
+      "strat": "Bear Call Spread",
       "side": "bear",
       "isETF": false,
       "spot": 11.19,
       "spotPriceStale": false,
-      "strike": "$15/10",
+      "strike": "$12/14",
       "hedge": null,
-      "exp": "Jan 21",
-      "dte": 448,
+      "exp": "Nov 20",
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
-      "pot": 39,
-      "ap": 55.3,
-      "ivr": 72,
+      "pot": 41,
+      "ap": 41.1,
+      "ivr": 68,
       "ivRankLimited": false,
-      "dailyReturn": null,
-      "roc": 67.9,
-      "score": 6.8,
+      "dailyReturn": 0.23,
+      "roc": 2.25,
+      "score": 6.1,
       "buy": false,
       "momentum": "bear",
-      "ret3m": -22.6,
+      "ret3m": -21.6,
       "sell": true,
       "ema": false,
-      "earningsSoon": true,
-      "daysToEarnings": 96,
+      "earningsSoon": false,
+      "daysToEarnings": 95,
       "marginOfSafety": true,
-      "delta": -0.53,
-      "iv": 55.3,
-      "premium": 2.98,
-      "breakeven": 12.02,
+      "delta": 0.21,
+      "iv": 33.6,
+      "premium": 0.05,
+      "breakeven": 12.04,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 297.5,
-      "pcOI": 0.25,
-      "pcVol": 0.18,
-      "debitStrategy": true,
+      "maxLoss": 195.5,
+      "pcOI": 0.7,
+      "pcVol": 0.3,
+      "debitStrategy": false,
       "liquidity": {
-        "minOI": 1287,
-        "worstSpreadPct": 66.7,
-        "midPremium": 2.98,
-        "fillPremium": 3.71,
+        "minOI": 165,
+        "worstSpreadPct": null,
+        "midPremium": null,
+        "fillPremium": null,
         "weakLeg": {
-          "type": "put",
-          "strike": 15.0,
-          "action": "buy"
+          "type": "call",
+          "strike": 12.0,
+          "action": "sell"
         },
         "legQuotes": [
           {
-            "type": "put",
-            "strike": 15.0,
-            "action": "buy",
-            "bid": 2.7,
-            "ask": 5.4,
-            "oi": 1287
+            "type": "call",
+            "strike": 12.0,
+            "action": "sell",
+            "bid": 0.05,
+            "ask": 0.1,
+            "oi": 165
           },
           {
-            "type": "put",
-            "strike": 10.0,
-            "action": "sell",
-            "bid": 0.95,
-            "ask": 1.2,
-            "oi": 1647
+            "type": "call",
+            "strike": 14.0,
+            "action": "buy",
+            "bid": 0.0,
+            "ask": 0.05,
+            "oi": 2402
           }
         ],
-        "expiryOI": 17223
+        "expiryOI": 9329
       },
-      "potIsProfitProb": true,
-      "newsSentiment": -0.07,
-      "newsSentimentLabel": "Neutral",
+      "potIsProfitProb": false,
+      "newsSentiment": 0.45,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Cake Digital Bank Wins Gold at Qorus-Infosys Finacle Banking Innovation Awards 2026",
+          "publisher": "PR Newswire",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cake-digital-bank-wins-gold-002100240.html",
+          "sentiment": 0.85
+        },
         {
           "title": "Orchard Partners Selects JLL To Market 892K SF Manufacturing Campus In Brisbane: The San Francisco Deal Sheet",
           "publisher": "Bisnow",
@@ -7773,29 +7805,23 @@
           "publisher": "PR Newswire",
           "link": "https://finance.yahoo.com/small-business/articles/king-trash-following-david-duongs-220900549.html",
           "sentiment": 0.49
-        },
-        {
-          "title": "Avenzo Therapeutics to Present Preliminary Phase 1 Results from ORION-1 Study of AVZO-023, a Selective CDK4 Inhibitor, at the 2026 San Antonio Breast Cancer Symposium",
-          "publisher": "Business Wire",
-          "link": "https://finance.yahoo.com/healthcare/articles/avenzo-therapeutics-present-preliminary-phase-203000092.html",
-          "sentiment": -0.69
         }
       ],
-      "volRegime": "Rich",
-      "ivRvRatio": 1.46,
-      "realizedVol": 37.8,
-      "expDate": "2028-01-21",
+      "volRegime": "Fair",
+      "ivRvRatio": 0.93,
+      "realizedVol": 36.3,
+      "expDate": "2026-11-20",
       "legs": [
         {
-          "type": "put",
-          "strike": 15.0,
-          "action": "buy",
+          "type": "call",
+          "strike": 12.0,
+          "action": "sell",
           "qty": 1
         },
         {
-          "type": "put",
-          "strike": 10.0,
-          "action": "sell",
+          "type": "call",
+          "strike": 14.0,
+          "action": "buy",
           "qty": 1
         }
       ],
@@ -7815,11 +7841,11 @@
       "strike": "$85/75",
       "hedge": null,
       "exp": "Mar 19",
-      "dte": 140,
+      "dte": 139,
       "backExp": null,
       "backExpDate": null,
       "pot": 33,
-      "ap": 453.6,
+      "ap": 456.8,
       "ivr": 65,
       "ivRankLimited": false,
       "dailyReturn": null,
@@ -7831,10 +7857,10 @@
       "sell": true,
       "ema": false,
       "earningsSoon": true,
-      "daysToEarnings": 116,
+      "daysToEarnings": 115,
       "marginOfSafety": false,
       "delta": -0.42,
-      "iv": 31.8,
+      "iv": 31.9,
       "premium": 3.65,
       "breakeven": 81.35,
       "breakevenLow": null,
@@ -7875,9 +7901,15 @@
         "expiryOI": 10616
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.19,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.07,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "3 British Dividend Stocks To Watch With Up To 5% Yield",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-british-dividend-stocks-watch-001404300.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Lithium Argentina Shares Fall After HSBC Downgrade",
           "publisher": "MT Newswires",
@@ -7889,16 +7921,10 @@
           "publisher": "Stocktwits",
           "link": "https://finance.yahoo.com/markets/stocks/articles/gev-stock-focus-amid-mixed-110625487.html",
           "sentiment": 0.54
-        },
-        {
-          "title": "Affluent Americans Now Say They Need $2.6 Million. Required IRA Withdrawals Could Make 85% of Their Social Security Taxable",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/affluent-americans-now-2-6-093017292.html",
-          "sentiment": 0.34
         }
       ],
       "volRegime": "Fair",
-      "ivRvRatio": 1.09,
+      "ivRvRatio": 1.1,
       "realizedVol": 29.1,
       "expDate": "2027-03-19",
       "legs": [
@@ -7931,14 +7957,14 @@
       "strike": "$40/35",
       "hedge": null,
       "exp": "Nov 20",
-      "dte": 21,
+      "dte": 20,
       "backExp": null,
       "backExpDate": null,
       "pot": 27,
-      "ap": 17.4,
+      "ap": 18.2,
       "ivr": 77,
       "ivRankLimited": false,
-      "dailyReturn": 0.24,
+      "dailyReturn": 0.25,
       "roc": 1.0,
       "score": 5.6,
       "buy": true,
@@ -7946,11 +7972,11 @@
       "ret3m": 3.2,
       "sell": false,
       "ema": false,
-      "earningsSoon": true,
-      "daysToEarnings": 0,
+      "earningsSoon": false,
+      "daysToEarnings": null,
       "marginOfSafety": true,
       "delta": -0.13,
-      "iv": 41.5,
+      "iv": 42.5,
       "premium": 0.05,
       "breakeven": 39.95,
       "breakevenLow": null,
@@ -7991,9 +8017,15 @@
         "expiryOI": 12072
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.14,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.31,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Sanofi SA (SNY) (Q3 2026) Earnings Call Highlights: Dupixent Tops EUR5 Billion Again as ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/healthcare/articles/sanofi-sa-sny-q3-2026-231218685.html",
+          "sentiment": 0.51
+        },
         {
           "title": "EssilorLuxottica Stock And Eurozone Healthcare Giants Worth Watching Now",
           "publisher": "Simply Wall St.",
@@ -8005,16 +8037,10 @@
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/10130d32-3ffe-3110-8ce7-984fc87d885a/regeneron-bolts-13%25-higher%2C.html",
           "sentiment": 0.2
-        },
-        {
-          "title": "Sector Update: Healthcare Stocks Rise Late Afternoon",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-afternoon-195415462.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.55,
+      "ivRvRatio": 1.59,
       "realizedVol": 26.8,
       "expDate": "2026-11-20",
       "legs": [
@@ -8062,9 +8088,15 @@
       "dividendYield": 0.31,
       "marketCap": 5029592301568,
       "score": 7.9,
-      "newsSentiment": 0.18,
+      "newsSentiment": 0.28,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Big Homes, Big Loans",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/9aa518a9-bace-3e02-a215-82b14364d8d4/big-homes%2C-big-loans.html",
+          "sentiment": 0.0
+        },
         {
           "title": "What Are Dell Investors Betting On?",
           "publisher": "Trefis",
@@ -8072,16 +8104,10 @@
           "sentiment": 0.0
         },
         {
-          "title": "Apple overtakes Nvidia to become world\u2019s most valuable company amid tech selloff",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-overtakes-nvidia-become-world-214753575.html",
-          "sentiment": 0.53
-        },
-        {
-          "title": "Tech, Media & Telecom Roundup: Market Talk",
-          "publisher": "The Wall Street Journal",
-          "link": "https://finance.yahoo.com/m/5ba2daa7-e9f4-38ba-a2ba-0f1b84efd4fa/tech%2C-media-%26-telecom.html",
-          "sentiment": 0.0
+          "title": "Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html",
+          "sentiment": 0.83
         }
       ],
       "valuationLabel": "Rich",
@@ -8104,7 +8130,7 @@
       "chg3m": 7.2,
       "chg6m": 26.4,
       "chg1y": 1.6,
-      "volRatio": 1.59,
+      "volRatio": 1.6,
       "peRatio": 27.2,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -8112,26 +8138,26 @@
       "dividendYield": 0.74,
       "marketCap": 3875804807168,
       "score": 9.1,
-      "newsSentiment": 0.15,
+      "newsSentiment": 0.01,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "\u2018Big Short\u2019 trader says Anthropic slowdown tests AI boom",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-short-trader-says-anthropic-003700392.html",
+          "sentiment": -0.42
+        },
+        {
+          "title": "Big Homes, Big Loans",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/9aa518a9-bace-3e02-a215-82b14364d8d4/big-homes%2C-big-loans.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
           "sentiment": 0.44
-        },
-        {
-          "title": "Cracks are emerging in the AI spending boom",
-          "publisher": "TechCrunch",
-          "link": "https://finance.yahoo.com/technology/ai/articles/cracks-emerging-ai-spending-boom-211740864.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Axios Live: How employers are rethinking AI's role in entry-level work",
-          "publisher": "Axios",
-          "link": "https://finance.yahoo.com/technology/ai/articles/axios-live-employers-rethinking-ais-211016358.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -8154,7 +8180,7 @@
       "chg3m": -0.9,
       "chg6m": 3.4,
       "chg1y": 1.3,
-      "volRatio": 1.62,
+      "volRatio": 1.64,
       "peRatio": 25.9,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -8162,26 +8188,26 @@
       "dividendYield": 0.47,
       "marketCap": 4941441662976,
       "score": 4.0,
-      "newsSentiment": 0.4,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.01,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Why Bright Horizons Family Solutions Stock Swooned on Friday",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-bright-horizons-family-solutions-224024585.html",
-          "sentiment": 0.56
+          "title": "\u2018Big Short\u2019 trader says Anthropic slowdown tests AI boom",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-short-trader-says-anthropic-003700392.html",
+          "sentiment": -0.42
         },
         {
-          "title": "Nvidia has a stake in SpaceX that came from an unexpected place",
-          "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stake-spacex-came-unexpected-223300497.html",
+          "title": "Why Merck Stock Flew Higher on Friday",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-merck-stock-flew-higher-001827564.html",
           "sentiment": 0.0
         },
         {
-          "title": "Why CareDx Stock Soared Today",
+          "title": "Amazon Just Lost $42 Billion in Free Cash Flow. Is It a Red Flag for Investors?",
           "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-caredx-stock-soared-today-222426471.html",
-          "sentiment": 0.64
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-just-lost-42-billion-235001609.html",
+          "sentiment": 0.4
         }
       ],
       "valuationLabel": "Cheap",
@@ -8204,7 +8230,7 @@
       "chg3m": 4.3,
       "chg6m": 1.2,
       "chg1y": -4.8,
-      "volRatio": 1.03,
+      "volRatio": 1.04,
       "peRatio": 21.0,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
@@ -8212,9 +8238,15 @@
       "dividendYield": 0.34,
       "marketCap": 1572426743808,
       "score": 3.8,
-      "newsSentiment": 0.1,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.16,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "The New Bottleneck in America\u2019s AI Build-Out: A Shortage of Cheap Money",
+          "publisher": "The Wall Street Journal",
+          "link": "https://finance.yahoo.com/m/9ee3a635-3cc5-33bd-b372-23112d0b6a69/the-new-bottleneck-in.html",
+          "sentiment": -0.25
+        },
         {
           "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
           "publisher": "MT Newswires",
@@ -8226,12 +8258,6 @@
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/technology/ai/articles/meta-credit-rating-outlook-downgraded-215600853.html",
           "sentiment": -0.68
-        },
-        {
-          "title": "Apple overtakes Nvidia to become world\u2019s most valuable company amid tech selloff",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-overtakes-nvidia-become-world-214753575.html",
-          "sentiment": 0.53
         }
       ],
       "valuationLabel": "Rich",
@@ -8254,7 +8280,7 @@
       "chg3m": -25.3,
       "chg6m": -27.3,
       "chg1y": -1.0,
-      "volRatio": 2.2,
+      "volRatio": 2.21,
       "peRatio": 14.5,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
@@ -8262,26 +8288,26 @@
       "dividendYield": 0.31,
       "marketCap": 3420436561920,
       "score": 2.8,
-      "newsSentiment": 0.08,
+      "newsSentiment": -0.07,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Veteran fund manager revamps Alphabet stock price target after brutal sell-off",
+          "title": "Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/stocktwits-weekly-spread-shaped-treasury-005438925.html",
+          "sentiment": 0.2
+        },
+        {
+          "title": "\u2018Big Short\u2019 trader says Anthropic slowdown tests AI boom",
           "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/veteran-fund-manager-revamps-alphabet-222551042.html",
-          "sentiment": -0.62
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-short-trader-says-anthropic-003700392.html",
+          "sentiment": -0.42
         },
         {
-          "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
-          "sentiment": 0.44
-        },
-        {
-          "title": "Learn Why The Bull Case For Verizon Communications (VZ) Could Change Following Raised Outlook",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-verizon-221305487.html",
-          "sentiment": 0.42
+          "title": "Review & Preview: Ending on a Down Note",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/b0499f52-933b-3c3a-a9fe-a4d478f02828/review-%26-preview%3A-ending-on-a.html",
+          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -8304,7 +8330,7 @@
       "chg3m": -3.9,
       "chg6m": 8.9,
       "chg1y": 10.4,
-      "volRatio": 1.05,
+      "volRatio": 1.06,
       "peRatio": 14.1,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -8354,7 +8380,7 @@
       "chg3m": -7.5,
       "chg6m": -23.4,
       "chg1y": -49.6,
-      "volRatio": 1.26,
+      "volRatio": 1.29,
       "peRatio": 20.5,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -8412,26 +8438,26 @@
       "dividendYield": 0.0,
       "marketCap": 2598423756800,
       "score": 3.3,
-      "newsSentiment": 0.46,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.02,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html",
+          "title": "Creative Newtech Ltd (NSE:CNL) (Q2 2027) Earnings Call Highlights: Rs 3,195 Crore BSNL Order, ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/creative-newtech-ltd-nse-cnl-011213972.html",
           "sentiment": 0.44
         },
         {
-          "title": "Learn Why The Bull Case For Verizon Communications (VZ) Could Change Following Raised Outlook",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-verizon-221305487.html",
-          "sentiment": 0.42
+          "title": "\u2018Big Short\u2019 trader says Anthropic slowdown tests AI boom",
+          "publisher": "TheStreet",
+          "link": "https://finance.yahoo.com/technology/ai/articles/big-short-trader-says-anthropic-003700392.html",
+          "sentiment": -0.42
         },
         {
-          "title": "Apple overtakes Nvidia to become world\u2019s most valuable company amid tech selloff",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-overtakes-nvidia-become-world-214753575.html",
-          "sentiment": 0.53
+          "title": "S&P 500, Nasdaq End Third Straight Week Lower As Investors Move Away From Tech, AI \u2014  AMZN, INTC, LLY, RBLX In Focus",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-end-third-000539225.html",
+          "sentiment": -0.08
         }
       ],
       "valuationLabel": "Cheap",
@@ -8454,7 +8480,7 @@
       "chg3m": -33.9,
       "chg6m": -40.9,
       "chg1y": 61.4,
-      "volRatio": 2.34,
+      "volRatio": 2.36,
       "peRatio": 17.4,
       "sector": null,
       "industry": null,
@@ -8500,7 +8526,7 @@
       "chg3m": -8.6,
       "chg6m": -4.6,
       "chg1y": 7.0,
-      "volRatio": 1.87,
+      "volRatio": 1.88,
       "peRatio": 25.2,
       "sector": null,
       "industry": null,
@@ -8546,7 +8572,7 @@
       "chg3m": -15.3,
       "chg6m": -32.6,
       "chg1y": -44.5,
-      "volRatio": 1.24,
+      "volRatio": 1.26,
       "peRatio": 17.9,
       "sector": "Communication Services",
       "industry": "Entertainment",
@@ -8596,7 +8622,7 @@
       "chg3m": -7.9,
       "chg6m": 15.3,
       "chg1y": -42.8,
-      "volRatio": 2.35,
+      "volRatio": 2.36,
       "peRatio": 75.6,
       "sector": "Technology",
       "industry": "Software - Application",
@@ -8604,9 +8630,15 @@
       "dividendYield": 0.0,
       "marketCap": 109105840128,
       "score": 4.5,
-      "newsSentiment": 0.05,
+      "newsSentiment": -0.09,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "New Homes Now Cheaper Than Existing Houses After 50-Year Trend Reversal, Hedgeye Says: \u2018The Builder Has to Sell\u2019",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/real-estate/articles/homes-now-cheaper-existing-houses-223004793.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Trump touted a record Venezuela oil deal. Now reality is setting in",
           "publisher": "Reuters",
@@ -8618,12 +8650,6 @@
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
           "sentiment": -0.23
-        },
-        {
-          "title": "IBM vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-vs-servicenow-technology-stock-203501226.html",
-          "sentiment": 0.44
         }
       ],
       "valuationLabel": "Rich",
@@ -8646,7 +8672,7 @@
       "chg3m": -0.4,
       "chg6m": -0.2,
       "chg1y": -26.5,
-      "volRatio": 1.32,
+      "volRatio": 1.34,
       "peRatio": 14.0,
       "sector": "Technology",
       "industry": "Software - Application",
@@ -8704,9 +8730,15 @@
       "dividendYield": 0.76,
       "marketCap": 188606906368,
       "score": 6.0,
-      "newsSentiment": 0.38,
+      "newsSentiment": 0.39,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Salesforce\u2019s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+          "publisher": "TechCrunch",
+          "link": "https://finance.yahoo.com/technology/ai/articles/salesforce-m-spree-continues-reported-232123064.html",
+          "sentiment": 0.13
+        },
         {
           "title": "Earnings Beat May Change The Case For Bandwidth Stock",
           "publisher": "Simply Wall St.",
@@ -8718,12 +8750,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-vs-servicenow-technology-stock-203501226.html",
           "sentiment": 0.44
-        },
-        {
-          "title": "Leaders from Wolters Kluwer, Microsoft, Salesforce, and McKinsey challenge accounting firms to make one AI move in the next 90 days",
-          "publisher": "Business Wire",
-          "link": "https://finance.yahoo.com/technology/ai/articles/leaders-wolters-kluwer-microsoft-salesforce-201500186.html",
-          "sentiment": 0.08
         }
       ],
       "valuationLabel": "Cheap",
@@ -8804,7 +8830,7 @@
       "dividendYield": 0.0,
       "marketCap": 442427080704,
       "score": 4.8,
-      "newsSentiment": 0.24,
+      "newsSentiment": 0.39,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -8814,16 +8840,16 @@
           "sentiment": 0.57
         },
         {
+          "title": "Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html",
+          "sentiment": 0.83
+        },
+        {
           "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
           "sentiment": -0.23
-        },
-        {
-          "title": "Palantir Stocks Decline 4.94% Before an 11.7% Sequential Revenue Growth Test",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-stocks-decline-4-94-191343821.html",
-          "sentiment": 0.38
         }
       ],
       "valuationLabel": "Rich",
@@ -8846,7 +8872,7 @@
       "chg3m": 0.3,
       "chg6m": 2.6,
       "chg1y": 36.6,
-      "volRatio": 1.97,
+      "volRatio": 1.98,
       "peRatio": 26.3,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -8854,9 +8880,15 @@
       "dividendYield": 0.87,
       "marketCap": 2106382745600,
       "score": 4.0,
-      "newsSentiment": 0.04,
+      "newsSentiment": -0.04,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Cathie Wood Shifts From AI Chips to Robinhood and Air Taxis in Latest ARK Trades",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-shifts-ai-chips-230947279.html",
+          "sentiment": 0.0
+        },
         {
           "title": "If AI Spending Slows in 2027, These Semiconductor Stocks Could Hold Up Best",
           "publisher": "24/7 Wall St.",
@@ -8868,12 +8900,6 @@
           "publisher": "Motley Fool",
           "link": "https://finance.yahoo.com/technology/ai/articles/ai-bubble-scare-gets-worse-170100931.html",
           "sentiment": -0.74
-        },
-        {
-          "title": "Here\u2019s What a $10,000 Investment in TSMC Stock Will Be Worth by 2030",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/10-000-investment-tsmc-stock-145002268.html",
-          "sentiment": 0.23
         }
       ],
       "valuationLabel": "Cheap",
@@ -8904,9 +8930,15 @@
       "dividendYield": 0.53,
       "marketCap": 269775339520,
       "score": 5.0,
-      "newsSentiment": 0.06,
+      "newsSentiment": 0.1,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Dell Technologies (DELL) Joins 33 Companies Objecting To Unauthorized Tokenized Shares",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-joins-33-011250174.html",
+          "sentiment": 0.3
+        },
         {
           "title": "What Are Dell Investors Betting On?",
           "publisher": "Trefis",
@@ -8918,12 +8950,6 @@
           "publisher": "Trefis",
           "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-really-expensive-221844192.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Intel, Amazon, Nvidia, ExxonMobil, Sandisk, FedEx Freight, and More Stocks That Explain Today\u2019s Market",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/6fa63ea7-4dda-36ab-92fc-9135d98e250e/intel%2C-amazon%2C-nvidia%2C.html",
-          "sentiment": 0.18
         }
       ],
       "valuationLabel": "Cheap",
@@ -8946,7 +8972,7 @@
       "chg3m": 5.4,
       "chg6m": 102.0,
       "chg1y": 66.1,
-      "volRatio": 1.36,
+      "volRatio": 1.37,
       "peRatio": 914.7,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -8996,7 +9022,7 @@
       "chg3m": -15.8,
       "chg6m": -21.8,
       "chg1y": 39.6,
-      "volRatio": 1.53,
+      "volRatio": 1.54,
       "peRatio": 49.9,
       "sector": "Technology",
       "industry": "Electronic Components",
@@ -9004,9 +9030,15 @@
       "dividendYield": 0.87,
       "marketCap": 106219364352,
       "score": 1.6,
-      "newsSentiment": 0.01,
+      "newsSentiment": 0.1,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "GLW Q3 deep dive: Optical communications and AI demand drive accelerating growth",
+          "publisher": "StockStory",
+          "link": "https://finance.yahoo.com/technology/ai/articles/glw-q3-deep-dive-optical-004329717.html",
+          "sentiment": 0.27
+        },
         {
           "title": "Corning\u2019s Q3 earnings call: our top 5 analyst questions",
           "publisher": "StockStory",
@@ -9018,12 +9050,6 @@
           "publisher": "Trefis",
           "link": "https://finance.yahoo.com/markets/stocks/articles/risk-hiding-ciena-stocks-growth-134204224.html",
           "sentiment": -0.18
-        },
-        {
-          "title": "China Renaissance Adjusts Price Target on Corning to $191 From $238",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/china-renaissance-adjusts-price-target-132303205.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
@@ -9046,7 +9072,7 @@
       "chg3m": -0.0,
       "chg6m": 5.4,
       "chg1y": 12.0,
-      "volRatio": 1.87,
+      "volRatio": 1.88,
       "peRatio": 24.0,
       "sector": null,
       "industry": null,
@@ -9058,6 +9084,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "Investors Have Poured a Record $2.24 Trillion Into ETFs This Year. Three Firms Collected Nearly Half of It",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-poured-record-2-24-000347530.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "5,500 ETFs and Counting: Where the Market Goes Next",
           "publisher": "etf.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/5-500-etfs-counting-where-203901351.html",
@@ -9067,12 +9099,6 @@
           "title": "8 Months Ago, A Major Wall Street Bank Said Buy Marvell. It\u2019s Up More Than 150%. Here\u2019s Where We See the Stock Going",
           "publisher": "24/7 Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/8-months-ago-major-wall-201736681.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "$1,000 in UPS Stock 10 Years Ago: Did the Dividends Offset the Decline?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/1-000-ups-stock-10-191724722.html",
           "sentiment": 0.0
         }
       ]
@@ -9178,17 +9204,17 @@
       "isETF": false,
       "price": 1012.28,
       "priceStale": false,
-      "high52wk": 1094.76,
-      "low52wk": 840.35,
-      "pctFromHigh": -7.5,
-      "pctFromLow": 20.5,
+      "high52wk": 1093.14,
+      "low52wk": 839.11,
+      "pctFromHigh": -7.4,
+      "pctFromLow": 20.6,
       "trend": "Strong Uptrend",
-      "rsi": 66.5,
-      "chg1m": 10.6,
-      "chg3m": 6.1,
-      "chg6m": 0.2,
-      "chg1y": 11.6,
-      "volRatio": 1.49,
+      "rsi": 66.9,
+      "chg1m": 10.8,
+      "chg3m": 6.3,
+      "chg6m": 0.4,
+      "chg1y": 11.7,
+      "volRatio": 1.52,
       "peRatio": 48.8,
       "sector": "Consumer Defensive",
       "industry": "Discount Stores",
@@ -9219,8 +9245,8 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 201.2,
-      "sectorMedianPE": 16.2,
+      "peVsSectorPct": 204.0,
+      "sectorMedianPE": 16.1,
       "sectorPeerCount": 4
     },
     {
@@ -9288,7 +9314,7 @@
       "chg3m": 1.4,
       "chg6m": 19.1,
       "chg1y": 109.9,
-      "volRatio": 2.06,
+      "volRatio": 2.08,
       "peRatio": 64.6,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -9388,7 +9414,7 @@
       "chg3m": -8.9,
       "chg6m": -13.1,
       "chg1y": -32.4,
-      "volRatio": 1.05,
+      "volRatio": 1.09,
       "peRatio": 14.3,
       "sector": "Technology",
       "industry": "Software - Application",
@@ -9438,7 +9464,7 @@
       "chg3m": -6.9,
       "chg6m": -30.1,
       "chg1y": 53.7,
-      "volRatio": 1.1,
+      "volRatio": 1.11,
       "peRatio": 123.1,
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
@@ -9456,16 +9482,16 @@
           "sentiment": 0.27
         },
         {
+          "title": "Why Buying Bloom Energy Stock After Its Post-Earnings Selloff Could Be a Good Idea",
+          "publisher": "Barchart",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-buying-bloom-energy-stock-180722016.html",
+          "sentiment": 0.61
+        },
+        {
           "title": "FuelCell Energy Sinks 12% Despite Completing $49 Million Export-Import Bank Financing; Bloom Energy Tumbles 10%, Plug Power Falls 4%",
           "publisher": "24/7 Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/fuelcell-energy-sinks-12-despite-180454738.html",
           "sentiment": -0.65
-        },
-        {
-          "title": "Bloom Energy or Plug Power: Which Offers Better Long-Term Upside Now?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/energy/articles/bloom-energy-plug-power-offers-151500021.html",
-          "sentiment": 0.61
         }
       ],
       "valuationLabel": "Rich",
@@ -9546,9 +9572,28 @@
       "dividendYield": 0.0,
       "marketCap": 212970405888,
       "score": 2.5,
-      "newsSentiment": 0.0,
+      "newsSentiment": 0.07,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsHeadlines": [
+        {
+          "title": "Arista Networks vs. Monday.com: Which Technology Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-vs-monday-com-224702003.html",
+          "sentiment": 0.44
+        },
+        {
+          "title": "Is Arista Networks Stock Really Expensive?",
+          "publisher": "Trefis",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-really-expensive-221844192.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
+          "publisher": "Investor's Business Daily",
+          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
+          "sentiment": -0.23
+        }
+      ],
       "valuationLabel": "Rich",
       "peVsSectorPct": 61.8,
       "sectorMedianPE": 33.0,
@@ -9569,7 +9614,7 @@
       "chg3m": 6.7,
       "chg6m": 63.2,
       "chg1y": 295.8,
-      "volRatio": 1.16,
+      "volRatio": 1.17,
       "peRatio": 11.9,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -9577,9 +9622,15 @@
       "dividendYield": 0.06,
       "marketCap": 1001015410688,
       "score": 5.0,
-      "newsSentiment": 0.58,
+      "newsSentiment": 0.64,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html",
+          "sentiment": 0.83
+        },
         {
           "title": "Micron Stocks Decline 5.8% With Client Exposure Complicating Its AI Growth Story",
           "publisher": "GuruFocus.com",
@@ -9591,12 +9642,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/2-ai-stocks-poised-surge-180000078.html",
           "sentiment": 0.72
-        },
-        {
-          "title": "If AI Spending Slows in 2027, These Semiconductor Stocks Could Hold Up Best",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-spending-slows-2027-semiconductor-175803858.html",
-          "sentiment": 0.64
         }
       ],
       "valuationLabel": "Cheap",
@@ -9627,26 +9672,26 @@
       "dividendYield": 0.0,
       "marketCap": 1580341002240,
       "score": 7.0,
-      "newsSentiment": 0.02,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.35,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Coinbase and Kraken Ramp Up Security After Massive Binance Hack",
+          "publisher": "CryptoProwl",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-kraken-ramp-security-massive-004600667.html",
+          "sentiment": 0.34
+        },
+        {
+          "title": "Stocktwits Zero To Sixty: Rivian Raises Delivery Guidance On R2 Demand, Tesla Expands Robotaxi Fleet,  And Ford Advances Low-Cost EV Plans",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stocktwits-zero-sixty-rivian-raises-001018492.html",
+          "sentiment": 0.4
+        },
         {
           "title": "SpaceX's Shotwell says 2 million shares to be gifted to children's Trump Accounts",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/markets/stocks/articles/spacexs-shotwell-says-2-million-214100331.html",
           "sentiment": 0.3
-        },
-        {
-          "title": "Elon Musk vs. Tesla? His Midterm Money Could Work Against His Own Cars",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/economy/policy/articles/elon-musk-vs-tesla-midterm-210223226.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
         }
       ],
       "valuationLabel": "Rich",
@@ -9677,26 +9722,26 @@
       "dividendYield": 0.0,
       "marketCap": 1829640994816,
       "score": 3.7,
-      "newsSentiment": -0.03,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.21,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
-          "title": "Nvidia has a stake in SpaceX that came from an unexpected place",
+          "title": "The New Bottleneck in America\u2019s AI Build-Out: A Shortage of Cheap Money",
+          "publisher": "The Wall Street Journal",
+          "link": "https://finance.yahoo.com/m/9ee3a635-3cc5-33bd-b372-23112d0b6a69/the-new-bottleneck-in.html",
+          "sentiment": -0.25
+        },
+        {
+          "title": "Coinbase and Kraken Ramp Up Security After Massive Binance Hack",
+          "publisher": "CryptoProwl",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-kraken-ramp-security-massive-004600667.html",
+          "sentiment": 0.34
+        },
+        {
+          "title": "SpaceX accuses T-Mobile, other carriers of trying to harm it",
           "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stake-spacex-came-unexpected-223300497.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Elon Musk Says Neoclouds Face a \"Guppy Level\" Death. SpaceX Just Borrowed $40 Billion to Make Sure It Isn't One.",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-says-neoclouds-face-215000293.html",
-          "sentiment": -0.38
-        },
-        {
-          "title": "SpaceX's Shotwell says 2 million shares to be gifted to children's Trump Accounts",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/spacexs-shotwell-says-2-million-214100331.html",
-          "sentiment": 0.3
+          "link": "https://finance.yahoo.com/technology/articles/spacex-accuses-t-mobile-other-230400511.html",
+          "sentiment": -0.71
         }
       ],
       "valuationLabel": "Rich",
@@ -9727,26 +9772,26 @@
       "dividendYield": 0.0,
       "marketCap": 824073388032,
       "score": 4.8,
-      "newsSentiment": -0.22,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.28,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-30-212002526.html",
-          "sentiment": -0.8
+          "title": "Cathie Wood Shifts From AI Chips to Robinhood and Air Taxis in Latest ARK Trades",
+          "publisher": "24/7 Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-shifts-ai-chips-230947279.html",
+          "sentiment": 0.0
         },
         {
-          "title": "Former SEC Chair: Broadcom\u2019s $63 Billion Package Feels Like \u201cThat 08 Off-Balance Sheet Craze\u201d",
-          "publisher": "TIKR",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/former-sec-chair-broadcom-63-205216871.html",
-          "sentiment": 0.36
+          "title": "Big Homes, Big Loans",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/9aa518a9-bace-3e02-a215-82b14364d8d4/big-homes%2C-big-loans.html",
+          "sentiment": 0.0
         },
         {
-          "title": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-          "publisher": "Investor's Business Daily",
-          "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures%3A-stock.html",
-          "sentiment": -0.23
+          "title": "Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html",
+          "sentiment": 0.83
         }
       ],
       "valuationLabel": "Rich",
@@ -9769,7 +9814,7 @@
       "chg3m": -25.0,
       "chg6m": -27.4,
       "chg1y": -0.2,
-      "volRatio": 2.09,
+      "volRatio": 2.1,
       "peRatio": 14.6,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
@@ -9777,9 +9822,16 @@
       "dividendYield": 0.31,
       "marketCap": 3440352690176,
       "score": 2.8,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsSentiment": 0.83,
+      "newsSentimentLabel": "Positive",
+      "newsHeadlines": [
+        {
+          "title": "Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html",
+          "sentiment": 0.83
+        }
+      ],
       "valuationLabel": "Cheap",
       "peVsSectorPct": 0.0,
       "sectorMedianPE": 14.6,
@@ -9800,7 +9852,7 @@
       "chg3m": -27.7,
       "chg6m": -34.0,
       "chg1y": 64.4,
-      "volRatio": 3.95,
+      "volRatio": 3.98,
       "peRatio": null,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -9808,25 +9860,25 @@
       "dividendYield": 0.0,
       "marketCap": 349185605632,
       "score": 2.2,
-      "newsSentiment": -0.22,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.04,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Nvidia has a stake in SpaceX that came from an unexpected place",
-          "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stake-spacex-came-unexpected-223300497.html",
-          "sentiment": 0.0
+          "title": "Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/stocktwits-weekly-spread-shaped-treasury-005438925.html",
+          "sentiment": 0.2
         },
         {
-          "title": "Intel CEO reveals a PC problem as Goldman cuts stock target",
-          "publisher": "TheStreet",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-ceo-reveals-pc-problem-220700996.html",
-          "sentiment": -0.67
+          "title": "S&P 500, Nasdaq End Third Straight Week Lower As Investors Move Away From Tech, AI \u2014  AMZN, INTC, LLY, RBLX In Focus",
+          "publisher": "Stocktwits",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-end-third-000539225.html",
+          "sentiment": -0.08
         },
         {
-          "title": "Intel\u2019s stock crashes, knocking $12B from government\u2019s stake",
-          "publisher": "TechCrunch",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-crashes-knocking-12b-215434820.html",
+          "title": "Review & Preview: Ending on a Down Note",
+          "publisher": "Barrons.com",
+          "link": "https://finance.yahoo.com/m/b0499f52-933b-3c3a-a9fe-a4d478f02828/review-%26-preview%3A-ending-on-a.html",
           "sentiment": 0.0
         }
       ]
@@ -9846,7 +9898,7 @@
       "chg3m": -2.8,
       "chg6m": 11.8,
       "chg1y": 14.6,
-      "volRatio": 1.34,
+      "volRatio": 1.35,
       "peRatio": 34.5,
       "sector": "Technology",
       "industry": "Electronic Components",
@@ -9896,7 +9948,7 @@
       "chg3m": -8.2,
       "chg6m": -16.0,
       "chg1y": -9.4,
-      "volRatio": 1.07,
+      "volRatio": 1.08,
       "peRatio": 11.4,
       "sector": "Communication Services",
       "industry": "Telecom Services",
@@ -9936,7 +9988,7 @@
       "isETF": false,
       "price": 364.12,
       "priceStale": false,
-      "high52wk": 368.98,
+      "high52wk": 369.0,
       "low52wk": 270.88,
       "pctFromHigh": -1.3,
       "pctFromLow": 34.4,
@@ -10092,7 +10144,7 @@
       "chg3m": -1.3,
       "chg6m": -5.7,
       "chg1y": 22.4,
-      "volRatio": 1.21,
+      "volRatio": 1.22,
       "peRatio": 60.9,
       "sector": "Real Estate",
       "industry": "REIT - Specialty",
@@ -10334,7 +10386,7 @@
       "chg3m": -12.8,
       "chg6m": -21.2,
       "chg1y": -41.7,
-      "volRatio": 1.01,
+      "volRatio": 1.04,
       "peRatio": 8.8,
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
@@ -10392,14 +10444,14 @@
       "dividendYield": 4.01,
       "marketCap": 129784053760,
       "score": 7.5,
-      "newsSentiment": 0.2,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.11,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "The Oil Giants Are Raking In Cash. Here\u2019s What They\u2019ll Do With It.",
-          "publisher": "Barrons.com",
-          "link": "https://finance.yahoo.com/m/9c6f7f41-b911-3266-aef4-0cdcc23c803a/the-oil-giants-are-raking-in.html",
-          "sentiment": 0.0
+          "title": "BP PLC (BP) (Q3 2026) Earnings Call Highlights: Debt Cut, Refining Strength, and a $4 Billion ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/energy/articles/bp-plc-bp-q3-2026-230745243.html",
+          "sentiment": -0.27
         },
         {
           "title": "BP's Blowout Quarter Comes With a Big Catch",
@@ -10484,7 +10536,7 @@
       "chg3m": 22.1,
       "chg6m": 21.8,
       "chg1y": 80.3,
-      "volRatio": 1.33,
+      "volRatio": 1.34,
       "peRatio": 13.8,
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
@@ -10584,8 +10636,8 @@
       "chg3m": 4.9,
       "chg6m": 7.9,
       "chg1y": 27.3,
-      "volRatio": 0.95,
-      "peRatio": 16.1,
+      "volRatio": 0.96,
+      "peRatio": 15.8,
       "sector": "Consumer Defensive",
       "industry": "Tobacco",
       "pegRatio": 1.53,
@@ -10615,8 +10667,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": -0.6,
-      "sectorMedianPE": 16.2,
+      "peVsSectorPct": -1.6,
+      "sectorMedianPE": 16.1,
       "sectorPeerCount": 4
     },
     {
@@ -10634,7 +10686,7 @@
       "chg3m": -3.0,
       "chg6m": 14.5,
       "chg1y": 41.2,
-      "volRatio": 1.02,
+      "volRatio": 1.07,
       "peRatio": 17.7,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -10684,7 +10736,7 @@
       "chg3m": -7.3,
       "chg6m": -7.4,
       "chg1y": 10.4,
-      "volRatio": 0.75,
+      "volRatio": 0.8,
       "peRatio": 26.4,
       "sector": "Energy",
       "industry": "Oil & Gas Midstream",
@@ -10692,28 +10744,9 @@
       "dividendYield": 5.68,
       "marketCap": 110238597120,
       "score": 5.4,
-      "newsSentiment": -0.29,
-      "newsSentimentLabel": "Negative",
-      "newsHeadlines": [
-        {
-          "title": "Williams Companies Reports Soon: How Has The Stock Reacted To Past Earnings?",
-          "publisher": "Trefis",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/williams-companies-reports-soon-stock-221208519.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Enbridge (TSX:ENB) Stock May Trade At A Premium Despite Gas Demand Growth News",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/enbridge-tsx-enb-stock-may-201410206.html",
-          "sentiment": -0.21
-        },
-        {
-          "title": "Chevron vs. Enbridge: Which Energy Giant Makes More Money Off the Iran War Oil Price Shock?",
-          "publisher": "Motley Fool",
-          "link": "https://finance.yahoo.com/energy/articles/chevron-vs-enbridge-energy-giant-180101726.html",
-          "sentiment": -0.66
-        }
-      ],
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
+      "newsHeadlines": [],
       "valuationLabel": "Rich",
       "peVsSectorPct": 161.4,
       "sectorMedianPE": 10.1,
@@ -10734,7 +10767,7 @@
       "chg3m": 3.5,
       "chg6m": 17.6,
       "chg1y": 54.9,
-      "volRatio": 0.6,
+      "volRatio": 0.71,
       "peRatio": 18.5,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -10792,12 +10825,31 @@
       "dividendYield": 3.25,
       "marketCap": 140539969536,
       "score": 8.7,
-      "newsSentiment": 0.0,
+      "newsSentiment": -0.05,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsHeadlines": [
+        {
+          "title": "Clorox Names Unilever\u2019s Fabian Garcia as CEO",
+          "publisher": "The Wall Street Journal",
+          "link": "https://finance.yahoo.com/m/6dbe4c3e-f5cb-3f9b-954b-715ef6445207/clorox-names-unilever%E2%80%99s.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Unilever (LSE:ULVR) Faces Dutch Block On Brand Disposal As It Lifts 2026 Outlook",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/unilever-lse-ulvr-faces-dutch-091712677.html",
+          "sentiment": -0.44
+        },
+        {
+          "title": "Nelson Peltz's Group Proposes $7.35 a Share for a Burger Chain the Same Week He Joins a Hockey Company's Board",
+          "publisher": "PR Newswire",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nelson-peltzs-group-proposes-7-183000509.html",
+          "sentiment": 0.3
+        }
+      ],
       "valuationLabel": "Cheap",
-      "peVsSectorPct": -18.5,
-      "sectorMedianPE": 16.2,
+      "peVsSectorPct": -17.8,
+      "sectorMedianPE": 16.1,
       "sectorPeerCount": 4
     },
     {
@@ -10827,6 +10879,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "Lifezone Metals Ltd (LZM) (Q3 2026) Earnings Call Highlights: Strategic Funding Talks and ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/lifezone-metals-ltd-lzm-q3-011326378.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Construction Begins on Harvest34, Bringing 44 Deeply Affordable Family Townhomes to Boulder",
           "publisher": "GlobeNewswire",
           "link": "https://finance.yahoo.com/real-estate/articles/construction-begins-harvest34-bringing-44-152800987.html",
@@ -10836,12 +10894,6 @@
           "title": "3 Australian Dividend Stocks With Yields Over 3%",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-dividend-stocks-yields-011348001.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "3 Australian Dividend Stocks With Up To 4% Yield",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-dividend-stocks-4-001356337.html",
           "sentiment": 0.0
         }
       ],
@@ -10865,7 +10917,7 @@
       "chg3m": -8.0,
       "chg6m": -11.9,
       "chg1y": -38.8,
-      "volRatio": 0.77,
+      "volRatio": 0.79,
       "peRatio": 14.3,
       "sector": "Financial Services",
       "industry": "Banks - Regional",
@@ -10965,7 +11017,7 @@
       "chg3m": -12.7,
       "chg6m": -16.8,
       "chg1y": 19.9,
-      "volRatio": 1.96,
+      "volRatio": 2.06,
       "peRatio": 11.1,
       "sector": "Basic Materials",
       "industry": "Other Industrial Metals & Mining",
@@ -11015,13 +11067,13 @@
       "chg3m": 7.1,
       "chg6m": 22.4,
       "chg1y": 47.2,
-      "volRatio": 0.64,
+      "volRatio": 0.75,
       "peRatio": 17.0,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
       "pegRatio": 1.05,
       "dividendYield": 3.4,
-      "marketCap": 114087780352,
+      "marketCap": 114277498880,
       "score": 8.5,
       "newsSentiment": -0.05,
       "newsSentimentLabel": "Neutral",
@@ -11177,8 +11229,8 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 0.6,
-      "sectorMedianPE": 16.2,
+      "peVsSectorPct": 1.6,
+      "sectorMedianPE": 16.1,
       "sectorPeerCount": 4
     },
     {
@@ -11246,7 +11298,7 @@
       "chg3m": -2.7,
       "chg6m": 12.4,
       "chg1y": -2.0,
-      "volRatio": 1.16,
+      "volRatio": 1.23,
       "peRatio": 16.7,
       "sector": "Financial Services",
       "industry": "Banks - Regional",
@@ -11286,16 +11338,16 @@
       "isETF": false,
       "price": 11.19,
       "priceStale": false,
-      "high52wk": 15.05,
-      "low52wk": 9.84,
-      "pctFromHigh": -25.6,
-      "pctFromLow": 13.7,
+      "high52wk": 14.87,
+      "low52wk": 9.72,
+      "pctFromHigh": -24.7,
+      "pctFromLow": 15.1,
       "trend": "Strong Downtrend",
-      "rsi": 21.1,
-      "chg1m": -15.7,
-      "chg3m": -22.6,
-      "chg6m": -6.1,
-      "chg1y": 11.6,
+      "rsi": 22.0,
+      "chg1m": -14.7,
+      "chg3m": -21.6,
+      "chg6m": -5.0,
+      "chg1y": 13.0,
       "volRatio": 1.17,
       "peRatio": 10.6,
       "sector": "Financial Services",
@@ -11303,10 +11355,16 @@
       "pegRatio": 0.76,
       "dividendYield": 2.37,
       "marketCap": 161340882944,
-      "score": 3.5,
-      "newsSentiment": -0.07,
-      "newsSentimentLabel": "Neutral",
+      "score": 3.6,
+      "newsSentiment": 0.45,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Cake Digital Bank Wins Gold at Qorus-Infosys Finacle Banking Innovation Awards 2026",
+          "publisher": "PR Newswire",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cake-digital-bank-wins-gold-002100240.html",
+          "sentiment": 0.85
+        },
         {
           "title": "Orchard Partners Selects JLL To Market 892K SF Manufacturing Campus In Brisbane: The San Francisco Deal Sheet",
           "publisher": "Bisnow",
@@ -11318,12 +11376,6 @@
           "publisher": "PR Newswire",
           "link": "https://finance.yahoo.com/small-business/articles/king-trash-following-david-duongs-220900549.html",
           "sentiment": 0.49
-        },
-        {
-          "title": "Avenzo Therapeutics to Present Preliminary Phase 1 Results from ORION-1 Study of AVZO-023, a Selective CDK4 Inhibitor, at the 2026 San Antonio Breast Cancer Symposium",
-          "publisher": "Business Wire",
-          "link": "https://finance.yahoo.com/healthcare/articles/avenzo-therapeutics-present-preliminary-phase-203000092.html",
-          "sentiment": -0.69
         }
       ],
       "valuationLabel": "Cheap",
@@ -11346,7 +11398,7 @@
       "chg3m": -20.4,
       "chg6m": -6.1,
       "chg1y": 27.5,
-      "volRatio": 1.11,
+      "volRatio": 1.2,
       "peRatio": 11.2,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -11354,9 +11406,15 @@
       "dividendYield": 4.33,
       "marketCap": 292127834112,
       "score": 3.5,
-      "newsSentiment": 0.19,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.07,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "3 British Dividend Stocks To Watch With Up To 5% Yield",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-british-dividend-stocks-watch-001404300.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Lithium Argentina Shares Fall After HSBC Downgrade",
           "publisher": "MT Newswires",
@@ -11368,12 +11426,6 @@
           "publisher": "Stocktwits",
           "link": "https://finance.yahoo.com/markets/stocks/articles/gev-stock-focus-amid-mixed-110625487.html",
           "sentiment": 0.54
-        },
-        {
-          "title": "Affluent Americans Now Say They Need $2.6 Million. Required IRA Withdrawals Could Make 85% of Their Social Security Taxable",
-          "publisher": "24/7 Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/affluent-americans-now-2-6-093017292.html",
-          "sentiment": 0.34
         }
       ],
       "valuationLabel": "Cheap",
@@ -11396,7 +11448,7 @@
       "chg3m": -1.7,
       "chg6m": 5.3,
       "chg1y": 43.6,
-      "volRatio": 0.51,
+      "volRatio": 0.56,
       "peRatio": 15.5,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -11454,9 +11506,15 @@
       "dividendYield": 5.61,
       "marketCap": 106244734976,
       "score": 5.8,
-      "newsSentiment": 0.14,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.31,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Sanofi SA (SNY) (Q3 2026) Earnings Call Highlights: Dupixent Tops EUR5 Billion Again as ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/healthcare/articles/sanofi-sa-sny-q3-2026-231218685.html",
+          "sentiment": 0.51
+        },
         {
           "title": "EssilorLuxottica Stock And Eurozone Healthcare Giants Worth Watching Now",
           "publisher": "Simply Wall St.",
@@ -11468,12 +11526,6 @@
           "publisher": "Investor's Business Daily",
           "link": "https://finance.yahoo.com/m/10130d32-3ffe-3110-8ce7-984fc87d885a/regeneron-bolts-13%25-higher%2C.html",
           "sentiment": 0.2
-        },
-        {
-          "title": "Sector Update: Healthcare Stocks Rise Late Afternoon",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-afternoon-195415462.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Fair",
@@ -11486,17 +11538,17 @@
       "isETF": false,
       "price": 171.13,
       "priceStale": false,
-      "high52wk": 187.22,
-      "low52wk": 118.05,
-      "pctFromHigh": -8.6,
-      "pctFromLow": 45.0,
+      "high52wk": 185.92,
+      "low52wk": 117.23,
+      "pctFromHigh": -8.0,
+      "pctFromLow": 46.0,
       "trend": "Uptrend",
-      "rsi": 53.0,
-      "chg1m": 2.9,
-      "chg3m": -4.8,
-      "chg6m": 13.0,
-      "chg1y": 39.9,
-      "volRatio": 1.15,
+      "rsi": 55.6,
+      "chg1m": 3.6,
+      "chg3m": -4.1,
+      "chg6m": 13.8,
+      "chg1y": 40.9,
+      "volRatio": 2.94,
       "peRatio": 19.3,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -11539,14 +11591,14 @@
     "otmPct": 9.5,
     "exp": "Dec 18",
     "expDate": "2026-12-18",
-    "dte": 49,
+    "dte": 48,
     "delta": -0.15,
-    "iv": 29.8,
+    "iv": 30.1,
     "premium": 7.17,
     "costPerContract": 716.5
   },
   "market": {
-    "asOf": "2026-10-30T23:07:50.324003+00:00",
+    "asOf": "2026-10-31T01:38:43.902060+00:00",
     "gauges": [
       {
         "key": "qqq",
