@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-04T18:08:46.221972+00:00",
+  "generated_at": "2026-11-04T19:08:35.231228+00:00",
   "positions": [
     {
       "id": "MSFT|Bull_Put_Spread|2026-11-06|$500/490",
       "status": "open",
       "dteRemaining": 2,
-      "lastUpdated": "2026-11-04T18:08:46.221890+00:00",
+      "lastUpdated": "2026-11-04T19:08:35.231161+00:00",
       "currentPremium": 0.03,
       "pnlDollars": 202.5,
       "pnlPct": 98.78,
