@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T00:16:58.534754+00:00",
+  "generated_at": "2026-11-07T02:48:35.344006+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -69,7 +69,7 @@
             "oi": 16435
           }
         ],
-        "expiryOI": 819308
+        "expiryOI": 819297
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.11,
@@ -314,9 +314,9 @@
           "sentiment": 0.0
         },
         {
-          "title": "IonQ Wants to Be the Nvidia of Quantum. Its Latest Numbers Back Up the Swagger.",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/ionq-earnings-stock-price-44567619?siteid=yhoof2&yptr=yahoo",
+          "title": "Nvidia-backed Groq seeks $8 billion valuation in new funding round - Bloomberg",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-groq-seeks-8-013053376.html",
           "sentiment": 0.0
         }
       ],
@@ -427,7 +427,7 @@
             "oi": 2964
           }
         ],
-        "expiryOI": 454059
+        "expiryOI": 453812
       },
       "potIsProfitProb": false,
       "newsSentiment": -0.02,
@@ -665,9 +665,15 @@
         "expiryOI": 106153
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.18,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.09,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "The JPMorgan Alums Whose AI Stocks Bet Is Being Tested",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/livecoverage/october-jobs-report-stock-market-11-06-2026/card/the-jpmorgan-alums-whose-ai-stocks-bet-is-being-tested-i9l2etPe7FOmxXN6fxij?siteid=yhoof2&yptr=yahoo",
+          "sentiment": 0.0
+        },
         {
           "title": "JPMorgan, Citi say Metlen growth drivers on track after trading update",
           "publisher": "Investing.com",
@@ -679,12 +685,6 @@
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/crypto/markets/analyst-points-to-jpmorgans-bitcoin-figure-most-investors-overlooked",
           "sentiment": -0.1
-        },
-        {
-          "title": "Forget pricey JPMorgan: Is this turnaround bank the better rebound bet?",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/forget-pricey-jpmorgan-turnaround-bank-143943093.html",
-          "sentiment": 0.25
         }
       ],
       "volRegime": "Fair",
@@ -1758,7 +1758,7 @@
             "oi": 497
           }
         ],
-        "expiryOI": 132279
+        "expiryOI": 132259
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.22,
@@ -1877,9 +1877,15 @@
         "expiryOI": 361611
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.36,
+      "newsSentiment": -0.24,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Palantir Stock Slips Despite Beating Revenue and Earnings Estimates in Q3. What Investors Should Watch Next.",
+          "publisher": "Barchart",
+          "link": "https://www.barchart.com/story/news/8707932/palantir-stock-slips-despite-beating-revenue-and-earnings-estimates-in-q3-what-investors-should-watch-next",
+          "sentiment": -0.5
+        },
         {
           "title": "Palantir Technologies Inc. (PLTR) Delivered Explosive AI Growth: Is the Stock Still Worth Watching?",
           "publisher": "Insider Monkey",
@@ -1891,12 +1897,6 @@
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/06/the-biggest-takeaway-from-palantir-technologies-latest-quarterly-report-is-a-potential-warning-sign-investors-shouldn-t-miss/",
           "sentiment": -0.78
-        },
-        {
-          "title": "Stock Market Suffers Ugly Losses In Election Week; Apple, Palantir Led Key Earnings: Weekly Review",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/stock-market-suffers-ugly-losses-in-election-week-apple-palantir-led-key-earnings-weekly-review/?src=A00220&yptr=yahoo",
-          "sentiment": -0.84
         }
       ],
       "volRegime": "Fair",
@@ -2216,12 +2216,18 @@
             "oi": 153
           }
         ],
-        "expiryOI": 62548
+        "expiryOI": 62535
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.11,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "What Is Palo Alto Networks (PANW) Signaling With A Seventh AI Security Deal?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-panw-signaling-021620681.html",
+          "sentiment": 0.34
+        },
         {
           "title": "CrowdStrike Rebounds 2%, Palo Alto Up 2% as Cloudflare Finds \u201cAn Even Higher Gear\u201d",
           "publisher": "TIKR",
@@ -2233,12 +2239,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-inc-panw-130002384.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-          "publisher": "TechCrunch",
-          "link": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-talks-buy-062832541.html",
-          "sentiment": 0.34
         }
       ],
       "volRegime": "Rich",
@@ -2442,7 +2442,7 @@
             "oi": 2443
           }
         ],
-        "expiryOI": 3731003
+        "expiryOI": 3731002
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.0,
@@ -2784,12 +2784,18 @@
             "oi": 221
           }
         ],
-        "expiryOI": 57758
+        "expiryOI": 57717
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.25,
+      "newsSentiment": 0.41,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Costco (COST) Brings Real Time Health Benefit Checkout To More Than 600 Warehouses",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/healthcare/articles/costco-cost-brings-real-time-021059186.html",
+          "sentiment": 0.46
+        },
         {
           "title": "Costco's October Net Sales Jump 12.6% as Digital Growth Accelerates",
           "publisher": "Zacks",
@@ -2801,12 +2807,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/06/costco-stock-earnings-growth-could-shape-the-next-big-move/",
           "sentiment": 0.38
-        },
-        {
-          "title": "\u2018Only Go Into Physical Stores Every Sixth Week\u2019: Clark Howard\u2019s Anti-Impulse Rule as Costco Hits $1,025",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/personal-finance/2026/11/06/only-go-into-physical-stores-every-sixth-week-clark-howards-anti-impulse-rule-as-costco-hits-1025/",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -3126,12 +3126,18 @@
             "oi": 1648
           }
         ],
-        "expiryOI": 41448
+        "expiryOI": 41447
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.07,
+      "newsSentiment": 0.15,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "GE Vernova vs. Vistra: Which Industrials Stock Is a Better Buy for 2027?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/coverage/better-buy/2026/11/06/ge-vernova-vs-vistra-which-industrials-stock-is-a-better-buy-for-2027/",
+          "sentiment": 0.44
+        },
         {
           "title": "GE Vernova Has Something Nvidia Needs Under a Democratic Congress",
           "publisher": "24/7 Wall St.",
@@ -3143,12 +3149,6 @@
           "publisher": "Barchart",
           "link": "https://www.barchart.com/story/news/8700801/ge-vernova-stock-analyst-estimates-ratings",
           "sentiment": 0.0
-        },
-        {
-          "title": "Is GE Vernova Stock A Real Bargain?",
-          "publisher": "Trefis",
-          "link": "https://www.trefis.com/stock/gev/articles/622842/is-ge-vernova-stock-a-real-bargain/2026-11-05",
-          "sentiment": 0.2
         }
       ],
       "volRegime": "Cheap",
@@ -3245,9 +3245,15 @@
         "expiryOI": 196700
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.13,
+      "newsSentiment": -0.1,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Uber\u2019s Robo Push",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/ubers-robo-push-18461554?siteid=yhoof2&yptr=yahoo",
+          "sentiment": 0.0
+        },
         {
           "title": "Uber Reveals AI Agents Barely Make a Dent: Just 504 Orders and Rides Against 320 Million Weekly Transactions \u2014 \u2018Very, Very Early and Very Limited Traction\u2019",
           "publisher": "Benzinga",
@@ -3259,12 +3265,6 @@
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/uber-ceo-wont-depend-on-the-googles-of-the-world-again-ai-agents-booked-4-trips?ref=yahoofinance&tlnk=yf-261106-j57rfw32",
           "sentiment": 0.0
-        },
-        {
-          "title": "Bank of America revamps Uber stock target amid rider-price paradox",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/investing/stocks/uber-stock-bofa-price-target",
-          "sentiment": -0.1
         }
       ],
       "volRegime": "Rich",
@@ -3593,9 +3593,15 @@
         "expiryOI": 37176
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.41,
+      "newsSentiment": 0.39,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Arista Networks Posts Fastest Growth Since IPO as Big Tech Moves Beyond Nvidia. Wall Street Still Sees 47% Upside in ANET Stock.",
+          "publisher": "Barchart",
+          "link": "https://www.barchart.com/story/news/8706969/arista-networks-posts-fastest-growth-since-ipo-as-big-tech-moves-beyond-nvidia-wall-street-still-sees-47-upside-in-anet-stock",
+          "sentiment": 0.38
+        },
         {
           "title": "What Changed In Arista's Story?",
           "publisher": "Trefis",
@@ -3607,12 +3613,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/anet-worth-buying-ai-growth-175500139.html",
           "sentiment": 0.8
-        },
-        {
-          "title": "ANET Falls 21.2% in a Month: Is This Now a Buying Opportunity?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/anet-falls-21-2-month-173200906.html",
-          "sentiment": 0.42
         }
       ],
       "volRegime": "Cheap",
@@ -3709,7 +3709,7 @@
         "expiryOI": 60654
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.42,
+      "newsSentiment": 0.41,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -3723,12 +3723,6 @@
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/coverage/stock-market-today/2026/11/06/stock-market-today-nov-6-micron-technology-jumps-as-chip-stocks-rebound-from-thursday-s-rout/",
           "sentiment": 0.49
-        },
-        {
-          "title": "Micron vs. Nvidia: Which AI Stock Is a Better Buy for 2027?",
-          "publisher": "TipRanks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-vs-nvidia-ai-stock-211242383.html",
-          "sentiment": 0.44
         }
       ],
       "volRegime": "Cheap",
@@ -4085,7 +4079,7 @@
         "expiryOI": 21058
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.07,
+      "newsSentiment": 0.11,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -4099,12 +4093,6 @@
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/coverage/stock-market-today/2026/11/06/stock-market-today-nov-6-amd-surges-11-on-record-quarterly-revenue-and-stronger-growth-outlook/",
           "sentiment": 0.85
-        },
-        {
-          "title": "Nvidia, Intel, Tesla, AMD, Coherent, Lam Research, Moderna, and More Stocks That Explain Today\u2019s Market",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/stock-movers-ddbd1841?siteid=yhoof2&yptr=yahoo",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Cheap",
@@ -4603,7 +4591,7 @@
       "breakevenMovePct": null,
       "maxLoss": 1337.5,
       "pcOI": 1.06,
-      "pcVol": 0.98,
+      "pcVol": 0.99,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 228,
@@ -4749,7 +4737,7 @@
             "oi": 1975
           }
         ],
-        "expiryOI": 32942
+        "expiryOI": 32909
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.37,
@@ -4973,7 +4961,7 @@
       "breakevenHigh": 161.76,
       "breakevenMovePct": null,
       "maxLoss": 823.5,
-      "pcOI": 0.73,
+      "pcOI": 0.8,
       "pcVol": 0.66,
       "debitStrategy": false,
       "liquidity": {
@@ -5020,7 +5008,7 @@
             "oi": 183
           }
         ],
-        "expiryOI": 10112
+        "expiryOI": 9656
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.22,
@@ -5118,7 +5106,7 @@
       "breakevenMovePct": null,
       "maxLoss": 412.5,
       "pcOI": 0.68,
-      "pcVol": 3.1,
+      "pcVol": 3.02,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 845,
@@ -5273,7 +5261,7 @@
             "oi": 557
           }
         ],
-        "expiryOI": 8132
+        "expiryOI": 8129
       },
       "potIsProfitProb": false,
       "newsSentiment": -0.09,
@@ -5636,7 +5624,7 @@
       "breakevenMovePct": null,
       "maxLoss": 872.5,
       "pcOI": 3.33,
-      "pcVol": 5.5,
+      "pcVol": 5.49,
       "debitStrategy": false,
       "liquidity": {
         "minOI": 2065,
@@ -5669,7 +5657,7 @@
         "expiryOI": 42335
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.19,
+      "newsSentiment": -0.38,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
@@ -5677,12 +5665,6 @@
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/healthcare/articles/market-chatter-novartis-reports-two-104859466.html",
           "sentiment": -0.38
-        },
-        {
-          "title": "Novartis: 3 Key Takeaways for Long-Term Investors",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/earnings/takeaways/2026/11/03/novartis-3-key-takeaways-for-long-term-investors/",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Rich",
@@ -6131,7 +6113,7 @@
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 449.0,
-      "pcOI": 1.59,
+      "pcOI": 1.56,
       "pcVol": 0.64,
       "debitStrategy": false,
       "liquidity": {
@@ -6162,7 +6144,7 @@
             "oi": 1557
           }
         ],
-        "expiryOI": 20627
+        "expiryOI": 20368
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.13,
@@ -6247,7 +6229,7 @@
       "breakevenHigh": 53.08,
       "breakevenMovePct": null,
       "maxLoss": 442.0,
-      "pcOI": 0.46,
+      "pcOI": 0.44,
       "pcVol": 1.43,
       "debitStrategy": false,
       "liquidity": {
@@ -6294,12 +6276,18 @@
             "oi": 985
           }
         ],
-        "expiryOI": 26104
+        "expiryOI": 25722
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.07,
+      "newsSentiment": -0.12,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Enbridge (TSX:ENB) Q3 Results Keep Debt And Dividend In Focus",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/enbridge-tsx-enb-q3-results-001531380.html",
+          "sentiment": -0.36
+        },
         {
           "title": "Enbridge Inc. Q3 2026 Earnings Call Summary",
           "publisher": "Moby",
@@ -6311,12 +6299,6 @@
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/earnings/call-transcripts/2026/11/06/enbridge-enb-q3-2026-earnings-call-transcript/",
           "sentiment": 0.0
-        },
-        {
-          "title": "Enbridge (ENB) Q3 Earnings and Revenues Top Estimates",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/enbridge-enb-q3-earnings-revenues-125502346.html",
-          "sentiment": 0.2
         }
       ],
       "volRegime": "Rich",
@@ -6422,7 +6404,7 @@
             "oi": 1316
           }
         ],
-        "expiryOI": 51543
+        "expiryOI": 51513
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.0,
@@ -7127,7 +7109,7 @@
             "oi": 274
           }
         ],
-        "expiryOI": 9968
+        "expiryOI": 9966
       },
       "potIsProfitProb": true,
       "newsSentiment": 0.0,
@@ -7568,7 +7550,7 @@
       "score": 6.9,
       "buy": false,
       "momentum": "bear",
-      "ret3m": -15.3,
+      "ret3m": -14.8,
       "sell": true,
       "ema": true,
       "earningsSoon": true,
@@ -7639,8 +7621,8 @@
         }
       ],
       "volRegime": "Rich",
-      "ivRvRatio": 1.15,
-      "realizedVol": 34.1,
+      "ivRvRatio": 1.16,
+      "realizedVol": 34.0,
       "expDate": "2027-03-19",
       "legs": [
         {
@@ -7939,7 +7921,7 @@
       "chg3m": 11.1,
       "chg6m": 16.9,
       "chg1y": 28.0,
-      "volRatio": 0.98,
+      "volRatio": 1.0,
       "peRatio": 38.1,
       "sector": "Technology",
       "industry": "Consumer Electronics",
@@ -7989,7 +7971,7 @@
       "chg3m": 5.0,
       "chg6m": 28.3,
       "chg1y": 7.7,
-      "volRatio": 1.1,
+      "volRatio": 1.12,
       "peRatio": 27.7,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -8039,7 +8021,7 @@
       "chg3m": -14.1,
       "chg6m": -13.1,
       "chg1y": -0.6,
-      "volRatio": 1.55,
+      "volRatio": 1.56,
       "peRatio": 23.6,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -8057,9 +8039,9 @@
           "sentiment": 0.0
         },
         {
-          "title": "IonQ Wants to Be the Nvidia of Quantum. Its Latest Numbers Back Up the Swagger.",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/ionq-earnings-stock-price-44567619?siteid=yhoof2&yptr=yahoo",
+          "title": "Nvidia-backed Groq seeks $8 billion valuation in new funding round - Bloomberg",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-groq-seeks-8-013053376.html",
           "sentiment": 0.0
         }
       ],
@@ -8127,7 +8109,7 @@
       "chg3m": -20.2,
       "chg6m": -28.4,
       "chg1y": 1.8,
-      "volRatio": 1.07,
+      "volRatio": 1.1,
       "peRatio": 14.8,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
@@ -8158,7 +8140,7 @@
       "chg3m": -6.6,
       "chg6m": 11.8,
       "chg1y": 8.5,
-      "volRatio": 1.0,
+      "volRatio": 1.05,
       "peRatio": 14.0,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -8166,9 +8148,15 @@
       "dividendYield": 1.96,
       "marketCap": 888274812928,
       "score": 7.6,
-      "newsSentiment": 0.18,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.09,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "The JPMorgan Alums Whose AI Stocks Bet Is Being Tested",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/livecoverage/october-jobs-report-stock-market-11-06-2026/card/the-jpmorgan-alums-whose-ai-stocks-bet-is-being-tested-i9l2etPe7FOmxXN6fxij?siteid=yhoof2&yptr=yahoo",
+          "sentiment": 0.0
+        },
         {
           "title": "JPMorgan, Citi say Metlen growth drivers on track after trading update",
           "publisher": "Investing.com",
@@ -8180,12 +8168,6 @@
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/crypto/markets/analyst-points-to-jpmorgans-bitcoin-figure-most-investors-overlooked",
           "sentiment": -0.1
-        },
-        {
-          "title": "Forget pricey JPMorgan: Is this turnaround bank the better rebound bet?",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/forget-pricey-jpmorgan-turnaround-bank-143943093.html",
-          "sentiment": 0.25
         }
       ],
       "valuationLabel": "Cheap",
@@ -8258,7 +8240,7 @@
       "chg3m": -6.8,
       "chg6m": -4.9,
       "chg1y": 6.1,
-      "volRatio": 0.93,
+      "volRatio": 0.96,
       "peRatio": 21.0,
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
@@ -8302,7 +8284,7 @@
       "chg3m": -64.6,
       "chg6m": -74.0,
       "chg1y": 10.2,
-      "volRatio": 2.43,
+      "volRatio": 2.45,
       "peRatio": 17.3,
       "sector": null,
       "industry": null,
@@ -8348,7 +8330,7 @@
       "chg3m": -29.1,
       "chg6m": -31.2,
       "chg1y": -0.5,
-      "volRatio": 1.45,
+      "volRatio": 1.46,
       "peRatio": 24.0,
       "sector": null,
       "industry": null,
@@ -8394,7 +8376,7 @@
       "chg3m": -16.9,
       "chg6m": -27.5,
       "chg1y": -42.5,
-      "volRatio": 0.81,
+      "volRatio": 0.82,
       "peRatio": 18.3,
       "sector": "Communication Services",
       "industry": "Entertainment",
@@ -8594,7 +8576,7 @@
       "chg3m": -3.7,
       "chg6m": 64.4,
       "chg1y": 60.7,
-      "volRatio": 1.21,
+      "volRatio": 1.22,
       "peRatio": 4338.0,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -8652,9 +8634,15 @@
       "dividendYield": 0.0,
       "marketCap": 386435252224,
       "score": 4.6,
-      "newsSentiment": -0.36,
+      "newsSentiment": -0.24,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Palantir Stock Slips Despite Beating Revenue and Earnings Estimates in Q3. What Investors Should Watch Next.",
+          "publisher": "Barchart",
+          "link": "https://www.barchart.com/story/news/8707932/palantir-stock-slips-despite-beating-revenue-and-earnings-estimates-in-q3-what-investors-should-watch-next",
+          "sentiment": -0.5
+        },
         {
           "title": "Palantir Technologies Inc. (PLTR) Delivered Explosive AI Growth: Is the Stock Still Worth Watching?",
           "publisher": "Insider Monkey",
@@ -8666,12 +8654,6 @@
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/06/the-biggest-takeaway-from-palantir-technologies-latest-quarterly-report-is-a-potential-warning-sign-investors-shouldn-t-miss/",
           "sentiment": -0.78
-        },
-        {
-          "title": "Stock Market Suffers Ugly Losses In Election Week; Apple, Palantir Led Key Earnings: Weekly Review",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/stock-market-suffers-ugly-losses-in-election-week-apple-palantir-led-key-earnings-weekly-review/?src=A00220&yptr=yahoo",
-          "sentiment": -0.84
         }
       ],
       "valuationLabel": "Rich",
@@ -8800,6 +8782,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "What Is Palo Alto Networks (PANW) Signaling With A Seventh AI Security Deal?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-panw-signaling-021620681.html",
+          "sentiment": 0.34
+        },
+        {
           "title": "CrowdStrike Rebounds 2%, Palo Alto Up 2% as Cloudflare Finds \u201cAn Even Higher Gear\u201d",
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/crowdstrike-rebounds-2-palo-alto-up-2-as-cloudflare-finds-an-even-higher-gear?ref=yahoofinance&tlnk=yf-261106-jp3pv39m",
@@ -8810,12 +8798,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-inc-panw-130002384.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-          "publisher": "TechCrunch",
-          "link": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-talks-buy-062832541.html",
-          "sentiment": 0.34
         }
       ],
       "valuationLabel": "Rich",
@@ -8882,7 +8864,7 @@
       "chg3m": -4.6,
       "chg6m": 0.2,
       "chg1y": 10.8,
-      "volRatio": 1.29,
+      "volRatio": 1.31,
       "peRatio": 23.4,
       "sector": null,
       "industry": null,
@@ -9000,7 +8982,7 @@
       "chg3m": 10.7,
       "chg6m": 4.8,
       "chg1y": 14.9,
-      "volRatio": 1.08,
+      "volRatio": 1.09,
       "peRatio": 50.7,
       "sector": "Consumer Defensive",
       "industry": "Discount Stores",
@@ -9008,9 +8990,15 @@
       "dividendYield": 0.55,
       "marketCap": 466863390720,
       "score": 6.4,
-      "newsSentiment": 0.25,
+      "newsSentiment": 0.41,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Costco (COST) Brings Real Time Health Benefit Checkout To More Than 600 Warehouses",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/healthcare/articles/costco-cost-brings-real-time-021059186.html",
+          "sentiment": 0.46
+        },
         {
           "title": "Costco's October Net Sales Jump 12.6% as Digital Growth Accelerates",
           "publisher": "Zacks",
@@ -9022,12 +9010,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/06/costco-stock-earnings-growth-could-shape-the-next-big-move/",
           "sentiment": 0.38
-        },
-        {
-          "title": "\u2018Only Go Into Physical Stores Every Sixth Week\u2019: Clark Howard\u2019s Anti-Impulse Rule as Costco Hits $1,025",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/personal-finance/2026/11/06/only-go-into-physical-stores-every-sixth-week-clark-howards-anti-impulse-rule-as-costco-hits-1025/",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
@@ -9050,7 +9032,7 @@
       "chg3m": -23.4,
       "chg6m": -2.5,
       "chg1y": 34.0,
-      "volRatio": 1.27,
+      "volRatio": 1.31,
       "peRatio": 28.2,
       "sector": "Technology",
       "industry": "Communication Equipment",
@@ -9152,9 +9134,15 @@
       "dividendYield": 0.26,
       "marketCap": 204889161728,
       "score": 2.8,
-      "newsSentiment": 0.07,
+      "newsSentiment": 0.15,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "GE Vernova vs. Vistra: Which Industrials Stock Is a Better Buy for 2027?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/coverage/better-buy/2026/11/06/ge-vernova-vs-vistra-which-industrials-stock-is-a-better-buy-for-2027/",
+          "sentiment": 0.44
+        },
         {
           "title": "GE Vernova Has Something Nvidia Needs Under a Democratic Congress",
           "publisher": "24/7 Wall St.",
@@ -9166,12 +9154,6 @@
           "publisher": "Barchart",
           "link": "https://www.barchart.com/story/news/8700801/ge-vernova-stock-analyst-estimates-ratings",
           "sentiment": 0.0
-        },
-        {
-          "title": "Is GE Vernova Stock A Real Bargain?",
-          "publisher": "Trefis",
-          "link": "https://www.trefis.com/stock/gev/articles/622842/is-ge-vernova-stock-a-real-bargain/2026-11-05",
-          "sentiment": 0.2
         }
       ],
       "valuationLabel": "Cheap",
@@ -9194,7 +9176,7 @@
       "chg3m": -12.1,
       "chg6m": -9.1,
       "chg1y": -25.4,
-      "volRatio": 1.03,
+      "volRatio": 1.04,
       "peRatio": 40.3,
       "sector": "Technology",
       "industry": "Software - Application",
@@ -9202,9 +9184,15 @@
       "dividendYield": 0.0,
       "marketCap": 140053790720,
       "score": 2.8,
-      "newsSentiment": -0.13,
+      "newsSentiment": -0.1,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Uber\u2019s Robo Push",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/ubers-robo-push-18461554?siteid=yhoof2&yptr=yahoo",
+          "sentiment": 0.0
+        },
         {
           "title": "Uber Reveals AI Agents Barely Make a Dent: Just 504 Orders and Rides Against 320 Million Weekly Transactions \u2014 \u2018Very, Very Early and Very Limited Traction\u2019",
           "publisher": "Benzinga",
@@ -9216,12 +9204,6 @@
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/uber-ceo-wont-depend-on-the-googles-of-the-world-again-ai-agents-booked-4-trips?ref=yahoofinance&tlnk=yf-261106-j57rfw32",
           "sentiment": 0.0
-        },
-        {
-          "title": "Bank of America revamps Uber stock target amid rider-price paradox",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/investing/stocks/uber-stock-bofa-price-target",
-          "sentiment": -0.1
         }
       ],
       "valuationLabel": "Rich",
@@ -9352,9 +9334,15 @@
       "dividendYield": 0.0,
       "marketCap": 215789125632,
       "score": 3.8,
-      "newsSentiment": 0.41,
+      "newsSentiment": 0.39,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Arista Networks Posts Fastest Growth Since IPO as Big Tech Moves Beyond Nvidia. Wall Street Still Sees 47% Upside in ANET Stock.",
+          "publisher": "Barchart",
+          "link": "https://www.barchart.com/story/news/8706969/arista-networks-posts-fastest-growth-since-ipo-as-big-tech-moves-beyond-nvidia-wall-street-still-sees-47-upside-in-anet-stock",
+          "sentiment": 0.38
+        },
         {
           "title": "What Changed In Arista's Story?",
           "publisher": "Trefis",
@@ -9366,12 +9354,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/anet-worth-buying-ai-growth-175500139.html",
           "sentiment": 0.8
-        },
-        {
-          "title": "ANET Falls 21.2% in a Month: Is This Now a Buying Opportunity?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/anet-falls-21-2-month-173200906.html",
-          "sentiment": 0.42
         }
       ],
       "valuationLabel": "Rich",
@@ -9402,7 +9384,7 @@
       "dividendYield": 0.09,
       "marketCap": 780682002432,
       "score": 3.4,
-      "newsSentiment": 0.42,
+      "newsSentiment": 0.41,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -9416,12 +9398,6 @@
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/coverage/stock-market-today/2026/11/06/stock-market-today-nov-6-micron-technology-jumps-as-chip-stocks-rebound-from-thursday-s-rout/",
           "sentiment": 0.49
-        },
-        {
-          "title": "Micron vs. Nvidia: Which AI Stock Is a Better Buy for 2027?",
-          "publisher": "TipRanks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-vs-nvidia-ai-stock-211242383.html",
-          "sentiment": 0.44
         }
       ],
       "valuationLabel": "Cheap",
@@ -9544,7 +9520,7 @@
       "chg3m": -4.4,
       "chg6m": -1.4,
       "chg1y": 92.3,
-      "volRatio": 1.85,
+      "volRatio": 1.86,
       "peRatio": 95.9,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -9552,7 +9528,7 @@
       "dividendYield": 0.0,
       "marketCap": 736464797696,
       "score": 2.6,
-      "newsSentiment": 0.07,
+      "newsSentiment": 0.11,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -9566,12 +9542,6 @@
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/coverage/stock-market-today/2026/11/06/stock-market-today-nov-6-amd-surges-11-on-record-quarterly-revenue-and-stronger-growth-outlook/",
           "sentiment": 0.85
-        },
-        {
-          "title": "Nvidia, Intel, Tesla, AMD, Coherent, Lam Research, Moderna, and More Stocks That Explain Today\u2019s Market",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/stock-movers-ddbd1841?siteid=yhoof2&yptr=yahoo",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
@@ -9801,7 +9771,7 @@
       "chg3m": 11.9,
       "chg6m": 34.4,
       "chg1y": -5.7,
-      "volRatio": 0.93,
+      "volRatio": 0.98,
       "peRatio": 29.1,
       "sector": "Technology",
       "industry": "Software - Application",
@@ -9851,7 +9821,7 @@
       "chg3m": 6.4,
       "chg6m": 4.7,
       "chg1y": 7.0,
-      "volRatio": 1.31,
+      "volRatio": 1.37,
       "peRatio": 18.7,
       "sector": "Utilities",
       "industry": "Utilities - Regulated Electric",
@@ -9997,7 +9967,7 @@
       "chg3m": -14.5,
       "chg6m": -11.4,
       "chg1y": -7.4,
-      "volRatio": 0.77,
+      "volRatio": 0.78,
       "peRatio": 10.2,
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
@@ -10074,7 +10044,7 @@
       "chg3m": 4.1,
       "chg6m": -5.5,
       "chg1y": 50.3,
-      "volRatio": 0.61,
+      "volRatio": 0.62,
       "peRatio": 4.7,
       "sector": "Energy",
       "industry": "Oil & Gas Integrated",
@@ -10176,7 +10146,7 @@
       "dividendYield": 2.93,
       "marketCap": 306995789824,
       "score": 7.5,
-      "newsSentiment": -0.19,
+      "newsSentiment": -0.38,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
@@ -10184,12 +10154,6 @@
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/healthcare/articles/market-chatter-novartis-reports-two-104859466.html",
           "sentiment": -0.38
-        },
-        {
-          "title": "Novartis: 3 Key Takeaways for Long-Term Investors",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/earnings/takeaways/2026/11/03/novartis-3-key-takeaways-for-long-term-investors/",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
@@ -10212,7 +10176,7 @@
       "chg3m": 3.7,
       "chg6m": 11.2,
       "chg1y": 57.8,
-      "volRatio": 1.0,
+      "volRatio": 1.13,
       "peRatio": 9.9,
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
@@ -10300,7 +10264,7 @@
       "chg3m": -4.0,
       "chg6m": 12.1,
       "chg1y": 41.0,
-      "volRatio": 1.09,
+      "volRatio": 1.18,
       "peRatio": 17.6,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -10394,7 +10358,7 @@
       "chg3m": 5.0,
       "chg6m": 15.1,
       "chg1y": -2.2,
-      "volRatio": 0.8,
+      "volRatio": 0.84,
       "peRatio": 13.3,
       "sector": "Consumer Defensive",
       "industry": "Household & Personal Products",
@@ -10444,7 +10408,7 @@
       "chg3m": -7.5,
       "chg6m": -10.2,
       "chg1y": 2.3,
-      "volRatio": 1.3,
+      "volRatio": 2.37,
       "peRatio": 25.1,
       "sector": "Energy",
       "industry": "Oil & Gas Midstream",
@@ -10452,9 +10416,15 @@
       "dividendYield": 5.77,
       "marketCap": 104510472192,
       "score": 4.5,
-      "newsSentiment": 0.07,
+      "newsSentiment": -0.12,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Enbridge (TSX:ENB) Q3 Results Keep Debt And Dividend In Focus",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/enbridge-tsx-enb-q3-results-001531380.html",
+          "sentiment": -0.36
+        },
         {
           "title": "Enbridge Inc. Q3 2026 Earnings Call Summary",
           "publisher": "Moby",
@@ -10466,12 +10436,6 @@
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/earnings/call-transcripts/2026/11/06/enbridge-enb-q3-2026-earnings-call-transcript/",
           "sentiment": 0.0
-        },
-        {
-          "title": "Enbridge (ENB) Q3 Earnings and Revenues Top Estimates",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/enbridge-enb-q3-earnings-revenues-125502346.html",
-          "sentiment": 0.2
         }
       ],
       "valuationLabel": "Rich",
@@ -10525,7 +10489,7 @@
       "chg3m": 1.8,
       "chg6m": 15.5,
       "chg1y": 54.6,
-      "volRatio": 1.4,
+      "volRatio": 1.55,
       "peRatio": 18.2,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -10575,7 +10539,7 @@
       "chg3m": -2.6,
       "chg6m": 1.7,
       "chg1y": 11.8,
-      "volRatio": 0.58,
+      "volRatio": 0.6,
       "peRatio": 17.5,
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
@@ -10625,7 +10589,7 @@
       "chg3m": -16.0,
       "chg6m": -18.8,
       "chg1y": 26.9,
-      "volRatio": 0.97,
+      "volRatio": 1.0,
       "peRatio": 11.3,
       "sector": "Basic Materials",
       "industry": "Other Industrial Metals & Mining",
@@ -10767,7 +10731,7 @@
       "priceStale": false,
       "high52wk": 34.08,
       "low52wk": 24.87,
-      "pctFromHigh": -0.5,
+      "pctFromHigh": -0.6,
       "pctFromLow": 36.3,
       "trend": "Strong Uptrend",
       "rsi": 80.4,
@@ -10825,13 +10789,13 @@
       "chg3m": 4.5,
       "chg6m": 20.4,
       "chg1y": 41.6,
-      "volRatio": 0.34,
+      "volRatio": 0.36,
       "peRatio": 16.6,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
       "pegRatio": 1.01,
       "dividendYield": 3.54,
-      "marketCap": 111568994304,
+      "marketCap": 111754518528,
       "score": 8.5,
       "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
@@ -11040,17 +11004,17 @@
       "isETF": false,
       "price": 87.06,
       "priceStale": false,
-      "high52wk": 107.43,
-      "low52wk": 65.03,
-      "pctFromHigh": -19.0,
-      "pctFromLow": 33.9,
+      "high52wk": 106.82,
+      "low52wk": 64.66,
+      "pctFromHigh": -18.5,
+      "pctFromLow": 34.6,
       "trend": "Strong Downtrend",
-      "rsi": 38.2,
-      "chg1m": -6.0,
-      "chg3m": -15.3,
-      "chg6m": -2.4,
-      "chg1y": 26.9,
-      "volRatio": 0.85,
+      "rsi": 39.2,
+      "chg1m": -5.5,
+      "chg3m": -14.8,
+      "chg6m": -1.9,
+      "chg1y": 27.6,
+      "volRatio": 0.86,
       "peRatio": 11.4,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -11100,7 +11064,7 @@
       "chg3m": -2.8,
       "chg6m": 6.1,
       "chg1y": 38.9,
-      "volRatio": 0.49,
+      "volRatio": 0.5,
       "peRatio": 15.3,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -11150,7 +11114,7 @@
       "chg3m": -5.3,
       "chg6m": 13.5,
       "chg1y": 41.6,
-      "volRatio": 0.43,
+      "volRatio": 0.48,
       "peRatio": 19.3,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -11350,7 +11314,7 @@
     "costPerContract": 753.0
   },
   "market": {
-    "asOf": "2026-11-07T00:16:58.534740+00:00",
+    "asOf": "2026-11-07T02:48:35.343992+00:00",
     "gauges": [
       {
         "key": "qqq",
