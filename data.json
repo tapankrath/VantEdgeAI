@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T22:07:41.702925+00:00",
+  "generated_at": "2026-11-09T23:31:41.354243+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -72,7 +72,7 @@
         "expiryOI": 830424
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.27,
+      "newsSentiment": 0.42,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -82,16 +82,10 @@
           "sentiment": 0.42
         },
         {
-          "title": "Where Will Apple Stock Be in 5 Years?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/09/where-will-apple-stock-be-in-5-years/",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Apple Clears Major Hurdle as AI Push Gains Momentum",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/apple-clears-major-hurdle-ai-170908050.html",
-          "sentiment": 0.4
+          "title": "Singapore Saved Apple $2.7 Billion in Taxes",
+          "publisher": "Moby",
+          "link": "https://app.moby.co/home/news/news-apple-is-using-singapore-to-save-on-taxes?utm_source=yahoo_finance&utm_medium=rss",
+          "sentiment": 0.42
         }
       ],
       "volRegime": "Fair",
@@ -308,6 +302,12 @@
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
+          "title": "Nvidia CEO Huang's scandal is the flip side of centralized leadership: Sierra co-founder Clay Bavor",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/article/nvidia-ceo-huangs-scandal-is-the-flip-side-of-centralized-leadership-sierra-co-founder-clay-bavor-220838172.html",
+          "sentiment": -0.61
+        },
+        {
           "title": "Nvidia's Jensen Huang scandal raises questions for AI leaders",
           "publisher": "Yahoo Finance Video",
           "link": "https://finance.yahoo.com/video/nvidias-jensen-huang-scandal-raises-questions-for-ai-leaders-215445805.html",
@@ -318,12 +318,6 @@
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/technology/article/nvidia-ceo-jensen-huangs-affair-with-a-reported-chinese-spy-damages-this-key-investing-factor-201922852.html",
           "sentiment": -0.44
-        },
-        {
-          "title": "A closer look at a firm tied to Nvidia\u2019s chip scandal: Megaspeed",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/a-closer-look-at-a-firm-tied-to-nvidias-chip-scandal-megaspeed-192158390.html",
-          "sentiment": -0.61
         }
       ],
       "volRegime": "Rich",
@@ -564,25 +558,13 @@
         "expiryOI": 11306
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.15,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Why Alphabet Stock Was Moving Higher Today",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/09/why-alphabet-stock-was-moving-higher-today/",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Nvidia vs. Alphabet: The AI Revolution Is Big Enough for Both. Here's the Better Buy.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/09/nvidia-vs-alphabet-the-ai-revolution-is-big-enough/",
-          "sentiment": 0.44
-        },
-        {
-          "title": "Alphabet's Wing makes $125M manufacturing bet on drone delivery",
-          "publisher": "Axios",
-          "link": "https://www.axios.com/2026/11/09/alphabets-wing-makes-125-million-manufacturing-bet-on-drone-delivery#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI",
           "sentiment": 0.0
         }
       ],
@@ -824,14 +806,20 @@
         "expiryOI": 626471
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.24,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
           "title": "The Stock Market Is \u201cPetrified of Oracle\u2019s Balance Sheet\u201d as Microsoft Walks Away",
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/the-stock-market-is-petrified-of-oracles-balance-sheet-as-microsoft-walks-away?ref=yahoofinance&tlnk=yf-261109-qqf46fhh",
           "sentiment": 0.0
+        },
+        {
+          "title": "Is Oracle (ORCL) Losing Ground In AI Infrastructure Demand?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/oracle-orcl-losing-ground-ai-140934525.html",
+          "sentiment": -0.48
         }
       ],
       "volRegime": "Cheap",
@@ -944,20 +932,14 @@
         "expiryOI": 683557
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.18,
+      "newsSentiment": 0.64,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Amazon Stocks Rise 4.05% as JPMorgan Adds It to Focus List on AWS",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-rise-4-05-180349063.html",
-          "sentiment": 0.18
-        },
-        {
-          "title": "Amazon Is \u201cthe Cheapest It\u2019s Been\u201d in Years. Its P/E Fell From 34 to 21",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/amazon-is-the-cheapest-its-been-in-years-its-p-e-fell-from-34-to-21?ref=yahoofinance&tlnk=yf-261109-6xhr2h2h",
-          "sentiment": 0.18
+          "title": "Dow Jones Soars 1,132 Points As Amazon, Tesla Rally, But Nvidia Dives; CPI Inflation Report Next",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amazon-tesla-nvidia-cpi-inflation-report/?src=A00220&yptr=yahoo",
+          "sentiment": 0.64
         }
       ],
       "volRegime": "Cheap",
@@ -2684,9 +2666,15 @@
         "expiryOI": 48344
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.19,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.13,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Home Depot (HD) Rises Higher Than Market: Key Facts",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-hd-rises-higher-214502578.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Home Depot Stock: Analyst Estimates & Ratings",
           "publisher": "Barchart",
@@ -3269,9 +3257,15 @@
         "expiryOI": 16498
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.52,
+      "newsSentiment": 0.41,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Uber Engineering Leader for Robotaxis, Delivery Network to Exit",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/technology/articles/uber-engineering-leader-robotaxis-delivery-214041534.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Uber (UBER) Stock Gets Fair Value Trim After Analysts Rework Targets",
           "publisher": "Simply Wall St.",
@@ -3283,12 +3277,6 @@
           "publisher": "CX Dive",
           "link": "https://www.customerexperiencedive.com/news/mcdonalds-connects-loyalty-program-with-uber/874154/",
           "sentiment": 0.54
-        },
-        {
-          "title": "Uber Makes Surprising Move Beyond Rides With New Service",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/uber-makes-surprising-move-beyond-185828661.html",
-          "sentiment": 0.34
         }
       ],
       "volRegime": "Fair",
@@ -4859,6 +4847,12 @@
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
+          "title": "PDD Holdings Inc. Sponsored ADR (PDD) Stock Sinks As Market Gains: Here's Why",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-inc-sponsored-adr-214502961.html",
+          "sentiment": -0.27
+        },
+        {
           "title": "PDD drops as Morgan Stanley cuts to Equalweight on capital return risks",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/pdd-drops-morgan-stanley-cuts-175320357.html",
@@ -4869,12 +4863,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-inc-sponsored-adr-130005948.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "PDD Holdings Inc. Sponsored ADR (PDD) Stock Sinks As Market Gains: What You Should Know",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-inc-sponsored-adr-214502815.html",
-          "sentiment": -0.27
         }
       ],
       "volRegime": "Rich",
@@ -7412,7 +7400,7 @@
         "expiryOI": 19482
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.31,
+      "newsSentiment": 0.24,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -7422,16 +7410,16 @@
           "sentiment": 0.0
         },
         {
+          "title": "A $10 Million Surprise Convinced This UBS Advisor to Focus on Business Owners",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/advisor/articles/ubs-luke-ervin-business-owner-3ab9eab4?siteid=yhoof2&yptr=yahoo",
+          "sentiment": 0.59
+        },
+        {
           "title": "Walmart earnings growth potential extends beyond headline sales, UBS argues",
           "publisher": "Proactive",
           "link": "https://www.proactiveinvestors.com/companies/news/1101448/walmart-earnings-growth-potential-extends-beyond-headline-sales-ubs-argues-1101448.html",
           "sentiment": 0.13
-        },
-        {
-          "title": "Legrand shares gain as UBS sees data centre growth accelerating",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/legrand-shares-gain-ubs-sees-130447404.html",
-          "sentiment": 0.8
         }
       ],
       "volRegime": "Fair",
@@ -7495,7 +7483,7 @@
       "dividendYield": 0.32,
       "marketCap": 5096291172352,
       "score": 8.5,
-      "newsSentiment": 0.27,
+      "newsSentiment": 0.42,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -7505,16 +7493,10 @@
           "sentiment": 0.42
         },
         {
-          "title": "Where Will Apple Stock Be in 5 Years?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/09/where-will-apple-stock-be-in-5-years/",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Apple Clears Major Hurdle as AI Push Gains Momentum",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/apple-clears-major-hurdle-ai-170908050.html",
-          "sentiment": 0.4
+          "title": "Singapore Saved Apple $2.7 Billion in Taxes",
+          "publisher": "Moby",
+          "link": "https://app.moby.co/home/news/news-apple-is-using-singapore-to-save-on-taxes?utm_source=yahoo_finance&utm_medium=rss",
+          "sentiment": 0.42
         }
       ],
       "valuationLabel": "Fair",
@@ -7599,6 +7581,12 @@
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
+          "title": "Nvidia CEO Huang's scandal is the flip side of centralized leadership: Sierra co-founder Clay Bavor",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/article/nvidia-ceo-huangs-scandal-is-the-flip-side-of-centralized-leadership-sierra-co-founder-clay-bavor-220838172.html",
+          "sentiment": -0.61
+        },
+        {
           "title": "Nvidia's Jensen Huang scandal raises questions for AI leaders",
           "publisher": "Yahoo Finance Video",
           "link": "https://finance.yahoo.com/video/nvidias-jensen-huang-scandal-raises-questions-for-ai-leaders-215445805.html",
@@ -7609,12 +7597,6 @@
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/technology/article/nvidia-ceo-jensen-huangs-affair-with-a-reported-chinese-spy-damages-this-key-investing-factor-201922852.html",
           "sentiment": -0.44
-        },
-        {
-          "title": "A closer look at a firm tied to Nvidia\u2019s chip scandal: Megaspeed",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/a-closer-look-at-a-firm-tied-to-nvidias-chip-scandal-megaspeed-192158390.html",
-          "sentiment": -0.61
         }
       ],
       "valuationLabel": "Cheap",
@@ -7695,25 +7677,13 @@
       "dividendYield": 0.31,
       "marketCap": 3516206940160,
       "score": 2.8,
-      "newsSentiment": 0.15,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Why Alphabet Stock Was Moving Higher Today",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/09/why-alphabet-stock-was-moving-higher-today/",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Nvidia vs. Alphabet: The AI Revolution Is Big Enough for Both. Here's the Better Buy.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/09/nvidia-vs-alphabet-the-ai-revolution-is-big-enough/",
-          "sentiment": 0.44
-        },
-        {
-          "title": "Alphabet's Wing makes $125M manufacturing bet on drone delivery",
-          "publisher": "Axios",
-          "link": "https://www.axios.com/2026/11/09/alphabets-wing-makes-125-million-manufacturing-bet-on-drone-delivery#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI",
           "sentiment": 0.0
         }
       ],
@@ -7795,14 +7765,20 @@
       "dividendYield": 1.72,
       "marketCap": 373470232576,
       "score": 2.8,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.24,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
           "title": "The Stock Market Is \u201cPetrified of Oracle\u2019s Balance Sheet\u201d as Microsoft Walks Away",
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/the-stock-market-is-petrified-of-oracles-balance-sheet-as-microsoft-walks-away?ref=yahoofinance&tlnk=yf-261109-qqf46fhh",
           "sentiment": 0.0
+        },
+        {
+          "title": "Is Oracle (ORCL) Losing Ground In AI Infrastructure Demand?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/oracle-orcl-losing-ground-ai-140934525.html",
+          "sentiment": -0.48
         }
       ],
       "valuationLabel": "Cheap",
@@ -7833,20 +7809,14 @@
       "dividendYield": 0.0,
       "marketCap": 2886350929920,
       "score": 6.8,
-      "newsSentiment": 0.18,
+      "newsSentiment": 0.64,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Amazon Stocks Rise 4.05% as JPMorgan Adds It to Focus List on AWS",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-rise-4-05-180349063.html",
-          "sentiment": 0.18
-        },
-        {
-          "title": "Amazon Is \u201cthe Cheapest It\u2019s Been\u201d in Years. Its P/E Fell From 34 to 21",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/amazon-is-the-cheapest-its-been-in-years-its-p-e-fell-from-34-to-21?ref=yahoofinance&tlnk=yf-261109-6xhr2h2h",
-          "sentiment": 0.18
+          "title": "Dow Jones Soars 1,132 Points As Amazon, Tesla Rally, But Nvidia Dives; CPI Inflation Report Next",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amazon-tesla-nvidia-cpi-inflation-report/?src=A00220&yptr=yahoo",
+          "sentiment": 0.64
         }
       ],
       "valuationLabel": "Rich",
@@ -8519,9 +8489,15 @@
       "dividendYield": 2.71,
       "marketCap": 352603471872,
       "score": 7.0,
-      "newsSentiment": 0.19,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.13,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Home Depot (HD) Rises Higher Than Market: Key Facts",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-hd-rises-higher-214502578.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Home Depot Stock: Analyst Estimates & Ratings",
           "publisher": "Barchart",
@@ -8759,9 +8735,15 @@
       "dividendYield": 0.0,
       "marketCap": 145321885696,
       "score": 5.4,
-      "newsSentiment": 0.52,
+      "newsSentiment": 0.41,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Uber Engineering Leader for Robotaxis, Delivery Network to Exit",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/technology/articles/uber-engineering-leader-robotaxis-delivery-214041534.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Uber (UBER) Stock Gets Fair Value Trim After Analysts Rework Targets",
           "publisher": "Simply Wall St.",
@@ -8773,12 +8755,6 @@
           "publisher": "CX Dive",
           "link": "https://www.customerexperiencedive.com/news/mcdonalds-connects-loyalty-program-with-uber/874154/",
           "sentiment": 0.54
-        },
-        {
-          "title": "Uber Makes Surprising Move Beyond Rides With New Service",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/uber-makes-surprising-move-beyond-185828661.html",
-          "sentiment": 0.34
         }
       ],
       "valuationLabel": "Rich",
@@ -9422,6 +9398,12 @@
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
+          "title": "PDD Holdings Inc. Sponsored ADR (PDD) Stock Sinks As Market Gains: Here's Why",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-inc-sponsored-adr-214502961.html",
+          "sentiment": -0.27
+        },
+        {
           "title": "PDD drops as Morgan Stanley cuts to Equalweight on capital return risks",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/pdd-drops-morgan-stanley-cuts-175320357.html",
@@ -9432,12 +9414,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-inc-sponsored-adr-130005948.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "PDD Holdings Inc. Sponsored ADR (PDD) Stock Sinks As Market Gains: What You Should Know",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-inc-sponsored-adr-214502815.html",
-          "sentiment": -0.27
         }
       ],
       "valuationLabel": "Cheap",
@@ -10703,7 +10679,7 @@
       "dividendYield": 2.3,
       "marketCap": 148361330688,
       "score": 6.9,
-      "newsSentiment": 0.31,
+      "newsSentiment": 0.24,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -10713,16 +10689,16 @@
           "sentiment": 0.0
         },
         {
+          "title": "A $10 Million Surprise Convinced This UBS Advisor to Focus on Business Owners",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/advisor/articles/ubs-luke-ervin-business-owner-3ab9eab4?siteid=yhoof2&yptr=yahoo",
+          "sentiment": 0.59
+        },
+        {
           "title": "Walmart earnings growth potential extends beyond headline sales, UBS argues",
           "publisher": "Proactive",
           "link": "https://www.proactiveinvestors.com/companies/news/1101448/walmart-earnings-growth-potential-extends-beyond-headline-sales-ubs-argues-1101448.html",
           "sentiment": 0.13
-        },
-        {
-          "title": "Legrand shares gain as UBS sees data centre growth accelerating",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/legrand-shares-gain-ubs-sees-130447404.html",
-          "sentiment": 0.8
         }
       ],
       "valuationLabel": "Fair",
@@ -10983,7 +10959,7 @@
     "costPerContract": 677.0
   },
   "market": {
-    "asOf": "2026-11-09T22:07:41.702909+00:00",
+    "asOf": "2026-11-09T23:31:41.354231+00:00",
     "gauges": [
       {
         "key": "qqq",
