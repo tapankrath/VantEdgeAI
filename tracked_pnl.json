@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T02:48:35.355726+00:00",
+  "generated_at": "2026-11-09T14:08:31.220510+00:00",
   "positions": [
     {
       "id": "MSFT|Bull_Put_Spread|2026-11-06|$500/490",
@@ -148,7 +148,7 @@
           "pnlPct": 91.71
         }
       ],
-      "dteRemaining": -1,
+      "dteRemaining": -3,
       "status": "expired",
       "lastUpdated": "2026-11-06T22:07:32.443418+00:00"
     },
@@ -215,7 +215,7 @@
           "pnlPct": -171.43
         }
       ],
-      "dteRemaining": -15,
+      "dteRemaining": -17,
       "status": "expired",
       "lastUpdated": "2026-10-23T21:36:50.804762+00:00"
     },
@@ -282,7 +282,7 @@
           "pnlPct": -85.71
         }
       ],
-      "dteRemaining": -15,
+      "dteRemaining": -17,
       "status": "expired",
       "lastUpdated": "2026-10-23T21:36:50.980526+00:00"
     },
@@ -391,7 +391,7 @@
           "pnlPct": -66.92
         }
       ],
-      "dteRemaining": -8,
+      "dteRemaining": -10,
       "status": "expired",
       "lastUpdated": "2026-10-30T23:07:50.758420+00:00"
     }
