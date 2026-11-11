@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T18:26:58.385689+00:00",
+  "generated_at": "2026-11-11T18:19:45.842121+00:00",
   "source": "yfinance screener (unofficial, free)",
   "criteria": {
     "min_market_cap": 100000000000,
@@ -9,27 +9,30 @@
       "NYQ"
     ],
     "ranked_by": "avg daily dollar volume (3-month)",
-    "candidates_above_min_cap": 163,
+    "candidates_above_min_cap": 165,
     "min_expiry_open_interest": 20000,
     "options_gate": "applied",
     "momentum_pool_min_market_cap": 20000000000
   },
   "tickers": [
-    "NVDA",
     "MU",
+    "NVDA",
     "AAPL",
     "TSLA",
     "AMZN",
     "INTC",
     "ORCL",
     "APH",
-    "CME",
+    "MPC",
+    "PGR",
     "EQIX",
+    "CME",
     "SHEL",
-    "AZN",
+    "CB",
     "SO",
+    "AZN",
+    "ICE",
     "SAP",
-    "DUK",
     "BNY",
     "NVO",
     "PDD",
@@ -45,607 +48,613 @@
     "BHP",
     "TD",
     "GSK",
-    "BUD",
     "RIO",
-    "IBN",
     "SCCO",
+    "BUD",
+    "IBN",
     "BNS",
     "SNY",
     "TTE",
     "PBR-A",
-    "SAN",
     "HSBC",
+    "SAN",
     "BMO",
     "CM",
     "SONY",
     "UBS",
     "TM",
     "MUFG",
-    "BBVA",
-    "MFG",
-    "SMFG"
+    "BBVA"
   ],
   "details": [
     {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "marketCap": 4039877328896.0,
-      "avgDollarVolume": 20530242956.905502,
-      "price": 167.3035,
-      "ma50": 219.0356,
-      "ma200": 204.6276
-    },
-    {
       "symbol": "MU",
       "name": "Micron Technology, Inc.",
-      "marketCap": 798026760192.0,
-      "avgDollarVolume": 19641141124.2,
-      "price": 705.33,
-      "ma50": 957.6416,
-      "ma200": 758.39264
+      "marketCap": 931636510720.0,
+      "avgDollarVolume": 22916863867.559998,
+      "price": 823.42,
+      "ma50": 952.9692,
+      "ma200": 760.07275
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "marketCap": 4266412474368.0,
+      "avgDollarVolume": 22589547405.075,
+      "price": 176.685,
+      "ma50": 217.9978,
+      "ma200": 204.5397
     },
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "marketCap": 5055745884160.0,
-      "avgDollarVolume": 14939357591.199999,
-      "price": 347.9,
-      "ma50": 336.6336,
-      "ma200": 299.31845
+      "marketCap": 5157471387648.0,
+      "avgDollarVolume": 15197268013.199999,
+      "price": 354.9,
+      "ma50": 337.2668,
+      "ma200": 299.78394
     },
     {
       "symbol": "TSLA",
       "name": "Tesla, Inc.",
-      "marketCap": 1488760078336.0,
-      "avgDollarVolume": 14288382181.3545,
-      "price": 376.6383,
-      "ma50": 372.7232,
-      "ma200": 383.51004
+      "marketCap": 1555331284992.0,
+      "avgDollarVolume": 14930997982.2,
+      "price": 393.48,
+      "ma50": 372.9598,
+      "ma200": 383.23294
     },
     {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc.",
-      "marketCap": 2902570565632.0,
-      "avgDollarVolume": 10460190171.91,
-      "price": 268.43,
-      "ma50": 253.9602,
-      "ma200": 244.079
+      "marketCap": 2883269165056.0,
+      "avgDollarVolume": 10420067700.705,
+      "price": 266.645,
+      "ma50": 254.1822,
+      "ma200": 244.24126
     },
     {
       "symbol": "INTC",
       "name": "Intel Corporation",
-      "marketCap": 303911698432.0,
-      "avgDollarVolume": 6691020052.2,
-      "price": 57.18,
-      "ma50": 97.3476,
-      "ma200": 87.11105
+      "marketCap": 335934586880.0,
+      "avgDollarVolume": 7333969800.429999,
+      "price": 63.205,
+      "ma50": 96.72,
+      "ma200": 87.18925
     },
     {
       "symbol": "ORCL",
       "name": "Oracle Corporation",
-      "marketCap": 362870046720.0,
-      "avgDollarVolume": 3910134038.17,
-      "price": 116.39,
-      "ma50": 138.495,
-      "ma200": 155.1151
+      "marketCap": 404772028416.0,
+      "avgDollarVolume": 4350497748.21,
+      "price": 129.83,
+      "ma50": 137.8722,
+      "ma200": 154.7928
     },
     {
       "symbol": "APH",
       "name": "Amphenol Corporation",
-      "marketCap": 194195046400.0,
-      "avgDollarVolume": 994109605.8599999,
-      "price": 78.645,
-      "ma50": 81.2917,
-      "ma200": 75.4768
+      "marketCap": 202331275264.0,
+      "avgDollarVolume": 1043069569.5,
+      "price": 81.94,
+      "ma50": 81.3052,
+      "ma200": 75.48765
     },
     {
-      "symbol": "CME",
-      "name": "CME Group Inc.",
-      "marketCap": 110744739840.0,
-      "avgDollarVolume": 596250928.0,
-      "price": 309.4,
-      "ma50": 283.4746,
-      "ma200": 280.99414
+      "symbol": "MPC",
+      "name": "Marathon Petroleum Corporation",
+      "marketCap": 108006211584.0,
+      "avgDollarVolume": 1010772677.1500001,
+      "price": 396.67,
+      "ma50": 422.4882,
+      "ma200": 298.2386
+    },
+    {
+      "symbol": "PGR",
+      "name": "Progressive Corporation (The)",
+      "marketCap": 134110756864.0,
+      "avgDollarVolume": 611493771.6,
+      "price": 231.48,
+      "ma50": 219.2104,
+      "ma200": 210.19044
     },
     {
       "symbol": "EQIX",
       "name": "Equinix, Inc.",
-      "marketCap": 103776387072.0,
-      "avgDollarVolume": 592403484.27,
-      "price": 1048.37,
-      "ma50": 1016.9164,
-      "ma200": 1017.5317
+      "marketCap": 106021445632.0,
+      "avgDollarVolume": 606530259.75,
+      "price": 1071.05,
+      "ma50": 1016.982,
+      "ma200": 1018.7499
+    },
+    {
+      "symbol": "CME",
+      "name": "CME Group Inc.",
+      "marketCap": 112262389760.0,
+      "avgDollarVolume": 605300108.8,
+      "price": 313.64,
+      "ma50": 283.9464,
+      "ma200": 281.11935
     },
     {
       "symbol": "SHEL",
       "name": "Shell PLC",
-      "marketCap": 274660311040.0,
-      "avgDollarVolume": 589779971.78,
-      "price": 97.03,
-      "ma50": 99.2782,
-      "ma200": 89.4303
+      "marketCap": 276036190208.0,
+      "avgDollarVolume": 597499017.6999999,
+      "price": 97.55,
+      "ma50": 99.3534,
+      "ma200": 89.5285
     },
     {
-      "symbol": "AZN",
-      "name": "AstraZeneca PLC",
-      "marketCap": 289028997120.0,
-      "avgDollarVolume": 588491894.2800001,
-      "price": 186.36,
-      "ma50": 167.0046,
-      "ma200": 180.23425
+      "symbol": "CB",
+      "name": "Chubb Limited",
+      "marketCap": 140347260928.0,
+      "avgDollarVolume": 595304526.6,
+      "price": 367.325,
+      "ma50": 347.089,
+      "ma200": 336.3664
     },
     {
       "symbol": "SO",
       "name": "Southern Company (The)",
-      "marketCap": 109073784832.0,
-      "avgDollarVolume": 587149658.375,
-      "price": 93.685,
-      "ma50": 88.277,
-      "ma200": 92.58385
+      "marketCap": 108741976064.0,
+      "avgDollarVolume": 584894430.2,
+      "price": 93.4,
+      "ma50": 88.39,
+      "ma200": 92.6113
+    },
+    {
+      "symbol": "AZN",
+      "name": "AstraZeneca PLC",
+      "marketCap": 286521950208.0,
+      "avgDollarVolume": 580640137.5555,
+      "price": 184.7435,
+      "ma50": 167.4972,
+      "ma200": 180.22575
+    },
+    {
+      "symbol": "ICE",
+      "name": "Intercontinental Exchange Inc.",
+      "marketCap": 100449214464.0,
+      "avgDollarVolume": 560323992.36,
+      "price": 179.74,
+      "ma50": 159.2198,
+      "ma200": 154.4963
     },
     {
       "symbol": "SAP",
       "name": "SAP  SE",
-      "marketCap": 268721848320.0,
-      "avgDollarVolume": 527435084.4,
-      "price": 232.82,
-      "ma50": 220.0874,
-      "ma200": 191.86685
-    },
-    {
-      "symbol": "DUK",
-      "name": "Duke Energy Corporation (Holdin",
-      "marketCap": 100711014400.0,
-      "avgDollarVolume": 525877085.23499995,
-      "price": 129.165,
-      "ma50": 119.9882,
-      "ma200": 124.6521
+      "marketCap": 270176141312.0,
+      "avgDollarVolume": 530037175.36,
+      "price": 234.08,
+      "ma50": 220.3444,
+      "ma200": 191.83595
     },
     {
       "symbol": "BNY",
       "name": "The Bank of New York Mellon Cor",
-      "marketCap": 101254406144.0,
-      "avgDollarVolume": 515906095.575,
-      "price": 150.475,
-      "ma50": 150.0428,
-      "ma200": 140.23344
+      "marketCap": 103081320448.0,
+      "avgDollarVolume": 527920620.58,
+      "price": 153.19,
+      "ma50": 149.84,
+      "ma200": 140.39404
     },
     {
       "symbol": "NVO",
       "name": "Novo Nordisk A/S",
-      "marketCap": 179109707776.0,
-      "avgDollarVolume": 497630609.46720004,
-      "price": 40.6296,
-      "ma50": 40.5,
-      "ma200": 43.595
+      "marketCap": 179442106368.0,
+      "avgDollarVolume": 497737972.06,
+      "price": 40.705,
+      "ma50": 40.4074,
+      "ma200": 43.4786
     },
     {
       "symbol": "PDD",
       "name": "PDD Holdings Inc.",
-      "marketCap": 112668950528.0,
-      "avgDollarVolume": 492628899.69,
-      "price": 79.155,
-      "ma50": 79.72,
-      "ma200": 90.33305
+      "marketCap": 112249044992.0,
+      "avgDollarVolume": 491930651.5,
+      "price": 78.86,
+      "ma50": 79.628,
+      "ma200": 90.19575
     },
     {
       "symbol": "PLD",
       "name": "Prologis, Inc.",
-      "marketCap": 125947977728.0,
-      "avgDollarVolume": 470734887.84,
-      "price": 129.54,
-      "ma50": 131.3982,
-      "ma200": 137.82605
+      "marketCap": 126589681664.0,
+      "avgDollarVolume": 471932815.2,
+      "price": 130.2,
+      "ma50": 131.2018,
+      "ma200": 137.8444
     },
     {
       "symbol": "PBR",
       "name": "Petroleo Brasileiro S.A. Petrob",
-      "marketCap": 116804141056.0,
-      "avgDollarVolume": 440171243.75,
-      "price": 18.125,
-      "ma50": 22.1342,
-      "ma200": 19.32835
+      "marketCap": 116191928320.0,
+      "avgDollarVolume": 439238403.93,
+      "price": 18.03,
+      "ma50": 22.1128,
+      "ma200": 19.34805
     },
     {
       "symbol": "BP",
       "name": "BP p.l.c.",
-      "marketCap": 114346074112.0,
-      "avgDollarVolume": 407628008.77500004,
-      "price": 44.395,
-      "ma50": 46.2924,
-      "ma200": 43.31265
+      "marketCap": 115968737280.0,
+      "avgDollarVolume": 415300649.47499996,
+      "price": 45.025,
+      "ma50": 46.3266,
+      "ma200": 43.35175
     },
     {
       "symbol": "NVS",
       "name": "Novartis AG",
-      "marketCap": 308572749824.0,
-      "avgDollarVolume": 343637377.245,
-      "price": 163.385,
-      "ma50": 149.024,
-      "ma200": 152.33635
+      "marketCap": 301254344704.0,
+      "avgDollarVolume": 337751418.81,
+      "price": 159.51,
+      "ma50": 149.248,
+      "ma200": 152.40704
     },
     {
       "symbol": "BTI",
       "name": "British American Tobacco  Indus",
-      "marketCap": 130770788352.0,
-      "avgDollarVolume": 308361278.96000004,
-      "price": 60.88,
-      "ma50": 57.1046,
-      "ma200": 59.25325
+      "marketCap": 129890107392.0,
+      "avgDollarVolume": 304994474.04,
+      "price": 60.47,
+      "ma50": 57.2096,
+      "ma200": 59.2624
     },
     {
       "symbol": "RY",
       "name": "Royal Bank Of Canada",
-      "marketCap": 281135874048.0,
-      "avgDollarVolume": 259081527.58499998,
-      "price": 203.0698,
-      "ma50": 201.4216,
-      "ma200": 190.29124
+      "marketCap": 281336905728.0,
+      "avgDollarVolume": 258590071.425,
+      "price": 203.215,
+      "ma50": 201.387,
+      "ma200": 190.46675
     },
     {
       "symbol": "HDB",
       "name": "HDFC Bank Limited",
-      "marketCap": 133695102976.0,
-      "avgDollarVolume": 255772813.98999998,
-      "price": 25.99,
-      "ma50": 22.8214,
-      "ma200": 25.5678
+      "marketCap": 133206417408.0,
+      "avgDollarVolume": 255132740.365,
+      "price": 25.895,
+      "ma50": 22.887,
+      "ma200": 25.53695
     },
     {
       "symbol": "ENB",
       "name": "Enbridge Inc",
-      "marketCap": 106708017152.0,
-      "avgDollarVolume": 245314468.25,
-      "price": 47.875,
-      "ma50": 48.0458,
-      "ma200": 52.24925
+      "marketCap": 106685734912.0,
+      "avgDollarVolume": 245546396.97,
+      "price": 47.865,
+      "ma50": 47.9896,
+      "ma200": 52.24865
     },
     {
       "symbol": "UL",
       "name": "Unilever PLC",
-      "marketCap": 143435776000.0,
-      "avgDollarVolume": 240924773.06,
-      "price": 66.61,
-      "ma50": 63.5368,
-      "ma200": 62.60105
+      "marketCap": 141390086144.0,
+      "avgDollarVolume": 238792681.95999998,
+      "price": 65.66,
+      "ma50": 63.5692,
+      "ma200": 62.59685
     },
     {
       "symbol": "BHP",
       "name": "BHP Group Limited",
-      "marketCap": 205452984320.0,
-      "avgDollarVolume": 232213870.08,
-      "price": 80.84,
-      "ma50": 84.8018,
-      "ma200": 81.894
+      "marketCap": 209328734208.0,
+      "avgDollarVolume": 237152885.57999998,
+      "price": 82.365,
+      "ma50": 84.5458,
+      "ma200": 81.96075
     },
     {
       "symbol": "TD",
       "name": "Toronto Dominion Bank (The)",
-      "marketCap": 203083104256.0,
-      "avgDollarVolume": 227901802.1309,
-      "price": 124.3607,
-      "ma50": 121.1288,
-      "ma200": 111.49285
+      "marketCap": 203833147392.0,
+      "avgDollarVolume": 227288607.42,
+      "price": 124.82,
+      "ma50": 121.188,
+      "ma200": 111.63775
     },
     {
       "symbol": "GSK",
       "name": "GSK plc",
-      "marketCap": 102909468672.0,
-      "avgDollarVolume": 210346859.56,
-      "price": 51.34,
-      "ma50": 49.2818,
-      "ma200": 52.39615
-    },
-    {
-      "symbol": "BUD",
-      "name": "Anheuser-Busch Inbev SA Sponsor",
-      "marketCap": 169492758528.0,
-      "avgDollarVolume": 202306376.25,
-      "price": 86.075,
-      "ma50": 79.4516,
-      "ma200": 78.23745
+      "marketCap": 100634402816.0,
+      "avgDollarVolume": 205460699.17499998,
+      "price": 50.205,
+      "ma50": 49.3014,
+      "ma200": 52.4007
     },
     {
       "symbol": "RIO",
       "name": "Rio Tinto Plc",
-      "marketCap": 137129984000.0,
-      "avgDollarVolume": 201190217.65,
-      "price": 84.31,
-      "ma50": 92.8338,
-      "ma200": 96.2931
-    },
-    {
-      "symbol": "IBN",
-      "name": "ICICI Bank Limited",
-      "marketCap": 125269958656.0,
-      "avgDollarVolume": 194540185.35,
-      "price": 34.89,
-      "ma50": 29.1562,
-      "ma200": 28.57475
+      "marketCap": 138301063168.0,
+      "avgDollarVolume": 203061333.42000002,
+      "price": 85.03,
+      "ma50": 92.4746,
+      "ma200": 96.26345
     },
     {
       "symbol": "SCCO",
       "name": "Southern Copper Corporation",
-      "marketCap": 143950577664.0,
-      "avgDollarVolume": 193217339.7,
-      "price": 168.7,
-      "ma50": 194.06891,
-      "ma200": 184.71962
+      "marketCap": 148319453184.0,
+      "avgDollarVolume": 198433085.82,
+      "price": 173.82,
+      "ma50": 193.34007,
+      "ma200": 184.66614
+    },
+    {
+      "symbol": "BUD",
+      "name": "Anheuser-Busch Inbev SA Sponsor",
+      "marketCap": 164953915392.0,
+      "avgDollarVolume": 196549802.31,
+      "price": 83.77,
+      "ma50": 79.5906,
+      "ma200": 78.3207
+    },
+    {
+      "symbol": "IBN",
+      "name": "ICICI Bank Limited",
+      "marketCap": 123815837696.0,
+      "avgDollarVolume": 194173585.98,
+      "price": 34.485,
+      "ma50": 29.2466,
+      "ma200": 28.60315
     },
     {
       "symbol": "BNS",
       "name": "Bank Nova Scotia Halifax Pfd 3",
-      "marketCap": 113399939072.0,
-      "avgDollarVolume": 164289566.8,
-      "price": 93.04,
-      "ma50": 92.4068,
-      "ma200": 82.96035
+      "marketCap": 113704648704.0,
+      "avgDollarVolume": 163204511.28,
+      "price": 93.29,
+      "ma50": 92.4262,
+      "ma200": 83.04805
     },
     {
       "symbol": "SNY",
       "name": "Sanofi",
-      "marketCap": 115769376768.0,
-      "avgDollarVolume": 161337651.405,
-      "price": 48.315,
-      "ma50": 42.3616,
-      "ma200": 44.3288
+      "marketCap": 115074506752.0,
+      "avgDollarVolume": 161687928.625,
+      "price": 48.025,
+      "ma50": 42.439,
+      "ma200": 44.3333
     },
     {
       "symbol": "TTE",
       "name": "TotalEnergies SE",
-      "marketCap": 191022170112.0,
-      "avgDollarVolume": 159045923.045,
-      "price": 87.005,
-      "ma50": 89.8086,
-      "ma200": 85.99735
+      "marketCap": 192350437376.0,
+      "avgDollarVolume": 160959137.5575,
+      "price": 87.7075,
+      "ma50": 89.8,
+      "ma200": 86.08475
     },
     {
       "symbol": "PBR-A",
       "name": "Petroleo Brasileiro S.A. Petrob",
-      "marketCap": 110331576320.0,
-      "avgDollarVolume": 157046460.285,
-      "price": 16.115,
-      "ma50": 19.8782,
-      "ma200": 17.46635
-    },
-    {
-      "symbol": "SAN",
-      "name": "Banco Santander, S.A. Sponsored",
-      "marketCap": 179975110656.0,
-      "avgDollarVolume": 144607530.5136,
-      "price": 12.4824,
-      "ma50": 13.5616,
-      "ma200": 12.93445
+      "marketCap": 108722642944.0,
+      "avgDollarVolume": 155980442.48000002,
+      "price": 15.88,
+      "ma50": 19.8542,
+      "ma200": 17.4803
     },
     {
       "symbol": "HSBC",
       "name": "HSBC Holdings, plc.",
-      "marketCap": 306765103104.0,
-      "avgDollarVolume": 143645078.07,
-      "price": 89.73,
-      "ma50": 96.5014,
-      "ma200": 93.54845
+      "marketCap": 308226162688.0,
+      "avgDollarVolume": 145581442.16,
+      "price": 90.16,
+      "ma50": 96.2362,
+      "ma200": 93.5724
+    },
+    {
+      "symbol": "SAN",
+      "name": "Banco Santander, S.A. Sponsored",
+      "marketCap": 179580059648.0,
+      "avgDollarVolume": 143576880.75,
+      "price": 12.455,
+      "ma50": 13.5216,
+      "ma200": 12.9339
     },
     {
       "symbol": "BMO",
       "name": "Bank Of Montreal",
-      "marketCap": 120546369536.0,
-      "avgDollarVolume": 128941487.50000001,
-      "price": 173.425,
-      "ma50": 170.4482,
-      "ma200": 161.14145
+      "marketCap": 121098969088.0,
+      "avgDollarVolume": 128618960.32,
+      "price": 174.22,
+      "ma50": 170.4958,
+      "ma200": 161.32076
     },
     {
       "symbol": "CM",
       "name": "Canadian Imperial Bank of Comme",
-      "marketCap": 105547489280.0,
-      "avgDollarVolume": 128160510.0,
-      "price": 116.25,
-      "ma50": 113.7842,
-      "ma200": 109.52465
+      "marketCap": 105710919680.0,
+      "avgDollarVolume": 127835017.08000001,
+      "price": 116.43,
+      "ma50": 113.8294,
+      "ma200": 109.6459
     },
     {
       "symbol": "SONY",
       "name": "Sony Group Corporation",
-      "marketCap": 155235532800.0,
-      "avgDollarVolume": 110637741.48,
-      "price": 26.635,
-      "ma50": 24.532,
-      "ma200": 22.3736
+      "marketCap": 154011598848.0,
+      "avgDollarVolume": 110549885.95,
+      "price": 26.425,
+      "ma50": 24.575,
+      "ma200": 22.39235
     },
     {
       "symbol": "UBS",
       "name": "UBS Group AG Registered",
-      "marketCap": 148740112384.0,
-      "avgDollarVolume": 96072843.375,
-      "price": 49.085,
-      "ma50": 49.5762,
-      "ma200": 47.1185
+      "marketCap": 150043115520.0,
+      "avgDollarVolume": 97185764.31,
+      "price": 49.515,
+      "ma50": 49.4452,
+      "ma200": 47.1242
     },
     {
       "symbol": "TM",
       "name": "Toyota Motor Corporation",
-      "marketCap": 252714074112.0,
-      "avgDollarVolume": 71015283.36,
-      "price": 214.56,
-      "ma50": 193.68,
-      "ma200": 198.12695
+      "marketCap": 250340769792.0,
+      "avgDollarVolume": 70007009.375,
+      "price": 212.545,
+      "ma50": 194.0448,
+      "ma200": 198.07275
     },
     {
       "symbol": "MUFG",
       "name": "Mitsubishi UFJ Financial Group,",
-      "marketCap": 243349651456.0,
-      "avgDollarVolume": 60796434.52,
-      "price": 21.62,
-      "ma50": 22.5278,
-      "ma200": 20.2397
+      "marketCap": 247120314368.0,
+      "avgDollarVolume": 62074008.19499999,
+      "price": 21.955,
+      "ma50": 22.5058,
+      "ma200": 20.2587
     },
     {
       "symbol": "BBVA",
       "name": "Banco Bilbao Vizcaya Argentaria",
-      "marketCap": 143579676672.0,
-      "avgDollarVolume": 41865928.62,
-      "price": 26.34,
-      "ma50": 27.0222,
-      "ma200": 24.7799
-    },
-    {
-      "symbol": "MFG",
-      "name": "Mizuho Financial Group, Inc. Sp",
-      "marketCap": 119456391168.0,
-      "avgDollarVolume": 34912835.245,
-      "price": 9.895,
-      "ma50": 10.5098,
-      "ma200": 9.5696
-    },
-    {
-      "symbol": "SMFG",
-      "name": "Sumitomo Mitsui Financial Group",
-      "marketCap": 152289738752.0,
-      "avgDollarVolume": 33623308.2,
-      "price": 24.28,
-      "ma50": 25.4186,
-      "ma200": 23.47415
+      "marketCap": 142462222336.0,
+      "avgDollarVolume": 41467620.45,
+      "price": 26.135,
+      "ma50": 26.9728,
+      "ma200": 24.78525
     }
   ],
   "momentum": [],
   "droppedThinOptions": [
     "SPCX",
     "META",
-    "MSFT",
     "AMD",
+    "MSFT",
     "SNDK",
-    "GOOGL",
     "AVGO",
+    "GOOGL",
     "MRNA",
-    "PLTR",
     "TSM",
-    "LLY",
+    "PLTR",
     "MRVL",
-    "WMT",
-    "V",
+    "LLY",
     "SKHY",
-    "BRK-B",
-    "AMAT",
     "DELL",
-    "JPM",
-    "CRM",
-    "COST",
+    "WMT",
+    "AMAT",
+    "V",
     "STX",
-    "NFLX",
+    "BRK-B",
     "WDC",
-    "CRWD",
-    "XOM",
+    "CRM",
+    "JPM",
     "LRCX",
-    "ASML",
+    "CRWD",
+    "COST",
+    "NFLX",
     "QCOM",
-    "UNH",
     "GEV",
+    "XOM",
+    "ASML",
     "APP",
     "TXN",
-    "MA",
-    "JNJ",
+    "UNH",
     "PANW",
     "GS",
-    "BAC",
+    "MA",
+    "JNJ",
     "CSCO",
+    "BAC",
     "CVX",
-    "MDT",
-    "CAT",
     "KLAC",
+    "CAT",
+    "MDT",
     "HD",
-    "ACN",
-    "PG",
-    "KO",
     "NOW",
-    "MCD",
-    "MRK",
-    "TMO",
-    "GE",
     "ADI",
+    "ACN",
+    "KO",
+    "GE",
+    "PG",
+    "TMO",
+    "MRK",
+    "MCD",
+    "SNOW",
     "ABBV",
     "BA",
-    "SNOW",
     "IBM",
+    "SHOP",
     "AMGN",
     "PEP",
-    "SHOP",
-    "WFC",
-    "UBER",
-    "BKNG",
-    "C",
     "ANET",
-    "ISRG",
-    "VZ",
+    "UBER",
+    "WFC",
+    "C",
+    "BKNG",
+    "GLW",
+    "VLO",
+    "NET",
     "LIN",
+    "VZ",
+    "ISRG",
+    "ARM",
     "TJX",
+    "MS",
     "NEE",
     "BABA",
-    "MS",
     "GILD",
-    "NET",
-    "MPC",
     "SPOT",
     "PFE",
     "DIS",
     "ABT",
     "AXP",
     "DHR",
+    "T",
     "RTX",
     "TMUS",
-    "T",
-    "SYK",
     "COP",
-    "ARM",
+    "SYK",
     "PM",
-    "MCK",
     "SPGI",
-    "ABNB",
+    "MCK",
+    "ETN",
     "DE",
     "SBUX",
+    "ABNB",
     "NEM",
-    "ETN",
     "LMT",
-    "SCHW",
     "CVS",
-    "LOW",
+    "SCHW",
     "UNP",
+    "LOW",
     "BLK",
     "COF",
     "WELL",
     "HCA",
-    "VRTX",
     "BMY",
+    "VRTX",
     "ADP",
     "MAR",
     "MO",
-    "PH",
-    "PGR",
-    "CB"
+    "PH"
   ],
   "pinnedReport": [
     {
       "symbol": "AAPL",
       "options": "ok",
-      "expiryOI": 24659,
+      "expiryOI": 26408,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "MSFT",
       "options": "thin",
-      "expiryOI": 15038,
+      "expiryOI": 15840,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "NVDA",
       "options": "ok",
-      "expiryOI": 43770,
+      "expiryOI": 70318,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "META",
       "options": "thin",
-      "expiryOI": 7650,
+      "expiryOI": 8408,
       "expiration": "2026-12-11"
     },
     {
@@ -657,19 +666,19 @@
     {
       "symbol": "JPM",
       "options": "thin",
-      "expiryOI": 4042,
+      "expiryOI": 4129,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "ORCL",
       "options": "ok",
-      "expiryOI": 21447,
+      "expiryOI": 24189,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "AMZN",
       "options": "ok",
-      "expiryOI": 20670,
+      "expiryOI": 23048,
       "expiration": "2026-12-11"
     },
     {
@@ -687,13 +696,13 @@
     {
       "symbol": "NFLX",
       "options": "thin",
-      "expiryOI": 4068,
+      "expiryOI": 4610,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "NOW",
       "options": "thin",
-      "expiryOI": 16120,
+      "expiryOI": 17224,
       "expiration": "2026-12-11"
     },
     {
@@ -705,44 +714,44 @@
     {
       "symbol": "CRM",
       "options": "thin",
-      "expiryOI": 1139,
+      "expiryOI": 1165,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "CRWD",
       "options": "thin",
-      "expiryOI": 1667,
+      "expiryOI": 1779,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "PLTR",
       "options": "thin",
-      "expiryOI": 14683,
+      "expiryOI": 15341,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "TSM",
       "options": "thin",
-      "expiryOI": 6703,
+      "expiryOI": 7028,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "DELL",
       "options": "thin",
-      "expiryOI": 2995,
+      "expiryOI": 3296,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "PANW",
       "options": "thin",
-      "expiryOI": 1177,
+      "expiryOI": 1217,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "GLW",
-      "options": "unchecked",
-      "expiryOI": 0,
-      "expiration": null
+      "options": "thin",
+      "expiryOI": 3162,
+      "expiration": "2026-12-11"
     },
     {
       "symbol": "SPY",
@@ -759,37 +768,37 @@
     {
       "symbol": "HD",
       "options": "thin",
-      "expiryOI": 861,
+      "expiryOI": 895,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "COST",
       "options": "thin",
-      "expiryOI": 2173,
+      "expiryOI": 2258,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "CSCO",
       "options": "thin",
-      "expiryOI": 2100,
+      "expiryOI": 2277,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "MRVL",
       "options": "thin",
-      "expiryOI": 5760,
+      "expiryOI": 7597,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "GEV",
       "options": "thin",
-      "expiryOI": 1464,
+      "expiryOI": 1583,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "UBER",
       "options": "thin",
-      "expiryOI": 5536,
+      "expiryOI": 5768,
       "expiration": "2026-12-11"
     },
     {
@@ -801,13 +810,13 @@
     {
       "symbol": "AVGO",
       "options": "thin",
-      "expiryOI": 14399,
+      "expiryOI": 16021,
       "expiration": "2026-12-11"
     },
     {
       "symbol": "ANET",
       "options": "thin",
-      "expiryOI": 1706,
+      "expiryOI": 1809,
       "expiration": "2026-12-11"
     }
   ]
