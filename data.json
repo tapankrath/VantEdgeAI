@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T21:31:37.754309+00:00",
+  "generated_at": "2026-11-11T22:07:45.487777+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -298,9 +298,15 @@
         "expiryOI": 1847080
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.07,
+      "newsSentiment": -0.11,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Anthropic's Mythos claim may put Nvidia\u2019s CUDA moat in a vulnerable spot",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/anthropics-mythos-claim-may-put-nvidias-cuda-moat-in-a-vulnerable-spot-214346380.html",
+          "sentiment": -0.23
+        },
         {
           "title": "Tech round-up: A closer look at Anthropic, Nvidia, CoreWeave, and next week",
           "publisher": "Yahoo Finance Video",
@@ -311,12 +317,6 @@
           "title": "Nvidia stock is pricing in 2 major risks as CEO Jensen Huang's affair fallout plays out",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-is-pricing-in-2-major-risks-as-ceo-jensen-huangs-affair-fallout-plays-out-190743109.html",
-          "sentiment": -0.1
-        },
-        {
-          "title": "Jensen Huang espionage controversy will cast a long shadow over Nvidia, veteran tech strategist warns",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/jensen-huang-espionage-controversy-will-cast-a-long-shadow-over-nvidia-veteran-tech-strategist-warns-173844118.html",
           "sentiment": -0.1
         }
       ],
@@ -806,9 +806,15 @@
         "expiryOI": 44986
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.09,
+      "newsSentiment": -0.02,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Oracle Stock Gets A Boost. Here's What's Next For Tech Giant's AI Push.",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/technology/oracle-stock-cfo-hilary-maxson-ai-demand/?src=A00220&yptr=yahoo",
+          "sentiment": 0.4
+        },
         {
           "title": "Why Oracle Stock Is Up Today",
           "publisher": "Motley Fool",
@@ -820,12 +826,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-climb-7-2-183823857.html",
           "sentiment": -0.46
-        },
-        {
-          "title": "Oracle CFO Promises \u201c$30 Billion Plus\u201d in Free Cash Flow by Fiscal 2029 After a 70% Plunge",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/oracle-cfo-promises-30-billion-plus-in-free-cash-flow-by-fiscal-2029-after-a-70-plunge?ref=yahoofinance&tlnk=yf-261111-fv69mxwf",
-          "sentiment": 0.18
         }
       ],
       "volRegime": "Cheap",
@@ -1260,9 +1260,15 @@
         "expiryOI": 51990
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.03,
+      "newsSentiment": 0.11,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Netflix Wipes Out Five Years of Gains",
+          "publisher": "Moby",
+          "link": "https://app.moby.co/home/news/news-netflix-wipes-out-five-years-of-gains?utm_source=yahoo_finance&utm_medium=rss",
+          "sentiment": 0.34
+        },
         {
           "title": "Clarion Partners\u2019 loan on Netflix-occupied Hollywood campus hits market",
           "publisher": "The Real Deal",
@@ -1274,12 +1280,6 @@
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-trades-under-18x-earnings-120649905.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Will Netflix Ever Pay a Dividend?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/11/will-netflix-ever-pay-a-dividend/",
-          "sentiment": -0.1
         }
       ],
       "volRegime": "Cheap",
@@ -2006,9 +2006,15 @@
         "expiryOI": 7028
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.07,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.27,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Is It Worth Investing in TSMC (TSM) Based on Wall Street's Bullish Views?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-tsmc-tsm-based-202243029.html",
+          "sentiment": 0.66
+        },
         {
           "title": "AI Sell-Off: Buy ANET, TSM & MU to Make Up for NVIDIA Losses",
           "publisher": "Zacks",
@@ -2348,9 +2354,15 @@
         "expiryOI": 10327
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.18,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.12,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Owens Corning Inc (OC) is Attracting Investor Attention: Here is What You Should Know",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/owens-corning-inc-oc-attracting-202144978.html",
+          "sentiment": 0.48
+        },
         {
           "title": "How Investors May Respond To Corning (GLW) ETF Buying And AI Demand",
           "publisher": "Simply Wall St.",
@@ -2362,12 +2374,6 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/corning-glw-undervalued-28-one-141221479.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Buy, Sell, or Hold? Wednesday\u2019s Top Upgrades and Downgrades: Akamai Technologies, Apple, BILL Holdings, Corning, Form Factor, Guidewire Software, NVIDIA, Riot Platforms, Toast, and More",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/11/buy-sell-or-hold-wednesdays-top-upgrades-and-downgrades-akamai-technologies-apple-bill-holdings-corning-form-factor-guidewire-software-nvidia-riot-platforms-toast-and-more/",
-          "sentiment": -0.42
         }
       ],
       "volRegime": "Cheap",
@@ -2399,7 +2405,7 @@
       "strat": "Bear Put Spread",
       "side": "bear",
       "isETF": true,
-      "spot": 759.84,
+      "spot": 759.81,
       "spotPriceStale": false,
       "strike": "$759/757",
       "hedge": null,
@@ -2408,11 +2414,11 @@
       "backExp": null,
       "backExpDate": null,
       "pot": 43,
-      "ap": 3013.0,
+      "ap": 2968.4,
       "ivr": 100,
       "ivRankLimited": false,
       "dailyReturn": null,
-      "roc": 189.86,
+      "roc": 187.05,
       "score": 7.8,
       "buy": false,
       "momentum": "bear",
@@ -2424,20 +2430,20 @@
       "marginOfSafety": false,
       "delta": -0.44,
       "iv": 11.9,
-      "premium": 0.69,
-      "breakeven": 758.31,
+      "premium": 0.7,
+      "breakeven": 758.3,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 69.0,
+      "maxLoss": 69.5,
       "pcOI": 1.88,
       "pcVol": 0.31,
       "debitStrategy": true,
       "liquidity": {
         "minOI": 389,
-        "worstSpreadPct": 0.7,
-        "midPremium": 0.69,
-        "fillPremium": 0.72,
+        "worstSpreadPct": 0.9,
+        "midPremium": 0.7,
+        "fillPremium": 0.73,
         "weakLeg": {
           "type": "put",
           "strike": 759.0,
@@ -2456,7 +2462,7 @@
             "type": "put",
             "strike": 757.0,
             "action": "sell",
-            "bid": 8.1,
+            "bid": 8.09,
             "ask": 8.16,
             "oi": 547
           }
@@ -2507,11 +2513,11 @@
       "backExp": null,
       "backExpDate": null,
       "pot": 44,
-      "ap": 1479.7,
+      "ap": 1586.1,
       "ivr": 100,
       "ivRankLimited": false,
       "dailyReturn": null,
-      "roc": 150.0,
+      "roc": 160.78,
       "score": 7.8,
       "buy": false,
       "momentum": "bear",
@@ -2522,21 +2528,21 @@
       "daysToEarnings": null,
       "marginOfSafety": false,
       "delta": -0.45,
-      "iv": 22.0,
-      "premium": 0.8,
-      "breakeven": 688.2,
+      "iv": 22.1,
+      "premium": 0.77,
+      "breakeven": 688.24,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 80.0,
+      "maxLoss": 76.5,
       "pcOI": 1.05,
       "pcVol": 0.94,
       "debitStrategy": true,
       "liquidity": {
         "minOI": 528,
-        "worstSpreadPct": 1.8,
-        "midPremium": 0.8,
-        "fillPremium": 0.96,
+        "worstSpreadPct": 2.2,
+        "midPremium": 0.77,
+        "fillPremium": 0.95,
         "weakLeg": {
           "type": "put",
           "strike": 687.0,
@@ -2547,16 +2553,16 @@
             "type": "put",
             "strike": 689.0,
             "action": "buy",
-            "bid": 18.56,
-            "ask": 18.86,
+            "bid": 18.58,
+            "ask": 18.92,
             "oi": 1565
           },
           {
             "type": "put",
             "strike": 687.0,
             "action": "sell",
-            "bid": 17.75,
-            "ask": 18.07,
+            "bid": 17.79,
+            "ask": 18.18,
             "oi": 528
           }
         ],
@@ -2782,6 +2788,12 @@
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
+          "title": "Costco\u2019s Special  Dividend Is Just One Reason It\u2019s a Good Place to Shelter From AI Chaos",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/costco-stock-special-dividend-dc9dc159?siteid=yhoof2&yptr=yahoo",
+          "sentiment": 0.23
+        },
+        {
           "title": "Costco Just Declared a $30 Special Dividend. Is It Reason Enough to Buy the Stock Before Nov. 24?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/11/costco-just-declared-a-usd30-special-dividend-is-it-reason-enough-to-buy-the-stock-before-nov-24/",
@@ -2792,12 +2804,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/11/costcos-regular-dividend-looks-tiny-its-special-dividends-tell-a-different-story/",
           "sentiment": 0.4
-        },
-        {
-          "title": "What Are Costco Stock Bulls Not Worried About?",
-          "publisher": "Trefis",
-          "link": "https://www.trefis.com/stock/cost/articles/624310/what-are-costco-stock-bulls-not-worried-about/2026-11-11",
-          "sentiment": 0.22
         }
       ],
       "volRegime": "Fair",
@@ -2894,9 +2900,15 @@
         "expiryOI": 162437
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.25,
+      "newsSentiment": 0.27,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Cisco (CSCO) Is Considered a Good Investment by Brokers: Is That True?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-considered-good-investment-202243792.html",
+          "sentiment": 0.69
+        },
         {
           "title": "What Is Cisco Systems (CSCO) Building With Its New AI Defense Push?",
           "publisher": "Simply Wall St.",
@@ -2908,12 +2920,6 @@
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-earnings-preview-eps-margins-180725950.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Will Cisco (CSCO) Beat Estimates Again in Its Next Earnings Report?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-beat-estimates-again-161001728.html",
-          "sentiment": 0.61
         }
       ],
       "volRegime": "Fair",
@@ -4249,9 +4255,15 @@
         "expiryOI": 20026
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.27,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.14,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Here is What to Know Beyond Why Marathon Petroleum Corporation (MPC) is a Trending Stock",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-marathon-petroleum-202120528.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Zacks Investment Ideas feature highlights: CVR Energy, Delek US, Northern Oil and Gas and Marathon Petroleum",
           "publisher": "Zacks",
@@ -4365,9 +4377,15 @@
         "expiryOI": 8744
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.17,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Berkshire\u2019s Geico Unit Struggles Despite Turnaround; Its Profitability Trails Progressive",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/berkshire-geico-stock-price-progressive-1fc19cc1?siteid=yhoof2&yptr=yahoo",
+          "sentiment": -0.51
+        },
         {
           "title": "Investors Heavily Search The Progressive Corporation (PGR): Here is What You Need to Know",
           "publisher": "Zacks",
@@ -4378,12 +4396,6 @@
           "title": "Progressive Q3 Earnings Call Highlights",
           "publisher": "MarketBeat",
           "link": "https://www.marketbeat.com/instant-alerts/transcript-progressive-q3-earnings-call-highlights-2026-11-04/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "sentiment": 0.0
-        },
-        {
-          "title": "The Progressive Corporation Q3 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-the-progressive-corporation-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
           "sentiment": 0.0
         }
       ],
@@ -4729,9 +4741,15 @@
         "expiryOI": 5746
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.66,
+      "newsSentiment": 0.37,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Investors Heavily Search Chubb Limited (CB): Here is What You Need to Know",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-chubb-limited-202120518.html",
+          "sentiment": -0.23
+        },
         {
           "title": "Can CB's Life Insurance Growth Boost Its Wealth Protection Business?",
           "publisher": "Zacks",
@@ -5069,6 +5087,12 @@
       "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Intercontinental Exchange (ICE), What Is Behind The Latest Attention?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intercontinental-exchange-ice-behind-latest-211145678.html",
+          "sentiment": 0.0
+        },
         {
           "title": "What Is Intercontinental Exchange (ICE) Betting On With New European Wind Futures?",
           "publisher": "Simply Wall St.",
@@ -8099,7 +8123,7 @@
       "chg3m": 16.5,
       "chg6m": 19.1,
       "chg1y": 30.4,
-      "volRatio": 0.74,
+      "volRatio": 0.77,
       "peRatio": 39.6,
       "sector": "Technology",
       "industry": "Consumer Electronics",
@@ -8149,7 +8173,7 @@
       "chg3m": 5.1,
       "chg6m": 29.1,
       "chg1y": 2.8,
-      "volRatio": 1.16,
+      "volRatio": 1.17,
       "peRatio": 27.2,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -8193,7 +8217,7 @@
       "chg3m": -22.8,
       "chg6m": -22.9,
       "chg1y": -10.1,
-      "volRatio": 1.88,
+      "volRatio": 1.9,
       "peRatio": 22.0,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -8201,9 +8225,15 @@
       "dividendYield": 0.59,
       "marketCap": 4195058188288,
       "score": 2.8,
-      "newsSentiment": -0.07,
+      "newsSentiment": -0.11,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Anthropic's Mythos claim may put Nvidia\u2019s CUDA moat in a vulnerable spot",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/anthropics-mythos-claim-may-put-nvidias-cuda-moat-in-a-vulnerable-spot-214346380.html",
+          "sentiment": -0.23
+        },
         {
           "title": "Tech round-up: A closer look at Anthropic, Nvidia, CoreWeave, and next week",
           "publisher": "Yahoo Finance Video",
@@ -8214,12 +8244,6 @@
           "title": "Nvidia stock is pricing in 2 major risks as CEO Jensen Huang's affair fallout plays out",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-is-pricing-in-2-major-risks-as-ceo-jensen-huangs-affair-fallout-plays-out-190743109.html",
-          "sentiment": -0.1
-        },
-        {
-          "title": "Jensen Huang espionage controversy will cast a long shadow over Nvidia, veteran tech strategist warns",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/jensen-huang-espionage-controversy-will-cast-a-long-shadow-over-nvidia-veteran-tech-strategist-warns-173844118.html",
           "sentiment": -0.1
         }
       ],
@@ -8243,7 +8267,7 @@
       "chg3m": 5.8,
       "chg6m": 2.1,
       "chg1y": 3.6,
-      "volRatio": 0.7,
+      "volRatio": 0.72,
       "peRatio": 21.5,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
@@ -8293,7 +8317,7 @@
       "chg3m": -15.4,
       "chg6m": -27.1,
       "chg1y": 1.4,
-      "volRatio": 0.79,
+      "volRatio": 0.8,
       "peRatio": 15.2,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
@@ -8331,7 +8355,7 @@
       "chg3m": -5.0,
       "chg6m": 15.5,
       "chg1y": 9.2,
-      "volRatio": 0.61,
+      "volRatio": 0.62,
       "peRatio": 14.4,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -8381,7 +8405,7 @@
       "chg3m": -17.5,
       "chg6m": -31.9,
       "chg1y": -42.7,
-      "volRatio": 0.98,
+      "volRatio": 1.0,
       "peRatio": 20.1,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -8389,9 +8413,15 @@
       "dividendYield": 1.7,
       "marketCap": 400251387904,
       "score": 3.4,
-      "newsSentiment": -0.09,
+      "newsSentiment": -0.02,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Oracle Stock Gets A Boost. Here's What's Next For Tech Giant's AI Push.",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/technology/oracle-stock-cfo-hilary-maxson-ai-demand/?src=A00220&yptr=yahoo",
+          "sentiment": 0.4
+        },
         {
           "title": "Why Oracle Stock Is Up Today",
           "publisher": "Motley Fool",
@@ -8403,12 +8433,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-climb-7-2-183823857.html",
           "sentiment": -0.46
-        },
-        {
-          "title": "Oracle CFO Promises \u201c$30 Billion Plus\u201d in Free Cash Flow by Fiscal 2029 After a 70% Plunge",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/oracle-cfo-promises-30-billion-plus-in-free-cash-flow-by-fiscal-2029-after-a-70-plunge?ref=yahoofinance&tlnk=yf-261111-fv69mxwf",
-          "sentiment": 0.18
         }
       ],
       "valuationLabel": "Cheap",
@@ -8431,7 +8455,7 @@
       "chg3m": 0.4,
       "chg6m": -1.5,
       "chg1y": 9.0,
-      "volRatio": 0.82,
+      "volRatio": 0.83,
       "peRatio": 21.5,
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
@@ -8481,7 +8505,7 @@
       "chg3m": -54.5,
       "chg6m": -64.1,
       "chg1y": 51.2,
-      "volRatio": 1.58,
+      "volRatio": 1.6,
       "peRatio": 24.9,
       "sector": null,
       "industry": null,
@@ -8573,7 +8597,7 @@
       "chg3m": -17.5,
       "chg6m": -26.3,
       "chg1y": -44.2,
-      "volRatio": 0.67,
+      "volRatio": 0.68,
       "peRatio": 18.7,
       "sector": "Communication Services",
       "industry": "Entertainment",
@@ -8581,9 +8605,15 @@
       "dividendYield": 0.0,
       "marketCap": 265022291968,
       "score": 2.8,
-      "newsSentiment": -0.03,
+      "newsSentiment": 0.11,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Netflix Wipes Out Five Years of Gains",
+          "publisher": "Moby",
+          "link": "https://app.moby.co/home/news/news-netflix-wipes-out-five-years-of-gains?utm_source=yahoo_finance&utm_medium=rss",
+          "sentiment": 0.34
+        },
         {
           "title": "Clarion Partners\u2019 loan on Netflix-occupied Hollywood campus hits market",
           "publisher": "The Real Deal",
@@ -8595,12 +8625,6 @@
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-trades-under-18x-earnings-120649905.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Will Netflix Ever Pay a Dividend?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/11/will-netflix-ever-pay-a-dividend/",
-          "sentiment": -0.1
         }
       ],
       "valuationLabel": "Cheap",
@@ -8623,7 +8647,7 @@
       "chg3m": -19.2,
       "chg6m": 18.0,
       "chg1y": -40.5,
-      "volRatio": 0.83,
+      "volRatio": 0.85,
       "peRatio": 73.9,
       "sector": "Technology",
       "industry": "Software - Application",
@@ -8673,7 +8697,7 @@
       "chg3m": -12.2,
       "chg6m": 0.6,
       "chg1y": -29.5,
-      "volRatio": 0.95,
+      "volRatio": 0.98,
       "peRatio": 13.3,
       "sector": "Technology",
       "industry": "Software - Application",
@@ -8767,7 +8791,7 @@
       "chg3m": 1.6,
       "chg6m": 62.9,
       "chg1y": 67.9,
-      "volRatio": 0.81,
+      "volRatio": 0.82,
       "peRatio": 3817.7,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -8867,7 +8891,7 @@
       "chg3m": -3.7,
       "chg6m": 3.9,
       "chg1y": 43.7,
-      "volRatio": 1.04,
+      "volRatio": 1.05,
       "peRatio": 26.8,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -8875,9 +8899,15 @@
       "dividendYield": 0.95,
       "marketCap": 2143828574208,
       "score": 4.8,
-      "newsSentiment": 0.07,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.27,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Is It Worth Investing in TSMC (TSM) Based on Wall Street's Bullish Views?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-tsmc-tsm-based-202243029.html",
+          "sentiment": 0.66
+        },
         {
           "title": "AI Sell-Off: Buy ANET, TSM & MU to Make Up for NVIDIA Losses",
           "publisher": "Zacks",
@@ -8911,7 +8941,7 @@
       "chg3m": -24.3,
       "chg6m": 53.7,
       "chg1y": 168.4,
-      "volRatio": 1.28,
+      "volRatio": 1.3,
       "peRatio": 21.7,
       "sector": "Technology",
       "industry": "Computer Hardware",
@@ -8961,7 +8991,7 @@
       "chg3m": -15.5,
       "chg6m": 46.8,
       "chg1y": 59.2,
-      "volRatio": 0.83,
+      "volRatio": 0.84,
       "peRatio": 836.2,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -9019,9 +9049,15 @@
       "dividendYield": 1.0,
       "marketCap": 103764377600,
       "score": 1.6,
-      "newsSentiment": -0.18,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.12,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Owens Corning Inc (OC) is Attracting Investor Attention: Here is What You Should Know",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/owens-corning-inc-oc-attracting-202144978.html",
+          "sentiment": 0.48
+        },
         {
           "title": "How Investors May Respond To Corning (GLW) ETF Buying And AI Demand",
           "publisher": "Simply Wall St.",
@@ -9033,12 +9069,6 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/corning-glw-undervalued-28-one-141221479.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Buy, Sell, or Hold? Wednesday\u2019s Top Upgrades and Downgrades: Akamai Technologies, Apple, BILL Holdings, Corning, Form Factor, Guidewire Software, NVIDIA, Riot Platforms, Toast, and More",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/11/buy-sell-or-hold-wednesdays-top-upgrades-and-downgrades-akamai-technologies-apple-bill-holdings-corning-form-factor-guidewire-software-nvidia-riot-platforms-toast-and-more/",
-          "sentiment": -0.42
         }
       ],
       "valuationLabel": "Rich",
@@ -9049,7 +9079,7 @@
     {
       "sym": "SPY",
       "isETF": true,
-      "price": 759.84,
+      "price": 759.81,
       "priceStale": false,
       "high52wk": 781.62,
       "low52wk": 626.11,
@@ -9061,7 +9091,7 @@
       "chg3m": -2.1,
       "chg6m": 2.9,
       "chg1y": 12.4,
-      "volRatio": 0.8,
+      "volRatio": 0.85,
       "peRatio": 24.2,
       "sector": null,
       "industry": null,
@@ -9095,7 +9125,7 @@
       "chg3m": -5.6,
       "chg6m": -3.2,
       "chg1y": 11.7,
-      "volRatio": 0.92,
+      "volRatio": 0.95,
       "peRatio": 28.4,
       "sector": null,
       "industry": null,
@@ -9129,7 +9159,7 @@
       "chg3m": 3.6,
       "chg6m": 17.8,
       "chg1y": -2.7,
-      "volRatio": 0.64,
+      "volRatio": 0.65,
       "peRatio": 24.6,
       "sector": "Consumer Cyclical",
       "industry": "Home Improvement Retail",
@@ -9179,7 +9209,7 @@
       "chg3m": 13.2,
       "chg6m": 5.6,
       "chg1y": 19.7,
-      "volRatio": 0.98,
+      "volRatio": 0.99,
       "peRatio": 52.4,
       "sector": "Consumer Defensive",
       "industry": "Discount Stores",
@@ -9191,6 +9221,12 @@
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
+          "title": "Costco\u2019s Special  Dividend Is Just One Reason It\u2019s a Good Place to Shelter From AI Chaos",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/costco-stock-special-dividend-dc9dc159?siteid=yhoof2&yptr=yahoo",
+          "sentiment": 0.23
+        },
+        {
           "title": "Costco Just Declared a $30 Special Dividend. Is It Reason Enough to Buy the Stock Before Nov. 24?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/11/costco-just-declared-a-usd30-special-dividend-is-it-reason-enough-to-buy-the-stock-before-nov-24/",
@@ -9201,12 +9237,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/11/costcos-regular-dividend-looks-tiny-its-special-dividends-tell-a-different-story/",
           "sentiment": 0.4
-        },
-        {
-          "title": "What Are Costco Stock Bulls Not Worried About?",
-          "publisher": "Trefis",
-          "link": "https://www.trefis.com/stock/cost/articles/624310/what-are-costco-stock-bulls-not-worried-about/2026-11-11",
-          "sentiment": 0.22
         }
       ],
       "valuationLabel": "Rich",
@@ -9229,7 +9259,7 @@
       "chg3m": -10.9,
       "chg6m": -0.3,
       "chg1y": 38.8,
-      "volRatio": 1.05,
+      "volRatio": 1.06,
       "peRatio": 30.3,
       "sector": "Technology",
       "industry": "Communication Equipment",
@@ -9237,9 +9267,15 @@
       "dividendYield": 1.71,
       "marketCap": 397255049216,
       "score": 3.8,
-      "newsSentiment": 0.25,
+      "newsSentiment": 0.27,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Cisco (CSCO) Is Considered a Good Investment by Brokers: Is That True?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-considered-good-investment-202243792.html",
+          "sentiment": 0.69
+        },
         {
           "title": "What Is Cisco Systems (CSCO) Building With Its New AI Defense Push?",
           "publisher": "Simply Wall St.",
@@ -9251,12 +9287,6 @@
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-earnings-preview-eps-margins-180725950.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Will Cisco (CSCO) Beat Estimates Again in Its Next Earnings Report?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-beat-estimates-again-161001728.html",
-          "sentiment": 0.61
         }
       ],
       "valuationLabel": "Cheap",
@@ -9425,7 +9455,7 @@
       "chg3m": -11.3,
       "chg6m": -27.7,
       "chg1y": 65.3,
-      "volRatio": 1.11,
+      "volRatio": 1.12,
       "peRatio": 127.0,
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
@@ -9471,7 +9501,7 @@
       "chg3m": -17.2,
       "chg6m": -16.9,
       "chg1y": -2.1,
-      "volRatio": 1.31,
+      "volRatio": 1.32,
       "peRatio": 44.1,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -9565,7 +9595,7 @@
       "chg3m": -14.6,
       "chg6m": 1.0,
       "chg1y": 231.7,
-      "volRatio": 1.17,
+      "volRatio": 1.18,
       "peRatio": 10.9,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -9615,7 +9645,7 @@
       "chg3m": 15.0,
       "chg6m": -12.2,
       "chg1y": -9.2,
-      "volRatio": 0.72,
+      "volRatio": 0.73,
       "peRatio": 429.5,
       "sector": "Consumer Cyclical",
       "industry": "Auto Manufacturers",
@@ -9665,7 +9695,7 @@
       "chg3m": -40.2,
       "chg6m": -48.0,
       "chg1y": 65.0,
-      "volRatio": 0.98,
+      "volRatio": 0.99,
       "peRatio": null,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -9769,9 +9799,15 @@
       "dividendYield": 1.13,
       "marketCap": 109686185984,
       "score": 6.0,
-      "newsSentiment": 0.27,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.14,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Here is What to Know Beyond Why Marathon Petroleum Corporation (MPC) is a Trending Stock",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-marathon-petroleum-202120528.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Zacks Investment Ideas feature highlights: CVR Energy, Delek US, Northern Oil and Gas and Marathon Petroleum",
           "publisher": "Zacks",
@@ -9799,7 +9835,7 @@
       "chg3m": 11.9,
       "chg6m": 19.3,
       "chg1y": 12.1,
-      "volRatio": 0.76,
+      "volRatio": 0.77,
       "peRatio": 11.8,
       "sector": "Financial Services",
       "industry": "Insurance - Property & Casualty",
@@ -9807,9 +9843,15 @@
       "dividendYield": 0.17,
       "marketCap": 135298449408,
       "score": 9.1,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.17,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Berkshire\u2019s Geico Unit Struggles Despite Turnaround; Its Profitability Trails Progressive",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/berkshire-geico-stock-price-progressive-1fc19cc1?siteid=yhoof2&yptr=yahoo",
+          "sentiment": -0.51
+        },
         {
           "title": "Investors Heavily Search The Progressive Corporation (PGR): Here is What You Need to Know",
           "publisher": "Zacks",
@@ -9820,12 +9862,6 @@
           "title": "Progressive Q3 Earnings Call Highlights",
           "publisher": "MarketBeat",
           "link": "https://www.marketbeat.com/instant-alerts/transcript-progressive-q3-earnings-call-highlights-2026-11-04/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "sentiment": 0.0
-        },
-        {
-          "title": "The Progressive Corporation Q3 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-the-progressive-corporation-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
           "sentiment": 0.0
         }
       ],
@@ -9849,7 +9885,7 @@
       "chg3m": -0.1,
       "chg6m": 0.1,
       "chg1y": 34.1,
-      "volRatio": 1.02,
+      "volRatio": 1.03,
       "peRatio": 64.1,
       "sector": "Real Estate",
       "industry": "REIT - Specialty",
@@ -9979,9 +10015,15 @@
       "dividendYield": 1.11,
       "marketCap": 141495402496,
       "score": 9.0,
-      "newsSentiment": 0.66,
+      "newsSentiment": 0.37,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Investors Heavily Search Chubb Limited (CB): Here is What You Need to Know",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-chubb-limited-202120518.html",
+          "sentiment": -0.23
+        },
         {
           "title": "Can CB's Life Insurance Growth Boost Its Wealth Protection Business?",
           "publisher": "Zacks",
@@ -10015,7 +10057,7 @@
       "chg3m": 2.0,
       "chg6m": 2.4,
       "chg1y": 5.5,
-      "volRatio": 0.62,
+      "volRatio": 0.67,
       "peRatio": 21.4,
       "sector": "Utilities",
       "industry": "Utilities - Regulated Electric",
@@ -10111,7 +10153,7 @@
       "chg3m": 16.7,
       "chg6m": 17.5,
       "chg1y": 18.8,
-      "volRatio": 1.28,
+      "volRatio": 1.29,
       "peRatio": 24.6,
       "sector": "Financial Services",
       "industry": "Financial Data & Stock Exchanges",
@@ -10122,6 +10164,12 @@
       "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Intercontinental Exchange (ICE), What Is Behind The Latest Attention?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intercontinental-exchange-ice-behind-latest-211145678.html",
+          "sentiment": 0.0
+        },
         {
           "title": "What Is Intercontinental Exchange (ICE) Betting On With New European Wind Futures?",
           "publisher": "Simply Wall St.",
@@ -10255,7 +10303,7 @@
       "chg3m": -10.9,
       "chg6m": -11.6,
       "chg1y": -14.2,
-      "volRatio": 0.98,
+      "volRatio": 1.01,
       "peRatio": 10.4,
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
@@ -10355,7 +10403,7 @@
       "chg3m": -7.2,
       "chg6m": -7.0,
       "chg1y": 7.4,
-      "volRatio": 0.89,
+      "volRatio": 0.9,
       "peRatio": 28.6,
       "sector": "Real Estate",
       "industry": "REIT - Industrial",
@@ -10401,7 +10449,7 @@
       "chg3m": 2.5,
       "chg6m": -5.6,
       "chg1y": 43.2,
-      "volRatio": 0.86,
+      "volRatio": 0.87,
       "peRatio": 4.5,
       "sector": "Energy",
       "industry": "Oil & Gas Integrated",
@@ -10536,7 +10584,7 @@
       "peRatio": 15.7,
       "sector": "Consumer Defensive",
       "industry": "Tobacco",
-      "pegRatio": 1.5,
+      "pegRatio": 1.52,
       "dividendYield": 5.49,
       "marketCap": 131135946752,
       "score": 7.2,
@@ -10708,7 +10756,7 @@
       "chg3m": 4.9,
       "chg6m": 16.5,
       "chg1y": -1.7,
-      "volRatio": 0.96,
+      "volRatio": 0.98,
       "peRatio": 13.3,
       "sector": "Consumer Defensive",
       "industry": "Household & Personal Products",
@@ -10958,7 +11006,7 @@
       "chg3m": -7.1,
       "chg6m": -7.5,
       "chg1y": 33.4,
-      "volRatio": 0.75,
+      "volRatio": 0.76,
       "peRatio": 23.0,
       "sector": "Basic Materials",
       "industry": "Copper",
@@ -11012,7 +11060,7 @@
       "peRatio": 17.1,
       "sector": "Consumer Defensive",
       "industry": "Beverages - Brewers",
-      "pegRatio": 1.76,
+      "pegRatio": 1.78,
       "dividendYield": 1.56,
       "marketCap": 165564350464,
       "score": 7.7,
@@ -11703,7 +11751,7 @@
     "costPerContract": 620.5
   },
   "market": {
-    "asOf": "2026-11-11T21:31:37.754296+00:00",
+    "asOf": "2026-11-11T22:07:45.487759+00:00",
     "gauges": [
       {
         "key": "qqq",
