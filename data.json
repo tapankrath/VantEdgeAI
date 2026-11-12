@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:33:24.758210+00:00",
+  "generated_at": "2026-11-12T22:07:05.686585+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -176,8 +176,8 @@
         "expiryOI": 55578
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.19,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.05,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Microsoft outage disrupts Outlook, Teams, and Copilot for users 'in any region'",
@@ -190,12 +190,6 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-expands-ai-ties-191040444.html",
           "sentiment": 0.1
-        },
-        {
-          "title": "Alphabet Climbs 3% as NVIDIA\u2019s Leadership Shake-Up Puts Google\u2019s AI Chips in the Spotlight; Microsoft Gains 2%, Amazon Ticks Up",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/12/alphabet-climbs-3-as-nvidias-leadership-shake-up-puts-googles-ai-chips-in-the-spotlight-microsoft-gains-2-amazon-ticks-up/",
-          "sentiment": 0.48
         }
       ],
       "volRegime": "Cheap",
@@ -292,15 +286,9 @@
         "expiryOI": 1845909
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.02,
+      "newsSentiment": 0.05,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
-        {
-          "title": "Nvidia executive Ian Buck emerges as CEO frontrunner on prediction markets",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/technology/article/nvidia-executive-ian-buck-emerges-as-ceo-frontrunner-on-prediction-markets-202512437.html",
-          "sentiment": 0.0
-        },
         {
           "title": "Retail investors are buying Nvidia's stock crash like never before \u2014 history urges patience",
           "publisher": "Yahoo Finance",
@@ -308,9 +296,15 @@
           "sentiment": -0.05
         },
         {
-          "title": "What's next for Nvidia after Jensen Huang's exit?",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/whats-next-for-nvidia-after-jensen-huangs-exit-192952347.html",
+          "title": "Alleged spy at center of Nvidia CEO affair reportedly being probed over Super Micro smuggling effort",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/article/alleged-spy-at-center-of-nvidia-ceo-affair-reportedly-being-probed-over-super-micro-smuggling-effort-214712179.html",
+          "sentiment": 0.2
+        },
+        {
+          "title": "Nvidia executive Ian Buck emerges as CEO frontrunner on prediction markets",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/article/nvidia-executive-ian-buck-emerges-as-ceo-frontrunner-on-prediction-markets-202512437.html",
           "sentiment": 0.0
         }
       ],
@@ -891,22 +885,9 @@
         "expiryOI": 23718
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.62,
-      "newsSentimentLabel": "Positive",
-      "newsHeadlines": [
-        {
-          "title": "Alphabet Climbs 3% as NVIDIA\u2019s Leadership Shake-Up Puts Google\u2019s AI Chips in the Spotlight; Microsoft Gains 2%, Amazon Ticks Up",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/12/alphabet-climbs-3-as-nvidias-leadership-shake-up-puts-googles-ai-chips-in-the-spotlight-microsoft-gains-2-amazon-ticks-up/",
-          "sentiment": 0.48
-        },
-        {
-          "title": "Amazon Stocks Gain as Anthropic IPO Puts $271.8 Billion Value on Stake",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-gain-anthropic-ipo-175921521.html",
-          "sentiment": 0.76
-        }
-      ],
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
+      "newsHeadlines": [],
       "volRegime": "Cheap",
       "ivRvRatio": 0.8,
       "realizedVol": 42.4,
@@ -1223,9 +1204,15 @@
         "expiryOI": 924187
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.03,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.35,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Billionaire investor Bill Ackman on why he's staying bullish on Netflix",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/stocks/article/billionaire-investor-bill-ackman-on-why-hes-staying-bullish-on-netflix-213455263.html",
+          "sentiment": 0.54
+        },
         {
           "title": "Why Bill Ackman thinks Netflix stock is undervalued",
           "publisher": "Yahoo Finance Video",
@@ -1237,12 +1224,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/media-advertising/articles/content-capex-weigh-netflixs-free-132300122.html",
           "sentiment": 0.51
-        },
-        {
-          "title": "Netflix\u2019s Thanksgiving Eve NFL Game Is the Next Test After a $300 Million Ad Cut",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/netflixs-thanksgiving-eve-nfl-game-is-the-next-test-after-a-300-million-ad-cut?ref=yahoofinance&tlnk=yf-261112-w8f6pg89",
-          "sentiment": -0.42
         }
       ],
       "volRegime": "Fair",
@@ -1455,20 +1436,14 @@
         "expiryOI": 125307
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.16,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Adobe makes major change creators will notice as Citi flags \u2018hard reset\u2019",
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/investing/adobe-stock-citi-creators-opening-apps-to-ai-agents",
           "sentiment": 0.0
-        },
-        {
-          "title": "Adobe (ADBE) Stock May Look Reasonable On Fresh AI Partnership News",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-adbe-stock-may-look-130702558.html",
-          "sentiment": 0.32
         }
       ],
       "volRegime": "Rich",
@@ -2352,19 +2327,19 @@
       "isETF": true,
       "spot": 757.12,
       "spotPriceStale": false,
-      "strike": "$757/755",
+      "strike": "$756/754",
       "hedge": null,
-      "exp": "Dec 4",
-      "dte": 22,
+      "exp": "Nov 27",
+      "dte": 15,
       "backExp": null,
       "backExpDate": null,
-      "pot": 45,
-      "ap": 3293.5,
+      "pot": 43,
+      "ap": 4794.6,
       "ivr": 99,
       "ivRankLimited": false,
       "dailyReturn": null,
-      "roc": 198.51,
-      "score": 7.7,
+      "roc": 197.04,
+      "score": 7.8,
       "buy": false,
       "momentum": "bear",
       "ret3m": -2.2,
@@ -2373,46 +2348,46 @@
       "earningsSoon": false,
       "daysToEarnings": null,
       "marginOfSafety": false,
-      "delta": -0.46,
-      "iv": 12.6,
+      "delta": -0.44,
+      "iv": 12.5,
       "premium": 0.67,
-      "breakeven": 756.33,
+      "breakeven": 755.33,
       "breakevenLow": null,
       "breakevenHigh": null,
       "breakevenMovePct": null,
-      "maxLoss": 67.0,
-      "pcOI": 0.96,
-      "pcVol": 1.06,
+      "maxLoss": 67.5,
+      "pcOI": 0.8,
+      "pcVol": 0.63,
       "debitStrategy": true,
       "liquidity": {
-        "minOI": 588,
-        "worstSpreadPct": 0.8,
+        "minOI": 657,
+        "worstSpreadPct": 1.0,
         "midPremium": 0.67,
         "fillPremium": 0.71,
         "weakLeg": {
           "type": "put",
-          "strike": 757.0,
+          "strike": 756.0,
           "action": "buy"
         },
         "legQuotes": [
           {
             "type": "put",
-            "strike": 757.0,
+            "strike": 756.0,
             "action": "buy",
-            "bid": 9.4,
-            "ask": 9.47,
-            "oi": 588
+            "bid": 7.31,
+            "ask": 7.38,
+            "oi": 657
           },
           {
             "type": "put",
-            "strike": 755.0,
+            "strike": 754.0,
             "action": "sell",
-            "bid": 8.73,
-            "ask": 8.8,
-            "oi": 933
+            "bid": 6.64,
+            "ask": 6.7,
+            "oi": 1035
           }
         ],
-        "expiryOI": 249744
+        "expiryOI": 370542
       },
       "potIsProfitProb": true,
       "newsSentiment": 0.0,
@@ -2426,19 +2401,19 @@
         }
       ],
       "volRegime": "Cheap",
-      "ivRvRatio": 0.56,
+      "ivRvRatio": 0.55,
       "realizedVol": 22.6,
-      "expDate": "2026-12-04",
+      "expDate": "2026-11-27",
       "legs": [
         {
           "type": "put",
-          "strike": 757.0,
+          "strike": 756.0,
           "action": "buy",
           "qty": 1
         },
         {
           "type": "put",
-          "strike": 755.0,
+          "strike": 754.0,
           "action": "sell",
           "qty": 1
         }
@@ -2514,14 +2489,20 @@
         "expiryOI": 3145845
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.23,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
           "title": "Jensen Huang Is Out. Here\u2019s How Much Nvidia\u2019s Selloff Cost a $10,000 QQQ Position",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/etf/2026/11/12/jensen-huang-is-out-heres-how-much-nvidias-selloff-cost-a-10000-qqq-position/",
           "sentiment": 0.0
+        },
+        {
+          "title": "History Shows the QQQ ETF Could Plunge 50%-70%, But Modern Investors Have New Tools to Protect Themselves and Still Profit",
+          "publisher": "Barchart",
+          "link": "https://www.barchart.com/story/news/8803951/history-shows-the-qqq-etf-could-plunge-50-70-but-modern-investors-have-new-tools-to-protect-themselves-and-still-profit",
+          "sentiment": 0.69
         },
         {
           "title": "INVESCO QQQ (QQQ) Adds Apple and NVIDIA on Tuesday",
@@ -2851,14 +2832,26 @@
         "expiryOI": 111519
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.71,
+      "newsSentiment": 0.67,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Cisco (CSCO) vs. ANET and HPE: Can AI Networking Turn Strong Orders Into Lasting Earnings Growth?",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-vs-anet-hpe-170046904.html",
-          "sentiment": 0.71
+          "title": "Cisco shares climb 4% on strong earnings beat and raised outlook",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-shares-climb-4-strong-214347073.html",
+          "sentiment": 0.91
+        },
+        {
+          "title": "Cisco Shares Climb as First-Quarter Growth Hits More Than 15-Year High",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-shares-climb-first-quarter-213920638.html",
+          "sentiment": 0.59
+        },
+        {
+          "title": "Cisco Earnings, Revenue Top Estimates On AI Data Center Growth",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/technology/cisco-stock-q326-earnings-csco/?src=A00220&yptr=yahoo",
+          "sentiment": 0.53
         }
       ],
       "volRegime": "Rich",
@@ -3463,7 +3456,7 @@
         "expiryOI": 42215
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.02,
+      "newsSentiment": 0.11,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -3477,12 +3470,6 @@
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/12/why-broadcom-stock-rallied-thursday-morning/",
           "sentiment": 0.54
-        },
-        {
-          "title": "Nvidia succession uncertainty opens door for Google TPU and Broadcom, analyst says",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-succession-uncertainty-opens-door-182630689.html",
-          "sentiment": -0.15
         }
       ],
       "volRegime": "Cheap",
@@ -3823,26 +3810,26 @@
         "expiryOI": 92971
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.12,
+      "newsSentiment": -0.11,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Elon Musk Could Announce Tesla-SpaceX Merger By December: Report",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/elon-musk-tesla-spacex-merger/?src=A00220&yptr=yahoo",
+          "sentiment": 0.0
+        },
+        {
+          "title": "SpaceX-Tesla Merger Could Come Soon: What Do Shareholders Get?",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/spacex-tesla-merger-december-shareholders/",
+          "sentiment": 0.0
+        },
         {
           "title": "Musk\u2019s SpaceX-Tesla empire moves closer, but China and Washington loom large",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/musk-spacex-tesla-empire-moves-205333382.html",
           "sentiment": -0.33
-        },
-        {
-          "title": "SpaceX and Tesla Talks on Record Merger Are Said to Progress",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-talks-record-merger-202235758.html",
-          "sentiment": 0.42
-        },
-        {
-          "title": "Tesla fund makes surprise Microsoft bet, keeps Nvidia stake",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-fund-makes-surprise-microsoft-175904923.html",
-          "sentiment": 0.27
         }
       ],
       "volRegime": "Cheap",
@@ -4055,8 +4042,8 @@
         "expiryOI": 1174600
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.26,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.05,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Intel CEO Lip-Bu Tan on turnaround efforts amid stock slump: 'I feel called to do this'",
@@ -4071,10 +4058,10 @@
           "sentiment": 0.4
         },
         {
-          "title": "After Intel\u2019s Worst Day on Record, CEO Lip-Bu Tan Buys $9.7 Million in Stock",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/intel-stock-insider-ceo-buy-1e10df5f?siteid=yhoof2&yptr=yahoo",
-          "sentiment": -0.62
+          "title": "Intel (INTC) Could Be 88% Undervalued Following AI Partnerships And Sector Volatility",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-could-88-undervalued-211159635.html",
+          "sentiment": 0.0
         }
       ],
       "volRegime": "Cheap",
@@ -8126,7 +8113,7 @@
       "chg3m": 16.0,
       "chg6m": 19.1,
       "chg1y": 30.4,
-      "volRatio": 0.69,
+      "volRatio": 0.7,
       "peRatio": 39.5,
       "sector": "Technology",
       "industry": "Consumer Electronics",
@@ -8172,8 +8159,8 @@
       "dividendYield": 0.75,
       "marketCap": 3883899813888,
       "score": 9.1,
-      "newsSentiment": 0.19,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.05,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Microsoft outage disrupts Outlook, Teams, and Copilot for users 'in any region'",
@@ -8186,12 +8173,6 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-expands-ai-ties-191040444.html",
           "sentiment": 0.1
-        },
-        {
-          "title": "Alphabet Climbs 3% as NVIDIA\u2019s Leadership Shake-Up Puts Google\u2019s AI Chips in the Spotlight; Microsoft Gains 2%, Amazon Ticks Up",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/12/alphabet-climbs-3-as-nvidias-leadership-shake-up-puts-googles-ai-chips-in-the-spotlight-microsoft-gains-2-amazon-ticks-up/",
-          "sentiment": 0.48
         }
       ],
       "valuationLabel": "Cheap",
@@ -8214,7 +8195,7 @@
       "chg3m": -26.1,
       "chg6m": -29.3,
       "chg1y": -10.8,
-      "volRatio": 4.43,
+      "volRatio": 4.46,
       "peRatio": 21.0,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -8222,15 +8203,9 @@
       "dividendYield": 0.58,
       "marketCap": 4012989743104,
       "score": 2.8,
-      "newsSentiment": -0.02,
+      "newsSentiment": 0.05,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
-        {
-          "title": "Nvidia executive Ian Buck emerges as CEO frontrunner on prediction markets",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/technology/article/nvidia-executive-ian-buck-emerges-as-ceo-frontrunner-on-prediction-markets-202512437.html",
-          "sentiment": 0.0
-        },
         {
           "title": "Retail investors are buying Nvidia's stock crash like never before \u2014 history urges patience",
           "publisher": "Yahoo Finance",
@@ -8238,9 +8213,15 @@
           "sentiment": -0.05
         },
         {
-          "title": "What's next for Nvidia after Jensen Huang's exit?",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/whats-next-for-nvidia-after-jensen-huangs-exit-192952347.html",
+          "title": "Alleged spy at center of Nvidia CEO affair reportedly being probed over Super Micro smuggling effort",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/article/alleged-spy-at-center-of-nvidia-ceo-affair-reportedly-being-probed-over-super-micro-smuggling-effort-214712179.html",
+          "sentiment": 0.2
+        },
+        {
+          "title": "Nvidia executive Ian Buck emerges as CEO frontrunner on prediction markets",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/article/nvidia-executive-ian-buck-emerges-as-ceo-frontrunner-on-prediction-markets-202512437.html",
           "sentiment": 0.0
         }
       ],
@@ -8264,7 +8245,7 @@
       "chg3m": 5.8,
       "chg6m": 1.0,
       "chg1y": 2.6,
-      "volRatio": 0.47,
+      "volRatio": 0.48,
       "peRatio": 21.3,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
@@ -8333,7 +8314,7 @@
       "chg3m": -5.0,
       "chg6m": 15.4,
       "chg1y": 12.9,
-      "volRatio": 0.58,
+      "volRatio": 0.59,
       "peRatio": 14.4,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -8435,22 +8416,9 @@
       "dividendYield": 0.0,
       "marketCap": 2891865653248,
       "score": 8.0,
-      "newsSentiment": 0.62,
-      "newsSentimentLabel": "Positive",
-      "newsHeadlines": [
-        {
-          "title": "Alphabet Climbs 3% as NVIDIA\u2019s Leadership Shake-Up Puts Google\u2019s AI Chips in the Spotlight; Microsoft Gains 2%, Amazon Ticks Up",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/12/alphabet-climbs-3-as-nvidias-leadership-shake-up-puts-googles-ai-chips-in-the-spotlight-microsoft-gains-2-amazon-ticks-up/",
-          "sentiment": 0.48
-        },
-        {
-          "title": "Amazon Stocks Gain as Anthropic IPO Puts $271.8 Billion Value on Stake",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-gain-anthropic-ipo-175921521.html",
-          "sentiment": 0.76
-        }
-      ],
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
+      "newsHeadlines": [],
       "valuationLabel": "Cheap",
       "peVsSectorPct": 0.0,
       "sectorMedianPE": 21.6,
@@ -8471,7 +8439,7 @@
       "chg3m": -54.8,
       "chg6m": -64.8,
       "chg1y": 67.2,
-      "volRatio": 1.21,
+      "volRatio": 1.22,
       "peRatio": 24.7,
       "sector": null,
       "industry": null,
@@ -8517,7 +8485,7 @@
       "chg3m": -21.9,
       "chg6m": -23.8,
       "chg1y": 15.3,
-      "volRatio": 0.91,
+      "volRatio": 0.92,
       "peRatio": 27.5,
       "sector": null,
       "industry": null,
@@ -8563,7 +8531,7 @@
       "chg3m": -19.8,
       "chg6m": -27.9,
       "chg1y": -45.7,
-      "volRatio": 0.73,
+      "volRatio": 0.74,
       "peRatio": 18.1,
       "sector": "Communication Services",
       "industry": "Entertainment",
@@ -8571,9 +8539,15 @@
       "dividendYield": 0.0,
       "marketCap": 257425571840,
       "score": 2.8,
-      "newsSentiment": 0.03,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.35,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Billionaire investor Bill Ackman on why he's staying bullish on Netflix",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/stocks/article/billionaire-investor-bill-ackman-on-why-hes-staying-bullish-on-netflix-213455263.html",
+          "sentiment": 0.54
+        },
         {
           "title": "Why Bill Ackman thinks Netflix stock is undervalued",
           "publisher": "Yahoo Finance Video",
@@ -8585,12 +8559,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/media-advertising/articles/content-capex-weigh-netflixs-free-132300122.html",
           "sentiment": 0.51
-        },
-        {
-          "title": "Netflix\u2019s Thanksgiving Eve NFL Game Is the Next Test After a $300 Million Ad Cut",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/netflixs-thanksgiving-eve-nfl-game-is-the-next-test-after-a-300-million-ad-cut?ref=yahoofinance&tlnk=yf-261112-w8f6pg89",
-          "sentiment": -0.42
         }
       ],
       "valuationLabel": "Cheap",
@@ -8671,20 +8639,14 @@
       "dividendYield": 0.0,
       "marketCap": 92839763968,
       "score": 3.9,
-      "newsSentiment": 0.16,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Adobe makes major change creators will notice as Citi flags \u2018hard reset\u2019",
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/investing/adobe-stock-citi-creators-opening-apps-to-ai-agents",
           "sentiment": 0.0
-        },
-        {
-          "title": "Adobe (ADBE) Stock May Look Reasonable On Fresh AI Partnership News",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-adbe-stock-may-look-130702558.html",
-          "sentiment": 0.32
         }
       ],
       "valuationLabel": "Cheap",
@@ -8889,7 +8851,7 @@
       "chg3m": -24.3,
       "chg6m": 50.2,
       "chg1y": 180.0,
-      "volRatio": 1.22,
+      "volRatio": 1.24,
       "peRatio": 21.6,
       "sector": "Technology",
       "industry": "Computer Hardware",
@@ -8939,7 +8901,7 @@
       "chg3m": -16.0,
       "chg6m": 35.5,
       "chg1y": 57.6,
-      "volRatio": 1.03,
+      "volRatio": 1.04,
       "peRatio": 806.6,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -9039,7 +9001,7 @@
       "chg3m": -2.2,
       "chg6m": 1.7,
       "chg1y": 13.9,
-      "volRatio": 0.77,
+      "volRatio": 0.84,
       "peRatio": 24.1,
       "sector": null,
       "industry": null,
@@ -9073,7 +9035,7 @@
       "chg3m": -5.8,
       "chg6m": -4.2,
       "chg1y": 13.6,
-      "volRatio": 0.78,
+      "volRatio": 0.8,
       "peRatio": 28.3,
       "sector": null,
       "industry": null,
@@ -9081,14 +9043,20 @@
       "dividendYield": 0.45,
       "marketCap": null,
       "score": 3.7,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.23,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
           "title": "Jensen Huang Is Out. Here\u2019s How Much Nvidia\u2019s Selloff Cost a $10,000 QQQ Position",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/etf/2026/11/12/jensen-huang-is-out-heres-how-much-nvidias-selloff-cost-a-10000-qqq-position/",
           "sentiment": 0.0
+        },
+        {
+          "title": "History Shows the QQQ ETF Could Plunge 50%-70%, But Modern Investors Have New Tools to Protect Themselves and Still Profit",
+          "publisher": "Barchart",
+          "link": "https://www.barchart.com/story/news/8803951/history-shows-the-qqq-etf-could-plunge-50-70-but-modern-investors-have-new-tools-to-protect-themselves-and-still-profit",
+          "sentiment": 0.69
         },
         {
           "title": "INVESCO QQQ (QQQ) Adds Apple and NVIDIA on Tuesday",
@@ -9163,7 +9131,7 @@
       "chg3m": 13.8,
       "chg6m": 5.2,
       "chg1y": 18.8,
-      "volRatio": 0.91,
+      "volRatio": 0.92,
       "peRatio": 52.6,
       "sector": "Consumer Defensive",
       "industry": "Discount Stores",
@@ -9213,7 +9181,7 @@
       "chg3m": -8.3,
       "chg6m": -11.0,
       "chg1y": 34.3,
-      "volRatio": 1.23,
+      "volRatio": 1.39,
       "peRatio": 30.6,
       "sector": "Technology",
       "industry": "Communication Equipment",
@@ -9221,14 +9189,26 @@
       "dividendYield": 1.67,
       "marketCap": 402183290880,
       "score": 3.9,
-      "newsSentiment": 0.71,
+      "newsSentiment": 0.67,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Cisco (CSCO) vs. ANET and HPE: Can AI Networking Turn Strong Orders Into Lasting Earnings Growth?",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-vs-anet-hpe-170046904.html",
-          "sentiment": 0.71
+          "title": "Cisco shares climb 4% on strong earnings beat and raised outlook",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-shares-climb-4-strong-214347073.html",
+          "sentiment": 0.91
+        },
+        {
+          "title": "Cisco Shares Climb as First-Quarter Growth Hits More Than 15-Year High",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-shares-climb-first-quarter-213920638.html",
+          "sentiment": 0.59
+        },
+        {
+          "title": "Cisco Earnings, Revenue Top Estimates On AI Data Center Growth",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/technology/cisco-stock-q326-earnings-csco/?src=A00220&yptr=yahoo",
+          "sentiment": 0.53
         }
       ],
       "valuationLabel": "Cheap",
@@ -9251,7 +9231,7 @@
       "chg3m": -25.9,
       "chg6m": -9.9,
       "chg1y": 88.2,
-      "volRatio": 0.76,
+      "volRatio": 0.77,
       "peRatio": 54.1,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -9401,7 +9381,7 @@
       "chg3m": -12.2,
       "chg6m": -33.4,
       "chg1y": 95.0,
-      "volRatio": 0.86,
+      "volRatio": 0.87,
       "peRatio": 122.4,
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
@@ -9451,7 +9431,7 @@
       "chg3m": -7.1,
       "chg6m": -16.9,
       "chg1y": 8.0,
-      "volRatio": 1.71,
+      "volRatio": 1.72,
       "peRatio": 46.5,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -9459,7 +9439,7 @@
       "dividendYield": 0.75,
       "marketCap": 1739319803904,
       "score": 4.9,
-      "newsSentiment": 0.02,
+      "newsSentiment": 0.11,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -9473,12 +9453,6 @@
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/12/why-broadcom-stock-rallied-thursday-morning/",
           "sentiment": 0.54
-        },
-        {
-          "title": "Nvidia succession uncertainty opens door for Google TPU and Broadcom, analyst says",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-succession-uncertainty-opens-door-182630689.html",
-          "sentiment": -0.15
         }
       ],
       "valuationLabel": "Rich",
@@ -9551,7 +9525,7 @@
       "chg3m": -17.8,
       "chg6m": 2.9,
       "chg1y": 237.3,
-      "volRatio": 0.91,
+      "volRatio": 0.92,
       "peRatio": 10.7,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -9601,7 +9575,7 @@
       "chg3m": 16.1,
       "chg6m": -10.3,
       "chg1y": -1.1,
-      "volRatio": 0.75,
+      "volRatio": 0.76,
       "peRatio": 436.8,
       "sector": "Consumer Cyclical",
       "industry": "Auto Manufacturers",
@@ -9609,26 +9583,26 @@
       "dividendYield": 0.0,
       "marketCap": 1571023749120,
       "score": 6.3,
-      "newsSentiment": 0.12,
+      "newsSentiment": -0.11,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Elon Musk Could Announce Tesla-SpaceX Merger By December: Report",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/elon-musk-tesla-spacex-merger/?src=A00220&yptr=yahoo",
+          "sentiment": 0.0
+        },
+        {
+          "title": "SpaceX-Tesla Merger Could Come Soon: What Do Shareholders Get?",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/spacex-tesla-merger-december-shareholders/",
+          "sentiment": 0.0
+        },
         {
           "title": "Musk\u2019s SpaceX-Tesla empire moves closer, but China and Washington loom large",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/musk-spacex-tesla-empire-moves-205333382.html",
           "sentiment": -0.33
-        },
-        {
-          "title": "SpaceX and Tesla Talks on Record Merger Are Said to Progress",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-talks-record-merger-202235758.html",
-          "sentiment": 0.42
-        },
-        {
-          "title": "Tesla fund makes surprise Microsoft bet, keeps Nvidia stake",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-fund-makes-surprise-microsoft-175904923.html",
-          "sentiment": 0.27
         }
       ],
       "valuationLabel": "Rich",
@@ -9709,8 +9683,8 @@
       "dividendYield": 0.0,
       "marketCap": 325278007296,
       "score": 2.2,
-      "newsSentiment": -0.26,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.05,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Intel CEO Lip-Bu Tan on turnaround efforts amid stock slump: 'I feel called to do this'",
@@ -9725,10 +9699,10 @@
           "sentiment": 0.4
         },
         {
-          "title": "After Intel\u2019s Worst Day on Record, CEO Lip-Bu Tan Buys $9.7 Million in Stock",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/intel-stock-insider-ceo-buy-1e10df5f?siteid=yhoof2&yptr=yahoo",
-          "sentiment": -0.62
+          "title": "Intel (INTC) Could Be 88% Undervalued Following AI Partnerships And Sector Volatility",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-could-88-undervalued-211159635.html",
+          "sentiment": 0.0
         }
       ]
     },
@@ -9797,7 +9771,7 @@
       "chg3m": -4.6,
       "chg6m": 23.6,
       "chg1y": 18.6,
-      "volRatio": 1.24,
+      "volRatio": 1.25,
       "peRatio": 34.6,
       "sector": "Technology",
       "industry": "Electronic Components",
@@ -10069,7 +10043,7 @@
       "chg3m": 0.5,
       "chg6m": 0.3,
       "chg1y": 4.8,
-      "volRatio": 2.3,
+      "volRatio": 2.32,
       "peRatio": 21.1,
       "sector": "Utilities",
       "industry": "Utilities - Regulated Electric",
@@ -10515,7 +10489,7 @@
       "chg3m": 6.2,
       "chg6m": 7.0,
       "chg1y": 25.2,
-      "volRatio": 0.95,
+      "volRatio": 0.97,
       "peRatio": 30.6,
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
@@ -10565,7 +10539,7 @@
       "chg3m": 8.7,
       "chg6m": -5.7,
       "chg1y": 18.6,
-      "volRatio": 0.98,
+      "volRatio": 1.21,
       "peRatio": 15.7,
       "sector": "Consumer Defensive",
       "industry": "Tobacco",
@@ -11683,11 +11657,11 @@
     "dte": 42,
     "delta": -0.15,
     "iv": 29.9,
-    "premium": 6.21,
-    "costPerContract": 620.5
+    "premium": 6.2,
+    "costPerContract": 620.0
   },
   "market": {
-    "asOf": "2026-11-12T21:33:24.758194+00:00",
+    "asOf": "2026-11-12T22:07:05.686574+00:00",
     "gauges": [
       {
         "key": "qqq",
