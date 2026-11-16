@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T22:07:50.832268+00:00",
+  "generated_at": "2026-11-16T23:29:57.168851+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -72,8 +72,8 @@
         "expiryOI": 34176
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.15,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.22,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
           "title": "What's dragging down the S&P 500? Apple in focus",
@@ -86,12 +86,6 @@
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/resale-tech-apple-iphone-services-fa6a33d3?siteid=yhoof2&yptr=yahoo",
           "sentiment": 0.44
-        },
-        {
-          "title": "Apple adds facial recognition unlock to iPhone Duo",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/news/apple-adds-facial-recognition-unlock-191440685.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -204,26 +198,14 @@
         "expiryOI": 38594
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.11,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.18,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
           "title": "Microsoft (MSFT) Is One of NVIDIA\u2019s Biggest Customers, and a Growing Rival",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-one-nvidia-biggest-213025809.html",
           "sentiment": 0.18
-        },
-        {
-          "title": "Anthropic Launches Claude Sheets. Is Microsoft's Stock in Trouble?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/16/anthropic-launches-claude-sheets-is-microsoft-s-stock-in-trouble/",
-          "sentiment": -0.4
-        },
-        {
-          "title": "FAA, Microsoft outages show the perils of system upgrades",
-          "publisher": "American Banker",
-          "link": "https://www.americanbanker.com/news/faa-microsoft-outages-show-the-perils-of-system-upgrades",
-          "sentiment": 0.54
         }
       ],
       "volRegime": "Fair",
@@ -468,6 +450,12 @@
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
+          "title": "Meta pays Nevoya to put 25 electric trucks on I-10",
+          "publisher": "FreightWaves",
+          "link": "https://finance.yahoo.com/energy/articles/meta-pays-nevoya-put-25-220410952.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Meta\u2019s Prepayment Is Buying Oklo\u2019s Nuclear Fuel for Up to Five Reactors",
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/metas-prepayment-is-buying-oklos-nuclear-fuel-for-up-to-five-reactors?ref=yahoofinance&tlnk=yf-261116-2vpq4v59",
@@ -478,12 +466,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/16/trump-media-sinks-12-ahead-of-convertible-note-deadline-and-tae-merger-vote-rumble-tumbles-11-meta-declines-2/",
           "sentiment": -0.82
-        },
-        {
-          "title": "Google and Meta Tell Two Different Stories as Search Rebounds",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/articles/google-meta-tell-two-different-154422387.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -705,7 +687,7 @@
         "expiryOI": 112671
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.32,
+      "newsSentiment": 0.17,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -717,14 +699,14 @@
         {
           "title": "Update: JPMorgan, Bank of America, Wells Fargo Site Users Report Connectivity Issues, Downdetector Says",
           "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-bank-america-wells-fargo-210721796.html",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-bank-america-wells-fargo-225417531.html",
           "sentiment": 0.25
         },
         {
-          "title": "JPMorgan updates AR platform to help free up working capital",
-          "publisher": "CFO Dive",
-          "link": "https://www.cfodive.com/news/jpmorgan-updates-ar-platform-help-unstick-working-capital/874810/",
-          "sentiment": 0.72
+          "title": "Update: JPMorgan, Bank of America, Wells Fargo Site Users Report Connectivity Issues, Downdetector Says",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-bank-america-wells-fargo-221200284.html",
+          "sentiment": 0.25
         }
       ],
       "volRegime": "Fair",
@@ -833,26 +815,26 @@
         "expiryOI": 50742
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.33,
+      "newsSentiment": -0.21,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Michael Burry Buys More Of Adobe And MercadoLibre, Exits ORCL, CAT Puts",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-buys-more-of-adobe-and-mercado-libre-exits-orcl-cat-puts/cNbJcE0R9gK",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Here's Why Oracle (ORCL) Fell More Than Broader Market",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-oracle-orcl-fell-214503903.html",
+          "sentiment": 0.0
+        },
         {
           "title": "CoreWeave, Oracle and Nebius Plunge as Nvidia Fallout Rattles AI Stocks",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-oracle-nebius-plunge-nvidia-192652785.html",
           "sentiment": -0.64
-        },
-        {
-          "title": "Is Oracle (ORCL) Undervalued Following Its Expanded Federal Health Data Exchange Deal?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/healthcare/articles/oracle-orcl-undervalued-following-expanded-191057444.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Larry Ellison Has Lost $145 Billion in Net Worth Over the Past Year as Oracle Stock Fell 59% From Its Peak. Here's Why Oracle's Heavy Concentration in OpenAI Has Wall Street Nervous.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/16/larry-ellison-has-lost-145-billion-in-net-worth-ov/",
-          "sentiment": -0.36
         }
       ],
       "volRegime": "Cheap",
@@ -965,26 +947,26 @@
         "expiryOI": 65607
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.02,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.15,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
-          "title": "Musk Plans Next Starship After Flight 15 Catch. ULA Loses Amazon Payload.",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/spacex-starship-flight-15-tower-catch-ula-amazon-launch-failure-rocket-lab-electron-space-stocks/?src=A00220&yptr=yahoo",
-          "sentiment": -0.15
+          "title": "Your $300,000 in XLY Holds $125,585 in Amazon and Tesla Alone",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/11/16/your-300000-in-xly-holds-125585-in-amazon-and-tesla-alone/",
+          "sentiment": -0.08
         },
         {
-          "title": "Trump to Name Nvidia, Amazon and Microsoft AI \u201cNational Champions\u201d as Bessent Demands a Shakeup",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/trump-to-name-nvidia-amazon-and-microsoft-ai-national-champions-as-bessent-demands-a-shakeup?ref=yahoofinance&tlnk=yf-261116-r77v6cf3",
-          "sentiment": 0.03
+          "title": "Stock Market Today, Nov. 16: Amazon Falls on New AI Chip Export Rule and Leo Satellite Launch Failure",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-amazon-falls-on-new-ai-chip-export-rule-and-leo-satellite-launch-failure/",
+          "sentiment": -0.38
         },
         {
-          "title": "Amazon Stocks Fall 2.56% as AWS Sells Data Center Control in $5 Billion Deal",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-fall-2-56-192513974.html",
-          "sentiment": 0.18
+          "title": "Nvidia is not considering rehiring Jensen Huang, and Amazon's data center gets bought",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/nvidia-is-not-considering-rehiring-jensen-huang-and-amazons-data-center-gets-bought-221405344.html",
+          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -1535,9 +1517,15 @@
         "expiryOI": 126051
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.23,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.08,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Michael Burry Buys More Of Adobe And MercadoLibre, Exits ORCL, CAT Puts",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-buys-more-of-adobe-and-mercado-libre-exits-orcl-cat-puts/cNbJcE0R9gK",
+          "sentiment": 0.0
+        },
         {
           "title": "BTIG sends blunt message on Adobe stock after MAX event",
           "publisher": "TheStreet",
@@ -1549,12 +1537,6 @@
           "publisher": "Beet.TV",
           "link": "https://www.beet.tv/2026/11/adobes-sam-garfield-ai-has-sped-up-creative-but-organizations-havent-kept-pace.html",
           "sentiment": 0.24
-        },
-        {
-          "title": "Accenture vs. Adobe: Which Technology Stock Is a Better Buy for 2027?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/coverage/better-buy/2026/11/14/accenture-vs-adobe-which-technology-stock-is-a-better-buy-for-2027/",
-          "sentiment": 0.44
         }
       ],
       "volRegime": "Rich",
@@ -1815,6 +1797,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "CrowdStrike Holdings (CRWD) Stock Moves -1.50%: What You Should Know",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-holdings-crwd-stock-moves-214502779.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Jim Cramer: Anthropic\u2019s \u201cNext $100 Billion in Revenue\u201d Might Be Cybersecurity. CrowdStrike Should Worry",
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/jim-cramer-anthropics-next-100-billion-in-revenue-might-be-cybersecurity-crowdstrike-should-worry?ref=yahoofinance&tlnk=yf-261116-p9ccm24m",
@@ -1824,12 +1812,6 @@
           "title": "CrowdStrike Doubles Down on AI Agents With $495 Million in Deals After a Record $333 Million ARR Quarter",
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/crowdstrike-doubles-down-on-ai-agents-with-495-million-in-deals-after-a-record-333-million-arr-quarter?ref=yahoofinance&tlnk=yf-261114-37qrwpvx",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Why CrowdStrike (CRWD), a Jim Cramer Holding, Wants Fiddler AI",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/technology/ai/articles/why-crowdstrike-crwd-jim-cramer-203814353.html",
           "sentiment": 0.0
         }
       ],
@@ -1939,9 +1921,15 @@
         "expiryOI": 51087
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
+      "newsSentiment": 0.07,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Top Analyst Reports for Taiwan Semiconductor, Johnson & Johnson and Palantir",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-taiwan-semiconductor-205900812.html",
+          "sentiment": 0.2
+        },
         {
           "title": "Cathie Wood Just Sold $11.8 Million of Palantir Stock",
           "publisher": "GuruFocus.com",
@@ -1952,12 +1940,6 @@
           "title": "Why Does Palantir Stock Keep Going Down?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/16/why-does-palantir-stock-keep-going-down/",
-          "sentiment": 0.0
-        },
-        {
-          "title": "ServiceNow vs. Palantir Technologies: Comparing Steady Sales Scale Against Rapid Revenue Acceleration",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/coverage/charts/2026/11/16/servicenow-vs-palantir-technologies-comparing-steady-sales-scale-against-rapid-revenue-acceleration/",
           "sentiment": 0.0
         }
       ],
@@ -2055,26 +2037,26 @@
         "expiryOI": 336606
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.12,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.3,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Huang\u2019s \u2018trillion-dollar dinners\u2019 with Taiwan chip bosses were Nvidia\u2019s secret weapon. Now he\u2019s out. Can he be replaced?",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/technology/articles/huang-trillion-dollar-dinners-taiwan-230000506.html",
+          "sentiment": -0.3
+        },
+        {
+          "title": "Top Analyst Reports for Taiwan Semiconductor, Johnson & Johnson and Palantir",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-taiwan-semiconductor-205900812.html",
+          "sentiment": 0.2
+        },
         {
           "title": "INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff; Taiwan Semiconductor Falls 5%",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/16/intw-2x-intel-etf-tumbles-13-as-intel-drops-amid-shareholder-lawsuit-and-ai-chip-selloff-taiwan-semiconductor-falls-5/",
           "sentiment": -0.8
-        },
-        {
-          "title": "TSM's $2 Billion Packaging Deal Could Ease a Critical AI Bottleneck",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/technology/ai/articles/tsms-2-billion-packaging-deal-150300867.html",
-          "sentiment": 0.05
-        },
-        {
-          "title": "Is TSM Still a Buy as AI Growth Faces Heavy Spending and Valuation?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tsm-still-buy-ai-growth-141200168.html",
-          "sentiment": 0.38
         }
       ],
       "volRegime": "Cheap",
@@ -2175,6 +2157,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "Dell Technologies (DELL) Declines More Than Market: Some Information for Investors",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-declines-more-214503361.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Dell Technologies (DELL) Can Reach New Highs on Backlog and Margins",
           "publisher": "TipRanks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-reach-highs-211900771.html",
@@ -2185,12 +2173,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/articles/dell-hpe-opportunity-outside-ai-194346820.html",
           "sentiment": 0.42
-        },
-        {
-          "title": "Dell and HPE Stocks Are Getting Hammered. Why the Selloff May Be Overdone.",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/dell-hpe-stock-price-earnings-ai-386e06fb?siteid=yhoof2&yptr=yahoo",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Cheap",
@@ -2705,9 +2687,15 @@
         "expiryOI": 46146
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.13,
+      "newsSentiment": 0.03,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Home Depot Earnings Will Test If Home Improvement Can Outrun a Sluggish Housing Market",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/home-depot-earnings-will-test-if-home-improvement-can-outrun-a-sluggish-housing-market-e65879b7?siteid=yhoof2&yptr=yahoo",
+          "sentiment": 0.08
+        },
         {
           "title": "Earnings to watch: NVIDIA, Walmart, Home Depot and more report this week",
           "publisher": "Investing.com",
@@ -2719,12 +2707,6 @@
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-lowe-apos-q3-184538832.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Home Depot Accelerates Express Delivery: Can It Fuel Growth?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/real-estate/articles/home-depot-accelerates-express-delivery-162100655.html",
-          "sentiment": 0.38
         }
       ],
       "volRegime": "Fair",
@@ -2825,6 +2807,12 @@
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
+          "title": "Costco Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "publisher": "Barchart",
+          "link": "https://www.barchart.com/story/news/8858012/costco-stock-outlook-is-wall-street-bullish-or-bearish",
+          "sentiment": 0.0
+        },
+        {
           "title": "Costco Is Up Nearly 20% in a Year. Now Northcoast Research Says That\u2019s Enough",
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/costco-is-up-nearly-20-in-a-year-now-northcoast-research-says-thats-enough?ref=yahoofinance&tlnk=yf-261116-w49hqqc7",
@@ -2835,12 +2823,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/costco-hits-52-week-high-151000309.html",
           "sentiment": 0.72
-        },
-        {
-          "title": "ETFs Bought $32.5 Million of Costco (COST) on Nov. 12",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-32-5-million-110152137.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -3423,9 +3405,15 @@
         "expiryOI": 15122
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.09,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.16,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Here Is What Most Retail Investors Miss About Bloom Energy Stock",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/stock/be/articles/625233/here-is-what-most-retail-investors-miss-about-bloom-energy-stock/2026-11-16",
+          "sentiment": -0.49
+        },
         {
           "title": "Bloom Energy Is Down 26% in a Month. What Will It Take to Get BE Stock Back to $250?",
           "publisher": "24/7 Wall St.",
@@ -3437,12 +3425,6 @@
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/be-stock-falls-overnight-retail-flags-valuation-concerns-as-forward-p-e-nears-18-month-low/cNb7WMFR9XW",
           "sentiment": -0.27
-        },
-        {
-          "title": "Bloom Energy Is Down 43% From Its High. Should You Buy the Dip?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/15/bloom-energy-is-down-43-from-its-high-should-you-buy-the-dip/",
-          "sentiment": 0.27
         }
       ],
       "volRegime": "Cheap",
@@ -3555,7 +3537,7 @@
         "expiryOI": 25594
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.12,
+      "newsSentiment": -0.11,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -3565,16 +3547,16 @@
           "sentiment": 0.03
         },
         {
+          "title": "Broadcom Is \u201cthe Best Play\u201d on Nvidia\u2019s CEO Exit, One Investor Argues. The Reason Is China",
+          "publisher": "TIKR",
+          "link": "https://www.tikr.com/blog/broadcom-is-the-best-play-on-nvidias-ceo-exit-one-investor-argues-the-reason-is-china?ref=yahoofinance&tlnk=yf-261116-w5j2pv86",
+          "sentiment": 0.38
+        },
+        {
           "title": "Broadcom Stocks Slide 4.76% as Downgrade Keeps AI Financing Fears in Focus",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-slide-4-76-181829964.html",
           "sentiment": -0.74
-        },
-        {
-          "title": "AMD Will Capture More Market Share Than Broadcom to End November as Nvidia\u2019s Leadership Vacuum Persists",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/16/amd-will-capture-more-market-share-than-broadcom-to-end-november-as-nvidias-leadership-vacuum-persists/",
-          "sentiment": 0.36
         }
       ],
       "volRegime": "Fair",
@@ -3827,7 +3809,7 @@
         "expiryOI": 579483
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.39,
+      "newsSentiment": -0.3,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
@@ -3835,12 +3817,6 @@
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-stock-nvda-nvidia-earnings-next/?src=A00220&yptr=yahoo",
           "sentiment": -0.3
-        },
-        {
-          "title": "Micron Stocks Sink Nearly 7% After Judge Lets DRAM Supply Lawsuit Proceed",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-sink-nearly-7-182012075.html",
-          "sentiment": -0.49
         }
       ],
       "volRegime": "Cheap",
@@ -3937,7 +3913,7 @@
         "expiryOI": 819590
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.11,
+      "newsSentiment": -0.03,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -3953,10 +3929,10 @@
           "sentiment": 0.0
         },
         {
-          "title": "Tesla Will Invest $3.31 Billion to Expand German Factory for Cybercab Production",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/business/autos/tesla-to-invest-over-3-billion-to-expand-german-factory-in-cybercab-bet-6355017a?siteid=yhoof2&yptr=yahoo",
-          "sentiment": 0.32
+          "title": "Your $300,000 in XLY Holds $125,585 in Amazon and Tesla Alone",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/11/16/your-300000-in-xly-holds-125585-in-amazon-and-tesla-alone/",
+          "sentiment": -0.08
         }
       ],
       "volRegime": "Cheap",
@@ -4869,9 +4845,15 @@
         "expiryOI": 72322
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.26,
+      "newsSentiment": 0.2,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Top British Hedge Fund Loads Up on Martin Marietta Stock, Trims Stake in Visa",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/top-british-hedge-fund-chris-hohn-martin-marietta-visa-4b553be9?siteid=yhoof2&yptr=yahoo",
+          "sentiment": 0.2
+        },
         {
           "title": "Visa (V) Warns Of Rapid Surge In AI Driven Payment Threats",
           "publisher": "Simply Wall St.",
@@ -4883,12 +4865,6 @@
           "publisher": "Sourcing Journal",
           "link": "https://wwd.com/sourcing-journal/industry-news/visa-warns-of-ai-driven-intrusion-surge-payment-threats-1239418679/",
           "sentiment": 0.2
-        },
-        {
-          "title": "Can Visa's Samsung Wallet Deal Unlock New Growth Across Asia-Pacific?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/currencies/articles/visas-samsung-wallet-deal-unlock-162800127.html",
-          "sentiment": 0.38
         }
       ],
       "volRegime": "Fair",
@@ -4985,26 +4961,26 @@
         "expiryOI": 93919
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.3,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.11,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Warren Buffett\u2019s Berkshire Nearly Doubled Its Stake in One Homebuilder Last Quarter. It Now Owns 26 Million Shares",
+          "title": "Warren Buffett\u2019s Berkshire Just Revealed a New $689 Million Stock. The Company\u2019s IPO Was Less Than Five Months Ago",
           "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/16/warren-buffetts-berkshire-nearly-doubled-its-stake-in-one-homebuilder-last-quarter-it-now-owns-26-million-shares/",
-          "sentiment": 0.3
+          "link": "https://247wallst.com/investing/2026/11/16/warren-buffetts-berkshire-just-revealed-a-new-689-million-stock-the-companys-ipo-was-less-than-five-months-ago/",
+          "sentiment": 0.0
         },
         {
-          "title": "Berkshire Boosts Stake in Lennar, Doubling Down on Its U.S. Housing Bet",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/stocks/berkshire-boosts-stake-in-lennar-doubling-down-on-its-u-s-housing-bet-b1237ca5?siteid=yhoof2&yptr=yahoo",
+          "title": "Berkshire Boosts Lennar, Starts Bending Spoons, Trims Bank Of America In Q3",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/berkshire-boosts-lennar-starts-bending-spoons-trims-bank-of-america-in-q3/cNbJ2orR9g1",
           "sentiment": 0.32
         },
         {
-          "title": "Warren Buffett\u2019s Berkshire Just Revealed a New Stock and Sold More Bank of America. Here\u2019s What a 68-Year-Old With 400 Shares Owns",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/16/warren-buffetts-berkshire-just-revealed-a-new-stock-and-sold-more-bank-of-america-heres-what-a-68-year-old-with-400-shares-owns/",
-          "sentiment": 0.3
+          "title": "Berkshire Hathaway's Only New Q3 Position Is a Company Few Investors Recognize",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/berkshire-bending-spoons-q3-new-position/",
+          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -5333,8 +5309,8 @@
         "expiryOI": 36403
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.15,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.02,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "The Risk Morgan Stanley Watches at Seagate (STX)",
@@ -5347,12 +5323,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/12/seagates-legitimacy-as-a-play-on-ai-hardware-demand-is-about-to-be-tested/",
           "sentiment": 0.23
-        },
-        {
-          "title": "Seagate Technology Holdings (STX) Gains Fresh Backing As AI Storage Demand Tests Its Valuation",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/seagate-technology-holdings-stx-gains-011222679.html",
-          "sentiment": 0.51
         }
       ],
       "volRegime": "Cheap",
@@ -6327,16 +6297,16 @@
           "sentiment": 0.0
         },
         {
+          "title": "Top Analyst Reports for Taiwan Semiconductor, Johnson & Johnson and Palantir",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-taiwan-semiconductor-205900812.html",
+          "sentiment": 0.2
+        },
+        {
           "title": "Johnson & Johnson Stocks Edge Higher on $2.2 Billion Ollin Eye Deal",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-stocks-edge-higher-174813761.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Johnson & Johnson Agrees to Buy Ollin Biosciences in Up to $3.33 Billion Deal",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-agrees-buy-ollin-165031669.html",
-          "sentiment": 0.2
         }
       ],
       "volRegime": "Fair",
@@ -6809,14 +6779,14 @@
         "expiryOI": 19167
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.06,
+      "newsSentiment": -0.05,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Warren Buffett\u2019s Berkshire Just Revealed a New Stock and Sold More Bank of America. Here\u2019s What a 68-Year-Old With 400 Shares Owns",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/16/warren-buffetts-berkshire-just-revealed-a-new-stock-and-sold-more-bank-of-america-heres-what-a-68-year-old-with-400-shares-owns/",
-          "sentiment": 0.3
+          "title": "Berkshire Boosts Lennar, Starts Bending Spoons, Trims Bank Of America In Q3",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/berkshire-boosts-lennar-starts-bending-spoons-trims-bank-of-america-in-q3/cNbJ2orR9g1",
+          "sentiment": 0.32
         },
         {
           "title": "A Third Outage Strikes, This Time at Chase, Big Banks. The Stocks Are Falling.",
@@ -6825,9 +6795,9 @@
           "sentiment": -0.48
         },
         {
-          "title": "Chase, Bank of America, other banks hit by online service outages",
-          "publisher": "USA TODAY",
-          "link": "https://finance.yahoo.com/video/chase-bank-america-other-banks-202654532.html",
+          "title": "Berkshire Sold Bank of America and VeriSign Stock in Q3, and Bought Lennar and Delta",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/berkshire-hathway-stock-bank-america-verisign-314f0bb5?siteid=yhoof2&yptr=yahoo",
           "sentiment": 0.0
         }
       ],
@@ -7179,26 +7149,26 @@
         "expiryOI": 38442
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.08,
+      "newsSentiment": 0.1,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "What Has Changed In Caterpillar's Story?",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/stock/cat/articles/625206/what-has-changed-in-caterpillars-story/2026-11-16",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Michael Burry Buys More Of Adobe And MercadoLibre, Exits ORCL, CAT Puts",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-buys-more-of-adobe-and-mercado-libre-exits-orcl-cat-puts/cNbJcE0R9gK",
+          "sentiment": 0.0
+        },
         {
           "title": "Michael Burry Cashed In Caterpillar Puts After a Nearly 4x Gain Even as CAT Stock Fell 10% in Its Worst Week in 18 Months. Is Caterpillar Still Overvalued, or Did Burry Just Lock In the Easy Money?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/16/michael-burry-cashed-in-caterpillar-puts-after-a-nearly-4x-gain-even-as-cat-stock-fell-10-in-its-worst-week-in-18-months-is-caterpillar-still-overvalued-or-did-burry-just-lock-in-the-easy-money/",
           "sentiment": 0.3
-        },
-        {
-          "title": "Caterpillar (CAT) Stock Fair Value Falls As Analysts Cut Targets And Lift Rates",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-stock-fair-value-171207128.html",
-          "sentiment": 0.23
-        },
-        {
-          "title": "Caterpillar\u2019s 34% Slump Over 6 Months: Wall Street Desk Says It Sets Up 90% Gains Within a Year",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/16/caterpillars-34-slump-over-6-months-wall-street-desk-says-it-sets-up-90-gains-within-a-year/",
-          "sentiment": -0.27
         }
       ],
       "volRegime": "Cheap",
@@ -7411,9 +7381,15 @@
         "expiryOI": 155565
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.31,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.08,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Is Moderna's Cancer Vaccine a Game Changer for the Stock?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/16/is-moderna-s-cancer-vaccine-a-game-changer-for-the-stock/",
+          "sentiment": -0.66
+        },
         {
           "title": "Moderna Is Up Over 600% This Year. Here\u2019s What Jim Cramer Learned in His Exclusive",
           "publisher": "24/7 Wall St.",
@@ -7425,12 +7401,6 @@
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/video/flagships-afeyan-sees-uk-bet-113516829.html",
           "sentiment": 0.3
-        },
-        {
-          "title": "Proshares Trust (TQQQ) Buys $72.9 Million More Moderna on Nov. 12",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/proshares-trust-tqqq-buys-72-110523472.html",
-          "sentiment": 0.51
         }
       ],
       "volRegime": "Cheap",
@@ -8495,8 +8465,8 @@
       "dividendYield": 0.3,
       "marketCap": 5126663176192,
       "score": 7.9,
-      "newsSentiment": 0.15,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.22,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
           "title": "What's dragging down the S&P 500? Apple in focus",
@@ -8509,12 +8479,6 @@
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/resale-tech-apple-iphone-services-fa6a33d3?siteid=yhoof2&yptr=yahoo",
           "sentiment": 0.44
-        },
-        {
-          "title": "Apple adds facial recognition unlock to iPhone Duo",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/news/apple-adds-facial-recognition-unlock-191440685.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
@@ -8545,26 +8509,14 @@
       "dividendYield": 0.75,
       "marketCap": 3846694502400,
       "score": 6.7,
-      "newsSentiment": 0.11,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.18,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
           "title": "Microsoft (MSFT) Is One of NVIDIA\u2019s Biggest Customers, and a Growing Rival",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-one-nvidia-biggest-213025809.html",
           "sentiment": 0.18
-        },
-        {
-          "title": "Anthropic Launches Claude Sheets. Is Microsoft's Stock in Trouble?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/16/anthropic-launches-claude-sheets-is-microsoft-s-stock-in-trouble/",
-          "sentiment": -0.4
-        },
-        {
-          "title": "FAA, Microsoft outages show the perils of system upgrades",
-          "publisher": "American Banker",
-          "link": "https://www.americanbanker.com/news/faa-microsoft-outages-show-the-perils-of-system-upgrades",
-          "sentiment": 0.54
         }
       ],
       "valuationLabel": "Cheap",
@@ -8649,6 +8601,12 @@
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
+          "title": "Meta pays Nevoya to put 25 electric trucks on I-10",
+          "publisher": "FreightWaves",
+          "link": "https://finance.yahoo.com/energy/articles/meta-pays-nevoya-put-25-220410952.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Meta\u2019s Prepayment Is Buying Oklo\u2019s Nuclear Fuel for Up to Five Reactors",
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/metas-prepayment-is-buying-oklos-nuclear-fuel-for-up-to-five-reactors?ref=yahoofinance&tlnk=yf-261116-2vpq4v59",
@@ -8659,12 +8617,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/16/trump-media-sinks-12-ahead-of-convertible-note-deadline-and-tae-merger-vote-rumble-tumbles-11-meta-declines-2/",
           "sentiment": -0.82
-        },
-        {
-          "title": "Google and Meta Tell Two Different Stories as Search Rebounds",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/articles/google-meta-tell-two-different-154422387.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Fair",
@@ -8726,7 +8678,7 @@
       "dividendYield": 1.91,
       "marketCap": 898153709568,
       "score": 8.8,
-      "newsSentiment": 0.32,
+      "newsSentiment": 0.17,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -8738,14 +8690,14 @@
         {
           "title": "Update: JPMorgan, Bank of America, Wells Fargo Site Users Report Connectivity Issues, Downdetector Says",
           "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-bank-america-wells-fargo-210721796.html",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-bank-america-wells-fargo-225417531.html",
           "sentiment": 0.25
         },
         {
-          "title": "JPMorgan updates AR platform to help free up working capital",
-          "publisher": "CFO Dive",
-          "link": "https://www.cfodive.com/news/jpmorgan-updates-ar-platform-help-unstick-working-capital/874810/",
-          "sentiment": 0.72
+          "title": "Update: JPMorgan, Bank of America, Wells Fargo Site Users Report Connectivity Issues, Downdetector Says",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-bank-america-wells-fargo-221200284.html",
+          "sentiment": 0.25
         }
       ],
       "valuationLabel": "Cheap",
@@ -8776,26 +8728,26 @@
       "dividendYield": 1.6,
       "marketCap": 371287851008,
       "score": 2.8,
-      "newsSentiment": -0.33,
+      "newsSentiment": -0.21,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Michael Burry Buys More Of Adobe And MercadoLibre, Exits ORCL, CAT Puts",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-buys-more-of-adobe-and-mercado-libre-exits-orcl-cat-puts/cNbJcE0R9gK",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Here's Why Oracle (ORCL) Fell More Than Broader Market",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-oracle-orcl-fell-214503903.html",
+          "sentiment": 0.0
+        },
         {
           "title": "CoreWeave, Oracle and Nebius Plunge as Nvidia Fallout Rattles AI Stocks",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-oracle-nebius-plunge-nvidia-192652785.html",
           "sentiment": -0.64
-        },
-        {
-          "title": "Is Oracle (ORCL) Undervalued Following Its Expanded Federal Health Data Exchange Deal?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/healthcare/articles/oracle-orcl-undervalued-following-expanded-191057444.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Larry Ellison Has Lost $145 Billion in Net Worth Over the Past Year as Oracle Stock Fell 59% From Its Peak. Here's Why Oracle's Heavy Concentration in OpenAI Has Wall Street Nervous.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/16/larry-ellison-has-lost-145-billion-in-net-worth-ov/",
-          "sentiment": -0.36
         }
       ],
       "valuationLabel": "Cheap",
@@ -8826,26 +8778,26 @@
       "dividendYield": 0.0,
       "marketCap": 2787086172160,
       "score": 7.9,
-      "newsSentiment": 0.02,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.15,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
-          "title": "Musk Plans Next Starship After Flight 15 Catch. ULA Loses Amazon Payload.",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/spacex-starship-flight-15-tower-catch-ula-amazon-launch-failure-rocket-lab-electron-space-stocks/?src=A00220&yptr=yahoo",
-          "sentiment": -0.15
+          "title": "Your $300,000 in XLY Holds $125,585 in Amazon and Tesla Alone",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/11/16/your-300000-in-xly-holds-125585-in-amazon-and-tesla-alone/",
+          "sentiment": -0.08
         },
         {
-          "title": "Trump to Name Nvidia, Amazon and Microsoft AI \u201cNational Champions\u201d as Bessent Demands a Shakeup",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/trump-to-name-nvidia-amazon-and-microsoft-ai-national-champions-as-bessent-demands-a-shakeup?ref=yahoofinance&tlnk=yf-261116-r77v6cf3",
-          "sentiment": 0.03
+          "title": "Stock Market Today, Nov. 16: Amazon Falls on New AI Chip Export Rule and Leo Satellite Launch Failure",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-amazon-falls-on-new-ai-chip-export-rule-and-leo-satellite-launch-failure/",
+          "sentiment": -0.38
         },
         {
-          "title": "Amazon Stocks Fall 2.56% as AWS Sells Data Center Control in $5 Billion Deal",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-fall-2-56-192513974.html",
-          "sentiment": 0.18
+          "title": "Nvidia is not considering rehiring Jensen Huang, and Amazon's data center gets bought",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/nvidia-is-not-considering-rehiring-jensen-huang-and-amazons-data-center-gets-bought-221405344.html",
+          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -9056,9 +9008,15 @@
       "dividendYield": 0.0,
       "marketCap": 95743197184,
       "score": 4.3,
-      "newsSentiment": 0.23,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.08,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Michael Burry Buys More Of Adobe And MercadoLibre, Exits ORCL, CAT Puts",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-buys-more-of-adobe-and-mercado-libre-exits-orcl-cat-puts/cNbJcE0R9gK",
+          "sentiment": 0.0
+        },
         {
           "title": "BTIG sends blunt message on Adobe stock after MAX event",
           "publisher": "TheStreet",
@@ -9070,12 +9028,6 @@
           "publisher": "Beet.TV",
           "link": "https://www.beet.tv/2026/11/adobes-sam-garfield-ai-has-sped-up-creative-but-organizations-havent-kept-pace.html",
           "sentiment": 0.24
-        },
-        {
-          "title": "Accenture vs. Adobe: Which Technology Stock Is a Better Buy for 2027?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/coverage/better-buy/2026/11/14/accenture-vs-adobe-which-technology-stock-is-a-better-buy-for-2027/",
-          "sentiment": 0.44
         }
       ],
       "valuationLabel": "Cheap",
@@ -9160,6 +9112,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "CrowdStrike Holdings (CRWD) Stock Moves -1.50%: What You Should Know",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-holdings-crwd-stock-moves-214502779.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Jim Cramer: Anthropic\u2019s \u201cNext $100 Billion in Revenue\u201d Might Be Cybersecurity. CrowdStrike Should Worry",
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/jim-cramer-anthropics-next-100-billion-in-revenue-might-be-cybersecurity-crowdstrike-should-worry?ref=yahoofinance&tlnk=yf-261116-p9ccm24m",
@@ -9169,12 +9127,6 @@
           "title": "CrowdStrike Doubles Down on AI Agents With $495 Million in Deals After a Record $333 Million ARR Quarter",
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/crowdstrike-doubles-down-on-ai-agents-with-495-million-in-deals-after-a-record-333-million-arr-quarter?ref=yahoofinance&tlnk=yf-261114-37qrwpvx",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Why CrowdStrike (CRWD), a Jim Cramer Holding, Wants Fiddler AI",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/technology/ai/articles/why-crowdstrike-crwd-jim-cramer-203814353.html",
           "sentiment": 0.0
         }
       ],
@@ -9206,9 +9158,15 @@
       "dividendYield": 0.0,
       "marketCap": 386459303936,
       "score": 3.7,
-      "newsSentiment": 0.0,
+      "newsSentiment": 0.07,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Top Analyst Reports for Taiwan Semiconductor, Johnson & Johnson and Palantir",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-taiwan-semiconductor-205900812.html",
+          "sentiment": 0.2
+        },
         {
           "title": "Cathie Wood Just Sold $11.8 Million of Palantir Stock",
           "publisher": "GuruFocus.com",
@@ -9219,12 +9177,6 @@
           "title": "Why Does Palantir Stock Keep Going Down?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/16/why-does-palantir-stock-keep-going-down/",
-          "sentiment": 0.0
-        },
-        {
-          "title": "ServiceNow vs. Palantir Technologies: Comparing Steady Sales Scale Against Rapid Revenue Acceleration",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/coverage/charts/2026/11/16/servicenow-vs-palantir-technologies-comparing-steady-sales-scale-against-rapid-revenue-acceleration/",
           "sentiment": 0.0
         }
       ],
@@ -9256,26 +9208,26 @@
       "dividendYield": 0.95,
       "marketCap": 1936888430592,
       "score": 3.6,
-      "newsSentiment": -0.12,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.3,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Huang\u2019s \u2018trillion-dollar dinners\u2019 with Taiwan chip bosses were Nvidia\u2019s secret weapon. Now he\u2019s out. Can he be replaced?",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/technology/articles/huang-trillion-dollar-dinners-taiwan-230000506.html",
+          "sentiment": -0.3
+        },
+        {
+          "title": "Top Analyst Reports for Taiwan Semiconductor, Johnson & Johnson and Palantir",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-taiwan-semiconductor-205900812.html",
+          "sentiment": 0.2
+        },
         {
           "title": "INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff; Taiwan Semiconductor Falls 5%",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/16/intw-2x-intel-etf-tumbles-13-as-intel-drops-amid-shareholder-lawsuit-and-ai-chip-selloff-taiwan-semiconductor-falls-5/",
           "sentiment": -0.8
-        },
-        {
-          "title": "TSM's $2 Billion Packaging Deal Could Ease a Critical AI Bottleneck",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/technology/ai/articles/tsms-2-billion-packaging-deal-150300867.html",
-          "sentiment": 0.05
-        },
-        {
-          "title": "Is TSM Still a Buy as AI Growth Faces Heavy Spending and Valuation?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tsm-still-buy-ai-growth-141200168.html",
-          "sentiment": 0.38
         }
       ],
       "valuationLabel": "Cheap",
@@ -9310,6 +9262,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "Dell Technologies (DELL) Declines More Than Market: Some Information for Investors",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-declines-more-214503361.html",
+          "sentiment": 0.0
+        },
+        {
           "title": "Dell Technologies (DELL) Can Reach New Highs on Backlog and Margins",
           "publisher": "TipRanks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-reach-highs-211900771.html",
@@ -9320,12 +9278,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/articles/dell-hpe-opportunity-outside-ai-194346820.html",
           "sentiment": 0.42
-        },
-        {
-          "title": "Dell and HPE Stocks Are Getting Hammered. Why the Selloff May Be Overdone.",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/dell-hpe-stock-price-earnings-ai-386e06fb?siteid=yhoof2&yptr=yahoo",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -9512,9 +9464,15 @@
       "dividendYield": 2.67,
       "marketCap": 346707132416,
       "score": 8.4,
-      "newsSentiment": 0.13,
+      "newsSentiment": 0.03,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Home Depot Earnings Will Test If Home Improvement Can Outrun a Sluggish Housing Market",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/home-depot-earnings-will-test-if-home-improvement-can-outrun-a-sluggish-housing-market-e65879b7?siteid=yhoof2&yptr=yahoo",
+          "sentiment": 0.08
+        },
         {
           "title": "Earnings to watch: NVIDIA, Walmart, Home Depot and more report this week",
           "publisher": "Investing.com",
@@ -9526,12 +9484,6 @@
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-lowe-apos-q3-184538832.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Home Depot Accelerates Express Delivery: Can It Fuel Growth?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/real-estate/articles/home-depot-accelerates-express-delivery-162100655.html",
-          "sentiment": 0.38
         }
       ],
       "valuationLabel": "Fair",
@@ -9566,6 +9518,12 @@
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
+          "title": "Costco Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "publisher": "Barchart",
+          "link": "https://www.barchart.com/story/news/8858012/costco-stock-outlook-is-wall-street-bullish-or-bearish",
+          "sentiment": 0.0
+        },
+        {
           "title": "Costco Is Up Nearly 20% in a Year. Now Northcoast Research Says That\u2019s Enough",
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/costco-is-up-nearly-20-in-a-year-now-northcoast-research-says-thats-enough?ref=yahoofinance&tlnk=yf-261116-w49hqqc7",
@@ -9576,12 +9534,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/costco-hits-52-week-high-151000309.html",
           "sentiment": 0.72
-        },
-        {
-          "title": "ETFs Bought $32.5 Million of Costco (COST) on Nov. 12",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-32-5-million-110152137.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
@@ -9806,9 +9758,15 @@
       "dividendYield": 0.0,
       "marketCap": 52414021632,
       "score": 1.6,
-      "newsSentiment": 0.09,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.16,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Here Is What Most Retail Investors Miss About Bloom Energy Stock",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/stock/be/articles/625233/here-is-what-most-retail-investors-miss-about-bloom-energy-stock/2026-11-16",
+          "sentiment": -0.49
+        },
         {
           "title": "Bloom Energy Is Down 26% in a Month. What Will It Take to Get BE Stock Back to $250?",
           "publisher": "24/7 Wall St.",
@@ -9820,12 +9778,6 @@
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/be-stock-falls-overnight-retail-flags-valuation-concerns-as-forward-p-e-nears-18-month-low/cNb7WMFR9XW",
           "sentiment": -0.27
-        },
-        {
-          "title": "Bloom Energy Is Down 43% From Its High. Should You Buy the Dip?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/15/bloom-energy-is-down-43-from-its-high-should-you-buy-the-dip/",
-          "sentiment": 0.27
         }
       ],
       "valuationLabel": "Rich",
@@ -9856,7 +9808,7 @@
       "dividendYield": 0.75,
       "marketCap": 1591528259584,
       "score": 4.7,
-      "newsSentiment": -0.12,
+      "newsSentiment": -0.11,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -9866,16 +9818,16 @@
           "sentiment": 0.03
         },
         {
+          "title": "Broadcom Is \u201cthe Best Play\u201d on Nvidia\u2019s CEO Exit, One Investor Argues. The Reason Is China",
+          "publisher": "TIKR",
+          "link": "https://www.tikr.com/blog/broadcom-is-the-best-play-on-nvidias-ceo-exit-one-investor-argues-the-reason-is-china?ref=yahoofinance&tlnk=yf-261116-w5j2pv86",
+          "sentiment": 0.38
+        },
+        {
           "title": "Broadcom Stocks Slide 4.76% as Downgrade Keeps AI Financing Fears in Focus",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-slide-4-76-181829964.html",
           "sentiment": -0.74
-        },
-        {
-          "title": "AMD Will Capture More Market Share Than Broadcom to End November as Nvidia\u2019s Leadership Vacuum Persists",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/16/amd-will-capture-more-market-share-than-broadcom-to-end-november-as-nvidias-leadership-vacuum-persists/",
-          "sentiment": 0.36
         }
       ],
       "valuationLabel": "Rich",
@@ -9956,7 +9908,7 @@
       "dividendYield": 0.08,
       "marketCap": 813515931648,
       "score": 4.2,
-      "newsSentiment": -0.39,
+      "newsSentiment": -0.3,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
@@ -9964,12 +9916,6 @@
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-stock-nvda-nvidia-earnings-next/?src=A00220&yptr=yahoo",
           "sentiment": -0.3
-        },
-        {
-          "title": "Micron Stocks Sink Nearly 7% After Judge Lets DRAM Supply Lawsuit Proceed",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-sink-nearly-7-182012075.html",
-          "sentiment": -0.49
         }
       ],
       "valuationLabel": "Cheap",
@@ -10000,7 +9946,7 @@
       "dividendYield": 0.0,
       "marketCap": 1501020291072,
       "score": 6.4,
-      "newsSentiment": 0.11,
+      "newsSentiment": -0.03,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -10016,10 +9962,10 @@
           "sentiment": 0.0
         },
         {
-          "title": "Tesla Will Invest $3.31 Billion to Expand German Factory for Cybercab Production",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/business/autos/tesla-to-invest-over-3-billion-to-expand-german-factory-in-cybercab-bet-6355017a?siteid=yhoof2&yptr=yahoo",
-          "sentiment": 0.32
+          "title": "Your $300,000 in XLY Holds $125,585 in Amazon and Tesla Alone",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/11/16/your-300000-in-xly-holds-125585-in-amazon-and-tesla-alone/",
+          "sentiment": -0.08
         }
       ],
       "valuationLabel": "Rich",
@@ -10377,9 +10323,15 @@
       "dividendYield": 0.73,
       "marketCap": 795689091072,
       "score": 7.9,
-      "newsSentiment": 0.26,
+      "newsSentiment": 0.2,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Top British Hedge Fund Loads Up on Martin Marietta Stock, Trims Stake in Visa",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/top-british-hedge-fund-chris-hohn-martin-marietta-visa-4b553be9?siteid=yhoof2&yptr=yahoo",
+          "sentiment": 0.2
+        },
         {
           "title": "Visa (V) Warns Of Rapid Surge In AI Driven Payment Threats",
           "publisher": "Simply Wall St.",
@@ -10391,12 +10343,6 @@
           "publisher": "Sourcing Journal",
           "link": "https://wwd.com/sourcing-journal/industry-news/visa-warns-of-ai-driven-intrusion-surge-payment-threats-1239418679/",
           "sentiment": 0.2
-        },
-        {
-          "title": "Can Visa's Samsung Wallet Deal Unlock New Growth Across Asia-Pacific?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/currencies/articles/visas-samsung-wallet-deal-unlock-162800127.html",
-          "sentiment": 0.38
         }
       ],
       "valuationLabel": "Rich",
@@ -10427,26 +10373,26 @@
       "dividendYield": 0.0,
       "marketCap": 1259521179648,
       "score": 7.2,
-      "newsSentiment": 0.3,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.11,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Warren Buffett\u2019s Berkshire Nearly Doubled Its Stake in One Homebuilder Last Quarter. It Now Owns 26 Million Shares",
+          "title": "Warren Buffett\u2019s Berkshire Just Revealed a New $689 Million Stock. The Company\u2019s IPO Was Less Than Five Months Ago",
           "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/16/warren-buffetts-berkshire-nearly-doubled-its-stake-in-one-homebuilder-last-quarter-it-now-owns-26-million-shares/",
-          "sentiment": 0.3
+          "link": "https://247wallst.com/investing/2026/11/16/warren-buffetts-berkshire-just-revealed-a-new-689-million-stock-the-companys-ipo-was-less-than-five-months-ago/",
+          "sentiment": 0.0
         },
         {
-          "title": "Berkshire Boosts Stake in Lennar, Doubling Down on Its U.S. Housing Bet",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/stocks/berkshire-boosts-stake-in-lennar-doubling-down-on-its-u-s-housing-bet-b1237ca5?siteid=yhoof2&yptr=yahoo",
+          "title": "Berkshire Boosts Lennar, Starts Bending Spoons, Trims Bank Of America In Q3",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/berkshire-boosts-lennar-starts-bending-spoons-trims-bank-of-america-in-q3/cNbJ2orR9g1",
           "sentiment": 0.32
         },
         {
-          "title": "Warren Buffett\u2019s Berkshire Just Revealed a New Stock and Sold More Bank of America. Here\u2019s What a 68-Year-Old With 400 Shares Owns",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/16/warren-buffetts-berkshire-just-revealed-a-new-stock-and-sold-more-bank-of-america-heres-what-a-68-year-old-with-400-shares-owns/",
-          "sentiment": 0.3
+          "title": "Berkshire Hathaway's Only New Q3 Position Is a Company Few Investors Recognize",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/berkshire-bending-spoons-q3-new-position/",
+          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Fair",
@@ -10577,8 +10523,8 @@
       "dividendYield": 0.58,
       "marketCap": 114550988800,
       "score": 2.8,
-      "newsSentiment": 0.15,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.02,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "The Risk Morgan Stanley Watches at Seagate (STX)",
@@ -10591,12 +10537,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/12/seagates-legitimacy-as-a-play-on-ai-hardware-demand-is-about-to-be-tested/",
           "sentiment": 0.23
-        },
-        {
-          "title": "Seagate Technology Holdings (STX) Gains Fresh Backing As AI Storage Demand Tests Its Valuation",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/seagate-technology-holdings-stx-gains-011222679.html",
-          "sentiment": 0.51
         }
       ],
       "valuationLabel": "Cheap",
@@ -10987,16 +10927,16 @@
           "sentiment": 0.0
         },
         {
+          "title": "Top Analyst Reports for Taiwan Semiconductor, Johnson & Johnson and Palantir",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-taiwan-semiconductor-205900812.html",
+          "sentiment": 0.2
+        },
+        {
           "title": "Johnson & Johnson Stocks Edge Higher on $2.2 Billion Ollin Eye Deal",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-stocks-edge-higher-174813761.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Johnson & Johnson Agrees to Buy Ollin Biosciences in Up to $3.33 Billion Deal",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-agrees-buy-ollin-165031669.html",
-          "sentiment": 0.2
         }
       ],
       "valuationLabel": "Rich",
@@ -11177,14 +11117,14 @@
       "dividendYield": 2.51,
       "marketCap": 345562480640,
       "score": 3.8,
-      "newsSentiment": -0.06,
+      "newsSentiment": -0.05,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Warren Buffett\u2019s Berkshire Just Revealed a New Stock and Sold More Bank of America. Here\u2019s What a 68-Year-Old With 400 Shares Owns",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/16/warren-buffetts-berkshire-just-revealed-a-new-stock-and-sold-more-bank-of-america-heres-what-a-68-year-old-with-400-shares-owns/",
-          "sentiment": 0.3
+          "title": "Berkshire Boosts Lennar, Starts Bending Spoons, Trims Bank Of America In Q3",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/berkshire-boosts-lennar-starts-bending-spoons-trims-bank-of-america-in-q3/cNbJ2orR9g1",
+          "sentiment": 0.32
         },
         {
           "title": "A Third Outage Strikes, This Time at Chase, Big Banks. The Stocks Are Falling.",
@@ -11193,9 +11133,9 @@
           "sentiment": -0.48
         },
         {
-          "title": "Chase, Bank of America, other banks hit by online service outages",
-          "publisher": "USA TODAY",
-          "link": "https://finance.yahoo.com/video/chase-bank-america-other-banks-202654532.html",
+          "title": "Berkshire Sold Bank of America and VeriSign Stock in Q3, and Bought Lennar and Delta",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/berkshire-hathway-stock-bank-america-verisign-314f0bb5?siteid=yhoof2&yptr=yahoo",
           "sentiment": 0.0
         }
       ],
@@ -11321,26 +11261,26 @@
       "dividendYield": 1.09,
       "marketCap": 261052891136,
       "score": 2.8,
-      "newsSentiment": 0.08,
+      "newsSentiment": 0.1,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "What Has Changed In Caterpillar's Story?",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/stock/cat/articles/625206/what-has-changed-in-caterpillars-story/2026-11-16",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Michael Burry Buys More Of Adobe And MercadoLibre, Exits ORCL, CAT Puts",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-buys-more-of-adobe-and-mercado-libre-exits-orcl-cat-puts/cNbJcE0R9gK",
+          "sentiment": 0.0
+        },
         {
           "title": "Michael Burry Cashed In Caterpillar Puts After a Nearly 4x Gain Even as CAT Stock Fell 10% in Its Worst Week in 18 Months. Is Caterpillar Still Overvalued, or Did Burry Just Lock In the Easy Money?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/16/michael-burry-cashed-in-caterpillar-puts-after-a-nearly-4x-gain-even-as-cat-stock-fell-10-in-its-worst-week-in-18-months-is-caterpillar-still-overvalued-or-did-burry-just-lock-in-the-easy-money/",
           "sentiment": 0.3
-        },
-        {
-          "title": "Caterpillar (CAT) Stock Fair Value Falls As Analysts Cut Targets And Lift Rates",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-stock-fair-value-171207128.html",
-          "sentiment": 0.23
-        },
-        {
-          "title": "Caterpillar\u2019s 34% Slump Over 6 Months: Wall Street Desk Says It Sets Up 90% Gains Within a Year",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/16/caterpillars-34-slump-over-6-months-wall-street-desk-says-it-sets-up-90-gains-within-a-year/",
-          "sentiment": -0.27
         }
       ],
       "valuationLabel": "Cheap",
@@ -11421,9 +11361,15 @@
       "dividendYield": 0.0,
       "marketCap": 87102758912,
       "score": 8.5,
-      "newsSentiment": 0.31,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.08,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Is Moderna's Cancer Vaccine a Game Changer for the Stock?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/16/is-moderna-s-cancer-vaccine-a-game-changer-for-the-stock/",
+          "sentiment": -0.66
+        },
         {
           "title": "Moderna Is Up Over 600% This Year. Here\u2019s What Jim Cramer Learned in His Exclusive",
           "publisher": "24/7 Wall St.",
@@ -11435,12 +11381,6 @@
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/video/flagships-afeyan-sees-uk-bet-113516829.html",
           "sentiment": 0.3
-        },
-        {
-          "title": "Proshares Trust (TQQQ) Buys $72.9 Million More Moderna on Nov. 12",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/proshares-trust-tqqq-buys-72-110523472.html",
-          "sentiment": 0.51
         }
       ]
     },
@@ -11887,7 +11827,7 @@
     "costPerContract": 685.0
   },
   "market": {
-    "asOf": "2026-11-16T22:07:50.832254+00:00",
+    "asOf": "2026-11-16T23:29:57.168838+00:00",
     "gauges": [
       {
         "key": "qqq",
