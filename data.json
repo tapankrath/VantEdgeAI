@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T22:07:39.021782+00:00",
+  "generated_at": "2026-11-17T22:34:13.544440+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -72,7 +72,7 @@
         "expiryOI": 917439
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.2,
+      "newsSentiment": -0.16,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
@@ -86,12 +86,6 @@
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/crypto/markets/apple-pay-outage-blocks-instant-crypto-purchases",
           "sentiment": -0.32
-        },
-        {
-          "title": "Apple down live: iPhones stop working properly as iCloud taken down by \u2018internal update\u2019",
-          "publisher": "The Independent",
-          "link": "https://www.independent.co.uk/tech/apple-down-not-working-pay-icloud-music-app-store-iphone-status-b3086668.html",
-          "sentiment": -0.3
         }
       ],
       "volRegime": "Fair",
@@ -332,26 +326,26 @@
         "expiryOI": 357903
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.49,
+      "newsSentiment": 0.17,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "AMD, Broadcom, and TSMC stocks rise on Nvidia earnings beat",
+          "title": "AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html",
           "sentiment": 0.61
+        },
+        {
+          "title": "Nvidia earnings: Why Jensen turmoil won't have a near-term impact on the numbers",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/nvidia-earnings-why-jensen-turmoil-wont-have-a-near-term-impact-on-the-numbers-220936057.html",
+          "sentiment": -0.36
         },
         {
           "title": "Nvidia\u2019s Q3 earnings show its advantage as the bank of the AI boom",
           "publisher": "Yahoo Finance Video",
           "link": "https://finance.yahoo.com/video/nvidias-q3-earnings-show-its-advantage-as-the-bank-of-the-ai-boom-215423703.html",
           "sentiment": 0.25
-        },
-        {
-          "title": "Nvidia beats Q3 earnings expectations in first report without Jensen Huang",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/nvidia-beats-q3-earnings-expectations-in-first-report-without-jensen-huang-213316995.html",
-          "sentiment": 0.61
         }
       ],
       "volRegime": "Rich",
@@ -580,7 +574,7 @@
         "expiryOI": 38437
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.37,
+      "newsSentiment": 0.56,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -588,12 +582,6 @@
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/17/alphabet-amazon-better-ai-cloud-stock-5-years/",
           "sentiment": 0.56
-        },
-        {
-          "title": "Alphabet, Amazon, and Nvidia All Have a Stake in Anthropic. Here\u2019s the One I\u2019d Buy If I Could Only Pick 1.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/17/alphabet-amazon-and-nvidia-all-have-a-stake-in-anthropic-here-s-the-1-i-d-buy-if-i-could-only-pick-1/",
-          "sentiment": 0.18
         }
       ],
       "volRegime": "Cheap",
@@ -2903,8 +2891,8 @@
         "expiryOI": 184198
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.21,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
           "title": "AI industry is 'bigger than one person': Cisco CEO Chuck Robbins",
@@ -2913,15 +2901,15 @@
           "sentiment": 0.0
         },
         {
+          "title": "Cisco (CSCO) Stock Gets Fair Value Trim As Analysts Cut Targets After Strong Q1",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-stock-gets-fair-221008598.html",
+          "sentiment": 0.64
+        },
+        {
           "title": "Why Cisco Systems, Inc. (CSCO) Deserves a Place on Your Long-Term Technology Watch List",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/technology/articles/why-cisco-systems-inc-csco-202117829.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Cisco Systems & 2 Momentum Stocks to Buy Now for Big Upside",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-systems-2-momentum-stocks-190000090.html",
           "sentiment": 0.0
         }
       ],
@@ -3519,7 +3507,7 @@
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "AMD, Broadcom, and TSMC stocks rise on Nvidia earnings beat",
+          "title": "AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html",
           "sentiment": 0.61
@@ -3659,9 +3647,15 @@
         "expiryOI": 44118
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.01,
+      "newsSentiment": -0.01,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Arista Networks And 2 Other High Growth Stocks To Watch",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-2-other-high-220937929.html",
+          "sentiment": 0.38
+        },
         {
           "title": "Is Arista Networks (ANET) Fully Priced For Its AI Cash Flow?",
           "publisher": "Simply Wall St.",
@@ -3673,12 +3667,6 @@
           "publisher": "Trefis",
           "link": "https://www.trefis.com/stock/anet/articles/625838/why-did-arista-networks-stock-fall-5/2026-11-17",
           "sentiment": -0.4
-        },
-        {
-          "title": "Cisco Is Cheaper, Arista Is The Better Business",
-          "publisher": "Trefis",
-          "link": "https://www.trefis.com/stock/csco/articles/625629/cisco-is-cheaper-arista-is-the-better-business/2026-11-17",
-          "sentiment": 0.44
         }
       ],
       "volRegime": "Cheap",
@@ -3787,9 +3775,15 @@
         "expiryOI": 584481
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.07,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.31,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Is SK Hynix the Better Artificial Intelligence (AI) Memory Stock Compared With Micron?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/17/is-sk-hynix-the-better-artificial-intelligence-ai-memory-stock-compared-with-micron/",
+          "sentiment": 0.72
+        },
         {
           "title": "Why Is Micron Down? GF Securities Warns a \u201cNAND Glut\u201d Could Hit in 2027",
           "publisher": "TIKR",
@@ -3800,12 +3794,6 @@
           "title": "Why Micron Stock Keeps On Going Down",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/17/why-micron-stock-keeps-on-going-down/",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Micron Drops Again. What Hedge Funds Are Doing With the Stock.",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/micron-stock-price-hedge-funds-8e142dd5?siteid=yhoof2&yptr=yahoo",
           "sentiment": 0.0
         }
       ],
@@ -3907,6 +3895,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "Fund Manager Lists Three Reasons He Still Won\u2019t Buy Tesla Stock",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/fund-manager-lists-three-reasons-he-still-won-t-buy-tesla-stock/cNbOJB3R9hQ",
+          "sentiment": 0.0
+        },
+        {
           "title": "Tesla (TSLA) Is Spending \u20ac3 Billion To Expand Berlin Cybercab Production",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-spending-3-billion-201132630.html",
@@ -3916,12 +3910,6 @@
           "title": "Tesla Plans $3.3 Billion German Factory Expansion for Cybercab Production",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-plans-3-3-billion-185703321.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Tesla Stocks Decrease 0.51% Even as Texas Robotaxi Authorizations Jump 21% in 18 Days",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-decrease-0-51-182744286.html",
           "sentiment": 0.0
         }
       ],
@@ -4163,7 +4151,7 @@
         "expiryOI": 48084
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.37,
+      "newsSentiment": 0.56,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -4171,12 +4159,6 @@
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/17/alphabet-amazon-better-ai-cloud-stock-5-years/",
           "sentiment": 0.56
-        },
-        {
-          "title": "Alphabet, Amazon, and Nvidia All Have a Stake in Anthropic. Here\u2019s the One I\u2019d Buy If I Could Only Pick 1.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/17/alphabet-amazon-and-nvidia-all-have-a-stake-in-anthropic-here-s-the-1-i-d-buy-if-i-could-only-pick-1/",
-          "sentiment": 0.18
         }
       ],
       "volRegime": "Cheap",
@@ -4389,7 +4371,7 @@
         "expiryOI": 1187279
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.14,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -4399,16 +4381,16 @@
           "sentiment": 0.0
         },
         {
+          "title": "Intel shareholders sue CEO, CFO after stock rout",
+          "publisher": "CFO Dive",
+          "link": "https://www.cfodive.com/news/intel-shareholders-sue-ceo-cfo-stock-drop-ai-cpu/874979/",
+          "sentiment": 0.0
+        },
+        {
           "title": "Why Intel Stock Just Dropped",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/17/why-intel-stock-just-dropped/",
           "sentiment": 0.0
-        },
-        {
-          "title": "Intel Stocks Fall 2.01% as Nvidia Cuts Stake 25% and Shareholders Sue",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stocks-fall-2-01-190632129.html",
-          "sentiment": -0.42
         }
       ],
       "volRegime": "Cheap",
@@ -4964,26 +4946,26 @@
         "expiryOI": 235161
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.04,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.24,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "What Is SK hynix (NasdaqGS:SKHY) Really Aiming For With Its $1 Billion Chip Push?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/articles/sk-hynix-nasdaqgs-skhy-really-220914267.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Is SK Hynix the Better Artificial Intelligence (AI) Memory Stock Compared With Micron?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/17/is-sk-hynix-the-better-artificial-intelligence-ai-memory-stock-compared-with-micron/",
+          "sentiment": 0.72
+        },
         {
           "title": "SK hynix Stocks Fall 1.96% as DRAM Price-Fixing Suit Advances and Kospi Drops",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stocks-fall-1-190411984.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Qualcomm vs. SK Hynix: Stable Revenue vs. Rapid Acceleration",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/coverage/charts/2026/11/17/qualcomm-vs-sk-hynix-stable-revenue-vs-rapid-acceleration/",
-          "sentiment": 0.3
-        },
-        {
-          "title": "Micron, SanDisk and SK Hynix Face New Warning From Wall Street",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-sandisk-sk-hynix-face-174959688.html",
-          "sentiment": -0.42
         }
       ],
       "volRegime": "Cheap",
@@ -5456,20 +5438,14 @@
         "expiryOI": 80458
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.01,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.38,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
           "title": "Western Digital (WDC) Just Replaced Its Loan With A $1.5 Billion Credit Line",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-wdc-just-replaced-141106157.html",
           "sentiment": 0.38
-        },
-        {
-          "title": "Stanley Druckenmiller Nearly Tripled His Seagate Stake, Bought Western Digital and Sold All of His SanDisk. All Three Stocks Have Fallen Since",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/17/stanley-druckenmiller-nearly-tripled-his-seagate-stake-bought-western-digital-and-sold-all-of-his-sandisk-all-three-stocks-have-fallen-since/",
-          "sentiment": -0.36
         }
       ],
       "volRegime": "Cheap",
@@ -7821,9 +7797,15 @@
         "expiryOI": 532097
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.32,
+      "newsSentiment": 0.47,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html",
+          "sentiment": 0.61
+        },
         {
           "title": "CoreWeave Stock Is Down 70% From Its High. Could a Huge Rebound Come in 2027?",
           "publisher": "Motley Fool",
@@ -8438,7 +8420,7 @@
       "dividendYield": 0.31,
       "marketCap": 5114019971072,
       "score": 7.8,
-      "newsSentiment": -0.2,
+      "newsSentiment": -0.16,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
@@ -8452,12 +8434,6 @@
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/crypto/markets/apple-pay-outage-blocks-instant-crypto-purchases",
           "sentiment": -0.32
-        },
-        {
-          "title": "Apple down live: iPhones stop working properly as iCloud taken down by \u2018internal update\u2019",
-          "publisher": "The Independent",
-          "link": "https://www.independent.co.uk/tech/apple-down-not-working-pay-icloud-music-app-store-iphone-status-b3086668.html",
-          "sentiment": -0.3
         }
       ],
       "valuationLabel": "Rich",
@@ -8538,26 +8514,26 @@
       "dividendYield": 0.64,
       "marketCap": 3753892642816,
       "score": 2.8,
-      "newsSentiment": 0.49,
+      "newsSentiment": 0.17,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "AMD, Broadcom, and TSMC stocks rise on Nvidia earnings beat",
+          "title": "AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html",
           "sentiment": 0.61
+        },
+        {
+          "title": "Nvidia earnings: Why Jensen turmoil won't have a near-term impact on the numbers",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/nvidia-earnings-why-jensen-turmoil-wont-have-a-near-term-impact-on-the-numbers-220936057.html",
+          "sentiment": -0.36
         },
         {
           "title": "Nvidia\u2019s Q3 earnings show its advantage as the bank of the AI boom",
           "publisher": "Yahoo Finance Video",
           "link": "https://finance.yahoo.com/video/nvidias-q3-earnings-show-its-advantage-as-the-bank-of-the-ai-boom-215423703.html",
           "sentiment": 0.25
-        },
-        {
-          "title": "Nvidia beats Q3 earnings expectations in first report without Jensen Huang",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/nvidia-beats-q3-earnings-expectations-in-first-report-without-jensen-huang-213316995.html",
-          "sentiment": 0.61
         }
       ],
       "valuationLabel": "Cheap",
@@ -8626,7 +8602,7 @@
       "dividendYield": 0.31,
       "marketCap": 3412814462976,
       "score": 2.8,
-      "newsSentiment": 0.37,
+      "newsSentiment": 0.56,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -8634,12 +8610,6 @@
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/17/alphabet-amazon-better-ai-cloud-stock-5-years/",
           "sentiment": 0.56
-        },
-        {
-          "title": "Alphabet, Amazon, and Nvidia All Have a Stake in Anthropic. Here\u2019s the One I\u2019d Buy If I Could Only Pick 1.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/17/alphabet-amazon-and-nvidia-all-have-a-stake-in-anthropic-here-s-the-1-i-d-buy-if-i-could-only-pick-1/",
-          "sentiment": 0.18
         }
       ],
       "valuationLabel": "Cheap",
@@ -9549,8 +9519,8 @@
       "dividendYield": 1.78,
       "marketCap": 374446194688,
       "score": 2.9,
-      "newsSentiment": 0.0,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.21,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
           "title": "AI industry is 'bigger than one person': Cisco CEO Chuck Robbins",
@@ -9559,15 +9529,15 @@
           "sentiment": 0.0
         },
         {
+          "title": "Cisco (CSCO) Stock Gets Fair Value Trim As Analysts Cut Targets After Strong Q1",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-stock-gets-fair-221008598.html",
+          "sentiment": 0.64
+        },
+        {
           "title": "Why Cisco Systems, Inc. (CSCO) Deserves a Place on Your Long-Term Technology Watch List",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/technology/articles/why-cisco-systems-inc-csco-202117829.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Cisco Systems & 2 Momentum Stocks to Buy Now for Big Upside",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-systems-2-momentum-stocks-190000090.html",
           "sentiment": 0.0
         }
       ],
@@ -9791,7 +9761,7 @@
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "AMD, Broadcom, and TSMC stocks rise on Nvidia earnings beat",
+          "title": "AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html",
           "sentiment": 0.61
@@ -9837,9 +9807,15 @@
       "dividendYield": 0.0,
       "marketCap": 235523473408,
       "score": 6.9,
-      "newsSentiment": 0.01,
+      "newsSentiment": -0.01,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Arista Networks And 2 Other High Growth Stocks To Watch",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-2-other-high-220937929.html",
+          "sentiment": 0.38
+        },
         {
           "title": "Is Arista Networks (ANET) Fully Priced For Its AI Cash Flow?",
           "publisher": "Simply Wall St.",
@@ -9851,12 +9827,6 @@
           "publisher": "Trefis",
           "link": "https://www.trefis.com/stock/anet/articles/625838/why-did-arista-networks-stock-fall-5/2026-11-17",
           "sentiment": -0.4
-        },
-        {
-          "title": "Cisco Is Cheaper, Arista Is The Better Business",
-          "publisher": "Trefis",
-          "link": "https://www.trefis.com/stock/csco/articles/625629/cisco-is-cheaper-arista-is-the-better-business/2026-11-17",
-          "sentiment": 0.44
         }
       ],
       "valuationLabel": "Rich",
@@ -9887,9 +9857,15 @@
       "dividendYield": 0.08,
       "marketCap": 806048497664,
       "score": 4.0,
-      "newsSentiment": 0.07,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.31,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Is SK Hynix the Better Artificial Intelligence (AI) Memory Stock Compared With Micron?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/17/is-sk-hynix-the-better-artificial-intelligence-ai-memory-stock-compared-with-micron/",
+          "sentiment": 0.72
+        },
         {
           "title": "Why Is Micron Down? GF Securities Warns a \u201cNAND Glut\u201d Could Hit in 2027",
           "publisher": "TIKR",
@@ -9900,12 +9876,6 @@
           "title": "Why Micron Stock Keeps On Going Down",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/17/why-micron-stock-keeps-on-going-down/",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Micron Drops Again. What Hedge Funds Are Doing With the Stock.",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/micron-stock-price-hedge-funds-8e142dd5?siteid=yhoof2&yptr=yahoo",
           "sentiment": 0.0
         }
       ],
@@ -9941,6 +9911,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "Fund Manager Lists Three Reasons He Still Won\u2019t Buy Tesla Stock",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/fund-manager-lists-three-reasons-he-still-won-t-buy-tesla-stock/cNbOJB3R9hQ",
+          "sentiment": 0.0
+        },
+        {
           "title": "Tesla (TSLA) Is Spending \u20ac3 Billion To Expand Berlin Cybercab Production",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-spending-3-billion-201132630.html",
@@ -9950,12 +9926,6 @@
           "title": "Tesla Plans $3.3 Billion German Factory Expansion for Cybercab Production",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-plans-3-3-billion-185703321.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Tesla Stocks Decrease 0.51% Even as Texas Robotaxi Authorizations Jump 21% in 18 Days",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-decrease-0-51-182744286.html",
           "sentiment": 0.0
         }
       ],
@@ -10041,7 +10011,7 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "AMD, Broadcom, and TSMC stocks rise on Nvidia earnings beat",
+          "title": "AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html",
           "sentiment": 0.61
@@ -10087,7 +10057,7 @@
       "dividendYield": 0.31,
       "marketCap": 3444778729472,
       "score": 2.8,
-      "newsSentiment": 0.37,
+      "newsSentiment": 0.56,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -10095,12 +10065,6 @@
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/17/alphabet-amazon-better-ai-cloud-stock-5-years/",
           "sentiment": 0.56
-        },
-        {
-          "title": "Alphabet, Amazon, and Nvidia All Have a Stake in Anthropic. Here\u2019s the One I\u2019d Buy If I Could Only Pick 1.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/17/alphabet-amazon-and-nvidia-all-have-a-stake-in-anthropic-here-s-the-1-i-d-buy-if-i-could-only-pick-1/",
-          "sentiment": 0.18
         }
       ],
       "valuationLabel": "Cheap",
@@ -10181,7 +10145,7 @@
       "dividendYield": 0.0,
       "marketCap": 293228544000,
       "score": 2.2,
-      "newsSentiment": -0.14,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -10191,16 +10155,16 @@
           "sentiment": 0.0
         },
         {
+          "title": "Intel shareholders sue CEO, CFO after stock rout",
+          "publisher": "CFO Dive",
+          "link": "https://www.cfodive.com/news/intel-shareholders-sue-ceo-cfo-stock-drop-ai-cpu/874979/",
+          "sentiment": 0.0
+        },
+        {
           "title": "Why Intel Stock Just Dropped",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/17/why-intel-stock-just-dropped/",
           "sentiment": 0.0
-        },
-        {
-          "title": "Intel Stocks Fall 2.01% as Nvidia Cuts Stake 25% and Shareholders Sue",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stocks-fall-2-01-190632129.html",
-          "sentiment": -0.42
         }
       ]
     },
@@ -10427,26 +10391,26 @@
       "dividendYield": 0.09,
       "marketCap": 864612974592,
       "score": 3.9,
-      "newsSentiment": -0.04,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.24,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "What Is SK hynix (NasdaqGS:SKHY) Really Aiming For With Its $1 Billion Chip Push?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/articles/sk-hynix-nasdaqgs-skhy-really-220914267.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Is SK Hynix the Better Artificial Intelligence (AI) Memory Stock Compared With Micron?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/17/is-sk-hynix-the-better-artificial-intelligence-ai-memory-stock-compared-with-micron/",
+          "sentiment": 0.72
+        },
         {
           "title": "SK hynix Stocks Fall 1.96% as DRAM Price-Fixing Suit Advances and Kospi Drops",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stocks-fall-1-190411984.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Qualcomm vs. SK Hynix: Stable Revenue vs. Rapid Acceleration",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/coverage/charts/2026/11/17/qualcomm-vs-sk-hynix-stable-revenue-vs-rapid-acceleration/",
-          "sentiment": 0.3
-        },
-        {
-          "title": "Micron, SanDisk and SK Hynix Face New Warning From Wall Street",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-sandisk-sk-hynix-face-174959688.html",
-          "sentiment": -0.42
         }
       ],
       "valuationLabel": "Cheap",
@@ -10627,20 +10591,14 @@
       "dividendYield": 0.25,
       "marketCap": 106057007104,
       "score": 2.8,
-      "newsSentiment": 0.01,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.38,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
           "title": "Western Digital (WDC) Just Replaced Its Loan With A $1.5 Billion Credit Line",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-wdc-just-replaced-141106157.html",
           "sentiment": 0.38
-        },
-        {
-          "title": "Stanley Druckenmiller Nearly Tripled His Seagate Stake, Bought Western Digital and Sold All of His SanDisk. All Three Stocks Have Fallen Since",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/17/stanley-druckenmiller-nearly-tripled-his-seagate-stake-bought-western-digital-and-sold-all-of-his-sandisk-all-three-stocks-have-fallen-since/",
-          "sentiment": -0.36
         }
       ],
       "valuationLabel": "Cheap",
@@ -11591,9 +11549,15 @@
       "dividendYield": 0.0,
       "marketCap": 27745110016,
       "score": 2.2,
-      "newsSentiment": 0.32,
+      "newsSentiment": 0.47,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html",
+          "sentiment": 0.61
+        },
         {
           "title": "CoreWeave Stock Is Down 70% From Its High. Could a Huge Rebound Come in 2027?",
           "publisher": "Motley Fool",
@@ -11851,7 +11815,7 @@
     "costPerContract": 725.0
   },
   "market": {
-    "asOf": "2026-11-17T22:07:39.021766+00:00",
+    "asOf": "2026-11-17T22:34:13.544425+00:00",
     "gauges": [
       {
         "key": "qqq",
