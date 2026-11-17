@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T20:47:05.509179+00:00",
+  "generated_at": "2026-11-17T19:32:29.948285+00:00",
   "source": "yfinance screener (unofficial, free)",
   "criteria": {
     "min_market_cap": 100000000000,
@@ -9,7 +9,7 @@
       "NYQ"
     ],
     "ranked_by": "avg daily dollar volume (3-month)",
-    "candidates_above_min_cap": 163,
+    "candidates_above_min_cap": 160,
     "min_expiry_open_interest": 20000,
     "options_gate": "applied",
     "momentum_pool_min_market_cap": 20000000000
@@ -19,14 +19,14 @@
     "MU",
     "AAPL",
     "TSLA",
-    "META",
     "SPCX",
+    "META",
     "AMD",
     "MSFT",
     "AMZN",
-    "SNDK",
-    "GOOGL",
     "AVGO",
+    "GOOGL",
+    "SNDK",
     "INTC",
     "TSM",
     "PLTR",
@@ -34,610 +34,610 @@
     "LLY",
     "MRVL",
     "WMT",
-    "V",
     "BRK-B",
+    "V",
     "DELL",
+    "COST",
     "SKHY",
     "AMAT",
-    "COST",
     "STX",
     "JPM",
-    "CRM",
     "XOM",
-    "CRWD",
     "WDC",
+    "CRWD",
     "NFLX",
     "GEV",
-    "QCOM",
+    "CRM",
     "LRCX",
-    "UNH",
+    "QCOM",
     "APP",
+    "UNH",
     "ASML",
-    "JNJ",
     "TXN",
+    "JNJ",
     "MA",
-    "PANW",
     "GS",
+    "PANW",
     "BAC",
     "CVX",
     "MDT",
     "CSCO",
     "CAT",
     "KO",
-    "HD",
+    "PG",
     "MRNA",
     "GMAB",
     "U",
     "CBRS",
     "CRWV",
+    "HUM",
     "CCJ",
-    "BBY",
     "BIDU",
     "CRDO",
-    "CNC"
+    "COIN"
   ],
   "details": [
     {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
-      "marketCap": 3756307251200.0,
-      "avgDollarVolume": 22732707087.36,
-      "price": 155.56,
-      "ma50": 214.6472,
-      "ma200": 204.1908
+      "marketCap": 3704270356480.0,
+      "avgDollarVolume": 22992344161.29,
+      "price": 153.405,
+      "ma50": 213.1628,
+      "ma200": 204.01585
     },
     {
       "symbol": "MU",
       "name": "Micron Technology, Inc.",
-      "marketCap": 813493321728.0,
-      "avgDollarVolume": 19909134446.0,
-      "price": 719.0,
-      "ma50": 943.7766,
-      "ma200": 765.60645
+      "marketCap": 787776077824.0,
+      "avgDollarVolume": 19208049925.17,
+      "price": 696.27,
+      "ma50": 937.8252,
+      "ma200": 767.12714
     },
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "marketCap": 5113584287744.0,
-      "avgDollarVolume": 15046588667.84,
-      "price": 351.88,
-      "ma50": 339.0364,
-      "ma200": 301.2529
+      "marketCap": 5091204530176.0,
+      "avgDollarVolume": 15023535978.539999,
+      "price": 350.34,
+      "ma50": 339.6926,
+      "ma200": 301.7194
     },
     {
       "symbol": "TSLA",
       "name": "Tesla, Inc.",
-      "marketCap": 1493312471040.0,
-      "avgDollarVolume": 14221175415.300001,
-      "price": 377.79,
-      "ma50": 374.7406,
-      "ma200": 382.7309
-    },
-    {
-      "symbol": "META",
-      "name": "Meta Platforms, Inc.",
-      "marketCap": 1601242267648.0,
-      "avgDollarVolume": 13305923375.029999,
-      "price": 626.405,
-      "ma50": 679.8062,
-      "ma200": 630.7674
+      "marketCap": 1500909666304.0,
+      "avgDollarVolume": 14318705617.407999,
+      "price": 379.712,
+      "ma50": 375.2538,
+      "ma200": 382.47754
     },
     {
       "symbol": "SPCX",
       "name": "Space Exploration Technologies ",
-      "marketCap": 1897750069248.0,
-      "avgDollarVolume": 13277992932.185001,
-      "price": 139.735,
-      "ma50": 148.9046,
-      "ma200": 144.96602
+      "marketCap": 1912655314944.0,
+      "avgDollarVolume": 13350697357.990002,
+      "price": 140.8325,
+      "ma50": 148.6928,
+      "ma200": 144.89624
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "marketCap": 1583910879232.0,
+      "avgDollarVolume": 13107100500.375,
+      "price": 619.625,
+      "ma50": 679.999,
+      "ma200": 630.31696
     },
     {
       "symbol": "AMD",
       "name": "Advanced Micro Devices, Inc.",
-      "marketCap": 828367110144.0,
-      "avgDollarVolume": 12455285870.25,
-      "price": 505.075,
-      "ma50": 554.5522,
-      "ma200": 423.11804
+      "marketCap": 811760025600.0,
+      "avgDollarVolume": 12218176154.730001,
+      "price": 490.47,
+      "ma50": 555.0864,
+      "ma200": 424.4558
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft Corporation",
-      "marketCap": 3848884977664.0,
-      "avgDollarVolume": 12033287170.349998,
-      "price": 518.285,
-      "ma50": 518.9972,
-      "ma200": 441.4194
+      "marketCap": 3757579960320.0,
+      "avgDollarVolume": 11752542699.72,
+      "price": 505.99,
+      "ma50": 519.363,
+      "ma200": 441.8579
     },
     {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc.",
-      "marketCap": 2789032591360.0,
-      "avgDollarVolume": 10137006748.91,
-      "price": 257.93,
-      "ma50": 254.8116,
-      "ma200": 244.5955
-    },
-    {
-      "symbol": "SNDK",
-      "name": "Sandisk Corporation",
-      "marketCap": 115322298368.0,
-      "avgDollarVolume": 8666457272.7417,
-      "price": 810.4773,
-      "ma50": 1441.4293,
-      "ma200": 1282.4338
-    },
-    {
-      "symbol": "GOOGL",
-      "name": "Alphabet Inc.",
-      "marketCap": 3498749198336.0,
-      "avgDollarVolume": 8460206427.589999,
-      "price": 284.59,
-      "ma50": 328.1858,
-      "ma200": 338.48035
+      "marketCap": 2773569765376.0,
+      "avgDollarVolume": 10097000919.0,
+      "price": 256.5,
+      "ma50": 254.7964,
+      "ma200": 244.68774
     },
     {
       "symbol": "AVGO",
       "name": "Broadcom Inc.",
-      "marketCap": 1586253398016.0,
-      "avgDollarVolume": 8401422127.785001,
-      "price": 332.295,
-      "ma50": 345.3826,
-      "ma200": 367.42365
+      "marketCap": 1612031066112.0,
+      "avgDollarVolume": 8569959547.95,
+      "price": 337.695,
+      "ma50": 344.8926,
+      "ma200": 367.43414
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "marketCap": 3446376759296.0,
+      "avgDollarVolume": 8405566098.2,
+      "price": 280.33,
+      "ma50": 327.091,
+      "ma200": 338.20895
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk Corporation",
+      "marketCap": 112497524736.0,
+      "avgDollarVolume": 8384341728.125,
+      "price": 790.625,
+      "ma50": 1422.8115,
+      "ma200": 1283.5981
     },
     {
       "symbol": "INTC",
       "name": "Intel Corporation",
-      "marketCap": 294291013632.0,
-      "avgDollarVolume": 6374749820.4061,
-      "price": 55.3699,
-      "ma50": 94.9734,
-      "ma200": 87.3992
+      "marketCap": 284937158656.0,
+      "avgDollarVolume": 6184475440.0199995,
+      "price": 53.61,
+      "ma50": 94.1668,
+      "ma200": 87.4442
     },
     {
       "symbol": "TSM",
       "name": "Taiwan Semiconductor Manufactur",
-      "marketCap": 1936966156288.0,
-      "avgDollarVolume": 4321235416.505,
-      "price": 373.465,
-      "ma50": 430.1094,
-      "ma200": 403.05206
+      "marketCap": 1866092904448.0,
+      "avgDollarVolume": 4219552701.0,
+      "price": 359.8,
+      "ma50": 429.0002,
+      "ma200": 403.2665
     },
     {
       "symbol": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "marketCap": 384567869440.0,
-      "avgDollarVolume": 4108394539.47,
-      "price": 159.605,
-      "ma50": 184.7894,
-      "ma200": 153.72282
+      "marketCap": 378411614208.0,
+      "avgDollarVolume": 4025665948.05,
+      "price": 157.05,
+      "ma50": 184.5106,
+      "ma200": 153.79182
     },
     {
       "symbol": "ORCL",
       "name": "Oracle Corporation",
-      "marketCap": 370087526400.0,
-      "avgDollarVolume": 3964608946.085,
-      "price": 118.705,
-      "ma50": 136.6668,
-      "ma200": 154.11345
+      "marketCap": 356743741440.0,
+      "avgDollarVolume": 3820671575.35,
+      "price": 114.425,
+      "ma50": 135.873,
+      "ma200": 153.886
     },
     {
       "symbol": "LLY",
       "name": "Eli Lilly and Company",
-      "marketCap": 1274887667712.0,
-      "avgDollarVolume": 3681575710.12,
-      "price": 1431.26,
-      "ma50": 1241.0784,
-      "ma200": 1109.3241
+      "marketCap": 1252253892608.0,
+      "avgDollarVolume": 3646975936.5499997,
+      "price": 1405.85,
+      "ma50": 1246.7246,
+      "ma200": 1111.2968
     },
     {
       "symbol": "MRVL",
       "name": "Marvell Technology, Inc.",
-      "marketCap": 130830458880.0,
-      "avgDollarVolume": 3572056453.68,
-      "price": 145.405,
-      "ma50": 229.2058,
-      "ma200": 186.99866
+      "marketCap": 130839904256.0,
+      "avgDollarVolume": 3573184129.4735003,
+      "price": 145.4155,
+      "ma50": 227.642,
+      "ma200": 187.33086
     },
     {
       "symbol": "WMT",
       "name": "Walmart Inc.",
-      "marketCap": 1021150363648.0,
-      "avgDollarVolume": 3076932141.3952003,
-      "price": 128.3162,
-      "ma50": 114.5376,
-      "ma200": 118.93405
-    },
-    {
-      "symbol": "V",
-      "name": "Visa Inc.",
-      "marketCap": 794812153856.0,
-      "avgDollarVolume": 2783791827.2400002,
-      "price": 425.99,
-      "ma50": 390.3626,
-      "ma200": 347.06546
+      "marketCap": 1014933618688.0,
+      "avgDollarVolume": 3057502536.585,
+      "price": 127.535,
+      "ma50": 114.963,
+      "ma200": 118.9804
     },
     {
       "symbol": "BRK-B",
       "name": "Berkshire Hathaway Inc. New",
-      "marketCap": 1258735140864.0,
-      "avgDollarVolume": 2742871348.0,
-      "price": 592.48,
-      "ma50": 529.6578,
-      "ma200": 500.434
+      "marketCap": 1256125759488.0,
+      "avgDollarVolume": 2727603008.8824,
+      "price": 591.2518,
+      "ma50": 531.3942,
+      "ma200": 500.9956
+    },
+    {
+      "symbol": "V",
+      "name": "Visa Inc.",
+      "marketCap": 782637793280.0,
+      "avgDollarVolume": 2687747994.33,
+      "price": 419.465,
+      "ma50": 391.3904,
+      "ma200": 347.5886
     },
     {
       "symbol": "DELL",
       "name": "Dell Technologies Inc.",
-      "marketCap": 203181342720.0,
-      "avgDollarVolume": 2570754514.6464,
-      "price": 319.5616,
-      "ma50": 493.5002,
-      "ma200": 343.4004
-    },
-    {
-      "symbol": "SKHY",
-      "name": "SK hynix Inc.",
-      "marketCap": 865670725632.0,
-      "avgDollarVolume": 2524487953.6800003,
-      "price": 122.76,
-      "ma50": 164.0038,
-      "ma200": 160.60645
-    },
-    {
-      "symbol": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "marketCap": 278552707072.0,
-      "avgDollarVolume": 2521955709.0,
-      "price": 351.0,
-      "ma50": 437.909,
-      "ma200": 446.5395
+      "marketCap": 202741596160.0,
+      "avgDollarVolume": 2580723963.54,
+      "price": 318.87,
+      "ma50": 489.4284,
+      "ma200": 344.43094
     },
     {
       "symbol": "COST",
       "name": "Costco Wholesale Corporation",
-      "marketCap": 492396478464.0,
-      "avgDollarVolume": 2468935286.7200003,
-      "price": 1111.18,
-      "ma50": 967.1162,
-      "ma200": 975.6846
+      "marketCap": 494113619968.0,
+      "avgDollarVolume": 2508932847.915,
+      "price": 1115.055,
+      "ma50": 971.0762,
+      "ma200": 976.552
+    },
+    {
+      "symbol": "SKHY",
+      "name": "SK hynix Inc.",
+      "marketCap": 853894299648.0,
+      "avgDollarVolume": 2484389120.29,
+      "price": 121.09,
+      "ma50": 162.9074,
+      "ma200": 160.18417
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "marketCap": 271854731264.0,
+      "avgDollarVolume": 2447901901.92,
+      "price": 342.56,
+      "ma50": 435.8198,
+      "ma200": 446.67914
     },
     {
       "symbol": "STX",
       "name": "Seagate Technology Holdings PLC",
-      "marketCap": 114443100160.0,
-      "avgDollarVolume": 2402657358.52,
-      "price": 498.53,
-      "ma50": 740.6056,
-      "ma200": 701.0386
+      "marketCap": 113956429824.0,
+      "avgDollarVolume": 2393548535.9700003,
+      "price": 496.41,
+      "ma50": 733.6,
+      "ma200": 701.4952
     },
     {
       "symbol": "JPM",
       "name": "JP Morgan Chase & Co.",
-      "marketCap": 896719716352.0,
-      "avgDollarVolume": 2400332260.05,
-      "price": 337.67,
-      "ma50": 340.4226,
-      "ma200": 324.8612
-    },
-    {
-      "symbol": "CRM",
-      "name": "Salesforce, Inc.",
-      "marketCap": 177372971008.0,
-      "avgDollarVolume": 2387976255.36,
-      "price": 215.52,
-      "ma50": 235.277,
-      "ma200": 197.98586
+      "marketCap": 876523814912.0,
+      "avgDollarVolume": 2356310270.32,
+      "price": 330.065,
+      "ma50": 340.014,
+      "ma200": 325.0228
     },
     {
       "symbol": "XOM",
       "name": "ExxonMobil Holdings Corporation",
-      "marketCap": 680944599040.0,
-      "avgDollarVolume": 2279908239.1,
-      "price": 166.93,
-      "ma50": 169.3786,
-      "ma200": 156.36095
-    },
-    {
-      "symbol": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "marketCap": 228818714624.0,
-      "avgDollarVolume": 2250144011.7,
-      "price": 223.47,
-      "ma50": 244.9208,
-      "ma200": 173.0462
+      "marketCap": 681128230912.0,
+      "avgDollarVolume": 2284248723.4,
+      "price": 166.975,
+      "ma50": 169.5266,
+      "ma200": 156.4883
     },
     {
       "symbol": "WDC",
       "name": "Western Digital Corporation",
-      "marketCap": 105061318656.0,
-      "avgDollarVolume": 2244851987.3,
-      "price": 280.67,
-      "ma50": 391.7184,
-      "ma200": 421.98456
+      "marketCap": 104701960192.0,
+      "avgDollarVolume": 2225606038.14,
+      "price": 279.71,
+      "ma50": 387.9878,
+      "ma200": 422.13806
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "marketCap": 224999456768.0,
+      "avgDollarVolume": 2212421206.6600003,
+      "price": 219.74,
+      "ma50": 245.123,
+      "ma200": 173.61049
     },
     {
       "symbol": "NFLX",
       "name": "Netflix, Inc.",
-      "marketCap": 249274531840.0,
-      "avgDollarVolume": 2240964108.315,
-      "price": 60.705,
-      "ma50": 69.1846,
-      "ma200": 80.49785
+      "marketCap": 244572782592.0,
+      "avgDollarVolume": 2203527799.88,
+      "price": 59.56,
+      "ma50": 68.8346,
+      "ma200": 80.38415
     },
     {
       "symbol": "GEV",
       "name": "GE Vernova Inc.",
-      "marketCap": 201945956352.0,
-      "avgDollarVolume": 2175959736.15,
-      "price": 762.99,
-      "ma50": 913.1826,
-      "ma200": 951.7886
+      "marketCap": 202864394240.0,
+      "avgDollarVolume": 2202975427.6600003,
+      "price": 766.46,
+      "ma50": 909.615,
+      "ma200": 951.97455
     },
     {
-      "symbol": "QCOM",
-      "name": "QUALCOMM Incorporated",
-      "marketCap": 181236613120.0,
-      "avgDollarVolume": 2155558166.46,
-      "price": 169.38,
-      "ma50": 178.7328,
-      "ma200": 170.1998
+      "symbol": "CRM",
+      "name": "Salesforce, Inc.",
+      "marketCap": 162015772672.0,
+      "avgDollarVolume": 2153283421.56,
+      "price": 196.86,
+      "ma50": 234.389,
+      "ma200": 197.99855
     },
     {
       "symbol": "LRCX",
       "name": "Lam Research Corporation",
-      "marketCap": 263350222848.0,
-      "avgDollarVolume": 2149024238.9,
-      "price": 210.82,
-      "ma50": 277.662,
-      "ma200": 283.87177
+      "marketCap": 258066219008.0,
+      "avgDollarVolume": 2118096409.63,
+      "price": 206.59,
+      "ma50": 275.7256,
+      "ma200": 283.7586
     },
     {
-      "symbol": "UNH",
-      "name": "UnitedHealth Group Incorporated",
-      "marketCap": 367808315392.0,
-      "avgDollarVolume": 2147801490.63,
-      "price": 410.49,
-      "ma50": 391.4284,
-      "ma200": 366.43726
+      "symbol": "QCOM",
+      "name": "QUALCOMM Incorporated",
+      "marketCap": 177095688192.0,
+      "avgDollarVolume": 2113713148.59,
+      "price": 165.51,
+      "ma50": 178.7284,
+      "ma200": 170.28445
     },
     {
       "symbol": "APP",
       "name": "Applovin Corporation",
-      "marketCap": 136749834240.0,
-      "avgDollarVolume": 2134243457.1000001,
-      "price": 412.74,
-      "ma50": 302.1326,
-      "ma200": 405.79434
+      "marketCap": 133542641664.0,
+      "avgDollarVolume": 2075125389.68,
+      "price": 403.06,
+      "ma50": 304.0258,
+      "ma200": 405.5049
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "marketCap": 351644090368.0,
+      "avgDollarVolume": 2048061939.6499999,
+      "price": 392.45,
+      "ma50": 391.726,
+      "ma200": 367.0627
     },
     {
       "symbol": "ASML",
       "name": "ASML Holding N.V. - New York Re",
-      "marketCap": 544294600704.0,
-      "avgDollarVolume": 2062526126.7,
-      "price": 1412.22,
-      "ma50": 1660.4932,
-      "ma200": 1602.2136
-    },
-    {
-      "symbol": "JNJ",
-      "name": "Johnson & Johnson",
-      "marketCap": 681067610112.0,
-      "avgDollarVolume": 2005856340.1864002,
-      "price": 282.9164,
-      "ma50": 266.864,
-      "ma200": 249.7865
+      "marketCap": 524191268864.0,
+      "avgDollarVolume": 1992822474.76,
+      "price": 1360.06,
+      "ma50": 1654.3314,
+      "ma200": 1602.1326
     },
     {
       "symbol": "TXN",
       "name": "Texas Instruments Incorporated",
-      "marketCap": 268895174656.0,
-      "avgDollarVolume": 2003468730.09,
-      "price": 294.27,
-      "ma50": 283.8708,
-      "ma200": 264.7731
+      "marketCap": 266985406464.0,
+      "avgDollarVolume": 1992660587.68,
+      "price": 292.18,
+      "ma50": 284.5862,
+      "ma200": 265.1664
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "marketCap": 671808094208.0,
+      "avgDollarVolume": 1989862588.45,
+      "price": 279.07,
+      "ma50": 267.0104,
+      "ma200": 250.063
     },
     {
       "symbol": "MA",
       "name": "Mastercard Incorporated",
-      "marketCap": 576997359616.0,
-      "avgDollarVolume": 1976121133.2,
-      "price": 662.32,
-      "ma50": 600.054,
-      "ma200": 542.05023
-    },
-    {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks, Inc.",
-      "marketCap": 258890940416.0,
-      "avgDollarVolume": 1927807241.0301,
-      "price": 316.1943,
-      "ma50": 367.5042,
-      "ma200": 277.23306
+      "marketCap": 566660890624.0,
+      "avgDollarVolume": 1934423249.0700002,
+      "price": 650.455,
+      "ma50": 601.704,
+      "ma200": 542.66486
     },
     {
       "symbol": "GS",
       "name": "Goldman Sachs Group, Inc. (The)",
-      "marketCap": 256067895296.0,
-      "avgDollarVolume": 1877579159.855,
-      "price": 887.785,
-      "ma50": 921.8832,
-      "ma200": 955.7769
+      "marketCap": 251846672384.0,
+      "avgDollarVolume": 1890491991.0,
+      "price": 873.15,
+      "ma50": 918.9418,
+      "ma200": 955.55756
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks, Inc.",
+      "marketCap": 252189868032.0,
+      "avgDollarVolume": 1878489847.95,
+      "price": 308.01,
+      "ma50": 367.1608,
+      "ma200": 277.92865
     },
     {
       "symbol": "BAC",
       "name": "Bank of America Corporation",
-      "marketCap": 344975933440.0,
-      "avgDollarVolume": 1866186012.735,
-      "price": 49.995,
-      "ma50": 54.0708,
-      "ma200": 54.85635
+      "marketCap": 340352827392.0,
+      "avgDollarVolume": 1843736093.4750001,
+      "price": 49.325,
+      "ma50": 53.8188,
+      "ma200": 54.84075
     },
     {
       "symbol": "CVX",
       "name": "Chevron Corporation",
-      "marketCap": 424104984576.0,
-      "avgDollarVolume": 1849124469.1499999,
-      "price": 217.35,
-      "ma50": 215.4814,
-      "ma200": 195.7955
+      "marketCap": 421080530944.0,
+      "avgDollarVolume": 1828484837.4,
+      "price": 215.8,
+      "ma50": 215.6522,
+      "ma200": 195.9967
     },
     {
       "symbol": "MDT",
       "name": "Medtronic plc.",
-      "marketCap": 131930284032.0,
-      "avgDollarVolume": 1707949408.5,
-      "price": 103.14,
-      "ma50": 93.7226,
-      "ma200": 88.2604
+      "marketCap": 131648872448.0,
+      "avgDollarVolume": 1702657020.0,
+      "price": 102.92,
+      "ma50": 93.8968,
+      "ma200": 88.26
     },
     {
       "symbol": "CSCO",
       "name": "Cisco Systems, Inc.",
-      "marketCap": 371335987200.0,
-      "avgDollarVolume": 1687630692.2399998,
-      "price": 94.32,
-      "ma50": 107.7564,
-      "ma200": 102.35055
+      "marketCap": 372851703808.0,
+      "avgDollarVolume": 1690746677.555,
+      "price": 94.705,
+      "ma50": 107.4628,
+      "ma200": 102.43155
     },
     {
       "symbol": "CAT",
       "name": "Caterpillar, Inc.",
-      "marketCap": 260172038144.0,
-      "avgDollarVolume": 1656140011.7300003,
-      "price": 568.565,
-      "ma50": 740.7678,
-      "ma200": 807.4322
+      "marketCap": 258000748544.0,
+      "avgDollarVolume": 1652702449.38,
+      "price": 563.82,
+      "ma50": 735.8988,
+      "ma200": 806.99786
     },
     {
       "symbol": "KO",
       "name": "Coca-Cola Company (The)",
-      "marketCap": 427329454080.0,
-      "avgDollarVolume": 1637674656.635,
-      "price": 99.335,
-      "ma50": 90.82,
-      "ma200": 83.3512
+      "marketCap": 426791731200.0,
+      "avgDollarVolume": 1645745977.8899999,
+      "price": 99.21,
+      "ma50": 91.0482,
+      "ma200": 83.47455
     },
     {
-      "symbol": "HD",
-      "name": "Home Depot, Inc. (The)",
-      "marketCap": 345834160128.0,
-      "avgDollarVolume": 1636764367.5449998,
-      "price": 346.635,
-      "ma50": 312.1542,
-      "ma200": 332.69305
+      "symbol": "PG",
+      "name": "Procter & Gamble Company (The)",
+      "marketCap": 399365603328.0,
+      "avgDollarVolume": 1615380568.515,
+      "price": 172.305,
+      "ma50": 154.7894,
+      "ma200": 149.98276
     }
   ],
   "momentum": [
     {
       "symbol": "MRNA",
       "name": "Moderna, Inc.",
-      "marketCap": 86914850816.0,
-      "avgDollarVolume": 4736451236.0808,
-      "price": 214.8056,
-      "ma50": 201.6661,
-      "ma200": 96.4117,
+      "marketCap": 83659227136.0,
+      "avgDollarVolume": 4568929045.3025,
+      "price": 206.7595,
+      "ma50": 203.0605,
+      "ma200": 97.2677,
       "momentum": "up",
-      "strength": 122.8
+      "strength": 112.6
     },
     {
       "symbol": "GMAB",
       "name": "Genmab A/S",
-      "marketCap": 31856312320.0,
-      "avgDollarVolume": 217748032.31,
-      "price": 51.665,
-      "ma50": 41.1533,
-      "ma200": 31.540075,
+      "marketCap": 31945717760.0,
+      "avgDollarVolume": 217547029.59,
+      "price": 51.81,
+      "ma50": 41.5127,
+      "ma200": 31.634775,
       "momentum": "up",
       "strength": 63.8
     },
     {
       "symbol": "U",
       "name": "Unity Software Inc.",
-      "marketCap": 23078649856.0,
-      "avgDollarVolume": 571526572.893,
-      "price": 51.999,
-      "ma50": 43.3928,
-      "ma200": 31.95115,
+      "marketCap": 22417786880.0,
+      "avgDollarVolume": 555501049.93,
+      "price": 50.51,
+      "ma50": 43.5972,
+      "ma200": 32.06505,
       "momentum": "up",
-      "strength": 62.7
+      "strength": 57.5
     },
     {
       "symbol": "CBRS",
       "name": "Cerebras Systems Inc.",
-      "marketCap": 24523898880.0,
-      "avgDollarVolume": 954215857.32,
-      "price": 100.92,
-      "ma50": 151.0202,
-      "ma200": 190.65883,
+      "marketCap": 24754753536.0,
+      "avgDollarVolume": 962576557.1600001,
+      "price": 101.87,
+      "ma50": 148.839,
+      "ma200": 189.96371,
       "momentum": "down",
-      "strength": -47.1
+      "strength": -46.4
     },
     {
       "symbol": "CRWV",
       "name": "CoreWeave, Inc.",
-      "marketCap": 27586615296.0,
-      "avgDollarVolume": 2241934980.33,
-      "price": 49.605,
-      "ma50": 72.5957,
-      "ma200": 88.98725,
+      "marketCap": 27469828096.0,
+      "avgDollarVolume": 2248728022.11,
+      "price": 49.395,
+      "ma50": 71.8061,
+      "ma200": 88.7707,
       "momentum": "down",
-      "strength": -44.3
+      "strength": -44.4
+    },
+    {
+      "symbol": "HUM",
+      "name": "Humana Inc.",
+      "marketCap": 53037596672.0,
+      "avgDollarVolume": 601635840.0,
+      "price": 441.6,
+      "ma50": 409.8702,
+      "ma200": 318.67734,
+      "momentum": "up",
+      "strength": 38.6
     },
     {
       "symbol": "CCJ",
       "name": "Cameco Corporation",
-      "marketCap": 28675489792.0,
-      "avgDollarVolume": 222307114.0,
-      "price": 65.84,
-      "ma50": 84.7062,
-      "ma200": 101.7571,
+      "marketCap": 28150675456.0,
+      "avgDollarVolume": 220345562.62500003,
+      "price": 64.635,
+      "ma50": 84.0112,
+      "ma200": 101.4701,
       "momentum": "down",
-      "strength": -35.3
-    },
-    {
-      "symbol": "BBY",
-      "name": "Best Buy Co., Inc.",
-      "marketCap": 21714157568.0,
-      "avgDollarVolume": 351103129.39,
-      "price": 103.535,
-      "ma50": 93.6434,
-      "ma200": 76.9755,
-      "momentum": "up",
-      "strength": 34.5
+      "strength": -36.3
     },
     {
       "symbol": "BIDU",
       "name": "Baidu, Inc.",
-      "marketCap": 25108963328.0,
-      "avgDollarVolume": 199315874.60999998,
-      "price": 73.758,
-      "ma50": 84.3038,
-      "ma200": 110.59265,
+      "marketCap": 24370923520.0,
+      "avgDollarVolume": 193890275.37,
+      "price": 71.59,
+      "ma50": 83.7932,
+      "ma200": 110.19645,
       "momentum": "down",
-      "strength": -33.3
+      "strength": -35.0
     },
     {
       "symbol": "CRDO",
       "name": "Credo Technology Group Holding ",
-      "marketCap": 22701772800.0,
-      "avgDollarVolume": 1005423398.875,
-      "price": 120.785,
-      "ma50": 172.2815,
-      "ma200": 180.8611,
+      "marketCap": 22711171072.0,
+      "avgDollarVolume": 1008059945.75,
+      "price": 120.835,
+      "ma50": 171.2843,
+      "ma200": 180.83826,
       "momentum": "down",
       "strength": -33.2
     },
     {
-      "symbol": "CNC",
-      "name": "Centene Corporation",
-      "marketCap": 37157326848.0,
-      "avgDollarVolume": 361815161.68500006,
-      "price": 75.055,
-      "ma50": 67.0776,
-      "ma200": 56.6307,
-      "momentum": "up",
-      "strength": 32.5
+      "symbol": "COIN",
+      "name": "Coinbase Global, Inc.",
+      "marketCap": 30818463744.0,
+      "avgDollarVolume": 1099008176.4,
+      "price": 116.4,
+      "ma50": 169.0898,
+      "ma200": 173.67786,
+      "momentum": "down",
+      "strength": -33.0
     }
   ],
   "droppedThinOptions": [],
@@ -645,187 +645,187 @@
     {
       "symbol": "AAPL",
       "options": "ok",
-      "expiryOI": 909151,
+      "expiryOI": 917439,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "MSFT",
       "options": "ok",
-      "expiryOI": 926953,
+      "expiryOI": 925188,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "NVDA",
       "options": "ok",
-      "expiryOI": 3357589,
+      "expiryOI": 3412542,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "META",
       "options": "ok",
-      "expiryOI": 469758,
+      "expiryOI": 473377,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "GOOG",
       "options": "ok",
-      "expiryOI": 326426,
+      "expiryOI": 331115,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "JPM",
       "options": "ok",
-      "expiryOI": 112671,
+      "expiryOI": 113009,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "ORCL",
       "options": "ok",
-      "expiryOI": 658385,
+      "expiryOI": 662584,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "AMZN",
       "options": "ok",
-      "expiryOI": 707844,
+      "expiryOI": 713046,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "SOXL",
       "options": "ok",
-      "expiryOI": 307123,
+      "expiryOI": 315002,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "TQQQ",
       "options": "ok",
-      "expiryOI": 371415,
+      "expiryOI": 373625,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "NFLX",
       "options": "ok",
-      "expiryOI": 929846,
+      "expiryOI": 932258,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "NOW",
       "options": "ok",
-      "expiryOI": 236511,
+      "expiryOI": 237660,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "ADBE",
       "options": "ok",
-      "expiryOI": 126051,
+      "expiryOI": 126402,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "CRM",
       "options": "ok",
-      "expiryOI": 111001,
+      "expiryOI": 111539,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "CRWD",
       "options": "ok",
-      "expiryOI": 269418,
+      "expiryOI": 270798,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "PLTR",
       "options": "ok",
-      "expiryOI": 511131,
+      "expiryOI": 513972,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "TSM",
       "options": "ok",
-      "expiryOI": 336606,
+      "expiryOI": 338030,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "DELL",
       "options": "ok",
-      "expiryOI": 126321,
+      "expiryOI": 128642,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "PANW",
       "options": "ok",
-      "expiryOI": 106554,
+      "expiryOI": 107558,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "GLW",
       "options": "ok",
-      "expiryOI": 101382,
+      "expiryOI": 103100,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "SPY",
       "options": "ok",
-      "expiryOI": 3474813,
+      "expiryOI": 3586887,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "QQQ",
       "options": "ok",
-      "expiryOI": 3172262,
+      "expiryOI": 3216217,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "HD",
       "options": "ok",
-      "expiryOI": 46146,
+      "expiryOI": 46754,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "COST",
       "options": "ok",
-      "expiryOI": 45070,
+      "expiryOI": 45996,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "CSCO",
       "options": "ok",
-      "expiryOI": 184889,
+      "expiryOI": 184198,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "MRVL",
       "options": "ok",
-      "expiryOI": 305398,
+      "expiryOI": 311051,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "GEV",
       "options": "ok",
-      "expiryOI": 43756,
+      "expiryOI": 44624,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "UBER",
       "options": "ok",
-      "expiryOI": 273475,
+      "expiryOI": 274083,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "BE",
       "options": "ok",
-      "expiryOI": 125072,
+      "expiryOI": 129256,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "AVGO",
       "options": "ok",
-      "expiryOI": 386571,
+      "expiryOI": 391008,
       "expiration": "2026-12-18"
     },
     {
       "symbol": "ANET",
       "options": "ok",
-      "expiryOI": 43471,
+      "expiryOI": 44118,
       "expiration": "2026-12-18"
     }
   ]
