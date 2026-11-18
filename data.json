@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:07:05.029513+00:00",
+  "generated_at": "2026-11-18T22:14:11.187217+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -1234,6 +1234,12 @@
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
+          "title": "Josh Brown Says Netflix Trades at 16 Times Next Year\u2019s Earnings After a 50% Drop. Is It a Buy?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/18/josh-brown-says-netflix-trades-at-16-times-next-years-earnings-after-a-50-drop-is-it-a-buy/",
+          "sentiment": -0.27
+        },
+        {
           "title": "Netflix Stock Just Closed Below $60 for the First Time Since August 2024. I'd Buy It Now.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/18/netflix-stock-just-closed-below-usd60-for-the-first-time-since-august-2024-i-d-buy-it-now/",
@@ -1243,12 +1249,6 @@
           "title": "As Netflix Stock Hovers Near Its 52-Week Low, Analyst Sentiment Remains Mixed. Here's Why.",
           "publisher": "Barchart",
           "link": "https://www.barchart.com/story/news/8898467/as-netflix-stock-hovers-near-its-52-week-low-analyst-sentiment-remains-mixed-here-s-why",
-          "sentiment": -0.27
-        },
-        {
-          "title": "Netflix Just Hit a 52-Week Low. Where\u2019s the Bottom?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/18/netflix-just-hit-a-52-week-low-wheres-the-bottom/",
           "sentiment": -0.27
         }
       ],
@@ -1830,6 +1830,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "Where Will Palantir Stock Be in 1 Year?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/18/where-will-palantir-stock-be-in-1-year/",
+          "sentiment": 0.0
+        },
+        {
           "title": "Anthropic Valuation Is 8.5 Times Next Year\u2019s Sales: Multiples More Like Microsoft, Alphabet Than Palantir, New Street Analyst Says",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/anthropic-valuation-is-8-5-times-next-year-s-sales-multiples-more-like-microsoft-alphabet-than-palantir-new-street-analyst-says/cNbg9fWR9LC",
@@ -1839,12 +1845,6 @@
           "title": "Alex Karp put Palantir\u2019s early sales team in the Mandarin Oriental instead of a Motel 6\u2014at 10x the price",
           "publisher": "Fortune",
           "link": "https://finance.yahoo.com/small-business/articles/alex-karp-put-palantir-early-173050319.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "How NHS Contract Extension Will Impact Palantir Stock Investors",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nhs-contract-extension-impact-palantir-161007139.html",
           "sentiment": 0.0
         }
       ],
@@ -3686,14 +3686,14 @@
         "expiryOI": 593748
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.04,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Micron President on AI memory demand: \"We can't meet all requirements'",
+          "title": "Micron President on the AI gap: \"China is far behind in high-bandwidth memory\"",
           "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/micron-president-on-ai-memory-demand-we-cant-meet-all-requirements-215817196.html",
-          "sentiment": -0.13
+          "link": "https://finance.yahoo.com/video/micron-president-on-the-ai-gap-china-is-far-behind-in-high-bandwidth-memory-220744101.html",
+          "sentiment": 0.0
         },
         {
           "title": "Memory supply constraints will be even 'tighter' in 2027: Micron CTO",
@@ -8712,6 +8712,12 @@
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
+          "title": "Josh Brown Says Netflix Trades at 16 Times Next Year\u2019s Earnings After a 50% Drop. Is It a Buy?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/18/josh-brown-says-netflix-trades-at-16-times-next-years-earnings-after-a-50-drop-is-it-a-buy/",
+          "sentiment": -0.27
+        },
+        {
           "title": "Netflix Stock Just Closed Below $60 for the First Time Since August 2024. I'd Buy It Now.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/18/netflix-stock-just-closed-below-usd60-for-the-first-time-since-august-2024-i-d-buy-it-now/",
@@ -8721,12 +8727,6 @@
           "title": "As Netflix Stock Hovers Near Its 52-Week Low, Analyst Sentiment Remains Mixed. Here's Why.",
           "publisher": "Barchart",
           "link": "https://www.barchart.com/story/news/8898467/as-netflix-stock-hovers-near-its-52-week-low-analyst-sentiment-remains-mixed-here-s-why",
-          "sentiment": -0.27
-        },
-        {
-          "title": "Netflix Just Hit a 52-Week Low. Where\u2019s the Bottom?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/18/netflix-just-hit-a-52-week-low-wheres-the-bottom/",
           "sentiment": -0.27
         }
       ],
@@ -8950,6 +8950,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "Where Will Palantir Stock Be in 1 Year?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/18/where-will-palantir-stock-be-in-1-year/",
+          "sentiment": 0.0
+        },
+        {
           "title": "Anthropic Valuation Is 8.5 Times Next Year\u2019s Sales: Multiples More Like Microsoft, Alphabet Than Palantir, New Street Analyst Says",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/anthropic-valuation-is-8-5-times-next-year-s-sales-multiples-more-like-microsoft-alphabet-than-palantir-new-street-analyst-says/cNbg9fWR9LC",
@@ -8959,12 +8965,6 @@
           "title": "Alex Karp put Palantir\u2019s early sales team in the Mandarin Oriental instead of a Motel 6\u2014at 10x the price",
           "publisher": "Fortune",
           "link": "https://finance.yahoo.com/small-business/articles/alex-karp-put-palantir-early-173050319.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "How NHS Contract Extension Will Impact Palantir Stock Investors",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nhs-contract-extension-impact-palantir-161007139.html",
           "sentiment": 0.0
         }
       ],
@@ -9696,14 +9696,14 @@
       "dividendYield": 0.08,
       "marketCap": 797958864896,
       "score": 3.7,
-      "newsSentiment": -0.04,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Micron President on AI memory demand: \"We can't meet all requirements'",
+          "title": "Micron President on the AI gap: \"China is far behind in high-bandwidth memory\"",
           "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/micron-president-on-ai-memory-demand-we-cant-meet-all-requirements-215817196.html",
-          "sentiment": -0.13
+          "link": "https://finance.yahoo.com/video/micron-president-on-the-ai-gap-china-is-far-behind-in-high-bandwidth-memory-220744101.html",
+          "sentiment": 0.0
         },
         {
           "title": "Memory supply constraints will be even 'tighter' in 2027: Micron CTO",
@@ -11594,7 +11594,7 @@
     "costPerContract": 682.0
   },
   "market": {
-    "asOf": "2026-11-18T22:07:05.029500+00:00",
+    "asOf": "2026-11-18T22:14:11.187204+00:00",
     "gauges": [
       {
         "key": "qqq",
