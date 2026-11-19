@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:08:39.909690+00:00",
+  "generated_at": "2026-11-19T22:23:08.523034+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -445,20 +445,20 @@
         "expiryOI": 23987
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.18,
+      "newsSentiment": 0.4,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "META Plans To Reportedly Charge $300 For Muse Charm Gadget In Hope To Revive Hardware Business",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/meta-plans-to-reportedly-charge-300-for-muse-charm-gadget-in-hope-to-revive-hardware-business/cNbinkUR90H",
+          "sentiment": 0.79
+        },
         {
           "title": "Meta trades at 21x P/E, yet shareholders face a massive new bill",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/technology/articles/meta-trades-21x-p-e-202440346.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Meta's New AI Agent Raises Serious Privacy Questions for Investors",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/metas-ai-agent-raises-serious-184522659.html",
-          "sentiment": 0.36
         }
       ],
       "volRegime": "Rich",
@@ -567,20 +567,14 @@
         "expiryOI": 22454
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.2,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Anthropic, AMD, Alphabet, Palo Alto, Take-Two, Walmart, and More Stocks That Explain Today\u2019s Market",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/stock-movers-ddc27426?siteid=yhoof2&yptr=yahoo",
           "sentiment": 0.0
-        },
-        {
-          "title": "Stanley Druckenmiller dumps entire $120M Alphabet stake to buy gold mining stock",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/investing/stocks/nem-newmont-corporation-stanley-druckenmiller-dumps-entire-120-million-alphabet-stake-opens-43-9-million-newmont-position",
-          "sentiment": -0.4
         }
       ],
       "volRegime": "Cheap",
@@ -3997,9 +3991,9 @@
           "sentiment": -0.38
         },
         {
-          "title": "Anthropic IPO Nets Wall Street Underwriters $550 Million, Topping SpaceX",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/anthropic-ipo-underwriting-fees-wall-street-75e96e31?siteid=yhoof2&yptr=yahoo",
+          "title": "Anthropic Just Finished Its First Day as a Public Company. Five of the Six Biggest Tech IPOs Since Facebook Were Underwater Six Months After Theirs, and Elon Musk\u2019s SpaceX Is Following the Script",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/19/anthropic-just-finished-its-first-day-as-a-public-company-five-of-the-six-biggest-tech-ipos-since-facebook-were-underwater-six-months-after-theirs-and-elon-musks-spacex-is-following-the-script/",
           "sentiment": 0.0
         }
       ],
@@ -8477,20 +8471,20 @@
       "dividendYield": 0.34,
       "marketCap": 1524082016256,
       "score": 3.2,
-      "newsSentiment": 0.18,
+      "newsSentiment": 0.4,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "META Plans To Reportedly Charge $300 For Muse Charm Gadget In Hope To Revive Hardware Business",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/meta-plans-to-reportedly-charge-300-for-muse-charm-gadget-in-hope-to-revive-hardware-business/cNbinkUR90H",
+          "sentiment": 0.79
+        },
         {
           "title": "Meta trades at 21x P/E, yet shareholders face a massive new bill",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/technology/articles/meta-trades-21x-p-e-202440346.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Meta's New AI Agent Raises Serious Privacy Questions for Investors",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/metas-ai-agent-raises-serious-184522659.html",
-          "sentiment": 0.36
         }
       ],
       "valuationLabel": "Fair",
@@ -8521,20 +8515,14 @@
       "dividendYield": 0.32,
       "marketCap": 3331919708160,
       "score": 2.8,
-      "newsSentiment": -0.2,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Anthropic, AMD, Alphabet, Palo Alto, Take-Two, Walmart, and More Stocks That Explain Today\u2019s Market",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/stock-movers-ddc27426?siteid=yhoof2&yptr=yahoo",
           "sentiment": 0.0
-        },
-        {
-          "title": "Stanley Druckenmiller dumps entire $120M Alphabet stake to buy gold mining stock",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/investing/stocks/nem-newmont-corporation-stanley-druckenmiller-dumps-entire-120-million-alphabet-stake-opens-43-9-million-newmont-position",
-          "sentiment": -0.4
         }
       ],
       "valuationLabel": "Cheap",
@@ -9885,9 +9873,9 @@
           "sentiment": -0.38
         },
         {
-          "title": "Anthropic IPO Nets Wall Street Underwriters $550 Million, Topping SpaceX",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/anthropic-ipo-underwriting-fees-wall-street-75e96e31?siteid=yhoof2&yptr=yahoo",
+          "title": "Anthropic Just Finished Its First Day as a Public Company. Five of the Six Biggest Tech IPOs Since Facebook Were Underwater Six Months After Theirs, and Elon Musk\u2019s SpaceX Is Following the Script",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/19/anthropic-just-finished-its-first-day-as-a-public-company-five-of-the-six-biggest-tech-ipos-since-facebook-were-underwater-six-months-after-theirs-and-elon-musks-spacex-is-following-the-script/",
           "sentiment": 0.0
         }
       ],
@@ -11628,7 +11616,7 @@
     "costPerContract": 778.5
   },
   "market": {
-    "asOf": "2026-11-19T22:08:39.909674+00:00",
+    "asOf": "2026-11-19T22:23:08.523020+00:00",
     "gauges": [
       {
         "key": "qqq",
