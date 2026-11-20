@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T21:57:10.667258+00:00",
+  "generated_at": "2026-11-20T22:07:37.966762+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -137,7 +137,7 @@
       "ivRankLimited": false,
       "dailyReturn": 7.5,
       "roc": 21.0,
-      "score": 7.4,
+      "score": 6.8,
       "buy": false,
       "momentum": "bear",
       "ret3m": -0.4,
@@ -222,7 +222,7 @@
           "qty": 1
         }
       ],
-      "valuationLabel": "Fair",
+      "valuationLabel": "Cheap",
       "peVsSectorPct": -7.3,
       "sectorMedianPE": 27.3,
       "sectorPeerCount": 27,
@@ -264,7 +264,7 @@
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 329.5,
-      "pcOI": 0.82,
+      "pcOI": 0.81,
       "pcVol": 0.86,
       "debitStrategy": false,
       "liquidity": {
@@ -295,7 +295,7 @@
             "oi": 5701
           }
         ],
-        "expiryOI": 3489806
+        "expiryOI": 3486420
       },
       "potIsProfitProb": false,
       "newsSentiment": -0.08,
@@ -1650,7 +1650,7 @@
       "breakevenHigh": 283.97,
       "breakevenMovePct": null,
       "maxLoss": 353.0,
-      "pcOI": 1.16,
+      "pcOI": 1.17,
       "pcVol": 0.73,
       "debitStrategy": false,
       "liquidity": {
@@ -1697,7 +1697,7 @@
             "oi": 962
           }
         ],
-        "expiryOI": 274879
+        "expiryOI": 274663
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.0,
@@ -1713,12 +1713,6 @@
           "title": "Tech investors are fleeing to CrowdStrike\u2014ignoring a 5,552x P/E",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/tech-investors-fleeing-crowdstrike-ignoring-134917233.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "CrowdStrike (CRWD) Brings Apple Device Automation Into Falcon Foundry Through A New Tie Up",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/articles/crowdstrike-crwd-brings-apple-device-051725940.html",
           "sentiment": 0.0
         }
       ],
@@ -3043,7 +3037,7 @@
             "oi": 663
           }
         ],
-        "expiryOI": 46100
+        "expiryOI": 46099
       },
       "potIsProfitProb": true,
       "newsSentiment": -0.11,
@@ -4009,7 +4003,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 259.7,
+      "peVsSectorPct": 232.2,
       "sectorMedianPE": 27.3,
       "sectorPeerCount": 27,
       "sector": "Technology"
@@ -4302,7 +4296,7 @@
             "oi": 111
           }
         ],
-        "expiryOI": 57322
+        "expiryOI": 57236
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.15,
@@ -4650,7 +4644,7 @@
             "oi": 1604
           }
         ],
-        "expiryOI": 80062
+        "expiryOI": 80055
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.27,
@@ -4760,10 +4754,10 @@
             "oi": 130
           }
         ],
-        "expiryOI": 38174
+        "expiryOI": 38163
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.21,
+      "newsSentiment": -0.32,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
@@ -4776,12 +4770,6 @@
           "title": "Seagate Stocks Jump 8.27% as Anthropic IPO Rekindles AI Storage Trade",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/seagate-stocks-jump-8-27-183728387.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Seagate and Western Digital Climb 4% Despite Tech Profit-Taking After Anthropic\u2019s IPO Debut; SanDisk Edges Higher",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/19/seagate-and-western-digital-climb-4-despite-tech-profit-taking-after-anthropics-ipo-debut-sandisk-edges-higher/",
           "sentiment": 0.0
         }
       ],
@@ -4876,7 +4864,7 @@
             "oi": 665
           }
         ],
-        "expiryOI": 87984
+        "expiryOI": 87974
       },
       "potIsProfitProb": true,
       "newsSentiment": 0.16,
@@ -5111,9 +5099,15 @@
         "expiryOI": 241848
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.35,
+      "newsSentiment": -0.24,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "SK hynix Stocks Fall 5.92% as Kospi Rout Hits HBM Leader With 80% Margins",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stocks-fall-5-214132697.html",
+          "sentiment": 0.0
+        },
         {
           "title": "SanDisk Tumbles 8% as TrendForce Turns Bearish on 2027 NAND Prices; Micron Falls 5%, SK Hynix Slides 4%",
           "publisher": "24/7 Wall St.",
@@ -5783,7 +5777,7 @@
             "oi": 121
           }
         ],
-        "expiryOI": 26444
+        "expiryOI": 26385
       },
       "potIsProfitProb": true,
       "newsSentiment": 0.0,
@@ -6117,7 +6111,7 @@
       "breakevenMovePct": null,
       "maxLoss": 740.0,
       "pcOI": 0.88,
-      "pcVol": 0.88,
+      "pcVol": 0.9,
       "debitStrategy": true,
       "liquidity": {
         "minOI": 613,
@@ -6147,7 +6141,7 @@
             "oi": 641
           }
         ],
-        "expiryOI": 62737
+        "expiryOI": 62735
       },
       "potIsProfitProb": true,
       "newsSentiment": 0.3,
@@ -6376,7 +6370,7 @@
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 412.5,
-      "pcOI": 0.99,
+      "pcOI": 0.97,
       "pcVol": 0.98,
       "debitStrategy": true,
       "liquidity": {
@@ -6407,7 +6401,7 @@
             "oi": 197
           }
         ],
-        "expiryOI": 74390
+        "expiryOI": 73379
       },
       "potIsProfitProb": true,
       "newsSentiment": 0.03,
@@ -7573,7 +7567,7 @@
             "oi": 9474
           }
         ],
-        "expiryOI": 284493
+        "expiryOI": 284470
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.45,
@@ -7812,7 +7806,7 @@
             "oi": 8697
           }
         ],
-        "expiryOI": 214039
+        "expiryOI": 213978
       },
       "potIsProfitProb": true,
       "newsSentiment": 0.15,
@@ -8034,7 +8028,7 @@
             "oi": 534
           }
         ],
-        "expiryOI": 64740
+        "expiryOI": 64736
       },
       "potIsProfitProb": true,
       "newsSentiment": 0.14,
@@ -8100,7 +8094,7 @@
       "chg3m": 10.5,
       "chg6m": 11.1,
       "chg1y": 26.6,
-      "volRatio": 1.7,
+      "volRatio": 1.71,
       "peRatio": 38.1,
       "sector": "Technology",
       "industry": "Consumer Electronics",
@@ -8150,14 +8144,14 @@
       "chg3m": -0.4,
       "chg6m": 16.2,
       "chg1y": null,
-      "volRatio": 1.64,
+      "volRatio": 1.75,
       "peRatio": 25.3,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "pegRatio": 1.5,
+      "pegRatio": 1.47,
       "dividendYield": 0.79,
       "marketCap": 3598139523072,
-      "score": 5.2,
+      "score": 5.8,
       "newsSentiment": -0.04,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
@@ -8174,7 +8168,7 @@
           "sentiment": -0.08
         }
       ],
-      "valuationLabel": "Fair",
+      "valuationLabel": "Cheap",
       "peVsSectorPct": -7.3,
       "sectorMedianPE": 27.3,
       "sectorPeerCount": 27
@@ -8185,7 +8179,7 @@
       "price": 125.53,
       "priceStale": false,
       "high52wk": 243.37,
-      "low52wk": 124.51,
+      "low52wk": 124.5,
       "pctFromHigh": -48.4,
       "pctFromLow": 0.8,
       "trend": "Strong Downtrend",
@@ -8194,7 +8188,7 @@
       "chg3m": -39.7,
       "chg6m": -41.6,
       "chg1y": -29.7,
-      "volRatio": 2.72,
+      "volRatio": 2.76,
       "peRatio": 13.5,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -8244,7 +8238,7 @@
       "chg3m": 0.4,
       "chg6m": -7.9,
       "chg1y": -5.3,
-      "volRatio": 1.16,
+      "volRatio": 1.17,
       "peRatio": 19.1,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
@@ -8288,7 +8282,7 @@
       "chg3m": -23.3,
       "chg6m": -30.3,
       "chg1y": -11.7,
-      "volRatio": 1.49,
+      "volRatio": 1.51,
       "peRatio": 13.8,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
@@ -8332,7 +8326,7 @@
       "chg3m": -12.4,
       "chg6m": 2.3,
       "chg1y": 6.2,
-      "volRatio": 1.68,
+      "volRatio": 1.73,
       "peRatio": 13.0,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -8382,11 +8376,11 @@
       "chg3m": -28.7,
       "chg6m": -46.9,
       "chg1y": -48.4,
-      "volRatio": 1.15,
+      "volRatio": 1.18,
       "peRatio": 15.9,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "pegRatio": 0.62,
+      "pegRatio": 0.6,
       "dividendYield": 1.81,
       "marketCap": 315480899584,
       "score": 2.8,
@@ -8432,7 +8426,7 @@
       "chg3m": -5.8,
       "chg6m": -7.3,
       "chg1y": 11.8,
-      "volRatio": 1.53,
+      "volRatio": 1.54,
       "peRatio": 20.0,
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
@@ -8482,7 +8476,7 @@
       "chg3m": -72.2,
       "chg6m": -83.8,
       "chg1y": -2.6,
-      "volRatio": 2.76,
+      "volRatio": 2.79,
       "peRatio": 11.6,
       "sector": null,
       "industry": null,
@@ -8516,7 +8510,7 @@
       "chg3m": -40.2,
       "chg6m": -46.8,
       "chg1y": null,
-      "volRatio": 2.79,
+      "volRatio": 2.82,
       "peRatio": 18.9,
       "sector": null,
       "industry": null,
@@ -8562,7 +8556,7 @@
       "chg3m": -29.1,
       "chg6m": -36.0,
       "chg1y": -45.6,
-      "volRatio": 1.5,
+      "volRatio": 1.57,
       "peRatio": 16.4,
       "sector": "Communication Services",
       "industry": "Entertainment",
@@ -8662,7 +8656,7 @@
       "chg3m": -21.2,
       "chg6m": -11.1,
       "chg1y": -32.8,
-      "volRatio": 1.32,
+      "volRatio": 1.34,
       "peRatio": 12.2,
       "sector": "Technology",
       "industry": "Software - Application",
@@ -8712,7 +8706,7 @@
       "chg3m": -13.5,
       "chg6m": 0.7,
       "chg1y": -19.8,
-      "volRatio": 1.14,
+      "volRatio": 1.17,
       "peRatio": 16.5,
       "sector": "Technology",
       "industry": "Software - Application",
@@ -8762,7 +8756,7 @@
       "chg3m": 20.3,
       "chg6m": 38.3,
       "chg1y": 87.0,
-      "volRatio": 1.28,
+      "volRatio": 1.35,
       "peRatio": 3824.0,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -8783,12 +8777,6 @@
           "title": "Tech investors are fleeing to CrowdStrike\u2014ignoring a 5,552x P/E",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/tech-investors-fleeing-crowdstrike-ignoring-134917233.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "CrowdStrike (CRWD) Brings Apple Device Automation Into Falcon Foundry Through A New Tie Up",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/articles/crowdstrike-crwd-brings-apple-device-051725940.html",
           "sentiment": 0.0
         }
       ],
@@ -8812,7 +8800,7 @@
       "chg3m": -18.4,
       "chg6m": 4.8,
       "chg1y": -7.3,
-      "volRatio": 1.49,
+      "volRatio": 1.51,
       "peRatio": 101.0,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -8862,7 +8850,7 @@
       "chg3m": -22.1,
       "chg6m": -20.8,
       "chg1y": 17.1,
-      "volRatio": 2.31,
+      "volRatio": 2.35,
       "peRatio": 20.7,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -8900,7 +8888,7 @@
       "chg3m": -35.7,
       "chg6m": -5.5,
       "chg1y": 129.3,
-      "volRatio": 1.58,
+      "volRatio": 1.6,
       "peRatio": 16.2,
       "sector": "Technology",
       "industry": "Computer Hardware",
@@ -8944,7 +8932,7 @@
       "chg3m": -2.2,
       "chg6m": 31.8,
       "chg1y": 87.7,
-      "volRatio": 1.72,
+      "volRatio": 1.75,
       "peRatio": 602.3,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -9044,7 +9032,7 @@
       "chg3m": -9.4,
       "chg6m": -7.0,
       "chg1y": 5.8,
-      "volRatio": 2.62,
+      "volRatio": 2.85,
       "peRatio": 21.9,
       "sector": null,
       "industry": null,
@@ -9078,7 +9066,7 @@
       "chg3m": -13.8,
       "chg6m": -15.0,
       "chg1y": 3.6,
-      "volRatio": 2.45,
+      "volRatio": 2.56,
       "peRatio": 25.1,
       "sector": null,
       "industry": null,
@@ -9156,7 +9144,7 @@
       "chg3m": 13.6,
       "chg6m": 7.5,
       "chg1y": 23.3,
-      "volRatio": 1.68,
+      "volRatio": 1.69,
       "peRatio": 53.1,
       "sector": "Consumer Defensive",
       "industry": "Discount Stores",
@@ -9206,7 +9194,7 @@
       "chg3m": -17.5,
       "chg6m": -24.1,
       "chg1y": 21.3,
-      "volRatio": 1.51,
+      "volRatio": 1.54,
       "peRatio": 24.1,
       "sector": "Technology",
       "industry": "Communication Equipment",
@@ -9356,7 +9344,7 @@
       "chg3m": -20.0,
       "chg6m": -11.6,
       "chg1y": -24.3,
-      "volRatio": 1.45,
+      "volRatio": 1.5,
       "peRatio": 37.3,
       "sector": "Technology",
       "industry": "Software - Application",
@@ -9406,7 +9394,7 @@
       "chg3m": -30.2,
       "chg6m": -52.9,
       "chg1y": 58.2,
-      "volRatio": 1.59,
+      "volRatio": 1.61,
       "peRatio": 86.3,
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
@@ -9456,7 +9444,7 @@
       "chg3m": -15.0,
       "chg6m": -26.2,
       "chg1y": -9.9,
-      "volRatio": 2.15,
+      "volRatio": 2.18,
       "peRatio": 38.9,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -9556,7 +9544,7 @@
       "chg3m": -34.7,
       "chg6m": -20.8,
       "chg1y": 187.0,
-      "volRatio": 1.85,
+      "volRatio": 1.86,
       "peRatio": 8.0,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -9600,7 +9588,7 @@
       "chg3m": -0.9,
       "chg6m": -18.8,
       "chg1y": -11.6,
-      "volRatio": 1.22,
+      "volRatio": 1.23,
       "peRatio": 380.0,
       "sector": "Consumer Cyclical",
       "industry": "Auto Manufacturers",
@@ -9650,7 +9638,7 @@
       "chg3m": -5.3,
       "chg6m": null,
       "chg1y": -20.6,
-      "volRatio": 1.15,
+      "volRatio": 1.16,
       "peRatio": 555.6,
       "sector": "Industrials",
       "industry": "Aerospace & Defense",
@@ -9700,8 +9688,8 @@
       "chg3m": -7.1,
       "chg6m": -9.2,
       "chg1y": 108.3,
-      "volRatio": 1.98,
-      "peRatio": 98.2,
+      "volRatio": 1.99,
+      "peRatio": 90.7,
       "sector": "Technology",
       "industry": "Semiconductors",
       "pegRatio": 0.44,
@@ -9731,7 +9719,7 @@
         }
       ],
       "valuationLabel": "Rich",
-      "peVsSectorPct": 259.7,
+      "peVsSectorPct": 232.2,
       "sectorMedianPE": 27.3,
       "sectorPeerCount": 27
     },
@@ -9750,7 +9738,7 @@
       "chg3m": -23.7,
       "chg6m": -30.6,
       "chg1y": -11.2,
-      "volRatio": 1.5,
+      "volRatio": 1.51,
       "peRatio": 13.9,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
@@ -9890,13 +9878,13 @@
       "chg3m": 20.2,
       "chg6m": 6.6,
       "chg1y": 22.5,
-      "volRatio": 1.84,
+      "volRatio": 1.86,
       "peRatio": 46.4,
       "sector": "Consumer Defensive",
       "industry": "Discount Stores",
       "pegRatio": 4.33,
       "dividendYield": 0.78,
-      "marketCap": 1015122821120,
+      "marketCap": 1018236174336,
       "score": 7.2,
       "newsSentiment": 0.08,
       "newsSentimentLabel": "Neutral",
@@ -9940,7 +9928,7 @@
       "chg3m": 13.0,
       "chg6m": 17.2,
       "chg1y": 13.1,
-      "volRatio": 1.3,
+      "volRatio": 1.31,
       "peRatio": 16.0,
       "sector": "Financial Services",
       "industry": "Insurance - Diversified",
@@ -9990,7 +9978,7 @@
       "chg3m": 5.3,
       "chg6m": 22.6,
       "chg1y": 23.5,
-      "volRatio": 1.18,
+      "volRatio": 1.19,
       "peRatio": 32.6,
       "sector": "Financial Services",
       "industry": "Credit Services",
@@ -10042,7 +10030,7 @@
       "dividendYield": 0.58,
       "marketCap": 104911724544,
       "score": 2.8,
-      "newsSentiment": -0.21,
+      "newsSentiment": -0.32,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
@@ -10055,12 +10043,6 @@
           "title": "Seagate Stocks Jump 8.27% as Anthropic IPO Rekindles AI Storage Trade",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/seagate-stocks-jump-8-27-183728387.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Seagate and Western Digital Climb 4% Despite Tech Profit-Taking After Anthropic\u2019s IPO Debut; SanDisk Edges Higher",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/19/seagate-and-western-digital-climb-4-despite-tech-profit-taking-after-anthropics-ipo-debut-sandisk-edges-higher/",
           "sentiment": 0.0
         }
       ],
@@ -10084,7 +10066,7 @@
       "chg3m": -37.4,
       "chg6m": -29.8,
       "chg1y": null,
-      "volRatio": 1.66,
+      "volRatio": 1.67,
       "peRatio": 24.0,
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
@@ -10134,7 +10116,7 @@
       "chg3m": -1.9,
       "chg6m": 4.6,
       "chg1y": 40.3,
-      "volRatio": 1.29,
+      "volRatio": 1.33,
       "peRatio": 16.5,
       "sector": "Energy",
       "industry": "Oil & Gas Integrated",
@@ -10184,7 +10166,7 @@
       "chg3m": -33.3,
       "chg6m": null,
       "chg1y": -38.4,
-      "volRatio": 1.6,
+      "volRatio": 1.67,
       "peRatio": 5.7,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -10192,9 +10174,15 @@
       "dividendYield": 0.09,
       "marketCap": 730347995136,
       "score": 3.9,
-      "newsSentiment": -0.35,
+      "newsSentiment": -0.24,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "SK hynix Stocks Fall 5.92% as Kospi Rout Hits HBM Leader With 80% Margins",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stocks-fall-5-214132697.html",
+          "sentiment": 0.0
+        },
         {
           "title": "SanDisk Tumbles 8% as TrendForce Turns Bearish on 2027 NAND Prices; Micron Falls 5%, SK Hynix Slides 4%",
           "publisher": "24/7 Wall St.",
@@ -10228,7 +10216,7 @@
       "chg3m": -4.9,
       "chg6m": -36.5,
       "chg1y": -6.3,
-      "volRatio": 1.66,
+      "volRatio": 1.68,
       "peRatio": 11.8,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -10278,7 +10266,7 @@
       "chg3m": -14.2,
       "chg6m": -11.5,
       "chg1y": 9.0,
-      "volRatio": 1.85,
+      "volRatio": 1.86,
       "peRatio": 19.4,
       "sector": "Healthcare",
       "industry": "Healthcare Plans",
@@ -10359,7 +10347,7 @@
       "chg3m": -40.9,
       "chg6m": -39.9,
       "chg1y": 29.1,
-      "volRatio": 1.7,
+      "volRatio": 1.81,
       "peRatio": 27.3,
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
@@ -10397,7 +10385,7 @@
       "chg3m": -27.1,
       "chg6m": -22.3,
       "chg1y": 31.8,
-      "volRatio": 1.83,
+      "volRatio": 1.84,
       "peRatio": 31.2,
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
@@ -10435,7 +10423,7 @@
       "chg3m": 4.4,
       "chg6m": 25.9,
       "chg1y": 16.5,
-      "volRatio": 1.11,
+      "volRatio": 1.12,
       "peRatio": 32.7,
       "sector": "Financial Services",
       "industry": "Credit Services",
@@ -10473,7 +10461,7 @@
       "chg3m": 2.4,
       "chg6m": -13.8,
       "chg1y": 69.1,
-      "volRatio": 1.93,
+      "volRatio": 1.94,
       "peRatio": 34.2,
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -10523,7 +10511,7 @@
       "chg3m": -24.1,
       "chg6m": -8.3,
       "chg1y": -6.8,
-      "volRatio": 1.18,
+      "volRatio": 1.21,
       "peRatio": 11.2,
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
@@ -10573,7 +10561,7 @@
       "chg3m": 16.6,
       "chg6m": -27.7,
       "chg1y": -33.1,
-      "volRatio": 0.89,
+      "volRatio": 0.9,
       "peRatio": 23.5,
       "sector": "Communication Services",
       "industry": "Advertising Agencies",
@@ -10623,7 +10611,7 @@
       "chg3m": 3.5,
       "chg6m": 10.7,
       "chg1y": 44.0,
-      "volRatio": 1.4,
+      "volRatio": 1.41,
       "peRatio": 15.3,
       "sector": "Energy",
       "industry": "Oil & Gas Integrated",
@@ -10673,7 +10661,7 @@
       "chg3m": -23.3,
       "chg6m": -19.9,
       "chg1y": 4.2,
-      "volRatio": 1.93,
+      "volRatio": 1.96,
       "peRatio": 11.4,
       "sector": "Financial Services",
       "industry": "Capital Markets",
@@ -10773,7 +10761,7 @@
       "chg3m": 6.1,
       "chg6m": 20.5,
       "chg1y": 36.5,
-      "volRatio": 1.37,
+      "volRatio": 1.38,
       "peRatio": 28.6,
       "sector": "Consumer Defensive",
       "industry": "Beverages - Non-Alcoholic",
@@ -10873,7 +10861,7 @@
       "chg3m": 1.0,
       "chg6m": -1.8,
       "chg1y": -9.4,
-      "volRatio": 1.05,
+      "volRatio": 1.06,
       "peRatio": 21.6,
       "sector": "Consumer Cyclical",
       "industry": "Restaurants",
@@ -10923,7 +10911,7 @@
       "chg3m": -36.9,
       "chg6m": -41.7,
       "chg1y": -6.5,
-      "volRatio": 1.36,
+      "volRatio": 1.37,
       "peRatio": 20.0,
       "sector": "Industrials",
       "industry": "Farm & Heavy Construction Machinery",
@@ -11023,7 +11011,7 @@
       "chg3m": -54.2,
       "chg6m": -62.5,
       "chg1y": -44.9,
-      "volRatio": 1.03,
+      "volRatio": 1.04,
       "peRatio": null,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -11115,7 +11103,7 @@
       "chg3m": -32.8,
       "chg6m": -51.6,
       "chg1y": -44.2,
-      "volRatio": 1.93,
+      "volRatio": 1.97,
       "peRatio": 19.0,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
@@ -11261,7 +11249,7 @@
       "chg3m": -33.5,
       "chg6m": -66.5,
       "chg1y": 12.7,
-      "volRatio": 1.07,
+      "volRatio": 1.08,
       "peRatio": null,
       "sector": "Industrials",
       "industry": "Aerospace & Defense",
@@ -11307,7 +11295,7 @@
       "chg3m": -43.2,
       "chg6m": -44.9,
       "chg1y": -57.6,
-      "volRatio": 1.57,
+      "volRatio": 1.63,
       "peRatio": null,
       "sector": "Financial Services",
       "industry": "Financial Data & Stock Exchanges",
@@ -11403,7 +11391,7 @@
     "costPerContract": 846.0
   },
   "market": {
-    "asOf": "2026-11-20T21:57:10.667242+00:00",
+    "asOf": "2026-11-20T22:07:37.966747+00:00",
     "gauges": [
       {
         "key": "qqq",
