@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:07:45.800173+00:00",
+  "generated_at": "2026-11-24T23:36:31.769894+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -198,7 +198,7 @@
         "expiryOI": 967213
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.35,
+      "newsSentiment": 0.2,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -212,12 +212,6 @@
           "publisher": "TipRanks",
           "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-one-safest-ways-210600451.html",
           "sentiment": 0.4
-        },
-        {
-          "title": "Is Microsoft the Best Big Tech Stock to Buy Now?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/24/is-microsoft-the-best-big-tech-stock-to-buy-now/",
-          "sentiment": 0.64
         }
       ],
       "volRegime": "Fair",
@@ -326,26 +320,26 @@
         "expiryOI": 199073
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.08,
+      "newsSentiment": 0.02,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Why Trump wanted Jensen Huang back at the helm of Nvidia",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/why-trump-wanted-jensen-huang-back-at-the-helm-of-nvidia-224325153.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html",
+          "sentiment": 0.34
+        },
         {
           "title": "Why Nvidia is 'bar none' the 'cheapest growth stock in the market'",
           "publisher": "Yahoo Finance Video",
           "link": "https://finance.yahoo.com/video/why-nvidia-is-bar-none-the-cheapest-growth-stock-in-the-market-213425021.html",
           "sentiment": -0.29
-        },
-        {
-          "title": "Why HubSpot's CEO thinks Jensen Huang came back to Nvidia too soon",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/why-hubspots-ceo-thinks-jensen-huang-came-back-to-nvidia-too-soon-183053258.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Nvidia's Huang says he is in therapy as comeback rally fades",
-          "publisher": "AFP",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/huangs-return-fails-dispel-doubts-164158462.html",
-          "sentiment": 0.54
         }
       ],
       "volRegime": "Cheap",
@@ -458,8 +452,8 @@
         "expiryOI": 18238
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.09,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.5,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
           "title": "UK financial watchdog delivers AI warning as Meta launches adapted Muse",
@@ -472,12 +466,6 @@
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/could-meta-actually-climb-30-or-is-j-p-morgan-totally-wrong?ref=yahoofinance&tlnk=yf-261124-24hpvhqr",
           "sentiment": -0.58
-        },
-        {
-          "title": "David Abrams\u2019 Meta Platforms, Inc. (META) Bet Is Backed by Strong Cash Flow and AI Growth",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/david-abrams-meta-platforms-inc-190633349.html",
-          "sentiment": 0.72
         }
       ],
       "volRegime": "Fair",
@@ -588,7 +576,14 @@
       "potIsProfitProb": true,
       "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsHeadlines": [
+        {
+          "title": "Billionaire Charlie Munger\u2019s Protege Li Lu: Himalaya Capital Has 45% of Its $3.78 Billion Portfolio in Alphabet",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/24/billionaire-charlie-mungers-protege-li-lu-himalaya-capital-has-45-of-its-3-78-billion-portfolio-in-alphabet/",
+          "sentiment": 0.0
+        }
+      ],
       "volRegime": "Cheap",
       "ivRvRatio": 0.7,
       "realizedVol": 58.4,
@@ -799,9 +794,15 @@
         "expiryOI": 61222
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.56,
+      "newsSentiment": -0.28,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Oracle (ORCL) Falls More Steeply Than Broader Market: What Investors Need to Know",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-falls-more-steeply-214502238.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Not Good: Oracle\u2019s Credit Swaps Blow Out Again a Day After Huang\u2019s Return Lifted Nvidia",
           "publisher": "TIKR",
@@ -903,9 +904,15 @@
         "expiryOI": 46341
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.57,
+      "newsSentiment": 0.37,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Amazon customers may qualify for $309.5M settlement. See how",
+          "publisher": "USA TODAY",
+          "link": "https://www.usatoday.com/story/money/2026/11/24/amazon-settlement-deadline-is-approaching-who-qualifies/92947347007/",
+          "sentiment": 0.18
+        },
         {
           "title": "Is Amazon.com (AMZN) Still Below Fair Value As AI Spending Rises?",
           "publisher": "Simply Wall St.",
@@ -1223,26 +1230,26 @@
         "expiryOI": 6243
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.29,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Tech Keeps Eating Hollywood As Netflix Buys Historic Seinfeld Lot",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/netflix-stock-84-price-target-analysts-buys-radford-seinfeld-lot/?src=A00220&yptr=yahoo",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Is Netflix a Buy for $1,000?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/24/is-netflix-a-buy-for-usd1-000/",
+          "sentiment": 0.0
+        },
         {
           "title": "Netflix to buy Radford Studio Center in $380-million deal",
           "publisher": "LA Times",
           "link": "https://finance.yahoo.com/media-advertising/articles/netflix-buy-radford-studio-center-201525149.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Netflix closing on Radford Studio Center after Goldman Sachs\u2019 $380M credit bid",
-          "publisher": "The Real Deal",
-          "link": "https://finance.yahoo.com/real-estate/articles/goldman-sachs-officially-takes-over-195355150.html",
-          "sentiment": 0.38
-        },
-        {
-          "title": "The Last Time Netflix Was This Cheap, the Stock Jumped 600%. Is It a Buy Now?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/24/the-last-time-netflix-was-this-cheap-the-stock-jumped-600-is-it-a-buy-now/",
-          "sentiment": 0.49
         }
       ],
       "volRegime": "Fair",
@@ -2051,7 +2058,7 @@
         "expiryOI": 142324
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.44,
+      "newsSentiment": 0.27,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -2067,10 +2074,10 @@
           "sentiment": 0.74
         },
         {
-          "title": "Dell shares rise after earnings beat as AI server backlog jumps 619%",
-          "publisher": "Proactive",
-          "link": "https://www.proactiveinvestors.com/companies/news/1102383/dell-shares-rise-after-earnings-beat-as-ai-server-backlog-jumps-619-1102383.html",
-          "sentiment": 0.86
+          "title": "DELL Stock Gains After-Hours As AI Server Boom Leads Record Q3, Prompts Third Annual Forecast Hike",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/dell-stock-gains-after-hours-as-ai-server-boom-leads-record-q3-prompts-third-annual-forecast-hike/cNbsV6sR9lG",
+          "sentiment": 0.34
         }
       ],
       "volRegime": "Cheap",
@@ -2961,26 +2968,26 @@
         "expiryOI": 15038
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.18,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.07,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Stephanie Link Says Marvell Could Earn $30 a Share by 2031. Is She Right?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/24/stephanie-link-says-marvell-could-earn-30-a-share-by-2031-is-she-right/",
+          "sentiment": 0.3
+        },
+        {
+          "title": "Marvell Technology (MRVL) Suffers a Larger Drop Than the General Market: Key Insights",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-suffers-larger-214502476.html",
+          "sentiment": -0.64
+        },
         {
           "title": "Why Marvell Stock Is Moving With Nvidia Fueled AI Chip Optimism",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-stock-moving-nvidia-181152431.html",
           "sentiment": 0.54
-        },
-        {
-          "title": "Generate A Return From Marvell Stock, Set For A Large Post-Earnings Swing",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/research/options/marvell-stock-mrvl-technology-chips-markets-options-trade-strategy/?src=A00220&yptr=yahoo",
-          "sentiment": 0.0
-        },
-        {
-          "title": "14 Big Funds Bought Marvell Last Quarter, While 13 Sold. Who\u2019s Right?",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/14-big-funds-bought-marvell-last-quarter-while-13-sold-whos-right?ref=yahoofinance&tlnk=yf-261124-xj3x7jcx",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Cheap",
@@ -3635,7 +3642,20 @@
       "potIsProfitProb": true,
       "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsHeadlines": [
+        {
+          "title": "3 AI Investment Stocks We\u2019re Buying Today And Why We\u2019re Selling On Micron",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/videos/3-ai-investment-stocks-were-buying-today-and-why-were-selling-on-micron/",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Nvidia, Anthropic, Micron, HPE, Analog Devices, Insmed, Dollar Tree, and More Stocks That Explain Today\u2019s Market",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/stock-movers-0853c431?siteid=yhoof2&yptr=yahoo",
+          "sentiment": 0.0
+        }
+      ],
       "volRegime": "Cheap",
       "ivRvRatio": 0.67,
       "realizedVol": 136.6,
@@ -3746,7 +3766,7 @@
         "expiryOI": 107973
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.03,
+      "newsSentiment": 0.13,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -3756,16 +3776,16 @@
           "sentiment": 0.0
         },
         {
+          "title": "How Much Bitcoin Could Elon Musk Control if Tesla and SpaceX Merge?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/cryptocurrency/2026/11/24/how-much-bitcoin-could-elon-musk-control-if-tesla-and-spacex-merge/",
+          "sentiment": 0.0
+        },
+        {
           "title": "RBC Expects SpaceX-Tesla Deal Announcement By Early 2027 \u2014 Notes TSLA Shareholders May Accept Combination Without Large Premium",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/rbc-expects-space-x-tesla-deal-announcement-by-early-2027-notes-tsla-shareholders-may-accept-combination-without-large-premium/cNbsNbYR9k6",
           "sentiment": 0.38
-        },
-        {
-          "title": "A SpaceX-Tesla Deal Could Come in December. Here's Why 1 Group of Investors Should Be Worried.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/24/a-spacex-tesla-deal-could-come-in-december-here-s-why-1-group-of-investors-should-be-worried/",
-          "sentiment": -0.3
         }
       ],
       "volRegime": "Cheap",
@@ -3874,7 +3894,7 @@
         "expiryOI": 44845
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.03,
+      "newsSentiment": 0.13,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -3884,16 +3904,16 @@
           "sentiment": 0.0
         },
         {
+          "title": "How Much Bitcoin Could Elon Musk Control if Tesla and SpaceX Merge?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/cryptocurrency/2026/11/24/how-much-bitcoin-could-elon-musk-control-if-tesla-and-spacex-merge/",
+          "sentiment": 0.0
+        },
+        {
           "title": "RBC Expects SpaceX-Tesla Deal Announcement By Early 2027 \u2014 Notes TSLA Shareholders May Accept Combination Without Large Premium",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/rbc-expects-space-x-tesla-deal-announcement-by-early-2027-notes-tsla-shareholders-may-accept-combination-without-large-premium/cNbsNbYR9k6",
           "sentiment": 0.38
-        },
-        {
-          "title": "A SpaceX-Tesla Deal Could Come in December. Here's Why 1 Group of Investors Should Be Worried.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/24/a-spacex-tesla-deal-could-come-in-december-here-s-why-1-group-of-investors-should-be-worried/",
-          "sentiment": -0.3
         }
       ],
       "volRegime": "Fair",
@@ -7576,7 +7596,7 @@
       "dividendYield": 0.8,
       "marketCap": 3684357898240,
       "score": 6.0,
-      "newsSentiment": 0.35,
+      "newsSentiment": 0.2,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -7590,12 +7610,6 @@
           "publisher": "TipRanks",
           "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-one-safest-ways-210600451.html",
           "sentiment": 0.4
-        },
-        {
-          "title": "Is Microsoft the Best Big Tech Stock to Buy Now?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/24/is-microsoft-the-best-big-tech-stock-to-buy-now/",
-          "sentiment": 0.64
         }
       ],
       "valuationLabel": "Cheap",
@@ -7626,26 +7640,26 @@
       "dividendYield": 0.61,
       "marketCap": 3751960903680,
       "score": 2.8,
-      "newsSentiment": 0.08,
+      "newsSentiment": 0.02,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Why Trump wanted Jensen Huang back at the helm of Nvidia",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/why-trump-wanted-jensen-huang-back-at-the-helm-of-nvidia-224325153.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html",
+          "sentiment": 0.34
+        },
         {
           "title": "Why Nvidia is 'bar none' the 'cheapest growth stock in the market'",
           "publisher": "Yahoo Finance Video",
           "link": "https://finance.yahoo.com/video/why-nvidia-is-bar-none-the-cheapest-growth-stock-in-the-market-213425021.html",
           "sentiment": -0.29
-        },
-        {
-          "title": "Why HubSpot's CEO thinks Jensen Huang came back to Nvidia too soon",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/why-hubspots-ceo-thinks-jensen-huang-came-back-to-nvidia-too-soon-183053258.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Nvidia's Huang says he is in therapy as comeback rally fades",
-          "publisher": "AFP",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/huangs-return-fails-dispel-doubts-164158462.html",
-          "sentiment": 0.54
         }
       ],
       "valuationLabel": "Cheap",
@@ -7676,8 +7690,8 @@
       "dividendYield": 0.35,
       "marketCap": 1507722133504,
       "score": 2.9,
-      "newsSentiment": -0.09,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.5,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
         {
           "title": "UK financial watchdog delivers AI warning as Meta launches adapted Muse",
@@ -7690,12 +7704,6 @@
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/could-meta-actually-climb-30-or-is-j-p-morgan-totally-wrong?ref=yahoofinance&tlnk=yf-261124-24hpvhqr",
           "sentiment": -0.58
-        },
-        {
-          "title": "David Abrams\u2019 Meta Platforms, Inc. (META) Bet Is Backed by Strong Cash Flow and AI Growth",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/david-abrams-meta-platforms-inc-190633349.html",
-          "sentiment": 0.72
         }
       ],
       "valuationLabel": "Fair",
@@ -7728,7 +7736,14 @@
       "score": 2.8,
       "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsHeadlines": [
+        {
+          "title": "Billionaire Charlie Munger\u2019s Protege Li Lu: Himalaya Capital Has 45% of Its $3.78 Billion Portfolio in Alphabet",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/24/billionaire-charlie-mungers-protege-li-lu-himalaya-capital-has-45-of-its-3-78-billion-portfolio-in-alphabet/",
+          "sentiment": 0.0
+        }
+      ],
       "valuationLabel": "Cheap",
       "peVsSectorPct": -15.3,
       "sectorMedianPE": 17.0,
@@ -7807,9 +7822,15 @@
       "dividendYield": 1.76,
       "marketCap": 341389017088,
       "score": 2.8,
-      "newsSentiment": -0.56,
+      "newsSentiment": -0.28,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Oracle (ORCL) Falls More Steeply Than Broader Market: What Investors Need to Know",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-falls-more-steeply-214502238.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Not Good: Oracle\u2019s Credit Swaps Blow Out Again a Day After Huang\u2019s Return Lifted Nvidia",
           "publisher": "TIKR",
@@ -7845,9 +7866,15 @@
       "dividendYield": 0.0,
       "marketCap": 2728046362624,
       "score": 5.2,
-      "newsSentiment": 0.57,
+      "newsSentiment": 0.37,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Amazon customers may qualify for $309.5M settlement. See how",
+          "publisher": "USA TODAY",
+          "link": "https://www.usatoday.com/story/money/2026/11/24/amazon-settlement-deadline-is-approaching-who-qualifies/92947347007/",
+          "sentiment": 0.18
+        },
         {
           "title": "Is Amazon.com (AMZN) Still Below Fair Value As AI Spending Rises?",
           "publisher": "Simply Wall St.",
@@ -7969,26 +7996,26 @@
       "dividendYield": 0.0,
       "marketCap": 241739415552,
       "score": 2.8,
-      "newsSentiment": 0.29,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Tech Keeps Eating Hollywood As Netflix Buys Historic Seinfeld Lot",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/netflix-stock-84-price-target-analysts-buys-radford-seinfeld-lot/?src=A00220&yptr=yahoo",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Is Netflix a Buy for $1,000?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/24/is-netflix-a-buy-for-usd1-000/",
+          "sentiment": 0.0
+        },
         {
           "title": "Netflix to buy Radford Studio Center in $380-million deal",
           "publisher": "LA Times",
           "link": "https://finance.yahoo.com/media-advertising/articles/netflix-buy-radford-studio-center-201525149.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Netflix closing on Radford Studio Center after Goldman Sachs\u2019 $380M credit bid",
-          "publisher": "The Real Deal",
-          "link": "https://finance.yahoo.com/real-estate/articles/goldman-sachs-officially-takes-over-195355150.html",
-          "sentiment": 0.38
-        },
-        {
-          "title": "The Last Time Netflix Was This Cheap, the Stock Jumped 600%. Is It a Buy Now?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/24/the-last-time-netflix-was-this-cheap-the-stock-jumped-600-is-it-a-buy-now/",
-          "sentiment": 0.49
         }
       ],
       "valuationLabel": "Cheap",
@@ -8307,7 +8334,7 @@
       "dividendYield": 0.75,
       "marketCap": 187742781440,
       "score": 3.7,
-      "newsSentiment": 0.44,
+      "newsSentiment": 0.27,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -8323,10 +8350,10 @@
           "sentiment": 0.74
         },
         {
-          "title": "Dell shares rise after earnings beat as AI server backlog jumps 619%",
-          "publisher": "Proactive",
-          "link": "https://www.proactiveinvestors.com/companies/news/1102383/dell-shares-rise-after-earnings-beat-as-ai-server-backlog-jumps-619-1102383.html",
-          "sentiment": 0.86
+          "title": "DELL Stock Gains After-Hours As AI Server Boom Leads Record Q3, Prompts Third Annual Forecast Hike",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/dell-stock-gains-after-hours-as-ai-server-boom-leads-record-q3-prompts-third-annual-forecast-hike/cNbsV6sR9lG",
+          "sentiment": 0.34
         }
       ],
       "valuationLabel": "Cheap",
@@ -8663,26 +8690,26 @@
       "dividendYield": 0.17,
       "marketCap": 118382206976,
       "score": 1.6,
-      "newsSentiment": 0.18,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.07,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Stephanie Link Says Marvell Could Earn $30 a Share by 2031. Is She Right?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/24/stephanie-link-says-marvell-could-earn-30-a-share-by-2031-is-she-right/",
+          "sentiment": 0.3
+        },
+        {
+          "title": "Marvell Technology (MRVL) Suffers a Larger Drop Than the General Market: Key Insights",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-suffers-larger-214502476.html",
+          "sentiment": -0.64
+        },
         {
           "title": "Why Marvell Stock Is Moving With Nvidia Fueled AI Chip Optimism",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-stock-moving-nvidia-181152431.html",
           "sentiment": 0.54
-        },
-        {
-          "title": "Generate A Return From Marvell Stock, Set For A Large Post-Earnings Swing",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/research/options/marvell-stock-mrvl-technology-chips-markets-options-trade-strategy/?src=A00220&yptr=yahoo",
-          "sentiment": 0.0
-        },
-        {
-          "title": "14 Big Funds Bought Marvell Last Quarter, While 13 Sold. Who\u2019s Right?",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/14-big-funds-bought-marvell-last-quarter-while-13-sold-whos-right?ref=yahoofinance&tlnk=yf-261124-xj3x7jcx",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
@@ -8941,7 +8968,20 @@
       "score": 2.8,
       "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
-      "newsHeadlines": [],
+      "newsHeadlines": [
+        {
+          "title": "3 AI Investment Stocks We\u2019re Buying Today And Why We\u2019re Selling On Micron",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/videos/3-ai-investment-stocks-were-buying-today-and-why-were-selling-on-micron/",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Nvidia, Anthropic, Micron, HPE, Analog Devices, Insmed, Dollar Tree, and More Stocks That Explain Today\u2019s Market",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/stock-movers-0853c431?siteid=yhoof2&yptr=yahoo",
+          "sentiment": 0.0
+        }
+      ],
       "valuationLabel": "Cheap",
       "peVsSectorPct": -70.6,
       "sectorMedianPE": 28.9,
@@ -8970,7 +9010,7 @@
       "dividendYield": 0.0,
       "marketCap": 1520546873344,
       "score": 3.7,
-      "newsSentiment": 0.03,
+      "newsSentiment": 0.13,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -8980,16 +9020,16 @@
           "sentiment": 0.0
         },
         {
+          "title": "How Much Bitcoin Could Elon Musk Control if Tesla and SpaceX Merge?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/cryptocurrency/2026/11/24/how-much-bitcoin-could-elon-musk-control-if-tesla-and-spacex-merge/",
+          "sentiment": 0.0
+        },
+        {
           "title": "RBC Expects SpaceX-Tesla Deal Announcement By Early 2027 \u2014 Notes TSLA Shareholders May Accept Combination Without Large Premium",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/rbc-expects-space-x-tesla-deal-announcement-by-early-2027-notes-tsla-shareholders-may-accept-combination-without-large-premium/cNbsNbYR9k6",
           "sentiment": 0.38
-        },
-        {
-          "title": "A SpaceX-Tesla Deal Could Come in December. Here's Why 1 Group of Investors Should Be Worried.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/24/a-spacex-tesla-deal-could-come-in-december-here-s-why-1-group-of-investors-should-be-worried/",
-          "sentiment": -0.3
         }
       ],
       "valuationLabel": "Rich",
@@ -9020,7 +9060,7 @@
       "dividendYield": 0.0,
       "marketCap": 1708633620480,
       "score": 2.6,
-      "newsSentiment": 0.03,
+      "newsSentiment": 0.13,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -9030,16 +9070,16 @@
           "sentiment": 0.0
         },
         {
+          "title": "How Much Bitcoin Could Elon Musk Control if Tesla and SpaceX Merge?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/cryptocurrency/2026/11/24/how-much-bitcoin-could-elon-musk-control-if-tesla-and-spacex-merge/",
+          "sentiment": 0.0
+        },
+        {
           "title": "RBC Expects SpaceX-Tesla Deal Announcement By Early 2027 \u2014 Notes TSLA Shareholders May Accept Combination Without Large Premium",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/rbc-expects-space-x-tesla-deal-announcement-by-early-2027-notes-tsla-shareholders-may-accept-combination-without-large-premium/cNbsNbYR9k6",
           "sentiment": 0.38
-        },
-        {
-          "title": "A SpaceX-Tesla Deal Could Come in December. Here's Why 1 Group of Investors Should Be Worried.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/24/a-spacex-tesla-deal-could-come-in-december-here-s-why-1-group-of-investors-should-be-worried/",
-          "sentiment": -0.3
         }
       ],
       "valuationLabel": "Rich",
@@ -10533,9 +10573,15 @@
       "dividendYield": 2.95,
       "marketCap": 246421815296,
       "score": 8.6,
-      "newsSentiment": 0.24,
+      "newsSentiment": 0.28,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Toyota's 2027 Sienna brings a surprising gas-saving upgrade",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/automotive/toyotas-2027-sienna-brings-a-surprising-gas-saving-upgrade",
+          "sentiment": 0.68
+        },
         {
           "title": "Honda, Toyota recall over a million vehicles over airbag, camshaft risks",
           "publisher": "Just Auto",
@@ -10547,12 +10593,6 @@
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/moody-upgrades-toyota-outlook-positive-171321572.html",
           "sentiment": 0.8
-        },
-        {
-          "title": "Toyota (TSE:7203) Stock May Be Below Fair Value As Robotaxi News Builds",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/toyota-tse-7203-stock-may-002107329.html",
-          "sentiment": 0.57
         }
       ],
       "valuationLabel": "Cheap",
@@ -10775,7 +10815,7 @@
     "costPerContract": 841.0
   },
   "market": {
-    "asOf": "2026-11-24T22:07:45.800159+00:00",
+    "asOf": "2026-11-24T23:36:31.769878+00:00",
     "gauges": [
       {
         "key": "qqq",
