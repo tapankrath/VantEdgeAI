@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T22:07:03.800947+00:00",
+  "generated_at": "2026-11-25T23:13:34.768943+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -656,26 +656,26 @@
         "expiryOI": 7884
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.14,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.24,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Market Chatter: JPMorgan Projects $450 Billion in AI High-Grade Debt Issuance for 2027",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-jpmorgan-projects-450-222027435.html",
+          "sentiment": -0.36
+        },
+        {
+          "title": "JPMorgan sees $450B in AI bond issuance in 2027",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450b-ai-bond-215824242.html",
+          "sentiment": 0.0
+        },
         {
           "title": "JPMorgan Sees $450 Billion AI Debt Blitz in 2027 Before Plateau",
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450-billion-ai-211721263.html",
           "sentiment": -0.36
-        },
-        {
-          "title": "Jamie Dimon Loved Britain\u2014Until It Raised Taxes on JPMorgan",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/banking/jamie-dimon-loved-britainuntil-it-raised-taxes-on-jpmorgan-3462d7b6?siteid=yhoof2&yptr=yahoo",
-          "sentiment": 0.77
-        },
-        {
-          "title": "12 Big Funds Bought JPMorgan Chase Last Quarter, While 12 Sold. Who\u2019s Right?",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/12-big-funds-bought-jpmorgan-chase-last-quarter-while-12-sold-whos-right?ref=yahoofinance&tlnk=yf-261125-wgx95c2j",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -876,7 +876,7 @@
         "expiryOI": 768926
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.06,
+      "newsSentiment": 0.02,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -890,6 +890,12 @@
           "publisher": "Yahoo Finance Video",
           "link": "https://finance.yahoo.com/video/amazon-meta-reportedly-in-talks-to-remove-block-on-muse-ai-agent-143616531.html",
           "sentiment": -0.3
+        },
+        {
+          "title": "SpaceX is now on the clock to launch 1,000,000 satellites \u2014 60x what exists in space today. Amazon calls it impossible",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/technology/ai/articles/spacex-now-clock-launch-1-220000396.html",
+          "sentiment": 0.18
         }
       ],
       "volRegime": "Fair",
@@ -2128,9 +2134,15 @@
         "expiryOI": 37704
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.7,
+      "newsSentiment": -0.67,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Palo Alto Networks Falls After Former Executive Claims Accounting Fraud",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/technology/palo-alto-networks-stock-falls-former-executive-claims-accounting-fraud/?src=A00220&yptr=yahoo",
+          "sentiment": -0.67
+        },
         {
           "title": "Market Chatter: Palo Alto Networks Sued by Ex-Executive Over Alleged Accounting Fraud",
           "publisher": "MT Newswires",
@@ -2142,12 +2154,6 @@
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-sued-over-215144369.html",
           "sentiment": -0.67
-        },
-        {
-          "title": "Palo Alto Networks Accused by Ex-Manager of Accounting Fraud",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-accused-ex-211701467.html",
-          "sentiment": -0.77
         }
       ],
       "volRegime": "Cheap",
@@ -2921,6 +2927,12 @@
       "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Analysts Expect More From Marvell Than Marvell Does",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/stock/mrvl/articles/628747/analysts-expect-more-from-marvell-than-marvell-does/2026-11-25",
+          "sentiment": 0.0
+        },
         {
           "title": "Marvell Technology Stocks Fall 8.47% as Data Center Exposure Bites",
           "publisher": "GuruFocus.com",
@@ -3729,7 +3741,7 @@
         "expiryOI": 28510
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.07,
+      "newsSentiment": 0.15,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -3739,16 +3751,16 @@
           "sentiment": -0.4
         },
         {
+          "title": "Micron's CEO pay rose 28%. His security bill rose way faster",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/investing/micron-ceo-pay-security-costs-soar",
+          "sentiment": 0.25
+        },
+        {
           "title": "Not Micron. Not Broadcom. This Is My Top Oversold Artificial Intelligence (AI) Stock to Buy in December",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/25/not-micron-not-broadcom-this-is-my-top-oversold-artificial-intelligence-ai-stock-to-buy-in-december/",
           "sentiment": 0.6
-        },
-        {
-          "title": "David Tepper Sold All of His AMD Stock. His Biggest Position Is Micron.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/25/david-tepper-sold-all-of-his-amd-stock-his-biggest-position-is-micron/",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Cheap",
@@ -7842,26 +7854,26 @@
       "dividendYield": 2.08,
       "marketCap": 841137782784,
       "score": 4.3,
-      "newsSentiment": 0.14,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": -0.24,
+      "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Market Chatter: JPMorgan Projects $450 Billion in AI High-Grade Debt Issuance for 2027",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-jpmorgan-projects-450-222027435.html",
+          "sentiment": -0.36
+        },
+        {
+          "title": "JPMorgan sees $450B in AI bond issuance in 2027",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450b-ai-bond-215824242.html",
+          "sentiment": 0.0
+        },
         {
           "title": "JPMorgan Sees $450 Billion AI Debt Blitz in 2027 Before Plateau",
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450-billion-ai-211721263.html",
           "sentiment": -0.36
-        },
-        {
-          "title": "Jamie Dimon Loved Britain\u2014Until It Raised Taxes on JPMorgan",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/banking/jamie-dimon-loved-britainuntil-it-raised-taxes-on-jpmorgan-3462d7b6?siteid=yhoof2&yptr=yahoo",
-          "sentiment": 0.77
-        },
-        {
-          "title": "12 Big Funds Bought JPMorgan Chase Last Quarter, While 12 Sold. Who\u2019s Right?",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/12-big-funds-bought-jpmorgan-chase-last-quarter-while-12-sold-whos-right?ref=yahoofinance&tlnk=yf-261125-wgx95c2j",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -7930,7 +7942,7 @@
       "dividendYield": 0.0,
       "marketCap": 2643055345664,
       "score": 4.3,
-      "newsSentiment": -0.06,
+      "newsSentiment": 0.02,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -7944,6 +7956,12 @@
           "publisher": "Yahoo Finance Video",
           "link": "https://finance.yahoo.com/video/amazon-meta-reportedly-in-talks-to-remove-block-on-muse-ai-agent-143616531.html",
           "sentiment": -0.3
+        },
+        {
+          "title": "SpaceX is now on the clock to launch 1,000,000 satellites \u2014 60x what exists in space today. Amazon calls it impossible",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/technology/ai/articles/spacex-now-clock-launch-1-220000396.html",
+          "sentiment": 0.18
         }
       ],
       "valuationLabel": "Cheap",
@@ -8442,9 +8460,15 @@
       "dividendYield": 0.0,
       "marketCap": 292390961152,
       "score": 6.9,
-      "newsSentiment": -0.7,
+      "newsSentiment": -0.67,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Palo Alto Networks Falls After Former Executive Claims Accounting Fraud",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/technology/palo-alto-networks-stock-falls-former-executive-claims-accounting-fraud/?src=A00220&yptr=yahoo",
+          "sentiment": -0.67
+        },
         {
           "title": "Market Chatter: Palo Alto Networks Sued by Ex-Executive Over Alleged Accounting Fraud",
           "publisher": "MT Newswires",
@@ -8456,12 +8480,6 @@
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-sued-over-215144369.html",
           "sentiment": -0.67
-        },
-        {
-          "title": "Palo Alto Networks Accused by Ex-Manager of Accounting Fraud",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-accused-ex-211701467.html",
-          "sentiment": -0.77
         }
       ],
       "valuationLabel": "Rich",
@@ -8764,6 +8782,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "Analysts Expect More From Marvell Than Marvell Does",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/stock/mrvl/articles/628747/analysts-expect-more-from-marvell-than-marvell-does/2026-11-25",
+          "sentiment": 0.0
+        },
+        {
           "title": "Marvell Technology Stocks Fall 8.47% as Data Center Exposure Bites",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-stocks-fall-8-175958573.html",
@@ -9036,7 +9060,7 @@
       "dividendYield": 0.1,
       "marketCap": 680268201984,
       "score": 2.8,
-      "newsSentiment": 0.07,
+      "newsSentiment": 0.15,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -9046,16 +9070,16 @@
           "sentiment": -0.4
         },
         {
+          "title": "Micron's CEO pay rose 28%. His security bill rose way faster",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/investing/micron-ceo-pay-security-costs-soar",
+          "sentiment": 0.25
+        },
+        {
           "title": "Not Micron. Not Broadcom. This Is My Top Oversold Artificial Intelligence (AI) Stock to Buy in December",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/25/not-micron-not-broadcom-this-is-my-top-oversold-artificial-intelligence-ai-stock-to-buy-in-december/",
           "sentiment": 0.6
-        },
-        {
-          "title": "David Tepper Sold All of His AMD Stock. His Biggest Position Is Micron.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/25/david-tepper-sold-all-of-his-amd-stock-his-biggest-position-is-micron/",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -10892,7 +10916,7 @@
     "costPerContract": 898.0
   },
   "market": {
-    "asOf": "2026-11-25T22:07:03.800932+00:00",
+    "asOf": "2026-11-25T23:13:34.768928+00:00",
     "gauges": [
       {
         "key": "qqq",
