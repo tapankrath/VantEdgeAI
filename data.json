@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T17:07:03.565030+00:00",
+  "generated_at": "2026-11-26T18:08:04.475308+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -72,9 +72,15 @@
         "expiryOI": 35324
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.35,
+      "newsSentiment": 0.53,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Apple, Exxon and Lowe\u2019s Are Rewarding Shareholders Beyond Their Regular Dividends",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/26/apple-exxon-and-lowes-are-rewarding-shareholders-beyond-their-regular-dividends/",
+          "sentiment": 0.53
+        },
         {
           "title": "Can VZ's New Apple Deals and Loyalty Benefits Drive Subscriber Growth?",
           "publisher": "Zacks",
@@ -86,12 +92,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/26/if-you-invest-1000-in-apple-today-heres-what-it-could-be-worth-by-2029/",
           "sentiment": 0.23
-        },
-        {
-          "title": "Netflix vs. Apple: Which Streaming Stock Has an Edge Right Now?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-vs-apple-streaming-stock-142100099.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -285,7 +285,7 @@
         "expiryOI": 190761
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.0,
+      "newsSentiment": -0.05,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -295,10 +295,16 @@
           "sentiment": 0.0
         },
         {
-          "title": "Did Arm CEO Rene Haas Dodge a Bullet With Jensen Huang\u2019s Reinstatement at Nvidia?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/26/did-arm-ceo-rene-haas-dodge-a-bullet-with-jensen-huangs-reinstatement-at-nvidia/",
-          "sentiment": 0.0
+          "title": "Should You Buy Nvidia After Its Sharp Decline? Warren Buffett\u2019s Long-Held Investment Philosophy Provides a Clear Answer",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/26/should-you-buy-nvidia-warren-buffett-investment-philosophy-provides-a-clear-answer/",
+          "sentiment": 0.38
+        },
+        {
+          "title": "NVIDIA Stocks Fall 3.91% as S&P Puts AA Rating on Downgrade Watch",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-fall-3-91-173102633.html",
+          "sentiment": -0.54
         }
       ],
       "volRegime": "Cheap",
@@ -411,25 +417,25 @@
         "expiryOI": 533778
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.03,
+      "newsSentiment": 0.14,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Meta Platforms Stocks Jump 3.4% on Reported Amazon Talks Over Muse AI Agent",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-stocks-jump-3-172338883.html",
+          "sentiment": 0.18
+        },
+        {
+          "title": "Meta Platforms\u2019 (META) Surging Capex Pressures Free Cash Flow Amid Monetization Debates",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-surging-capex-165927360.html",
+          "sentiment": 0.25
+        },
         {
           "title": "CoreWeave Seeks $4.5 Billion Meta-Backed Loan as Bond Yields Hit 18%",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-seeks-4-5-billion-163142061.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Meta Platforms Just Partnered With Walmart. Here's Why Investors Should Pay Attention",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/26/meta-platforms-just-partnered-with-walmart-here-s-why-investors-should-pay-attention/",
-          "sentiment": -0.1
-        },
-        {
-          "title": "CoreWeave Can Now Borrow at 7% With Meta\u2019s Name on the Loan",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/26/coreweave-can-now-borrow-at-7-with-metas-name-on-the-loan/",
           "sentiment": 0.0
         }
       ],
@@ -539,20 +545,26 @@
         "expiryOI": 16167
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.19,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.13,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Alphabet Could Be the Safest Way to Own Anthropic. Here\u2019s the Math.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/26/alphabet-could-be-the-safest-way-to-own-anthropic-here-s-the-math/",
+          "sentiment": 0.4
+        },
+        {
+          "title": "Alphabet (GOOGL) Dropped, So What Is Behind The Latest Attention?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-dropped-behind-latest-170937914.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Alphabet Drops 15% in a Year: Buy, Sell or Hold the Stock?",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-drops-15-buy-sell-134800192.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Tepper Trims Alphabet by ~46% and Dumps Broadcom & AMD While Backing Micron and Oracle",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/26/tepper-trims-alphabet-by-46-and-dumps-broadcom-amd-while-backing-micron-and-oracle/",
-          "sentiment": -0.38
         }
       ],
       "volRegime": "Cheap",
@@ -765,9 +777,15 @@
         "expiryOI": 70436
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.1,
+      "newsSentiment": -0.14,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Oracle Stocks Sink 5.13% to 52-Week Low as Default Swaps Hit Record",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-sink-5-13-171842760.html",
+          "sentiment": -0.73
+        },
         {
           "title": "Oracle Stock Dipped Under $100 as Banks Try to Unload Its Data-Center Loans",
           "publisher": "24/7 Wall St.",
@@ -779,12 +797,6 @@
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/oracle-is-down-47-in-2026-is-there-really-a-reasonable-chance-oracle-goes-bankrupt?ref=yahoofinance&tlnk=yf-261126-97j6xfvm",
           "sentiment": 0.31
-        },
-        {
-          "title": "How Will Oracle's Heavy AI Spending Shape the Stock's Cash Flow Trend?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/oracles-heavy-ai-spending-shape-134100910.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -881,14 +893,26 @@
         "expiryOI": 768926
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.42,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.08,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Walmart, Amazon Face Surprising Shopping Shift",
+          "title": "Meta Platforms Stocks Jump 3.4% on Reported Amazon Talks Over Muse AI Agent",
           "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-amazon-face-surprising-shopping-160813140.html",
-          "sentiment": 0.42
+          "link": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-stocks-jump-3-172338883.html",
+          "sentiment": 0.18
+        },
+        {
+          "title": "Amazon Stocks Fall 3.12% as Bernstein Flags a 16% Drop in Cloud Web Traffic",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-fall-3-12-171531523.html",
+          "sentiment": -0.1
+        },
+        {
+          "title": "Amazon Has 59 Buy Ratings and Not a Single Sell. Here\u2019s Where its Headed",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/26/amazon-has-59-buy-ratings-and-not-a-single-sell-heres-where-its-headed/",
+          "sentiment": 0.18
         }
       ],
       "volRegime": "Fair",
@@ -1207,9 +1231,15 @@
         "expiryOI": 7373
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.0,
+      "newsSentiment": 0.14,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "NFL's Thanksgiving Boom Raises Stakes for Disney, Netflix",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/media-advertising/articles/nfls-thanksgiving-boom-raises-stakes-174228885.html",
+          "sentiment": 0.42
+        },
         {
           "title": "Netflix Stock Is Down 36% in 2026. Can Its Disney Partnership Make It a Buy Again?",
           "publisher": "24/7 Wall St.",
@@ -1220,12 +1250,6 @@
           "title": "Netflix vs. Apple: Which Streaming Stock Has an Edge Right Now?",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-vs-apple-streaming-stock-142100099.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Netflix Stock and Higher Content Spend: Can Margins Hold Firm in 2027?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-higher-content-spend-141100397.html",
           "sentiment": 0.0
         }
       ],
@@ -1897,9 +1921,15 @@
         "expiryOI": 13632
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.25,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.26,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "TSMC (TSM) Upgraded to Strong Buy: Here's Why",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tsmc-tsm-upgraded-strong-buy-160004326.html",
+          "sentiment": 0.78
+        },
         {
           "title": "Taiwan Semiconductor Manufacturing (TSM) May Make Its $22.6 Billion Texas Plant Conditional",
           "publisher": "Simply Wall St.",
@@ -1911,12 +1941,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-taiwan-semiconductor-110318756.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Taiwan shares tumble 4.8% as AI chip stocks slump",
-          "publisher": "IntelliNews",
-          "link": "http://www.intellinews.com/taiwan-shares-tumble-4-8-as-ai-chip-stocks-slump-488520/",
-          "sentiment": -0.74
         }
       ],
       "volRegime": "Cheap",
@@ -2013,26 +2037,26 @@
         "expiryOI": 158563
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.3,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.16,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Dell Is No Longer the Company You Originally Bought. Is That a Reason to Buy More Stock in 2027?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/26/dell-is-no-longer-the-company-you-originally-bought-is-that-a-reason-to-buy-more-stock-in-2027/",
+          "sentiment": -0.3
+        },
+        {
+          "title": "DELL's AI Server Sales Surge: Can the Growth Momentum Continue?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/technology/ai/articles/dells-ai-server-sales-surge-160100190.html",
+          "sentiment": 0.77
+        },
         {
           "title": "Dell\u2019s $132B Backlog Turns 2027 Into a Pure Multiple-Expansion Trade Toward $500",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/26/dells-132b-backlog-turns-2027-into-a-pure-multiple-expansion-trade-toward-500/",
           "sentiment": 0.0
-        },
-        {
-          "title": "Dell\u2019s Jeff Clarke: Dell Is \u201cNow a Different Company.\u201d A $132 Billion Backlog Backs Him Up",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/dells-jeff-clarke-dell-is-now-a-different-company-a-132-billion-backlog-backs-him-up?ref=yahoofinance&tlnk=yf-261126-27hg7x9w",
-          "sentiment": -0.05
-        },
-        {
-          "title": "DELL Stock Heads For Worst Month Since 2021: Morningstar Sees Risk Ahead For Dell Despite AI-Led Earnings Beat",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/dell-stock-heads-for-worst-month-since-2021-morningstar-sees-risk-ahead-for-dell-despite-ai-led-earnings-beat/cNbx0U7R9Zo",
-          "sentiment": -0.86
         }
       ],
       "volRegime": "Cheap",
@@ -2785,9 +2809,15 @@
         "expiryOI": 7766
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.16,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Marvell Options Price In 16% Earnings-Day Stock Swing",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/options/articles/marvell-options-price-16-earnings-174309753.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Marvell Reports Tuesday. How Often Has It Dropped 10%?",
           "publisher": "Trefis",
@@ -2799,12 +2829,6 @@
           "publisher": "Trefis",
           "link": "https://www.trefis.com/stock/avgo/articles/629176/what-s-happening-to-marvell-s-cash-gap-with-broadcom/2026-11-26",
           "sentiment": 0.0
-        },
-        {
-          "title": "Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-inc-mrvl-attracting-130006516.html",
-          "sentiment": 0.48
         }
       ],
       "volRegime": "Cheap",
@@ -3491,26 +3515,26 @@
         "expiryOI": 337856
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.07,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.33,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
-          "title": "Anthropic Stock Snapped Its Losing Streak. The Case to Buy.",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/anthropic-stock-the-case-to-buy-9395edda?siteid=yhoof2&yptr=yahoo",
-          "sentiment": -0.38
-        },
-        {
-          "title": "Anthropic Is Down 7% Since Its IPO. History Says a $5,000 Investment Could Be Worth This Much in a Year.",
+          "title": "Alphabet Could Be the Safest Way to Own Anthropic. Here\u2019s the Math.",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/26/anthropic-is-down-7-since-its-ipo-history-says-a-usd5-000-investment-could-be-worth-this-much-in-a-year/",
-          "sentiment": 0.23
+          "link": "https://www.fool.com/investing/2026/11/26/alphabet-could-be-the-safest-way-to-own-anthropic-here-s-the-math/",
+          "sentiment": 0.4
         },
         {
-          "title": "Anthropic Signed a $19 Billion Lease. Is TeraWulf (WULF) Ready?",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-signed-19-billion-lease-144202573.html",
-          "sentiment": 0.36
+          "title": "Cathie Wood Buys $87.8 Million in Anthropic  Shares This Week",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cathie-wood-buys-87-8-174136348.html",
+          "sentiment": 0.3
+        },
+        {
+          "title": "Elon Musk didn\u2019t sell a single share in SpaceX\u2019s record $85.7B IPO. Anthropic\u2019s 7 cofounders cashed out $1.96B in theirs",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-didn-t-sell-170000854.html",
+          "sentiment": 0.3
         }
       ],
       "volRegime": "Unknown",
@@ -3614,9 +3638,15 @@
         "expiryOI": 28510
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.2,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.06,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Micron Stocks Fall 4.53% as TrendForce Cuts 2027 Memory Forecasts",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-fall-4-53-172600974.html",
+          "sentiment": -0.42
+        },
         {
           "title": "SK Hynix Just Revealed the Next Generation of DRAM. Can It Beat Micron in the Next Memory Supercycle?",
           "publisher": "24/7 Wall St.",
@@ -3627,12 +3657,6 @@
           "title": "Jim Cramer Says Micron Stock Is \u201cComically Cheap\u201d at About 3 Times Earnings",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/26/jim-cramer-says-micron-stock-is-comically-cheap-at-about-3-times-earnings/",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Is Micron Stock a Buy After HPE Said Memory Will Stay Scarce Into 2028?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/26/is-micron-stock-a-buy-after-hpe-said-memory-will-stay-scarce-into-2028/",
           "sentiment": 0.0
         }
       ],
@@ -3746,9 +3770,15 @@
         "expiryOI": 868230
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.37,
+      "newsSentiment": 0.22,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Tesla: A SpaceX Merger Could Turn $5,000 Into $10,000",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-merger-could-turn-174606474.html",
+          "sentiment": 0.0
+        },
         {
           "title": "XPeng Raises Stakes for Tesla Stock Investors' Big Growth Bet",
           "publisher": "GuruFocus.com",
@@ -3760,12 +3790,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/technology/ai/articles/teslas-self-driving-expansion-europe-134400727.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "JPMorgan Says S&P Could Waive Its Rules for a Tesla-SpaceX Merger. That\u2019s Good News for SpaceX Holders",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/jpmorgan-says-sp-could-waive-its-rules-for-a-tesla-spacex-merger-thats-good-news-for-spacex-holders?ref=yahoofinance&tlnk=yf-261126-gpc9wr29",
-          "sentiment": 0.44
         }
       ],
       "volRegime": "Cheap",
@@ -3874,7 +3898,7 @@
         "expiryOI": 207054
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.32,
+      "newsSentiment": 0.3,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -3884,16 +3908,16 @@
           "sentiment": 0.6
         },
         {
-          "title": "Elon Musk says he\u2019ll gift every US kid 1 of his own SpaceX shares, plus 1 from SpaceX \u2014 but there\u2019s a catch to claim",
-          "publisher": "Moneywise",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-ll-gift-164000030.html",
-          "sentiment": 0.37
+          "title": "Tesla: A SpaceX Merger Could Turn $5,000 Into $10,000",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-merger-could-turn-174606474.html",
+          "sentiment": 0.0
         },
         {
-          "title": "Musk makes $18 billion SpaceX stock pledge for every kid in America",
-          "publisher": "Axios",
-          "link": "https://www.axios.com/2026/11/26/musk-spacex-shares-trump-accounts#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI",
-          "sentiment": 0.0
+          "title": "SpaceX President Joins Musk in $18 billion Share Donation to Trump Accounts",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-president-joins-musk-18-170943473.html",
+          "sentiment": 0.3
         }
       ],
       "volRegime": "Fair",
@@ -4237,15 +4261,15 @@
           "sentiment": 0.23
         },
         {
-          "title": "Lilly, Novo Supplier Bachem Hit by Share Drop After Growth Plans Disappoint",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/business/earnings/lilly-novo-supplier-bachem-hit-by-share-drop-after-growth-plans-disappoint-d3bcf6fa",
+          "title": "Can Zenagamtide Bolster NVO's Next-Generation Obesity Drug Pipeline?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/healthcare/articles/zenagamtide-bolster-nvos-next-generation-161100298.html",
           "sentiment": 0.0
         },
         {
           "title": "Lilly, Novo Supplier Bachem Hit by Share Drop After Growth Plans Disappoint",
           "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/business/earnings/lilly-novo-supplier-bachem-hit-by-share-drop-after-growth-plans-disappoint-d3bcf6fa?siteid=yhoof2&yptr=yahoo",
+          "link": "https://www.wsj.com/business/earnings/lilly-novo-supplier-bachem-hit-by-share-drop-after-growth-plans-disappoint-d3bcf6fa",
           "sentiment": 0.0
         }
       ],
@@ -4692,9 +4716,15 @@
         "expiryOI": 12560
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.31,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.03,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Update: Market Chatter: Enbridge in Discussions to Sell Part of its Crude Oil Pipeline Network for CA$1.5 Billion",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/energy/articles/market-chatter-enbridge-discussions-sell-170615405.html",
+          "sentiment": -0.57
+        },
         {
           "title": "Enbridge Inc (ENB) is Attracting Investor Attention: Here is What You Should Know",
           "publisher": "Zacks",
@@ -4706,12 +4736,6 @@
           "publisher": "Oilprice.com",
           "link": "https://finance.yahoo.com/energy/articles/enbridge-eyes-1-billion-pipeline-064500452.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "What Makes Enbridge (ENB) Attractive Following the US Midterms?",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/energy/articles/makes-enbridge-enb-attractive-following-203720343.html",
-          "sentiment": 0.44
         }
       ],
       "volRegime": "Fair",
@@ -4924,14 +4948,20 @@
         "expiryOI": 32374
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.73,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.08,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Should Rio Tinto Group (LSE:RIO) Investors Worry About This Discrimination Lawsuit?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/rio-tinto-group-lse-rio-101020858.html",
           "sentiment": -0.73
+        },
+        {
+          "title": "Rio Tinto (LSE:RIO) Stock Fair Value Edges Higher After Mixed Analyst Target Changes",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/rio-tinto-lse-rio-stock-211123245.html",
+          "sentiment": 0.57
         }
       ],
       "volRegime": "Fair",
@@ -5028,9 +5058,15 @@
         "expiryOI": 9675
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.12,
+      "newsSentiment": -0.05,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "UBS Names Its Top Luxury Stock Picks. These Four Brands Stand Out for 2027",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-names-top-luxury-stock-173742701.html",
+          "sentiment": 0.2
+        },
         {
           "title": "UBS Group (SWX:UBSG) Faces 90% Foreign Capital Rule As It Weighs Swiss Base",
           "publisher": "Simply Wall St.",
@@ -5042,12 +5078,6 @@
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/micron-cant-stop-sliding-ubs-cut-its-target-but-still-sees-83-upside?ref=yahoofinance&tlnk=yf-261126-5mxg7gm6",
           "sentiment": -0.36
-        },
-        {
-          "title": "UBS\u2019s $425 Target Says Broadcom\u2019s Selloff Went Too Far",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/ubss-425-target-says-broadcoms-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261126-xrf8pwvw",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Cheap",
@@ -5099,9 +5129,15 @@
       "dividendYield": 0.3,
       "marketCap": 5167353167872,
       "score": 7.6,
-      "newsSentiment": 0.35,
+      "newsSentiment": 0.53,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Apple, Exxon and Lowe\u2019s Are Rewarding Shareholders Beyond Their Regular Dividends",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/26/apple-exxon-and-lowes-are-rewarding-shareholders-beyond-their-regular-dividends/",
+          "sentiment": 0.53
+        },
         {
           "title": "Can VZ's New Apple Deals and Loyalty Benefits Drive Subscriber Growth?",
           "publisher": "Zacks",
@@ -5113,12 +5149,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/26/if-you-invest-1000-in-apple-today-heres-what-it-could-be-worth-by-2029/",
           "sentiment": 0.23
-        },
-        {
-          "title": "Netflix vs. Apple: Which Streaming Stock Has an Edge Right Now?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-vs-apple-streaming-stock-142100099.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
@@ -5180,7 +5210,7 @@
       "dividendYield": 0.67,
       "marketCap": 3605147156480,
       "score": 2.8,
-      "newsSentiment": 0.0,
+      "newsSentiment": -0.05,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
@@ -5190,10 +5220,16 @@
           "sentiment": 0.0
         },
         {
-          "title": "Did Arm CEO Rene Haas Dodge a Bullet With Jensen Huang\u2019s Reinstatement at Nvidia?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/26/did-arm-ceo-rene-haas-dodge-a-bullet-with-jensen-huangs-reinstatement-at-nvidia/",
-          "sentiment": 0.0
+          "title": "Should You Buy Nvidia After Its Sharp Decline? Warren Buffett\u2019s Long-Held Investment Philosophy Provides a Clear Answer",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/26/should-you-buy-nvidia-warren-buffett-investment-philosophy-provides-a-clear-answer/",
+          "sentiment": 0.38
+        },
+        {
+          "title": "NVIDIA Stocks Fall 3.91% as S&P Puts AA Rating on Downgrade Watch",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-fall-3-91-173102633.html",
+          "sentiment": -0.54
         }
       ],
       "valuationLabel": "Cheap",
@@ -5224,25 +5260,25 @@
       "dividendYield": 0.34,
       "marketCap": 1559025942528,
       "score": 3.7,
-      "newsSentiment": -0.03,
+      "newsSentiment": 0.14,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Meta Platforms Stocks Jump 3.4% on Reported Amazon Talks Over Muse AI Agent",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-stocks-jump-3-172338883.html",
+          "sentiment": 0.18
+        },
+        {
+          "title": "Meta Platforms\u2019 (META) Surging Capex Pressures Free Cash Flow Amid Monetization Debates",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-surging-capex-165927360.html",
+          "sentiment": 0.25
+        },
         {
           "title": "CoreWeave Seeks $4.5 Billion Meta-Backed Loan as Bond Yields Hit 18%",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-seeks-4-5-billion-163142061.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Meta Platforms Just Partnered With Walmart. Here's Why Investors Should Pay Attention",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/26/meta-platforms-just-partnered-with-walmart-here-s-why-investors-should-pay-attention/",
-          "sentiment": -0.1
-        },
-        {
-          "title": "CoreWeave Can Now Borrow at 7% With Meta\u2019s Name on the Loan",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/26/coreweave-can-now-borrow-at-7-with-metas-name-on-the-loan/",
           "sentiment": 0.0
         }
       ],
@@ -5274,20 +5310,26 @@
       "dividendYield": 0.32,
       "marketCap": 3331428188160,
       "score": 2.8,
-      "newsSentiment": -0.19,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.13,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Alphabet Could Be the Safest Way to Own Anthropic. Here\u2019s the Math.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/26/alphabet-could-be-the-safest-way-to-own-anthropic-here-s-the-math/",
+          "sentiment": 0.4
+        },
+        {
+          "title": "Alphabet (GOOGL) Dropped, So What Is Behind The Latest Attention?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-dropped-behind-latest-170937914.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Alphabet Drops 15% in a Year: Buy, Sell or Hold the Stock?",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-drops-15-buy-sell-134800192.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Tepper Trims Alphabet by ~46% and Dumps Broadcom & AMD While Backing Micron and Oracle",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/26/tepper-trims-alphabet-by-46-and-dumps-broadcom-amd-while-backing-micron-and-oracle/",
-          "sentiment": -0.38
         }
       ],
       "valuationLabel": "Cheap",
@@ -5368,9 +5410,15 @@
       "dividendYield": 1.93,
       "marketCap": 323867508736,
       "score": 2.8,
-      "newsSentiment": 0.1,
+      "newsSentiment": -0.14,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Oracle Stocks Sink 5.13% to 52-Week Low as Default Swaps Hit Record",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-sink-5-13-171842760.html",
+          "sentiment": -0.73
+        },
         {
           "title": "Oracle Stock Dipped Under $100 as Banks Try to Unload Its Data-Center Loans",
           "publisher": "24/7 Wall St.",
@@ -5382,12 +5430,6 @@
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/oracle-is-down-47-in-2026-is-there-really-a-reasonable-chance-oracle-goes-bankrupt?ref=yahoofinance&tlnk=yf-261126-97j6xfvm",
           "sentiment": 0.31
-        },
-        {
-          "title": "How Will Oracle's Heavy AI Spending Shape the Stock's Cash Flow Trend?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/oracles-heavy-ai-spending-shape-134100910.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -5418,14 +5460,26 @@
       "dividendYield": 0.0,
       "marketCap": 2643055345664,
       "score": 4.3,
-      "newsSentiment": 0.42,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.08,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
-          "title": "Walmart, Amazon Face Surprising Shopping Shift",
+          "title": "Meta Platforms Stocks Jump 3.4% on Reported Amazon Talks Over Muse AI Agent",
           "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-amazon-face-surprising-shopping-160813140.html",
-          "sentiment": 0.42
+          "link": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-stocks-jump-3-172338883.html",
+          "sentiment": 0.18
+        },
+        {
+          "title": "Amazon Stocks Fall 3.12% as Bernstein Flags a 16% Drop in Cloud Web Traffic",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-fall-3-12-171531523.html",
+          "sentiment": -0.1
+        },
+        {
+          "title": "Amazon Has 59 Buy Ratings and Not a Single Sell. Here\u2019s Where its Headed",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/26/amazon-has-59-buy-ratings-and-not-a-single-sell-heres-where-its-headed/",
+          "sentiment": 0.18
         }
       ],
       "valuationLabel": "Cheap",
@@ -5548,9 +5602,15 @@
       "dividendYield": 0.0,
       "marketCap": 243956826112,
       "score": 2.8,
-      "newsSentiment": 0.0,
+      "newsSentiment": 0.14,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "NFL's Thanksgiving Boom Raises Stakes for Disney, Netflix",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/media-advertising/articles/nfls-thanksgiving-boom-raises-stakes-174228885.html",
+          "sentiment": 0.42
+        },
         {
           "title": "Netflix Stock Is Down 36% in 2026. Can Its Disney Partnership Make It a Buy Again?",
           "publisher": "24/7 Wall St.",
@@ -5561,12 +5621,6 @@
           "title": "Netflix vs. Apple: Which Streaming Stock Has an Edge Right Now?",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-vs-apple-streaming-stock-142100099.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Netflix Stock and Higher Content Spend: Can Margins Hold Firm in 2027?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-higher-content-spend-141100397.html",
           "sentiment": 0.0
         }
       ],
@@ -5842,9 +5896,15 @@
       "dividendYield": 1.1,
       "marketCap": 1775537094656,
       "score": 2.8,
-      "newsSentiment": -0.25,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.26,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "TSMC (TSM) Upgraded to Strong Buy: Here's Why",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tsmc-tsm-upgraded-strong-buy-160004326.html",
+          "sentiment": 0.78
+        },
         {
           "title": "Taiwan Semiconductor Manufacturing (TSM) May Make Its $22.6 Billion Texas Plant Conditional",
           "publisher": "Simply Wall St.",
@@ -5856,12 +5916,6 @@
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-taiwan-semiconductor-110318756.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "Taiwan shares tumble 4.8% as AI chip stocks slump",
-          "publisher": "IntelliNews",
-          "link": "http://www.intellinews.com/taiwan-shares-tumble-4-8-as-ai-chip-stocks-slump-488520/",
-          "sentiment": -0.74
         }
       ],
       "valuationLabel": "Cheap",
@@ -5892,26 +5946,26 @@
       "dividendYield": 0.85,
       "marketCap": 188874522624,
       "score": 3.5,
-      "newsSentiment": -0.3,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.16,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Dell Is No Longer the Company You Originally Bought. Is That a Reason to Buy More Stock in 2027?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/26/dell-is-no-longer-the-company-you-originally-bought-is-that-a-reason-to-buy-more-stock-in-2027/",
+          "sentiment": -0.3
+        },
+        {
+          "title": "DELL's AI Server Sales Surge: Can the Growth Momentum Continue?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/technology/ai/articles/dells-ai-server-sales-surge-160100190.html",
+          "sentiment": 0.77
+        },
         {
           "title": "Dell\u2019s $132B Backlog Turns 2027 Into a Pure Multiple-Expansion Trade Toward $500",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/26/dells-132b-backlog-turns-2027-into-a-pure-multiple-expansion-trade-toward-500/",
           "sentiment": 0.0
-        },
-        {
-          "title": "Dell\u2019s Jeff Clarke: Dell Is \u201cNow a Different Company.\u201d A $132 Billion Backlog Backs Him Up",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/dells-jeff-clarke-dell-is-now-a-different-company-a-132-billion-backlog-backs-him-up?ref=yahoofinance&tlnk=yf-261126-27hg7x9w",
-          "sentiment": -0.05
-        },
-        {
-          "title": "DELL Stock Heads For Worst Month Since 2021: Morningstar Sees Risk Ahead For Dell Despite AI-Led Earnings Beat",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/dell-stock-heads-for-worst-month-since-2021-morningstar-sees-risk-ahead-for-dell-despite-ai-led-earnings-beat/cNbx0U7R9Zo",
-          "sentiment": -0.86
         }
       ],
       "valuationLabel": "Cheap",
@@ -6254,9 +6308,15 @@
       "dividendYield": 0.18,
       "marketCap": 117806342144,
       "score": 1.6,
-      "newsSentiment": 0.16,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Marvell Options Price In 16% Earnings-Day Stock Swing",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/options/articles/marvell-options-price-16-earnings-174309753.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Marvell Reports Tuesday. How Often Has It Dropped 10%?",
           "publisher": "Trefis",
@@ -6268,12 +6328,6 @@
           "publisher": "Trefis",
           "link": "https://www.trefis.com/stock/avgo/articles/629176/what-s-happening-to-marvell-s-cash-gap-with-broadcom/2026-11-26",
           "sentiment": 0.0
-        },
-        {
-          "title": "Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-inc-mrvl-attracting-130006516.html",
-          "sentiment": 0.48
         }
       ],
       "valuationLabel": "Rich",
@@ -6548,9 +6602,15 @@
       "dividendYield": 0.1,
       "marketCap": 682379247616,
       "score": 2.8,
-      "newsSentiment": 0.2,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": 0.06,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Micron Stocks Fall 4.53% as TrendForce Cuts 2027 Memory Forecasts",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-fall-4-53-172600974.html",
+          "sentiment": -0.42
+        },
         {
           "title": "SK Hynix Just Revealed the Next Generation of DRAM. Can It Beat Micron in the Next Memory Supercycle?",
           "publisher": "24/7 Wall St.",
@@ -6561,12 +6621,6 @@
           "title": "Jim Cramer Says Micron Stock Is \u201cComically Cheap\u201d at About 3 Times Earnings",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/26/jim-cramer-says-micron-stock-is-comically-cheap-at-about-3-times-earnings/",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Is Micron Stock a Buy After HPE Said Memory Will Stay Scarce Into 2028?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/26/is-micron-stock-a-buy-after-hpe-said-memory-will-stay-scarce-into-2028/",
           "sentiment": 0.0
         }
       ],
@@ -6598,9 +6652,15 @@
       "dividendYield": 0.0,
       "marketCap": 1502601543680,
       "score": 3.6,
-      "newsSentiment": 0.37,
+      "newsSentiment": 0.22,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Tesla: A SpaceX Merger Could Turn $5,000 Into $10,000",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-merger-could-turn-174606474.html",
+          "sentiment": 0.0
+        },
         {
           "title": "XPeng Raises Stakes for Tesla Stock Investors' Big Growth Bet",
           "publisher": "GuruFocus.com",
@@ -6612,12 +6672,6 @@
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/technology/ai/articles/teslas-self-driving-expansion-europe-134400727.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "JPMorgan Says S&P Could Waive Its Rules for a Tesla-SpaceX Merger. That\u2019s Good News for SpaceX Holders",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/jpmorgan-says-sp-could-waive-its-rules-for-a-tesla-spacex-merger-thats-good-news-for-spacex-holders?ref=yahoofinance&tlnk=yf-261126-gpc9wr29",
-          "sentiment": 0.44
         }
       ],
       "valuationLabel": "Rich",
@@ -6648,7 +6702,7 @@
       "dividendYield": 0.0,
       "marketCap": 1730770894848,
       "score": 2.6,
-      "newsSentiment": 0.32,
+      "newsSentiment": 0.3,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -6658,16 +6712,16 @@
           "sentiment": 0.6
         },
         {
-          "title": "Elon Musk says he\u2019ll gift every US kid 1 of his own SpaceX shares, plus 1 from SpaceX \u2014 but there\u2019s a catch to claim",
-          "publisher": "Moneywise",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-ll-gift-164000030.html",
-          "sentiment": 0.37
+          "title": "Tesla: A SpaceX Merger Could Turn $5,000 Into $10,000",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-merger-could-turn-174606474.html",
+          "sentiment": 0.0
         },
         {
-          "title": "Musk makes $18 billion SpaceX stock pledge for every kid in America",
-          "publisher": "Axios",
-          "link": "https://www.axios.com/2026/11/26/musk-spacex-shares-trump-accounts#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI",
-          "sentiment": 0.0
+          "title": "SpaceX President Joins Musk in $18 billion Share Donation to Trump Accounts",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-president-joins-musk-18-170943473.html",
+          "sentiment": 0.3
         }
       ],
       "valuationLabel": "Rich",
@@ -6994,15 +7048,15 @@
           "sentiment": 0.23
         },
         {
-          "title": "Lilly, Novo Supplier Bachem Hit by Share Drop After Growth Plans Disappoint",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/business/earnings/lilly-novo-supplier-bachem-hit-by-share-drop-after-growth-plans-disappoint-d3bcf6fa",
+          "title": "Can Zenagamtide Bolster NVO's Next-Generation Obesity Drug Pipeline?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/healthcare/articles/zenagamtide-bolster-nvos-next-generation-161100298.html",
           "sentiment": 0.0
         },
         {
           "title": "Lilly, Novo Supplier Bachem Hit by Share Drop After Growth Plans Disappoint",
           "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/business/earnings/lilly-novo-supplier-bachem-hit-by-share-drop-after-growth-plans-disappoint-d3bcf6fa?siteid=yhoof2&yptr=yahoo",
+          "link": "https://www.wsj.com/business/earnings/lilly-novo-supplier-bachem-hit-by-share-drop-after-growth-plans-disappoint-d3bcf6fa",
           "sentiment": 0.0
         }
       ],
@@ -7212,16 +7266,9 @@
       "dividendYield": 3.05,
       "marketCap": 293284347904,
       "score": 5.1,
-      "newsSentiment": 0.56,
-      "newsSentimentLabel": "Positive",
-      "newsHeadlines": [
-        {
-          "title": "Novartis (SWX:NOVN) Posted Positive Phase III ORION 4 Results In ASCVD",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/healthcare/articles/novartis-swx-novn-posted-positive-021715771.html",
-          "sentiment": 0.56
-        }
-      ],
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
+      "newsHeadlines": [],
       "valuationLabel": "Fair",
       "peVsSectorPct": 13.4,
       "sectorMedianPE": 26.1,
@@ -7394,9 +7441,15 @@
       "dividendYield": 5.79,
       "marketCap": 104646295552,
       "score": 2.6,
-      "newsSentiment": 0.31,
-      "newsSentimentLabel": "Positive",
+      "newsSentiment": -0.03,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Update: Market Chatter: Enbridge in Discussions to Sell Part of its Crude Oil Pipeline Network for CA$1.5 Billion",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/energy/articles/market-chatter-enbridge-discussions-sell-170615405.html",
+          "sentiment": -0.57
+        },
         {
           "title": "Enbridge Inc (ENB) is Attracting Investor Attention: Here is What You Should Know",
           "publisher": "Zacks",
@@ -7408,12 +7461,6 @@
           "publisher": "Oilprice.com",
           "link": "https://finance.yahoo.com/energy/articles/enbridge-eyes-1-billion-pipeline-064500452.html",
           "sentiment": 0.0
-        },
-        {
-          "title": "What Makes Enbridge (ENB) Attractive Following the US Midterms?",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/energy/articles/makes-enbridge-enb-attractive-following-203720343.html",
-          "sentiment": 0.44
         }
       ],
       "valuationLabel": "Rich",
@@ -7775,14 +7822,20 @@
       "dividendYield": 6.23,
       "marketCap": 121304170496,
       "score": 2.8,
-      "newsSentiment": -0.73,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": -0.08,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Should Rio Tinto Group (LSE:RIO) Investors Worry About This Discrimination Lawsuit?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/rio-tinto-group-lse-rio-101020858.html",
           "sentiment": -0.73
+        },
+        {
+          "title": "Rio Tinto (LSE:RIO) Stock Fair Value Edges Higher After Mixed Analyst Target Changes",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/rio-tinto-lse-rio-stock-211123245.html",
+          "sentiment": 0.57
         }
       ],
       "valuationLabel": "Cheap",
@@ -7907,9 +7960,15 @@
       "dividendYield": 2.44,
       "marketCap": 279504781312,
       "score": 3.2,
-      "newsSentiment": 0.37,
+      "newsSentiment": 0.59,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "HSBC Spots 3 Big Reasons Stocks Could Soar in 2027",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/hsbc-spots-3-big-reasons-173902874.html",
+          "sentiment": 0.64
+        },
         {
           "title": "Why HSBC Thinks Stocks Are in a Sweet Spot",
           "publisher": "Barrons.com",
@@ -7921,12 +7980,6 @@
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/3-peaks-could-spark-rally-131337833.html",
           "sentiment": 0.66
-        },
-        {
-          "title": "HSBC Holdings (LSE:HSBA) Appoints Neha Ghai To Global Private Bank Role",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/hsbc-holdings-lse-hsba-appoints-161150554.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -8157,9 +8210,15 @@
       "dividendYield": 2.42,
       "marketCap": 137573613568,
       "score": 3.1,
-      "newsSentiment": -0.12,
+      "newsSentiment": -0.05,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "UBS Names Its Top Luxury Stock Picks. These Four Brands Stand Out for 2027",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-names-top-luxury-stock-173742701.html",
+          "sentiment": 0.2
+        },
         {
           "title": "UBS Group (SWX:UBSG) Faces 90% Foreign Capital Rule As It Weighs Swiss Base",
           "publisher": "Simply Wall St.",
@@ -8171,12 +8230,6 @@
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/micron-cant-stop-sliding-ubs-cut-its-target-but-still-sees-83-upside?ref=yahoofinance&tlnk=yf-261126-5mxg7gm6",
           "sentiment": -0.36
-        },
-        {
-          "title": "UBS\u2019s $425 Target Says Broadcom\u2019s Selloff Went Too Far",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/ubss-425-target-says-broadcoms-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261126-xrf8pwvw",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Fair",
@@ -8430,7 +8483,7 @@
     "costPerContract": 898.0
   },
   "market": {
-    "asOf": "2026-11-26T17:07:03.565019+00:00",
+    "asOf": "2026-11-26T18:08:04.475292+00:00",
     "gauges": [
       {
         "key": "qqq",
