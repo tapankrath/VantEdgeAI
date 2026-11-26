@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T15:07:25.847768+00:00",
+  "generated_at": "2026-11-26T16:07:53.473650+00:00",
   "source": "yfinance (unofficial, free, EOD)",
   "trades": [
     {
@@ -72,26 +72,26 @@
         "expiryOI": 35324
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.17,
+      "newsSentiment": 0.28,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "If You Invest $1,000 in Apple Today, Here\u2019s What It Could Be Worth by 2029",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/26/if-you-invest-1000-in-apple-today-heres-what-it-could-be-worth-by-2029/",
+          "sentiment": 0.23
+        },
+        {
+          "title": "Netflix vs. Apple: Which Streaming Stock Has an Edge Right Now?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-vs-apple-streaming-stock-142100099.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Apple Pulls Popular AI App Over Alarming Safety Concerns",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/apple-pulls-popular-ai-app-141351113.html",
           "sentiment": 0.62
-        },
-        {
-          "title": "Hold $500,000 of Apple in an IRA and Your Kids Inherit a Tax Bill on Every Dollar. Hold the Same Shares in a Brokerage Account and They Can Sell the Day After You Die and Owe Nothing",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/personal-finance/2026/11/26/hold-500000-of-apple-in-an-ira-and-your-kids-inherit-a-tax-bill-on-every-dollar-hold-the-same-shares-in-a-brokerage-account-and-they-can-sell-the-day-after-you-die-and-owe-nothing/",
-          "sentiment": -0.4
-        },
-        {
-          "title": "An Apple Executive Just Filed to Sell $19 Million of Apple Stock With Shares a Hair Below Their Record",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/26/an-apple-executive-just-filed-to-sell-19-million-of-apple-stock-with-shares-a-hair-below-their-record/",
-          "sentiment": 0.3
         }
       ],
       "volRegime": "Fair",
@@ -285,8 +285,8 @@
         "expiryOI": 190761
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.18,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Will Jensen Huang's second act as Nvidia CEO be different?",
@@ -295,16 +295,16 @@
           "sentiment": 0.0
         },
         {
-          "title": "President Donald Trump Considers Jensen Huang's Return to Nvidia a \"Great Decision,\" but It Doesn't Resolve a Critical Problem",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/26/donald-trump-considers-jensen-huang-return-nvidia-great-decision-doesnt-resolve-critical-problem/",
-          "sentiment": -0.33
+          "title": "S&P\u2019s NVIDIA Warning is Backward Looking Governance Theater That Gives Everyone an Opportunity to Buy at $150",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/26/sps-nvidia-warning-is-backward-looking-governance-theater-that-gives-everyone-an-opportunity-to-buy-at-150/",
+          "sentiment": 0.0
         },
         {
-          "title": "Nvidia\u2019s Reliance on Huang Could Now Hurt Its Credit Rating",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/26/nvidias-reliance-on-huang-could-now-hurt-its-credit-rating/",
-          "sentiment": -0.2
+          "title": "Nvidia halts chip shipments to south-east Asia",
+          "publisher": "Financial Times",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-halts-chip-shipments-south-050019884.html",
+          "sentiment": 0.0
         }
       ],
       "volRegime": "Cheap",
@@ -414,12 +414,18 @@
             "oi": 665
           }
         ],
-        "expiryOI": 533531
+        "expiryOI": 533778
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "CoreWeave Can Now Borrow at 7% With Meta\u2019s Name on the Loan",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/26/coreweave-can-now-borrow-at-7-with-metas-name-on-the-loan/",
+          "sentiment": 0.0
+        },
         {
           "title": "ETFs Are Net Sellers of Meta Platforms (META) on Tuesday",
           "publisher": "GuruFocus.com",
@@ -458,7 +464,7 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 16.9,
+      "peVsSectorPct": 20.9,
       "sectorMedianPE": 17.2,
       "sectorPeerCount": 3,
       "sector": "Communication Services"
@@ -643,26 +649,26 @@
         "expiryOI": 7884
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.24,
+      "newsSentiment": -0.27,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "JPMorgan Sees $450 Billion AI Debt Wave as Credit Risks Mount",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450-billion-ai-154741192.html",
+          "sentiment": -0.25
+        },
+        {
+          "title": "JPMorgan Rethinks UK Investments: Will Higher Taxes Hurt Growth?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-rethinks-uk-investments-higher-140500776.html",
+          "sentiment": -0.2
+        },
         {
           "title": "What Is JPMorgan Chase (JPM) Saying With Its $450 Billion AI Debt Call?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-chase-jpm-saying-450-080838063.html",
           "sentiment": -0.36
-        },
-        {
-          "title": "Market Chatter: JPMorgan Projects $450 Billion in AI High-Grade Debt Issuance for 2027",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-jpmorgan-projects-450-222027435.html",
-          "sentiment": -0.36
-        },
-        {
-          "title": "JPMorgan sees $450B in AI bond issuance in 2027",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450b-ai-bond-215824242.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -1194,25 +1200,25 @@
         "expiryOI": 7373
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.13,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Netflix vs. Apple: Which Streaming Stock Has an Edge Right Now?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-vs-apple-streaming-stock-142100099.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Netflix Stock and Higher Content Spend: Can Margins Hold Firm in 2027?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-higher-content-spend-141100397.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Netflix (NFLX) Sees $21.5 Million in Net ETF Buying on Nov. 24",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-nflx-sees-21-5-110142773.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Netflix Has 2 Growth Engines That Could Drive Its Stock Higher in 2027",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/25/netflix-has-2-growth-engines-that-could-drive-its-stock-higher-in-2027/",
-          "sentiment": 0.38
-        },
-        {
-          "title": "Netflix Stock in Focus After $380 Million Radford Studio Center Purchase",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-focus-380-million-170053613.html",
           "sentiment": 0.0
         }
       ],
@@ -2331,9 +2337,15 @@
         "expiryOI": 97780
       },
       "potIsProfitProb": true,
-      "newsSentiment": 0.51,
+      "newsSentiment": 0.26,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "$2,000,000 In QQQ At The 2000 Peak Ran Out",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/stock/qqq/articles/629194/2-000-000-in-qqq-at-the-2000-peak-ran-out/2026-11-26",
+          "sentiment": 0.0
+        },
         {
           "title": "Invesco QQQ Trust (QQQ) Buys $187.4 Million More Apple on Tuesday",
           "publisher": "GuruFocus.com",
@@ -2543,7 +2555,7 @@
             "oi": 210
           }
         ],
-        "expiryOI": 69752
+        "expiryOI": 69787
       },
       "potIsProfitProb": false,
       "newsSentiment": 0.22,
@@ -2764,22 +2776,22 @@
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
+          "title": "Marvell Reports Tuesday. How Often Has It Dropped 10%?",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/stock/mrvl/articles/629177/marvell-reports-tuesday-how-often-has-it-dropped-10/2026-11-26",
+          "sentiment": 0.0
+        },
+        {
+          "title": "What's Happening To Marvell's Cash Gap With Broadcom",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/stock/avgo/articles/629176/what-s-happening-to-marvell-s-cash-gap-with-broadcom/2026-11-26",
+          "sentiment": 0.0
+        },
+        {
           "title": "Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-inc-mrvl-attracting-130006516.html",
           "sentiment": 0.48
-        },
-        {
-          "title": "Analysts Expect More From Marvell Than Marvell Does",
-          "publisher": "Trefis",
-          "link": "https://www.trefis.com/stock/mrvl/articles/628747/analysts-expect-more-from-marvell-than-marvell-does/2026-11-25",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Marvell Technology Stocks Fall 8.47% as Data Center Exposure Bites",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-stocks-fall-8-175958573.html",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Cheap",
@@ -2873,7 +2885,7 @@
             "oi": 1983
           }
         ],
-        "expiryOI": 73678
+        "expiryOI": 73714
       },
       "potIsProfitProb": true,
       "newsSentiment": 0.14,
@@ -2992,9 +3004,15 @@
         "expiryOI": 274750
       },
       "potIsProfitProb": false,
-      "newsSentiment": -0.87,
+      "newsSentiment": -0.18,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Uber\u2019s Driverless Lucid Tests Begin. Lucid\u2019s Robotaxi Order Now Tops Two Years of Deliveries",
+          "publisher": "TIKR",
+          "link": "https://www.tikr.com/blog/ubers-driverless-lucid-tests-begin-lucids-robotaxi-order-now-tops-two-years-of-deliveries?ref=yahoofinance&tlnk=yf-261126-xq9pc8w2",
+          "sentiment": 0.51
+        },
         {
           "title": "Anthony Scaramucci Told Uber\u2019s Founders to \u2018Get The Hell Out of My Office\u2019 Before Passing On $500,000 Investment: \u2018I Totally Missed It\u2019",
           "publisher": "Benzinga",
@@ -3216,6 +3234,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "What's Happening To Marvell's Cash Gap With Broadcom",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/stock/avgo/articles/629176/what-s-happening-to-marvell-s-cash-gap-with-broadcom/2026-11-26",
+          "sentiment": 0.0
+        },
+        {
           "title": "Heading Into FY27: How to Trade Broadcom\u2019s ~$115B AI Target Against Nvidia\u2019s Multiple Reset",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/26/heading-into-fy27-how-to-trade-broadcoms-115b-ai-target-against-nvidias-multiple-reset/",
@@ -3226,12 +3250,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/26/tepper-trims-alphabet-by-46-and-dumps-broadcom-amd-while-backing-micron-and-oracle/",
           "sentiment": -0.38
-        },
-        {
-          "title": "UBS\u2019s $425 Target Says Broadcom\u2019s Selloff Went Too Far",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/ubss-425-target-says-broadcoms-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261126-xrf8pwvw",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Fair",
@@ -3460,9 +3478,15 @@
         "expiryOI": 337856
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.13,
-      "newsSentimentLabel": "Neutral",
+      "newsSentiment": 0.2,
+      "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Anthropic Is Down 7% Since Its IPO. History Says a $5,000 Investment Could Be Worth This Much in a Year.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/26/anthropic-is-down-7-since-its-ipo-history-says-a-usd5-000-investment-could-be-worth-this-much-in-a-year/",
+          "sentiment": 0.23
+        },
         {
           "title": "Anthropic Signed a $19 Billion Lease. Is TeraWulf (WULF) Ready?",
           "publisher": "Insider Monkey",
@@ -3474,12 +3498,6 @@
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/terawulf-wulf-justify-price-following-141246465.html",
           "sentiment": 0.03
-        },
-        {
-          "title": "Is Anthropic Joining the S&P 500? Here's What Investors Need to Know.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/26/is-anthropic-joining-sp-500-what-investors-need-to-know/",
-          "sentiment": 0.0
         }
       ],
       "volRegime": "Unknown",
@@ -3837,7 +3855,7 @@
         "expiryOI": 207054
       },
       "potIsProfitProb": false,
-      "newsSentiment": 0.54,
+      "newsSentiment": 0.58,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -3847,16 +3865,16 @@
           "sentiment": 0.6
         },
         {
-          "title": "Elon Musk Says \u2018Multiplanetary\u2019 SpaceX Could Be Worth $118 Quintillion. Yes, Quintillion",
-          "publisher": "decrypt",
-          "link": "https://decrypt.co/384043/elon-musk-says-multiplanetary-spacex-could-be-worth-118-quintillion-yes-quintillion",
-          "sentiment": 0.56
+          "title": "SpaceX Just Slid 11% in a Week. Can Elon Musk\u2019s FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/26/spacex-just-slid-11-in-a-week-can-elon-musks-fcc-win-for-1-million-satellites-get-spcx-stock-back-above-its-135-ipo-price/",
+          "sentiment": 0.59
         },
         {
-          "title": "SpaceX Gets the First U.S. Approval for Data Centers in Space",
+          "title": "AST SpaceMobile Is Still Down 64% in 2026. Can Insider Buying and a B. Riley Upgrade Get ASTS Stock Back to $40?",
           "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/26/spacex-gets-the-first-u-s-approval-for-data-centers-in-space/",
-          "sentiment": 0.48
+          "link": "https://247wallst.com/investing/2026/11/26/ast-spacemobile-is-still-down-64-in-2026-can-insider-buying-and-a-b-riley-upgrade-get-asts-stock-back-to-40/",
+          "sentiment": 0.54
         }
       ],
       "volRegime": "Fair",
@@ -4395,8 +4413,8 @@
       "breakevenHigh": null,
       "breakevenMovePct": null,
       "maxLoss": 590.0,
-      "pcOI": 1.83,
-      "pcVol": 1.29,
+      "pcOI": 1.82,
+      "pcVol": 1.28,
       "debitStrategy": true,
       "liquidity": {
         "minOI": 414,
@@ -4426,7 +4444,7 @@
             "oi": 414
           }
         ],
-        "expiryOI": 23257
+        "expiryOI": 23324
       },
       "potIsProfitProb": true,
       "newsSentiment": -0.03,
@@ -4542,7 +4560,7 @@
             "oi": 548
           }
         ],
-        "expiryOI": 16107
+        "expiryOI": 16191
       },
       "potIsProfitProb": true,
       "newsSentiment": 0.19,
@@ -4652,7 +4670,7 @@
             "oi": 637
           }
         ],
-        "expiryOI": 12558
+        "expiryOI": 12560
       },
       "potIsProfitProb": true,
       "newsSentiment": 0.31,
@@ -4768,7 +4786,7 @@
             "oi": 1871
           }
         ],
-        "expiryOI": 32575
+        "expiryOI": 32578
       },
       "potIsProfitProb": true,
       "newsSentiment": 0.1,
@@ -4991,9 +5009,15 @@
         "expiryOI": 9675
       },
       "potIsProfitProb": true,
-      "newsSentiment": -0.05,
+      "newsSentiment": -0.12,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "UBS Group (SWX:UBSG) Faces 90% Foreign Capital Rule As It Weighs Swiss Base",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/economy/policy/articles/ubs-group-swx-ubsg-faces-151521840.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Micron Can\u2019t Stop Sliding. UBS Cut Its Target, but Still Sees 83% Upside",
           "publisher": "TIKR",
@@ -5005,12 +5029,6 @@
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/ubss-425-target-says-broadcoms-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261126-xrf8pwvw",
           "sentiment": 0.0
-        },
-        {
-          "title": "UBS names its top European luxury stock picks for 2027",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-names-top-european-luxury-075240383.html",
-          "sentiment": 0.2
         }
       ],
       "volRegime": "Cheap",
@@ -5062,26 +5080,26 @@
       "dividendYield": 0.3,
       "marketCap": 5167353167872,
       "score": 7.6,
-      "newsSentiment": 0.17,
+      "newsSentiment": 0.28,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "If You Invest $1,000 in Apple Today, Here\u2019s What It Could Be Worth by 2029",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/26/if-you-invest-1000-in-apple-today-heres-what-it-could-be-worth-by-2029/",
+          "sentiment": 0.23
+        },
+        {
+          "title": "Netflix vs. Apple: Which Streaming Stock Has an Edge Right Now?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-vs-apple-streaming-stock-142100099.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Apple Pulls Popular AI App Over Alarming Safety Concerns",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/apple-pulls-popular-ai-app-141351113.html",
           "sentiment": 0.62
-        },
-        {
-          "title": "Hold $500,000 of Apple in an IRA and Your Kids Inherit a Tax Bill on Every Dollar. Hold the Same Shares in a Brokerage Account and They Can Sell the Day After You Die and Owe Nothing",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/personal-finance/2026/11/26/hold-500000-of-apple-in-an-ira-and-your-kids-inherit-a-tax-bill-on-every-dollar-hold-the-same-shares-in-a-brokerage-account-and-they-can-sell-the-day-after-you-die-and-owe-nothing/",
-          "sentiment": -0.4
-        },
-        {
-          "title": "An Apple Executive Just Filed to Sell $19 Million of Apple Stock With Shares a Hair Below Their Record",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/26/an-apple-executive-just-filed-to-sell-19-million-of-apple-stock-with-shares-a-hair-below-their-record/",
-          "sentiment": 0.3
         }
       ],
       "valuationLabel": "Rich",
@@ -5143,8 +5161,8 @@
       "dividendYield": 0.67,
       "marketCap": 3605147156480,
       "score": 2.8,
-      "newsSentiment": -0.18,
-      "newsSentimentLabel": "Negative",
+      "newsSentiment": 0.0,
+      "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
           "title": "Will Jensen Huang's second act as Nvidia CEO be different?",
@@ -5153,16 +5171,16 @@
           "sentiment": 0.0
         },
         {
-          "title": "President Donald Trump Considers Jensen Huang's Return to Nvidia a \"Great Decision,\" but It Doesn't Resolve a Critical Problem",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/26/donald-trump-considers-jensen-huang-return-nvidia-great-decision-doesnt-resolve-critical-problem/",
-          "sentiment": -0.33
+          "title": "S&P\u2019s NVIDIA Warning is Backward Looking Governance Theater That Gives Everyone an Opportunity to Buy at $150",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/26/sps-nvidia-warning-is-backward-looking-governance-theater-that-gives-everyone-an-opportunity-to-buy-at-150/",
+          "sentiment": 0.0
         },
         {
-          "title": "Nvidia\u2019s Reliance on Huang Could Now Hurt Its Credit Rating",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/26/nvidias-reliance-on-huang-could-now-hurt-its-credit-rating/",
-          "sentiment": -0.2
+          "title": "Nvidia halts chip shipments to south-east Asia",
+          "publisher": "Financial Times",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-halts-chip-shipments-south-050019884.html",
+          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -5186,7 +5204,7 @@
       "chg6m": -3.8,
       "chg1y": -3.4,
       "volRatio": 0.87,
-      "peRatio": 20.1,
+      "peRatio": 20.8,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
       "pegRatio": 1.28,
@@ -5197,6 +5215,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "CoreWeave Can Now Borrow at 7% With Meta\u2019s Name on the Loan",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/26/coreweave-can-now-borrow-at-7-with-metas-name-on-the-loan/",
+          "sentiment": 0.0
+        },
+        {
           "title": "ETFs Are Net Sellers of Meta Platforms (META) on Tuesday",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-meta-platforms-110247680.html",
@@ -5204,7 +5228,7 @@
         }
       ],
       "valuationLabel": "Fair",
-      "peVsSectorPct": 16.9,
+      "peVsSectorPct": 20.9,
       "sectorMedianPE": 17.2,
       "sectorPeerCount": 3
     },
@@ -5275,26 +5299,26 @@
       "dividendYield": 2.08,
       "marketCap": 841137782784,
       "score": 4.3,
-      "newsSentiment": -0.24,
+      "newsSentiment": -0.27,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "JPMorgan Sees $450 Billion AI Debt Wave as Credit Risks Mount",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450-billion-ai-154741192.html",
+          "sentiment": -0.25
+        },
+        {
+          "title": "JPMorgan Rethinks UK Investments: Will Higher Taxes Hurt Growth?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-rethinks-uk-investments-higher-140500776.html",
+          "sentiment": -0.2
+        },
         {
           "title": "What Is JPMorgan Chase (JPM) Saying With Its $450 Billion AI Debt Call?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-chase-jpm-saying-450-080838063.html",
           "sentiment": -0.36
-        },
-        {
-          "title": "Market Chatter: JPMorgan Projects $450 Billion in AI High-Grade Debt Issuance for 2027",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-jpmorgan-projects-450-222027435.html",
-          "sentiment": -0.36
-        },
-        {
-          "title": "JPMorgan sees $450B in AI bond issuance in 2027",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-sees-450b-ai-bond-215824242.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Cheap",
@@ -5498,25 +5522,25 @@
       "dividendYield": 0.0,
       "marketCap": 243956826112,
       "score": 2.8,
-      "newsSentiment": 0.13,
+      "newsSentiment": 0.0,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "Netflix vs. Apple: Which Streaming Stock Has an Edge Right Now?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-vs-apple-streaming-stock-142100099.html",
+          "sentiment": 0.0
+        },
+        {
+          "title": "Netflix Stock and Higher Content Spend: Can Margins Hold Firm in 2027?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-higher-content-spend-141100397.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Netflix (NFLX) Sees $21.5 Million in Net ETF Buying on Nov. 24",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-nflx-sees-21-5-110142773.html",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Netflix Has 2 Growth Engines That Could Drive Its Stock Higher in 2027",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/25/netflix-has-2-growth-engines-that-could-drive-its-stock-higher-in-2027/",
-          "sentiment": 0.38
-        },
-        {
-          "title": "Netflix Stock in Focus After $380 Million Radford Studio Center Purchase",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-focus-380-million-170053613.html",
           "sentiment": 0.0
         }
       ],
@@ -6026,9 +6050,15 @@
       "dividendYield": 0.45,
       "marketCap": null,
       "score": 2.5,
-      "newsSentiment": 0.51,
+      "newsSentiment": 0.26,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "$2,000,000 In QQQ At The 2000 Peak Ran Out",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/stock/qqq/articles/629194/2-000-000-in-qqq-at-the-2000-peak-ran-out/2026-11-26",
+          "sentiment": 0.0
+        },
         {
           "title": "Invesco QQQ Trust (QQQ) Buys $187.4 Million More Apple on Tuesday",
           "publisher": "GuruFocus.com",
@@ -6196,22 +6226,22 @@
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
+          "title": "Marvell Reports Tuesday. How Often Has It Dropped 10%?",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/stock/mrvl/articles/629177/marvell-reports-tuesday-how-often-has-it-dropped-10/2026-11-26",
+          "sentiment": 0.0
+        },
+        {
+          "title": "What's Happening To Marvell's Cash Gap With Broadcom",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/stock/avgo/articles/629176/what-s-happening-to-marvell-s-cash-gap-with-broadcom/2026-11-26",
+          "sentiment": 0.0
+        },
+        {
           "title": "Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-inc-mrvl-attracting-130006516.html",
           "sentiment": 0.48
-        },
-        {
-          "title": "Analysts Expect More From Marvell Than Marvell Does",
-          "publisher": "Trefis",
-          "link": "https://www.trefis.com/stock/mrvl/articles/628747/analysts-expect-more-from-marvell-than-marvell-does/2026-11-25",
-          "sentiment": 0.0
-        },
-        {
-          "title": "Marvell Technology Stocks Fall 8.47% as Data Center Exposure Bites",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-stocks-fall-8-175958573.html",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
@@ -6292,9 +6322,15 @@
       "dividendYield": 0.0,
       "marketCap": 135479934976,
       "score": 3.0,
-      "newsSentiment": -0.87,
+      "newsSentiment": -0.18,
       "newsSentimentLabel": "Negative",
       "newsHeadlines": [
+        {
+          "title": "Uber\u2019s Driverless Lucid Tests Begin. Lucid\u2019s Robotaxi Order Now Tops Two Years of Deliveries",
+          "publisher": "TIKR",
+          "link": "https://www.tikr.com/blog/ubers-driverless-lucid-tests-begin-lucids-robotaxi-order-now-tops-two-years-of-deliveries?ref=yahoofinance&tlnk=yf-261126-xq9pc8w2",
+          "sentiment": 0.51
+        },
         {
           "title": "Anthony Scaramucci Told Uber\u2019s Founders to \u2018Get The Hell Out of My Office\u2019 Before Passing On $500,000 Investment: \u2018I Totally Missed It\u2019",
           "publisher": "Benzinga",
@@ -6384,6 +6420,12 @@
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
         {
+          "title": "What's Happening To Marvell's Cash Gap With Broadcom",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/stock/avgo/articles/629176/what-s-happening-to-marvell-s-cash-gap-with-broadcom/2026-11-26",
+          "sentiment": 0.0
+        },
+        {
           "title": "Heading Into FY27: How to Trade Broadcom\u2019s ~$115B AI Target Against Nvidia\u2019s Multiple Reset",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/26/heading-into-fy27-how-to-trade-broadcoms-115b-ai-target-against-nvidias-multiple-reset/",
@@ -6394,12 +6436,6 @@
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/26/tepper-trims-alphabet-by-46-and-dumps-broadcom-amd-while-backing-micron-and-oracle/",
           "sentiment": -0.38
-        },
-        {
-          "title": "UBS\u2019s $425 Target Says Broadcom\u2019s Selloff Went Too Far",
-          "publisher": "TIKR",
-          "link": "https://www.tikr.com/blog/ubss-425-target-says-broadcoms-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261126-xrf8pwvw",
-          "sentiment": 0.0
         }
       ],
       "valuationLabel": "Rich",
@@ -6574,7 +6610,7 @@
       "dividendYield": 0.0,
       "marketCap": 1730770894848,
       "score": 2.6,
-      "newsSentiment": 0.54,
+      "newsSentiment": 0.58,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
         {
@@ -6584,16 +6620,16 @@
           "sentiment": 0.6
         },
         {
-          "title": "Elon Musk Says \u2018Multiplanetary\u2019 SpaceX Could Be Worth $118 Quintillion. Yes, Quintillion",
-          "publisher": "decrypt",
-          "link": "https://decrypt.co/384043/elon-musk-says-multiplanetary-spacex-could-be-worth-118-quintillion-yes-quintillion",
-          "sentiment": 0.56
+          "title": "SpaceX Just Slid 11% in a Week. Can Elon Musk\u2019s FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/11/26/spacex-just-slid-11-in-a-week-can-elon-musks-fcc-win-for-1-million-satellites-get-spcx-stock-back-above-its-135-ipo-price/",
+          "sentiment": 0.59
         },
         {
-          "title": "SpaceX Gets the First U.S. Approval for Data Centers in Space",
+          "title": "AST SpaceMobile Is Still Down 64% in 2026. Can Insider Buying and a B. Riley Upgrade Get ASTS Stock Back to $40?",
           "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/26/spacex-gets-the-first-u-s-approval-for-data-centers-in-space/",
-          "sentiment": 0.48
+          "link": "https://247wallst.com/investing/2026/11/26/ast-spacemobile-is-still-down-64-in-2026-can-insider-buying-and-a-b-riley-upgrade-get-asts-stock-back-to-40/",
+          "sentiment": 0.54
         }
       ],
       "valuationLabel": "Rich",
@@ -6757,7 +6793,7 @@
       "chg6m": 8.4,
       "chg1y": 10.6,
       "volRatio": 0.88,
-      "peRatio": 19.3,
+      "peRatio": 19.2,
       "sector": "Utilities",
       "industry": "Utilities - Regulated Electric",
       "pegRatio": 1.32,
@@ -7370,9 +7406,15 @@
       "dividendYield": 2.59,
       "marketCap": 262238699520,
       "score": 3.3,
-      "newsSentiment": 0.26,
+      "newsSentiment": 0.17,
       "newsSentimentLabel": "Positive",
       "newsHeadlines": [
+        {
+          "title": "Royal Bank (RY) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/royal-bank-ry-earnings-expected-140005592.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Royal Bank Of Canada And 2 Other Top Canadian Dividend Stocks",
           "publisher": "Simply Wall St.",
@@ -7869,7 +7911,7 @@
       "industry": "Banks - Diversified",
       "pegRatio": 11.38,
       "dividendYield": 3.85,
-      "marketCap": 102735175680,
+      "marketCap": 102564626432,
       "score": 3.7,
       "newsSentiment": 0.13,
       "newsSentimentLabel": "Neutral",
@@ -8071,9 +8113,15 @@
       "dividendYield": 2.42,
       "marketCap": 137573613568,
       "score": 3.1,
-      "newsSentiment": -0.05,
+      "newsSentiment": -0.12,
       "newsSentimentLabel": "Neutral",
       "newsHeadlines": [
+        {
+          "title": "UBS Group (SWX:UBSG) Faces 90% Foreign Capital Rule As It Weighs Swiss Base",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/economy/policy/articles/ubs-group-swx-ubsg-faces-151521840.html",
+          "sentiment": 0.0
+        },
         {
           "title": "Micron Can\u2019t Stop Sliding. UBS Cut Its Target, but Still Sees 83% Upside",
           "publisher": "TIKR",
@@ -8085,12 +8133,6 @@
           "publisher": "TIKR",
           "link": "https://www.tikr.com/blog/ubss-425-target-says-broadcoms-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261126-xrf8pwvw",
           "sentiment": 0.0
-        },
-        {
-          "title": "UBS names its top European luxury stock picks for 2027",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-names-top-european-luxury-075240383.html",
-          "sentiment": 0.2
         }
       ],
       "valuationLabel": "Fair",
@@ -8344,7 +8386,7 @@
     "costPerContract": 898.0
   },
   "market": {
-    "asOf": "2026-11-26T15:07:25.847754+00:00",
+    "asOf": "2026-11-26T16:07:53.473637+00:00",
     "gauges": [
       {
         "key": "qqq",
@@ -8377,9 +8419,9 @@
         "key": "vix",
         "label": "VIX",
         "symbol": "^VIX",
-        "value": 26.89,
-        "change": -1.4,
-        "changePct": -4.95,
+        "value": 26.7,
+        "change": -1.59,
+        "changePct": -5.62,
         "inverse": true
       }
     ]
